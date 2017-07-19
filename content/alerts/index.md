@@ -116,6 +116,10 @@ This alert is shown to the manager of a project if one of the following situatio
 
 Only active project must have a [job order]({{< relref "glossary/index.md#job-order" >}}).
 
+### Job Order used multiple times
+
+This alert shows that the Job Order of a Project is used multiple times by different Projects.
+
 ### Planning / Project End
 
 This alert is shown to the manager of a project for which are planned people somewhen after the project's end date.
