@@ -1,11 +1,9 @@
 ---
-date: '2017-05-24T12:01:45+02:00'
+date: 2017-05-24 12:01:45 +0200
 title: Reports
 weight: 60
 
 ---
-
-
 ## Overview
 
 All the data you insert in WETHOD are used to generate, weekly and automatically, a set of reports useful to monitoring the projects' progress.
@@ -92,7 +90,7 @@ The grey percentage under *margin* refers to the *revenues*.
 
 ### Timesheet / Project Status
 
-This is the only place in WETHOD where you can see the weekly details of a given project. Here you can quickly appreciate the relation between **worked hours**, **days left**(taken from the project status) and** **<span style="font-size: 1rem;">[</span><span style="font-size: 1rem;"><b>roadrunner index</b></span><span style="font-size: 1rem;">]({{&lt; relref "glossary/index.md</span><span style="font-size: 1rem;">#roadrunner-index-rri</span><span style="font-size: 1rem;">" &gt;}}).</span>
+This is the only place in WETHOD where you can see the weekly details of a given project. Here you can quickly appreciate the relation between **worked hours**, **days left**(taken from the project status) and **[roadrunner index]({{< relref "glossary/index.md #roadrunner-index-rri >}})**.
 
 When worked hours grows, days left must decrease. If this doesn't happen, you have a problem: your teammates are working on something which doesn't move forward.
 
