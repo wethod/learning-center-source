@@ -1,11 +1,9 @@
 ---
-date: '2016-03-12T20:08:11+01:00'
+date: 2016-03-12 20:08:11 +0100
 title: Planning
 weight: 40
 
 ---
-{{< img-center src="/uploads/2017/06/09/planning.png" >}}<span style="color: rgb(40, 40, 40); font-size: 2.1em; word-spacing: 0.5px;"><br></span>
-
 ## Overview
 
 The planning is useful to look at teammates availability, allocate them for projects and check that you respect the budget quota.
@@ -13,14 +11,14 @@ The planning is useful to look at teammates availability, allocate them for proj
 You can plan a person by half-days: we think it's not worth planning by more fine-grained amounts of time. If your tasks require less time, just group them!
 
 {{< note title="Note" >}}
-**<p>You cannot plan people for the current day: if you don't know what you have to do when you arrive at the office, how can you be productive?</p>**
-**<p>A project manager can plan other people on a project only if a budget exists for that project.</p>**
+
+**You cannot plan people for the current day: if you don't know what you have to do when you arrive at the office, how can you be productive?**
+
+**A project manager can plan other people on a project only if a budget exists for that project.**
+
 {{< /note >}}
 
-
 ## The Structure
-
-The main part of this section is a kind of calendar: on the top you have the days and on the left all your teammates are listed, to allocate a person you just need to click on the intersection between the day and the person name.
 
 On the top you have three buttons, from the left:
 
@@ -29,3 +27,7 @@ On the top you have three buttons, from the left:
 * The **filter people button** let you filter the teammates you want to see in the planning;
 
 * The **switch weeks button** let you travel in time, you can see future and past weeks.
+
+All your teammates are listed on the left, to allocate a person you just need to click on the intersection between the day and the person name.
+
+{{< img-center src="/uploads/2017/08/28/planning-allocate.gif">}}
