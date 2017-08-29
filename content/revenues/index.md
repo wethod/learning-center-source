@@ -4,8 +4,6 @@ title: Revenues
 weight: 91
 
 ---
-
-
 Revenue is the amount of money that a company actually receives during a specific year, it is calculated by multiplying the price at which goods or services are sold by the number of units or amount sold.
 
 In this section the projects of the Pipeline considering their probability and duration are listed showing the value they have per month.

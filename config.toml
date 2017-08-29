@@ -10,19 +10,18 @@ fractions = true
 plainIDAnchors = true
 smartDashes = true
 smartypants = true
-
 [[menu.economics]]
-name = "Marketing"
-url = "marketing/index/"
-weight = 95
+name = "Payroll"
+url = "payroll/index/"
+weight = 93
 [[menu.economics]]
 name = "G & A"
 url = "general-admin/index/"
 weight = 94
 [[menu.economics]]
-name = "Payroll"
-url = "payroll/index/"
-weight = 93
+name = "Marketing"
+url = "marketing/index/"
+weight = 95
 [[menu.economics]]
 name = "External Costs"
 url = "external-costs/index/"
@@ -35,7 +34,6 @@ weight = 91
 name = "Profit & Loss"
 url = "profit-loss/index/"
 weight = 90
-
 [[menu.main]]
 name = "Alerts"
 url = "alerts/index/"

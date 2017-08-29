@@ -4,8 +4,6 @@ title: External Costs
 weight: 92
 
 ---
-
-
 The External Costs are all the indirect costs that you have to consider in your business.
 
 In this section all the external costs of all the projects are listed per month and year.

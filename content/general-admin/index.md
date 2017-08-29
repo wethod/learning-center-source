@@ -4,8 +4,6 @@ title: G & A
 weight: 94
 
 ---
-
-
 In this section are listed all the administration’s costs of the projects per month.
 
 With administration costs we mean all the costs that your business can have that are related to the management and administration overall.
