@@ -4,7 +4,7 @@ title: Payroll
 weight: 93
 
 ---
-
+## Overview
 
 Payroll is the section where you can find the list of all your employees and their salaries.
 
@@ -19,4 +19,3 @@ Furthermore the **Placeholders** helps you to take into consideration salaries o
 ![](/uploads/2017/08/29/Payroll%2015.55.18.png)
 
 <span style="font-size: 1rem;"><br></span>
-
