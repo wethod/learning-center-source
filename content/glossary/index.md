@@ -19,7 +19,7 @@ Has an absolute project progress of: **( 200 - 40 ) / 200 * 100 = 80 % .**
 
 ### Bluesky
 
-It represents the value you are missing in order to reach an hypothetical value previously decided.
+It represents the value you think that you are missing in order to reach the hypothetical overall value.
 
 <span style="font-size: 1rem;">It is decided by the Owner or by the users that have the permissions.</span>
 
