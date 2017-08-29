@@ -1,5 +1,5 @@
 ---
-date: '2017-05-22T17:31:29+02:00'
+date: 2017-05-22 17:31:29 +0200
 title: Glossary
 weight: 200
 last: true

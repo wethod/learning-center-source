@@ -1,11 +1,9 @@
 ---
-date: '2017-05-24T12:06:54+02:00'
+date: 2017-05-24 12:06:54 +0200
 title: Finance
 weight: 70
 
 ---
-
-
 ## Orders
 
 In this section you can view all your orders and create new ones. Once you click on the "**Send**" button, an e-mail is sent to the address provided in the [Email Bot]({{< relref "settings/index.md#company" >}}) section.

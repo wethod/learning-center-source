@@ -4,8 +4,6 @@ title: Pipeline
 weight: 30
 
 ---
-
-
 ## Overview
 
 Everything starts from Pipeline, here is where opportunities and projects are listed, both of them are defined by a small amount of **significant information**:

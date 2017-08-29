@@ -10,6 +10,26 @@ fractions = true
 plainIDAnchors = true
 smartDashes = true
 smartypants = true
+[[menu.economics]]
+name = "Marketing"
+url = "marketing/index/"
+weight = 94
+[[menu.economics]]
+name = "G & A"
+url = "general-admin/index/"
+weight = 93
+[[menu.economics]]
+name = "External Costs"
+url = "external-costs/index/"
+weight = 92
+[[menu.economics]]
+name = "Revenues"
+url = "revenues/index/"
+weight = 91
+[[menu.economics]]
+name = "Profit & Loss"
+url = "profit-loss/index/"
+weight = 90
 [[menu.main]]
 name = "Alerts"
 url = "alerts/index/"
@@ -50,28 +70,6 @@ weight = 20
 name = "Getting started"
 url = "getting-started/index/"
 weight = 10
-
-[[menu.economics]]
-name = "Profit & Loss"
-url = "profit-loss/index/"
-weight = 90
-[[menu.economics]]
-name = "Revenues"
-url = "revenues/index/"
-weight = 91
-[[menu.economics]]
-name = "External Costs"
-url = "external-costs/index/"
-weight = 92
-[[menu.economics]]
-name = "G & A"
-url = "general-admin/index/"
-weight = 93
-[[menu.economics]]
-name = "Marketing"
-url = "marketing/index/"
-weight = 94
-
 [[menu.other]]
 name = "FAQ"
 url = "faq/index/"
