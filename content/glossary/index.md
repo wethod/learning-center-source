@@ -17,7 +17,7 @@ Has an absolute project progress of: **( 200 - 40 ) / 200 * 100 = 80 % .**
 
 ### Bluesky
 
-It represents the value you think that you are missing in order to reach the hypothetical overall value.
+It represents the value you think that you are missing in order to reach an hypothetical overall value.
 
 
 ### Budget Consumption
