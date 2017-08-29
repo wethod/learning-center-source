@@ -10,7 +10,7 @@ The External Costs are all the indirect costs that you have to consider in your 
 
 In this section all the external costs of all the projects are listed per month and year.
 
-Notice that here **Bluesky** is not shown month per month but is represented by an unic percentage on the Revenues’ Bluesky.
+Notice that here **[Bluesky](http://support.wethod.com/glossary/index/#bluesky)** is not shown month per month but is represented by an unic percentage on the Revenues’ Bluesky.
 
 The External Costs table can only be visualized and not directly modified.
 
