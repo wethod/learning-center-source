@@ -18,8 +18,8 @@ Has an absolute project progress of: **( 200 - 40 ) / 200 * 100 = 80 % .**
 ### Bluesky
 
 It represents the value you think that you are missing in order to reach the hypothetical overall value.
+It's decided by the owner or by the users that have the permission.
 
-It is decided by the Owner or by the users that have the permissions.
 
 ### Budget Consumption
 
