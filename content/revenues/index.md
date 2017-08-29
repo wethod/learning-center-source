@@ -21,3 +21,6 @@ Notice that the PM is able to decide how to distribute the [Invoice Plan](http:/
 On the other hand if it is *MANUAL*, the PM will have to decide it.
 
 As for Profit & Loss here you cannot change but just visualize the data of Revenues, with the exception of the Bluesky that you can modify in every moment.
+
+![](/uploads/2017/08/29/Reveues%20.png)
+
