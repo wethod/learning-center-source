@@ -4,7 +4,7 @@ title: External Costs
 weight: 92
 
 ---
-
+## Overview
 
 The External Costs are all the indirect costs that you have to consider in your business.
 
@@ -15,4 +15,3 @@ Notice that here **[Bluesky](http://support.wethod.com/glossary/index/#bluesky)*
 The External Costs table can only be visualized and not directly modified.
 
 ![](/uploads/2017/08/29/External%20Cost.png)
-
