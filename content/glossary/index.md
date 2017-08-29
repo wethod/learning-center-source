@@ -19,7 +19,6 @@ Has an absolute project progress of: **( 200 - 40 ) / 200 * 100 = 80 % .**
 
 It represents the value you think that you are missing in order to reach an hypothetical overall value.
 
-
 ### Budget Consumption
 
 This value indicates, for a project, the percentage of the budget days already used. This is calculated by comparing timesheet hours and budget days. For example, a project with:
