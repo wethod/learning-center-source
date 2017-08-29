@@ -5,8 +5,6 @@ weight: 200
 last: true
 
 ---
-
-
 ### Absolute Project Progress
 
 This value indicates how much a project is advanced since its beginning. For example, a project with:
@@ -21,7 +19,7 @@ Has an absolute project progress of: **( 200 - 40 ) / 200 * 100 = 80 % .**
 
 It represents the value you think that you are missing in order to reach the hypothetical overall value.
 
-<span style="font-size: 1rem;">It is decided by the Owner or by the users that have the permissions.</span>
+It is decided by the Owner or by the users that have the permissions.
 
 ### Budget Consumption
 
