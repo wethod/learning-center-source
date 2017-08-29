@@ -4,7 +4,7 @@ title: Revenues
 weight: 91
 
 ---
-
+## Overview
 
 Revenue is the amount of money that a company actually receives during a specific year, it is calculated by multiplying the price at which goods or services are sold by the number of units or amount sold.
 
@@ -23,4 +23,3 @@ On the other hand if it is *MANUAL*, the PM will have to decide it.
 As for Profit & Loss here you cannot change but just visualize the data of Revenues, with the exception of the [Bluesky](http://support.wethod.com/glossary/index/#bluesky) that you can modify in every moment.
 
 ![](/uploads/2017/08/29/Reveues%20.png)
-
