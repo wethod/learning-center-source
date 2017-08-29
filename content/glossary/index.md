@@ -5,6 +5,8 @@ weight: 200
 last: true
 
 ---
+
+
 ### Absolute Project Progress
 
 This value indicates how much a project is advanced since its beginning. For example, a project with:
@@ -14,6 +16,12 @@ This value indicates how much a project is advanced since its beginning. For exa
 * Last project status: **40**;
 
 Has an absolute project progress of: **( 200 - 40 ) / 200 * 100 = 80 % .**
+
+### Bluesky
+
+It represents the value you are missing in order to reach an hypothetical value previously decided.
+
+<span style="font-size: 1rem;">It is decided by the Owner or by the users that have the permissions.</span>
 
 ### Budget Consumption
 
