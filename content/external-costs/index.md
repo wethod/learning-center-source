@@ -13,3 +13,6 @@ In this section all the external costs of all the projects are listed per month 
 Notice that here **Bluesky** is not shown month per month but is represented by an unic percentage on the Revenues’ Bluesky.
 
 The External Costs table can only be visualized and not directly modified.
+
+![](/uploads/2017/08/29/External%20Cost.png)
+
