@@ -4,7 +4,7 @@ title: Profit & Loss
 weight: 90
 
 ---
-
+## Overview
 
 This section resume the **Revenues** and the **External Costs** of your company distributed per month, in order to show you the **Gross Margin** (Revenues - External Costs) and also the Total Gross Margin per year.
 
@@ -17,4 +17,3 @@ You cannot add or modify data here, you have to do it in the specific section of
 Profit & Loss helps you understanding how much you effectively earned and how your business is going on.
 
 ![](/uploads/2017/08/29/Profit&Loss.png)
-
