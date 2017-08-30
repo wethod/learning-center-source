@@ -4,16 +4,22 @@ title: Profit & Loss
 weight: 90
 
 ---
+
+
 ## Overview
 
-This section resume the **Revenues** and the **External Costs** of your company distributed per month, in order to show you the **Gross Margin** (Revenues - External Costs) and also the Total Gross Margin per year.
+This section shows you the Revenues that your company have minus all the costs distributed per mont.
 
-In addition the resuming table shows the **Payroll** of your company, the **Net Margin** (Gross Margin - Payroll) and also the Total Net Margin per year.
+<span style="font-size: 1rem;">The result is the Profit &amp; Loss that&nbsp;helps you understanding how much you effectively earned and how your business is going on.</span>
 
-**Profit & Loss** (Net Margin - G&A and Marketing) is the Net Margin minus the G&A and Marketing Costs of your business both listed above.
+<span style="font-size: 1rem;">On the middle you have:</span>
+
+* <span style="font-size: 1rem;">the </span>**Gross Margin**<span style="font-size: 1rem;"> (Revenues - External Costs) and also the Total Gross Margin per year.</span>
+* <span style="font-size: 1rem;">&nbsp;the </span>**Net Margin**<span style="font-size: 1rem;"> (Gross Margin - Payroll) and also the Total Net Margin per year.</span>
+
+Notice that **Profit & Loss** (Net Margin - G&A and Marketing) is the Net Margin minus the G&A and Marketing Costs of your business both listed above.
 
 You cannot add or modify data here, you have to do it in the specific section of the voice that you are changing.
 
-Profit & Loss helps you understanding how much you effectively earned and how your business is going on.
-
 ![](/uploads/2017/08/29/Profit&Loss.png)
+
