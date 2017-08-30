@@ -5,6 +5,8 @@ weight: 200
 last: true
 
 ---
+
+
 ### Absolute Project Progress
 
 This value indicates how much a project is advanced since its beginning. For example, a project with:
@@ -17,7 +19,13 @@ Has an absolute project progress of: **( 200 - 40 ) / 200 * 100 = 80 % .**
 
 ### Bluesky
 
-It represents the value you think that you are missing in order to reach an hypothetical overall value.
+It represents the value you think that it is missing in order to reach an hypothetical overall value.
+
+We can generally say that it is the missing value from the final value that you know it will be.
+
+For example:
+
+If now I have a value of 5, and I know that the final value will be 20, as a result I will choose a Bluesky equal to 15.
 
 ### Budget Consumption
 
