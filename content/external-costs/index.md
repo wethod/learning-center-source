@@ -8,7 +8,7 @@ weight: 92
 
 ## Overview
 
-The External Costs are all the indirect costs that you have to consider in your business. They are listed on the Budget and distributed among the months considering the Invoice  Plan.
+The External Costs are all the indirect costs that you have to consider in your business. They are listed on the [Budget](http://support.wethod.com/budget/index/#) and distributed among the months considering the [Invoice  Plan](http://support.wethod.com/pipeline/index/#invoice-plan).
 
 In this section all the external costs of all the projects are listed per month and year.
 
