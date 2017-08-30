@@ -23,9 +23,11 @@ It represents the value you think that it is missing in order to reach an hypoth
 
 We can generally say that it is the missing value from the final value that you know it will be.
 
-For example:
+{{< note title="Note" >}}
 
-If now I have a value of 5, and I know that the final value will be 20, as a result I will choose a Bluesky equal to 15.
+<span style="font-size: 1rem;">For example:</span>
+
+<span style="font-size: 1rem;">If now I have a value of 5, and I know that the final value will be 20, as a result I will choose a Bluesky equal to 15.</span><span style="font-size: 1rem;">&nbsp;{{&lt; /note &gt;}}</span>
 
 ### Budget Consumption
 
