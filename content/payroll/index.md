@@ -4,6 +4,8 @@ title: Payroll
 weight: 93
 
 ---
+
+
 ## Overview
 
 Payroll is the section where you can find the list of all your employees and their salaries.
@@ -20,5 +22,5 @@ Placeholders show you the impact of new employments on your revenues.
 
 {{< note title="Note" >}} Notice that the Placeholder is already created with a Segment on it. It is not possible to delete the last Segment of an employee to cancel a Placeholder, but you can of course modify it.{{< /note >}}
 
-![](/uploads/2017/08/29/Payroll%2015.55.18.png)
+![](/uploads/2017/08/30/Payroll2.png)
 
