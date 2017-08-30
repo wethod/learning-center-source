@@ -20,6 +20,7 @@ Notice that **Profit & Loss** (Net Margin - G&A and Marketing) is the Net Margin
 
 You cannot add or modify data here, you have to do it in the specific section of the voice that you are changing.
 
-{{< note title="Note" >}} When a number is between parenthesis ( ), it means that is a cost that we are subtracting from our revenues. {{< /note >}}
+{{< note title="Note" >}} When a number is between parenthesis ( ), it means that is a cost that we are subtracting from our revenues.
+Remember that all the values are in indicated in thousand (k). {{< /note >}}
 
 ![](/uploads/2017/08/29/Profit&Loss.png)
