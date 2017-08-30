@@ -4,11 +4,9 @@ title: Revenues
 weight: 91
 
 ---
-
-
 ## Overview
 
-<span style="font-size: 1rem;"><b>Revenues</b>&nbsp;per year are the sum of the values of the projects in the Pipeline,&nbsp;</span><span style="font-size: 1rem;">distributed among the months&nbsp;</span><span style="font-size: 1rem;">according to their probability and considering the Invoice Plan. &nbsp;</span>
+Revenues per year are the sum of the values of the projects in the Pipeline distributed among the months according to their probability and considering the Invoice Plan. 
 
 In this section the projects of the Pipeline considering their probability and duration are listed showing the value they have per month.
 
@@ -25,4 +23,3 @@ On the other hand if it is *MANUAL*, the PM will have to decide it.
 As for Profit & Loss here you cannot change but just visualize the data of Revenues, with the exception of the [Bluesky](http://support.wethod.com/glossary/index/#bluesky) that you can modify in every moment.
 
 ![](/uploads/2017/08/29/Reveues%20.png)
-
