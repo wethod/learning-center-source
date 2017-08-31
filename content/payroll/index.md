@@ -22,7 +22,7 @@ Placeholders show you the impact of new employments on your revenues.
 
 {{< note title="Note" >}} Notice that the Placeholder is already created with a Segment on it. It is not possible to delete the last Segment of an employee to cancel a Placeholder, but you can of course modify it.
 
-What's more it is not possible to save a Segment until you complete all the fill gaps which are: Start, End, Monthly and Taxes.
+What's more it is not possible to save a Segment until you do not complete all the fill gaps which are: Start, End, Monthly and Taxes.
 
 {{< /note >}}
 
