@@ -4,25 +4,14 @@ title: Revenues
 weight: 91
 
 ---
-
-
 ## Overview
 
-Revenues are the sum of the values of the projects in the Pipeline distributed among the months according to their probability and considering the Invoice Plan.
+Here you can see the value of your [projects](http://support.wethod.com/pipeline/index/#projects) for each month of the current year. The monthly distribution is achieved by looking at the [invoice plan](http://support.wethod.com/pipeline/index/#invoice-plan) of every project; for example: if a project is evaluated 10 K with 3 K planned to be invoiced in January and 7 K planned to be invoiced in February, the value of this project will contribute with 3 K to the January's revenues and with 7 K to February's revenues.  
 
-In this section the projects of the Pipeline considering their probability and duration are listed showing the value they have per month.
+Three important indicators are given in the first three rows:
 
-The **Value** is the sum of the actual values of all the projects per month and year.
+*	**Total**: the sum of all your projects' revenues, per month;
+*	**[Bluesky](http://support.wethod.com/glossary/index/#bluesky)**: here you can insert, for each month, the value (in K) you think is missing from the total to reach the expected revenues;
+*	**Revenues**: revenues without bluesky, per month.
 
-Over the Value there is what we call the **[Bluesky](http://support.wethod.com/glossary/index/#bluesky)** which represents the hypothetical value that a project will have, it is decided by the Owner or by the users that have the permissions.
-
-The **Total** will show automatically the projection of how will be the value of the projects if everything goes as you expect. Of course if the overall Bluesky is 0, then the Total will be equal to the reported Value.
-
-Notice that the PM is able to decide how to distribute the [Invoice Plan](http://support.wethod.com/pipeline/index/#invoice-plan) of the projects along the months. If the distribution is set to *AUTO*, the Invoice Plan will be distributed equally among all months.
-
-On the other hand if it is *MANUAL*, the PM will have to decide it.
-
-As for Profit & Loss here you cannot change but just visualize the data of Revenues, with the exception of the [Bluesky](http://support.wethod.com/glossary/index/#bluesky) that you can modify in every moment.
-
-![](/uploads/2017/08/29/Reveues%20.png)
-
+{{< img-center src="/uploads/2017/08/29/Reveues%20.png" >}}
