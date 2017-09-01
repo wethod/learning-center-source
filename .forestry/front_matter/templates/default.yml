@@ -1,0 +1,26 @@
+---
+hide_body: false
+fields:
+- name: date
+  type: datetime
+  label: Date
+  config:
+    required: true
+- name: title
+  type: text
+  label: Title
+  description: The page's title
+  config:
+    required: true
+- name: type
+  type: text
+  label: Type
+  config: {}
+- name: weight
+  type: text
+  label: Weight
+  description: The position of this voice in the nav
+  config:
+    required: true
+  default: '90'
+  hidden: ''

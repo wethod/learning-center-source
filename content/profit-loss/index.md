@@ -4,26 +4,28 @@ title: Profit & Loss
 weight: 90
 
 ---
-
-
 ## Overview
 
-This section shows the [Revenues](http://support.wethod.com/revenues/index/#) of your company, yearly and by month, considering all the costs.
+Here you can see how much your company has earned or has lost during each month of the current year, the "Profie & Loss" row shows you this piece of information.  
 
-The result is the **Profit & Loss** that helps you understand how much you are actually earning and how your business is going.
+This data is obtained by subtracting from the [revenues](http://support.wethod.com/revenues/index/#) all the costs faced by the company. The costs can be of various kinds: 
 
-We have:
+*	[External costs](http://support.wethod.com/external-costs/index/#)
+*	[Payroll](http://support.wethod.com/payroll/index/#)
+*	[G & A](http://support.wethod.com/general-admin/index/#)
+*	[Marketing](http://support.wethod.com/marketing/index/#)
 
-* **Gross Margin**: [Revenues](http://support.wethod.com/revenues/index/#) - [External Costs](http://support.wethod.com/external-costs/index/#)
+We provide you with two *subtotal* in order to better undertand the final value of profit & loss for the compamny:
 
-* **Net Margin**: Gross Margin - [Payroll](http://support.wethod.com/payroll/index/#)
+* **Gross margin**: revenues without the external costs;
 
-* **Profit & Loss**: Net Margin - [G&A](http://support.wethod.com/general-admin/index/#) - [Marketing](http://support.wethod.com/marketing/index/#)
+* **Net margin**: gross margin without payroll.
 
-You cannot add or modify data here, you have to do it in the specific section of the voice that you are changing.
 
-{{< note title="Note" >}} When a number is between parenthesis ( ), it means that is a cost that we are subtracting from our revenues.
-Remember that all the values are indicated in thousand (k). {{< /note >}}
+{{< note title="Note" >}}
+**A number in parenthesis represents a cost which is being subtracted from the number right above it.** 
 
-![](/uploads/2017/08/29/Profit&Loss.png)
+**All the numbers here are provided in thousands (K).** 
+{{< /note >}}
 
+{{< img-center src="/uploads/2017/08/29/Profit&Loss.png" >}}
