@@ -4,27 +4,27 @@ title: Payroll
 weight: 93
 
 ---
-
-
 ## Overview
 
-Payroll is the section where you can find the list of all your employees and their salaries.
+Here's the list of all your employees' salary for the current year. 
 
-It is useful because it shows how much it cost an employee in the year’s months, in order to obtain the **Gross Margin**.
+Each *Employee* has at least a **segment** which represents a work contract between that employee and the company. Every segment has:
 
-Here you also add how much **Taxes** you pay for each employee you have.
+* **Start month**
+* **End month**
+* **Gross monthly salary**
+* **Taxes**
 
-Through the **Segment** the PM or the Owner is able to modify the salary of an employee that maybe have reached a promotion during the year. (Segment shows you a graphical and colored representation of how much an employee have earned from a starting date to the ending one during the year).
+You can access the segments for a specific employee just by clicking on the employee'row. Each time you edit a list of segments, this influences the employee's *salary distribution*: a line where all segments are visually represented, allowing you to quickly understand how many times the salary of an employee is changed during the year.   
 
-Furthermore the **Placeholders** helps you to take into consideration salaries of employees that you will have to pay but that you have not hired yet.
+In the **Placeholders** section you can see how new employees will impact your business: just add new fake salaries and see if your revenues are still healthy.
 
-Placeholders show you the impact of new employments on your revenues.
+{{< note title="Note" >}} 
+**Each Placeholder has at least a segment, if you delete the last segment the relative placeholder will be deleted.**
 
-{{< note title="Note" >}} Notice that the Placeholder is already created with a Segment on it. It is not possible to delete the last Segment of an employee to cancel a Placeholder, but you can of course modify it.
+**It is not possible to delete the last segment of an Employee.**
 
-It is not possible to save a Segment until you fill all the fields which are: Start, End, Monthly and Taxes.
-
+**It is not possible to save a new segment until you fill all the required fields.**
 {{< /note >}}
 
-![](/uploads/2017/08/30/Payroll2.png)
-
+{{< img-center src="/uploads/2017/08/30/Payroll2.png" >}}
