@@ -17,13 +17,11 @@ Has an absolute project progress of: **( 200 - 40 ) / 200 * 100 = 80 % .**
 
 ### Bluesky
 
-It represents the value you think that it is missing in order to reach an hypothetical overall value.
+It represents the value you think that it is missing in order to reach an hypothetical overall value. 
 
-We can generally say that it is the missing value from the final value that you know it will be.
+For example: if I have an actual value (AC) of 5 but I know that, in a particular moment in time, AC will reach the final value (FV) of 7, then I can use a Bluesky (BS) of 2. This way we have **AC + BS = FV**.  
 
-{{< note title="Note" >}}
-For example:
-If now I have a value of 5, and I know that the final value will be 20, as a result I will choose a Bluesky equal to 15.{{< /note >}}
+This is a theoretical definition, look at the context to find more accurated information.
 
 ### Budget Consumption
 
