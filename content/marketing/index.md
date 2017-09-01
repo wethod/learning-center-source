@@ -4,17 +4,14 @@ title: Marketing
 weight: 95
 
 ---
-
-
 ## Overview
 
-In this section are listed all the marketing’s costs of the projects per month.
+This is the right place to put all that costs related to the promotion of your products.
 
-With Marketing costs we mean all the costs that your business can have that are related to the promotion of your activity or product.
+Each cost has:
 
-In order to add a Marketing cost you just have to select the starting and ending date, choosing the value that you will pay monthly and save, in this way you will see the total cost for the indicated period.
+* **Start month**
+* **End month**
+* **Net monthly**
 
-Examples of Marketing Costs: promotion of the product or service, advertising, public relations etc.
-
-![](/uploads/2017/08/29/Marketing%20.png)
-
+{{< img-center src="/uploads/2017/08/29/Marketing%20.png" >}}
