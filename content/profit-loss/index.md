@@ -6,7 +6,7 @@ weight: 90
 ---
 ## Overview
 
-Here you can see how much your company has earned or has lost during each month of the current year, the "Profie & Loss" row shows you this piece of information.  
+Here you can see how much your company has earned or has lost during each month of the current year, the "Profit & Loss" row shows you this piece of information.  
 
 This data is obtained by subtracting from the [revenues](http://support.wethod.com/revenues/index/#) all the costs faced by the company. The costs can be of various kinds: 
 
