@@ -19,7 +19,7 @@ Has an absolute project progress of: **( 200 - 40 ) / 200 * 100 = 80 % .**
 
 It represents the value you think that it is missing in order to reach an hypothetical overall value. 
 
-For example: if I have an actual value (AC) of 5 but I know that, in a particular moment in time, AC will reach the final value (FV) of 7, then I can use a Bluesky (BS) of 2. This way we have **AC + BS = FV**.  
+For example: if I have an actual value of 5 but I know that, in a particular moment in time, actual value will reach the final value of 7, then I can use a Bluesky of 2. 
 
 This is a theoretical definition, look at the context to find more accurated information.
 
