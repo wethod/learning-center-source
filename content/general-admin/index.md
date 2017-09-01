@@ -4,17 +4,14 @@ title: G & A
 weight: 93
 
 ---
-
-
 ## Overview
 
-In this section are listed all the administration’s costs of the projects per month.
+Here you can list all your general and administratrion costs. This is the right place to put all that costs which aren't about external costs, payroll or marketing.
 
-With administration costs we mean all the costs that your business can have that are related to the management and administration overall.
+Each cost has:
 
-In order to add a G&A cost you just have to select the starting and ending date, choosing the value that you will pay monthly and save, in this way you will see the total cost for the indicated period.
+* **Start month**
+* **End month**
+* **Net monthly**
 
-Some examples of G&A Costs: wages, retributions, costs of chancellery etc.
-
-![](/uploads/2017/08/29/G&A.png)
-
+{{< img-center src="/uploads/2017/08/29/G&A.png" >}}
