@@ -8,7 +8,7 @@ weight: 95
 
 ## Overview
 
-This is the right place to put all that costs related to the promotion of your products.
+This is the right place to put all that costs related to the promotion of your products or services.
 
 Each cost has:
 
