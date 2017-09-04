@@ -4,6 +4,8 @@ title: Marketing
 weight: 95
 
 ---
+
+
 ## Overview
 
 This is the right place to put all that costs related to the promotion of your products or services.
@@ -16,4 +18,5 @@ Each cost has:
 
 * **Net monthly**
 
-{{< img-center src=“/uploads/2017/09/04/GIF%20MarketingTOP.gif" >}}
+{{< img-center src="/uploads/2017/09/04/GIF%20G&ATOP.gif" >}}
+
