@@ -4,8 +4,6 @@ title: Payroll
 weight: 93
 
 ---
-
-
 ## Overview
 
 Here's the list of all your employees' salary for the current year.
@@ -32,4 +30,4 @@ In the **Placeholders** section you can see how new employees will impact your b
 **It is not possible to save a new segment until you fill all the required fields.**
 {{< /note >}}
 
-{{< img-center src="/uploads/2017/09/04/GIF%20Payroll%20TOP.gif" >}}
+{{< img-center src="/uploads/2017/09/04/ZGIF-Payroll-TOP.gif" >}}
