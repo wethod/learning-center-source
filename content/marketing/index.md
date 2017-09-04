@@ -16,4 +16,4 @@ Each cost has:
 
 * **Net monthly**
 
-{{< img-center src=“/uploads/2017/09/04/GIF%20MarketingTOP.gif">}}
+{{< img-center src=“/uploads/2017/09/04/GIF%20MarketingTOP.gif" >}}
