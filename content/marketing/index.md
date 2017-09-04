@@ -16,7 +16,5 @@ Each cost has:
 
 * **End month**
 
-* **Net monthly**
-
-{{< img-center src="/uploads/2017/09/04/GIF%20G&ATOP.gif" >}}
+*
 
