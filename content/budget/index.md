@@ -4,6 +4,8 @@ title: Budget
 weight: 31
 
 ---
+
+
 ## Overview
 
 The budget is where you can list all the resources you think you'll need for the project.
@@ -72,27 +74,25 @@ Positioned on the right, this part shows some details about the project's price:
 
 * **Margin**: the difference between suggested net price and the costs;
 
-* **Contingency**: life is unpredictable and the unexpected is behind the corner, so why don’t be prepared for it? A percentage of contingency means that you know your budget isn’t perfect so you’re estimating more days to use, just in case. The contingency give you more days which you can use with every user level but, on the other hand, the suggested net price will grow.
+* **Contingency**: life is unpredictable and the unexpected is behind every corner, so why not be be prepared for it? A percentage of contingency means that you know your budget isn’t perfect so you’re estimating more days to use, just in case. The contingency gives you more days which you can use with every user level but, on the other hand, the suggested net price will grow.
 
 ## The Workflow
 
 1. Select a project from the [Pipeline](/pipeline/index/) and click on its budget button;
 
-1. A new budget can either be created from scratch or from a template: 
-	- From **scratch**: choose the tasks (also called *activities*) you want to include in the new budget; 
-    - From **template**: choose the template you want to use, a template represents the structure of budget you done and saved in the past;
+1.
 
 1. Compile the budget;
 
 1. Submit the budget for approval by clicking on the top left button "**submit for approval**";
 
-1. When the budget will be approved by a supervisor, you will be able to [plan](/planning/index/) some resource on the project and start working on it;
+1. When the budget is approved by a supervisor, you will be able to [plan](/planning/index/) some resource on the project and start working on it;
 
 1. Whenever you need to modify the budget, you can set it back to draft and restart from point **3**. Each time a new budget version is approved, it's saved and you can access it through the dropdown list under the Price's Detail panel.
 
 ## Project Status Correction
 
-When a Budget is approved you have the possibility to automatically update the Project Status accordingly to the new Budget's days amount. 
+When a Budget is approved you have the possibility to automatically update the Project Status accordingly to the new Budget's days amount.
 
 The new Project Status value is calculated by adding to the last one the difference between the last Budget days and new Budget days. You can access this functionality from the "more options" button on the right columns of the Budget.
 
