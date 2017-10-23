@@ -4,6 +4,8 @@ title: Payroll
 weight: 93
 
 ---
+
+
 ## Overview
 
 Here's the list of all your employees' salary for the current year.
@@ -18,7 +20,7 @@ Each *Employee* has at least a **segment** which represents a work contract betw
 
 * **Taxes**
 
-You can access the segments for a specific employee just by clicking on the employee'row. Each time you edit a list of segments, this influences the employee's *salary distribution*: a line where all segments are visually represented, allowing you to quickly understand how many times the salary of an employee is changed during the year.
+You can access the segments for a specific employee just by clicking on the employee's row. Each time you edit a list of the segments, this influences the employee's *salary distribution*: a line where all segments are visually represented, allowing you to quickly understand how many times the salary of an employee is changed during the year.
 
 In the **Placeholders** section you can see how new employees will impact your business: just add new fake salaries and see if your revenues are still healthy.
 
