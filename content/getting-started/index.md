@@ -30,4 +30,4 @@ Here we are, you are ready to start!
 
 When you want to check the status of your projects, just visit the [Reports]({{< relref "reports/index.md" >}}) section: we take care of aggregating the data for you, just sit down and get ready to feel the power of knowledge.
 
-The beating heart of WETHOD is the [Dashboard]({{< relref "dashboard/index.md" >}}): a customizable set of widgets that you can use to be constantly updated on the relevant information about the projects you care about the most.
+The beating heart of WETHOD is the [Dashboard]({{< relref "dashboard/index.md" >}}): a customizable set of widgets that you can use to be constantly updated on the relevant information about the projects that you care about the most.
