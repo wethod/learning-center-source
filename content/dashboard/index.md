@@ -14,7 +14,7 @@ The Dashboard is basically a set of widgets, any one of which can be added or re
 
 ## Widgets
 
-Add a new widget to your dashboard is so easy: just click on the "**+**" and pick one from the list of the available widgets.
+<span style="font-size: 1rem;">Adding a new widget to your dashboard is very easy: just click on the “+” sign and</span> pick one from the list of the available widgets.
 
 {{< img-center src="/uploads/2017/05/22/add-widget.gif" >}}
 
