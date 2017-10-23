@@ -4,6 +4,8 @@ title: Pipeline
 weight: 30
 
 ---
+
+
 ## Overview
 
 Everything starts from Pipeline, here is where opportunities and projects are listed, both of them are defined by a small amount of **significant information**:
@@ -33,7 +35,7 @@ The Basket contains all the project’s opportunity that are not well-defined ye
 
 ## Projects
 
-Here you can find all the projects of the company, each project has significant information you can check and edit. Clicking on a project let you see more details and actions about it.
+Here you can find all the projects of the company, each project has significant information you can check and edit. Clicking on a project lets you see it in more details and actions about it.
 
 An opportunity evolves into a Project when things get serious, in order to take this step you must have an idea about the significant information listed above.
 
@@ -41,7 +43,7 @@ A Project can furthermore have an invoice plan and a budget.
 
 A project is considered **started** if it has a start date in the past or if someone has submitted timesheets for it.
 
-A project is considered **active** when its probability reaches 90%, only when this happens makes sense to plan people or to do timeheets for this project. An active project must have a job order.
+A project is considered **active** when its probability reaches 90%, only when this happens it makes sense to plan for people or to do a timeheets for this project. An active project must have a job order.
 
 {{< note title="Note" >}}
 **Billable Projects must have a probability of 100%.**
@@ -168,7 +170,7 @@ For example:
 
 * **project:wethod, php ; start:0116+ ; prob:50…75**
 
-This search operator will find all the projects with name “wethod" or “php”, with a date start grater than January 2016 and a probability between 50% and 75%.
+This search operator will find all the projects with name “wethod" or “php”, with a date start greater than January 2016 and a probability between 50% and 75%.
 
 * **client:luca; value: 25- ; end:1217+**
 
@@ -180,7 +182,7 @@ This search operator will find all the project whose PM is Tomas or Luca, with a
 
 ### Invoice Plan
 
-Here you can set when you plan to emit invoices for the project. This section is basically a calendar with some additional information:
+Here you can set a plan to emit invoices for the project. This section is basically a calendar with some additional information:
 
 * **Plan**: the amount you plan to invoice for a given month;
 
