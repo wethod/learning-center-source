@@ -5,6 +5,8 @@ weight: 200
 last: true
 
 ---
+
+
 ### Absolute Project Progress
 
 This value indicates how much a project is advanced since its beginning. For example, a project with:
@@ -17,9 +19,9 @@ Has an absolute project progress of: **( 200 - 40 ) / 200 * 100 = 80 % .**
 
 ### Bluesky
 
-It represents the value you think that it is missing in order to reach an hypothetical overall value. 
+It represents the value you think is missing in order to reach an hypothetical overall value.
 
-For example: if I have an actual value of 5 but I know that, in a particular moment in time, actual value will reach the final value of 7, then I can use a Bluesky of 2. 
+For example: if I have an actual value of 5 but I know that, in a particular moment in time, actual value will reach the final value of 7, then I can use a Bluesky of 2.
 
 This is a theoretical definition, look at the context to find more accurated information.
 
@@ -35,11 +37,11 @@ Has a budget consumption of: **80 / 200 * 100 = 40 % .**
 
 ### Expected Value
 
-This value indicates the estimated value of a project, weighted on its probability.
+This value indicates the estimated value of a project, weighed on its probability.
 
 ### Job Order
 
-It's a code which identifies a project inside a company, may be not unique.
+It's a code which identifies a project inside a company, which may not be unique.
 
 ### Production Value
 
@@ -83,6 +85,6 @@ This value indicates, for a given week, the ratio between the project's progress
 
 Wasted hours are generated when one of the following conditions is true:
 
-* A person is planned on the project A but he/she doesn't work on that project at all;
+* A person is planned into the project A but he/she doesn't work on that project at all;
 
-* A person is planned on the project A but he/she works on the project B instead and the project B has a non chargeable [job order category]({{< relref "settings/index.md#company" >}}).
+* A person is planned into the project A but he/she works on the project B instead and the project B has a non chargeable [job order category]({{< relref "settings/index.md#company" >}}).
