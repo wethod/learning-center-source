@@ -4,6 +4,8 @@ title: Settings
 weight: 80
 
 ---
+
+
 ## Tutorial
 
 From here you can access a quick and clear tutorial that will teach you all the secrets behind WETHOD, but remember: **with great power comes great responsibility.**
@@ -40,10 +42,7 @@ Here you can configure your company by setting:
 
 * **User levels**: each one of your collaborators has a level which defines his daily cost to the company and the price you want to sell a day of his work to the clients. This way you can define clusters of employees like intern, junior, senior and so on;
 
-* **Job Order Categories**: each one of your projects must have one, this way you can organize your projects into any category you like according to your business practice. Each category has some useful features:
-	* **Chargeable** define whether the projects in this category are chargeable or not;
-	* **Everybody can plan** if checked, all the projects in the category can be planned by everyone, regardless the company permissions,
-	* **Must be in Program** if checked all, the projects in the category must be added to a [Program](http://support.wethod.com/pipeline/index/#programs) when their probability reaches 90%.
+*
 
 * **Email Bot**: here you can insert the email addresses to which send invoices and orders;
 
@@ -51,7 +50,7 @@ Here you can configure your company by setting:
 
 * **Default Areas**: these will be suggested when you're creating a [new budget]({{< relref "budget/index.md#the-workflow" >}}) or when you're adding a new area to an existing budget;
 
-* **Timesheet**: here you can choose to automate the timesheets creation process. This way, timesheets are automatically created each Friday based on planned hours. *Be careful: shit happens and planning is often not 100% accurate, this is why timesheet exists.*
+* **Timesheet**: here you can choose to automate the timesheets creation process. This way, timesheets are automatically created each Friday based on planned hours. *Be careful: Anything can go wrong because planning is not often 100% accurate, this is why timesheet exists.*
 
 ## Permissions
 
@@ -81,4 +80,4 @@ To create a new role:
 
 ## Switch Company
 
-If you've different WETHOD companies linked to the same account, from here you can switch from one another.
+If you have a different WETHOD company linked to the same account, from here you can switch from one another.
