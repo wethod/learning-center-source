@@ -4,8 +4,6 @@ title: Settings
 weight: 80
 
 ---
-
-
 ## Tutorial
 
 From here you can access a quick and clear tutorial that will teach you all the secrets behind WETHOD, but remember: **with great power comes great responsibility.**
@@ -32,9 +30,13 @@ To invite a new teammate:
 
 1. Click on the top left "**+ new user**" button;
 
-1. Assign a *user level*, a *role *and the *email address* of the person you want to invite;
+2. Assign a _user level_, a \*role \*and the _email address_ of the person you want to invite;
 
-1. Click the "**invite**" button. Once done, an email will be sent to the given address.
+3. Click the "**invite**" button. Once done, an email will be sent to the given address.
+
+You can assign up to two **tags** to each teammate, use these tags to create groups of employee. You can, for example, use a tag to describe the background of a person.
+
+{{< img-center src="/uploads/2017/11/02/settings-team.png">}}
 
 ## Company
 
@@ -42,15 +44,15 @@ Here you can configure your company by setting:
 
 * **User levels**: each one of your collaborators has a level which defines his daily cost to the company and the price you want to sell a day of his work to the clients. This way you can define clusters of employees like intern, junior, senior and so on;
 
-*
+* 
 
 * **Email Bot**: here you can insert the email addresses to which send invoices and orders;
 
-* **Project Won/Lost Bot**: here you can insert the email addresses to which send notifications each time someone of your teammates won or lost a project. A project is considered to be *lost* when its probability is 0 and *won* when its probability is 90;
+* **Project Won/Lost Bot**: here you can insert the email addresses to which send notifications each time someone of your teammates won or lost a project. A project is considered to be _lost_ when its probability is 0 and _won_ when its probability is 90;
 
-* **Default Areas**: these will be suggested when you're creating a [new budget]({{< relref "budget/index.md#the-workflow" >}}) or when you're adding a new area to an existing budget;
+* **Default Areas**: these will be suggested when you're creating a \[new budget\]({{< relref "budget/index.md#the-workflow" >}}) or when you're adding a new area to an existing budget;
 
-* **Timesheet**: here you can choose to automate the timesheets creation process. This way, timesheets are automatically created each Friday based on planned hours. *Be careful: Anything can go wrong because planning is not often 100% accurate, this is why timesheet exists.*
+* **Timesheet**: here you can choose to automate the timesheets creation process. This way, timesheets are automatically created each Friday based on planned hours. _Be careful: Anything can go wrong because planning is not often 100% accurate, this is why timesheet exists._
 
 ## Permissions
 
@@ -62,21 +64,21 @@ Here you can set permissions for the various user's role:
 
 * **Header**: which section of WETHOD are available;
 
-* **Reports**: which sections of *Reports *are available;
+* **Reports**: which sections of \*Reports \*are available;
 
-* **Settings**: who can access *Settings*.
+* **Settings**: who can access _Settings_.
 
-*Here the word "other" means "of his/her teammates". For example: in the budget table, "view other" means "view his/her teammates budget".*
+_Here the word "other" means "of his/her teammates". For example: in the budget table, "view other" means "view his/her teammates budget"._
 
-*The roles "Account" and "PM" are dynamic: you can assign them only from a project.*
+_The roles "Account" and "PM" are dynamic: you can assign them only from a project._
 
 To create a new role:
 
 1. Click on the top left "**+ add role**" button;
 
-1. Assign a name to the newly created role;
+2. Assign a name to the newly created role;
 
-1. Click the "**save**" button.
+3. Click the "**save**" button.
 
 ## Switch Company
 
