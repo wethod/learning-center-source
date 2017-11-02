@@ -30,12 +30,12 @@ On the top you have three buttons, from the left:
 
 When you select a project, only the half-days allocated for that project will be highlighted, this allows you to have a general point of view on the teammates which are already on the project.  For the same reason, selecting a project will sort people by showing first all those who were planned on the project at least once. Because is better to work with people that are aware of the challenge, right?
 
-To know how many budget days you can allocate just look at the box that appears at the top of the page: here you can see all the days left, grouped by user level. 
+To know how many budget days you can allocate just look at the box that appears at the top of the page: here you can see all the days left, grouped by user level.
 
 All your teammates are listed on the left, to allocate a person you just need to click on the half-day you want to assign. If you hold and drag your mouse, you can assign more half-days at once.
 
 {{< img-center src="/uploads/2017/11/02/planning-people.gif">}}
 
-The **filter people button** lets you combine different filters, for example you may decide to see only the internal employees which are managers and have a background in design (you can use tags to divide employees into categories).
+The **filter people button** lets you combine different filters, for example you may decide to see only the internal employees which are managers and have a background in design (you can use [tags]({{< relref "settings/index.md#team" >}}) to divide employees into categories).
 
 {{< img-center src="/uploads/2017/11/02/planning-people-filters.png">}}
