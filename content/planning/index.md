@@ -47,4 +47,4 @@ The 'Heatmap' is a graph useful to show the 'hot' zone, in this case we are show
 
 On the left we have the client acronym, the project name and the color of the job order category the project is part of. You can have the details of which people are planned by clicking on a day.
 
-{{< img-center src="/uploads/2017/11/03/planning-projects.png">}}
+{{< img-center src="/uploads/2017/11/03/projects_heatmap.png">}}
