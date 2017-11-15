@@ -43,12 +43,16 @@ The **filter people button** lets you combine different filters, for example you
 
 ## Projects' Heatmap
 
-The 'Heatmap' is a graph useful to show the 'hot' zone, in this case we are showing the 'weight' of the planned projects: the darker the color, the more people ore planned on the project that day. The colors range is splitted in 10 levels from white to blue, where the darkest blue represents the most planned people on a project in a day for the visible range of time.
+The '**heatmap**' is a graph useful to show the 'hot' zone, in this case we are showing the 'weight' of the planned projects: the darker the color, the more people ore planned on the project that day. The colors range is splitted in 10 levels from white to blue, where the darkest blue represents the most planned people on a project in a day for the visible range of time.
 
-There is a six weeks calendar, with a blue dot on today, you can move in the date range via horizontal scroll. On the left we have the client acronym, the project name and the color of the job order category the project is part of. You can search for a client or a job order category via the search field, the new list of project will have an updated heatmap based on the visible data. You can also 'hide' a single project from the heatmap by clicking on the 'x' near the project name, the heatmap will update accordingly.
+There is a six weeks calendar, with a blue dot on today, you can move in the date range via horizontal scroll. On the left we have the client acronym, the project name and the color of the job order category the project is part of. You can search for a client or a job order category via the search field. You can also 'hide' a single project from the heatmap by clicking on the 'x' near the project name.
 
-You can have the details of which people are planned by clicking on a single day, there you can also add 'events': when in a day a lot of people are planned on the same project probably there is some sort of event like a meeting a travel or project is ending, if so you can them on the heatmap in order to create a better overview on what is goin on in your company. This is also useful to avoid the overlapping of two or more important event that usually need a lot of resources.
+{{< note title="Note" >}}
+
+**The heatmap is alway updated based on the visible project and date range!**
+
+{{< /note >}}
+
+You can have the details of which people are planned by clicking on a single day, there you can also add '**events**': when in a day a lot of people are planned on the same project probably there is some sort of event like a meeting a travel or project is ending, if so you can them on the heatmap in order to create a better overview on what is goin on in your company. This is also useful to avoid the overlapping of two or more important event that usually need a lot of resources.
 
 {{< img-center src="/uploads/2017/11/15/heatmap.gif">}}
-
-![](/uploads/2017/11/15/heatmap.gif)
