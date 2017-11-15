@@ -49,10 +49,12 @@ There is a six weeks calendar, with a blue dot on today, you can move in the dat
 
 {{< note title="Note" >}}
 
-**The heatmap is alway updated based on the visible project and date range!**
+**The heatmap is always updated based on the visible projects and date range!**
 
 {{< /note >}}
 
-You can have the details of which people are planned by clicking on a single day, there you can also add '**events**': when in a day a lot of people are planned on the same project probably there is some sort of event like a meeting a travel or project is ending, if so you can them on the heatmap in order to create a better overview on what is goin on in your company. This is also useful to avoid the overlapping of two or more important event that usually need a lot of resources.
+You can see the details of which people are planned by clicking on a day, there you can also add '**events**': when in a day a lot of people are planned on the same project probably there is some sort of event like a meeting a travel or a project is ending, if so, you can them on the heatmap in order to create a better overview on what is goin on in your company. This is also useful to avoid the overlapping of two or more important event that usually need a lot of resources.
+
+Here is a demo:
 
 {{< img-center src="/uploads/2017/11/15/heatmap.gif">}}
