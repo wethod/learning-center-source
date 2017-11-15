@@ -53,6 +53,6 @@ There is a six weeks calendar, with a blue dot on today, you can move in the dat
 
 {{< /note >}}
 
-You can see the details of which people are planned by clicking on a day, there you can also add '**events**': when in a day a lot of people are planned on the same project probably there is some sort of event like a meeting a travel or a project is ending, if so, you can them on the heatmap in order to create a better overview on what is goin on in your company. This is also useful to avoid the overlapping of two or more important event that usually need a lot of resources.
+You can see the details of which people are planned by clicking on a day, there you can also add '**events**': when in a day a lot of people are planned on the same project probably there is some sort of event like a meeting, a travel or a project is ending, if so, you can them on the heatmap in order to create a better overview on what is goin on in your company. This is also useful to avoid the overlapping of two or more important event that usually need a lot of resources.
 
 {{< img-center src="/uploads/2017/11/15/heatmap.gif">}}
