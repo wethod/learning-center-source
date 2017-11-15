@@ -4,8 +4,6 @@ title: Pipeline
 weight: 30
 
 ---
-
-
 ## Overview
 
 Everything starts from Pipeline, here is where opportunities and projects are listed, both of them are defined by a small amount of **significant information**:
@@ -53,15 +51,33 @@ A project is considered **active** when its probability reaches 90%, only when t
 **When a project reach 50% of probability, it's a good practice to make a budget for it.**
 {{< /note >}}
 
-By clicking on a project you can edit its details or open its: [budget]({{< relref "budget/index.md#budget" >}}), [planning]({{< relref "planning/index.md#planning" >}}), [reports]({{< relref "reports/index.md#reports" >}}), [invoice plan]({{< relref "pipeline/index.md#invoice plan" >}})
+By clicking on a project you can edit its details or open its: \[budget\]({{< relref "budget/index.md#budget" >}}), \[planning\]({{< relref "planning/index.md#planning" >}}), \[reports\]({{< relref "reports/index.md#reports" >}}), \[invoice plan\]({{< relref "pipeline/index.md#invoice plan" >}})
 
 {{< img-center src="/uploads/2017/05/25/projects.png" >}}
+
+### Project probability
+
+Here is a list of probability and their meaning:
+
+* 0% - We lost it! Project is not going to be done
+
+* 10% - The chances are low but maybe we can do something
+
+* 25% - We can try it!
+
+* 50% - I'm pretty confident we can do it!
+
+* 75% - We are going to do it!
+
+* 90% - We are going to do it and we now have the 'job order'
+
+* 100% - It's all ready, we also have the 'client PO'
 
 ### Advanced Search
 
 If you need to search for a project, you just need to type some keywords on the search input.
 
-If you need a more specific and advanced search, we offer you some *search query* that can help you:
+If you need a more specific and advanced search, we offer you some _search query_ that can help you:
 
 <table>
 <thead>
@@ -150,7 +166,7 @@ If you need a more specific and advanced search, we offer you some *search query
 </tbody>
 </table>
 
-There are also some *search operators*, let’s have a look on them:
+There are also some _search operators_, let’s have a look on them:
 
 * If you want to search a project from **values greater than or equal** to x:    **“ x+ ”**
 
@@ -196,8 +212,8 @@ An invoice plan can be:
 
 * **Manual**: you need to manually insert each amount you plan to invoice. If you choose this mode, you can choose an offset amount to move back or forward in time.
 
-You can find the invoices (listed in your plan) in the [Invoices widget]({{< relref "dashboard/index.md#invoices" >}}), there they're ready to be created and sent.
+You can find the invoices (listed in your plan) in the \[Invoices widget\]({{< relref "dashboard/index.md#invoices" >}}), there they're ready to be created and sent.
 
 ## Programs
 
-Projects are often stages or parts of something bigger, you can use a Program to group together different projects in order to see their aggregate [economic reports]({{< relref "reports/index.md#economics" >}}).
+Projects are often stages or parts of something bigger, you can use a Program to group together different projects in order to see their aggregate \[economic reports\]({{< relref "reports/index.md#economics" >}}).
