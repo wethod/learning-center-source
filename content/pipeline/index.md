@@ -2,6 +2,7 @@
 date: 2016-03-11 20:10:46 +0100
 title: Pipeline
 weight: 30
+draft: true
 
 ---
 ## Overview
@@ -51,7 +52,7 @@ A project is considered **active** when its probability reaches 90%, only when t
 **When a project reach 50% of probability, it's a good practice to make a budget for it.**
 {{< /note >}}
 
-By clicking on a project you can edit its details or open its: \[budget\]({{< relref "budget/index.md#budget" >}}), \[planning\]({{< relref "planning/index.md#planning" >}}), \[reports\]({{< relref "reports/index.md#reports" >}}), \[invoice plan\]({{< relref "pipeline/index.md#invoice plan" >}})
+By clicking on a project you can edit its details or open its: [budget](/budget/index/ "budget"), [planning](/planning/index/), [reports](/reports/index/), [invoice plan](/pipeline/index/#invoice-plan).
 
 {{< img-center src="/uploads/2017/05/25/projects.png" >}}
 
@@ -212,8 +213,8 @@ An invoice plan can be:
 
 * **Manual**: you need to manually insert each amount you plan to invoice. If you choose this mode, you can choose an offset amount to move back or forward in time.
 
-You can find the invoices (listed in your plan) in the \[Invoices widget\]({{< relref "dashboard/index.md#invoices" >}}), there they're ready to be created and sent.
+You can find the invoices (listed in your plan) in the [Invoices widget](/dashboard/index/#invoices), there they're ready to be created and sent.
 
 ## Programs
 
-Projects are often stages or parts of something bigger, you can use a Program to group together different projects in order to see their aggregate \[economic reports\]({{< relref "reports/index.md#economics" >}}).
+Projects are often stages or parts of something bigger, you can use a Program to group together different projects in order to see their aggregate [economic reports](/reports/index/#economics)
