@@ -2,7 +2,6 @@
 date: 2016-03-11 20:10:46 +0100
 title: Pipeline
 weight: 30
-draft: true
 
 ---
 ## Overview
