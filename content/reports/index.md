@@ -10,11 +10,11 @@ All the data you insert in WETHOD are used to generate, weekly and automatically
 
 ## Project Report
 
-Each Monday, utilising data provided by [Timesheet]({{< relref "friday/index.md#timesheet" >}}), [Project Status]({{< relref "friday/index.md#project-status" >}}) and [Budget]({{< relref "budget/index.md" >}}), a Project Report is automatically created.
+Each Monday, utilising data provided by \[Timesheet\]({{< relref "friday/index.md#timesheet" >}}), \[Project Status\]({{< relref "friday/index.md#project-status" >}}) and \[Budget\]({{< relref "budget/index.md" >}}), a Project Report is automatically created.
 
 ### Budget Consumption / Project Status
 
-This section shows the [budget consumption]({{< relref "glossary/index.md#budget-consumption" >}}) of the project, compared to its [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}):
+This section shows the \[budget consumption\]({{< relref "glossary/index.md#budget-consumption" >}}) of the project, compared to its \[progress\]({{< relref "glossary/index.md#absolute-project-progress" >}}):
 
 * If the project is **above the diagonal**: it's using a lot of days but it's progressing slowly than predictions based on budget;
 
@@ -24,13 +24,13 @@ This section shows the [budget consumption]({{< relref "glossary/index.md#budget
 
 By analizing the saved budget versions for the project, WETHOD can shows you:
 
-* The **baseline** which answers the question "*what would the situation be if I hadn't changed the budget since its first version*?";
+* The **baseline** which answers the question "_what would the situation be if I hadn't changed the budget since its first version_?";
 
-* The **forecast** which answers the question *"what's the situation right now?"*;
+* The **forecast** which answers the question _"what's the situation right now?"_;
 
-* The **projected** which answers the question "*what will be the situation at the end of the project with the current budget consumption?"*;
+* The **projected** which answers the question "_what will be the situation at the end of the project with the current budget consumption?"_;
 
-* The **wasted** which answers the question "*what's the situation right now, [wasted hours]({{< relref "glossary/index.md#wasted-hours" >}}) included?"*;
+* The **wasted** which answers the question "_what's the situation right now, \[wasted hours\]({{< relref "glossary/index.md#wasted-hours" >}}) included?"_;
 
 The grey dots shows you the forecast of the various past budget versions.
 
@@ -38,23 +38,23 @@ On the right of the graph you have:
 
 1. **Baseline**: the first budget's hours amount;
 
-1. The variations of the budget's hours amount since the baseline was approved;
+2. The variations of the budget's hours amount since the baseline was approved;
 
-1. [**Contingency**]({{< relref "budget/index.md#the-price-s-detail" >}});
+3. \[**Contingency**\]({{< relref "budget/index.md#the-price-s-detail" >}});
 
-1. **Forecast**: the current budget's hours amount (Baseline + variations + contingency);
+4. **Forecast**: the current budget's hours amount (Baseline + variations + contingency);
 
-1. A resume of the worked, planned, wasted and still available hours.
+5. A resume of the worked, planned, wasted and still available hours.
 
 {{< img-center src="/uploads/2017/06/12/report-bc_ps.png" >}}
 
 ### Invoices & Orders
 
-Here are listed all the [orders]({{< relref "finance/index.md#orders" >}}) and [invoices]({{< relref "finance/index.md#invoices" >}}) linked to the project, clicking on one of them will take you to the related details.
+Here are listed all the \[orders\]({{< relref "finance/index.md#orders" >}}) and \[invoices\]({{< relref "finance/index.md#invoices" >}}) linked to the project, clicking on one of them will take you to the related details.
 
 ### Economics
 
-Here is shown the trend of various [budget's]({{< relref "budget/index.md" >}}) voices for the project:
+Here is shown the trend of various \[budget's\]({{< relref "budget/index.md" >}}) voices for the project:
 
 * **Revenues**: the project's final net price;
 
@@ -68,7 +68,7 @@ Here is shown the trend of various [budget's]({{< relref "budget/index.md" >}}) 
 
 * **Gross Margin**: the difference between final net price and costs (either internal and external);
 
-* **Wasted**: the wasted money, which is the sum of the wasted hours multiplied by the cost of their [levels]({{< relref "settings/index.md#company" >}});
+* **Wasted**: the wasted money, which is the sum of the wasted hours multiplied by the cost of their \[levels\]({{< relref "settings/index.md#company" >}});
 
 * **Net Margin**: the difference between gross margin and wasted.
 
@@ -84,13 +84,13 @@ For each indicator you can see its value for:
 
 * The **delta vs forecast**: difference between projected and forecast.
 
-The grey percentage under *margin* refers to the *revenues*.
+The grey percentage under _margin_ refers to the _revenues_.
 
 {{< img-center src="/uploads/2017/06/12/report-economics.png" >}}
 
 ### Timesheet / Project Status
 
-This is the only place in WETHOD where you can see the weekly details of a given project. Here you can quickly appreciate the relation between **worked hours**, **days left**(taken from the project status) and [**roadrunner index**]({{< relref "glossary/index.md#roadrunner-index-rri" >}}).
+This is the only place in WETHOD where you can see the weekly details of a given project. Here you can quickly appreciate the relation between **worked hours**, **days left**(taken from the project status) and \[**roadrunner index**\]({{< relref "glossary/index.md#roadrunner-index-rri" >}}).
 
 When worked hours grows, days left must decrease. If this doesn't happen, you have a problem: your teammates are working on something which doesn't move forward.
 
@@ -102,7 +102,7 @@ Here are reported, for each teammate who have worked to the project, the compari
 
 This is an overview of all Projects in terms of resources and time spent on the project, allowing you to analyse their health at a glance.
 
-For each pipeline's project, its [budget consumption]({{< relref "glossary/index.md#budget-consumption" >}}) is compared to its [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}):
+For each pipeline's project, its \[budget consumption\]({{< relref "glossary/index.md#budget-consumption" >}}) is compared to its \[progress\]({{< relref "glossary/index.md#absolute-project-progress" >}}):
 
 * If the project is **above the diagonal**: it's using a lot of days but it's progressing slowly than predictions based on budget;
 
@@ -130,7 +130,7 @@ How to read the project's position on the graph:
 
 ## Revenue Pipeline
 
-This report is composed by three sections which aggregate the [revenue pipeline]({{< relref "glossary/index.md#revenue-pipeline" >}}) **by probability**, **by client** or **by project type**.
+This report is composed by three sections which aggregate the \[revenue pipeline\]({{< relref "glossary/index.md#revenue-pipeline" >}}) **by probability**, **by client** or **by project type**.
 
 Each section shows a column diagram, where each column refers to a particular year (previous, current, next) and its generated by the projects which invoice plan hits that year. Clicking on a column will show a right panel with further information linked to the column itself.
 
@@ -148,7 +148,7 @@ Clicking on a subcolumn will show a panel listing all the grouped projects with 
 
 * Probability;
 
-* [Expected value]({{< relref "glossary/index.md#expected-value" >}}).
+* \[Expected value\]({{< relref "glossary/index.md#expected-value" >}}).
 
 {{< img-center src="/uploads/2017/08/28/rev_prog-prob.png" >}}
 
@@ -160,7 +160,7 @@ Clicking on a column will show a panel listing all the grouped projects with the
 
 * Value;
 
-* Percentage of influence on the [revenue pipeline]({{< relref "glossary/index.md#revenue-pipeline" >}}).
+* Percentage of influence on the \[revenue pipeline\]({{< relref "glossary/index.md#revenue-pipeline" >}}).
 
 {{< img-center src="/uploads/2017/08/28/rev_prog-client.png" >}}
 
@@ -172,7 +172,7 @@ Clicking on a column will show a panel listing all the grouped projects with the
 
 * Value;
 
-* Percentage of influence on the [revenue pipeline]({{< relref "glossary/index.md#revenue-pipeline" >}}).
+* Percentage of influence on the \[revenue pipeline\]({{< relref "glossary/index.md#revenue-pipeline" >}}).
 
 {{< img-center src="/uploads/2017/08/28/rev_prog-type.png" >}}
 
@@ -204,7 +204,7 @@ Clicking on a column will show a panel listing all the clients for which an invo
 
 ## Production Value
 
-This is an overview of the annual projects' [production value]({{< relref "glossary/index.md#production-value" >}}). By clicking on a specific month you can access that month's production value grouped **by client**, **by project** or **by week**.
+This is an overview of the annual projects' \[production value\]({{< relref "glossary/index.md#production-value" >}}). By clicking on a specific month you can access that month's production value grouped **by client**, **by project** or **by week**.
 
 {{< img-center src="/uploads/2017/06/12/production-value.png" >}}
 
@@ -212,9 +212,9 @@ This is an overview of the annual projects' [production value]({{< relref "gloss
 
 In this view you can see, for each project (and for the selected week):
 
-* The [roadrunner index]({{< relref "glossary/index.md#roadrunner-index-rri" >}});
+* The \[roadrunner index\]({{< relref "glossary/index.md#roadrunner-index-rri" >}});
 
-* The **lost production**: let's say people worked on a project for *A* hours and the project progressed of *B* hours. If *A* is greater than *B*  you've used more hours than expected and this value gives you how much production you've lost;
+* The **lost production**: let's say people worked on a project for _A_ hours and the project progressed of _B_ hours. If _A_ is greater than _B_  you've used more hours than expected and this value gives you how much production you've lost;
 
 * The **production value**;
 
@@ -224,7 +224,7 @@ In this view you can see, for each project (and for the selected week):
 
 * The **1D Value** **(Budget)**: estimated daily production value, that is "what's the expected value that must be produced for the project by day?". This is calculated by dividing the project's estimate by the project's budget days;
 
-* The **1D Value (Actual)**: actual daily production value, that is "what's the value produced for the project by day?". This is calculated by dividing the project's production value by the project's worked days. This value is green if it's greater than *1D Value (Budget)*, red otherwise;
+* The **1D Value (Actual)**: actual daily production value, that is "what's the value produced for the project by day?". This is calculated by dividing the project's production value by the project's worked days. This value is green if it's greater than _1D Value (Budget)_, red otherwise;
 
 * The **external cost**: project's external cost percentage on the total estimate.
 
@@ -232,7 +232,7 @@ You can switch between month's week by using the selector placed at the top of t
 
 ## Timesheets
 
-This is a weekly overview of the [timesheets]({{< relref "friday/index.md#timesheet" >}}) made by your teammates, each timesheet is coloured as the [job order category]({{< relref "settings/index.md#company" >}}) of the project it's linked to and you can see the project's name by clicking on its timesheet.
+This is a weekly overview of the \[timesheets\]({{< relref "friday/index.md#timesheet" >}}) made by your teammates, each timesheet is coloured as the \[job order category\]({{< relref "settings/index.md#company" >}}) of the project it's linked to and you can see the project's name by clicking on its timesheet.
 
 On the top left corner you can filter the displayed people.
 
@@ -248,7 +248,7 @@ You can chose between monthly and weekly visualization via the selector on the t
 
 {{< img-center src="/uploads/2017/08/28/RRI.png" >}}
 
-## Changelog
+## Project Changelog
 
 Here are listed all the changes done on value or probability of pipeline's projects.
 
@@ -265,3 +265,25 @@ For each change you can see:
 * The old probability and the updated probability;
 
 * The difference between the updated and the old [expected value](glossary/index.md#expected-value).
+
+## Budget Chagelog
+
+Here you can find a list of all the 'budget approval' sorted chronologically with information as:
+
+* Project name;
+
+* Project probability;
+
+* The client name;
+
+* The manger of the project;
+
+* The account of the project, if any;
+
+* The timestamp of the approval;
+
+* The value of the budget (old -> new);
+
+* The budget margin (old -> new);
+
+* The person who approved the budget;
