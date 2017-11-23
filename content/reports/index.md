@@ -270,7 +270,7 @@ For each change you can see:
 
 Here you can find a list of all the 'budget approval' sorted chronologically.
 
- With information as:
+With information as:
 
 * Project name;
 
