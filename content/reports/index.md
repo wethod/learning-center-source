@@ -266,7 +266,7 @@ For each change you can see:
 
 * The difference between the updated and the old [expected value](glossary/index.md#expected-value).
 
-## Budget Chagelog
+## Budget Changelog
 
 Here you can find a list of all the 'budget approval' sorted chronologically.
 
