@@ -268,7 +268,9 @@ For each change you can see:
 
 ## Budget Chagelog
 
-Here you can find a list of all the 'budget approval' sorted chronologically with information as:
+Here you can find a list of all the 'budget approval' sorted chronologically.
+
+ With information as:
 
 * Project name;
 
