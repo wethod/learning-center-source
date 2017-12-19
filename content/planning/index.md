@@ -6,7 +6,11 @@ weight: 40
 ---
 ## Overview
 
-The planning has two section: **People Allocation** and **Projects' Heatmap**, the first one is useful to look at teammates availability, allocate them for projects and check that you respect the budget quota, the second section shows the project's daily 'weight' or, in simple words, how many people ore planned on a project each day, it also offers a 'milestone' system that allow your team to see an overview on the important scheduled events.
+The planning has two section: **People Allocation** and **Projects' Heatmap**, the first one is useful to look at teammates availability, allocate them for projects and check that you respect the budget quota; the second section shows the daily amount of people needed by each project, it also offers a *milestone system* that allows your team to have an overview on the scheduled events.
+
+Everything is arranged into a six weeks calendar, you can explore past and future using the horizontal scroll or clicking on the top right arrow navigator.
+
+The blue dot in the calendar's header highlights the current day.
 
 ## People Allocation
 
@@ -36,22 +40,26 @@ You can plan a person by half-days: we think it's not worth planning by more fin
 
 {{< img-center src="/uploads/2017/11/02/planning-people.gif">}}
 
-The **filter people button** lets you combine different filters, for example you may decide to see only the internal employees which are managers and have a background in design (you can use \[tags\]({{< relref "settings/index.md#team" >}}) to divide employees into categories).
+The **filter people button** lets you combine different filters, for example you may decide to see only the internal employees which are managers and have a background in design (you can use [tags]({{< relref "settings/index.md#team" >}}) to divide employees into categories).
 
 {{< img-center src="/uploads/2017/11/02/planning-people-filters.png">}}
 
 ## Projects' Heatmap
 
-The '**heatmap**' is a graph useful to show the 'hot' zone, in this case we are showing the 'weight' of the planned projects: the darker the color, the more people ore planned on the project that day. The colors range is splitted in 10 levels from white to blue, where the darkest blue represents the most planned people on a project in a day for the visible range of time.
+This is useful to show the *weight* of each the planned project: the darker is the color of a cell, the more people ore planned on the project that day. 
 
-There is a six weeks calendar, with a blue dot on today, you can move in the date range via horizontal scroll. On the left we have the client acronym, the project name and the color of the job order category the project is part of. You can search for a client or a job order category via the search field. You can also 'hide' a single project from the heatmap by clicking on the 'x' near the project name.
+The color's range is made up of 10 levels from white to blue, where the darkest blue represents the most planned people on a project in a day for the visible range of time.
+
+By clicking on a day you can:
+*	See who is planned on a project for the day
+*	See and edit the **event** related to the day: usually a project's life is fullfilled of important events, by tracking them you're giving a general point of view to all of your organization. This is also useful to avoid overlapping of two or more important events that usually need a lot of resources.
+
+You can hide a project by clicking on the "**X**" near the project's name. 
 
 {{< note title="Note" >}}
 
-**The heatmap is always updated based on the visible projects and date range!**
+**The heatmap is always updated based on the visible projects and date range.**
 
 {{< /note >}}
-
-You can see the details of which people are planned by clicking on a day, there you can also add '**events**': when in a day a lot of people are planned on the same project probably there is some sort of event like a meeting, a travel or a project is ending, if so, you can them on the heatmap in order to create a better overview on what is goin on in your company. This is also useful to avoid the overlapping of two or more important event that usually need a lot of resources.
 
 {{< img-center src="/uploads/2017/11/15/heatmap.gif">}}
