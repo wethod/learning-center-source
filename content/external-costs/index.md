@@ -4,13 +4,11 @@ title: External Costs
 weight: 92
 
 ---
-
-
 ## Overview
 
 Here you can see the external costs listed in your projects' [budget](http://support.wethod.com/budget/index/) for each month of the current year.
 
-The monthly distribution is achieved by looking at the [invoice plan](http://support.wethod.com/pipeline/index/#invoice-plan) of every project, for example: if a project has a value of 10 K with 3 K planned to be invoiced in January and 7 K planned to be invoiced in February, we can also say that you planned to invoice 30% in January and 70% in February. So the external costs  of this project will contribute by 30% to the January's external costs and by 70% to February's external costs.
+The monthly distribution is achieved by looking at the [production plan](http://support.wethod.com/finance/index/#production-plan) of every project, for example: if a project has a value of 10 K with 3 K planned to be produced in January and 7 K planned to be produced in February, we can also say that you planned to invoice 30% in January and 70% in February. So the external costs  of this project will contribute by 30% to the January's external costs and by 70% to February's external costs.
 
 Three important indicators are given in the first three rows:
 
