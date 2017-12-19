@@ -4,8 +4,6 @@ title: Budget
 weight: 31
 
 ---
-
-
 ## Overview
 
 The budget is where you can list all the resources you think you'll need for the project.
@@ -44,11 +42,11 @@ Positioned on the top, this part shows the sum of the values for each column:
 
 * The first columns shows how many work days you need for each [user level]({{< relref "settings/index.md#company" >}});
 
-* **Ext C**. shows the sum of the *external costs*;
+* **Ext C**. shows the sum of the _external costs_;
 
 * **Days** shows the total amount of budget's days inserted;
 
-* **Cost** is the sum of each budget's day multiplied for the cost of the user level which will take care of it, this value is also called *internal costs*;
+* **Cost** is the sum of each budget's day multiplied for the cost of the user level which will take care of it, this value is also called _internal costs_;
 
 * **Price** is the suggested price we think is good to sell your project.
 
@@ -56,7 +54,7 @@ Positioned on the top, this part shows the sum of the values for each column:
 
 This is the most visible part and it's basically a table where you can assign days of a given user level to a task.
 
-A *task* is a macro activity needed to complete the project, related tasks can be grouped into *areas*.
+A _task_ is a macro activity needed to complete the project, related tasks can be grouped into _areas_.
 
 You can add new areas by using the "**+ AREA**" button: you can choose to add a default area or you can create a new one by typing its name.
 
@@ -68,7 +66,7 @@ Positioned on the right, this part shows some details about the project's price:
 
 * **Suggested net price**: the price we think is good to sell your project, calculated on the costs;
 
-* **Final net price**: regardless of the *suggested net price* , you can decide on your own what you think is the best price for the project;
+* **Final net price**: regardless of the _suggested net price_ , you can decide on your own what you think is the best price for the project;
 
 * **Discount**: the percentage of discount you want to apply to the final price;
 
@@ -80,15 +78,13 @@ Positioned on the right, this part shows some details about the project's price:
 
 1. Select a project from the [Pipeline](/pipeline/index/) and click on its budget button;
 
-1.
+2. Compile the budget;
 
-1. Compile the budget;
+3. Submit the budget for approval by clicking on the top left button "**submit for approval**";
 
-1. Submit the budget for approval by clicking on the top left button "**submit for approval**";
+4. When the budget is approved by a supervisor, you will be able to [plan](/planning/index/) some resource on the project and start working on it;
 
-1. When the budget is approved by a supervisor, you will be able to [plan](/planning/index/) some resource on the project and start working on it;
-
-1. Whenever you need to modify the budget, you can set it back to draft and restart from point **3**. Each time a new budget version is approved, it's saved and you can access it through the dropdown list under the Price's Detail panel.
+5. Whenever you need to modify the budget, you can set it back to draft and restart from point **3**. Each time a new budget version is approved, it's saved and you can access it through the dropdown list under the Price's Detail panel.
 
 ## Project Status Correction
 
