@@ -8,7 +8,7 @@ weight: 91
 
 Here you can see the value of your [projects](http://support.wethod.com/pipeline/index/#projects) for each month of the current year. 
 
-The monthly distribution is achieved by looking at the [invoice plan](http://support.wethod.com/pipeline/index/#invoice-plan) of every project, for example: if a project is evaluated 10 K with 3 K planned to be invoiced in January and 7 K planned to be invoiced in February, the value of this project will contribute with 3 K to the January's revenues and with 7 K to February's revenues.  
+The monthly distribution is achieved by looking at the [production plan](http://support.wethod.com/finance/index/#production-plan) of every project, for example: if a project is evaluated 10 K with 3 K planned to be produced in January and 7 K planned to be produced in February, the value of this project will contribute with 3 K to the January's revenues and with 7 K to February's revenues.  
 
 Three important indicators are given in the first three rows:
 
