@@ -6,7 +6,7 @@ weight: 70
 ---
 ## Orders
 
-In this section you can view all your orders and create new ones. Once you click on the "**Send**" button, an e-mail is sent to the address provided in the \[Email Bot\]({{< relref "settings/index.md#company" >}}) section.
+In this section you can view all your orders and create new ones. Once you click on the "**Send**" button, an e-mail is sent to the address provided in the [Email Bot]({{< relref "settings/index.md#company" >}}) section.
 
 To create a order:
 
@@ -24,7 +24,7 @@ To create a order:
 
 ## Invoices
 
-In this section you can view all your invoices and create new ones. Once you click on the "**Send**" button, an e-mail is sent to the address inserted in the \[Email Bot\]({{< relref "settings/index.md#company" >}}) section.
+In this section you can view all your invoices and create new ones. Once you click on the "**Send**" button, an e-mail is sent to the address inserted in the [Email Bot]({{< relref "settings/index.md#company" >}}) section.
 
 To create an invoice:
 
@@ -59,6 +59,12 @@ To create a supplier:
 
 ## Production Plan
 
-This section lets you plan the production of a project: you can specify what percentages of the total value of the project will be produced on each future months.
+Here you can specify the amount you're planning to product for each project. 
+The amount is expressed as a percentage of the project's total value.
 
-Based on your permission you will see a list of projects, you can edit this projects and save the plan where you are done, be aware that the total planning percent must be 100%.
+Past months are read-only and are automatically populated with the real production, based on the given month's project status.
+You can edit future months but remember: a project's production plan can be saved only if you've distributed the 100% of the production.
+
+Each time you edit a past project status, the related production plan is recalculated in order to allocate the remaining production or to adjust inchoerent plans. The adjustments are reported as orange monthly apex.
+
+A blue line indicates the project's duration, a dashed line instead tells you that the project's boundaries (the project start/end) are outside the visible planning's portion.
