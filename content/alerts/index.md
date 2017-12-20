@@ -31,7 +31,7 @@ This alert is shown to the project manager who have created an opportunity that'
 
 This alert is shown to the project manager of a project which has:
 
-* **An [invoice plan]({{< relref "pipeline/index.md#invoice plan" >}}) manually set;**
+* **An \[invoice plan\]({{< relref "pipeline/index.md#invoice plan" >}}) manually set;**
 * **A probability lower than 90%.**
 
 A project is considered active when its probability reaches 90%, only when this happens makes sense to think about creating a invoice plan.
@@ -46,7 +46,7 @@ _How to solve <span style="font-size: 1rem;">it</span>_? Approve the waiting bu
 
 ### Budget Consumption Too Fast
 
-This alert is shown if you’re the manager of a project where the [budget consumption]({{< relref "glossary/index.md##budget-consumption" >}}) is more than 20% greater than the project's [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}).
+This alert is shown if you’re the manager of a project where the \[budget consumption\]({{< relref "glossary/index.md##budget-consumption" >}}) is more than 20% greater than the project's \[progress\]({{< relref "glossary/index.md#absolute-project-progress" >}}).
 
 {{< img-center src="/uploads/2017/08/28/budget_cons_too_fast.png" >}}
 
@@ -60,7 +60,7 @@ _How to solve <span style="font-size: 1rem;">it</span>_? Talk to your teammates
 
 ### Budget Consumption Too Slow
 
-This alert is shown if you're manager of a project where the [budget consumption]({{< relref "reports/index.md#budget-consumption" >}}) is more than 20% lower than the project's [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}).
+This alert is shown if you're manager of a project where the \[budget consumption\]({{< relref "reports/index.md#budget-consumption" >}}) is more than 20% lower than the project's \[progress\]({{< relref "glossary/index.md#absolute-project-progress" >}}).
 
 {{< img-center src="/uploads/2017/08/28/budget_cons_too_slow.png" >}}
 
@@ -159,7 +159,7 @@ This alert is shown to the manager of a project if one of the following situatio
 * The probability is greater than 90% but the project hasn't a job order;
 * The probability si lower than 90% and the project has a job order.
 
-Remind: only active projects (which means projects with a probability greater or equal to 90%) must have a [job order]({{< relref "glossary/index.md#job-order" >}})
+Remind: only active projects (which means projects with a probability greater or equal to 90%) must have a \[job order\]({{< relref "glossary/index.md#job-order" >}})
 
 _How to solve <span style="font-size: 1rem;">it</span>_? Assign job order only to active projects.
 
@@ -173,7 +173,7 @@ _How to solve <span style="font-size: 1rem;">it</span>_? Remove planned people 
 
 ### Planning / Budget Status
 
-This alert is shown to the manager of a project which has planned future resources but hasn't an approved [budget]({{< relref "budget/index.md#budget" >}})
+This alert is shown to the manager of a project which has planned future resources but hasn't an approved \[budget\]({{< relref "budget/index.md#budget" >}})
 
 The planned resources say that the project is active but the budget is not approved, so the alert will remind you to approve it as soon as possible.You cannot plan resources if you haven’t got a budget  which gives you the right to do it.
 
@@ -193,7 +193,7 @@ _How to solve <span style="font-size: 1rem;">it</span>_? Ask the project manage
 
 ### Orders / External Cost
 
-This alert is shown to the manager of a project where the sum of orders, travels and expenses go over the [budget external cost]({{< relref "budget/index.md#budget external cost" >}}).
+This alert is shown to the manager of a project where the sum of orders, travels and expenses go over the \[budget external cost\]({{< relref "budget/index.md#budget external cost" >}}).
 
 You don't want to spend money you don't have, do you? You do not have to go over the budget!
 
@@ -203,5 +203,5 @@ _How to solve <span style="font-size: 1rem;">it</span>_? Review your expenses o
 
 This alert is shown when there is a mismatch between the ProductionPlan data and the Project duration, you could be in one of the following scenary:
 
-* The ProductioPlan on the first or last month of the Project lifespan is set to 0. This is a no sense, the project could start one month later or end one month earlier respectively.
+* The ProductionPlan on the first or last month of the Project lifespan is set to 0. This is a no sense, the project could start one month later or end one month earlier respectively.
 * There is a ProductionPlan before the project start or after the project end.
