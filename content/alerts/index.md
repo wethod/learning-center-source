@@ -2,7 +2,6 @@
 date: 2017-06-13 18:08:29 +0200
 title: Alerts
 weight: 21
-draft: true
 
 ---
 ## Overview
