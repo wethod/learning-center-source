@@ -205,3 +205,7 @@ This alert is shown when there is a mismatch between the ProductionPlan data and
 
 * The ProductionPlan on the first or last month of the Project lifespan is set to 0. This is a no sense, the project could start one month later or end one month earlier respectively.
 * There is a ProductionPlan before the project start or after the project end.
+
+### Production Plan Correction
+
+A Project has this Alert if the 'correction' applied on the future ProductionPlan if greater than 10%. A 'correction' is the difference between what you planned for a past month and what the Production came to be.
