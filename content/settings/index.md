@@ -44,13 +44,18 @@ Here you can configure your company by setting:
 
 * **User levels**: each one of your collaborators has a level which defines his daily cost to the company and the price you want to sell a day of his work to the clients. This way you can define clusters of employees like intern, junior, senior and so on;
 
-* 
+* **Job Order Categories**: here you can add the 'categories'of you projects, choosing a color, a name and various opsions such as:
+  * **Chargeable**: the projects in this category are billable
+  * **Everybody can plan**: the projects in this category can be planned by everybody, not only by its pm or account
+  * **Unlimited planning**: the projects in this category can be planned regardless budget availability
+  * **Must be in program**: the projects in this category must be added to a [Program]({{< relref "pipeline/index.md#programs" >}})
+  * **Time based progress**: the 'progress' of the projects in this category are not based on their 'projects status', but based on their duration (equally distributed on their lifespam indicated by date start and duration on the pipeline).
 
 * **Email Bot**: here you can insert the email addresses to which send invoices and orders;
 
 * **Project Won/Lost Bot**: here you can insert the email addresses to which send notifications each time someone of your teammates won or lost a project. A project is considered to be _lost_ when its probability is 0 and _won_ when its probability is 90;
 
-* **Default Areas**: these will be suggested when you're creating a \[new budget\]({{< relref "budget/index.md#the-workflow" >}}) or when you're adding a new area to an existing budget;
+* **Default Areas**: these will be suggested when you're creating a [new budget]({{< relref "budget/index.md#the-workflow" >}}) or when you're adding a new area to an existing budget;
 
 * **Timesheet**: here you can choose to automate the timesheets creation process. This way, timesheets are automatically created each Friday based on planned hours. _Be careful: Anything can go wrong because planning is not often 100% accurate, this is why timesheet exists._
 
