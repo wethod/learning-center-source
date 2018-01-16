@@ -14,6 +14,16 @@ To create a order:
 2. Compile the order's empty fields;
 3. Click on the "**create**" button.
 
+Fields description:
+
+* **Project**: the target Project
+* **Job Order**: the Job Order of the target Project of this Order, this field is auto compiled
+* **Supplier**: the target Supplier for this Order
+* **Purchase Code**: an identifier for the Order
+* **Date**: the issue date of this Order
+* **Duartion**: the timespan where this Order is produced/worked. By default uses Month Start and Duration of the related Project, but you should set the real date. e.g: If some external employee works for you on April and May you should set duration month start to May and duration to 2 months. 
+* **Note**: a note (text) that you can add to the Order
+
 {{< note title="Note" >}}
 
 **You can create orders only for projects you have already provided with job order and budget.**
