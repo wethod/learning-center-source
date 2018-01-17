@@ -6,7 +6,7 @@ weight: 70
 ---
 ## Orders
 
-In this section you can view all your orders and create new ones. Once you click on the "**Send**" button, an e-mail is sent to the address provided in the [Email Bot]({{< relref "settings/index.md#company" >}}) section.
+In this section you can view all your orders and create new ones. Once you click on the "**Send**" button, an e-mail is sent to the address provided in the \[Email Bot\]({{< relref "settings/index.md#company" >}}) section.
 
 To create a order:
 
@@ -21,7 +21,7 @@ Fields description:
 * **Supplier**: the target Supplier for this Order
 * **Purchase Code**: an identifier for the Order
 * **Date**: the issue date of this Order
-* **Duartion**: the timespan where this Order is produced/worked. By default uses Month Start and Duration of the related Project, but you should set the real date. e.g: If some external employee works for you on April and May you should set duration month start to May and duration to 2 months. 
+* **Duration**: the timespan where this Order is produced/worked. By default uses Month Start and Duration of the related Project, but you should set the real date. e.g: If some external employee works for you on April and May you should set duration month start to April and duration to 2 months.
 * **Note**: a note (text) that you can add to the Order
 
 {{< note title="Note" >}}
@@ -34,7 +34,7 @@ Fields description:
 
 ## Invoices
 
-In this section you can view all your invoices and create new ones. Once you click on the "**Send**" button, an e-mail is sent to the address inserted in the [Email Bot]({{< relref "settings/index.md#company" >}}) section.
+In this section you can view all your invoices and create new ones. Once you click on the "**Send**" button, an e-mail is sent to the address inserted in the \[Email Bot\]({{< relref "settings/index.md#company" >}}) section.
 
 To create an invoice:
 
