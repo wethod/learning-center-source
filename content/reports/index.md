@@ -88,11 +88,25 @@ The grey percentage under _margin_ refers to the _revenues_.
 
 {{< img-center src="/uploads/2017/06/12/report-economics.png" >}}
 
-### Timesheet / Project Status
+### Roadrunner Index - Days Left - Worked Hours
 
-This is the only place in WETHOD where you can see the weekly details of a given project. Here you can quickly appreciate the relation between **worked hours**, **days left**(taken from the project status) and [**roadrunner index**]({{< relref "glossary/index.md#roadrunner-index-rri" >}}).
+This three charts let you appreciate the trend of three primary indexes related with the project's progress:
 
-When worked hours grows, days left must decrease. If this doesn't happen, you have a problem: your teammates are working on something which doesn't move forward.
+* **Days Left**: data from the [Project Status]({{< relref "friday/index.md#project-status" >}}) are transposed into this chart to better highlight the weekly progress of the project;
+
+* **Worked Hours**: data from the [Timesheet]({{< relref "friday/index.md#timesheet" >}}) are used into this chart to visualize the weekly amount of work spent on the project;
+
+* **Roadrunner Index**: combining data from the two previous charts let us display the weekly [**Roadrunner Index**]({{< relref "glossary/index.md#roadrunner-index-rri" >}}) for the project.
+
+This is the only place in WETHOD where you can see the weekly details of a given project.
+
+When worked hours grows, days left must decrease. If this doesn't happen, you have a problem: your teammates are working on something which doesn't move forward and this is highlited by a Roadrunner Index which differs from the ideal value of 1.
+
+{{< img-center src="/uploads/2018/02/22/project-report.png" >}}
+
+Need a more detailed view? Just click and drag on a chart to include the area you want to zoom.
+
+{{< img-center src="/uploads/2018/02/23/rri-zoom.gif" >}}
 
 ### Hour / User
 
@@ -204,9 +218,27 @@ Clicking on a column will show a panel listing all the clients for which an invo
 
 ## Production Value
 
-This is an overview of the annual projects' [production value]({{< relref "glossary/index.md#production-value" >}}). By clicking on a specific month you can access that month's production value grouped **by client**, **by project** or **by week**.
+Here you can find an overview of the annual projects' [production value]({{< relref "glossary/index.md#production-value" >}}). Each month is displayed as a two overlapped columns:
 
-{{< img-center src="/uploads/2017/06/12/production-value.png" >}}
+* The brilliant-green area (the lower one) represents the production value weighted on the projects' probability. So, if a project has got a production value of 100 K but a probability of 90%, it concurs with 90 K to the month's weighted production value
+
+* The opaque-green area (the higher one) represents the gross production value that is, basically, a non weighted production value. So each project concurs with the 100% of its production value
+
+Above the production value's chart there's the monthly [Roadrunner Index]({{< relref "glossary/index.md#roadrunner-index-rri" >}}) which aggregates the pipeline's projects' Roadrunner Indexes by month.
+
+On the right you can see the **Resume Clock** which tells you:
+
+* The production target, as set in [Revenue Clock]({{< relref "dashboard/index.md#revenue-clock" >}})
+
+* The amount of weeks remaining until the end of the year (the grey area shows the percentage of the year gone )
+
+* The yearly weighted production value, by clicking on this area you can access the details about the yearly production value grouped **by client**, **by project** or **by week**
+
+* The yearly gross production value
+
+By clicking on a specific month you can access that month's production value grouped **by client**, **by project** or **by week**.
+
+{{< img-center src="/uploads/2018/02/23/production-value-report.png" >}}
 
 ### By Week
 
@@ -229,6 +261,10 @@ In this view you can see, for each project (and for the selected week):
 * The **external cost**: project's external cost percentage on the total estimate.
 
 You can switch between month's week by using the selector placed at the top of this section.
+
+{{< img-center src="/uploads/2018/02/22/production-value_weekly.png" >}}
+
+
 
 ## Timesheets
 
