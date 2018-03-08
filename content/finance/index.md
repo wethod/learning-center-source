@@ -6,12 +6,14 @@ weight: 70
 ---
 ## Orders
 
-In this section you can view all your orders and create new ones. Once you click on the "**Send**" button, an e-mail is sent to the address provided in the [Email Bot]({{< relref "settings/index.md#company" >}}) section.
+In this section you can see all your orders and create new ones. After creating an order you can send it and confirm it. Once you click on the "**Send**" button, an e-mail is sent to the address provided in the [Email Bot]({{< relref "settings/index.md#company" >}}) section.
 
-To create a order:
+After confiming an order you will not be able to edit it again.
+
+To create an order:
 
 1. Click on the top left "**+ order**" button and an empty order will be added to the list;
-2. Compile the order's empty fields;
+2. Compile the required fields;
 3. Click on the "**create**" button.
 
 Fields description:
@@ -21,8 +23,8 @@ Fields description:
 * **Supplier**: the target Supplier for this Order
 * **Purchase Code**: an identifier for the Order
 * **Date**: the issue date of this Order
-* **Duration**: the timespan where this Order is produced/worked. By default uses Month Start and Duration of the related Project, but you should set the real date. e.g: If some external employee works for you on April and May you should set duration month start to April and duration to 2 months.
-* **Note**: a note (text) that you can add to the Order
+* **Duration**: answers to the question "when this order will used for the project?", by default uses the project's start month and duration. For example: some external employees works for you on April and May so you should set start month to April and duration of 2 months.
+* **Note**: a brief text about the order. This is attached to the order's email and can be seen by your colleagues
 
 {{< note title="Note" >}}
 
@@ -34,7 +36,7 @@ Fields description:
 
 ## Invoices
 
-In this section you can view all your invoices and create new ones. Once you click on the "**Send**" button, an e-mail is sent to the address inserted in the [Email Bot]({{< relref "settings/index.md#company" >}}) section.
+In this section you can see all your invoices and create new ones. Once you click on the "**Send**" button, an e-mail is sent to the address inserted in the [Email Bot]({{< relref "settings/index.md#company" >}}) section.
 
 To create an invoice:
 
