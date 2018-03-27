@@ -19,7 +19,6 @@ Here you set your **name**, **surname** and **password**.
 If you have the right permissions, you can:
 
 * Change your invoice details;
-
 * Import existing projects.
 
 ## Team
@@ -29,9 +28,7 @@ Since you have the right permissions, you can: **invite people**, **assign speci
 To invite a new teammate:
 
 1. Click on the top left "**+ new user**" button;
-
 2. Assign a _user level_, a \*role \*and the _email address_ of the person you want to invite;
-
 3. Click the "**invite**" button. Once done, an email will be sent to the given address.
 
 You can assign up to two **tags** to each teammate, use these tags to create groups of employee. You can, for example, use a tag to describe the background of a person.
@@ -43,34 +40,35 @@ You can assign up to two **tags** to each teammate, use these tags to create gro
 Here you can configure your company by setting:
 
 * **User levels**: each one of your collaborators has a level which defines his daily cost to the company and the price you want to sell a day of his work to the clients. This way you can define clusters of employees like intern, junior, senior and so on;
-
 * **Job Order Categories**: here you can add the 'categories'of you projects, choosing a color, a name and various opsions such as:
   * **Chargeable**: the projects in this category are billable
   * **Everybody can plan**: the projects in this category can be planned by everybody, not only by its pm or account
   * **Unlimited planning**: the projects in this category can be planned regardless budget availability
   * **Must be in program**: the projects in this category must be added to a [Program]({{< relref "pipeline/index.md#programs" >}})
   * **Time based progress**: the 'progress' of the projects in this category are not based on their 'projects status', but based on their duration (equally distributed on their lifespam indicated by date start and duration on the pipeline).
-
 * **Email Bot**: here you can insert the email addresses to which send invoices and orders;
-
 * **Project Won/Lost Bot**: here you can insert the email addresses to which send notifications each time someone of your teammates won or lost a project. A project is considered to be _lost_ when its probability is 0 and _won_ when its probability is 90;
-
 * **Default Areas**: these will be suggested when you're creating a [new budget]({{< relref "budget/index.md#the-workflow" >}}) or when you're adding a new area to an existing budget;
-
 * **Timesheet**: here you can choose to automate the timesheets creation process. This way, timesheets are automatically created each Friday based on planned hours. _Be careful: Anything can go wrong because planning is not often 100% accurate, this is why timesheet exists._
+
+## Alerts Engine
+
+Here you can manage the [alerts]({{< relref "alerts/index.md">}}) for your company, for each alert you can: enable/disable it, change its priority and edit its parameters (if required).
+
+{{< img-center src="/uploads/2018/03/27/alert-engine.png">}}
+
+Changing an alert's priority is as simple as positioning your cursor on the current priority and click on the new one:
+
+{{< img-center src="/uploads/2018/03/27/alerts-engine_edit-priority.gif">}}
 
 ## Permissions
 
 Here you can set permissions for the various user's role:
 
 * **Budget, Invoices, Orders, Pipeline, Planning, Project Status, Timesheet**: who can do what;
-
 * **Dashboard**: which widgets are available to who;
-
 * **Header**: which section of WETHOD are available;
-
 * **Reports**: which sections of \*Reports \*are available;
-
 * **Settings**: who can access _Settings_.
 
 _Here the word "other" means "of his/her teammates". For example: in the budget table, "view other" means "view his/her teammates budget"._
@@ -80,9 +78,7 @@ _The roles "Account" and "PM" are dynamic: you can assign them only from a proje
 To create a new role:
 
 1. Click on the top left "**+ add role**" button;
-
 2. Assign a name to the newly created role;
-
 3. Click the "**save**" button.
 
 ## Switch Company
