@@ -62,7 +62,7 @@ The first columns shows how many work days you need for each _user level_;
 * **Cost**: is the sum of the budget’s days multiplied by the cost of the user level that will
 
   take care of it. This value is also called internal costs;
-* **Price**: is the suggested price we think is optimal to sell your project.
+* **Price**: is the suggested price we think is optimal to sell your project. 
 
 ## The Workflow
 
