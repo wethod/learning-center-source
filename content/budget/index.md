@@ -29,19 +29,13 @@ When a project reach 50% of probability, it's a good practice to make a budget f
 
 The budget section is composed by three main parts: project details, price details and the budget editor.
 
---image--
-
 ### **Project details** 
 
 Positioned in the top left, this part shows project information details such as the client, project name, project type, PM name, duration and probability. In this section, you can also add notes or see the budget consumption/project status graph. 
 
---image--
-
 ### **Price Details** 
 
 Positioned in the top right, this part shows some details about the project’s price:
-
---image--
 
 * **Suggested net price**: the price we think is good to sell your project, calculated by the costs;
 * **Final net price**: regardless of the suggested net price, you can decide on your own what you think is the best price for the project;
@@ -50,8 +44,6 @@ Positioned in the top right, this part shows some details about the project’s 
 * **Discount**: the percentage of discount you want to apply to the suggested price;
 
 ### Budget editor
-
---image--
 
 This is basically a table where you can assign days to a given user level of a _task_. A _task_ is a macro activity needed to complete the project, related tasks can be grouped into _areas_.
 
