@@ -36,9 +36,13 @@ The budget section is composed by three main parts: project details, price detai
 
 Positioned in the top left, this part shows project information details such as the client, project name, project type, PM name, duration and probability. In this section, you can also add notes or see the budget consumption/project status graph.
 
+![](/uploads/2018/05/21/budget_mockup_8-info.png)
+
 ### **Price Details**
 
 Positioned in the top right, this part shows some details about the project’s price:
+
+![](/uploads/2018/05/21/budget_mockup_8_prices.png)
 
 * **Suggested net price**: the price we think is good to sell your project, calculated by the costs;
 * **Final net price**: regardless of the suggested net price, you can decide on your own what you think is the best price for the project;
