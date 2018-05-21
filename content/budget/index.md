@@ -30,7 +30,7 @@ When a project reach 50% of probability, it's a good practice to make a budget f
 
 The budget section is composed by three main parts: project details, price details and the budget editor.
 
-![](/uploads/2018/05/21/budget_mockup_desktop.png)
+![](/uploads/2018/05/21/budget_mockup_desktop-1.png)
 
 ### **Project details**
 
