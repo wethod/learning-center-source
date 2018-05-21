@@ -32,6 +32,8 @@ The budget section is composed by three main parts: project details, price detai
 
 {{< img-center src="/uploads/2018/05/21/budget-800.png">}}
 
+{{< img-center src="/uploads/2018/05/21/b-800-8.png">}}
+
 ### **Project details**
 
 Positioned in the top left, this part shows project information details such as the client, project name, project type, PM name, duration and probability. In this section, you can also add notes or see the budget consumption/project status graph.
