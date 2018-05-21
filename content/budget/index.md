@@ -30,6 +30,8 @@ When a project reach 50% of probability, it's a good practice to make a budget f
 
 The budget section is composed by three main parts: project details, price details and the budget editor.
 
+![](/uploads/2018/05/21/budget_mockup_desktop.png)
+
 ### **Project details**
 
 Positioned in the top left, this part shows project information details such as the client, project name, project type, PM name, duration and probability. In this section, you can also add notes or see the budget consumption/project status graph.
