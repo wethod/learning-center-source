@@ -36,13 +36,13 @@ The budget section is composed by three main parts: project details, price detai
 
 Positioned in the top left, this part shows project information details such as the client, project name, project type, PM name, duration and probability. In this section, you can also add notes or see the budget consumption/project status graph.
 
-![](/uploads/2018/05/21/budget_mockup_8-info.png)
+![](/uploads/2018/05/21/budget_mockup_info.png)
 
 ### **Price Details**
 
 Positioned in the top right, this part shows some details about the project’s price:
 
-![](/uploads/2018/05/21/budget_mockup_8_prices.png)
+![](/uploads/2018/05/21/budget_mockup_prices.png)
 
 * **Suggested net price**: the price we think is good to sell your project, calculated by the costs;
 * **Final net price**: regardless of the suggested net price, you can decide on your own what you think is the best price for the project;
@@ -53,6 +53,8 @@ Positioned in the top right, this part shows some details about the project’s 
 ### Budget editor
 
 This is basically a table where you can assign days to a given user level of a _task_. A _task_ is a macro activity needed to complete the project, related tasks can be grouped into _areas_.
+
+![](/uploads/2018/05/21/budget_mockup_editor.png)
 
 _Areas_ are macro activities needed to complete the project. Each area contains micro activities or _tasks_.
 
