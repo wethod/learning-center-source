@@ -11,8 +11,6 @@ The budget is where you can list all the resources you think you'll need for the
 
 {{< img-center src="/uploads/2017/08/28/budget-giftop.gif">}}
 
-{{< img-center src="/uploads/2018/05/21/mockup_editor.png">}}
-
 Basically, this is the place where you try define (for a project):
 
 * How many people you need;
@@ -31,6 +29,8 @@ When a project reach 50% of probability, it's a good practice to make a budget f
 ## The Structure
 
 The budget section is composed by three main parts: project details, price details and the budget editor.
+
+{{< img-center src="/uploads/2018/05/21/budget_mockup_.png">}}
 
 ### **Project details**
 
