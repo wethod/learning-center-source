@@ -50,8 +50,6 @@ Positioned in the top right, this part shows some details about the project’s 
 
 This is basically a table where you can assign days to a given user level of a _task_. A _task_ is a macro activity needed to complete the project, related tasks can be grouped into _areas_.
 
-{{< img-center src="/uploads/2018/05/21/mockup_editor.png">}}
-
 _Areas_ are macro activities needed to complete the project. Each area contains micro activities or _tasks_.
 
 You can add new _areas_ by using the “**+ AREA**” button: you can choose to add a default _area_ or you can create a new one by typing its name.
