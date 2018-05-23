@@ -28,14 +28,17 @@ When a project reach 50% of probability, it's a good practice to make a budget f
 
 ## The Structure
 
-The budget section is composed by three main parts: project details, price details and the budget editor
+The budget section is composed by three main parts: project details, price details and the budget editor.
 
 {{< img-center src="/uploads/2018/05/23/support.budget_intero-2.png">}}
 
 
 ### **Project details**
 
-Positioned in the top left, this part shows project information details such as the client, project name, project type, PM name, duration and probability. In this section, you can also add notes or see the budget consumption/project status graph.
+Positioned in the top left, this part shows project information details such as the client, project name, project type, PM name, duration and probability. In this section, you can also:
+
+* see the budget consumption/project status graph.
+* add notes, see the goal of the projects as well as the login history.
 
 {{< img-center src="/uploads/2018/05/23/support.budget_infosproject.png">}}
 
