@@ -37,8 +37,8 @@ The budget section is composed by three main parts: project details, price detai
 
 Positioned in the top left, this part shows project information details such as the client, project name, project type, PM name, duration and probability. In this section, you can also:
 
-* see the budget consumption/project status graph.
-* add notes, see the goal of the projects as well as the login history.
+* see the **budget consumption/project status graph**.
+* add **notes**, see the project's **goal** and go through the **logs history**.
 
 {{< img-center src="/uploads/2018/05/23/support.budget_infosproject.png">}}
 
