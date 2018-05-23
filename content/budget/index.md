@@ -28,13 +28,15 @@ When a project reach 50% of probability, it's a good practice to make a budget f
 
 ## The Structure
 
-The budget section is composed by three main parts: project details, price details and the budget editor.
+The budget section is composed by three main parts: project details, price details and the budget editor
 
-![](/uploads/2018/05/23/support.budget_intero.png)
+![](/uploads/2018/05/23/support.budget_intero-2.png)
 
 ### **Project details**
 
 Positioned in the top left, this part shows project information details such as the client, project name, project type, PM name, duration and probability. In this section, you can also add notes or see the budget consumption/project status graph.
+
+![](/uploads/2018/05/23/support.budget_infosproject.png)
 
 ### **Price Details**
 
@@ -45,6 +47,8 @@ Positioned in the top right, this part shows some details about the project’s 
 * **Margin**: the difference between suggested net price and the costs;
 * **Contingency**: life is unpredictable and the unexpected is behind every corner, so why not be prepared for it? A percentage of contingency means that you know your budget isn’t perfect so you’re estimating using more days, just in case. The contingency gives you more days which you can use at every user level but, on the other hand, the suggested net price will grow;
 * **Discount**: the percentage of discount you want to apply to the suggested price;
+
+![](/uploads/2018/05/23/support.budget_prices.png)
 
 ### Budget editor
 
@@ -64,6 +68,8 @@ The first columns shows how many work days you need for each _user level_;
 * **Days**: shows the total amount of the budget’s days inserted;
 * **Cost**: is the sum of the budget’s days multiplied by the cost of the user level that will take care of it. This value is also called internal costs;
 * **Price**: is the suggested price we think is optimal to sell your project.
+
+![](/uploads/2018/05/23/support.budget_editor.png)
 
 ## The Workflow
 
