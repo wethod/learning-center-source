@@ -16,7 +16,8 @@ fields:
 - name: type
   type: text
   label: Type
-  config: {}
+  config: 
+    required: false
 - name: weight
   type: text
   label: Weight
