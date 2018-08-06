@@ -2,7 +2,6 @@
 date: 2017-05-22 13:51:35 +0000
 title: Friday
 weight: 50
-draft: true
 
 ---
 ## Overview
