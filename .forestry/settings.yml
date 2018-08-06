@@ -3,7 +3,102 @@ new_page_extension: md
 auto_deploy: true
 admin_path: 
 webhook_url: 
-sections: 
+sections:
+- type: directory
+  path: content
+  label: Pages
+  create: all
+  match: "*"
+- type: directory
+  path: content/planning
+  label: Planning
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/glossary
+  label: Glossary
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/pipeline
+  label: Pipeline
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/marketing
+  label: Marketing
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/external-costs
+  label: External costs
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/general-admin
+  label: General admin
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/payroll
+  label: Payroll
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/faq
+  label: Faq
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/revenues
+  label: Revenues
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/finance
+  label: Finance
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/reports
+  label: Reports
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/settings
+  label: Settings
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/profit-loss
+  label: Profit loss
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/getting-started
+  label: Getting started
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/dashboard
+  label: Dashboard
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/friday
+  label: Friday
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/budget
+  label: Budget
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/alerts
+  label: Alerts
+  create: all
+  match: "**/*"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: "/uploads"
