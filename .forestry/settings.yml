@@ -5,23 +5,8 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
-- type: directory
-  path: content/planning
-  label: Planning
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/glossary
-  label: Glossary
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/pipeline
-  label: Pipeline
+  path: content/payroll
+  label: Payroll
   create: all
   match: "**/*"
 - type: directory
@@ -35,18 +20,13 @@ sections:
   create: all
   match: "**/*"
 - type: directory
+  path: content/profit-loss
+  label: Profit loss
+  create: all
+  match: "**/*"
+- type: directory
   path: content/general-admin
   label: General admin
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/payroll
-  label: Payroll
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/faq
-  label: Faq
   create: all
   match: "**/*"
 - type: directory
@@ -55,8 +35,13 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/finance
-  label: Finance
+  path: content/alerts
+  label: Alerts
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/budget
+  label: Budget
   create: all
   match: "**/*"
 - type: directory
@@ -70,18 +55,18 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/profit-loss
-  label: Profit loss
+  path: content/finance
+  label: Finance
   create: all
   match: "**/*"
 - type: directory
-  path: content/getting-started
-  label: Getting started
+  path: content/faq
+  label: Faq
   create: all
   match: "**/*"
 - type: directory
-  path: content/dashboard
-  label: Dashboard
+  path: content/glossary
+  label: Glossary
   create: all
   match: "**/*"
 - type: directory
@@ -90,13 +75,28 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/budget
-  label: Budget
+  path: content
+  label: Pages
+  create: all
+  match: "*"
+- type: directory
+  path: content/getting-started
+  label: Getting started
   create: all
   match: "**/*"
 - type: directory
-  path: content/alerts
-  label: Alerts
+  path: content/planning
+  label: Planning
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/pipeline
+  label: Pipeline
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/dashboard
+  label: Dashboard
   create: all
   match: "**/*"
 upload_dir: static/uploads

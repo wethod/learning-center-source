@@ -1,5 +1,5 @@
 ---
-date: 2017-05-22 15:51:35 +0200
+date: 2017-05-22 13:51:35 +0000
 title: Friday
 weight: 50
 
@@ -11,9 +11,7 @@ WETHOD follows a weekly cycle: we think that a week is a good trade-off between 
 Every Friday an e-mail will remind:
 
 * Each project manager to compile the Project Status for its projects;
-
 * Each collaborator to compile the Timesheet for the projects he worked on.
-
 
 ## Timesheet
 
@@ -21,12 +19,11 @@ At the end of each week, type in here the actual hours you've spent working on t
 
 Each project can be pinned to find it faster later.
 
-The data inserted here will be used to determine the actual [budget consumption]({{< relref "reports/index.md#budget-consumption" >}}) in terms of work hours for each project.
+The data inserted here will be used to determine the actual \[budget consumption\]({{< relref "reports/index.md#budget-consumption" >}}) in terms of work hours for each project.
 
 **Remember to insert only the real worked hours, cheating isn't useful to anybody.**
 
 {{< img-center src="/uploads/2017/06/09/timsheet-cut.png" >}}
-
 
 ## Project Status
 
