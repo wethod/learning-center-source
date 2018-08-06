@@ -27,7 +27,7 @@ At the end of each week, type in here the actual hours you have spent working on
 
 Each project can be pinned to find it faster later.
 
-{{< img-center src="/uploads/2018/07/23/timesheet_weekly.png" >}}
+{{< img-center src="/uploads/2018/08/06/timesheet_weekly.png" >}}
 
 _To use this type of timesheet:
 Go to company settings from your profile, then select timesheets and leave all the options blank._
@@ -46,7 +46,7 @@ You can now have a detailed Timesheet that allows you to:
 
 * Specify between normal working hours, travel hours, overnight shifts or     overtime.
 
-{{< img-center src="/uploads/2018/07/20/wethod_timesheet_detailed.png" >}}
+{{< img-center src="/uploads/2018/08/06/wethod_timesheet_detailed.png" >}}
 
 _To use this type of timesheet: 
 Go to “Company” from your profile, then select “Timesheet” and choose option “Detailed”._
@@ -70,7 +70,4 @@ For each project the last project status is shown too, this way you can quickly 
 
 **Project Status must not be compiled looking at Timesheet, but thinking seriously about how much work still to be done.**
 
-{{< img-center src="/uploads/2018/07/20/wethod_ps_percentage.png" >}}
-
-
-
+{{< img-center src="/uploads/2018/08/06/wethod_ps_percentage.png" >}}
