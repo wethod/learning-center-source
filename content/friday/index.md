@@ -2,6 +2,7 @@
 date: 2017-05-22 13:51:35 +0000
 title: Friday
 weight: 50
+draft: true
 
 ---
 ## Overview
@@ -11,19 +12,55 @@ WETHOD follows a weekly cycle: we think that a week is a good trade-off between 
 Every Friday an e-mail will remind:
 
 * Each project manager to compile the Project Status for its projects;
+
 * Each collaborator to compile the Timesheet for the projects he worked on.
+
 
 ## Timesheet
 
-At the end of each week, type in here the actual hours you've spent working on the projects you are involved in. It's all really easy, fast and simple.
+**Remember to insert only the real worked hours, cheating isn't useful to anybody.** The data inserted here will be used to determine the actual [budget consumption]({{< relref "reports/index.md#budget-consumption" >}}) in terms of working hours for each project.
+
+
+**Weekly** (default)
+
+At the end of each week, type in here the actual hours you have spent working on the projects you are involved in. It's all really easy, fast and simple.
 
 Each project can be pinned to find it faster later.
 
-The data inserted here will be used to determine the actual \[budget consumption\]({{< relref "reports/index.md#budget-consumption" >}}) in terms of work hours for each project.
+{{< img-center src="/uploads/2018/07/23/timesheet_weekly.png" >}}
 
-**Remember to insert only the real worked hours, cheating isn't useful to anybody.**
+_To use this type of timesheet:
+Go to company settings from your profile, then select timesheets and leave all the options blank._
 
-{{< img-center src="/uploads/2017/06/09/timsheet-cut.png" >}}
+
+**Detailed**
+
+A brand new timesheet is now available and ready to use!
+
+You can now have a detailed Timesheet that allows you to:
+
+* Compile timesheet daily.
+
+* Do timesheet on a singular project area. 
+  The project areas will be the same as listed in the project budget. 
+
+* Specify between normal working hours, travel hours, overnight shifts or     overtime.
+
+{{< img-center src="/uploads/2018/07/20/wethod_timesheet_detailed.png" >}}
+
+_To use this type of timesheet: 
+Go to “Company” from your profile, then select “Timesheet” and choose option “Detailed”._
+
+
+**Automatic** 
+
+Timesheet is automatically compiled on Sundays, based on Planning.
+
+_To use this type of timesheet: 
+Go to “Company” from your profile, then select “Timesheet” and choose option “Automatic”._
+
+
+
 
 ## Project Status
 
@@ -33,4 +70,7 @@ For each project the last project status is shown too, this way you can quickly 
 
 **Project Status must not be compiled looking at Timesheet, but thinking seriously about how much work still to be done.**
 
-{{< img-center src="/uploads/2017/06/09/project-status-cut.png" >}}
+{{< img-center src="/uploads/2018/07/20/wethod_ps_percentage.png" >}}
+
+
+
