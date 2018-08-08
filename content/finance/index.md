@@ -59,12 +59,11 @@ To create an invoice:
 ## Clients
 
 In this section you can view your contact list filtered by people or companies.
-_Tags_ are used to define a contact in order to make better researches.
 
+_Tags_ are used to define a contact in order to make better researches.
 
 {{< img-center src="/uploads/2018/08/08/research_vr.png" >}}
 
-_Tags_ are used to define a contact in order to make better researches.
 
 
 **To add a Person (client)**:
