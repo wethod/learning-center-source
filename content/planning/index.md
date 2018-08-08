@@ -7,7 +7,11 @@ draft: true
 ---
 ## Overview
 
-The planning has two section: **People Allocation** and **Projects' Heatmap**, the first one is useful to look at teammates availability, allocate them for projects and check that you respect the budget quota; the second section shows the daily amount of people needed by each project, it also offers a _milestone system_ that allows your team to have an overview on the scheduled events.
+The planning has two section: 
+
+* **People Allocation** helps you to look for teammates availability,  resources allocation and check if the budget quota is respected. 
+
+* **Projects' Heatmap** shows the daily amount of people planned on each project. It also offers a _milestone system_ that allows your team to have an overview on the scheduled events.
 
 Everything is arranged into a six weeks calendar, you can explore past and future using the horizontal scroll or clicking on the top right arrow navigator.
 
@@ -17,9 +21,9 @@ The blue dot in the calendar's header highlights the current day.
 
 On the top you have three buttons, from the left:
 
-* The **select project button** lets you search for a project and pick one from the list;
-* The **filter people button** lets you filter the teammates you want to see in the planning;
-* The **switch weeks button** lets you travel in time, you can see future and past weeks.
+* The **select project** button lets you search for a project and pick one from the list;
+* The **filter people** button lets you filter the teammates you want to see in the planning;
+* The **switch weeks** button lets you travel in time, you can see future and past weeks.
 
 When you select a project, only the half-days allocated for that project will be highlighted, this allows you to have a general point of view on the teammates which are already on the project.  For the same reason, selecting a project will sort people by showing first all those who were planned on the project at least once. Because is better to work with people that are aware of the challenge, right?
 
@@ -45,7 +49,7 @@ The **filter people button** lets you combine different filters, for example you
 
 ## Projects' Heatmap
 
-This is useful to show the _weight_ of each the planned project: the darker is the color of a cell, the more people ore planned on the project that day.
+This is useful to show the _weight_ of planned people on each project: the darker is the color of a cell, the more people are planned on the project that day.
 
 The color's range is made up of 10 levels from white to blue, where the darkest blue represents the most planned people on a project in a day for the visible range of time.
 
