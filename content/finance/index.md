@@ -2,6 +2,7 @@
 date: 2017-05-24 10:06:54 +0000
 title: Finance
 weight: 70
+draft: true
 
 ---
 ## Orders
@@ -65,7 +66,7 @@ _Tags_ are used to define a contact in order to make better researches.
 
 
 
-**To add a Person (client)**:
+**To add a Person**:
 
 1. Go to “People” section, on the top right corner;
 2. Click add person "**+ person**" on the top left corner;
@@ -76,17 +77,17 @@ _Tags_ are used to define a contact in order to make better researches.
 Click on a name on the list to view more details and the projects you made with your contact.
 
 
-**To add a Company (client)**:
+**To add a Company**:
 
 1. Go to “Companies” section, on the top right corner;
-2. Click add company “**+ company**” on the top left corner;
+2. Click add company “**add company**” on the top left corner;
 3. Fill with the company details;
 4. Click on the “**save**” button.
 
 Click on a company name on the list to view and add more details, view current projects made with them and the linked company contacts.
 
-* _Which project I've done with this client?_
-* _How many contacts do I have from a single company?_
+_Which project I've done with this client?_
+_How many contacts do I have from a single company?_
 
 {{< img-center src="/uploads/2018/08/08/scheda_company.png" >}}
 
