@@ -1,7 +1,8 @@
 ---
-date: 2016-03-12 20:08:11 +0100
+date: 2016-03-12 19:08:11 +0000
 title: Planning
 weight: 40
+draft: true
 
 ---
 ## Overview
@@ -65,8 +66,7 @@ You can hide a project by clicking on the "**X**" near the project's name.
 
 ## Production Plan
 
-Here you can specify the amount you're planning to product for each project. 
-The amount is expressed as a percentage of the project's total value.
+Here you can specify the amount you're planning to produce for each project. The amount is expressed as a percentage of the project's total value.
 
 Past months are read-only and are automatically populated with the real production, based on the month's project status.
 You can edit future months but remember: a production plan can be saved only if you've distributed the 100% of its value, you can easily chek this by looking at the total: a red total means that you need to distribute the remaining amount.
