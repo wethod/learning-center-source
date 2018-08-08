@@ -56,14 +56,17 @@ To create an invoice:
 **You can create invoices only for projects you have already provided with job order and budget**
 {{< /note >}}
 
-## Clients (Updated!)
+## Clients
 
 In this section you can view your contact list filtered by people or companies.
-Which project have you done with a client? How many contacts do I have inside a company contact?
+
+* _Which project I've done with this client?_
+* _How many contacts do I have inside a company contact?_
 
 {{< img-center src="/uploads/2018/08/08/lista_anagrafica.png" >}}
 
-Tags: are used to define a contact in order to make better researches.
+_Tags_ are used to define a contact in order to make better researches.
+
 
 To add a Person (client):
 
