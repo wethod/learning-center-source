@@ -1,7 +1,8 @@
 ---
-date: 2017-05-24 12:06:54 +0200
+date: 2017-05-24 10:06:54 +0000
 title: Finance
 weight: 70
+draft: true
 
 ---
 ## Orders
@@ -55,15 +56,37 @@ To create an invoice:
 **You can create invoices only for projects you have already provided with job order and budget**
 {{< /note >}}
 
-## Clients
+## Clients (Updated!)
 
-In this section you can view all your clients and create new ones.
+In this section you can view your contact list filtered by people or companies.
+Which project have you done with a client? How many contacts do I have inside a company contact?
 
-To create a client:
+{{< img-center src="/uploads/2018/08/08/lista_anagrafica.png" >}}
 
-1. Click on the top left "**+ client**" button and an empty client will be added to the list;
-2. Compile the client's empty fields;
-3. Click on the "**save**" button.
+Tags: are used to define a contact in order to make better researches.
+
+To add a Person (client):
+
+1. Go to “People” section, on the top right corner;
+2. Click add person "**+ person**" on the top left corner;
+3. Compile the client's empty fields;
+4. Add tags to your contact for a better search. 
+5. Click on the "**save**" button.
+
+Click on a name on the list to view more details and the projects you made with your contact.
+
+
+To add a Company (client):
+
+1. Go to “Companies” section, on the top right corner;
+2. Click add company “**+ company**” on the top left corner;
+3. Fill with the company details;
+4. Click on the “**save**” button.
+
+Click on a company name on the list to view and add more details, view current projects made with them and the linked company contacts.
+
+{{< img-center src="/uploads/2018/08/08/scheda_company.png" >}}
+
 
 ## Suppliers
 
