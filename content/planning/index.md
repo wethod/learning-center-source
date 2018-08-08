@@ -2,7 +2,6 @@
 date: 2016-03-12 19:08:11 +0000
 title: Planning
 weight: 40
-draft: true
 
 ---
 ## Overview
