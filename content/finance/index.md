@@ -63,7 +63,7 @@ In this section you can view your contact list filtered by people or companies.
 * _Which project I've done with this client?_
 * _How many contacts do I have inside a company contact?_
 
-{{< img-center src="/uploads/2018/08/08/lista_anagrafica.png" >}}
+{{< img-center src="/uploads/2018/08/08/research_vr.png" >}}
 
 _Tags_ are used to define a contact in order to make better researches.
 
