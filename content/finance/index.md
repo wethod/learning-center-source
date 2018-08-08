@@ -59,16 +59,15 @@ To create an invoice:
 ## Clients
 
 In this section you can view your contact list filtered by people or companies.
+_Tags_ are used to define a contact in order to make better researches.
 
-* _Which project I've done with this client?_
-* _How many contacts do I have inside a company contact?_
 
 {{< img-center src="/uploads/2018/08/08/research_vr.png" >}}
 
 _Tags_ are used to define a contact in order to make better researches.
 
 
-To add a Person (client):
+**To add a Person (client)**:
 
 1. Go to “People” section, on the top right corner;
 2. Click add person "**+ person**" on the top left corner;
@@ -79,7 +78,7 @@ To add a Person (client):
 Click on a name on the list to view more details and the projects you made with your contact.
 
 
-To add a Company (client):
+**To add a Company (client)**:
 
 1. Go to “Companies” section, on the top right corner;
 2. Click add company “**+ company**” on the top left corner;
@@ -87,6 +86,9 @@ To add a Company (client):
 4. Click on the “**save**” button.
 
 Click on a company name on the list to view and add more details, view current projects made with them and the linked company contacts.
+
+* _Which project I've done with this client?_
+* _How many contacts do I have from a single company?_
 
 {{< img-center src="/uploads/2018/08/08/scheda_company.png" >}}
 
