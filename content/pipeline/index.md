@@ -120,7 +120,7 @@ Projects are often stages or parts of something bigger, you can use a Program to
 
 Sometimes managing your customer’s relations can be difficult if you are working in a team and can lose your track.
 
-With Wethod you can keep record of all your customer relationship’s history in a timeline. Everybody in the team can access to the timeline and log new activities like:
+With Wethod you can keep record of all your **customer relationship’s history in a timeline**. Everybody in the team can access to and log new activities like:
 
 * **Calls**
 * **Emails** with addressee, content and files attached.
@@ -128,5 +128,3 @@ With Wethod you can keep record of all your customer relationship’s history in
 * **Milestones** (coming soon)
 
 You can also **set reminders** for the future, **add follow ups** of existing events and **tag colleagues** in the event description.
-
-
