@@ -1,0 +1,107 @@
+baseurl = "http://support.wethod.com/"
+canonifyurls = true
+googleAnalytics = ""
+languageCode = "en-us"
+metadataformat = "yaml"
+theme = "hugo-material-docs"
+title = "WETHOD / Learning Center"
+[blackfriday]
+fractions = true
+plainIDAnchors = true
+smartDashes = true
+smartypants = true
+[[menu.economics]]
+name = "Payroll"
+url = "payroll/index/"
+weight = 93
+[[menu.economics]]
+name = "G & A"
+url = "general-admin/index/"
+weight = 94
+[[menu.economics]]
+name = "Marketing"
+url = "marketing/index/"
+weight = 95
+[[menu.economics]]
+name = "External Costs"
+url = "external-costs/index/"
+weight = 92
+[[menu.economics]]
+name = "Revenues"
+url = "revenues/index/"
+weight = 91
+[[menu.economics]]
+name = "Profit & Loss"
+url = "profit-loss/index/"
+weight = 90
+[[menu.main]]
+name = "Alerts"
+url = "alerts/index/"
+weight = 21
+[[menu.main]]
+name = "Budget"
+url = "budget/index/"
+weight = 31
+[[menu.main]]
+name = "Settings"
+url = "settings/index/"
+weight = 80
+[[menu.main]]
+name = "Finance"
+url = "finance/index/"
+weight = 70
+[[menu.main]]
+name = "Reports"
+url = "reports/index/"
+weight = 60
+[[menu.main]]
+name = "Friday"
+url = "friday/index/"
+weight = 50
+[[menu.main]]
+name = "Planning"
+url = "planning/index/"
+weight = 40
+[[menu.main]]
+name = "Pipeline"
+url = "pipeline/index/"
+weight = 30
+[[menu.main]]
+name = "Dashboard"
+url = "dashboard/index/"
+weight = 20
+[[menu.main]]
+name = "Getting started"
+url = "getting-started/index/"
+weight = 10
+[[menu.other]]
+name = "FAQ"
+url = "faq/index/"
+weight = 100
+[[menu.other]]
+name = "Glossary"
+url = "glossary/index/"
+weight = 110
+[params]
+author = "Andrea Tombolato"
+copyright = ""
+custom_css = ["stylesheets/custom-style.css"]
+custom_js = []
+description = "A lean multi-project management platform that fosters the autonomy and ownership of every team member at any level."
+favicon = "images/favicon.ico"
+highlight_css = ""
+logo = "images/logo.png"
+permalink = "#"
+provider = ""
+repo_url = ""
+version = ""
+[params.font]
+code = "Ubuntu Mono"
+text = "Helvetica"
+[params.palette]
+accent = "teal"
+primary = "black"
+[social]
+email = "info@wethod.com"
+github = ""
+twitter = ""

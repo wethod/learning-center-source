@@ -1,0 +1,242 @@
+---
+date: 2017-06-13 18:08:29 +0200
+title: Alerts
+weight: 21
+
+---
+## Overview
+
+An alert is an inconsistency regarding the user. Each alert has a priority (indicated by its color):
+
+* _Red_ alerts have an high priority and must be solved as soon as possible;
+* _Yellow_ alerts have a low priority and can be seen more as advices.
+
+Positioning the cursor over an alert will display a description of the problem.
+
+Some alerts depends on parameters that you can customize using the [Alerts Engine]({{< relref "settings/index.md#alerts-engine" >}}).
+
+### Unsent Order
+
+This alert is shown to the project manager who has created the orders which need to be sent.
+
+_How to solve it?_ Just send all the waiting orders.
+
+### Expiring Opportunity
+
+This alert is shown to the project manager who have created an opportunity that's expiring in 3 days.
+
+*How to solve it?* Transform the opportunity into a project by clicking on the "+ PROJECT"  button placed near the opportunity itself. Otherwise, if the opportunity isn't ready to became a project, just change the date in the opportunity's "Next Step" field.
+
+### Expired Opportunity
+
+This alert is shown to the project manager who have created an opportunity that's already expired.
+
+*How to solve it?* Transform the opportunity into a project by clicking on the "+ PROJECT"  button placed near the opportunity itself. Otherwise, if the opportunity isn't ready to became a project, just change the date in the opportunity's "Next Step" field.
+
+### Project Probability / Invoice Plan
+
+This alert is shown to the project manager of a project which has:
+
+* An [invoice plan]({{< relref "pipeline/index.md#invoice-plan" >}}) manually set;
+* A probability lower than 90
+
+A project is considered active when its probability reaches 90%, only when this happens makes sense to think about creating a invoice plan.
+
+_How to solve it?_ Leave the invoice plan set to "Auto" until your project hits the 90% of probability.
+
+### Budget Submitted
+
+This alert is shown if you have the permission to approve budgets and there's a budget waiting for approval.
+
+_How to solve it?_ Approve the waiting budget.
+
+### Budget Consumption Too Fast
+
+This alert is shown if you’re the manager of a project where the [budget consumption]({{< relref "glossary/index.md##budget-consumption" >}}) is more than 20% greater than the project's [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}).
+
+{{< img-center src="/uploads/2017/08/28/budget_cons_too_fast.png" >}}
+
+This means you're consuming too many days and, if you don't fix this situation, you will be soon run out of budget days.
+This can have two main causes:
+
+* Somebody has done something wrong with the timesheet;
+* The project manager has done an incorrect project status.
+
+_How to solve it?_ Talk to your teammates in order to find why timesheets and project status differ so much. Once you've find the problem, edit the timesheet or the project status which is causing it.
+
+### Budget Consumption Too Slow
+
+This alert is shown if you're manager of a project where the [budget consumption]({{< relref "reports/index.md#budget-consumption" >}}) is more than 20% lower than the project's [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}).
+
+{{< img-center src="/uploads/2017/08/28/budget_cons_too_slow.png" >}}
+
+This means you've planned too many days and, if you don't fix this situation, you will reach the end of the project with a lot of budget days left.
+This can have two main causes:
+
+* Somebody has done some wrong timesheet;
+* The project manager has done an incorrect project status.
+
+_How to solve it?_ Talk to your teammates in order to find why timesheets and project status differ so much. Once you've find the problem, edit the timesheet or the project status which is causing it.
+
+### Project Status / Archived
+
+This alert is shown if you're manager of a finished project which isn't already been archived.
+
+*How to solve it?* Archive your projects when their project status reach 0.
+
+### Project Probability / Missing Budget
+
+This alert is shown if you're manager of a project with probability greater than 50% and with budget missing.
+
+_How to solve it?_ Lower the probability, provide a budget or ask your supervisor to approve the budget.
+
+### Project Probability / Budget Status
+
+This alert is shown if you're manager of a project with probability greater than 50% and with a budget still in draft.
+
+_How to solve it?_ Lower the probability or ask your supervisor to approve the budget.
+
+### Planning Or Timesheet But Probability Is Too Low
+
+This alert is shown if you're manager of a project with probability lower than 90% but which already has planning and/or timesheets assigned.
+
+Remember that a project is considered active only if it has a probability greater or equal to 90%.
+For a project that is not active yet, there's no need to plan resources or to register a timesheet.
+
+*How to solve it?* Increase project's probability or delete plannend hours and timesheets for the project itself.
+
+### Planning > Project Status
+
+This alert is shown if you're manager of a project for which are planned (in the future) more days than the last project status days. What's the meaning of requiring more resources than what you really need?
+
+_How to solve it?_ Make project's planning and last project status to be consistent each other.
+
+### Client PO
+
+This alert is shown to the project manager if one of the following situations happens:
+
+* Project has probability of 100% and there isn't a Purchase Order set for the project
+* Project has some invoices but there isn't a Purchase Order set for the project
+* A Purchase Order is set for the project despite its probability is lower than 100%
+
+_How to solve it?_ Add a PO once a project reach 100% of probability, add invoices only to projects that already have a PO.
+
+### Project Start
+
+This alert is shown to the project manager if one of the following situations happens:
+
+* A project is started but its probability is lower than 90%
+* A project is going to start during the current month but its probability is lower than 75%
+
+Remember: a project is considered started if it has a start date in the past or if someone has submitted timesheets for it.
+
+*How to solve it?* If a project is going to start during the current month, increase its probability to 90%. Change the start date otherwise.
+
+### Project Status
+
+This alert is shown if you're manager and you've forgot to update a project's status in the last two weeks.
+A project status is required for a given week only if at least a timesheet has been submitted for that week.
+
+_How to solve it?_ Provide the missing project statuses.
+
+### Timesheet
+
+This alert is shown to the employee of a project who forgot to submit the timesheet in the last two weeks.
+
+_How to solve it?_ Provide the missing timesheets.
+
+### Project Duration / Timesheet
+
+This alert is shown to the manager of a project which has some timesheets done before the start date or after the end date.
+
+_How to solve it?_ Delete the timesheets done before the start date or after the end date. Otherwise extend the project duration _so it will include_ all the project status done.
+
+### Invoice Plan / Budget Final Net Price
+
+This alert is shown to the manager of a project if the following situations happen:
+
+* The invoice plan is set as manual
+* Invoice plan's total amount and final net price  mismatch
+
+This can happen when you edit a budget after setting invoice plan as manual.
+
+_How to solve it?_ Make invoice plan and final net price match.
+
+### Job Order / Project Probability
+
+This alert is shown to the manager of a project if one of the following situations happens:
+
+* The probability is greater than 90% but the project hasn't a job order
+* The probability si lower than 90% and the project has a job order
+
+Remind: only active projects (which means projects with a probability greater or equal to 90%) must have a [job order]({{< relref "glossary/index.md#job-order" >}})
+
+_How to solve it?_ Assign job order only to active projects.
+
+### Planning / Project End
+
+This alert is shown to the manager of a project which has planned even more people to the project, even after the end date.
+
+In other words: the project is over, you have no reason to plan people on it.
+
+_How to solve it?_ Remove planned people assigned to ended projects.
+
+### Planning / Budget Status
+
+This alert is shown to the manager of a project which has planned future resources but hasn't an approved [budget]({{< relref "budget/index.md#budget" >}})
+
+The planned resources say that the project is active but the budget is not approved, so the alert will remind you to approve it as soon as possible.You cannot plan resources if you haven’t got a budget  which gives you the right to do it.
+
+_How to solve it?_ Ask your supervisor to approve the budget.
+
+### Non Chargeable / Budget Final Net Price
+
+This alert is shown to the manager of a non chargeable project which has a final net price greater than zero. This is a paradox because non chargeable project can't have revenues by definition.
+
+_How to solve it?_ If the project is really non chargeable, set its final net price to zero. Otherwise change the project's type to a chargeable one.
+
+### Empty Planning
+
+This alert is shown to you if you're not planned for tomorrow (Saturday and Sunday excluded).
+
+_How to solve it?_ Ask the project managers in your team to fill your planning.
+
+### Orders / External Cost
+
+This alert is shown to the manager of a project where the sum of orders, travels and expenses go over the [budget external cost]({{< relref "budget/index.md#budget-external-cost" >}}).
+
+You don't want to spend money you don't have, do you? You do not have to go over the budget!
+
+_How to solve it?_ Review your expenses or increase the external cost for your project.
+
+### Production Plan / Project Duration
+
+This alert is shown when there is a mismatch between the Production Plan data and the Project duration, you could be in one of the following situations:
+
+* You've set to 0 the planned production for the first or the last month of a particular project, this means the project could start one month later or end one month earlier respectively
+* There is some planned production before the project's start or after the project's end
+
+This alert doesn't appear if the project is archived with probability 0 or its Job Order Category has the "Time Based Progress" flag.
+
+_How to solve it?_ Adjust the project plan in order to be aligned with the project's duration.
+
+### Production Plan Correction
+
+At the end of the month, the month's actual production (based on Project Status) is compared to the month's planned production. If these values differ, a correction will be suggested in the planned production of the future months.
+This alert warns you if these values differ by 10% or more.
+
+_How to solve it?_ Just find the project in the Production Plan and accept or edit the suggested correction.
+
+### Job Order Used Multiple Times
+
+This alert is shown if you're sharing the same job order for different projects.
+
+_How to solve it_? Assign different job orders to different projects.
+
+### Project Probability / Program
+
+Parameters: <span style="color:#FF9800">probability</span>
+
+This alert is shown if you're manager of a project with a probability equal or greater than <span style="color:#FF9800">probability</span> but it hasn't been added to a [program]({{< relref "pipeline/index.md#programs" >}}) yet.
+
+_How to solve it_? Add project to a program or reduce its probability.
