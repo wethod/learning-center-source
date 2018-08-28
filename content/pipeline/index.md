@@ -3,6 +3,7 @@ date: 2016-03-11 19:10:46 +0000
 title: Pipeline
 weight: 30
 draft: true
+
 ---
 ## Overview
 
@@ -126,4 +127,4 @@ With Wethod you can keep record of all your **customer relationship’s history 
 * **Meetings**
 * **Milestones** (coming soon)
 
-You can also **set reminders** for the future, **add follow ups** of existing events and **tag colleagues** in the event description. 
+You can also **set reminders** for the future, **add follow ups** of existing events and **tag colleagues** in the event description.
