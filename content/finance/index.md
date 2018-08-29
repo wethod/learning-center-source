@@ -61,7 +61,7 @@ In this section you can view your contact list filtered by people or companies.
 
 _Tags_ are used to define a contact in order to make better researches.
 
-{{< img-center src="/uploads/2018/08/08/research_vr.png" >}}
+{{< img-center src="/uploads/2018/08/29/client-overview.gif" >}}
 
 
 
