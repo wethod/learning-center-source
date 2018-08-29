@@ -1,5 +1,5 @@
 ---
-date: 2017-05-24 12:09:44 +0200
+date: 2017-05-24 10:09:44 +0000
 title: Settings
 weight: 80
 
@@ -45,7 +45,11 @@ Here you can configure your company by setting:
   * **Everybody can plan**: the projects in this category can be planned by everybody, not only by its pm or account
   * **Unlimited planning**: the projects in this category can be planned regardless budget availability
   * **Must be in program**: the projects in this category must be added to a [Program]({{< relref "pipeline/index.md#programs" >}})
-  * **Time based progress**: the 'progress' of the projects in this category are not based on their 'projects status', but based on their duration (equally distributed on their lifespam indicated by date start and duration on the pipeline).
+  * **Invoice drive budget**: the value of the projects on this category changes based on the total invoiced for that project. This logic also updateds the Invoice Plan and the Production value.
+  * **Project status**
+      * **Estimate to complete**: the project status is assigned as estimated days to complete (e.g. in order to complete we need 12 more days of work).
+      * **Time based progress**: the 'progress' of the projects in this category are not based on their 'projects status', but based on their duration (equally distributed on their lifespam indicated by date start and duration on the pipeline).
+      * **Project status as progress**: the project status is assigned as a progress percentage (e.g. the progress of this project is 45%).
 * **Email Bot**: here you can insert the email addresses to which send invoices and orders;
 * **Project Won/Lost Bot**: here you can insert the email addresses to which send notifications each time someone of your teammates won or lost a project. A project is considered to be _lost_ when its probability is 0 and _won_ when its probability is 90;
 * **Default Areas**: these will be suggested when you're creating a [new budget]({{< relref "budget/index.md#the-workflow" >}}) or when you're adding a new area to an existing budget;
