@@ -6,7 +6,7 @@ weight: 70
 ---
 ## Orders
 
-In this section you can see all your orders and create new ones. 
+In this section you can see all your orders and create new ones.
 
 To create an order:
 
@@ -14,9 +14,9 @@ To create an order:
 2. Compile the required fields
 3. Click on the "**create**" button
 
-After creating an order you can send it and approve it. Once you click on the "**send**" button, an e-mail will be sent to the address provided in the settings' [Email Bot]({{< relref "settings/index.md#company" >}}) section.
+After creating an order you can send it and approve it. Once you click on the "**send**" button, an e-mail will be sent to the address provided in the settings' \[Email Bot\]({{< relref "settings/index.md#company" >}}) section.
 
-When an order is sent, you still have the ability to edit it or approve it by clicking on the "**approve**" button. Approving an order isn't mandatory but can be useful if you want to keep track of what orders can be actually issued. 
+When an order is sent, you still have the ability to edit it or approve it by clicking on the "**approve**" button. Approving an order isn't mandatory but can be useful if you want to keep track of what orders can be actually issued.
 
 An approved order cannot be edited.
 
@@ -42,7 +42,7 @@ Order's fields description:
 
 ## Invoices
 
-In this section you can see all your invoices and create new ones. Once you click on the "**Send**" button, an e-mail is sent to the address inserted in the [Email Bot]({{< relref "settings/index.md#company" >}}) section.
+In this section you can see all your invoices and create new ones. Once you click on the "**Send**" button, an e-mail is sent to the address inserted in the \[Email Bot\]({{< relref "settings/index.md#company" >}}) section.
 
 To create an invoice:
 
@@ -63,22 +63,19 @@ _Tags_ are used to describe a contact in order to make better researches.
 
 {{< img-center src="/uploads/2018/08/29/client-overview.gif" >}}
 
-
-
 **To add a Person**:
 
 1. Go to “People” section, on the top right corner
 2. Click the "**+ person**" button on the top left corner
 3. Fill in all the required fields
-5. Click on the "**save**" button
+4. Click on the "**save**" button
 
 Click on a person to get more details about that person: on the left of this view you can find some general information about contact, on the right you can see listed all the projects developed with this contact and all his resources.
 A resource is just a link with a name to something external to WETHOD (like a document or a todo list).
 
 {{< img-center src="/uploads/2018/08/29/client-person-details.png" >}}
 
-How to link a contact to a project? Just go to the pipeline and add a client for the project. Once done, pick a name from the "Client Contact" field's list.
-
+How to link a contact to a project? Just go to the pipeline and pick a name from the "Client Contact" field's list (if you are creating a new project ensure to select the 'Client' field first)
 
 **To add a Company**:
 
@@ -91,7 +88,6 @@ Click on a company to get more details about it: on the left of this view you ca
 A resource is just a link with a name to something external to WETHOD (like a document or a todo list).
 
 {{< img-center src="/uploads/2018/08/29/client-compnay-details.png" >}}
-
 
 ## Suppliers
 
