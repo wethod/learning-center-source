@@ -2,6 +2,7 @@
 date: 2016-03-11 19:10:46 +0000
 title: Pipeline
 weight: 30
+draft: true
 
 ---
 ## Overview
@@ -117,13 +118,28 @@ Projects are often stages or parts of something bigger, you can use a Program to
 
 ## Timeline
 
-Sometimes managing your customer’s relations can be difficult if you are working in a team and can lose your track.
+Sometimes managing your customers’ relationships can be difficult if you are working in a team and you can be easily get lost.
 
-With Wethod you can keep record of all your **customer relationship’s history in a timeline**. Everybody in the team can access to and log new activities like:
+Wethod keeps record of all your **customer relationship’s history** in a project timeline. Every project has its own project timeline.
+
+Team members can access this section from the project pipeline.
+
+You can log activities like:
 
 * **Calls**
-* **Emails** with addressee, content and files attached.
+* **Emails** with addressee, text and files attached.
 * **Meetings**
 * **Milestones** (coming soon)
 
 You can also **set reminders** for the future, **add follow ups** of existing events and **tag colleagues** in the event description.
+
+On the left column you can find this informations about the project:
+
+* Project tags
+* Customer contact details
+* Project details
+* People working on the project
+* Goal
+* Links to planning, project report and budget.
+
+
