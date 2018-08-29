@@ -119,9 +119,7 @@ Projects are often stages or parts of something bigger, you can use a Program to
 ## Timeline
 
 Sometimes managing your customers’ relationships can be difficult if you are working in a team and you can be easily get lost.
-
 Wethod keeps record of all your **customer relationship’s history** in a project timeline. Every project has its own project timeline.
-
 Team members can access this section from the project pipeline.
 
 You can log activities like:
