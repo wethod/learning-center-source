@@ -57,9 +57,9 @@ To create an invoice:
 
 ## Clients
 
-In this section you can view your contact list filtered by people or companies.
+In this section you can see all your contacts, divided into people and companies.
 
-_Tags_ are used to define a contact in order to make better researches.
+_Tags_ are used to describe a contact in order to make better researches.
 
 {{< img-center src="/uploads/2018/08/29/client-overview.gif" >}}
 
@@ -67,28 +67,30 @@ _Tags_ are used to define a contact in order to make better researches.
 
 **To add a Person**:
 
-1. Go to “People” section, on the top right corner;
-2. Click add person "**+ person**" on the top left corner;
-3. Compile the client's empty fields;
-4. Add tags to your contact for a better search. 
-5. Click on the "**save**" button.
+1. Go to “People” section, on the top right corner
+2. Click the "**+ person**" button on the top left corner
+3. Fill in all the required fields
+5. Click on the "**save**" button
 
-Click on a name on the list to view more details and the projects you made with your contact.
+Click on a person to get more details about that person: on the left of this view you can find some general information about contact, on the right you can see listed all the projects developed with this contact and all his resources.
+A resource is just a link with a name to something external to WETHOD (like a document or a todo list).
+
+{{< img-center src="/uploads/2018/08/29/client-person-details.png" >}}
+
+How to link a contact to a project? Just go to the pipeline and add a client for the project. Once done, pick a name from the "Client Contact" field's list.
 
 
 **To add a Company**:
 
-1. Go to “Companies” section, on the top right corner;
-2. Click add company “**add company**” on the top left corner;
-3. Fill with the company details;
-4. Click on the “**save**” button.
+1. Go to “Companies” section, on the top right corner
+2. Click the "**+ company**" button on the top left corner
+3. Fill in all the required fields
+4. Click on the “**save**” button
 
-Click on a company name on the list to view and add more details, view current projects made with them and the linked company contacts.
+Click on a company to get more details about it: on the left of this view you can find some general information, on the right you can see listed all the compnay's contacts, all the projects developed for this company and all its resources.
+A resource is just a link with a name to something external to WETHOD (like a document or a todo list).
 
-_Which project I've done with this client?_
-_How many contacts do I have from a single company?_
-
-{{< img-center src="/uploads/2018/08/08/scheda_company.png" >}}
+{{< img-center src="/uploads/2018/08/29/client-compnay-details.png" >}}
 
 
 ## Suppliers
