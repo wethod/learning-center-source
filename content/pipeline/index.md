@@ -134,6 +134,7 @@ Add to Timeline all the activities you think are important to remember like:
 
 
 You can also 
+
 * **set reminders** for the future;
 * **add follow ups** of existing events; 
 * **tag colleagues** in the event description. (Coming Soon)
@@ -148,5 +149,7 @@ On the left column you can find this informations about the project:
 * Goal
 * Links to planning, project report and budget.
 
+
 To access a project timeline go to:
+
 _Pipeline > Projects > Select a project from the list > Click "more options" button in the bottom-right corner > Select "Timeline" from the list._
