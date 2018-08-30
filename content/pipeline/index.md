@@ -142,6 +142,7 @@ You can also
 
 
 On the left column you can find some general information about the project:
+
 * Project tags
 * Customer contact details
 * Project details
