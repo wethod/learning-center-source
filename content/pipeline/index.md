@@ -140,8 +140,8 @@ You can also
 * **tag colleagues** in the event description. (Coming Soon)
 
 
-On the left column you can find this informations about the project:
 
+On the left column you can find some general information about the project:
 * Project tags
 * Customer contact details
 * Project details
@@ -151,5 +151,4 @@ On the left column you can find this informations about the project:
 
 
 To access a project timeline go to:
-
 _Pipeline > Projects > Select a project from the list > Click "more options" button in the bottom-right corner > Select "Timeline" from the list._
