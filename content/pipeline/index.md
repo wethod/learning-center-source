@@ -2,6 +2,7 @@
 date: 2016-03-11 19:10:46 +0000
 title: Pipeline
 weight: 30
+draft: true
 
 ---
 ## Overview
@@ -124,7 +125,7 @@ Team members can access this section from the project pipeline.
 {{< img-center src="/uploads/2018/08/30/project_timeline.gif" >}}
 
 
-Add to Timeline all the activities you think are important to record, like:
+Add to Timeline all the activities you think are important to remember like:
 
 * **Calls**
 * **Emails** with addressee, text and files attached.
@@ -132,7 +133,10 @@ Add to Timeline all the activities you think are important to record, like:
 * **Milestones** (coming soon)
 
 
-You can also **set reminders** for the future, **add follow ups** of existing events and **tag colleagues** in the event description.
+You can also 
+* **set reminders** for the future;
+* **add follow ups** of existing events; 
+* **tag colleagues** in the event description. (Coming Soon)
 
 
 On the left column you can find this informations about the project:
