@@ -2,6 +2,7 @@
 date: 2016-03-11 19:10:46 +0000
 title: Pipeline
 weight: 30
+draft: true
 
 ---
 ## Overview
@@ -129,7 +130,7 @@ Add to Timeline activities you think are important to remember like:
 * **Milestones**. (coming soon)
 
 
-Additional features allows the user to:
+Additional features allow the user to:
 
 * **set reminders** for the future;
 * **add follow ups** of existing events; 
