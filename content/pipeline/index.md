@@ -2,6 +2,7 @@
 date: 2016-03-11 19:10:46 +0000
 title: Pipeline
 weight: 30
+draft: true
 
 ---
 ## Overview
@@ -121,14 +122,16 @@ Sometimes managing your customers’ relationships can be difficult if you are w
 Wethod keeps record of all your **customer relationship’s history** in a project timeline. Every project has its own project timeline.
 Team members can access this section from the project pipeline.
 
-You can log activities like:
+You can log these activities in Timeline:
 
 * **Calls**
 * **Emails** with addressee, text and files attached.
 * **Meetings**
 * **Milestones** (coming soon)
 
+
 You can also **set reminders** for the future, **add follow ups** of existing events and **tag colleagues** in the event description.
+
 
 On the left column you can find this informations about the project:
 
@@ -139,4 +142,5 @@ On the left column you can find this informations about the project:
 * Goal
 * Links to planning, project report and budget.
 
-
+To access a project timeline go to:
+_Pipeline > Projects > Select a project from the list > Click the "more options" button > Select "Timeline" from the list._
