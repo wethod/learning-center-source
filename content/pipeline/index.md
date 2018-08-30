@@ -125,7 +125,7 @@ Team members can access this section from the project pipeline.
 {{< img-center src="/uploads/2018/08/30/project_timeline.gif" >}}
 
 
-You can log these activities in Timeline:
+Add to Timeline all the activities you think are important to record, like:
 
 * **Calls**
 * **Emails** with addressee, text and files attached.
