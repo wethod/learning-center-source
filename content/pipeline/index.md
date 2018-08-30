@@ -143,4 +143,4 @@ On the left column you can find this informations about the project:
 * Links to planning, project report and budget.
 
 To access a project timeline go to:
-_Pipeline > Projects > Select a project from the list > Click the "more options" button > Select "Timeline" from the list._
+_Pipeline > Projects > Select a project from the list > Click "more options" button in the bottom-right corner > Select "Timeline" from the list._
