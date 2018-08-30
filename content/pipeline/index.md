@@ -125,20 +125,19 @@ Team members can access this section from the project pipeline.
 {{< img-center src="/uploads/2018/08/30/project_timeline.gif" >}}
 
 
-Add to Timeline all the activities you think are important to remember like:
+Add to Timeline activities you think are important to remember like:
 
-* **Calls**
-* **Emails** with addressee, text and files attached.
-* **Meetings**
-* **Milestones** (coming soon)
+* **Calls**;
+* **Emails** with addressee, text and files attached;
+* **Meetings**;
+* **Milestones**. (coming soon)
 
 
-You can also 
+Additional features allows the user to:
 
 * **set reminders** for the future;
 * **add follow ups** of existing events; 
 * **tag colleagues** in the event description. (Coming Soon)
-
 
 
 On the left column you can find some general information about the project:
