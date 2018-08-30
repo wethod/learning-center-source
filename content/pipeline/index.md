@@ -121,9 +121,6 @@ Sometimes managing your customers’ relationships can be difficult if you are w
 Wethod keeps record of all your **customer relationship’s history** in a project timeline. Every project has its own project timeline.
 Team members can access this section from the project pipeline.
 
-{{< img-center src="/uploads/2018/08/30/project_timeline.gif" >}}
-
-
 Add to Timeline activities you think are important to remember like:
 
 * **Calls**;
