@@ -75,7 +75,9 @@ A resource is just a link with a name to something external to WETHOD (like a do
 
 {{< img-center src="/uploads/2018/08/29/client-person-details.png" >}}
 
-How to link a contact to a project? Just go to the pipeline and pick a name from the "Client Contact" field's list (if you are creating a new project ensure to select the 'Client' field first)
+How to link a contact to a project? Just go to the pipeline and pick a name from the "Client Contact" field's list (if you are creating a new project ensure to select the 'Client' field first):
+
+{{< img-center src="/uploads/2018/08/31/choose-client.gif" >}}
 
 **To add a Company**:
 
