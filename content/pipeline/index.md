@@ -2,6 +2,7 @@
 date: 2016-03-11 19:10:46 +0000
 title: Pipeline
 weight: 30
+draft: true
 
 ---
 ## Overview
@@ -118,6 +119,9 @@ Projects are often stages or parts of something bigger, you can use a Program to
 ## Timeline
 
 Sometimes managing your customers’ relationships can be difficult if you are working in a team and you can easily get lost. With Timeline you can keep all your **customer relationship’s history**. Every project has its own project timeline and everyone in your team can access to it.
+
+{{< img-center src="/uploads/2018/09/04/project_timeline.gif" >}}
+
 
 Add to Timeline activities you think are important to remember like:
 
