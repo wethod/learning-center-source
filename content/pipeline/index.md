@@ -117,7 +117,7 @@ Projects are often stages or parts of something bigger, you can use a Program to
 
 ## Timeline
 
-Sometimes managing your customers’ relationships can be difficult and you can easily get lost. With the timeline you can keep all your **customer relationship’s history**, every project has its own history and everyone in your team can access it.
+Sometimes managing your customers’ relationships can be difficult and you can easily get lost. With the timeline you can keep all your **customer relationship’s history** and everyone in your team can access it.
 
 You can reach a project's timeline from the pipeline: choose a project, click on it and look for the timeline button in the bottom-right corner.
 
