@@ -2,6 +2,7 @@
 date: 2016-03-11 19:10:46 +0000
 title: Pipeline
 weight: 30
+draft: true
 
 ---
 ## Overview
@@ -148,4 +149,4 @@ On the left column you can find some general information about the project:
 
 
 To access a project timeline go to:
-_Pipeline > Projects > Select a project from the list > Click "more options" button in the bottom-right corner > Select "Timeline" from the list._
+_Pipeline > Projects > Select a project from the list > Click "Timeline" button in the bottom-right corner._
