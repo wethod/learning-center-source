@@ -117,35 +117,12 @@ Projects are often stages or parts of something bigger, you can use a Program to
 
 ## Timeline
 
-Sometimes managing your customers’ relationships can be difficult if you are working in a team and you can easily get lost. With Timeline you can keep all your **customer relationship’s history**. Every project has its own project timeline and everyone in your team can access to it.
+Sometimes managing your customers’ relationships can be difficult and you can easily get lost. With the timeline you can keep all your **customer relationship’s history**, every project has its own history and everyone in your team can access it.
+
+You can reach a project's timeline from the pipeline: choose a project, click on it and look for the timeline button in the bottom-right corner.
 
 {{< img-center src="/uploads/2018/09/05/project_timeline.gif" >}}
 
+Add activities you think are important to remember like **calls**, **emails** and **meetings**. To every added activity you can link a **follow-up** which is nothing more than another event. A follow-up is usuallly settled in the future, so you can think of it as a sort of reminder.
 
-Add to Timeline activities you think are important to remember like:
-
-* **Calls**;
-* **Emails** with addressee, text and files attached;
-* **Meetings**;
-* **Milestones** (coming soon).
-
-
-Additional features allow the user to:
-
-* **set reminders** for the upcoming events;
-* **add follow ups** for existing events; 
-* **tag colleagues** in the event description. (Coming Soon)
-
-
-On the left column you can find some general information about the project:
-
-* Project tags
-* Customer contact details
-* Project details
-* People working on the project
-* Project Goal
-* Links to Planning, Project report and Budget.
-
-
-To access a project timeline go to:
-_Pipeline > Projects > Select a project from the list > Click "Timeline" button in the bottom-right corner._
+The timeline gets automatically populated with some useful project's events like the creation of an order or invoice, the changes to the project value and margin, the project's first project status and a lot more.
