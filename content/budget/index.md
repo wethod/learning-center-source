@@ -1,5 +1,5 @@
 ---
-date: 2017-05-26 13:04:19 +0200
+date: 2017-05-26 11:04:19 +0000
 title: Budget
 weight: 31
 
@@ -10,7 +10,7 @@ The budget is where you can list all the resources you think you'll need for the
 
 {{< img-center src="/uploads/2017/08/28/budget-giftop.gif">}}
 
-Basically, this is the place where you try define (for a project):
+Basically, this is the place where you define (for a project):
 
 * How many people you need;
 * Which experience levels you need;
@@ -19,7 +19,7 @@ Basically, this is the place where you try define (for a project):
 * The external costs;
 * The selling price.
 
-Done? Now the budget must be approved by a supervisor and, once approved, the project manager can start \[planning\]({{< relref "planning/index.md" >}}) and creating \[orders\]({{< relref "finance/index.md#orders" >}}).
+Done? Now the budget must be approved by a supervisor and, once approved, the project manager can start [planning]({{< relref "planning/index.md" >}}) and creating [orders]({{< relref "finance/index.md#orders" >}}).
 
 {{< note title="Note" >}}
 When a project reach 50% of probability, it's a good practice to make a budget for it.
@@ -29,18 +29,17 @@ When a project reach 50% of probability, it's a good practice to make a budget f
 
 The budget section is composed by three main parts: project details, price details and the budget editor.
 
-{{< img-center src="/uploads/2018/05/23/support.budget_intero-2.png">}}
+{{< img-center src="/uploads/2018/10/19/budget.png">}}
 
 
 ### **Project details**
 
 Positioned in the top left, this part shows project information details such as the client, project name, project type, PM name, duration and probability. In this section, you can also:
 
-* see the **budget consumption/project status graph**.
-* add **notes**, see the project's **goal** and go through the **logs history**.
+* see the **budget consumption/project status graph**
+* add **notes**
 
-{{< img-center src="/uploads/2018/05/23/support.budget_infosproject.png">}}
-
+{{< img-center src="/uploads/2018/10/19/budget-important-info.png">}}
 
 
 ### **Price Details**
@@ -53,7 +52,7 @@ Positioned in the top right, this part shows some details about the project’s 
 * **Contingency**: life is unpredictable and the unexpected is behind every corner, so why not be prepared for it? A percentage of contingency means that you know your budget isn’t perfect so you’re estimating using more days, just in case. The contingency gives you more days which you can use at every user level but, on the other hand, the suggested net price will grow;
 * **Discount**: the percentage of discount you want to apply to the suggested price;
 
-{{< img-center src="/uploads/2018/05/23/support.budget_prices.png">}}
+{{< img-center src="/uploads/2018/10/19/budget-secondary-info.png">}}
 
 
 
@@ -61,23 +60,18 @@ Positioned in the top right, this part shows some details about the project’s 
 
 This is basically a table where you can assign days to a given user level of a _task_. A _task_ is a macro activity needed to complete the project, related tasks can be grouped into _areas_.
 
-_Areas_ are macro activities needed to complete the project. Each area contains micro activities or _tasks_.
+You can add new _areas_ by using the "**+ AREA**" button: type in a meaningful name and hit enter.
 
-You can add new _areas_ by using the “**+ AREA**” button: you can choose to add a default _area_ or you can create a new one by typing its name.
-
-For each external cost you can assign a **markup**: a percentage that indicates how much you want to earn on the external costs of the project.
+For each external cost you can assign a **markup**: a percentage that indicates how much you want to earn on that external cost.
 
 Positioned on the top of this section you can find the sum of the values for each column.
 
-The first columns shows how many work days you need for each _user level_;
+The first columns of the budget show how many work days you need for each _user level_:
 
-* **Ext. Cost**: shows the sum of the external costs;
-* **Days**: shows the total amount of the budget’s days inserted;
-* **Cost**: is the sum of the budget’s days multiplied by the cost of the user level that will take care of it. This value is also called internal costs;
-* **Price**: is the suggested price we think is optimal to sell your project.
-
-{{< img-center src="/uploads/2018/05/23/support.budget_editor.png">}}
-
+* **Ext. Cost**: shows the sum of the external costs
+* **Days**: the total amount of days
+* **Cost**: the sum of the budget’s days multiplied by the cost of the user level that will take care of it. This value is also called _internal costs_
+* **Price**: the suggested price we think is optimal to sell your project
 
 ## The Workflow
 
@@ -85,4 +79,21 @@ The first columns shows how many work days you need for each _user level_;
 2. Compile the budget;
 3. Submit the budget for approval by clicking on the top left button "**submit for approval**";
 4. When the budget is approved by a supervisor, you will be able to [plan](/planning/index/) some resource on the project and start working on it;
-5. Whenever you need to modify the budget, you can set it back to draft and restart from point **3**. Each time a new budget version is approved, it's saved and you can access it through the dropdown list under the Price's Detail panel.
+5. Whenever you need to modify the budget, you can set it back to draft and restart from point 
+3. Each time a new budget version is approved, it's saved and you can access it through the dropdown list under the Price's Detail panel.
+
+When a budget is submitted, a supervisor can appreciate all the changes by looking at the orange labels. This makes the approval process easier and faster.
+
+{{< img-center src="/uploads/2018/10/19/budget-approving.png">}}
+
+Not sure if a budget's area will fit or not? Just switch it off! **Switching off an area** will make it no more burden on the budget's esteem.
+You can always switch back on a switched off area.
+
+To switch an area your budget must be in draft.
+
+{{< img-center src="/uploads/2018/10/19/switch.gif">}}
+
+Want to see the difference between two approved budget's versions? Hit the **Compare versions** button and select the two versions you want to compare.
+Use the *Clear* button to compare other two version and click *Close* to ending comparisons.
+
+{{< img-center src="/uploads/2018/10/19/compare.gif">}}
