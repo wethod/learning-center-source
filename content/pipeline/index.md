@@ -46,13 +46,13 @@ A project is considered **active** when its probability reaches 90%, only when t
 **When a project reach 50% of probability, it's a good practice to make a budget for it.**
 {{< /note >}}
 
-By clicking on a project you can edit its details or open its: [budget](/budget/index/ "budget"), [planning](/planning/index/), [reports](/reports/index/), [invoice plan](/pipeline/index/#invoice-plan).
+By clicking on a project you can edit its details or open its: [budget](/budget/index), [planning](/planning/index/), [reports](/reports/index/), [invoice plan](/pipeline/index/#invoice-plan).
 
 {{< img-center src="/uploads/2017/05/25/projects.png" >}}
 
 ### Project probability
 
-Here is a list of probability and their meaning:
+Here is a list of probabilities and their meaning:
 
 * 0% - We lost it! Project is not going to be done
 * 10% - The chances are low but maybe we can do something
@@ -61,6 +61,14 @@ Here is a list of probability and their meaning:
 * 75% - We are going to do it!
 * 90% - We are going to do it and we now have the 'job order'
 * 100% - It's all ready, we also have the 'client PO'
+
+### Client contact 
+
+If Alice works for ACME and you're are talking with her about a possible new project, ACME is your client and Alice is your actual contact with that client. As simple as it sounds!
+
+You can add a new contact for a client from [Clients](/finance/index/#clients) or straight from pipeline, during the project creation.
+
+You can make the client contact a required field in your [company settings](/settings/index/#company).
 
 ### Advanced Search
 
