@@ -2,6 +2,7 @@
 date: 2017-05-26 11:04:19 +0000
 title: Budget
 weight: 31
+draft: true
 
 ---
 ## Overview
@@ -86,14 +87,11 @@ When a budget is submitted, a supervisor can appreciate all the changes by looki
 
 {{< img-center src="/uploads/2018/10/19/budget-approving.png">}}
 
-Not sure if a budget's area will fit or not? Just switch it off! **Switching off an area** will make it no more burden on the budget's esteem.
-You can always switch back on a switched off area.
-
-To switch an area your budget must be in draft.
+Not sure if a budget’s area will fit? Just switch it off! 
+**Switching off an area** will remove it from the budget estimate. You can always switch an area back at a later date whenever you wish.
 
 {{< img-center src="/uploads/2018/10/19/switch.gif">}}
 
-Want to see the difference between two approved budget's versions? Hit the **Compare versions** button and select the two versions you want to compare.
-Use the *Clear* button to compare other two version and click *Close* to ending comparisons.
+Want to see the difference between two approved budget versions? Hit the **Compare versions** button and select the two versions you want to compare. Use the Clear button to compare between two other versions and click Close to end the comparisons.
 
 {{< img-center src="/uploads/2018/10/19/compare.gif">}}
