@@ -12,6 +12,8 @@ The planning has two section:
 
 * **Projects' Heatmap** shows the daily amount of people planned on each project. It also offers a _milestone system_ that allows your team to have an overview on the scheduled events.
 
+* **Production Plan** where you can express the percentage of the project's total value you are going to produce in each month.
+
 Everything is arranged into a six weeks calendar, you can explore past and future using the horizontal scroll or clicking on the top right arrow navigator.
 
 The blue dot in the calendar's header highlights the current day.
