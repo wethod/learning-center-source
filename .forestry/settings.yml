@@ -35,6 +35,11 @@ sections:
   create: all
   match: "**/*"
 - type: directory
+  path: content/capex
+  label: Capex
+  create: all
+  match: "**/*"
+- type: directory
   path: content/alerts
   label: Alerts
   create: all
