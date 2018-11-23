@@ -1,5 +1,5 @@
 ---
-date: 2017-08-29 10:24:15 +0200
+date: 2017-08-29 08:24:15 +0000
 title: Revenues
 weight: 91
 
@@ -17,3 +17,4 @@ Three important indicators are given in the first three rows:
 *	**Revenues**: revenues without bluesky, per month.
 
 {{< img-center src="/uploads/2017/08/29/Reveues%20.png" >}}
+
