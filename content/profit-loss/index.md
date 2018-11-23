@@ -1,16 +1,20 @@
 ---
-date: 2017-08-29 10:23:59 +0200
+date: 2017-08-29 08:23:59 +0000
 title: Profit & Loss
 weight: 90
+draft: true
 
 ---
-
-
 ## Overview
 
-Here you can see how much your company has earned or has lost during each month of the current year, the "Profit & Loss" row shows you this piece of information.
+This page provides an overview of the budgetary slippages between a company's projected revenues and expenses, as well as its budget target over a given period of time. 
 
-This data is obtained by subtracting from the [revenues](http://support.wethod.com/revenues/index/#) of all the costs faced by the company. The costs can be of various kinds:
+{{< img-center src="/uploads/2018/11/23/support_target.png" >}}
+
+
+Below, you can see how much your company has earned or has lost during each month of the current year.
+
+This data is obtained by subtracting from the [revenues](http://support.wethod.com/revenues/index/#) of all the costs faced by the company. The costs can be of various kinds:
 
 * [External costs](http://support.wethod.com/external-costs/index/#)
 
@@ -22,7 +26,7 @@ This data is obtained by subtracting from the [revenues](http://support.wethod.c
 
 We provide you with two *subtotal* in order to better understand the final value of profit & loss for the company:
 
-* **Gross margin**: revenues without the external costs;
+* **Gross margin**: revenues without the external costs;
 
 * **Net margin**: gross margin without payroll.
 
@@ -32,4 +36,4 @@ We provide you with two *subtotal* in order to better understand the final value
 **All the numbers here are provided in thousands (K).**
 {{< /note >}}
 
-{{< img-center src="/uploads/2017/08/29/Profit&Loss.png" >}}
+{{< img-center src="/uploads/2018/11/23/support_monthlydistribution.png" >}}
