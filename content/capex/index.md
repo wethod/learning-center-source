@@ -2,7 +2,6 @@
 date: 2018-11-23 08:24:15 +0000
 title: Capex
 weight: 96
-draft: true
 
 ---
 ## Overview
