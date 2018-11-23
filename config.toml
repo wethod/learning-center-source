@@ -19,6 +19,10 @@ name = "G & A"
 url = "general-admin/index/"
 weight = 94
 [[menu.economics]]
+name = "Revenues"
+url = "revenues/index/"
+weight = 96
+[[menu.economics]]
 name = "Marketing"
 url = "marketing/index/"
 weight = 95
