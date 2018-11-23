@@ -46,6 +46,7 @@ Here you can configure your company by setting:
   * **Unlimited planning**: the projects in this category can be planned regardless budget availability
   * **Must be in program**: the projects in this category must be added to a [Program]({{< relref "pipeline/index.md#programs" >}})
   * **Invoice driven budget**: the value of the projects on this category changes based on the total invoiced for that project. This logic also updates the Invoice Plan and the Production value. You can use this flag on all the project categories in which you are not sure of the final price because it can vary slightly based on external factors. You can then set a budget with an approximate price and let the issued invoices adjust the final price as a result of the delta between the ‘invoice plan’ and the real invoice.
+  * **Capex**: the projects in this category must be treated as investments
   * **Project status**
       * **Estimate to complete**: the project status is assigned as estimated days to complete (e.g. in order to complete we need 12 more days of work).
       * **Time based progress**: the 'progress' of the projects in this category are not based on their 'projects status', but based on their duration (equally distributed on their lifespam indicated by date start and duration on the pipeline).
