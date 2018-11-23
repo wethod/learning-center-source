@@ -2,6 +2,7 @@
 date: 2017-08-29 08:23:59 +0000
 title: Profit & Loss
 weight: 90
+draft: true
 
 ---
 ## Overview
@@ -22,6 +23,8 @@ This data is obtained by subtracting from the [revenues](http://support.wethod.c
 * [G & A](http://support.wethod.com/general-admin/index/#)
 
 * [Marketing](http://support.wethod.com/marketing/index/#)
+
+* [CapEx](http://support.wethod.com/capex/index/)
 
 We provide you with two *subtotal* in order to better understand the final value of profit & loss for the company:
 
