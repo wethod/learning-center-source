@@ -2,11 +2,12 @@
 date: 2018-11-23 08:24:15 +0000
 title: Capex
 weight: 96
+draft: true
 
 ---
 ## Overview
 
-This section provides an overview of all investment projects values meant as Capital Expenditures. 
+This section provides an overview of all investment project values meant as Capital Expenditures. 
 
 {{< img-center src="/uploads/2018/11/23/support_capex.png" >}}
 
