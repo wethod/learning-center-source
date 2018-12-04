@@ -53,7 +53,7 @@ Here you can configure your company by setting:
       * **Project status as progress**: the project status is assigned as a progress percentage (e.g. the progress of this project is 45%).
 * **Email Bot**: here you can insert the email addresses to which send invoices and orders;
 * **Project Won/Lost Bot**: here you can insert the email addresses to which send notifications each time someone of your teammates won or lost a project. A project is considered to be _lost_ when its probability is 0 and _won_ when its probability is 90;
-* **Default Areas**: these will be suggested when you're creating a [new budget]({{< relref "budget/index.md#the-workflow" >}}) or when you're adding a new area to an existing budget;
+* **Project Types**: create and manage labels that you can assign to projects in [pipeline]({{< relref "pipeline/index.md#projects" >}}). A project type is basically composed by a name, you can than aggregate it's values by using a group or use a short label to better identify a project type;
 * **Timesheet**: here you can choose to automate the timesheets creation process. This way, timesheets are automatically created each Friday based on planned hours. _Be careful: Anything can go wrong because planning is not often 100% accurate, this is why timesheet exists._
 
 ## Alerts Engine
