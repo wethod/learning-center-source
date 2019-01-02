@@ -14,7 +14,7 @@ To create an order:
 2. Compile the required fields
 3. Click on the "**create**" button
 
-After creating an order you can send it and approve it. Once you click on the "**send**" button, an e-mail will be sent to the address provided in the settings' \[Email Bot\]({{< relref "settings/index.md#company" >}}) section.
+After creating an order you can send it and approve it. Once you click on the "**send**" button, an e-mail will be sent to the address provided in the settings' [Email Bot]({{< relref "settings/index.md#company" >}}) section.
 
 When an order is sent, you still have the ability to edit it or approve it by clicking on the "**approve**" button. Approving an order isn't mandatory but can be useful if you want to keep track of what orders can be actually issued.
 
@@ -42,7 +42,7 @@ Order's fields description:
 
 ## Invoices
 
-In this section you can see all your invoices and create new ones. Once you click on the "**Send**" button, an e-mail is sent to the address inserted in the \[Email Bot\]({{< relref "settings/index.md#company" >}}) section.
+In this section you can see all your invoices and create new ones. Once you click on the "**Send**" button, an e-mail is sent to the address inserted in the [Email Bot]({{< relref "settings/index.md#company" >}}) section.
 
 To create an invoice:
 
