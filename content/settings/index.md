@@ -86,6 +86,56 @@ To create a new role:
 2. Assign a name to the newly created role;
 3. Click the "**save**" button.
 
+## Profile
+
+A place where you can introduce yourself to the people of your team.
+
+Your portfolio is made up of different information, let's explore them.
+
+### Profile pic & basic information
+
+Here you can just edit your profile pic, for the other information please refer to the relative section:
+
+* Your name can be edited from the [account section]({{< relref "settings/index.md#account" >}})
+* Your tags and your level can be edited from from the [team section]({{< relref "settings/index.md#team" >}}) if you have the right permissions
+
+### Contact information
+
+In which way people can contact you? Add a phone number, a Skype username and even a LinkedIn account if you want.
+
+### Skills
+
+What are your secret weapons? When adding a skill you can pick from the list a skill already used from another person of your team, otherwise don't be afraid to create a new one.
+
+*If a skill is used by nobody, it will automatically be deleted.*
+
+### Short Bio
+
+Just a brief presentation about yourself.
+
+### Languages 
+
+How many languages do you know? List them and choose a level for each one. 
+
+*Levels are based on the [Common European Framework of Reference for Languages (CEFR)](https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages)*
+
+### Portfolio
+
+All the projects you are proud of.
+
+### OKR, Sponsorships & Year Resolution
+
+OKR is an abbreviation for **Objective and Key Result**, a 
+technique for defining and tracking objectives used by companies like Google, Uber and Twitter. Every person in your team is prompt to define some objectives for each quarter of the year, an objective is made up of key results. A key result is an expectation whose progress can be quantitatively measured and scored, completing all the key results of an objective means that you have completed that objective too.
+
+A common way to decide which objectives are really meaningful for your personal growth and for your company is discussing them with a **sponsor**: a person in your team that you want to take as a mentor. 
+
+*To select a sponsor just pick it from the list you see by editing the "Sponsored by" section. All the people that have chosen you as sponsor will appear in the "Sponsor of" section.*
+
+You can use the **year resolution** to sum up the meaning of all your objectives.
+
+Want to learn more about OKR? Take a look at this [good article](https://medium.com/startup-tools/okrs-5afdc298bc28).
+
 ## Switch Company
 
 If you have a different WETHOD company linked to the same account, from here you can switch from one another.
