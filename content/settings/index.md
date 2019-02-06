@@ -136,6 +136,8 @@ You can use the **year resolution** to sum up the meaning of all your objectives
 
 Want to learn more about OKR? Take a look at this [good article](https://medium.com/startup-tools/okrs-5afdc298bc28).
 
+{{< img-center src="/uploads/2019/02/06/okr.gif">}}
+
 ## Switch Company
 
 If you have a different WETHOD company linked to the same account, from here you can switch from one another.
