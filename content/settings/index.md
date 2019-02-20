@@ -138,6 +138,56 @@ Want to learn more about OKR? Take a look at this [good article](https://medium.
 
 {{< img-center src="/uploads/2019/02/06/okr.gif">}}
 
+### Trends
+
+Here you can find some reports about the user's behaviour, each report is obtained by using a (moving average)[https://en.wikipedia.org/wiki/Moving_average] of the last 3 or 12 months' available data.
+For each report you can appreciate:
+
+*	The **general trend**, identified by the line's color: red if the last point you see is worst than the first one, green otherwise
+*	The **last available value**, identified by the marker's color. The meaning of the color is explained in the chart's legend
+
+#### Fridayness
+
+The days of delay in compiling [timesheet]({{< relref "friday/index.md#timesheet" >}}) and [project status]({{< relref "friday/index.md#project-status" >}}): the more you wait to compile them, the more your report goes up.
+
+Timesheet and project status are meant to be compiled on Friday (this is because they are placed under the Friday section 😉); if you compile them on Saturday you get a +1 day on the report, if you compile them on Sunday you get a +2 days on the report and so on.
+
+{{< img-center src="/uploads/2019/02/20/fridayness.png">}}
+
+#### Chargeability
+
+The percentage of timesheet done on chargeable projects. The dashed line is useful to understand how teammates with the same level are doing. Do you work for money or for glory?
+
+{{< img-center src="/uploads/2019/02/20/chargeability.png">}}
+
+#### Do The Production Plan
+
+The percentage of [production plan]({{< relref "planning/index.md#production-plan" >}})'s correction accumulation: when you edit a project status in the past or when a new month starts, the production plan is recalculated in order to find possible mismatches between the production you planned and the actual production.
+
+The adjustments (or accumulation) are reported as orange monthly apex and are used to compute the moving average for this chart. So, how accurate is your production planning?
+
+{{< img-center src="/uploads/2019/02/20/do-the-plan.png">}}
+
+#### Keep The Lights Off
+
+[Alerts]({{< relref "alerts/index.md" >}}) are made to be solved and this report shows how many days you take to solve yours (on average).
+
+{{< img-center src="/uploads/2019/02/20/keep-the-lights-off.png">}}
+
+#### Do The Budget
+
+The difference, in terms of margin, between [budget]({{< relref "budget/index.md" >}})'s baseline and budget's last approved version. Only finished project (that is projects archived with probability equal to 100%) are taken into account.
+
+{{< img-center src="/uploads/2019/02/20/do-the-budget.png">}}
+
+### Working Connections
+
+Here you can appreciate the connections between project's manager, type and client of timeheets you have done in the last 12 months, position your cursor over a link or a rectangle to get more informations.
+
+By clicking on a rectangle you can highlight all the outgoing connections and clicking on a connection let you see all the projects involved in that connection.
+
+{{< img-center src="/uploads/2019/02/20/working-connections.gif">}}
+
 ## Switch Company
 
 If you have a different WETHOD company linked to the same account, from here you can switch from one another.
