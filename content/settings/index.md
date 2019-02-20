@@ -150,7 +150,7 @@ For each report you can appreciate:
 
 The days of delay in compiling [timesheet]({{< relref "friday/index.md#timesheet" >}}) and [project status]({{< relref "friday/index.md#project-status" >}}): the more you wait to compile them, the more your report goes up.
 
-Timesheet and project status are meant to be compiled on Friday (this is because they are placed under the Friday section 😉); if you compile them on Saturday you get a +1 day on the report, if you compile them on Sunday you get a +2 days on the report and so on.
+Timesheet and project status are meant to be compiled on Friday (this is why they are placed under the Friday section 😉); if you compile them on Saturday you get a +1 day on the report, if you compile them on Sunday you get a +2 days on the report and so on.
 
 {{< img-center src="/uploads/2019/02/20/fridayness.png">}}
 
