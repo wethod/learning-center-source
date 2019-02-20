@@ -140,7 +140,7 @@ Want to learn more about OKR? Take a look at this [good article](https://medium.
 
 ### Trends
 
-Here you can find some reports about the user's behaviour, each report is obtained by using a (moving average)[https://en.wikipedia.org/wiki/Moving_average] of the last 3 or 12 months' available data.
+Here you can find some reports about the user's behaviour, each report is obtained by using a [moving average](https://en.wikipedia.org/wiki/Moving_average) of the last 3 or 12 months' available data.
 For each report you can appreciate:
 
 *	The **general trend**, identified by the line's color: red if the last point you see is worst than the first one, green otherwise
