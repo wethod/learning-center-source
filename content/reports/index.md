@@ -197,7 +197,7 @@ Above the production value's chart there's the monthly [Roadrunner Index]({{< re
 
 On the right you can see the **Resume Clock** which tells you:
 
-* The production target, as set in [Revenue Clock]({{< relref "dashboard/index.md#revenue-clock" >}})
+* The production target, as set in [Profit&Loss Budget Target]({{< relref "profit-loss/index.md#overview" >}})
 * The amount of weeks remaining until the end of the year (the grey area shows the percentage of the year gone )
 * The yearly weighted production value, by clicking on this area you can access the details about the yearly production value grouped **by client**, **by project** or **by week**
 * The yearly gross production value
