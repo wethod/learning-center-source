@@ -6,7 +6,7 @@ weight: 90
 ---
 ## Overview
 
-This page provides an overview of the budgetary slippages between a company's projected revenues and expenses, as well as its budget target over a given period of time. 
+This page provides an overview of the budgetary slippages between a company's projected revenues and expenses, as well as its budget target over a given period of time. The three columns 'budget', 'forecast 1' and 'forecast 2' can be used to set the company financial goals for each year. The column 'budget' in the row 'revenues' sets the revenues target throughout the company, which is used in the widget [Revenue Clock]({{< relref "dashboard/index.md#revenue-clock" >}}) and in the report [Production Value]({{< relref "reports/index.md#production-value" >}}).
 
 {{< img-center src="/uploads/2018/11/23/support_target.png" >}}
 
