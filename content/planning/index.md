@@ -74,10 +74,10 @@ You can hide a project by clicking on the "**X**" near the project's name.
 Here you can express the percentage of the project's total value you are going to produce in each month. 
 
 Past months are read-only and are automatically populated with the real production, based on the month's project status.
-You can edit future months but remember: a production plan can be saved only if you've distributed the 100% of its value, you can easily chek this by looking at the total: a red total means that you need to distribute the remaining amount.
+You can edit future months but remember: a production plan can be saved only if you've distributed the 100% of its value, you can easily check this by looking at the total: a red total means that your planning is someway different from 100%.
 
-Each time you edit a past project status, the related production plan is recalculated in order to allocate the remaining production or to adjust inchoerent plans. The adjustments are reported as orange monthly apex.
+Each time you edit a past project status' week, the production plan for that week is recalculated in order to allocate the remaining production or to adjust inchoerent plans. The adjustments are reported as orange monthly apex.
 
-A solid blue line indicates the project's duration, a dashed line instead tells you that the project's boundaries (the project start/end) are outside the visible planning's portion.
+A solid blue line indicates the project's duration, a dashed line instead tells you that the project's boundaries (the project's start/end) are outside the visible planning's portion.
 
-{{< img-center src="/uploads/2018/03/28/production-plan.png">}}
+{{< img-center src="/uploads/2019/03/04/production-plan.png">}}
