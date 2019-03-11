@@ -37,6 +37,11 @@ sections:
   create: all
   match: "**/*"
 - type: directory
+  path: content/invoice-plan
+  label: Invoice plan
+  create: all
+  match: "**/*"
+- type: directory
   path: content/capex
   label: Capex
   create: all
