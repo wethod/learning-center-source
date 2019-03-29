@@ -97,7 +97,7 @@ Want to see the difference between two approved budget versions? Hit the **Compa
 
 ## Make a task intercompany
 
-If your company is part of a group you can transform a normal budget's task into an **intercompany task**: a special kind of task which presents only external costs and which can be assigned to another company of your group, the selected company became the *supplier* for the task.
+If your company is part of a [group]({{< relref "group-setup/index.md" >}}) you can transform a normal budget's task into an **intercompany task**: a special kind of task which presents only external costs and which can be assigned to another company of your group, the selected company became the *supplier* for the task.
 
 An intercompany task is used to track work done within the same group and its useful to have a clearer view on the [profit & loss]({{< relref "profit-loss/index.md" >}}).
 
