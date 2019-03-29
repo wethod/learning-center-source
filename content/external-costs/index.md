@@ -1,5 +1,5 @@
 ---
-date: 2017-08-29 10:24:26 +0200
+date: 2017-08-29 08:24:26 +0000
 title: External Costs
 weight: 92
 
@@ -19,3 +19,7 @@ Three important indicators are given in the first three rows:
 * **Values**: external costs without bluesky, per month.
 
 {{< img-center src="/uploads/2017/08/29/External%20Cost.png" >}}
+
+{{< note title="Note" >}}
+**If your company is part of a group, intercompany external costs are automatically removed from this view.**
+{{< /note >}}
