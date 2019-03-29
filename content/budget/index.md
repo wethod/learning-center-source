@@ -105,9 +105,9 @@ An intercompany task is used to track work done within the same group and its us
 **An intercompany task is expected to have just name and external costs, this means that you need to delete internal days and markup in order to complete the transformation.**
 {{< /note >}}
 
-{{< img-center src="/uploads/2019/03/29/make-intercompany.gif">}}
+{{< img-center src="/uploads/make-intercompany.gif">}}
 
-Once you have created an intercompany task, you can invite a person (that is an employee belonging to the task's supplier) to connect one of their projects to the task itself. The invited person will receive an email containing a link to [connect the project]({{< relref "pipeline/index.md#intercompany-project" >}}).
+Once you have created an intercompany task, you can invite a person (that is an employee belonging to the task's supplier) to connect one of their projects to the task itself. The invited person will receive an email containing a link to [connect the project]({{< relref "pipeline/index.md#intercompany-projects" >}}).
 
 When a project is successfully connected to an intercompany task, it becames an *intercompany project*: its **final net price** and **probability** are updated to reflect the intercompany task's external costs and intercompany task's project's probability.
 
