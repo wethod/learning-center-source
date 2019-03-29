@@ -47,6 +47,16 @@ sections:
   create: all
   match: "**/*"
 - type: directory
+  path: content/group-setup
+  label: Group Setup
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/group-reports
+  label: Group Reports
+  create: all
+  match: "**/*"
+- type: directory
   path: content/alerts
   label: Alerts
   create: all
