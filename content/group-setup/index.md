@@ -6,8 +6,10 @@ weight: 20
 ---
 ## Overview
 
-Here you can find reports obtained by aggregating data coming from all the companies belonging to the group.
+If you need to manage various company belonging to the same holding, this is the right tool for you: enabling the group module lets you appreciate aggregates statistics about all of your companies and made possibile to track [intercompany work]({{< relref "budget/index.md#make-a-task-intercompany" >}}).
 
-## Profit & Loss
+### Hierarchy
 
-Each Monday, utilising data provided by [Timesheet]({{< relref "friday/index.md#timesheet" >}}), [Project Status]({{< relref "friday/index.md#project-status" >}}) and [Budget]({{< relref "budget/index.md" >}}), a Project Report is automatically created.
+Once you have enabled the group module, you can start building the hierarchy of your group: drag companies inside the graph, create levels and name them.
+
+{{< img-center src="/uploads/group.png">}}
