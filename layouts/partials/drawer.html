@@ -42,10 +42,17 @@
 
         {{ if isset .Site.Params "author" }}
         <hr>
-        <span class="section">Economics</span>
-        {{ if gt (len .Site.Menus.economics) 0 }}
+        <span class="section">Company</span>
+        {{ if gt (len .Site.Menus.company) 0 }}
         <ul>
           {{ partial "nav_economics" . }}
+        </ul>
+        {{ end }}
+        <hr>
+        <span class="section">Group</span>
+        {{ if gt (len .Site.Menus.group) 0 }}
+        <ul>
+          {{ partial "nav_group" . }}
         </ul>
         {{ end }}
         <hr>

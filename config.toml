@@ -10,35 +10,43 @@ fractions = true
 plainIDAnchors = true
 smartDashes = true
 smartypants = true
-[[menu.economics]]
+[[menu.group]]
+name = "Reports"
+url = "group-reports/index/"
+weight = 100
+[[menu.group]]
+name = "Setup"
+url = "group-setup/index/"
+weight = 110
+[[menu.company]]
 name = "Payroll"
 url = "payroll/index/"
 weight = 93
-[[menu.economics]]
+[[menu.company]]
 name = "G & A"
 url = "general-admin/index/"
 weight = 94
-[[menu.economics]]
+[[menu.company]]
 name = "Invoice Plan"
 url = "invoice-plan/index/"
 weight = 97
-[[menu.economics]]
+[[menu.company]]
 name = "Capex"
 url = "capex/index/"
 weight = 96
-[[menu.economics]]
+[[menu.company]]
 name = "Marketing"
 url = "marketing/index/"
 weight = 95
-[[menu.economics]]
+[[menu.company]]
 name = "External Costs"
 url = "external-costs/index/"
 weight = 92
-[[menu.economics]]
+[[menu.company]]
 name = "Revenues"
 url = "revenues/index/"
 weight = 91
-[[menu.economics]]
+[[menu.company]]
 name = "Profit & Loss"
 url = "profit-loss/index/"
 weight = 90
