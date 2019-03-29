@@ -18,3 +18,6 @@ Three important indicators are given in the first three rows:
 
 {{< img-center src="/uploads/2017/08/29/Reveues%20.png" >}}
 
+{{< note title="Note" >}}
+**If your company is part of a group, intercompany revenues are automatically removed from this view.**
+{{< /note >}}
