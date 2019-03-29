@@ -10,4 +10,4 @@ Here you can find reports obtained by aggregating data coming from all the compa
 
 ## Profit & Loss
 
-Each Monday, utilising data provided by [Timesheet]({{< relref "friday/index.md#timesheet" >}}), [Project Status]({{< relref "friday/index.md#project-status" >}}) and [Budget]({{< relref "budget/index.md" >}}), a Project Report is automatically created.
+An aggregated view for the [profit & loss report]({{< relref "profit-loss/index.md#" >}})
