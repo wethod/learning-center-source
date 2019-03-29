@@ -40,3 +40,9 @@ We provide you with two *subtotal* in order to better understand the final value
 {{< /note >}}
 
 {{< img-center src="/uploads/2018/11/23/support_monthlydistribution.png" >}}
+
+cuaiaasfasdffsad
+
+{{< note title="Note" >}}
+**If your company is part of a group, intercompany revenues and external costs are automatically removed from this view.**
+{{< /note >}}
