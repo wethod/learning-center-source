@@ -22,7 +22,7 @@ Basically, this is the place where you define (for a project):
 Done? Now the budget must be approved by a supervisor and, once approved, the project manager can start [planning]({{< relref "planning/index.md" >}}) and creating [orders]({{< relref "finance/index.md#orders" >}}).
 
 {{< note title="Note" >}}
-When a project reach 50% of probability, it's a good practice to make a budget for it.
+**When a project reach 50% of probability, it's a good practice to make a budget for it.**
 {{< /note >}}
 
 ## The Structure
@@ -94,3 +94,27 @@ Not sure if a budget’s area will fit? Just switch it off! 
 Want to see the difference between two approved budget versions? Hit the **Compare versions** button and select the two versions you want to compare. Use the Clear button to compare between two other versions and click Close to end the comparisons.
 
 {{< img-center src="/uploads/2018/10/19/compare.gif">}}
+
+## Make a task intercompany
+
+If your company is part of a group you can transform a normal budget's task into an **intercompany task**: a special kind of task which presents only external costs and which can be assigned to another company of your group, the selected company became the *supplier* for the task.
+
+An intercompany task is used to track work done within the same group and its useful to have a clearer view on the [profit & loss]({{< relref "profit-loss/index.md" >}}).
+
+{{< note title="Note" >}}
+**An intercompany task is expected to have just name and external costs, this means that you need to delete internal days and markup in order to complete the transformation.**
+{{< /note >}}
+
+{{< img-center src="/uploads/2019/03/29/make-intercompany.gif">}}
+
+Once you have created an intercompany task, you can invite a person (that is an employee belonging to the task's supplier) to connect one of their projects to the task itself. The invited person will receive an email containing a link to [connect the project]({{< relref "pipeline/index.md#intercompany-project" >}}).
+
+When a project is successfully connected to an intercompany task, it becames an *intercompany project*: its **final net price** and **probability** are updated to reflect the intercompany task's external costs and intercompany task's project's probability.
+
+{{< note title="Note" >}}
+**Each time you update the probability of a project which presents intercompany tasks, the intercompany projects linked to that task are updated accordingly. Besides if you update an intercompany task's external costs, the linked project's final net is updated too.**
+{{< /note >}}
+
+You can send as many invitations as you want, but remember that just a project can be linked to an intercompany task. 
+
+If you delete an intercompany task, any connected project will be disconnected (they will not be automatically deleted).
