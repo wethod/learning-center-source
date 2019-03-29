@@ -121,7 +121,7 @@ You can find the invoices (listed in your plan) in the [Invoices widget](/dashbo
 
 ### Intercompany Projects
 
-If your company is part of a group you have the possibility to connect a project to an [intercompany task]({{< relref "budget/index.md#make-a-task-intercompany" >}}), this makes it an _intercompany project_: its final net price and probability are updated to reflect the intercompany task’s external costs and intercompany task’s project’s probability.
+If your company is part of a [group]({{< relref "group-setup/index.md" >}}) you have the possibility to connect a project to an [intercompany task]({{< relref "budget/index.md#make-a-task-intercompany" >}}), this makes it an _intercompany project_: its final net price and probability are updated to reflect the intercompany task’s external costs and intercompany task’s project’s probability.
 
 To connect a project you firsty need to be invited, this can be done from inside a budget as [explained here]({{< relref "budget/index.md#make-a-task-intercompany" >}}). When you receive the invitation, just follow the link and select from the dropdown the project you want to connect.
 
