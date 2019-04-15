@@ -13,3 +13,14 @@ If you need to manage various company belonging to the same holding, this is the
 Once you have enabled the group module, you can start building the hierarchy of your group: drag companies inside the graph, create levels and name them.
 
 {{< img-center src="/uploads/group.png">}}
+
+### Clients normalizer
+
+From here you can map company-level clients onto group-wide clusters, this is useful for those reports which displays values related to clients.
+
+Companies of your group may share some clients and you may want to see these clients grouped together when looking at reports, to do this:
+
+1.	Create a cluster and name it
+2.	Drag & drop clients into the cluster	 
+
+{{< img-center src="/uploads/clients-normalizer.png">}}
