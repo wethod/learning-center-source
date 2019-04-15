@@ -8,13 +8,13 @@ weight: 20
 
 If you need to manage various company belonging to the same holding, this is the right tool for you: enabling the group module lets you appreciate aggregates statistics about all of your companies and made possibile to track [intercompany work]({{< relref "budget/index.md#make-a-task-intercompany" >}}).
 
-### Hierarchy
+## Hierarchy
 
 Once you have enabled the group module, you can start building the hierarchy of your group: drag companies inside the graph, create levels and name them.
 
 {{< img-center src="/uploads/group.png">}}
 
-### Clients normalizer
+## Clients normalizer
 
 From here you can map company-level clients onto group-wide clusters, this is useful for those reports which displays values related to clients.
 
