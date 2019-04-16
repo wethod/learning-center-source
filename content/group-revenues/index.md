@@ -4,7 +4,7 @@ title: Revenues
 weight: 20
 
 ---
-## Revenues
+## Overview
 
 An aggregated view for the [revenues report]({{< relref "revenues/index.md#" >}})
 
