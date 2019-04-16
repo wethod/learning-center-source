@@ -11,9 +11,13 @@ plainIDAnchors = true
 smartDashes = true
 smartypants = true
 [[menu.group]]
-name = "Reports"
-url = "group-reports/index/"
+name = "Profit & Loss"
+url = "group-profit-loss/index/"
 weight = 100
+[[menu.group]]
+name = "Revenues"
+url = "group-revenues/index/"
+weight = 105
 [[menu.group]]
 name = "Setup"
 url = "group-setup/index/"

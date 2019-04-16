@@ -52,8 +52,12 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/group-reports
-  label: Group Reports
+  path: content/group-revenues
+  label: Group Revenues
+  create: all
+- type: directory
+  path: content/group-profit-loss
+  label: Group Profit & Loss
   create: all
   match: "**/*"
 - type: directory
