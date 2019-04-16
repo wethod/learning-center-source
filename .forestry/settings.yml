@@ -55,6 +55,7 @@ sections:
   path: content/group-revenues
   label: Group Revenues
   create: all
+  match: "**/*"
 - type: directory
   path: content/group-profit-loss
   label: Group Profit & Loss
