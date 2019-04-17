@@ -15,7 +15,7 @@ Here you have the yearly revenues of your group, distributed on a monthly basis.
 *	**Production** based on companies' project status
 *	**Production plan** based on companies' [production plan]({{< relref "planning/index.md#production-plan" >}})
 *	**Bluesky** based on companies' [bluesky]({{< relref "glossary/index.md#bluesky" >}})
-*	**Production average target** obtained by dividing the target (which you can edit from the [company's profit & loss]({{< relref "profit-loss/index.md#overview" >}}) and displayed inside the clock chart on the right) for 12 (the number of months per year)
+*	**Monthly production value** obtained by dividing the target (which you can edit from the [company's profit & loss]({{< relref "profit-loss/index.md#overview" >}}) and displayed inside the clock chart on the right) for 12 (the number of months per year)
 *	**Production trend** based on the production of the last three years
 
 {{< img-center src="/uploads/revenues-by-month.png">}}
