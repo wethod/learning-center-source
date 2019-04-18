@@ -26,4 +26,6 @@ A table where you can appreciate how much production has been generated from eac
 
 The **C.S.I (cross-selling index)** column shows how much each client/cluster is off from the ideal distribution among the companies of the group. It goes from 0 to 1 where **0** means all the revenues of a client/cluster is produced by only one company a.k.a "the worst case scenario"; **1** means that the revenues of the client/cluster is produced equally by each company in the group a.k.a "the best case scenario".
 
+The **Count (#)** column shows how many companies are working for each client/cluster.
+
 {{< img-center src="/uploads/revenues-by-client.png">}}
