@@ -1,5 +1,5 @@
 ---
-date: 2016-03-12 19:08:11 +0000
+date: 2016-03-12T19:08:11.000+00:00
 title: Planning
 weight: 40
 
@@ -81,3 +81,9 @@ Each time you edit a past project status' week, the production plan for that wee
 A solid blue line indicates the project's duration, a dashed line instead tells you that the project's boundaries (the project's start/end) are outside the visible planning's portion.
 
 {{< img-center src="/uploads/2019/03/04/production-plan.png">}}
+
+{{< note title="Note" >}}
+
+**The production plan calendar follows ISO 8601, this means that a week belongs to a particular month only if its thursday belongs to that month**
+
+{{< /note >}}
