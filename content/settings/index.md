@@ -2,6 +2,7 @@
 date: 2017-05-24T10:09:44.000+00:00
 title: Settings
 weight: "80"
+draft: true
 
 ---
 ## Tutorial
@@ -141,7 +142,7 @@ Want to learn more about OKR? Take a look at this [good article](https://medium.
 For every quarter you can set a **status** based on how the discussion about that quarter's OKR is going:
 
 * _Draft_ if the OKR isn't completely defined yet
-* _Discussed_ if all objectives has been discussed and approved by your sponsor. From this step on, you can just edit KR's progress
+* _Discussed_ if all the objectives have been discussed and approved by your sponsor. From this step on, you can just edit the Key Results progress
 * _Checked_ if quarter ends and your sponsor positively evaluated your progress. In this step you are no more able to edit the quarter's OKR
 
 {{< img-center src="/uploads/2019/05/21/objective-quarter-status.png">}}
