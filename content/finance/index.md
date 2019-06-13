@@ -1,7 +1,7 @@
 ---
-date: 2017-05-24 10:06:54 +0000
+date: 2017-05-24T10:06:54.000+00:00
 title: Finance
-weight: 70
+weight: "70"
 
 ---
 ## Orders
@@ -23,14 +23,16 @@ An approved order cannot be edited.
 Order's fields description:
 
 * **Project**: the target Project
-* **Job Order**: the Job Order of the target Project of this Order, this field is auto compiled
 * **Supplier**: the target Supplier for this Order
 * **Purchase Code**: an identifier for the Order
 * **Date**: the issue date of this Order
 * **Duration**: answers to the question "when this order will used for the project?", by default uses the project's start month and duration. For example: some external employees works for you on April and May so you should set start month to April and duration of 2 months.
 * **Note**: a brief text about the order. This is attached to the order's email and can be seen by your colleagues
 
-{{< img-center src="/uploads/2018/05/14/orders.png" >}}
+### Currency
+
+Orders belonging to a [multicurrency budget]({{< relref "budget/index.md#multicurrency-budget" >}}) 
+are displayed with their currency. Currency can be picked between those used in the budget's external costs. The exchange rate for the currency is aligned with the last approved budget version but you can change it in any moment by editing it manually.
 
 {{< note title="Note" >}}
 
@@ -39,6 +41,8 @@ Order's fields description:
 **Order's value must be lower or equal then the external costs provided in the budget.**
 
 {{< /note >}}
+
+{{< img-center src="/uploads/2019/06/13/orders.gif" >}}
 
 ## Invoices
 
@@ -50,10 +54,17 @@ To create an invoice:
 2. Compile the invoice's empty fields;
 3. Click on the "**create**" button.
 
+### Currency
+
+Invoices belonging to a [multicurrency budget]({{< relref "budget/index.md#multicurrency-budget" >}}) 
+are displayed with the final net's currency. The exchange rate is aligned with the last approved budget version but you can change it in any moment by editing it manually.
+
 {{< note title="Note" >}}
 
 **You can create invoices only for projects you have already provided with job order and budget**
 {{< /note >}}
+
+{{< img-center src="/uploads/2019/06/13/invoices.gif" >}}
 
 ## Clients
 
