@@ -1,7 +1,7 @@
 ---
-date: 2017-05-26 11:04:19 +0000
+date: 2017-05-26T11:04:19.000+00:00
 title: Budget
-weight: 31
+weight: "31"
 
 ---
 ## Overview
@@ -31,7 +31,6 @@ The budget section is composed by three main parts: project details, price detai
 
 {{< img-center src="/uploads/2018/10/19/budget.png">}}
 
-
 ### **Project details**
 
 Positioned in the top left, this part shows project information details such as the client, project name, project type, PM name, duration and probability. In this section, you can also:
@@ -40,7 +39,6 @@ Positioned in the top left, this part shows project information details such as 
 * add **notes**
 
 {{< img-center src="/uploads/2018/10/19/budget-important-info.png">}}
-
 
 ### **Price Details**
 
@@ -53,8 +51,6 @@ Positioned in the top right, this part shows some details about the project’s 
 * **Discount**: the percentage of discount you want to apply to the suggested price;
 
 {{< img-center src="/uploads/2018/10/19/budget-secondary-info.png">}}
-
-
 
 ### Budget editor
 
@@ -79,8 +75,8 @@ The first columns of the budget show how many work days you need for each _user 
 2. Compile the budget;
 3. Submit the budget for approval by clicking on the top left button "**submit for approval**";
 4. When the budget is approved by a supervisor, you will be able to [plan](/planning/index/) some resource on the project and start working on it;
-5. Whenever you need to modify the budget, you can set it back to draft and restart from point 
-3. Each time a new budget version is approved, it's saved and you can access it through the dropdown list under the Price's Detail panel.
+5. Whenever you need to modify the budget, you can set it back to draft and restart from point
+6. Each time a new budget version is approved, it's saved and you can access it through the dropdown list under the Price's Detail panel.
 
 When a budget is submitted, a supervisor can appreciate all the changes by looking at the orange labels. This makes the approval process easier and faster.
 
@@ -97,7 +93,7 @@ Want to see the difference between two approved budget versions? Hit the **Compa
 
 ## Make a task intercompany
 
-If your company is part of a [group]({{< relref "group-setup/index.md" >}}) you can transform a normal budget's task into an **intercompany task**: a special kind of task which presents only external costs and which can be assigned to another company of your group, the selected company become the *supplier* for the task.
+If your company is part of a [group]({{< relref "group-setup/index.md" >}}) you can transform a normal budget's task into an **intercompany task**: a special kind of task which presents only external costs and which can be assigned to another company of your group, the selected company become the _supplier_ for the task.
 
 An intercompany task is used to track work done within the same group and its useful to have a clearer view on the [profit & loss]({{< relref "profit-loss/index.md" >}}).
 
@@ -109,12 +105,30 @@ An intercompany task is used to track work done within the same group and its us
 
 Once you have created an intercompany task, you can invite a person (that is an employee belonging to the task's supplier) to connect one of their projects to the task itself. The invited person will receive an email containing a link to [connect the project]({{< relref "pipeline/index.md#intercompany-projects" >}}).
 
-When a project is successfully connected to an intercompany task, it becames an *intercompany project*: its **final net price** and **probability** are updated to reflect the intercompany task's external costs and intercompany task's project's probability.
+When a project is successfully connected to an intercompany task, it becames an _intercompany project_: its **final net price**, [currency]({{< relref "budget/index.md#multicurrency-budget" >}}) and **probability** are updated to reflect the intercompany task's external costs and intercompany task's project's probability.
 
 {{< note title="Note" >}}
 **Each time you update the probability of a project which presents intercompany tasks, the intercompany projects linked to that task are updated accordingly. Besides if you update an intercompany task's external costs, the linked project's final net is updated too.**
 {{< /note >}}
 
-You can send as many invitations as you want, but remember that just a project can be linked to an intercompany task. 
+You can send as many invitations as you want, but remember that just a project can be linked to an intercompany task.
 
 If you delete an intercompany task, any connected project will be disconnected (they will not be automatically deleted).
+
+## Multicurrency budget
+
+Sometimes may be useful to use currencies in your budget, expecially when you work with clients or suppliers that use curencies different from yours.
+
+Once you enable muticurrency for one of your budget, you will be able to set final net price and external costs in currencies other than the **company currency** you've defined in your [company settings]({{< relref "settings/index.md#company" >}}).
+
+Expressing a final net using a currency different from yours let you emit invoices using the same currency for that project.
+
+Expressing an external cost using a currency different from yours let you emit orders using the same currency for that project.
+
+Currencies' exchange rates are updated daily and, for a budget, they are coherent with the last approved version. This means that while your budget is in draft its exchange rates keep being updated every day but, once you get your budget approved, rates are freezed until you take the budget back to draft again.
+
+{{< note title="Note" >}}
+**Be aware that you can always disable multicurrency for a budget, but if you have created orders using currencies you need to manually update them. Invoices are automatically updated instead.**
+{{< /note >}}
+
+{{< img-center src="/uploads/2019/06/12/budget-multicurrency.gif">}}
