@@ -39,7 +39,7 @@ You can assign up to two **tags** to each teammate, use these tags to create gro
 
 Here you can configure your company by setting:
 
-* **User levels**: each one of your collaborators has a level which defines his daily cost to the company and the price you want to sell a day of his work to the clients. This way you can define clusters of employees like intern, junior, senior and so on;
+* **User levels**: each one of your collaborators has a level which defines his daily cost to the company and the price you want to sell a day of his work to the clients. This way you can define clusters of employees like intern, junior, senior and so on
 * **Job Order Categories**: here you can add the 'categories'of you projects, choosing a color, a name and various opsions such as:
   * **Chargeable**: the projects in this category are billable
   * **Everybody can plan**: the projects in this category can be planned by everybody, not only by its pm or account
@@ -48,13 +48,14 @@ Here you can configure your company by setting:
   * **Invoice driven budget**: the value of the projects on this category changes based on the total invoiced for that project. This logic also updates the Invoice Plan and the Production value. You can use this flag on all the project categories in which you are not sure of the final price because it can vary slightly based on external factors. You can then set a budget with an approximate price and let the issued invoices adjust the final price as a result of the delta between the ‘invoice plan’ and the real invoice.
   * **Capex**: the projects in this category must be treated as investments
   * **Project status**
-    * **Estimate to complete**: the project status is assigned as estimated days to complete (e.g. in order to complete we need 12 more days of work).
-    * **Time based progress**: the 'progress' of the projects in this category are not based on their 'projects status', but based on their duration (equally distributed on their lifespam indicated by date start and duration on the pipeline).
-    * **Project status as progress**: the project status is assigned as a progress percentage (e.g. the progress of this project is 45%).
+    * **Estimate to complete**: the project status is assigned as estimated days to complete (e.g. in order to complete we need 12 more days of work)
+    * **Time based progress**: the 'progress' of the projects in this category are not based on their 'projects status', but based on their duration (equally distributed on their lifespam indicated by date start and duration on the pipeline)
+    * **Project status as progress**: the project status is assigned as a progress percentage (e.g. the progress of this project is 45%)
 * **Email Bot**: here you can insert the email addresses to which send invoices and orders;
-* **Project Won/Lost Bot**: here you can insert the email addresses to which send notifications each time someone of your teammates won or lost a project. A project is considered to be _lost_ when its probability is 0 and _won_ when its probability is 90;
+* **Project Won/Lost Bot**: here you can insert the email addresses to which send notifications each time someone of your teammates won or lost a project. A project is considered to be _lost_ when its probability is 0 and _won_ when its probability is 90
 * **Project Types**: create and manage labels that you can assign to projects in \[pipeline\]({{< relref "pipeline/index.md#projects" >}}). A project type is basically composed by a name, you can than aggregate it's values by using a group or use a short label to better identify a project type;
 * **Timesheet**: here you can choose to automate the timesheets creation process. This way, timesheets are automatically created each Friday based on planned hours. _Be careful: Anything can go wrong because planning is not often 100% accurate, this is why timesheet exists._
+* **Currencies**: a list of all the known currencies, each one can be made available or set as _master_ (a.k.a. the currency you currently use in your company)
 
 ## Alerts Engine
 
