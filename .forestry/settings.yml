@@ -42,6 +42,11 @@ sections:
   create: all
   match: "**/*"
 - type: directory
+  path: content/order-plan
+  label: Order plan
+  create: all
+  match: "**/*"
+- type: directory
   path: content/capex
   label: Capex
   create: all

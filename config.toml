@@ -35,6 +35,10 @@ name = "Invoice Plan"
 url = "invoice-plan/index/"
 weight = 97
 [[menu.company]]
+name = "Order Plan"
+url = "order-plan/index/"
+weight = 98
+[[menu.company]]
 name = "Capex"
 url = "capex/index/"
 weight = 96
