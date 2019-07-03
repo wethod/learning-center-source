@@ -143,7 +143,7 @@ A project status is required for a given week only if at least a timesheet has b
 
 This alert is shown to the employee of a project who forgot to submit the timesheet in the last two weeks.
 
-*How to solve it?* Provide the missing timesheets.
+*How to solve it?* Provide the missing timesheets.
 
 ### Project Duration / Timesheet
 
