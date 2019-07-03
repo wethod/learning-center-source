@@ -141,7 +141,7 @@ A project status is required for a given week only if at least a timesheet has b
 
 ### Timesheet
 
-This alert is shown to the employee of a project who forgot to submit the timesheet in the last two weeks.
+This alert is shown to employees who, during the last weeks, submitted timesheet amount lower than the target amount selected from the [Alert Engine]({{< relref "settings/index/#alerts-engine" >}}) section.
 
 *How to solve it?* Provide the missing timesheets.
 
