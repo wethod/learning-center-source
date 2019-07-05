@@ -1,7 +1,7 @@
 ---
-date: 2017-05-22 15:31:29 +0000
+date: 2017-05-22T15:31:29.000+00:00
 title: Glossary
-weight: 200
+weight: "200"
 last: true
 
 ---
@@ -78,4 +78,4 @@ _The perfect managed project has a constant RRI of 1_.
 Wasted hours are generated when one of the following conditions is true:
 
 * A person is planned into the project A but he/she doesn't work at all;
-* A person is planned into the project A but he/she works on the project B instead and the project B has a non chargeable \[job order category\]({{< relref "settings/index.md#company" >}}).
+* A person is planned into the project A but he/she works on the project B instead and the project B has a non chargeable [job order category]({{< relref "settings/index.md#company" >}}).
