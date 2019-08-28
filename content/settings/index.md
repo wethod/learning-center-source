@@ -47,10 +47,10 @@ Here you can configure your company by setting:
   * **Must be in program**: the projects in this category must be added to a \[Program\]({{< relref "pipeline/index.md#programs" >}})
   * **Invoice driven budget**: the value of the projects on this category changes based on the total invoiced for that project. This logic also updates the Invoice Plan and the Production value. You can use this flag on all the project categories in which you are not sure of the final price because it can vary slightly based on external factors. You can then set a budget with an approximate price and let the issued invoices adjust the final price as a result of the delta between the ‘invoice plan’ and the real invoice.
   * **Capex**: the projects in this category must be treated as investments
-  * **Project status**
-    * **Estimate to complete**: the project status is assigned as estimated days to complete (e.g. in order to complete we need 12 more days of work)
-    * **Time based progress**: the 'progress' of the projects in this category are not based on their 'projects status', but based on their duration (equally distributed on their lifespam indicated by date start and duration on the pipeline)
-    * **Project status as progress**: the project status is assigned as a progress percentage (e.g. the progress of this project is 45%)
+  * **Project status**:
+  		* **Work days to complete**: the project status is assigned as estimated days to complete (e.g. in order to complete we need 12 more days of work)
+  		* **Auto**: the progress of the projects in this category are not based on their projects status, but based on their duration (equally distributed on their lifespam indicated by date start and duration on the pipeline)
+  		* **Completed percentage**: the project status is assigned as a progress percentage (e.g. the progress of this project is 45%)
 * **Email Bot**: here you can insert the email addresses to which send invoices and orders;
 * **Project Won/Lost Bot**: here you can insert the email addresses to which send notifications each time someone of your teammates won or lost a project. A project is considered to be _lost_ when its probability is 0 and _won_ when its probability is 90
 * **Project Types**: create and manage labels that you can assign to projects in \[pipeline\]({{< relref "pipeline/index.md#projects" >}}). A project type is basically composed by a name, you can than aggregate it's values by using a group or use a short label to better identify a project type;
