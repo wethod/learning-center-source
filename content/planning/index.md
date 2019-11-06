@@ -48,7 +48,7 @@ The **filter people button** lets you combine different filters, for example you
 
 {{< img-center src="/uploads/2017/11/02/planning-people-filters.png">}}
 
-You can use the search bar even to filter people by [skill]({{< relref "settings/index.md#skills" >}}), try to input something like **skill:photoshop** to find everybody who has a skill named illustrator.
+You can use the search bar even to filter people by [skill]({{< relref "settings/index.md#skills" >}}), try to input something like **skill:photoshop** to find everybody who has a skill named "photoshop".
 
 ## Projects' Heatmap
 
