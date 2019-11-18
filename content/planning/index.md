@@ -6,12 +6,10 @@ weight: "40"
 ---
 ## Overview
 
-The planning has two section: 
+The planning has two section:
 
-* **People Allocation** helps you to look for teammates availability,  resources allocation and check if the budget quota is respected. 
-
+* **People Allocation** helps you to look for teammates availability,  resources allocation and check if the budget quota is respected.
 * **Projects' Heatmap** shows the daily amount of people planned on each project. It also offers a _milestone system_ that allows your team to have an overview on the scheduled events.
-
 * **Production Plan** where you can express the percentage of the project's total value you are going to produce in each month.
 
 Everything is arranged into a six weeks calendar, you can explore past and future using the horizontal scroll or clicking on the top right arrow navigator.
@@ -44,11 +42,11 @@ You can plan a person by half-days: we think it's not worth planning by more fin
 
 {{< img-center src="/uploads/2017/11/02/planning-people.gif">}}
 
-The **filter people button** lets you combine different filters, for example you may decide to see only the internal employees which are managers and have a background in design (you can use [tags]({{< relref "settings/index.md#team" >}}) to divide employees into categories).
+The **filter people button** lets you combine different filters, for example you may decide to see only the internal employees which are managers and have a background in design (you can use \[tags\]({{< relref "settings/index.md#team" >}}) to divide employees into categories).
 
 {{< img-center src="/uploads/2017/11/02/planning-people-filters.png">}}
 
-You can use the search bar even to filter people by [skill]({{< relref "settings/index.md#skills" >}}), try to input something like **skill:photoshop;skill:illustrator** to find everybody who has a skill named "photoshop" and a skill named "illustrator".
+You can use the search bar even to filter people by \[skill\]({{< relref "settings/index.md#skills" >}}), try to input something like **skill:photoshop;skill:illustrator** to find everybody who has a skill named "photoshop" and a skill named "illustrator".
 
 ## Projects' Heatmap
 
@@ -73,7 +71,7 @@ You can hide a project by clicking on the "**X**" near the project's name.
 
 ## Production Plan
 
-Here you can express the percentage of the project's value you plan to produce for each month. 
+Here you can express the percentage of the project's value you plan to produce for each month.
 
 Past months are read-only and are automatically populated with the real production, based on the month's project status.
 You can edit future months but remember: a production plan can be saved only if you've distributed the 100% of its value, you can easily check this by looking at the total: a red total means that your planning is someway different from 100%.
@@ -82,7 +80,11 @@ Each time you edit a past project status' week, the production plan for that wee
 
 A solid blue line indicates the project's duration, a dashed line instead tells you that the project's boundaries (the project's start/end) are outside the visible planning's portion.
 
-{{< img-center src="/uploads/2019/06/19/prod-plan.png">}}
+Other than searching projects by name, pm or client, you can even filter them by who's in charge for them: **Mine** shows you all the projects where you're pm or account while **Others** ... well, we think you're smart enough to understand it by yourself.
+
+If you're editing a project, you can move its whole duration or a the plan for a single month by simply dragging them as shown in the GIF below.
+
+{{< img-center src="/uploads/2019/11/18/production-plan.gif">}}
 
 {{< note title="Note" >}}
 
