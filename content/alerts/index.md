@@ -17,9 +17,15 @@ Some alerts depends on parameters that you can customize using the [Alerts Engin
 
 ### Unsent Order
 
-This alert is shown to the project manager who has created the orders which need to be sent.
+This alert is shown to the project manager who has created the order which need to be sent.
 
 *How to solve it?* Just send all the waiting orders.
+
+### Unsent Invoice
+
+This alert is shown to the project manager who has created the invoice which need to be sent.
+
+*How to solve it?* Just send all the waiting invoices.
 
 ### Expiring Opportunity
 
@@ -82,7 +88,7 @@ This can have two main causes:
 
 This alert is shown if you're manager of a finished project which isn't already been archived.
 
-*How to solve it?* Archive your projects when their project status reach 0.
+*How to solve it?* Archive your projects when their project status reach 0.
 
 ### Project Probability / Missing Budget
 
