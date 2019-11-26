@@ -82,7 +82,9 @@ A solid blue line indicates the project's duration, a dashed line instead tells 
 
 Other than searching projects by name, pm or client, you can even filter them by who's in charge for them: **Mine** shows you all the projects where you're pm or account while **Others** ... well, we think you're smart enough to understand it by yourself.
 
-If you're editing a project, you can move its whole duration or a the plan for a single month by simply dragging them as shown in the GIF below. If you change a project's duration, it will be saved as soon as you click on the "save" button.
+If you're editing a project, you can move its whole duration or the plan for a single month by simply dragging them as shown in the GIF below. If you change a project's duration, it will be saved as soon as you click on the "save" button.
+
+Use the "**Auto distribution**" function on a project to spread it's remaining plan on the future months of its duration.
 
 {{< img-center src="/uploads/2019/11/18/production-plan.gif">}}
 
