@@ -1,7 +1,7 @@
 ---
-date: 2019-03-29 10:01:45 +0000
+date: 2019-03-29T10:01:45.000+00:00
 title: Revenues
-weight: 20
+weight: "20"
 
 ---
 ## Overview
@@ -29,3 +29,7 @@ The **C.S.I (cross-selling index)** column shows how much each client/cluster is
 The **Count (#)** column shows how many companies are working for each client/cluster.
 
 {{< img-center src="/uploads/revenues-by-client.png">}}
+
+{{< note title="Note" >}}
+**Data in this section use a daily cash to keep things fast. If you need something more updated please use the "Refresh data" button.**
+{{< /note >}}
