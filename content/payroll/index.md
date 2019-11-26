@@ -22,7 +22,7 @@ You can access the segments for a specific employee just by clicking on the empl
 
 In the **Placeholders** section you can see how new employees will impact your business: just add new fake salaries and see if your revenues are still healthy.
 
-Use the **Reset payroll** button take all payroll's rows down to zero, once done you can use the **Reset payroll** button to copy all the payroll's rows from the previous year.
+Use the **Reset payroll** button take all payroll's rows down to zero, once done you can use the **Import payroll** button to copy all the payroll's rows from the previous year.
 
 {{< note title="Note" >}}
 **Each Placeholder has at least a segment, if you delete the last segment the relative placeholder will be deleted.**
