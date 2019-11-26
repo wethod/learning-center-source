@@ -31,5 +31,5 @@ The **Count (#)** column shows how many companies are working for each client/cl
 {{< img-center src="/uploads/revenues-by-client.png">}}
 
 {{< note title="Note" >}}
-**Data in this section use a daily cash to keep things fast. If you need something more updated please use the "Refresh data" button.**
+**Data in this section use a daily cache to keep things fast. If you need something more updated please use the "Refresh data" button.**
 {{< /note >}}
