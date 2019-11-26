@@ -16,6 +16,6 @@ Each cost has:
 
 * **Net month**
 
-Use the **Import costs** button to copy all the G & A's rows from the previous year.
+Use the **Import costs** button to copy all the marketing costs' rows from the previous year.
 
 {{< img-center src="/uploads/2017/09/04/ZGIF-Marketing-TOP.gif" >}}
