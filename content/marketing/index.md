@@ -1,7 +1,7 @@
 ---
-date: 2017-08-29 10:24:54 +0200
+date: 2017-08-29T08:24:54.000+00:00
 title: Marketing
-weight: 95
+weight: "95"
 
 ---
 ## Overview
@@ -15,5 +15,7 @@ Each cost has:
 * **End month**
 
 * **Net month**
+
+Use the **Import costs** button to copy all the G & A's rows from the previous year.
 
 {{< img-center src="/uploads/2017/09/04/ZGIF-Marketing-TOP.gif" >}}
