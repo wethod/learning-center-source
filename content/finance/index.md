@@ -68,21 +68,20 @@ are displayed with the final net's currency. The exchange rate is aligned with t
 
 ## Clients
 
-In this section you can see all your contacts, divided into people and companies.
+In this section you can see all your contacts, divided into contacts and companies.
 
-_Tags_ are used to describe a contact in order to make better researches.
+{{< img-center src="/uploads/2019/11/29/clients.gif" >}}
 
-{{< img-center src="/uploads/2018/08/29/client-overview.gif" >}}
-
-**To add a Person**:
+**To add a Contact**:
 
 1. Go to “People” section, on the top right corner
-2. Click the "**+ person**" button on the top left corner
+2. Click the "**Add**" button
 3. Fill in all the required fields
 4. Click on the "**save**" button
 
-Click on a person to get more details about that person: on the left of this view you can find some general information about contact, on the right you can see listed all the projects developed with this contact and all his resources.
-A resource is just a link with a name to something external to WETHOD (like a document or a todo list).
+Click on the arrow to open a sidebar containing all the info about a contact, if you want even more details you can reach the contact page by using the button placed at the bottom of the sidebar. 
+
+In the contact page you can find all the projects developed with this contact and all his resources.
 
 {{< img-center src="/uploads/2018/08/29/client-person-details.png" >}}
 
@@ -93,14 +92,25 @@ How to link a contact to a project? Just go to the pipeline and pick a name from
 **To add a Company**:
 
 1. Go to “Companies” section, on the top right corner
-2. Click the "**+ company**" button on the top left corner
+2. Click the "**Add**" button
 3. Fill in all the required fields
 4. Click on the “**save**” button
 
 Click on a company to get more details about it: on the left of this view you can find some general information, on the right you can see listed all the compnay's contacts, all the projects developed for this company and all its resources.
 A resource is just a link with a name to something external to WETHOD (like a document or a todo list).
 
-{{< img-center src="/uploads/2018/08/29/client-compnay-details.png" >}}
+Click on the arrow to open a sidebar containing all the info about a company, if you want even more details you can reach the company page by using the button placed at the bottom of the sidebar. 
+
+In the company page you can find:
+
+* 	The **invoices widget** showing all the invoices that need to be sent for that client
+* 	The **revenues chart** showing all the revenues for the client in the current year or in the last three ones
+* 	The **won projects** that are all the projects with a 1oo% probability for this client
+* 	The **lost projects** that are all the projects with a o% probability for this client
+* 	The **outstanding projects** that are all the projects with a 1oo% probability between 10% and 90% for this client
+* 	The **contacts** for this client
+
+{{< img-center src="/uploads/2019/11/29/client-details.gif" >}}
 
 ## Suppliers
 
