@@ -1,7 +1,7 @@
 ---
-date: 2017-05-24 10:01:45 +0000
+date: 2017-05-24T10:01:45.000+00:00
 title: Reports
-weight: 60
+weight: "60"
 
 ---
 ## Overview
@@ -68,6 +68,64 @@ The grey percentage under _margin_ refers to the _revenues_.
 
 {{< img-center src="/uploads/2017/06/12/report-economics.png" >}}
 
+### Groupwide Economics
+{{< note title="Note" >}} This section is available only for companies in a Group{{< /note >}}
+
+The groupwide economics section shows the economics of a project and all its [intercompanies]({{< relref "pipeline/index.md##intercompany-projects">}}).
+
+Let's use an example where the company A is the "master" company and the company B is the supplier (the same can be applied to multiple suppliers).
+
+- **Revenues**
+    - Baseline: final net price of the first budget of A
+    - Forecast: final net price of the last budget of A
+    - As of Project Status: final net price of last budget of A based on project status percentages
+    - Projected: final net price of the last approved budget of A
+- **Overall Cost** 
+    - Baseline: sum of all costs of first budget of A and B
+    - Forecast: sum of all costs of last budget of A and B
+    - As of Project Status: sum of all costs of last budget of A and B based on project status percentages
+    - Projected: sum of all costs of last budget if A and B based on project status percentages
+- **Internal Cost of A**
+    - Baseline: internal costs of the first budget of A
+    - Forecast: internal costs of the last budget of A
+    - As of Project Status: timesheet cost of A based on project status percentages
+    - Projected: prejection to 100% of the timesheet cost of A
+- **External Cost of A**
+    - Baseline: external costs of the first budget of A without intercompanies value
+    - Forecast: external costs of the last budget of A without intercompanies value
+    - As of Project Status: external costs of the last budget of A without intercompanies value and based on project status percentages
+    - Projected: external costs of the first budget of A without intercompanies value
+- **Travels of A**
+    - Baseline: external cost of the "Travel" task of the first budget of A
+    - Forecast: external cost of the "Travel" task of the last budget of A
+    - As of Project Status: external cost of the "Travel" task of the last budget of A based on project status percentages
+    - Projected: external cost of the "Travel" task of the first budget of A
+- **Expenses of A**
+    - Baseline: external cost of the "Expenses" task of the first budget of A
+    - Forecast: external cost of the "Expenses" task of the last budget of A
+    - As of Project Status: external cost of the task names "Expenses" of the last budget of A based on project status percentages
+    - Projected: external cost of the "Expenses" task of the first budget of A
+- **Internal Cost of B**
+    - Baseline: internal costs of the first budget of B
+    - Forecast: internal costs of the last budget of B
+    - As of Project Status: timesheet cost of the last budget of B based on project status percentages
+    - Projected: prejection to 100% of the timesheet cost of B
+- **External Cost of B**
+    - Baseline: external costs of the first budget of B without intercompanies value
+    - Forecast: external costs of the last budget of B without intercompanies value
+    - As of Project Status: external costs of the last budget of B without intercompanies value and based on project status percentages
+    - Projected: external costs of the first budget of B without intercompanies value
+- **Travels of B**
+    - Baseline: external cost of the "Travel" task of the first budget of B
+    - Forecast: external cost of the "Travel" task of the last budget of B
+    - As of Project Status: external cost of the "Travel" task of the last budget of B based on project status percentages
+    - Projected: external cost of the "Travel" task of the first budget of B
+- **Expenses of B**
+    - Baseline: external cost of the "Expenses" task of the first budget of B
+    - Forecast: external cost of the "Expenses" task of the last budget of B
+    - As of Project Status: external cost of the task names "Expenses" of the last budget of B based on project status percentages
+    - Projected: external cost of the "Expenses" task of the first budget of B
+    
 ### Roadrunner Index - Days Left - Worked Hours
 
 This three charts let you appreciate the trend of three primary indexes related with the project's progress:
