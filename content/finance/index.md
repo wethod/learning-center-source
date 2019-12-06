@@ -68,13 +68,13 @@ are displayed with the final net's currency. The exchange rate is aligned with t
 
 ## Clients
 
-In this section you can see all your contacts, divided into contacts and companies.
+In this section you can see all your clients, divided into contacts and companies.
 
 {{< img-center src="/uploads/2019/11/29/clients.gif" >}}
 
 **To add a Contact**:
 
-1. Go to “People” section, on the top right corner
+1. Go to “Contact” section, on the top right corner
 2. Click the "**Add**" button
 3. Fill in all the required fields
 4. Click on the "**save**" button
@@ -101,16 +101,35 @@ A resource is just a link with a name to something external to WETHOD (like a do
 
 Click on the arrow to open a sidebar containing all the info about a company, if you want even more details you can reach the company page by using the button placed at the bottom of the sidebar. 
 
-In the company page you can find:
+**Client Details**:
+
+{{< img-center src="/uploads/2019/12/06/client-details.gif" >}}
+
+Here you can find details and insights about a client, like:
 
 * 	The **invoices widget** showing all the invoices that need to be sent for that client
 * 	The **revenues chart** showing all the revenues for the client in the current year or in the last three ones
+*   **Sparklines** see dedicated section for more details
 * 	The **won projects** that are all the projects with a 1oo% probability for this client
 * 	The **lost projects** that are all the projects with a o% probability for this client
 * 	The **outstanding projects** that are all the projects with a 1oo% probability between 10% and 90% for this client
 * 	The **contacts** for this client
 
-{{< img-center src="/uploads/2019/11/29/client-details.gif" >}}
+**Sparklines**
+
+Each sperkline shows unique trands and helpful insights abount the client (shown data are related to the selected time range), here a detailed list:
+
+- **Closed Projects**: shows the number of projects that reached 90% (won) of probability in the selected time range 
+- **Closed Proposal**: shows the number of project that reached 90% (won) or that went down to 0% (lost) in the selected time range
+- **Avg. Project Value**: sparkline shows the average value of all won Projects (probability >= 90%) in the selected time range
+- **Conversion Rate**: shows the ratio between won projects (probability >= 90%) and closed Projects (probability >= 90% or 0) in the selected time range
+- **Avg. Profitabilty**: shows the average margin of all won projects (probability >= 90%) in the selected time range
+
+Color legend:
+
+- Red: The last shown value in the selected time range is worse than the first one
+- Blue: The last shown value in the selected time range is the same as the first one
+- Green: The last shown value in the selected time range is better than the first one
 
 ## Suppliers
 
