@@ -117,15 +117,15 @@ If you delete an intercompany task, any connected project will be disconnected (
 
 ## Multicurrency budget
 
-Sometimes may be useful to use currencies in your budget, expecially when you work with clients or suppliers that use curencies different from yours.
+Sometimes may be useful to use currencies in your budget, expecially when you work with clients or suppliers that use currencies different from yours.
 
-Once you enable muticurrency for one of your budget, you will be able to set final net price and external costs in currencies other than the **company currency** you've defined in your [company settings]({{< relref "settings/index.md#company" >}}).
+Once you enable multicurrency for one of your budgets, you will be able to set final net price and external costs in currencies other than the **company currency** you've defined in your [company settings]({{< relref "settings/index.md#company" >}}).
 
 Expressing a final net using a currency different from yours let you emit invoices using the same currency for that project.
 
 Expressing an external cost using a currency different from yours let you emit orders using the same currency for that project.
 
-Currencies' exchange rates are updated daily and, for a budget, they are coherent with the last approved version. This means that while your budget is in draft its exchange rates keep being updated every day but, once you get your budget approved, rates are freezed until you take the budget back to draft again.
+Please consider tha currencies' exchange rates refers to the budget's creation date. 
 
 {{< note title="Note" >}}
 **Be aware that you can always disable multicurrency for a budget, but if you have created orders using currencies you need to manually update them. Invoices are automatically updated instead.**
