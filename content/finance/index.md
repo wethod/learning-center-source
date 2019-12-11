@@ -32,7 +32,7 @@ Order's fields description:
 ### Currency
 
 Orders belonging to a [multicurrency budget]({{< relref "budget/index.md#multicurrency-budget" >}}) 
-are displayed with their currency. Currency can be picked between those used in the budget's external costs. The exchange rate for the currency is aligned with the last approved budget version but you can change it in any moment by editing it manually.
+are displayed with their currency. Currency can be picked between those used in the budget's external costs. The exchange rate for the currency is aligned with the first approved budget version but you can change it in any moment by editing it manually.
 
 {{< note title="Note" >}}
 
@@ -57,7 +57,7 @@ To create an invoice:
 ### Currency
 
 Invoices belonging to a [multicurrency budget]({{< relref "budget/index.md#multicurrency-budget" >}}) 
-are displayed with the final net's currency. The exchange rate is aligned with the last approved budget version but you can change it in any moment by editing it manually.
+are displayed with the final net's currency. The exchange rate is aligned with the first approved budget version but you can change it in any moment by editing it manually.
 
 {{< note title="Note" >}}
 
