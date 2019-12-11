@@ -21,10 +21,10 @@ Pipeline has three subsections: Basket, Projects and Programs.
 
 ## Basket
 
-The Basket contains all the project’s opportunity that are not well-defined yet. You can see it as a place where to put all the ideas that you usually write on a notebook or on a Post-It. The significant information listed above are not mandatory for an opportunity.
+The Basket contains all the opportunities that are not well-defined yet. You can see it as a place where to put all the ideas that you usually write on a notebook or on a Post-It. 
+If you add a follow up date, WETHOD will remind you when the [opportunity is expiring](/alerts/index/#expiring-opportunity).
 
-{{< note title="Note" >}}
-**Opportunities usually have a probability between 1% and 99%.** {{< /note >}}
+{{< img-center src="/uploads/2019/12/11/basket.png" >}}
 
 ## Projects
 
@@ -121,9 +121,9 @@ You can find the invoices (listed in your plan) in the [Invoices widget](/dashbo
 
 ### Intercompany Projects
 
-If your company is part of a [group]({{< relref "group-setup/index.md" >}}) you have the possibility to connect a project to an [intercompany task]({{< relref "budget/index.md#make-a-task-intercompany" >}}), this makes it an _intercompany project_: its final net price and probability are updated to reflect the intercompany task’s external costs and intercompany task’s project’s probability.
+If your company is part of a \[group\]({{< relref "group-setup/index.md" >}}) you have the possibility to connect a project to an \[intercompany task\]({{< relref "budget/index.md#make-a-task-intercompany" >}}), this makes it an _intercompany project_: its final net price and probability are updated to reflect the intercompany task’s external costs and intercompany task’s project’s probability.
 
-To connect a project you firsty need to be invited, this can be done from inside a budget as [explained here]({{< relref "budget/index.md#make-a-task-intercompany" >}}). When you receive the invitation, just follow the link and select from the dropdown the project you want to connect.
+To connect a project you firsty need to be invited, this can be done from inside a budget as \[explained here\]({{< relref "budget/index.md#make-a-task-intercompany" >}}). When you receive the invitation, just follow the link and select from the dropdown the project you want to connect.
 
 {{< img-center src="/uploads/connect-project.png">}}
 
