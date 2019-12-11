@@ -22,7 +22,10 @@ Pipeline has three subsections: Basket, Projects and Programs.
 ## Basket
 
 The Basket contains all the opportunities that are not well-defined yet. You can see it as a place where to put all the ideas that you usually write on a notebook or on a Post-It. 
+
 If you add a follow up date, WETHOD will remind you when the [opportunity is expiring](/alerts/index/#expiring-opportunity).
+
+Use the arrow to edit, delete or simply get all details about an opportunity.
 
 {{< img-center src="/uploads/2019/12/11/basket.png" >}}
 
