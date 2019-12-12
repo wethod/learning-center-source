@@ -103,33 +103,29 @@ Click on the arrow to open a sidebar containing all the info about a company, if
 
 **Client Details**:
 
-{{< img-center src="/uploads/2019/12/06/client-details.gif" >}}
+{{< img-center src="/uploads/2019/12/12/client-detail.gif" >}}
 
 Here you can find details and insights about a client, like:
 
-* 	The **invoices widget** showing all the invoices that need to be sent for that client
-* 	The **revenues chart** showing all the revenues for the client in the current year or in the last three ones
-*   **Sparklines** see dedicated section for more details
-* 	The **won projects** that are all the projects with a 1oo% probability for this client
-* 	The **lost projects** that are all the projects with a o% probability for this client
-* 	The **outstanding projects** that are all the projects with a 1oo% probability between 10% and 90% for this client
-* 	The **contacts** for this client
+* 	All the **invoices** that need to be sent for that client
+* 	The **revenues** for the client grouped by years or quarters
+* 	The value of the **won projects** for the client grouped by years or quarters (click on a column to further filter the insights below on the selected time range)
+*   Sparklines:
+	* 	**Won projects** that are all the projects with a 90% or 1oo% probability
+    * 	**Proposals** the number of project that reached 90% (won) or went down to 0% (lost)
+    * 	**Avg. Project Value** the average value of all the won projects
+    * 	**Conversion Rate** the ratio between won projects and proposals
+    * 	**Avg. Profitabilty**: the average margin of all the won projects in the selected time range
+* 	**Won projects** that are all the projects with a 90% or 100% probability
+* 	**Lost projects** that are all the projects with a 0% probability
+* 	**Outstanding projects** that are all the projects with a probability between 10% and 75% 
+* 	All the **contacts** for this client
 
-**Sparklines**
+Sparklines comes in different colors to highlight the trend:
 
-Each sperkline shows unique trands and helpful insights abount the client (shown data are related to the selected time range), here a detailed list:
-
-- **Closed Projects**: shows the number of projects that reached 90% (won) of probability in the selected time range 
-- **Closed Proposal**: shows the number of project that reached 90% (won) or that went down to 0% (lost) in the selected time range
-- **Avg. Project Value**: sparkline shows the average value of all won Projects (probability >= 90%) in the selected time range
-- **Conversion Rate**: shows the ratio between won projects (probability >= 90%) and closed Projects (probability >= 90% or 0) in the selected time range
-- **Avg. Profitabilty**: shows the average margin of all won projects (probability >= 90%) in the selected time range
-
-Color legend:
-
-- Red: The last shown value in the selected time range is worse than the first one
-- Blue: The last shown value in the selected time range is the same as the first one
-- Green: The last shown value in the selected time range is better than the first one
+- Red if the last value if worse than the first one
+- Blue if first and last value are the same
+- Green if the last value if better than the first one
 
 ## Suppliers
 
