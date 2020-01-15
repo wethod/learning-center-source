@@ -107,7 +107,8 @@ Click on the arrow to open a sidebar containing all the info about a company, if
 
 Here you can find details and insights about a client, like:
 
-* 	All the **invoices** that need to be sent for that client
+* 	It's [revenue clock]({{< relref "dashboard/index.md#revenue-clock" >}}) for the current year
+*	All the **invoices** that need to be sent for that client
 * 	The **revenues** for the client grouped by years or quarters
 * 	The value of the **won projects** for the client grouped by years or quarters (click on a column to further filter the insights below on the selected time range)
 *   Sparklines:
