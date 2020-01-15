@@ -1,7 +1,7 @@
 ---
-date: 2016-03-10 18:56:50 +0000
+date: 2016-03-10T18:56:50.000+00:00
 title: Dashboard
-weight: 20
+weight: "20"
 
 ---
 ## Overview
@@ -33,7 +33,9 @@ Hovering the cursor over an alert will display a description of the problem.
 
 This widget lets you quickly compare the [revenue pipeline]({{< relref "glossary/index.md#revenue-pipeline" >}}) (blue) with the [production value]({{< relref "glossary/index.md#production-value" >}}) (green). When you create the widget, you must set the production target you want to hit by the end of the year. 
 
-When the filter is set to 'company overview' the target will automatically be set as the [Profit&Loss Budget Target]({{< relref "profit-loss/index.md#overview" >}}) for the current year.
+When the filter is set to **company overview** the target will automatically be set as the [profit & loss budget target]({{< relref "profit-loss/index.md#overview" >}}) for the current year.
+
+When the filter is set to **client** the target will automatically be set as the [revenues target]({{< relref "revenues/index.md#revenues-target" >}}) for the current year.
 
 The grey area shows the percentage of the year gone or, by another point of view, how much time you still have to hit your annual target.
 
