@@ -109,7 +109,7 @@ Here you can find details and insights about a client, like:
 
 * 	It's [revenue clock]({{< relref "dashboard/index.md#revenue-clock" >}}) for the current year
 *	All the **invoices** that need to be sent for that client
-* 	The **revenues** for the client grouped by years or quarters
+* 	The **revenues** for the client grouped by years or quarters. Targets are displayed in orange and you can set them in the [revenues target]({{< relref "revenues/index.md#revenues-target" >}}) section
 * 	The value of the **won projects** for the client grouped by years or quarters (click on a column to further filter the insights below on the selected time range)
 *   Sparklines:
 	* 	**Won projects** that are all the projects with a 90% or 1oo% probability
