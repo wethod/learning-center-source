@@ -327,3 +327,21 @@ With information as:
 * The value of the budget (old -> new);
 * The budget margin (old -> new);
 * The person who approved the budget;
+
+## Sales Overview
+
+Here you can have a summarized view about all that projects your company won or lost during different periods of time, togheter with a bunch of reports:
+
+* 	The value of the **won projects** for the client grouped by years or quarters (click on a column to further filter the insights below on the selected time range)
+*   Sparklines:
+	* 	**Won projects** that are all the projects with a 90% or 1oo% probability
+    * 	**Proposals** the number of project that reached 90% (won) or went down to 0% (lost)
+    * 	**Avg. Project Value** the average value of all the won projects
+    * 	**Conversion Rate** the ratio between won projects and proposals
+    * 	**Avg. Profitabilty**: the average margin of all the won projects in the selected time range
+* 	**Won projects** that are all the projects with a 90% or 100% probability
+* 	**Lost projects** that are all the projects with a 0% probability
+* 	**Outstanding projects** that are all the projects with a probability between 10% and 75% 
+
+{{< img-center src="/uploads/2020/01/24/sales-overview.png" >}}
+
