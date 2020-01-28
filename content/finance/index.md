@@ -128,6 +128,14 @@ Sparklines comes in different colors to highlight the trend:
 - Blue if first and last value are the same
 - Green if the last value if better than the first one
 
+**Intercompany client**
+
+If your company is part of a [group]({{< relref "group-setup/index.md" >}}) you can elevate some of your clients from "classical clients" to "intercompany clients".
+
+To do so you just need to click on the arrow to open the sidebar and assign the **Intercompany ID** by selecting it from a list containing all the companies which are part of your group.
+
+This is particularly useful when you decide to use a job order category with the ["Intercompany supplier"]({{< relref "settings/index.md#company" >}}) flag enabled.
+
 ## Suppliers
 
 In this section you can view all your suppliers and create new ones.
