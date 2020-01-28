@@ -44,22 +44,24 @@ Here you can configure your company by setting:
   * **Chargeable**: the projects in this category are billable
   * **Everybody can plan**: the projects in this category can be planned by everybody, not only by its pm or account
   * **Unlimited planning**: the projects in this category can be planned regardless budget availability
-  * **Must be in program**: the projects in this category must be added to a \[Program\]({{< relref "pipeline/index.md#programs" >}})
+  * **Must be in program**: the projects in this category must be added to a [Program]({{< relref "pipeline/index.md#programs" >}})
   * **Invoice driven budget**: the value of the projects on this category changes based on the total invoiced for that project. This logic also updates the Invoice Plan and the Production value. You can use this flag on all the project categories in which you are not sure of the final price because it can vary slightly based on external factors. You can then set a budget with an approximate price and let the issued invoices adjust the final price as a result of the delta between the ‘invoice plan’ and the real invoice.
   * **Capex**: the projects in this category must be treated as investments
+  * **Workable**: you can switch off this option for projects used to track holidays or permits, this way timesheets done on them are not used to calculare chargeability
+  * **Intercompany supplier**: an invoice for a project in this category cannot be sent if the project is not an [intercompany project]({{< relref "pipeline/index.md#intercompany-projects" >}}) or if its intercompany client does not [appear as an actual company client]()
   * **Project status**:
   		* **Work days to complete**: the project status is assigned as estimated days to complete (e.g. in order to complete we need 12 more days of work)
   		* **Auto**: the progress of the projects in this category are not based on their projects status, but based on their duration (equally distributed on their lifespam indicated by date start and duration on the pipeline)
   		* **Completed percentage**: the project status is assigned as a progress percentage (e.g. the progress of this project is 45%)
 * **Email Bot**: here you can insert the email addresses to which send invoices and orders;
 * **Project Won/Lost Bot**: here you can insert the email addresses to which send notifications each time someone of your teammates won or lost a project. A project is considered to be _lost_ when its probability is 0 and _won_ when its probability is 90
-* **Project Types**: create and manage labels that you can assign to projects in \[pipeline\]({{< relref "pipeline/index.md#projects" >}}). A project type is basically composed by a name, you can than aggregate it's values by using a group or use a short label to better identify a project type;
+* **Project Types**: create and manage labels that you can assign to projects in [pipeline]({{< relref "pipeline/index.md#projects" >}}). A project type is basically composed by a name, you can than aggregate it's values by using a group or use a short label to better identify a project type;
 * **Timesheet**: here you can choose to automate the timesheets creation process. This way, timesheets are automatically created each Friday based on planned hours. _Be careful: Anything can go wrong because planning is not often 100% accurate, this is why timesheet exists._
 * **Currencies**: a list of all the known currencies, each one can be made available or set as _master_ (a.k.a. the currency you currently use in your company)
 
 ## Alerts Engine
 
-Here you can manage the \[alerts\]({{< relref "alerts/index.md">}}) for your company, for each alert you can: enable/disable it, change its priority and edit its parameters (if required).
+Here you can manage the [alerts]({{< relref "alerts/index.md">}}) for your company, for each alert you can: enable/disable it, change its priority and edit its parameters (if required).
 
 {{< img-center src="/uploads/2018/03/27/alert-engine.png">}}
 
@@ -97,8 +99,8 @@ Your portfolio is made up of different information, let's explore them.
 
 Here you can just edit your profile pic, for the other information please refer to the relative section:
 
-* Your name can be edited from the \[account section\]({{< relref "settings/index.md#account" >}})
-* Your tags and your level can be edited from from the \[team section\]({{< relref "settings/index.md#team" >}}) if you have the right permissions
+* Your name can be edited from the [account section]({{< relref "settings/index.md#account" >}})
+* Your tags and your level can be edited from from the [team section]({{< relref "settings/index.md#team" >}}) if you have the right permissions
 
 ### Contact information
 
@@ -157,7 +159,7 @@ For each report you can appreciate:
 
 #### Fridayness
 
-The days of delay in compiling \[timesheet\]({{< relref "friday/index.md#timesheet" >}}) and \[project status\]({{< relref "friday/index.md#project-status" >}}): the more you wait to compile them, the more your report goes up.
+The days of delay in compiling [timesheet]({{< relref "friday/index.md#timesheet" >}}) and [project status]({{< relref "friday/index.md#project-status" >}}): the more you wait to compile them, the more your report goes up.
 
 Timesheet and project status are meant to be compiled on Friday (this is why they are placed under the Friday section 😉); if you compile them on Saturday you get a +1 day on the report, if you compile them on Sunday you get a +2 days on the report and so on.
 
@@ -171,7 +173,7 @@ The percentage of timesheet done on chargeable projects. The dashed line is usef
 
 #### Do The Production Plan
 
-The percentage of \[production plan\]({{< relref "planning/index.md#production-plan" >}})'s correction accumulation: when you edit a project status in the past or when a new month starts, the production plan is recalculated in order to find possible mismatches between the production you planned and the actual production.
+The percentage of [production plan]({{< relref "planning/index.md#production-plan" >}})'s correction accumulation: when you edit a project status in the past or when a new month starts, the production plan is recalculated in order to find possible mismatches between the production you planned and the actual production.
 
 The adjustments (or accumulation) are reported as orange monthly apex and are used to compute the moving average for this chart. So, how accurate is your production planning?
 
@@ -179,13 +181,13 @@ The adjustments (or accumulation) are reported as orange monthly apex and are us
 
 #### Keep The Lights Off
 
-\[Alerts\]({{< relref "alerts/index.md" >}}) are made to be solved and this report shows how many days you take to solve yours (on average).
+[Alerts]({{< relref "alerts/index.md" >}}) are made to be solved and this report shows how many days you take to solve yours (on average).
 
 {{< img-center src="/uploads/2019/02/20/keep-the-lights-off.png">}}
 
 #### Do The Budget
 
-The difference, in terms of margin, between \[budget\]({{< relref "budget/index.md" >}})'s baseline and budget's last approved version. Only finished project (that is projects archived with probability equal to 100%) are taken into account.
+The difference, in terms of margin, between [budget]({{< relref "budget/index.md" >}})'s baseline and budget's last approved version. Only finished project (that is projects archived with probability equal to 100%) are taken into account.
 
 {{< img-center src="/uploads/2019/02/20/do-the-budget.png">}}
 
