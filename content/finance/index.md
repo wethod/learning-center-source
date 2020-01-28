@@ -101,7 +101,7 @@ A resource is just a link with a name to something external to WETHOD (like a do
 
 Click on the arrow to open a sidebar containing all the info about a company, if you want even more details you can reach the company page by using the button placed at the bottom of the sidebar. 
 
-**Client Details**:
+### Client Details
 
 {{< img-center src="/uploads/2019/12/12/client-detail.gif" >}}
 
@@ -128,7 +128,7 @@ Sparklines comes in different colors to highlight the trend:
 - Blue if first and last value are the same
 - Green if the last value if better than the first one
 
-**Intercompany client**
+### Intercompany client
 
 If your company is part of a [group]({{< relref "group-setup/index.md" >}}) you can elevate some of your clients from "classical clients" to "intercompany clients".
 
