@@ -348,7 +348,7 @@ Here you can have a summarized view about all that projects your company won or 
 
 ## Backlog
 
-This section shows production related data, lets see each chart:
+This section shows production related data, let's see each chart:
 
 {{< img-center src="/uploads/2020/01/29/backlog.png" >}}
 
