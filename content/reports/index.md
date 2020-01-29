@@ -348,9 +348,9 @@ Here you can have a summarized view about all that projects your company won or 
 
 ## Backlog
 
-{{< img-center src="/uploads/2020/01/29/backlog.png" >}}
-
 This section shows production related data, lets see each chart:
+
+{{< img-center src="/uploads/2020/01/29/backlog.png" >}}
 
 * **Production**: shows the weekly total production for the last 52 weeks while for the future 52 it shows four charts:
 	* Projection: is the produced value of the last week projected on future weeks 
