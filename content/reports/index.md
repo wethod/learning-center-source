@@ -362,4 +362,4 @@ This section shows production related data, let's see each chart:
 
 * **Weeks Backlog**: shows how many weeks of work your company needs to produce the entire backlog for each week of the last year (week's backlog / week's production).
 
-* **Tips**: [COMINC SOON] This section will show useful tips based on your company production, production plan and backlog
+* **Tips**: [COMING SOON] This section will show useful tips based on your company production, production plan and backlog
