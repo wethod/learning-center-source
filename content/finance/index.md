@@ -122,7 +122,7 @@ Here you can find details and insights about a client, like:
 * 	**Outstanding projects** that are all the projects with a probability between 10% and 75% 
 * 	All the **contacts** for this client
 
-The "Won/lost feedback" column shows the feedback that project managers give when a project reaches 90% or goes to 0% of probability. The available feedback can be set from the [company]({{< relref "settings/index.md#company" >}}) page.
+The "Won/lost feedback" column shows the feedback that project managers give when a project reaches 90% or goes to 0% of probability. The available feedbacks can be set from the [company]({{< relref "settings/index.md#company" >}}) page.
 
 Sparklines comes in different colors to highlight the trend:
 
