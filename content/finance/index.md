@@ -112,7 +112,7 @@ Here you can find details and insights about a client, like:
 * 	The **revenues** for the client grouped by years or quarters. Targets are displayed in orange and you can set them in the [revenues target]({{< relref "revenues/index.md#revenues-target" >}}) section
 * 	The value of the **won projects** for the client grouped by years or quarters (click on a column to further filter the insights below on the selected time range)
 *   Sparklines:
-	* 	**Won projects** that are all the projects with a 90% or 1oo% probability
+	* 	**Won projects** that are all the projects with a 90% or 100% probability
     * 	**Proposals** the number of project that reached 90% (won) or went down to 0% (lost)
     * 	**Avg. Project Value** the average value of all the won projects
     * 	**Conversion Rate** the ratio between won projects and proposals
@@ -121,6 +121,8 @@ Here you can find details and insights about a client, like:
 * 	**Lost projects** that are all the projects with a 0% probability
 * 	**Outstanding projects** that are all the projects with a probability between 10% and 75% 
 * 	All the **contacts** for this client
+
+The "Won/lost feedback" column shows the feedback that project managers give when a project reaches 90% or goes to 0% of probability. The available feedback can be set from the [company]({{< relref "settings/index.md#company" >}}) page.
 
 Sparklines comes in different colors to highlight the trend:
 
