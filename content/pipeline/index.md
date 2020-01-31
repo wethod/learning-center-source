@@ -21,7 +21,7 @@ Pipeline has three subsections: Basket, Projects and Programs.
 
 ## Basket
 
-The Basket contains all the opportunities that are not well-defined yet. You can see it as a place where to put all the ideas that you usually write on a notebook or on a Post-It. 
+The Basket contains all the opportunities that are not well-defined yet. You can see it as a place where to put all the ideas that you usually write on a notebook or on a Post-It.
 
 If you add a follow up date, WETHOD will remind you when the [opportunity is expiring](/alerts/index/#expiring-opportunity).
 
@@ -134,6 +134,16 @@ Successfully connected projects are identified by a label below their names.
 
 {{< img-center src="/uploads/connected-project.png">}}
 
+### Won/lost feedback
+
+Wouldn't be great to be able to collect feedback on the reasons that led to win or lose a project?
+
+In the [company section](< relref "settings/index.md#company" >) you can configure a set of reasons that project managers can use to describe why a project's probability went up to 90 (so the project was **won**) or down to 0 (so the project was **lost**).
+
+When you enable the related flag for a job order category, the user will be ask for a feedback each time a project in that category gets won or lost.
+
+{{< img-center src="/uploads/2020/31/01/won-lost-feedback.gif">}}
+
 ## Programs
 
 Projects are often stages or parts of something bigger, you can use a Program to group together different projects in order to see their aggregate [economic reports](/reports/index/#economics)
@@ -144,7 +154,7 @@ Sometimes managing your customers’ relationships can be difficult and you can 
 
 You can reach a project's timeline from the pipeline: choose a project, click on it and look for the timeline button in the bottom-right corner.
 
-{{< img-center src="/uploads/2018/09/05/project_timeline.gif" >}}
+{{< img-center src="/uploads/2020/01/31/won-lost-feedback.gif" >}}
 
 Add activities you think are important to remember like **calls**, **emails** and **meetings**. To every added activity you can link a **follow-up** which is nothing more than another event. A follow-up is usuallly settled in the future, so you can think of it as a sort of reminder.
 
