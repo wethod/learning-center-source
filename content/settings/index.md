@@ -58,6 +58,7 @@ Here you can configure your company by setting:
 * **Project Types**: create and manage labels that you can assign to projects in [pipeline]({{< relref "pipeline/index.md#projects" >}}). A project type is basically composed by a name, you can than aggregate it's values by using a group or use a short label to better identify a project type;
 * **Timesheet**: here you can choose to automate the timesheets creation process. This way, timesheets are automatically created each Friday based on planned hours. _Be careful: Anything can go wrong because planning is not often 100% accurate, this is why timesheet exists._
 * **Currencies**: a list of all the known currencies, each one can be made available or set as _master_ (a.k.a. the currency you currently use in your company)
+* **Won/Lost Feedback**: here you can define some "reasons why" a project can be won or lost (reaches 90% or goes to 0% of probability). Users will be able to choose this reasons from the projects pipeline (only for projects with a Job Order Category with the "won/lost feedback" flag enabled). This "reasons why" will be shown on the [Client Details]({{< relref "finance/index.md#client-details" >}}) page and will be edited from the "More Action -> Edit Feedback" button from the projects pipeline.
 
 ## Alerts Engine
 
