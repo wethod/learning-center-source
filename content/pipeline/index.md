@@ -136,11 +136,11 @@ Successfully connected projects are identified by a label below their names.
 
 ### Won/lost feedback
 
-Wouldn't be great to be able to collect feedback on the reasons that led to win or lose a project?
+Wouldn't be great to be able to collect feedback about the reasons that led to win or lose a project?
 
 In the [company section]({{< relref "settings/index.md#company" >}}) you can configure a set of reasons that project managers can use to describe why a project's probability went up to 90 (so the project was **won**) or down to 0 (so the project was **lost**).
 
-When you enable the related flag for a job order category, the user will be ask for a feedback each time a project in that category gets won or lost.
+When you enable the related flag for a job order category, the user will be asked for a feedback each time a project in that category gets won or lost.
 
 {{< img-center src="/uploads/2020/01/31/won-lost-feedback.gif" >}}
 
