@@ -157,3 +157,5 @@ You can reach a project's timeline from the pipeline: choose a project, click on
 Add activities you think are important to remember like **calls**, **emails** and **meetings**. To every added activity you can link a **follow-up** which is nothing more than another event. A follow-up is usuallly settled in the future, so you can think of it as a sort of reminder.
 
 The timeline gets automatically populated with some useful project's events like the creation of an order or invoice, the changes to the project value and margin, the project's first project status and a lot more.
+
+{{< img-center src="/uploads/2020/02/01/project-timeline.png" >}}
