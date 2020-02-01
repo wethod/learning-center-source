@@ -138,11 +138,11 @@ Successfully connected projects are identified by a label below their names.
 
 Wouldn't be great to be able to collect feedback on the reasons that led to win or lose a project?
 
-In the [company section](< relref "settings/index.md#company" >) you can configure a set of reasons that project managers can use to describe why a project's probability went up to 90 (so the project was **won**) or down to 0 (so the project was **lost**).
+In the [company section]({{< relref "settings/index.md#company" >}}) you can configure a set of reasons that project managers can use to describe why a project's probability went up to 90 (so the project was **won**) or down to 0 (so the project was **lost**).
 
 When you enable the related flag for a job order category, the user will be ask for a feedback each time a project in that category gets won or lost.
 
-{{< img-center src="/uploads/2020/31/01/won-lost-feedback.gif">}}
+{{< img-center src="/uploads/2020/01/31/won-lost-feedback.gif" >}}
 
 ## Programs
 
@@ -153,8 +153,6 @@ Projects are often stages or parts of something bigger, you can use a Program to
 Sometimes managing your customers’ relationships can be difficult and you can easily get lost. With the timeline you can keep all your **customer relationship’s history** and everyone in your team can access it.
 
 You can reach a project's timeline from the pipeline: choose a project, click on it and look for the timeline button in the bottom-right corner.
-
-{{< img-center src="/uploads/2020/01/31/won-lost-feedback.gif" >}}
 
 Add activities you think are important to remember like **calls**, **emails** and **meetings**. To every added activity you can link a **follow-up** which is nothing more than another event. A follow-up is usuallly settled in the future, so you can think of it as a sort of reminder.
 
