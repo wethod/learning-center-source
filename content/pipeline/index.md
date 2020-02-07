@@ -124,9 +124,9 @@ You can find the invoices (listed in your plan) in the [Invoices widget](/dashbo
 
 ### Intercompany Projects
 
-If your company is part of a [group]({{< relref "group-setup/index.md" >}}) you have the possibility to connect a project to an [intercompany task]({{< relref "budget/index.md#make-a-task-intercompany" >}}), this makes it an _intercompany project_: its final net price and probability are updated to reflect the intercompany task’s external costs and intercompany task’s project’s probability.
+If your company is part of a \[group\]({{< relref "group-setup/index.md" >}}) you have the possibility to connect a project to an \[intercompany task\]({{< relref "budget/index.md#make-a-task-intercompany" >}}), this makes it an _intercompany project_: its final net price and probability are updated to reflect the intercompany task’s external costs and intercompany task’s project’s probability.
 
-To connect a project you firsty need to be invited, this can be done from inside a budget as [explained here]({{< relref "budget/index.md#make-a-task-intercompany" >}}). When you receive the invitation, just follow the link and select from the dropdown the project you want to connect.
+To connect a project you firsty need to be invited, this can be done from inside a budget as \[explained here\]({{< relref "budget/index.md#make-a-task-intercompany" >}}). When you receive the invitation, just follow the link and select from the dropdown the project you want to connect.
 
 {{< img-center src="/uploads/connect-project.png">}}
 
@@ -138,7 +138,7 @@ Successfully connected projects are identified by a label below their names.
 
 Wouldn't be great to be able to collect feedback about the reasons that led to win or lose a project?
 
-In the [company section]({{< relref "settings/index.md#company" >}}) you can configure a set of reasons that project managers can use to describe why a project's probability went up to 90 (so the project was **won**) or down to 0 (so the project was **lost**).
+In the \[company section\]({{< relref "settings/index.md#company" >}}) you can configure a set of reasons that project managers can use to describe why a project's probability went up to 90 (so the project was **won**) or down to 0 (so the project was **lost**).
 
 When you enable the related flag for a job order category, the user will be asked for a feedback each time a project in that category gets won or lost.
 
@@ -159,3 +159,16 @@ Add activities you think are important to remember like **calls**, **emails** an
 The timeline gets automatically populated with some useful project's events like the creation of an order or invoice, the changes to the project value and margin, the project's first project status and a lot more.
 
 {{< img-center src="/uploads/2020/02/01/project-timeline.png" >}}
+
+## Project Canvas
+
+To work well and efficiently on a project you first need to understand it and then highlight its main aspects. In WETHOD you can start "drawing" your project since its first stages by defining:
+
+* A **brief** which explains what are the client's needs
+* A **concepts** which tells how you are going to answer the client's needs
+* Some **goals** that define some key metrics to measure project's success (mostly deriving from client's satisfaction)
+
+{{< img-center src="/uploads/2020/02/07/project-canvas.png" >}}
+
+You can access this section from pipeline and basically everywhere you can see the canvas icon: 
+![](/uploads/2020/02/07/project-canvas-icon.png)
