@@ -167,9 +167,28 @@ To work well and efficiently on a project you first need to understand it and th
 * A **brief** which explains what are the client's needs
 * A **concepts** which tells how you are going to answer the client's needs
 * Some **goals** that define some key metrics to measure project's success (mostly deriving from client's satisfaction)
+* A set of **boards** to help you manage things to do
 
 {{< img-center src="/uploads/2020/02/07/project-canvas.png" >}}
 
 You can access this section from [projects]({{< relref "pipeline/index.md#projects" >}}) and basically everywhere you can see the canvas icon:
 
 {{< img-center src="/uploads/2020/02/07/project-canvas-icon-1.png" >}}
+
+### Boards
+
+A board takes the form of a simplified spreadsheet where you can add and re-order columns and rows.
+
+Columns comes in different types:
+
+* **Text**
+* **Number**
+* **Status** which is basically a label with a color (don't like the default ones? Edit them!)
+* **Date** which let you choose a single date or a period
+* **Member** which let you choose one or more employees from your company
+
+When you add a column of type *status* or *number* you automatically get a summary below the column, for a number column you can choose which kind of summary you want to see: sum, average, min or max.
+
+You can re-order columns, rows and boards by simply drag and drop them where you prefer.
+
+{{< img-center src="/uploads/2020/02/23/canvas-boards.gif" >}}
