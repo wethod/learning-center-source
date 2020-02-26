@@ -186,6 +186,7 @@ Columns comes in different types:
 * **Status** which is basically a label with a color (don't like the default ones? Edit them!)
 * **Date** which let you choose a single date or a period
 * **Member** which let you choose one or more employees from your company
+* **Milestone** which let you add an important event, with a type and a date
 
 When you add a column of type *status* or *number* you automatically get a summary below the column, for a number column you can choose which kind of summary you want to see: sum, average, min or max.
 
