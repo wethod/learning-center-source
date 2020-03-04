@@ -193,3 +193,15 @@ When you add a column of type *status* or *number* you automatically get a summa
 You can re-order columns, rows and boards by simply drag and drop them where you prefer.
 
 {{< img-center src="/uploads/2020/02/23/canvas-boards.gif" >}}
+
+#### Kanban
+
+Do you hate tables? Ya they're not this kind of friendly, so what about organizing all your tasks into cards that you can move from a list to another? You can do this by switching your view from **spreadsheet** to **kanban**: your table will be transformed into a list and no row will be harmed.
+
+Lists are automagically created by pivoting all spreadsheet's rows on the first column of type *status* but don't worry, you can always usa another column of type *status*.
+
+To see and edit details of a card just click on it.
+
+You can re-order cards and lists by simply drag and drop them where you prefer.
+
+{{< img-center src="/uploads/2020/03/04/kanban.png" >}}
