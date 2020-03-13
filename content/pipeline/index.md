@@ -2,6 +2,7 @@
 date: 2016-03-11T19:10:46.000+00:00
 title: Pipeline
 weight: "30"
+draft: true
 
 ---
 ## Overview
@@ -174,6 +175,12 @@ To work well and efficiently on a project you first need to understand it and th
 You can access this section from [projects]({{< relref "pipeline/index.md#projects" >}}) and basically everywhere you can see the canvas icon:
 
 {{< img-center src="/uploads/2020/02/07/project-canvas-icon-1.png" >}}
+
+### Files
+
+Here you can manage files for your project
+
+{{< img-center src="/uploads/2020/03/13/file-storage.gif" >}}
 
 ### Boards
 
