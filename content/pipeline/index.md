@@ -178,7 +178,7 @@ You can access this section from [projects]({{< relref "pipeline/index.md#projec
 
 ### Files
 
-Here you can upload/download/delete files for your projects. It's a good idea to store all assets of a project in a single place, so they can be easily found and used by all your team members, this is the perfect place.
+This is your storage for the project: it's a good idea to keep all assets for a project in a single place, so they can be easily found and used by all of your team members.
 
 {{< img-center src="/uploads/2020/03/13/file-storage.gif" >}}
 
@@ -212,3 +212,16 @@ To see and edit details of a card just click on it.
 You can re-order cards and lists by simply drag and drop them where you prefer.
 
 {{< img-center src="/uploads/2020/03/04/kanban.png" >}}
+
+#### Gantt
+
+Start looking at your tasks from a different point of view: all *date* and *milestone* columns are showed on the **Gantt**, this means that from here you can appreciate how all your tasks fit together.
+
+To see and edit details of an item just click on its name.
+
+What you can do from here:
+
+* Move dates and milestones by dragging them where you prefer
+* Change a date's start or duration by stretch or extend them
+
+{{< img-center src="/uploads/2020/03/13/project-canvas-gantt.gif" >}}
