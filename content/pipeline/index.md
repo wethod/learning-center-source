@@ -178,7 +178,7 @@ You can access this section from [projects]({{< relref "pipeline/index.md#projec
 
 ### Files
 
-Here you can upload/download/delete files for your projects. It's a good idea to store all assets of a projects in a single place, so they can be easesy found and used by all your team members, this is the perfect place.
+Here you can upload/download/delete files for your projects. It's a good idea to store all assets of a project in a single place, so they can be easily found and used by all your team members, this is the perfect place.
 
 {{< img-center src="/uploads/2020/03/13/file-storage.gif" >}}
 
