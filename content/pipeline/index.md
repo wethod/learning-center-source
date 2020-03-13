@@ -168,6 +168,7 @@ To work well and efficiently on a project you first need to understand it and th
 * A **brief** which explains what are the client's needs
 * A **concepts** which tells how you are going to answer the client's needs
 * Some **goals** that define some key metrics to measure project's success (mostly deriving from client's satisfaction)
+* **Files** about your project (like documents or presentations) that you want to store and share with your team
 * A set of **boards** to help you manage things to do
 
 {{< img-center src="/uploads/2020/02/07/project-canvas.png" >}}
@@ -178,7 +179,7 @@ You can access this section from [projects]({{< relref "pipeline/index.md#projec
 
 ### Files
 
-Here you can manage files for your project
+Here you can upload/download/delete files for your projects. It's a good idea to store all assets of a projects in a single place, so they can be easesy found and used by all your team members, this is the perfect place.
 
 {{< img-center src="/uploads/2020/03/13/file-storage.gif" >}}
 
