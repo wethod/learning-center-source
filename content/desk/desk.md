@@ -16,6 +16,8 @@ The Desk is your private space and your favorite place. Here you can find a set 
 
 This box collects all the items that were assigned to you in any [boards]({{< relref "pipeline/index.md#boards" >}}). You can scroll through them, search by item name and mark them as completed without going to the dedicated page. If this box is empty try to add a column "Member" in a board and set yourself as "Activity's assegnee"
 
+{{< img-center src="/uploads/2020/04/02/desk-activities.png" >}}
+
 ## Favorites
 
 Here are all your favorite pages, they works like browser bookmarks: just visit the a page and click on the 'favorite' icon on the section header. Beware: not all sections can be added to your favorites list.
