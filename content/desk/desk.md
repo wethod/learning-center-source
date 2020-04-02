@@ -28,6 +28,8 @@ Here are all your favorite pages, they works like browser bookmarks: just visit 
 
 Here you can manage your personal files i.e. files that are not directly linked to a project but you want to always keep handy.
 
+{{< img-center src="/uploads/2020/04/02/personal-files.png" >}}
+
 ## Alerts
 
 This widget shows all your alerts with a description of the inconsistency, hurry up and fix them. You can se the [Alerts]({{< relref "alerts/index.md" >}}) section to have a better understand of what is going on.
