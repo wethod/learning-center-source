@@ -3,7 +3,6 @@ weight: "20"
 date: 2020-03-31T22:00:00+00:00
 title: Desk
 type: ''
-draft: true
 
 ---
 ## Overview
@@ -14,7 +13,7 @@ The Desk is your private space and your favorite place. Here you can find a set 
 
 ## Activities
 
-This box collects all the items that were assigned to you in any [boards]({{< relref "pipeline/index.md#boards" >}}). You can scroll through them, search by item name and mark them as completed without going to the dedicated page. If this box is empty try to add a column "Member" in a board and set yourself as "Activity's assegnee"
+This box collects all the items that were assigned to you in any [boards]({{< relref "pipeline/index.md#boards" >}}). You can scroll through them, search by item name and mark them as completed without going to the dedicated page. If this box is empty try to add a column "Member" in a board and set yourself as "Activity's assignee"
 
 {{< img-center src="/uploads/2020/04/02/desk-activities.png" >}}
 
