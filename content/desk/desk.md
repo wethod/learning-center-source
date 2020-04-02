@@ -20,7 +20,7 @@ This box collects all the items that were assigned to you in any [boards]({{< re
 
 ## Pinboard
 
-Here are all your favorite pages, they works like browser bookmarks: just visit the a page and click on the 'Add section to Pinboard' icon on the section header. Beware: not all sections can be added to your favorites list.
+Here are all your favorite pages, they works like browser bookmarks: just visit the a page and click on the 'Add section to Pinboard' icon on the section header. Beware: not all sections can be added to your favorites list. 
 
 {{< img-center src="/uploads/2020/04/02/add-favorite.png" >}}
 
