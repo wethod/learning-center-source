@@ -10,7 +10,7 @@ draft: true
 
 The Desk is your private space and your favorite place. Here you can find a set of utilities and widgets all for you.
 
-{{< img-center src="/uploads/2020/04/01/desk.png" >}} 
+{{< img-center src="/uploads/2020/04/01/desk.png" >}}
 
 ## Activities
 
