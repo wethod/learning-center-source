@@ -14,7 +14,7 @@ The Desk is your private space and your favorite place. Here you can find a set 
 
 ## Activities
 
-This box collects all the items that were assigned to you in any Canvas Boards. You can scroll through them, search by item name and mark them as completed without going to the dedicated page. If this box is empty try to add a column "Member" in a board and set yourself as "Activity's assegnee"
+This box collects all the items that were assigned to you in any [boards]({{< relref "pipeline/index.md#boards" >}}). You can scroll through them, search by item name and mark them as completed without going to the dedicated page. If this box is empty try to add a column "Member" in a board and set yourself as "Activity's assegnee"
 
 ## Favorites
 
@@ -26,8 +26,8 @@ Here you can manage your personal files i.e. files that are not directly linked 
 
 ## Alerts
 
-This widget shows all your alerts with a description of the inconsistency, hurry up and fix them. You can se the Alerts section to have a better understand of what is going on.
+This widget shows all your alerts with a description of the inconsistency, hurry up and fix them. You can se the [Alerts]({{< relref "alerts/index.md" >}}) section to have a better understand of what is going on.
 
 ## Invoices
 
-Here you have a list of all the expired invoices or that have due date this month. You can click directly on one invoice to go to the Invoice section and create it.
+Here you have a list of all the expired invoices or that have due date this month. You can click directly on one invoice to go to the Invoice section and save it.
