@@ -10,102 +10,106 @@ fractions = true
 plainIDAnchors = true
 smartDashes = true
 smartypants = true
-[[menu.group]]
-name = "Profit & Loss"
-url = "group-profit-loss/index/"
-weight = 100
-[[menu.group]]
-name = "Revenues"
-url = "group-revenues/index/"
-weight = 105
-[[menu.group]]
-name = "Setup"
-url = "group-setup/index/"
-weight = 110
-[[menu.company]]
-name = "Payroll"
-url = "payroll/index/"
-weight = 93
-[[menu.company]]
-name = "G & A"
-url = "general-admin/index/"
-weight = 94
-[[menu.company]]
-name = "Invoice Plan"
-url = "invoice-plan/index/"
-weight = 97
 [[menu.company]]
 name = "Order Plan"
 url = "order-plan/index/"
-weight = 98
+weight = 9
+[[menu.company]]
+name = "Invoice Plan"
+url = "invoice-plan/index/"
+weight = 8
 [[menu.company]]
 name = "Capex"
 url = "capex/index/"
-weight = 96
+weight = 7
 [[menu.company]]
 name = "Marketing"
 url = "marketing/index/"
-weight = 95
+weight = 6
+[[menu.company]]
+name = "G & A"
+url = "general-admin/index/"
+weight = 5
+[[menu.company]]
+name = "Payroll"
+url = "payroll/index/"
+weight = 4
 [[menu.company]]
 name = "External Costs"
 url = "external-costs/index/"
-weight = 92
+weight = 3
 [[menu.company]]
 name = "Revenues"
 url = "revenues/index/"
-weight = 91
+weight = 2
 [[menu.company]]
 name = "Profit & Loss"
 url = "profit-loss/index/"
-weight = 90
-[[menu.main]]
-name = "Alerts"
-url = "alerts/index/"
-weight = 21
-[[menu.main]]
-name = "Budget"
-url = "budget/index/"
-weight = 31
+weight = 1
+[[menu.group]]
+name = "Setup"
+url = "group-setup/index/"
+weight = 3
+[[menu.group]]
+name = "Revenues"
+url = "group-revenues/index/"
+weight = 2
+[[menu.group]]
+name = "Profit & Loss"
+url = "group-profit-loss/index/"
+weight = 1
 [[menu.main]]
 name = "Settings"
 url = "settings/index/"
-weight = 80
+weight = 11
 [[menu.main]]
 name = "Finance"
 url = "finance/index/"
-weight = 70
+weight = 10
 [[menu.main]]
 name = "Reports"
 url = "reports/index/"
-weight = 60
+weight = 9
 [[menu.main]]
 name = "Friday"
 url = "friday/index/"
-weight = 50
+weight = 8
 [[menu.main]]
 name = "Planning"
 url = "planning/index/"
-weight = 40
+weight = 7
+[[menu.main]]
+name = "Budget"
+url = "budget/index/"
+weight = 6
 [[menu.main]]
 name = "Pipeline"
 url = "pipeline/index/"
-weight = 30
+weight = 5
+[[menu.main]]
+name = "Alerts"
+url = "alerts/index/"
+weight = 4
 [[menu.main]]
 name = "Dashboard"
 url = "dashboard/index/"
-weight = 20
+weight = 3
+[[menu.main]]
+name = "Desk"
+url = "desk/index/"
+weight = 2
 [[menu.main]]
 name = "Getting started"
 url = "getting-started/index/"
-weight = 10
-[[menu.other]]
-name = "FAQ"
-url = "faq/index/"
-weight = 100
+weight = 1
 [[menu.other]]
 name = "Glossary"
 url = "glossary/index/"
-weight = 110
+weight = 2
+[[menu.other]]
+name = "FAQ"
+url = "faq/index/"
+weight = 1
 [params]
 author = "Andrea Tombolato"
 copyright = ""
