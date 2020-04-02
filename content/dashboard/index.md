@@ -2,7 +2,6 @@
 date: 2016-03-10T18:56:50.000+00:00
 title: Dashboard
 weight: "65"
-draft: true
 
 ---
 ## Overview
