@@ -10,11 +10,11 @@ All the data you insert in WETHOD are used to generate, weekly and automatically
 
 ## Project Report
 
-Each Monday, utilising data provided by \[Timesheet\]({{< relref "friday/index.md#timesheet" >}}), \[Project Status\]({{< relref "friday/index.md#project-status" >}}) and \[Budget\]({{< relref "budget/index.md" >}}), a Project Report is automatically created.
+Each Monday, utilising data provided by [Timesheet]({{< relref "friday/index.md#timesheet" >}}), [Project Status]({{< relref "friday/index.md#project-status" >}}) and [Budget]({{< relref "budget/index.md" >}}), a Project Report is automatically created.
 
 ### Budget Consumption / Project Status
 
-This section shows the \[budget consumption\]({{< relref "glossary/index.md#budget-consumption" >}}) of the project, compared to its \[progress\]({{< relref "glossary/index.md#absolute-project-progress" >}}):
+This section shows the [budget consumption]({{< relref "glossary/index.md#budget-consumption" >}}) of the project, compared to its [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}):
 
 * If the project is **above the diagonal**: it's using a lot of days but it's progressing slowly than predictions based on budget;
 * If the project is **under the diagonal**: it's using few days but it's progressing faster than predictions based on budget;
@@ -25,7 +25,7 @@ By analizing the saved budget versions for the project, WETHOD can shows you:
 * The **baseline** which answers the question "_what would the situation be if I hadn't changed the budget since its first version_?";
 * The **forecast** which answers the question _"what's the situation right now?"_;
 * The **projected** which answers the question "_what will be the situation at the end of the project with the current budget consumption?"_;
-* The **wasted** which answers the question "_what's the situation right now, \[wasted hours\]({{< relref "glossary/index.md#wasted-hours" >}}) included?"_;
+* The **wasted** which answers the question "_what's the situation right now, [wasted hours]({{< relref "glossary/index.md#wasted-hours" >}}) included?"_;
 
 The grey dots shows you the forecast of the various past budget versions.
 
@@ -33,7 +33,7 @@ On the right of the graph you have:
 
 1. **Baseline**: the first budget's hours amount;
 2. The variations of the budget's hours amount since the baseline was approved;
-3. \[**Contingency**\]({{< relref "budget/index.md#the-price-s-detail" >}});
+3. [**Contingency**]({{< relref "budget/index.md#the-price-s-detail" >}});
 4. **Forecast**: the current budget's hours amount (Baseline + variations + contingency);
 5. A resume of the worked, planned, wasted and still available hours.
 
@@ -41,11 +41,11 @@ On the right of the graph you have:
 
 ### Invoices & Orders
 
-Here are listed all the \[orders\]({{< relref "finance/index.md#orders" >}}) and \[invoices\]({{< relref "finance/index.md#invoices" >}}) linked to the project, clicking on one of them will take you to the related details.
+Here are listed all the [orders]({{< relref "finance/index.md#orders" >}}) and [invoices]({{< relref "finance/index.md#invoices" >}}) linked to the project, clicking on one of them will take you to the related details.
 
 ### Economics
 
-Here is shown the trend of various \[budget's\]({{< relref "budget/index.md" >}}) voices for the project:
+Here is shown the trend of various [budget's]({{< relref "budget/index.md" >}}) voices for the project:
 
 * **Revenues**: the project's final net price;
 * **Internal Cost**;
@@ -53,7 +53,7 @@ Here is shown the trend of various \[budget's\]({{< relref "budget/index.md" >}}
 * **Travels**;
 * **Expenses**;
 * **Gross Margin**: the difference between final net price and costs (either internal and external);
-* **Wasted**: the wasted money, which is the sum of the wasted hours multiplied by the cost of their \[levels\]({{< relref "settings/index.md#company" >}});
+* **Wasted**: the wasted money, which is the sum of the wasted hours multiplied by the cost of their [levels]({{< relref "settings/index.md#company" >}});
 * **Net Margin**: the difference between gross margin and wasted.
 
 For each indicator you can see its value for:
@@ -72,7 +72,7 @@ The grey percentage under _margin_ refers to the _revenues_.
 
 {{< note title="Note" >}} This section is available only for companies in a Group{{< /note >}}
 
-The groupwide economics section shows the economics of a project and all its \[intercompanies\]({{< relref "pipeline/index.md##intercompany-projects">}}).
+The groupwide economics section shows the economics of a project and all its [intercompanies]({{< relref "pipeline/index.md##intercompany-projects">}}).
 
 Let's use an example where the company A is the "master" company and the company B is the supplier (the same can be applied to multiple suppliers).
 
@@ -131,9 +131,9 @@ Let's use an example where the company A is the "master" company and the company
 
 This three charts let you appreciate the trend of three primary indexes related with the project's progress:
 
-* **Days Left**: data from the \[Project Status\]({{< relref "friday/index.md#project-status" >}}) are transposed into this chart to better highlight the weekly progress of the project;
-* **Worked Hours**: data from the \[Timesheet\]({{< relref "friday/index.md#timesheet" >}}) are used into this chart to visualize the weekly amount of work spent on the project;
-* **Roadrunner Index**: combining data from the two previous charts let us display the weekly \[**Roadrunner Index**\]({{< relref "glossary/index.md#roadrunner-index-rri" >}}) for the project.
+* **Days Left**: data from the [Project Status]({{< relref "friday/index.md#project-status" >}}) are transposed into this chart to better highlight the weekly progress of the project;
+* **Worked Hours**: data from the [Timesheet]({{< relref "friday/index.md#timesheet" >}}) are used into this chart to visualize the weekly amount of work spent on the project;
+* **Roadrunner Index**: combining data from the two previous charts let us display the weekly [**Roadrunner Index**]({{< relref "glossary/index.md#roadrunner-index-rri" >}}) for the project.
 
 This is the only place in WETHOD where you can see the weekly details of a given project.
 
@@ -153,7 +153,7 @@ Here are reported, for each teammate who have worked to the project, the compari
 
 This is an overview of all Projects in terms of resources and time spent on the project, allowing you to analyse their health at a glance.
 
-For each pipeline's project, its \[budget consumption\]({{< relref "glossary/index.md#budget-consumption" >}}) is compared to its \[progress\]({{< relref "glossary/index.md#absolute-project-progress" >}}):
+For each pipeline's project, its [budget consumption]({{< relref "glossary/index.md#budget-consumption" >}}) is compared to its [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}):
 
 * If the project is **above the diagonal**: it's using a lot of days but it's progressing slowly than predictions based on budget;
 * If the project is **under the diagonal**: it's using few days but it's progressing faster than predictions based on budget;
@@ -177,7 +177,7 @@ How to read the project's position on the graph:
 
 ## Revenue Pipeline
 
-This report is composed by four sections which aggregate the \[revenue pipeline\]({{< relref "glossary/index.md#revenue-pipeline" >}}) **by probability**, **by client**, **by project type** or **by project type's group**.
+This report is composed by four sections which aggregate the [revenue pipeline]({{< relref "glossary/index.md#revenue-pipeline" >}}) **by probability**, **by client**, **by project type** or **by project type's group**.
 
 Each section shows a column diagram, where each column refers to a particular year (previous, current, next) and its generated by the projects which invoice plan hits that year. Clicking on a column will show a right panel with further information linked to the column itself.
 
@@ -191,7 +191,7 @@ Clicking on a subcolumn will show a panel listing all the grouped projects with 
 * Client's name;
 * Value;
 * Probability;
-* \[Expected value\]({{< relref "glossary/index.md#expected-value" >}}).
+* [Expected value]({{< relref "glossary/index.md#expected-value" >}}).
 
 {{< img-center src="/uploads/2017/08/28/rev_prog-prob.png" >}}
 
@@ -201,7 +201,7 @@ Clicking on a column will show a panel listing all the grouped projects with the
 
 * Client's name;
 * Value;
-* Percentage of influence on the \[revenue pipeline\]({{< relref "glossary/index.md#revenue-pipeline" >}}).
+* Percentage of influence on the [revenue pipeline]({{< relref "glossary/index.md#revenue-pipeline" >}}).
 
 {{< img-center src="/uploads/2017/08/28/rev_prog-client.png" >}}
 
@@ -211,7 +211,7 @@ Clicking on a column will show a panel listing all the grouped projects with the
 
 * Name;
 * Value;
-* Percentage of influence on the \[revenue pipeline\]({{< relref "glossary/index.md#revenue-pipeline" >}}).
+* Percentage of influence on the [revenue pipeline]({{< relref "glossary/index.md#revenue-pipeline" >}}).
 
 {{< img-center src="/uploads/2017/08/28/rev_prog-type.png" >}}
 
@@ -221,7 +221,7 @@ Clicking on a column will show a panel listing all the grouped projects with the
 
 * Name;
 * Value;
-* Percentage of influence on the \[revenue pipeline\]({{< relref "glossary/index.md#revenue-pipeline" >}}).
+* Percentage of influence on the [revenue pipeline]({{< relref "glossary/index.md#revenue-pipeline" >}}).
 
 ## Revenue Actuals
 
@@ -247,16 +247,16 @@ Clicking on a column will show a panel listing all the clients for which an invo
 
 ## Production Value
 
-Here you can find an overview of the annual projects' \[production value\]({{< relref "glossary/index.md#production-value" >}}). Each month is displayed as a two overlapped columns:
+Here you can find an overview of the annual projects' [production value]({{< relref "glossary/index.md#production-value" >}}). Each month is displayed as a two overlapped columns:
 
 * The brilliant-green area (the lower one) represents the production value weighted on the projects' probability. So, if a project has got a production value of 100 K but a probability of 90%, it concurs with 90 K to the month's weighted production value
 * The opaque-green area (the higher one) represents the gross production value that is, basically, a non weighted production value. So each project concurs with the 100% of its production value
 
-Above the production value's chart there's the monthly \[Roadrunner Index\]({{< relref "glossary/index.md#roadrunner-index-rri" >}}) which aggregates the pipeline's projects' Roadrunner Indexes by month.
+Above the production value's chart there's the monthly [Roadrunner Index]({{< relref "glossary/index.md#roadrunner-index-rri" >}}) which aggregates the pipeline's projects' Roadrunner Indexes by month.
 
 On the right you can see the **Resume Clock** which tells you:
 
-* The production target, as set in \[Profit&Loss Budget Target\]({{< relref "profit-loss/index.md#overview" >}})
+* The production target, as set in [Profit&Loss Budget Target]({{< relref "profit-loss/index.md#overview" >}})
 * The amount of weeks remaining until the end of the year (the grey area shows the percentage of the year gone )
 * The yearly weighted production value, by clicking on this area you can access the details about the yearly production value grouped **by client**, **by project** or **by week**
 * The yearly gross production value
@@ -269,7 +269,7 @@ By clicking on a specific month you can access that month's production value gro
 
 In this view you can see, for each project (and for the selected week):
 
-* The \[roadrunner index\]({{< relref "glossary/index.md#roadrunner-index-rri" >}});
+* The [roadrunner index]({{< relref "glossary/index.md#roadrunner-index-rri" >}});
 * The **lost production**: let's say people worked on a project for _A_ hours and the project progressed of _B_ hours. If _A_ is greater than _B_  you've used more hours than expected and this value gives you how much production you've lost;
 * The **production value**;
 * The **worked days**: how many days people have worked on the project during the selected week;
@@ -284,7 +284,7 @@ You can switch between month's week by using the selector placed at the top of t
 
 ## Timesheets
 
-This is a weekly overview of the \[timesheets\]({{< relref "friday/index.md#timesheet" >}}) made by your teammates, each timesheet is coloured as the \[job order category\]({{< relref "settings/index.md#company" >}}) of the project it's linked to and you can see the project's name by clicking on its timesheet.
+This is a weekly overview of the [timesheets]({{< relref "friday/index.md#timesheet" >}}) made by your teammates, each timesheet is coloured as the [job order category]({{< relref "settings/index.md#company" >}}) of the project it's linked to and you can see the project's name by clicking on its timesheet.
 
 On the top left corner you can filter the displayed people.
 
@@ -363,3 +363,63 @@ This section shows production related data, let's see each chart:
 * **Weeks Backlog**: shows how many weeks of work your company needs to produce the entire backlog for each week of the last year (week's backlog / week's production).
 
 * **Tips**: [COMING SOON] This section will show useful tips based on your company production, production plan and backlog
+
+## Briefing
+
+Briefing is content that includes all the relevant insight within your company’s production, sales, and financials, on a weekly and monthly basis.
+
+{{< img-center src="/uploads/2020/05/14/briefing.gif" >}}
+
+This transparent overview gives the entire team the knowledge to stay aligned on what has been done and what needs to be done in the weeks to come, in order to reach the company’s goals faster.
+
+
+To collect better insights, it’s recommended to set a revenue budget/forecast for each year in the Profit & Loss section.
+
+### Weekly Briefing
+Published each Monday at 6 am, the *Weekly Briefing* gives an insightful overview of the company’s **sales and operations** from the past week. It’s also available for each of the previous weeks.
+
+Navigation: Insights > Briefing > Weekly
+
+Find below a list of the insights available to read from each *Weekly Briefing.*
+
+* **[Production value]({{< relref "glossary/index.md#production-value" >}}),** compared with its average weekly target. The value is also compared with the one registered the same week last year. An average weekly target is basically the yearly budget/forecast divided by the number of weeks in a year.
+* Projects that produced the most value. 
+* **Projects started** and projects that **ended** last week.
+* **Sales trends**, compared with their weekly target.
+* **Projects won** and their total value, compared with their target and the same week last year.
+* **Pipeline value** trend over the past few weeks.
+* **New opportunities**, with their total unweighted value and weighted value. A weighted value depends on the project’s percentage of success. For instance, a project valued 100K at 10% success is valued at 10K.
+* The main **[reason why]({{< relref "pipeline/index.md#won-lost-feedback" >}})** projects were lost and won. 
+* **[Chargeability]({{< relref "settings/index.md#chargeability" >}})** of the week trend. This value is compared also with its target and the value of the same week last year.
+* Number of **hours worked**.
+* **Segmentation of hours worked**, grouped by job order category.
+
+{{< note title="Note" >}}
+**Set a revenue target for the year in the Profit & Loss section to get better insights.**
+{{< /note >}}
+
+### Monthly Briefing
+Published every first Monday of the month at 6 am, this briefing gives an overview of the most important results in the company’s **sales, operations, and financials** during the past month. It’s also available for each of the previous months.
+
+
+Navigation: Insights > Briefing > Monthly
+
+
+Find below the insights available from each *Monthly Briefing.*
+
+* Company’s **monthly profit and loss**, including **CapEx** and **revenues per employee**. These values are also compared with the results of the previous month.
+* **Production value**, with its trend over previous months and comparison with its target
+* **Working day value**, compared with the value of the month before.
+* **Road Runner Index** [RRI]({{< relref "glossary/index.md#roadrunner-index-rri" >}}) trend over the past months.
+* **Number of hours worked** and **[Chargeability]({{< relref "settings/index.md#chargeability" >}})** trend.
+* Number of **projects won**, with their total value compared with target, and the same week last year.
+* Projects that produced the most value.
+* **Pipeline value,** with the trend over the previous weeks.
+* **New opportunities**, with the total weighted and unweighted value. A weighted value depends on the project’s percentage of success. For instance, a project valued 100K with 10% success is valued at 10K.
+* **Lost opportunities**, with the total value and the main reasons why 
+* **Pipeline value** trend over the past months
+* **[Backlog]({{< relref "reports/index.md#backlog" >}})**
+
+{{< note title="Note" >}}
+**Set a revenue budget/forecast for the year in the Profit & Loss section to get better insights.**
+{{< /note >}}
