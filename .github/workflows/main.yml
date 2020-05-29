@@ -9,7 +9,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: macos-10.15
+    runs-on: ubuntu-16.04
     steps:
       - uses: actions/checkout@v2
         with:
@@ -19,8 +19,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.20'
-          extended: true
+          hugo-version: '0.20.1'
 
       - name: Build
         run: hugo
