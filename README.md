@@ -21,6 +21,9 @@ Manually:
 4. Forestry.io will detect new commits to this repository and will auto-deploy the site;
 5. Refresh the github.io page to see the changes.
 
+## Build
+Source files contained in this repo are automatically build and published in [another repo](https://github.com/wethod/wethod.github.io) using a [GitHub Action](https://github.com/wethod/learning-center-source/actions?query=workflow%3A%22Hugo+build+%26+publish%22), this  action is triggered by a push in the master branch.
+
 ## Good to know
 In `layout/shortcodes/` you can find useful [shortcodes](https://gohugo.io/extras/shortcodes/) that enhance Markdown's capabilities. 
 
