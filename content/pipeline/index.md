@@ -160,6 +160,10 @@ The timeline gets automatically populated with some useful project's events like
 
 {{< img-center src="/uploads/2020/02/01/project-timeline.png" >}}
 
+### Project & Team Review
+
+Do you like colletting reviews about projects and team members?
+
 ## Project Canvas
 
 To work well and efficiently on a project you first need to understand it and then highlight its main aspects. In WETHOD you can start "drawing" your project since its first stages by defining:
