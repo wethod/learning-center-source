@@ -162,7 +162,7 @@ The timeline gets automatically populated with some useful project's events like
 
 ### Project & Team Review
 
-Do you like colletting reviews about projects and team members?
+Do you like colletting reviews about projects and team members? Now you can.
 
 ## Project Canvas
 
