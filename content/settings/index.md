@@ -202,6 +202,14 @@ By clicking on a rectangle you can highlight all the outgoing connections and cl
 
 {{< img-center src="/uploads/2019/02/20/working-connections.gif">}}
 
+### Kudos
+
+Each team member has a section in the profile page, called Kudos, with the results of the [reviews]({{< relref "pipeline/index.md#project-team-review" >}}) received in a year both as a team member and as a project manager. The widget "What people say" collects all the written reviews received in a year.
+
+{{< img-center src="/uploads/2020/06/03/project_review-profile_kudos.png">}}
+
+These results are based on the average Net Promoter Score and are calculated considering the number of reviews received and the projects worked on in a year. 
+
 ## Switch Company
 
 If you have a different WETHOD company linked to the same account, from here you can switch from one another.
