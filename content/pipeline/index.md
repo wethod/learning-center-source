@@ -180,6 +180,10 @@ Hit the button from the menu of actions available on the top bar to start a [Pro
 
 {{< img-center src="/uploads/2020/06/03/project-canvas_review-button.png" >}}
 
+In the canvas top bar you can see the average Kudos (points coming from [reviews]({{< relref "pipeline/index.md#project-team-review" >}}) of a project:
+
+{{< img-center src="/uploads/2020/06/03/project_review-canvas_kudos.png >}}
+
 ### Files
 
 This is your storage for the project: it's a good idea to keep all assets for a project in a single place, so they can be easily found and used by all of your team members.
@@ -265,8 +269,9 @@ Each project manager will be asked to review the project and its team members.
 
 There are unique criteria for the evaluation of projects, their managers and team members, which can be edited in [Project & Team members review settings]({{< relref "settings/index.md#company" >}}).
 
-You can find Review results in the [Profile]({{< relref "settings/index/#kudos" >}}) section. 
+You can find user's review results in the [Profile]({{< relref "settings/index/#kudos" >}}) section, while you need to visit the [Canvas]({{< relref "pipeline/index.md#project-canvas" >}}) section to see project's review results.
 
 {{< note title="Note" >}}
+**Project & Team Review must be enabled from [Company Settings]({{< relref "settings/index.md#company" >}}).**
 **To enable specific role’s permission to request a review go to menu Settings > Permissions > Pipeline > review.**
 {{< /note >}}
