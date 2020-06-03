@@ -160,10 +160,6 @@ The timeline gets automatically populated with some useful project's events like
 
 {{< img-center src="/uploads/2020/02/01/project-timeline.png" >}}
 
-### Project & Team Review
-
-Do you like colletting reviews about projects and team members? Now you can.
-
 ## Project Canvas
 
 To work well and efficiently on a project you first need to understand it and then highlight its main aspects. In WETHOD you can start "drawing" your project since its first stages by defining:
@@ -229,3 +225,40 @@ What you can do from here:
 * Change a date's start or duration by stretch or extend them
 
 {{< img-center src="/uploads/2020/03/13/project-canvas-gantt.gif" >}}
+
+## Project & Team Review
+
+This tool allows the team to collect feedback on a project and the skills of both managers and collaborators who worked on the same project.
+
+{{< img-center src="/uploads/2020/06/03/project_review-project.png" >}}
+
+{{< img-center src="/uploads/2020/06/03/project_review-team.png" >}}
+
+### How it works
+
+When a project has been archived, WETHOD will ask the project manager to request a review of the team members on the project. 
+
+{{< img-center src="/uploads/2020/06/03/review_archived.gif" >}}
+
+This feature can also be used on selected job order categories, see section [Project & Team members review settings]({{< relref "settings/index.md#company" >}}) to learn more. Pending review requests are shown in [Desk]({{< relref "desk/index.md" >}}).
+
+### Request intermediate reviews
+Reviews can be requested any time by the project manager, or whoever has the permission to do so: 
+
+* From the [project canvas]({{< relref "pipeline/index.md#project-canvas" >}}), hit the button from the menu of actions available on the top bar of the page 
+* From the [project list]({{< relref "pipeline/index.md#projects" >}})
+
+
+### Criteria
+Reviews are anonymous and are based on the Net Promoter Score (NPS), which is a scale that goes from 1 point to 10 points:
+
+* From **1 to 6** kudos: Not good/Not likely
+* From **7 to 8** kudos: Neutral
+* From **9 to 10** kudos: Very good/Very likely
+
+Each team member will be asked to review the project and the project manager. 
+Each project manager will be asked to review the project and its team members. 
+
+There are unique criteria for the evaluation of projects, their managers and team members, which can be edited in [Project & Team members review settings]({{< relref "settings/index.md#company" >}}).
+
+
