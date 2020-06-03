@@ -176,6 +176,10 @@ You can access this section from [projects]({{< relref "pipeline/index.md#projec
 
 {{< img-center src="/uploads/2020/02/07/project-canvas-icon-1.png" >}}
 
+Hit the button from the menu of actions available on the top bar to start a [Project & Team Review]({{< relref "pipeline/index.md#project-team-review" >}}):
+
+{{< img-center src="/uploads/2020/06/03/project-canvas_review-button.png" >}}
+
 ### Files
 
 This is your storage for the project: it's a good idea to keep all assets for a project in a single place, so they can be easily found and used by all of your team members.
@@ -246,7 +250,7 @@ This feature can also be used on selected job order categories, see section [Pro
 Reviews can be requested any time by the project manager, or whoever has the permission to do so: 
 
 * From the [project canvas]({{< relref "pipeline/index.md#project-canvas" >}}), hit the button from the menu of actions available on the top bar of the page 
-* From the [project list]({{< relref "pipeline/index.md#projects" >}})
+* From the [project list]({{< relref "pipeline/index.md#projects" >}}), click on a project and head the action buttons > click "more actions" > "Request Review"
 
 
 ### Criteria
@@ -261,4 +265,8 @@ Each project manager will be asked to review the project and its team members.
 
 There are unique criteria for the evaluation of projects, their managers and team members, which can be edited in [Project & Team members review settings]({{< relref "settings/index.md#company" >}}).
 
+You can find Review results in the [Profile]({{< relref "settings/index/#kudos" >}}) section. 
 
+{{< note title="Note" >}}
+**To enable specific role’s permission to request a review go to menu Settings > Permissions > Pipeline > review.**
+{{< /note >}}
