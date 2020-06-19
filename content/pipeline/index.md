@@ -266,10 +266,10 @@ Reviews are anonymous and are based on the Net Promoter Score (NPS), which is a 
 * From **7 to 8** kudos: Neutral
 * From **9 to 10** kudos: Very good/Very likely
 
-Each team member will be asked to review the project and the project manager. 
+Each team member will be asked to review the project and the other members on each of the given criteria. 
 Each project manager will be asked to review the project and its team members. 
 
-There are unique criteria for the evaluation of projects, their managers and team members, which can be edited in [Project & Team members review settings]({{< relref "settings/index.md#company" >}}).
+To add or edit criteria for the evaluation of projects and team members go to [Project & Team members review settings]({{< relref "settings/index.md#company" >}}).
 
 You can find user's review results in the [Profile]({{< relref "settings/index/#kudos" >}}) section, while you need to visit the [Canvas]({{< relref "pipeline/index.md#project-canvas" >}}) section to see project's review results. 
 
