@@ -132,3 +132,21 @@ Please consider tha currencies' exchange rates refers to the budget's creation d
 {{< /note >}}
 
 {{< img-center src="/uploads/2019/06/12/budget-multicurrency.gif">}}
+
+## Create a template
+
+You can create a template from a budget by clicking on the following button:
+
+{{< img-center src="/uploads/2020/06/29/schermata-2020-06-29-alle-17-15-46.png">}}
+
+Saving a template means saving a budget's structure (areas and tasks), this can be re-used by you or other people in your company in order to speed up the creation of budgets belonging to similar projects.
+
+{{< img-center src="/uploads/2020/06/29/budget-create-template.gif" >}}
+
+Each time you want to create a new budget, WETHOD will ask if you want to start from scratch or if you prefer to use a previusly created template.
+
+{{< img-center src="/uploads/2020/06/29/init-budget.png" >}}
+
+All the templates can be found in **Projects > Toolbox > Budget Templates**, here you can edit or delete them.
+
+{{< img-center src="/uploads/2020/06/29/budget-templates.png" >}}
