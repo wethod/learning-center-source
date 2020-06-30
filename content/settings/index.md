@@ -206,9 +206,12 @@ By clicking on a rectangle you can highlight all the outgoing connections and cl
 
 Each team member has a section in the profile page, called Kudos, with the results of the [reviews]({{< relref "pipeline/index.md#project-team-review" >}}) received in a year both as a team member and as a project manager. The widget "What people say" collects all the written reviews received in a year.
 
-{{< img-center src="/uploads/2020/06/03/project_review-profile_kudos.png">}}
+{{< img-center src="/uploads/2020/06/30/profile-kudos.png">}}
 
 These results are based on the average Net Promoter Score and are calculated considering the number of reviews received and the projects worked on in a year. 
+
+The average Kudos of a project are shown on the project’s canvas page, with the average result for each criterion.
+
 
 ## Switch Company
 
