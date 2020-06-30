@@ -271,7 +271,7 @@ Each project manager will be asked to review the project and its team members.
 
 To add or edit criteria for the evaluation of projects and team members go to [Project & Team members review settings]({{< relref "settings/index.md#company" >}}).
 
-You can find user's review results in the [Profile]({{< relref "settings/index/#kudos" >}}) section, while you need to visit the [Canvas]({{< relref "pipeline/index.md#project-canvas" >}}) section to see project's review results. 
+You can find user's review results in the [Profile]({{< relref "settings/index.md#kudos" >}}) section, while you need to visit the [Canvas]({{< relref "pipeline/index.md#project-canvas" >}}) section to see project's review results. 
 
 In order to maintain a review anonymous, you can set a minimum number of unique reviewers to collect feedback from before showing review’s results in the profile page and the project canvas. This can ben managed in [Project & Team members review settings]({{< relref "settings/index.md#company" >}}).
 
