@@ -238,9 +238,9 @@ What you can do from here:
 
 This tool allows the team to collect feedback on a project and the skills of both managers and collaborators who worked on the same project.
 
-{{< img-center src="/uploads/2020/06/03/project_review-project.png" >}}
+{{< img-center src="/uploads/2020/06/30/review_project.png" >}}
 
-{{< img-center src="/uploads/2020/06/03/project_review-team.png" >}}
+{{< img-center src="/uploads/2020/06/30/review_team.png" >}}
 
 Project & Team Review must be enabled from [Company Settings]({{< relref "settings/index.md#company" >}}).
 
