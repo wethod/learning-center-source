@@ -60,7 +60,12 @@ Here you can configure your company by setting:
 * **Timesheet**: here you can choose to automate the timesheets creation process. This way, timesheets are automatically created each Friday based on planned hours. _Be careful: Anything can go wrong because planning is not often 100% accurate, this is why timesheet exists._
 * **Currencies**: a list of all the known currencies, each one can be made available or set as _master_ (a.k.a. the currency you currently use in your company)
 * **Won/Lost Feedback**: here you can define some possible reasons which can led to the win or loss of a project. A project is considered **won** when its probability reaches 90 or above, on the other hand it's considered **lost** when it goes down to 0. Users will be able to choose one of these reasons from the projects pipeline (remember to enable the related job order category's flag). This feedbacks will be then shown on the [Client Details]({{< relref "finance/index.md#client-details" >}}) page and can be edited from the "More Action > Edit Feedback" button in the projects pipeline.
-* **Project & Team Review**: here you can enable [Project & Team Review]({{< relref "pipeline/index.md#project-team-review" >}}), set criteria, set a minimum number of unique reviewers and decide for which job order categories and minimun project's value WETHOD will ask for review on archive.
+* **Project & Team Review** where you can: 
+	* Enable/disable [Project & Team Review]({{< relref "pipeline/index.md#project-team-review" >}})
+    * Choose the review mode, you can select between a partial or a 360° team review, whether the team should be able to review just the project and its manager or the project and all team members (incl. the manager).
+    * Add or edit criteria in order to evaluate projects and team members. The reviewer will be asked to express a rate for each of the chosen criteria
+    * Set a minimum number of unique reviewers to collect feedback from before showing review’s results in the profile page and the project canvas (this is useful to keep a review anonymous)
+    * decide for which job order categories and minimun project's value WETHOD will ask for review on archive
 
 ## Alerts Engine
 
