@@ -221,3 +221,31 @@ The average Kudos of a project are shown on the project’s canvas page, with th
 ## Switch Company
 
 If you have a different WETHOD company linked to the same account, from here you can switch from one another.
+
+## Business Unit
+The “Business Unit” module is useful to manage teams that work as independent operational units. You can enable the module from the settings section, there you can also set your business units and specify some default behavior. Once the module is enabled, it allows to associate projects, team members and insights with the business units in you company.
+
+**Default BU for filters**: “User’s BU” or “All”. Whether filters on business units by default show data for all business units or data of the business unit of the user is in.
+
+{{< img-center src="/uploads/2020/07/10/business-unit-settings.png">}}
+
+### Projects' Business Unit
+To assign a business unit to a project you can go to the projects pipeline, find your project and click on “Show more”, there you will be able to select a unit via the “Business Unit” field.
+
+{{< img-center src="/uploads/2020/07/10/business-unit-pipeline.png">}}
+
+### Team members' Business Unit
+Business units for team members are historicized, this means that if a person changes business unit all it's past data (plannings and timesheets) are kept linked to the old business unit. You can manage employees business units from the employee payroll section.
+
+{{< img-center src="/uploads/2020/07/10/business-unit-payroll.png">}}
+
+### Business Unit Filters
+When the Business Unit module is enabled you will find filters in all sections of the application where make sense to see data splitted by business unit. Are filter missing in some important section? [contact us](mailto:info@wethod.com)
+
+{{< img-center src="/uploads/2020/07/10/business-unit-filters.png">}}
+
+### Planning Cross-Business unit
+In the permissions section you can find two permissions to set whether people in a business units can plan people on other business unit: 
+
+- **from other bu**: whether you can plan people from another business units on projects of your business unit.
+- **to other bu**: whether you can plan people of your business unit to projects of other business units.
