@@ -235,7 +235,7 @@ To assign a business unit to a project you can go to project list, find your pro
 {{< img-center src="/uploads/2020/07/10/business-unit-pipeline.png">}}
 
 ### Team members' Business Unit
-Wethod keeps a record of each time a user changes its business unit. All the data coming from previous planning and timesheet will remain linked to the business unit(s) the user belonged to at the time. You can manage employees business units from the employee payroll section.
+Wethod keeps a record of each time a user changes its business unit. All the data coming from previous planning and timesheet will remain linked to the business unit(s) the user belonged to at the time. To assign a business unit to each of the employees head to the [payroll section]({{< relref "payroll/index.md#overview" >}}).
 
 {{< img-center src="/uploads/2020/07/10/business-unit-payroll.png">}}
 
