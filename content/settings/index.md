@@ -247,5 +247,5 @@ When the Business Unit module is enabled you will find filters in all sections o
 ### Planning Cross-Business unit
 In the permissions settings you set whether a user in a business unit is allowed to plan people from other business units: 
 
-- **from other bu**: whether you can plan people from other business units on projects of your business unit.
-- **to other bu**: whether you can plan people of your business unit to projects of other business units.
+- **same-bu people on inter-bu projects**: whether you can plan people from your business units on projects of other business unit.
+- **inter-bu people**: whether you can plan people of other business unit (to projects of all business units).
