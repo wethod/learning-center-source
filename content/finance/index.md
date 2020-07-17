@@ -146,6 +146,9 @@ In this section you can view all your suppliers, create new ones or browse by na
 
 {{< img-center src="/uploads/2020/07/17/schermata-2020-07-17-alle-17-24-07.png" >}}
 
+{{< img-center src="/uploads/2020/07/17/schermata-2020-07-17-alle-17-55-08.png" >}}
+
+
 To create a supplier:
 
 1. Click on the top left "**+ supplier**" button and an empty supplier will be added to the list;
