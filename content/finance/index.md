@@ -140,10 +140,22 @@ This is particularly useful when you decide to use a job order category with the
 
 ## Suppliers
 
-In this section you can view all your suppliers and create new ones.
+Find this section in Projects > Wallet > Suppliers
+
+In this section you can view all your suppliers, create new ones or browse by name, email, category, subcategory or status.
+
+{{< img-center src="/uploads/2020/07/17/schermata-2020-07-17-alle-17-24-07.png" >}}
 
 To create a supplier:
 
 1. Click on the top left "**+ supplier**" button and an empty supplier will be added to the list;
 2. Compile the supplier's empty fields;
 3. Click on the "**save**" button.
+
+To set suppliers categories and subcategories (i.e. Hospitality - Catering) head to Settings > Company > Suppliers or learn more from our [suppliers settings]({{< relref "supplier-setup/index.md" >}}) page documentation.
+
+### Supplier's status
+
+It is possibile to add a status that determines whether a supplier is eligible for contracts or not. To enable this feature and set your preferences on supplier's status, head to Settings > Company > Suppliers or learn more from our [suppliers settings]({{< relref "supplier-setup/index.md" >}}) page documentation.
+
+**Remember: Orders can be sent to suppliers that are eligible for contract only.**
