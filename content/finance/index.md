@@ -155,10 +155,10 @@ To create a supplier:
 2. Compile the supplier's empty fields;
 3. Click on the "**save**" button.
 
-To set suppliers categories and subcategories (i.e. Hospitality - Catering) head to Settings > Company > Suppliers or learn more from our [suppliers settings]({{< relref "supplier-setup/index.md" >}}) page documentation.
+To set suppliers categories and subcategories (i.e. Hospitality - Catering) head to Settings > Company > Suppliers or learn more from our page documentation.
 
 ### Supplier's status
 
-It is possibile to add a status that determines whether a supplier is eligible for contracts or not. To enable this feature and set your preferences on supplier's status, head to Settings > Company > Suppliers or learn more from our [suppliers settings]({{< relref "supplier-setup/index.md" >}}) page documentation.
+It is possibile to add a status that determines whether a supplier is eligible for contracts or not. To enable this feature and set your preferences on supplier's status, head to Settings > Company > Suppliers or learn more from our page documentation.
 
 **Remember: Orders can be sent to suppliers that are eligible for contract only.**
