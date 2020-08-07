@@ -92,9 +92,10 @@ Click on "Edit by area" to open a window and edit the status for each of the are
 
 ### Status of the project's risk
 
-For each project, it is possible to edit the status of risk on a weekly basis. Based on permission settings, it is possible to edit the status labels and colour from the settings page.
+For each project, it is possible to edit the status of risk on a weekly basis. Based on permission settings, it is possible to edit the status labels and colour from the [settings page]({{< relref "reports/index.md##project-status-settings" >}}) page.
 
 
 ### Budget consumption status, production trend and project details.
 
 Click on the right arrow to access more details on the status of the project’s budget consumption, the production plan trend and other details.
+
