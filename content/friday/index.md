@@ -89,7 +89,7 @@ For each project, Wethod shows the production status. It compares the current pr
 
 Click on "Edit by area" to open a window and edit the status for each of the areas (or phases) of the project, following the areas listed in the budget. The project status of the previous week is shown too, this way you can quickly compare the phase's progress.
 
-{{< img-center src="//uploads/2020/08/07/project_status_by_area.png" >}}
+{{< img-center src="/uploads/2020/08/07/project_status_by_area.png" >}}
 
 
 ### Status of the project's risk
@@ -100,3 +100,5 @@ For each project, it is possible to edit the status of risk on a weekly basis. B
 ### Budget consumption status, production trend and project details.
 
 Click on the right arrow to access more details on the status of the project’s budget consumption, the production plan trend and other details.
+
+{{< img-center src="/uploads/2020/08/07/project_status_details.png" >}}
