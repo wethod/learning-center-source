@@ -63,12 +63,35 @@ Go to “Company” from your profile, then select “Timesheet” and choose op
 
 ## Project Status
 
-At the end of each week, the project manager estimates the days left to finish the project and inserts this number here.
-
-For each project the last project status is shown too, this way you can quickly compare the project's progress.
+At the end of each week, the project manager estimates the workdays left to finish the project and inserts this number here. 
 
 **Project Status must not be compiled looking at Timesheet, but thinking seriously about how much work still to be done.**
 
 {{< img-center src="/uploads/2018/08/06/wethod_ps_percentage.png" >}}
 
-### New title
+This page shows by default a list of all the projects you are managing in your company. On the top-right corner, click on "As account" to filter the list with the project where you are in charge as account or "All" to see all of the projects in your company. 
+
+The list of projects is divided into groups by the type of project status:
+
+* "Workdays to complete," whether to declare the workdays left to complete a project.
+* "Completed percentage," whether to declare the percentage of progress of the project.
+* "Auto," whether the project status is automatic.
+
+Set preferences in Settings > Company > Job Order Categories > Project status.
+
+### Current production vs production plan of the month
+
+For each project, Wethod shows the production status. It compares the current production (based on the project status) with the production planned for the current month. 
+
+### Edit project status by area
+
+Click on "Edit by area" to open a window and edit the status for each of the areas (or phases) of the project, following the areas listed in the budget. The project status of the previous week is shown too, this way you can quickly compare the phase's progress.
+
+### Status of the project's risk
+
+For each project, it is possible to edit the status of risk on a weekly basis. Based on permission settings, it is possible to edit the status labels and colour from the settings page.
+
+### Budget consumption status, production trend and project details.
+
+Click on the right arrow to access more details on the status of the project’s budget consumption, the production plan trend and other details. 
+
