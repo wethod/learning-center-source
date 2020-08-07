@@ -264,4 +264,13 @@ This feature allows the user to determine a status of a supplier and if it is el
 To set status for your suppliers hit the button "Enable".
 Once the feature is enabled, hit "New status", add a name for your status, assign a colour of your choice and put a check if suppliers with this status will be available for contracts. 
 
-Remember that a user can issue an order only to suppliers that are available for contracts. 
+Remember that a user can issue an order only to suppliers that are available for contracts.
+
+
+## Project Status Settings
+
+### Project status risk
+This feature allows the user to edit on a weekly basis the risk status for each project.
+
+To add a new risk status click on "Add risk status", choose a colour, edit the name and click "save."
+
