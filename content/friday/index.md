@@ -100,5 +100,4 @@ For each project, it is possible to edit the status of risk on a weekly basis. B
 ### Budget consumption status, production trend and project details.
 
 Click on the right arrow to access more details on the status of the project’s budget consumption, the production plan trend and other details.
-
 {{< img-center src="/uploads/2020/08/07/project_status_details.png" >}}
