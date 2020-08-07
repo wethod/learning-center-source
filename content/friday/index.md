@@ -67,7 +67,7 @@ At the end of each week, the project manager estimates the workdays left to fini
 
 **Project Status must not be compiled looking at Timesheet, but thinking seriously about how much work still to be done.**
 
-{{< img-center src="/uploads/2018/08/06/wethod_ps_percentage.png" >}}
+{{< img-center src="/uploads/2020/08/07/project_status_2020.png" >}}
 
 This page shows by default a list of all the projects you are managing in your company. On the top-right corner, click on "As account" to filter the list with the project where you are in charge as account or "All" to see all of the projects in your company. 
 
@@ -93,5 +93,4 @@ For each project, it is possible to edit the status of risk on a weekly basis. B
 
 ### Budget consumption status, production trend and project details.
 
-Click on the right arrow to access more details on the status of the project’s budget consumption, the production plan trend and other details. 
-
+Click on the right arrow to access more details on the status of the project’s budget consumption, the production plan trend and other details.
