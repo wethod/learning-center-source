@@ -1,7 +1,7 @@
 ---
-date: 2017-05-22 13:51:35 +0000
+date: 2017-05-22T13:51:35.000+00:00
 title: Friday
-weight: 50
+weight: "50"
 
 ---
 ## Overview
@@ -70,3 +70,5 @@ For each project the last project status is shown too, this way you can quickly 
 **Project Status must not be compiled looking at Timesheet, but thinking seriously about how much work still to be done.**
 
 {{< img-center src="/uploads/2018/08/06/wethod_ps_percentage.png" >}}
+
+### New title
