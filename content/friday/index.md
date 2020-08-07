@@ -79,17 +79,21 @@ The list of projects is divided into groups by the type of project status:
 
 Set preferences in Settings > Company > Job Order Categories > Project status.
 
+
 ### Current production vs production plan of the month
 
 For each project, Wethod shows the production status. It compares the current production (based on the project status) with the production planned for the current month. 
+
 
 ### Edit project status by area
 
 Click on "Edit by area" to open a window and edit the status for each of the areas (or phases) of the project, following the areas listed in the budget. The project status of the previous week is shown too, this way you can quickly compare the phase's progress.
 
+
 ### Status of the project's risk
 
 For each project, it is possible to edit the status of risk on a weekly basis. Based on permission settings, it is possible to edit the status labels and colour from the settings page.
+
 
 ### Budget consumption status, production trend and project details.
 
