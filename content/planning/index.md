@@ -42,11 +42,11 @@ You can plan a person by half-days: we think it's not worth planning by more fin
 
 {{< img-center src="/uploads/2017/11/02/planning-people.gif">}}
 
-The **filter people button** lets you combine different filters, for example you may decide to see only the internal employees which are managers and have a background in design (you can use \[tags\]({{< relref "settings/index.md#team" >}}) to divide employees into categories).
+The **filter people button** lets you combine different filters, for example you may decide to see only the internal employees which are managers and have a background in design (you can use [tags\]{{< relref "settings/index.md#team" >}}) to divide employees into categories).
 
 {{< img-center src="/uploads/2017/11/02/planning-people-filters.png">}}
 
-You can use the search bar even to filter people by \[skill\]({{< relref "settings/index.md#skills" >}}), try to input something like **skill:photoshop;skill:illustrator** to find everybody who has a skill named "photoshop" and a skill named "illustrator".
+You can use the search bar even to filter people by [skill]({{< relref "settings/index.md#skills" >}}), try to input something like **skill:photoshop;skill:illustrator** to find everybody who has a skill named "photoshop" and a skill named "illustrator".
 
 When you run out of days, you can choose between two options:
 
@@ -54,7 +54,7 @@ When you run out of days, you can choose between two options:
 * Quickly convert available budget days from another user level. 
 
 
-**Convert available budget days from another user level.**
+### Convert available budget days from another user level
 
 This feature allows you to quickly dispose of extra budget days, when needed, in order to allocate people on a project. 
 
@@ -66,7 +66,7 @@ Use the number of available budget days from a user-level of your choice and see
 
 The conversion ratio is based on the daily cost of user-levels and it’s not possible to exceed the total amount of internal cost on the budget. 
 
-A new version of the budget is saved each time a user makes a conversion.
+A new version of the budget is automatically created each time a user makes a conversion.
 
 
 ## Projects' Heatmap
