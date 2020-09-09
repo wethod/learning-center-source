@@ -48,6 +48,27 @@ The **filter people button** lets you combine different filters, for example you
 
 You can use the search bar even to filter people by \[skill\]({{< relref "settings/index.md#skills" >}}), try to input something like **skill:photoshop;skill:illustrator** to find everybody who has a skill named "photoshop" and a skill named "illustrator".
 
+When you run out of days, you can choose between two options:
+
+* Review the budget and wait for the approval of a supervisor.
+* Quickly convert available budget days from another user level. 
+
+
+**Convert available budget days from another user level.**
+
+This feature allows you to quickly dispose of extra budget days, when needed, in order to allocate people on a project. 
+
+{{< img-center src="/uploads/2020/09/09/budget_dinamico.gif">}}
+
+You will access to a simple view of the project’s budget, including areas, tasks and the total number of available days per user level. 
+
+Use the number of available budget days from a user-level of your choice and see on the top the conversion into budget days you can use for other user-levels. 
+
+The conversion ratio is based on the daily cost of user-levels and it’s not possible to exceed the total amount of internal cost on the budget. 
+
+A new version of the budget is saved each time a user makes a conversion.
+
+
 ## Projects' Heatmap
 
 This is useful to show the _weight_ of planned people on each project: the darker is the color of a cell, the more people are planned on the project that day.
