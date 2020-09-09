@@ -58,7 +58,7 @@ When you run out of days, you can choose between two options:
 
 This feature allows you to quickly dispose of extra budget days, when needed, in order to allocate people on a project. 
 
-{{< img-center src="">}}
+{{< img-center src="/uploads/2020/09/09/budget_dinamico.gif">}}
 
 You will access to a simple view of the project’s budget, including areas, tasks and the total number of available days per user level. 
 
