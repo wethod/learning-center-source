@@ -68,6 +68,11 @@ The conversion ratio is based on the daily cost of user-levels and it’s not po
 
 A new version of the budget is automatically created each time a user makes a conversion.
 
+{{< note title="Note" >}}
+
+**You need to use all the available contingency to be able to convert days between levels.**
+
+{{< /note >}}
 
 ## Projects' Heatmap
 
