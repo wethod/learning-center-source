@@ -43,8 +43,11 @@ Selecting a project will sort the people on the list by showing first all those 
 The allocated slots on the selected project will be highlighted throughout the plan. 
 
 **Plan teammates on a project**
+
 1. Select a project. 
+
 2. Look at the box that appears at the top of the page to know how many budget days and hours are available to plan, grouped by user level.
+
 3. If needed, you can **apply multiple filters on people**. For example, you may decide to see only the internal employees which are managers and have a background in design (you can use [tags]{{< relref "settings/index.md#team" >}}) to divide employees into categories).
 
 {{< img-center src="/uploads/2017/11/02/planning-people-filters.png">}}
