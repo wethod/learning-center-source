@@ -21,21 +21,29 @@ The blue dot in the calendar's header highlights the current day.
 People Allocation gives an overview of the team’s allocation on the projects in your company. From here you can plan your colleagues, filter them by skill or tags, and access their profile pages to learn more about their backgrounds and goals.
 
 This planning features three different views and planning options:
-* **Hourly**: team allocation on projects by the hour.
-* **Daily**: team allocation on projects on a daily basis.
+
+* **Hourly**: team allocation on projects by the hour;
+* **Daily**: team allocation on projects on a daily basis;
 * **Weekly**: team allocation on projects on a weekly basis. 
 
 
 **People in your team**
+
 All your teammates are listed on the left. Each person on the list features:
-* **A profile picture** or the initials 
-* **Name and surname**
-* **Level of seniority** (i.e. JR, SR, MGR, SRMGR)
-* **OKR level.** The Objective and Key Results level for each quarter of the year. Wethod shows whether the OKR of a quarter was (grey label) or wasn’t placed (white label) by the user, and whether was discussed (blue) or checked (green) together with a sponsor. 
+
+* **A profile picture** or the initials;
+
+* **Name and surname**;
+
+* **Level of seniority** (i.e. JR, SR, MGR, SRMGR);
+
+* **OKR level.** The Objective and Key Results level for each quarter of the year. Wethod shows whether the OKR of a quarter was (grey label) or wasn’t placed (white label) by the user, and whether was discussed (blue) or checked (green) together with a sponsor;
+
 * **Tags.** Tags are custom made and can be edited in the ‘Team’ settings page.
 
 
 **Team allocation overview on a specific project**
+
 To select a project you have two options:
 
 1. Select the project from the “Select Project” button. Search for the project and pick it from the list. 
