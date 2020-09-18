@@ -25,6 +25,7 @@ This planning features three different views and planning options:
 * **Daily**: team allocation on projects on a daily basis.
 * **Weekly**: team allocation on projects on a weekly basis. 
 
+
 **People in your team**
 All your teammates are listed on the left. Each person on the list features:
 * **A profile picture** or the initials 
@@ -33,14 +34,18 @@ All your teammates are listed on the left. Each person on the list features:
 * **OKR level.** The Objective and Key Results level for each quarter of the year. Wethod shows whether the OKR of a quarter was (grey label) or wasn’t placed (white label) by the user, and whether was discussed (blue) or checked (green) together with a sponsor. 
 * **Tags.** Tags are custom made and can be edited in the ‘Team’ settings page.
 
+
 **Team allocation overview on a specific project**
 To select a project you have two options:
 
 1. Select the project from the “Select Project” button. Search for the project and pick it from the list. 
+
 2. Select the project by clicking on a day/week on the plan. If the day/week features allocations on different projects, a window will open to show a list with the detail of the hours of allocation on each project. To select a project from the list, pick one and click “Select”.
+
 Selecting a project will sort the people on the list by showing first all those who were planned on the project at least once – It’s better to work with people that are already aware of the challenge, right? 
 
 The allocated slots on the selected project will be highlighted throughout the plan. 
+
 
 **Plan teammates on a project**
 
@@ -53,8 +58,11 @@ The allocated slots on the selected project will be highlighted throughout the p
 {{< img-center src="/uploads/2017/11/02/planning-people-filters.png">}}
 
 4. You can use the search bar even to **filter people by skill**. Try to input something like **skill:photoshop;skill:illustrator** to find everybody who has a skill named "photoshop" and a skill named "illustrator".
+
 5. **To plan by day or by week**, just click on the day/week you want to allocate the user. If you hold and drag your mouse, you can assign more days/weeks at once.
+
 6. **To plan by the hour**, hover with the mouse on the day you want to allocate the user. Click on + each time you want to plan an hour and - when you want to unplan an hour.
+
 7. Hit the button < > on the left side of the calendar to browse people allocation in the future or in the past. Hit ‘today’ to go back at today’s planning.
 
 {{< note title="Note" >}}
