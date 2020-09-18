@@ -39,7 +39,7 @@ All your teammates are listed on the left. Each person on the list features:
 
 * **OKR level.** The Objective and Key Results level for each quarter of the year. Wethod shows whether the OKR of a quarter was (grey label) or wasn’t placed (white label) by the user, and whether was discussed (blue) or checked (green) together with a sponsor;
 
-* **Tags.** Tags are custom made and can be edited in the ‘Team’ settings page.
+* **Tags.**  You can use [tags]({{< relref "settings/index.md#team" >}}) to divide employees into categories.
 
 
 **Team allocation overview on a specific project**
@@ -61,8 +61,8 @@ The allocated slots on the selected project will be highlighted throughout the p
 
 2. Look at the box that appears at the top of the page to know how many budget days and hours are available to plan, grouped by user level.
 
-3. If needed, you can **apply multiple filters on people**. For example, you may decide to see only the internal employees which are managers and have a background in design (you can use [tags\]{{< relref "settings/index.md#team" >}}) to divide employees into categories).{{< img-center src="/uploads/2017/11/02/planning-people-filters.png">}}
-
+3. If needed, you can **apply multiple filters on people**. For example, you may decide to see only the internal employees which are managers and have a background in design 
+{{< img-center src="/uploads/2017/11/02/planning-people-filters.png">}}
 
 4. You can use the search bar even to **filter people by [skill]({{< relref "settings/index.md#skills" >}})**. Try to input something like **skill:photoshop;skill:illustrator** to find everybody who has a skill named "photoshop" and a skill named "illustrator". 
 
