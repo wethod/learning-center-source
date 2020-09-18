@@ -18,19 +18,41 @@ The blue dot in the calendar's header highlights the current day.
 
 ## People Allocation
 
-On the top you have three buttons, from the left:
+People Allocation gives an overview of the team’s allocation on the projects in your company. From here you can plan your colleagues, filter them by skill or tags, and access their profile pages to learn more about their backgrounds and goals.
 
-* The **select project** button lets you search for a project and pick one from the list;
-* The **filter people** button lets you filter the teammates you want to see in the planning;
-* The **switch weeks** button lets you travel in time, you can see future and past weeks.
+This planning features three different views and planning options:
+* **Hourly**: team allocation on projects by the hour.
+* **Daily**: team allocation on projects on a daily basis.
+* **Weekly**: team allocation on projects on a weekly basis. 
 
-When you select a project, only the half-days allocated for that project will be highlighted, this allows you to have a general point of view on the teammates which are already on the project.  For the same reason, selecting a project will sort people by showing first all those who were planned on the project at least once. Because is better to work with people that are aware of the challenge, right?
+**People in your team**
+All your teammates are listed on the left. Each person on the list features:
+* **A profile picture** or the initials 
+* **Name and surname**
+* **Level of seniority** (i.e. JR, SR, MGR, SRMGR)
+* **OKR level.** The Objective and Key Results level for each quarter of the year. Wethod shows whether the OKR of a quarter was (grey label) or wasn’t placed (white label) by the user, and whether was discussed (blue) or checked (green) together with a sponsor. 
+* **Tags.** Tags are custom made and can be edited in the ‘Team’ settings page.
 
-To know how many budget days you can allocate just look at the box that appears at the top of the page: here you can see all the days left, grouped by user level.
+**Team allocation overview on a specific project**
+To select a project you have two options:
 
-All your teammates are listed on the left, to allocate a person you just need to click on the half-day you want to assign. If you hold and drag your mouse, you can assign more half-days at once.
+1. Select the project from the “Select Project” button. Search for the project and pick it from the list. 
+2. Select the project by clicking on a day/week on the plan. If the day/week features allocations on different projects, a window will open to show a list with the detail of the hours of allocation on each project. To select a project from the list, pick one and click “Select”.
+Selecting a project will sort the people on the list by showing first all those who were planned on the project at least once – It’s better to work with people that are already aware of the challenge, right? 
 
-You can plan a person by half-days: we think it's not worth planning by more fine-grained amounts of time. If your tasks require less time, just group them!
+The allocated slots on the selected project will be highlighted throughout the plan. 
+
+**Plan teammates on a project**
+1. Select a project. 
+2. Look at the box that appears at the top of the page to know how many budget days and hours are available to plan, grouped by user level.
+3. If needed, you can **apply multiple filters on people**. For example, you may decide to see only the internal employees which are managers and have a background in design (you can use [tags]{{< relref "settings/index.md#team" >}}) to divide employees into categories).
+
+{{< img-center src="/uploads/2017/11/02/planning-people-filters.png">}}
+
+4. You can use the search bar even to **filter people by skill**. Try to input something like **skill:photoshop;skill:illustrator** to find everybody who has a skill named "photoshop" and a skill named "illustrator".
+5. **To plan by day or by week**, just click on the day/week you want to allocate the user. If you hold and drag your mouse, you can assign more days/weeks at once.
+6. **To plan by the hour**, hover with the mouse on the day you want to allocate the user. Click on + each time you want to plan an hour and - when you want to unplan an hour.
+7. Hit the button < > on the left side of the calendar to browse people allocation in the future or in the past. Hit ‘today’ to go back at today’s planning.
 
 {{< note title="Note" >}}
 
