@@ -63,8 +63,6 @@ The allocated slots on the selected project will be highlighted throughout the p
 
 3. If needed, you can **apply multiple filters on people**. For example, you may decide to see only the internal employees which are managers and have a background in design (you can use [tags]{{< relref "settings/index.md#team" >}}) to divide employees into categories).
 
-{{< img-center src="/uploads/2017/11/02/planning-people-filters.png">}}
-
 4. You can use the search bar even to **filter people by skill**. Try to input something like **skill:photoshop;skill:illustrator** to find everybody who has a skill named "photoshop" and a skill named "illustrator".
 
 5. **To plan by day or by week**, just click on the day/week you want to allocate the user. If you hold and drag your mouse, you can assign more days/weeks at once.
