@@ -61,9 +61,10 @@ The allocated slots on the selected project will be highlighted throughout the p
 
 2. Look at the box that appears at the top of the page to know how many budget days and hours are available to plan, grouped by user level.
 
-3. If needed, you can **apply multiple filters on people**. For example, you may decide to see only the internal employees which are managers and have a background in design (you can use [tags]{{< relref "settings/index.md#team" >}}) to divide employees into categories).
+3. If needed, you can **apply multiple filters on people**. For example, you may decide to see only the internal employees which are managers and have a background in design (you can use [tags]{{< relref "settings/index.md#team" >}}) to divide employees into categories).{{< img-center src="/uploads/2017/11/02/planning-people-filters.png">}}
 
-4. You can use the search bar even to **filter people by skill**. Try to input something like **skill:photoshop;skill:illustrator** to find everybody who has a skill named "photoshop" and a skill named "illustrator".
+
+4. You can use the search bar even to **filter people by [skill]({{< relref "settings/index.md#skills" >}})**. Try to input something like **skill:photoshop;skill:illustrator** to find everybody who has a skill named "photoshop" and a skill named "illustrator". 
 
 5. **To plan by day or by week**, just click on the day/week you want to allocate the user. If you hold and drag your mouse, you can assign more days/weeks at once.
 
@@ -79,7 +80,6 @@ The allocated slots on the selected project will be highlighted throughout the p
 
 {{< /note >}}
 
-{{< img-center src="/uploads/2017/11/02/planning-people.gif">}}
 
 The **filter people button** lets you combine different filters, for example you may decide to see only the internal employees which are managers and have a background in design (you can use [tags\]{{< relref "settings/index.md#team" >}}) to divide employees into categories).
 
