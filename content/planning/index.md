@@ -35,7 +35,7 @@ All your teammates are listed on the left. Each person on the list features:
 
 * **Name and surname**;
 
-* **Tags**  You can use [tags]({{< relref "settings/index.md#team" >}}) to divide employees into categories.
+* **Tags**  You can use [tags]({{< relref "settings/index.md#team" >}}) to group employees into categories.
 
 * **Level of seniority** (i.e. JR, SR, MGR, SRMGR);
 
