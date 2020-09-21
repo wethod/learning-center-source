@@ -35,11 +35,11 @@ All your teammates are listed on the left. Each person on the list features:
 
 * **Name and surname**;
 
+* **Tags**  You can use [tags]({{< relref "settings/index.md#team" >}}) to divide employees into categories.
+
 * **Level of seniority** (i.e. JR, SR, MGR, SRMGR);
 
-* **OKR level.** The Objective and Key Results level for each quarter of the year. Wethod shows whether the OKR of a quarter was (grey label) or wasn’t placed (white label) by the user, and whether was discussed (blue) or checked (green) together with a sponsor;
-
-* **Tags.**  You can use [tags]({{< relref "settings/index.md#team" >}}) to divide employees into categories.
+* **OKR status** The status of Objectives and Key Results on each quarter of the year. Wethod shows whether the OKR of a quarter was (grey label) or wasn’t placed (white label) by the user, and whether was discussed (blue) or checked (green) together with a sponsor;
 
 
 **Team allocation overview on a specific project**
