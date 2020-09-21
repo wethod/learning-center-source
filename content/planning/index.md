@@ -39,7 +39,7 @@ All your teammates are listed on the left. Each person on the list features:
 
 * **Level of seniority** (i.e. JR, SR, MGR, SRMGR);
 
-* **Objective and Key Results (OKR)** The status of the teammate's objectives and key results on each quarter of the year. Wethod shows whether the OKR of a quarter was (grey label) or wasn’t placed (white label) by the user, and whether was discussed (blue) or checked (green) together with a sponsor;
+* **Objective and Key Results (OKR)** The status of the teammate's objectives and key results on each quarter of the year. Wethod shows whether the OKR of a quarter were (grey label) or were not placed (white label) by the user, and whether were discussed (blue) or checked (green) together with a sponsor;
 
 
 **Team allocation overview on a specific project**
