@@ -66,7 +66,7 @@ The allocated slots on the selected project will be highlighted throughout the p
 
 4. You can use the search bar even to **filter people by [skill]({{< relref "settings/index.md#skills" >}})**. Try to input something like **skill:photoshop;skill:illustrator** to find everybody who has a skill named "photoshop" and a skill named "illustrator". 
 
-5. **To plan by day or by week**, just click on the day/week you want to allocate the user. If you hold and drag your mouse, you can assign more days/weeks at once.
+5. **To plan daily or weekly**, just click on the day/week you want to allocate the user. If you hold and drag your mouse, you can assign more days/weeks at once.
 
 6. **To plan by the hour**, hover with the mouse on the day you want to allocate the user. Click on + each time you want to plan an hour and - when you want to unplan an hour.
 
