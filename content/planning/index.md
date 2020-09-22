@@ -66,9 +66,9 @@ The allocated slots on the selected project will be highlighted throughout the p
 
 4. You can use the search bar even to **filter people by [skill]({{< relref "settings/index.md#skills" >}})**. Try to input something like **skill:photoshop;skill:illustrator** to find everybody who has a skill named "photoshop" and a skill named "illustrator". 
 
-5. **(To plan for a day* or for an entire week*)**, just click on the day/week you want to allocate the user. If you hold and drag your mouse, you can assign more days/weeks at once.
+5. **To plan for a day* or for an entire week***, just click on the day/week you want to allocate the user. If you hold and drag your mouse, you can assign more days/weeks at once.
 
-*If the day/week has some hours/days already planned in other projects, wethod will allow you to plan the remaining hours/days available.
+*If the day/week has some hours/days already planned on other projects, wethod allows you to plan the user on the remaining hours/days available for that day/week.
 
 6. **To plan by the hour**, hover with the mouse on the day you want to allocate the user. Click on + each time you want to plan an hour and - when you want to unplan an hour.
 
