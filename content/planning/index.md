@@ -52,7 +52,7 @@ To select a project you have two options:
 
 2. Select the project by clicking on a day/week on the plan. If the day/week features allocations on different projects, a window will open to show a list with the detail of the hours of allocation on each project. To select a project from the list, pick one and click “Select”.
 
-Selecting a project will sort the people on the list by showing first all those who were planned on the project at least once – It’s better to work with people that are already aware of the challenge, right? 
+When a project is selected Wethod will sort the people on the list by showing first all those who were planned on the project at least once – It’s better to work with people that are already aware of the challenge, right? 
 
 All the time slots planned for the selected project will be highlighted throughout the plan. 
 
