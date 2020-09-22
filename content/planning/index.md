@@ -29,7 +29,7 @@ This planning features three different views and planning options:
 
 **People in your team**
 
-All your teammates are listed on the left. Each person on the list features:
+All your teammates are listed on the left with their allocation. Each person on the list features:
 
 * **A profile picture** or the initials;
 
@@ -40,6 +40,8 @@ All your teammates are listed on the left. Each person on the list features:
 * **Level of seniority** (i.e. JR, SR, MGR, SRMGR);
 
 * **Objective and Key Results (OKR)** The status of the teammate's objectives and key results on each quarter of the year. Wethod shows whether the OKR of a quarter were (grey label) or were not placed (white label) by the user, and whether were discussed (blue) or checked (green) together with a sponsor;
+
+* **Allocation on projects** Each slot shows the amount of hours, days or weeks a user is planned for a project. Each project follows the colour code of the [job order categories]({{< relref "settings/index.md/#company" >}}) used by your company. 
 
 
 **Team allocation overview on a specific project**
@@ -52,7 +54,7 @@ To select a project you have two options:
 
 Selecting a project will sort the people on the list by showing first all those who were planned on the project at least once – It’s better to work with people that are already aware of the challenge, right? 
 
-The allocated slots on the selected project will be highlighted throughout the plan. 
+All the time slots planned for the selected project will be highlighted throughout the plan. 
 
 
 **Plan teammates on a project**
