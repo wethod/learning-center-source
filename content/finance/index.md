@@ -144,17 +144,16 @@ Find this section in Projects > Wallet > Suppliers
 
 In this section you can view all your suppliers, create new ones or browse by name, email, status or tags.
 
-{{< img-center src="/uploads/2020/07/17/schermata-2020-07-17-alle-17-24-07.png" >}}
+{{< img-center src="/uploads/2020/10/09/supplier_list.png" >}}
 
-{{< img-center src="/uploads/2020/07/17/schermata-2020-07-17-alle-17-55-08.png" >}}
+{{< img-center src="/uploads/2020/10/09/supplier_list_cassetto.png" >}}
 
-To create a supplier:
+To add a new supplier:
 
-1. Click on the top left "**+ supplier**" button and an empty supplier will be added to the list;
-2. Compile the supplier's empty fields;
-3. Click on the "**save**" button.
-
-Add tags from the  ["Supplier Settings"]({{< relref "settings/index.md#suppliers-settings" >}}) page. Head to Settings > Company > Suppliers.
+1. Click on the top left "**New supplier**" button and a sidebar will open;
+2. Compile the supplier's empty fields inside the sidebar;
+3. Assign tags to catalogue the supplier with keywords about the fields of expertise, industry or geography by selecting them from the list in the field "Tag". To add tags to the list go to the  ["Supplier Settings"]({{< relref "settings/index.md#suppliers-settings" >}}) page or go from the navigation menu to Settings > Company > Suppliers.
+4. Click on the "**save**" button.
 
 ### Supplier's status
 
