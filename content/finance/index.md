@@ -154,7 +154,7 @@ To create a supplier:
 2. Compile the supplier's empty fields;
 3. Click on the "**save**" button.
 
-Add tags from the  ["Supplier Settings"]({{< relref "settings/index.md#suppliers-settings" >}}) page. Head to Settings > Company > Suppliers or learn more from
+Add tags from the  ["Supplier Settings"]({{< relref "settings/index.md#suppliers-settings" >}}) page. Head to Settings > Company > Suppliers.
 
 ### Supplier's status
 
