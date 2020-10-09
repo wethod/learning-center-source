@@ -155,7 +155,7 @@ To add a new supplier:
 3. Assign tags to catalogue the supplier with keywords (i.e. expertise, industry or geography) by selecting them from the list in the field "Tag". To add tags to the list go to the  ["Supplier Settings"]({{< relref "settings/index.md#suppliers-settings" >}}) page or go from the navigation menu to Settings > Company > Suppliers.
 4. Click on the "**save**" button.
 
-Filter the list with search queries:
+To filter the list with multiple search queries, insert the keywords between commas:
 
 {{< img-center src="/uploads/2020/10/09/tag_search_supplier.gif" >}}
 
