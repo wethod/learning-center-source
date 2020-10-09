@@ -31,7 +31,7 @@ Order's fields description:
 
 ### Currency
 
-Orders belonging to a [multicurrency budget]({{< relref "budget/index.md#multicurrency-budget" >}}) 
+Orders belonging to a [multicurrency budget]({{< relref "budget/index.md#multicurrency-budget" >}})
 are displayed with their currency. Currency can be picked between those used in the budget's external costs. The exchange rate for the currency refers to the budget's creation date, but you can change it in any moment by editing it manually.
 
 {{< note title="Note" >}}
@@ -56,7 +56,7 @@ To create an invoice:
 
 ### Currency
 
-Invoices belonging to a [multicurrency budget]({{< relref "budget/index.md#multicurrency-budget" >}}) 
+Invoices belonging to a [multicurrency budget]({{< relref "budget/index.md#multicurrency-budget" >}})
 are displayed with the final net's currency. The exchange rate for the currency refers to the budget's creation date, but you can change it in any moment by editing it manually.
 
 {{< note title="Note" >}}
@@ -79,7 +79,7 @@ In this section you can see all your clients, divided into contacts and companie
 3. Fill in all the required fields
 4. Click on the "**save**" button
 
-Click on the arrow to open a sidebar containing all the info about a contact, if you want even more details you can reach the contact page by using the button placed at the bottom of the sidebar. 
+Click on the arrow to open a sidebar containing all the info about a contact, if you want even more details you can reach the contact page by using the button placed at the bottom of the sidebar.
 
 In the contact page you can find all the projects developed with this contact and all his resources.
 
@@ -99,7 +99,7 @@ How to link a contact to a project? Just go to the pipeline and pick a name from
 Click on a company to get more details about it: on the left of this view you can find some general information, on the right you can see listed all the compnay's contacts, all the projects developed for this company and all its resources.
 A resource is just a link with a name to something external to WETHOD (like a document or a todo list).
 
-Click on the arrow to open a sidebar containing all the info about a company, if you want even more details you can reach the company page by using the button placed at the bottom of the sidebar. 
+Click on the arrow to open a sidebar containing all the info about a company, if you want even more details you can reach the company page by using the button placed at the bottom of the sidebar.
 
 ### Client Details
 
@@ -107,28 +107,28 @@ Click on the arrow to open a sidebar containing all the info about a company, if
 
 Here you can find details and insights about a client, like:
 
-* 	It's [revenue clock]({{< relref "dashboard/index.md#revenue-clock" >}}) for the current year
-*	All the **invoices** that need to be sent for that client
-* 	The **revenues** for the client grouped by years or quarters. Targets are displayed in orange and you can set them in the [revenues target]({{< relref "revenues/index.md#revenues-target" >}}) section
-* 	The value of the **won projects** for the client grouped by years or quarters (click on a column to further filter the insights below on the selected time range)
-*   Sparklines:
-	* 	**Won projects** that are all the projects with a 90% or 100% probability
-    * 	**Proposals** the number of project that reached 90% (won) or went down to 0% (lost)
-    * 	**Avg. Project Value** the average value of all the won projects
-    * 	**Conversion Rate** the ratio between won projects and proposals
-    * 	**Avg. Profitabilty**: the average margin of all the won projects in the selected time range
-* 	**Won projects** that are all the projects with a 90% or 100% probability
-* 	**Lost projects** that are all the projects with a 0% probability
-* 	**Outstanding projects** that are all the projects with a probability between 10% and 75% 
-* 	All the **contacts** for this client
+* It's [revenue clock]({{< relref "dashboard/index.md#revenue-clock" >}}) for the current year
+* All the **invoices** that need to be sent for that client
+* The **revenues** for the client grouped by years or quarters. Targets are displayed in orange and you can set them in the [revenues target]({{< relref "revenues/index.md#revenues-target" >}}) section
+* The value of the **won projects** for the client grouped by years or quarters (click on a column to further filter the insights below on the selected time range)
+* Sparklines:
+  * **Won projects** that are all the projects with a 90% or 100% probability
+  * **Proposals** the number of project that reached 90% (won) or went down to 0% (lost)
+  * **Avg. Project Value** the average value of all the won projects
+  * **Conversion Rate** the ratio between won projects and proposals
+  * **Avg. Profitabilty**: the average margin of all the won projects in the selected time range
+* **Won projects** that are all the projects with a 90% or 100% probability
+* **Lost projects** that are all the projects with a 0% probability
+* **Outstanding projects** that are all the projects with a probability between 10% and 75%
+* All the **contacts** for this client
 
 The **Won/lost feedback** shows up when you enable the related job order category's flag in the [company]({{< relref "settings/index.md#company" >}}) section.
 
 Sparklines comes in different colors to highlight the trend:
 
-- Red if the last value if worse than the first one
-- Blue if first and last value are the same
-- Green if the last value if better than the first one
+* Red if the last value if worse than the first one
+* Blue if first and last value are the same
+* Green if the last value if better than the first one
 
 ### Intercompany client
 
@@ -142,12 +142,11 @@ This is particularly useful when you decide to use a job order category with the
 
 Find this section in Projects > Wallet > Suppliers
 
-In this section you can view all your suppliers, create new ones or browse by name, email, category, subcategory or status.
+In this section you can view all your suppliers, create new ones or browse by name, email, status or tags.
 
 {{< img-center src="/uploads/2020/07/17/schermata-2020-07-17-alle-17-24-07.png" >}}
 
 {{< img-center src="/uploads/2020/07/17/schermata-2020-07-17-alle-17-55-08.png" >}}
-
 
 To create a supplier:
 
@@ -155,10 +154,10 @@ To create a supplier:
 2. Compile the supplier's empty fields;
 3. Click on the "**save**" button.
 
-To set suppliers categories and subcategories (i.e. Hospitality - Catering) head to Settings > Company > Suppliers or learn more from ["Supplier Settings"]({{< relref "settings/index.md#suppliers-settings" >}}).
+Add tags from the  ["Supplier Settings"]({{< relref "settings/index.md#suppliers-settings" >}}) page. Head to Settings > Company > Suppliers or learn more from
 
 ### Supplier's status
 
-It is possibile to add a status that determines whether a supplier is eligible for contracts or not. To enable this feature and set your preferences on supplier's status, head to Settings > Company > Suppliers or learn more from ["Supplier Settings"]({{< relref "settings/index.md#suppliers-settings" >}}).
+It is possible to add a status that determines whether a supplier is eligible for contracts or not. To enable this feature and set your preferences on supplier's status, head to Settings > Company > Suppliers or learn more from ["Supplier Settings"]({{< relref "settings/index.md#suppliers-settings" >}}).
 
 **Remember: Orders can be sent to suppliers that are eligible for contract only.**
