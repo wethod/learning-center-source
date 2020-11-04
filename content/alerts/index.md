@@ -246,3 +246,15 @@ Parameters: <span style="color:#FF9800">probability</span>
 This alert is shown if you're manager of a project with a probability equal or greater than <span style="color:#FF9800">probability</span> but it hasn't been added to a [program]({{< relref "pipeline/index.md#programs" >}}) yet.
 
 *How to solve it?* Add project to a program or reduce its probability.
+
+### Intercompany Invitation Not Sent
+
+This alert means that you have created an intercompany task but have not sent the invitation to other companies in your group. All intercompany tasks must be linked to correctly calculate the total revenues of the company.
+
+*How to solve it?* Go to your budget and send the intercompany invitation for all intercompany tasks to solve this alert.
+
+### Intercompany Invitation Pending
+
+This alert means that you have a pending intercompany request. All intercompany tasks must be accepted to correctly calculate the total revenues of the company.
+
+*How to solve it?* Accept the intercompany request by linking it to the correct project. You have received the invitation via email, or you can directly click the alert.
