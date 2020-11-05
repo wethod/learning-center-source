@@ -169,6 +169,6 @@ It is possible to add a status that determines whether a supplier is eligible fo
 
 ## Travels
 
-Find this section in Projects > Wallet > Travels.
+Send travel requests to your travel office and download your reservation/ticket.
 
-Send travel requests to your travel office and download your reservations or tickets from this page. 
+Find this section in Projects > Wallet > Travels.
