@@ -165,3 +165,10 @@ To filter the list with multiple search queries, insert the keywords between com
 It is possible to add a status that determines whether a supplier is eligible for contracts or not. To enable this feature and set your preferences on supplier's status, head to Settings > Company > Suppliers or learn more from ["Supplier Settings"]({{< relref "settings/index.md#suppliers-settings" >}}).
 
 **Remember: Orders can be sent to suppliers that are eligible for contract only.**
+
+
+## Travels
+
+Find this section in Projects > Wallet > Travels.
+
+Send travel requests to your travel office and download your reservations or tickets from this page. 
