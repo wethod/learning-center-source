@@ -180,11 +180,11 @@ Head to Setting > Company > Email Bot to insert the email address(es) to send tr
 
 **Create a new travel request:**
 
-1. Click button *New Request*
+1. Click button *New Request*.
 
 2. Insert project name. Job order will be automatically filled by the system.
 
-3. Insert departure and return dates
+3. Insert departure and return dates.
 
 4. If needed, write your travel requests, if needed. For instance: train details, flight details and travellers’ name.
 
@@ -192,23 +192,23 @@ Head to Setting > Company > Email Bot to insert the email address(es) to send tr
 
 6. Click *Save*. 
 
-7. Your request will appear on the list. 
+7. Your request will be added to the list. 
 
 
 **Edit a travel request:**
 
-1. Open a travel request detail 
+1. Open a travel request detail.
 
-2. Click *Edit*
+2. Click *Edit*.
 
-3. Edit your travel request
+3. Edit your travel request.
 
-4. Click *Save*
+4. Click *Save*.
 
 
 **Send a travel request:**
 
-1. Click the button *Send*
+1. Click the button *Send*.
 
 2. Choose a recipient for the request. To insert one or more email addresses as recipients head to the setting page.
 
@@ -218,15 +218,15 @@ Head to Setting > Company > Email Bot to insert the email address(es) to send tr
 
 **Confirm a travel booking and upload reservations:**
 
-When a travel request is finally booked, head back to the travel request email by searching for the references in the object (i.e. user name, project name, business unit)
+When a travel request is finally booked, head back to the travel request email by searching for the references in the object (i.e. user name, project name, business unit).
 
-1. Click the button *Take me there* 
+1. Click the button *Take me there*.
 
-2. Open request's details.
+2. View the travel request details.
 
 3. Scroll down to the bottom, insert total costs and attach reservations files.
 
-4. Click *Save*
+4. Click *Save*.
 
 Who made the travel request will receive a booking confirmation email, with the link to download booking and reservation materials.
 
@@ -235,9 +235,9 @@ Who made the travel request will receive a booking confirmation email, with the 
 
 If you received a travel booking confirmation email
 
-1. Head to the confirmed travel request by clicking *Take me there*
+1. Head to the confirmed travel request by clicking *Take me there*.
 
-2. Open the travel request's details  
+2. Open the travel request's details.  
 
 3. Scroll down to the bottom and download files attached.
 
