@@ -180,7 +180,7 @@ Head to Setting > Company > Email Bot to insert the email address(es) to send tr
 
 **Create a new travel request:**
 
-1. Click button “New Request”
+1. Click button *New Request*
 
 2. Insert project name. Job order will be automatically filled by the system.
 
