@@ -210,12 +210,47 @@ Head to Setting > Company > Email Bot to insert the email address(es) to send tr
 
 1. Click the button *Send*
 
-2. Choose a recipient for the request. To insert one or more recipient head to the setting page.
+2. Choose a recipient for the request. To insert one or more email addresses as recipients head to the setting page.
 
 3. The recipient will receive an email with a link to your travel request.
 
 4. Travel request will be pending until the travel office accepts and confirms your request.
 
+**Confirm a travel booking and upload reservations:**
+
+When a travel request is finally booked, head back to the travel request email by searching for the references in the object (i.e. user name, project name, business unit)
+
+1. Click the button *Take me there* 
+
+2. Open request's details.
+
+3. Scroll down to the bottom, insert total costs and attach reservations files.
+
+4. Click *Save*
+
+Who made the travel request will receive a booking confirmation email, with the link to download booking and reservation materials.
+
+
+**Download travel bookings and reservations:**
+
+If you received a travel booking confirmation email
+
+1. Head to the confirmed travel request by clicking *Take me there*
+
+2. Open the travel request's details  
+
+3. Scroll down to the bottom and download files attached.
+
+4. Have a good journey!
+
+
 **Permissions**
 
+Based on different permission sets, a specific role can:
+edit and view requests made by other users in the company. Find these requests in the section *Others*.
 
+Project Managers will be able to view and edit travel requests made by other users only if linked to projects they are managing. 
+
+Permission "edit sent" enables the user to insert costs, edit and reservation files to requests that have been already sent to a travel office.
+
+Due to privacy concerns, it is not possible to download booking and reservation files from requests made by other people. 
