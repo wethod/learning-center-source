@@ -192,7 +192,7 @@ Head to Setting > Company > Email Bot to insert the email address(es) to send tr
 
 6. Click *Save*. 
 
-7. Your request will appear in the list. 
+7. Your request will appear on the list. 
 
 
 **Edit a travel request:**
