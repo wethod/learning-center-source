@@ -72,7 +72,7 @@ In this section you can see all your clients, divided into contacts and companie
 
 {{< img-center src="/uploads/2019/11/29/clients.gif" >}}
 
-**To add a Contact**:
+**Add a new Contact**:
 
 1. Go to “Contact” section, on the top right corner
 2. Click the "**Add**" button
@@ -89,7 +89,7 @@ How to link a contact to a project? Just go to the pipeline and pick a name from
 
 {{< img-center src="/uploads/2018/08/31/choose-client.gif" >}}
 
-**To add a Company**:
+**Add a new Company**:
 
 1. Go to “Companies” section, on the top right corner
 2. Click the "**Add**" button
@@ -173,9 +173,10 @@ Send travel requests to your travel office and download your reservation/ticket.
 
 Find this section in Projects > Wallet > Travels.
 
+
 ### Create, edit and send travel requests
 
-Head to Setting > Company > Email Bot to insert the email address(es) to send travel requests to.
+First, head to Setting > Company > Email Bot and insert the email address(es) as recipients for travel requests. 
 
 
 **Create a new travel request:**
@@ -192,7 +193,7 @@ Head to Setting > Company > Email Bot to insert the email address(es) to send tr
 
 6. Click *Save*. 
 
-7. Your request will be added to the list. 
+7. Your request will be added to the list.  
 
 
 **Edit a travel request:**
@@ -204,6 +205,8 @@ Head to Setting > Company > Email Bot to insert the email address(es) to send tr
 3. Edit your travel request.
 
 4. Click *Save*.
+
+Based on a specific permission's set some roles are able to edit other requests even when already sent. To learn more go to *Permissions* at the bottom of this chapter.
 
 
 **Send a travel request:**
@@ -253,4 +256,4 @@ Project Managers will be able to view and edit travel requests made by other use
 
 Permission "edit sent" enables the user to insert costs, edit and reservation files to requests that have been already sent to a travel office.
 
-Due to privacy concerns, it is not possible to download booking and reservation files from requests made by other people. 
+Due to privacy concerns, it is not possible to download booking and reservation files from requests made by other people.
