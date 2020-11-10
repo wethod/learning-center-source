@@ -172,3 +172,50 @@ It is possible to add a status that determines whether a supplier is eligible fo
 Send travel requests to your travel office and download your reservation/ticket.
 
 Find this section in Projects > Wallet > Travels.
+
+### Create, edit and send travel requests
+
+Head to Setting > Company > Email Bot to insert the email address(es) to send travel requests to.
+
+
+**Create a new travel request:**
+
+1. Click button “New Request”
+
+2. Insert project name. Job order will be automatically filled by the system.
+
+3. Insert departure and return dates
+
+4. If needed, write your travel requests, if needed. For instance: train details, flight details and travellers’ name.
+
+5. If needed, write your accommodation requests. For instance: hotel name, preferred accommodation’s position and guests’ name.
+
+6. Click *Save*. 
+
+7. Your request will appear in the list. 
+
+
+**Edit a travel request:**
+
+1. Open a travel request detail 
+
+2. Click *Edit*
+
+3. Edit your travel request
+
+4. Click *Save*
+
+
+**Send a travel request:**
+
+1. Click the button *Send*
+
+2. Choose a recipient for the request. To insert one or more recipient head to the setting page.
+
+3. The recipient will receive an email with a link to your travel request.
+
+4. Travel request will be pending until the travel office accepts and confirms your request.
+
+**Permissions**
+
+
