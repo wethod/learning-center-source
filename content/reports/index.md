@@ -225,15 +225,19 @@ Clicking on a column will show a panel listing all the grouped projects with the
 
 ### By Metadata
 
+This chart gives valuable insight only if metadata tags are used on projects or opportunities. Learn more here on how to add new metadata tags. [here]({{< relref "settings/index/#company" >}}).
+
 This chart is by default filtered on "No Metadata", meaning that all the projects with no metadata tags are considered. 
 
 Change filters by selecting first a metadata tag and then select the value for the metadata.
 
-Clicking on a column will show a panel listing all the projects (based on the filters applied) with their:
+Clicking on a column will show a panel listing all the clients (based on the filters applied) with their:
 
-* Name;
+* Client's name;
 * Value;
 * Percentage of influence on the [revenue pipeline]({{< relref "glossary/index.md#revenue-pipeline" >}}).
+
+Items on the list are ordered by value.
 
 
 ## Revenue Actuals
