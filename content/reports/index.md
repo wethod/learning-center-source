@@ -225,7 +225,7 @@ Clicking on a column will show a panel listing all the grouped projects with the
 
 ### By Metadata
 
-This chart gives valuable insight only if metadata tags are used on projects or opportunities. Learn more [here]({{< relref "settings/index.md/#company" >}}) on how to add metadata tags.
+This chart gives valuable insight only if metadata tags are used on projects or opportunities. Learn more on how to add metadata tags [here]({{< relref "settings/index.md/#company" >}}).
 
 This chart is by default filtered on "No Metadata", meaning that only projects and opportunities with no metadata tags are considered. 
 
