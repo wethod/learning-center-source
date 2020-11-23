@@ -2,6 +2,7 @@
 date: 2017-05-24T10:09:44.000+00:00
 title: Settings
 weight: "80"
+draft: true
 
 ---
 ## Tutorial
@@ -54,6 +55,7 @@ Here you can configure your company by setting:
   		* **Work days to complete**: the project status is assigned as estimated days to complete (e.g. in order to complete we need 12 more days of work)
   		* **Auto**: the progress of the projects in this category are not based on their projects status, but based on their duration (equally distributed on their lifespam indicated by date start and duration on the pipeline)
   		* **Completed percentage**: the project status is assigned as a progress percentage (e.g. the progress of this project is 45%)
+* **Metadata**:  Add a detail depth to a project in pipeline with metadata tags. Add a new tag, specify its values and check the box if required. Metadata tags are useful to reach insights within a single cluster of data, i.e. in the report Sales Pipeline.
 * **Email Bot**: here you can insert the email addresses to which send invoices and orders;
 * **Project Won/Lost Bot**: here you can insert the email addresses to which send notifications each time someone of your teammates won or lost a project. A project is considered to be _lost_ when its probability is 0 and _won_ when its probability is 90
 * **Project Types**: create and manage labels that you can assign to projects in [pipeline]({{< relref "pipeline/index.md#projects" >}}). A project type is basically composed by a name, you can than aggregate it's values by using a group or use a short label to better identify a project type;
@@ -273,4 +275,3 @@ Remember that a user can issue an order only to suppliers that are available for
 This feature allows the user to edit on a weekly basis the risk status for each project.
 
 To add a new risk status click on "Add risk status", choose a colour, edit the name and click "save."
-
