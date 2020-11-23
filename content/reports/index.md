@@ -197,7 +197,7 @@ Clicking on a subcolumn will show a panel listing all the grouped projects with 
 
 ### By Client
 
-Clicking on a column will show a panel listing all the grouped projects with their:
+Clicking on a column will show a panel listing all the grouped projects with:
 
 * Client's name;
 * Value;
@@ -225,13 +225,13 @@ Clicking on a column will show a panel listing all the grouped projects with the
 
 ### By Metadata
 
-This chart gives valuable insight only if metadata tags are used on projects or opportunities. Learn more here on how to add new metadata tags. [here]({{< relref "settings/index/#company" >}}).
+This chart gives valuable insight only if metadata tags are used on projects or opportunities. Learn more [here]({{< relref "settings/index.md/#company" >}}) on how to add metadata tags.
 
-This chart is by default filtered on "No Metadata", meaning that all the projects with no metadata tags are considered. 
+This chart is by default filtered on "No Metadata", meaning that only projects and opportunities with no metadata tags are considered. 
 
-Change filters by selecting first a metadata tag and then select the value for the metadata.
+Change filters by selecting first a metadata tag and then a metadata value.
 
-Clicking on a column will show a panel listing all the clients (based on the filters applied) with their:
+Clicking on a column will show a panel listing all the clients (based on the filters applied) with:
 
 * Client's name;
 * Value;
