@@ -40,17 +40,17 @@ This alert is shown to the project manager who created an opportunity that's alr
 
 *How to solve it?* Transform the opportunity into a project by clicking on the "+ PROJECT"  button placed near the opportunity itself. Otherwise, if the opportunity isn't ready to became a project, just change the date in the opportunity's "Next Step" field.
 
-### Intercompany invitation pending
-
-This alert appears on your desk if you have not yet accepted an invitation to collaborate in an intercompany project.
-
-*How to solve it?* Link an existing project in your company with the intercompany task you were invited to take responsibility for.
-
 ### Intercompany invitation not sent
 
 This alert is shown to the project manager who created an intercompany task and did not send an invitation to a supplier that will be responsible for the task.
 
 *How to solve it?* Send an invitation to a supplier in your group that will be in charge of the task.
+
+### Intercompany invitation pending
+
+This alert appears on your desk if you have not yet accepted an invitation to collaborate in an intercompany project.
+
+*How to solve it?* Link an existing project in your company with the intercompany task you were invited to take responsibility for.
 
 ### Project Probability / Invoice Plan
 
