@@ -38,3 +38,8 @@ This widget shows all your alerts with a description of the inconsistency, hurry
 ## Invoices
 
 Here you have a list of all the expired invoices or that have due date this month. You can click directly on one invoice to go to the Invoice section and save it.
+
+## Intercompany Activity
+
+Keep an eye on intercompany activities, whether an invitation to an intercompany project is pending or has been accepted by a supplier in your group.
+
