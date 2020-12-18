@@ -51,16 +51,13 @@ All the time slots planned for the selected project will be highlighted througho
 **Plan teammates on a project**
 
 1. Select a project.
-2. A box will appear at the top of the page to know how many budget days and hours are available to plan, grouped by user level.
+2. A box on the top of the page will show how many budget days and hours are available to plan, grouped by user level.
 3. If needed, you can **apply multiple filters on people**. For example, you may decide to see only the internal employees which are managers and have a background in design
    {{< img-center src="/uploads/2017/11/02/planning-people-filters.png">}}
 4. You can use the search bar even to **filter people by** [**skill**]({{< relref "settings/index.md#skills" >}}). Try to input something like **skill:photoshop;skill:illustrator** to find everybody who has a skill named "photoshop" and a skill named "illustrator".
-5. _To plan for a day_ or for an entire week**, just click on the day/week you want to allocate the user. If you hold and drag your mouse, you can assign more days/weeks at once.
+5. To **plan for an hour, a half day or for an entire week**, just position the mouse on the day/week you want to allocate and click to plan. Click and drag to quickly assign more than an hour, a half day or a week at once.
 
 \*If the day/week has some hours/days already planned on other projects, wethod allows you to plan the user on the remaining hours/days available for that day/week.
-
-1. **To plan by the hour**, hover with the mouse on the day you want to allocate the user. Click on + each time you want to plan an hour and - when you want to unplan an hour.
-2. Hit the button < > on the left side of the calendar to browse people allocation in the future or in the past. Hit ‘today’ to go back at today’s planning.
 
 {{< note title="Note" >}}
 
@@ -74,6 +71,31 @@ When you run out of days, you can choose between two options:
 
 * Review the budget and wait for the approval of a supervisor.
 * Quickly convert available budget days from another user level.
+
+
+**Repeat an allocation**
+
+1. Click "Enable recurring mode" on the top right
+2. Select the allocation you want to repeat
+3. Choose the option "Repeat allocation" 
+4. Select an option between "All allocations" to repeat the whole allocation in the day/week or "Single allocation" to repeat a single allocation.
+5. Choose the pattern of repetition
+6. Select an end date for the repetition.
+7. Click "Plan"
+8. A notification will alert you if the budget is not sufficient to cover the repetition in the time range selected
+9. A notification will alert you if the repetition pattern clashes with existing allocations.
+9. Disable recurring mode
+
+**Remove future allocations**
+
+1. Click "Enable recurring mode" on the top right
+2. Select the allocation you want to repeat
+3. Choose the option "Remove future allocations" 
+4. Select an option between "All allocations" to remove the whole set of allocations from the future or "Single allocation" to remove a single allocation from the future.
+5. Select an end date.
+6. Click "Apply"
+7. Disable recurring mode
+
 
 ### Convert available budget days from another user level
 
