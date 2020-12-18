@@ -75,6 +75,8 @@ When you run out of days, you can choose between two options:
 
 **Repeat an allocation**
 
+{{< img-center src="/uploads/2020/12/18/repeat_allocation.png">}}
+
 1. Click "Enable recurring mode" on the top right
 2. Select the allocation you want to repeat
 3. Choose the option "Repeat allocation" 
