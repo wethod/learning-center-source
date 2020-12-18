@@ -89,7 +89,7 @@ When you run out of days, you can choose between two options:
 **Remove future allocations**
 
 1. Click "Enable recurring mode" on the top right
-2. Select the allocation you want to repeat
+2. Select the allocation you want to remove from the future
 3. Choose the option "Remove future allocations" 
 4. Select an option between "All allocations" to remove the whole set of allocations from the future or "Single allocation" to remove a single allocation from the future.
 5. Select an end date.
