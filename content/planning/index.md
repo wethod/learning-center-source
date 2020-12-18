@@ -75,18 +75,16 @@ When you run out of days, you can choose between two options:
 
 **Repeat an allocation**
 
-{{< img-center src="/uploads/2020/12/18/repeat_allocation.png">}}
+{{< img-center src="/uploads/2020/12/18/schermata-2020-12-18-alle-18-50-00.png">}}
 
 1. Click "Enable recurring mode" on the top right
 2. Select the allocation you want to repeat
 3. Choose the option "Repeat allocation" 
-4. Select an option between "All allocations" to repeat the whole allocation in the day/week or "Single allocation" to repeat a single allocation.
+4. Select "All allocations" to repeat the whole allocation in the day/week or "Single allocation" to choose how to repeat each project
 5. Choose the pattern of repetition
-6. Select an end date for the repetition.
+6. Select an end date for the repetition
 7. Click "Plan"
-8. A notification will alert you if the budget is not sufficient to cover the repetition in the time range selected
-9. A notification will alert you if the repetition pattern clashes with existing allocations.
-9. Disable recurring mode
+8. An alert will tell you if the budget is not sufficient to cover the repetition in the selected time range or if the repetition pattern clashes with existing allocations.
 
 **Remove future allocations**
 
@@ -96,7 +94,6 @@ When you run out of days, you can choose between two options:
 4. Select an option between "All allocations" to remove the whole set of allocations from the future or "Single allocation" to remove a single allocation from the future.
 5. Select an end date.
 6. Click "Apply"
-7. Disable recurring mode
 
 
 ### Convert available budget days from another user level
