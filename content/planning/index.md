@@ -24,57 +24,43 @@ This planning features three different views and planning options:
 
 * **Hourly**: team allocation on projects by the hour;
 * **Daily**: team allocation on projects on a daily basis;
-* **Weekly**: team allocation on projects on a weekly basis. 
-
+* **Weekly**: team allocation on projects on a weekly basis.
 
 **People in your team**
 
 All your teammates are listed on the left with their allocation. Each person on the list features:
 
 * **A profile picture** or the initials;
-
 * **Name and surname**;
-
 * **Tags**  You can use [tags]({{< relref "settings/index.md#team" >}}) to group employees into categories.
-
 * **Level of seniority** (i.e. JR, SR, MGR, SRMGR);
-
 * **Objective and Key Results (OKR)** The status of the teammate's objectives and key results on each quarter of the year. Wethod shows whether the OKR of a quarter were (grey label) or were not placed (white label) by the user, and whether were discussed (blue) or checked (green) together with a sponsor;
-
-* **Allocation on projects** Each slot shows the amount of hours, days or weeks a user is planned for a project. Each project follows the colour code of the [job order categories]({{< relref "settings/index.md#company" >}}) used in your company. 
-
+* **Allocation on projects** Each slot shows the amount of hours, days or weeks a user is planned for a project. Each project follows the colour code of the [job order categories]({{< relref "settings/index.md#company" >}}) used in your company.
 
 **Team allocation overview on a specific project**
 
 To select a project you have two options:
 
-1. Select the project from the “Select Project” button. Search for the project and pick it from the list. 
-
+1. Select the project from the “Select Project” button. Search for the project and pick it from the list.
 2. Select the project by clicking on a day/week on the plan. If the day/week features allocations on different projects, a window will open to show a list with the detail of the hours of allocation on each project. To select a project from the list, pick one and click “Select”.
 
-When a project is selected Wethod will sort the people on the list by showing first all those who were planned on the project at least once – It’s better to work with people that are already aware of the challenge, right? 
+When a project is selected Wethod will sort the people on the list by showing first all those who were planned on the project at least once – It’s better to work with people that are already aware of the challenge, right?
 
-All the time slots planned for the selected project will be highlighted throughout the plan. 
-
+All the time slots planned for the selected project will be highlighted throughout the plan.
 
 **Plan teammates on a project**
 
-1. Select a project. 
+1. Select a project.
+2. A box will appear at the top of the page to know how many budget days and hours are available to plan, grouped by user level.
+3. If needed, you can **apply multiple filters on people**. For example, you may decide to see only the internal employees which are managers and have a background in design
+   {{< img-center src="/uploads/2017/11/02/planning-people-filters.png">}}
+4. You can use the search bar even to **filter people by** [**skill**]({{< relref "settings/index.md#skills" >}}). Try to input something like **skill:photoshop;skill:illustrator** to find everybody who has a skill named "photoshop" and a skill named "illustrator".
+5. _To plan for a day_ or for an entire week**, just click on the day/week you want to allocate the user. If you hold and drag your mouse, you can assign more days/weeks at once.
 
-2. Look at the box that appears at the top of the page to know how many budget days and hours are available to plan, grouped by user level.
+\*If the day/week has some hours/days already planned on other projects, wethod allows you to plan the user on the remaining hours/days available for that day/week.
 
-3. If needed, you can **apply multiple filters on people**. For example, you may decide to see only the internal employees which are managers and have a background in design 
-{{< img-center src="/uploads/2017/11/02/planning-people-filters.png">}}
-
-4. You can use the search bar even to **filter people by [skill]({{< relref "settings/index.md#skills" >}})**. Try to input something like **skill:photoshop;skill:illustrator** to find everybody who has a skill named "photoshop" and a skill named "illustrator". 
-
-5. **To plan for a day* or for an entire week***, just click on the day/week you want to allocate the user. If you hold and drag your mouse, you can assign more days/weeks at once.
-
-*If the day/week has some hours/days already planned on other projects, wethod allows you to plan the user on the remaining hours/days available for that day/week.
-
-6. **To plan by the hour**, hover with the mouse on the day you want to allocate the user. Click on + each time you want to plan an hour and - when you want to unplan an hour.
-
-7. Hit the button < > on the left side of the calendar to browse people allocation in the future or in the past. Hit ‘today’ to go back at today’s planning.
+1. **To plan by the hour**, hover with the mouse on the day you want to allocate the user. Click on + each time you want to plan an hour and - when you want to unplan an hour.
+2. Hit the button < > on the left side of the calendar to browse people allocation in the future or in the past. Hit ‘today’ to go back at today’s planning.
 
 {{< note title="Note" >}}
 
@@ -84,24 +70,22 @@ All the time slots planned for the selected project will be highlighted througho
 
 {{< /note >}}
 
-
 When you run out of days, you can choose between two options:
 
 * Review the budget and wait for the approval of a supervisor.
-* Quickly convert available budget days from another user level. 
-
+* Quickly convert available budget days from another user level.
 
 ### Convert available budget days from another user level
 
-This feature allows you to quickly dispose of extra budget days, when needed, in order to allocate people on a project. 
+This feature allows you to quickly dispose of extra budget days, when needed, in order to allocate people on a project.
 
 {{< img-center src="/uploads/2020/09/09/budget_dinamico.gif">}}
 
-You will access to a simple view of the project’s budget, including areas, tasks and the total number of available days per user level. 
+You will access to a simple view of the project’s budget, including areas, tasks and the total number of available days per user level.
 
-Use the number of available budget days from a user-level of your choice and see on the top the conversion into budget days you can use for other user-levels. 
+Use the number of available budget days from a user-level of your choice and see on the top the conversion into budget days you can use for other user-levels.
 
-The conversion ratio is based on the daily cost of user-levels and it’s not possible to exceed the total amount of internal cost on the budget. 
+The conversion ratio is based on the daily cost of user-levels and it’s not possible to exceed the total amount of internal cost on the budget.
 
 A new version of the budget is automatically created each time a user makes a conversion.
 
