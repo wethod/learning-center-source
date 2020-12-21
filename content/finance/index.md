@@ -219,7 +219,7 @@ Based on a specific permission's set some roles are able to edit other requests 
 
 {{< img-center src="/uploads/2020/12/21/add_new_flight_request.gif" >}}
 
-1. Open a travel request from the list or open a travel category if already in the sidebar.
+1. Open a travel request from the list or, if you are already in the sidebar, open an existing travel category request.
 
 2. Hover with the mouse on the name of the travel category, on the top of the sidebar.
 
