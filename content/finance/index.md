@@ -183,7 +183,7 @@ First, head to Setting > Company > Email Bot and insert the email address(es) as
 
 **Create a new travel request:**
 
-{{< img-center src="/uploads/2020/10/09/supplier_list.png" >}}
+{{< img-center src="/uploads/2020/12/21/travel_sidebar.png" >}}
 
 1. Click button *New Request*.
 
