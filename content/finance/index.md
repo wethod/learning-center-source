@@ -219,19 +219,17 @@ Based on a specific permission's set some roles are able to edit other requests 
 
 {{< img-center src="/uploads/2020/12/21/add_new_flight_request.gif" >}}
 
-1. Click button *New Request*.
+1. Open a travel request from the list or open a travel category if already in the sidebar.
 
-2. Open a travel category
+2. Hover with the mouse on the name of the travel category, on the top of the sidebar.
 
-3. Hover on the name of the travel category, on the top of the sidebar.
+3. Click "+" to create a new travel request for the same travel catgory
 
-4. Click "+" to create a new travel request for the same travel catgory
+4. Insert details.
 
-5. Insert details.
+5. Click *Save*. 
 
-6. Click *Save*. 
-
-7. Your request will be added to the list of travel requests.  
+6. Your request will be added to the list of travel requests.  
 
 
 **Send a travel request:**
