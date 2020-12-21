@@ -185,7 +185,7 @@ First, head to Setting > Company > Email Bot and insert the email address(es) as
 
 1. Click button *New Request* and a sidebar will open.
 
-{{< img-center src="/uploads/2020/12/21/travel_sidebar.png" >}}
+{{< img-center src="/uploads/2020/12/21/travel_requests_list_sidebar.png" >}}
 
 2. Insert project name. The job order will be automatically filled by the system.
 
