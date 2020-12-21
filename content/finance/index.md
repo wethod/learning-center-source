@@ -217,17 +217,17 @@ Based on a specific permission's set some roles are able to edit other requests 
 
 **Create more than one travel request for the same travel category:**
 
-{{< img-center src="/uploads/2020/10/09/supplier_list.png" >}}
+{{< img-center src="/uploads/2020/12/21/add_new_flight_request.gif" >}}
 
 1. Click button *New Request*.
 
-2. Insert project name. Job order will be automatically filled by the system.
+2. Open a travel category
 
-3. Insert the main destination for this travel.
+3. Hover on the name of the travel category
 
-4. If needed, write the purpose of the travel (i.e. meeting with the client).
+4. Click "+" to create a new travel request for the same travel catgory
 
-5. Insert details for one or more categories of travel between train, flight, car, accommodation and other.
+5. Insert details.
 
 6. Click *Save*. 
 
