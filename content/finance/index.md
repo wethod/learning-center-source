@@ -187,17 +187,19 @@ First, head to Setting > Company > Email Bot and insert the email address(es) as
 
 1. Click button *New Request*.
 
-2. Insert project name. Job order will be automatically filled by the system.
+2. Insert project name. The job order will be automatically filled by the system.
 
 3. Insert the main destination for this travel.
 
 4. If needed, write the purpose of the travel (i.e. meeting with the client).
 
-5. Insert details for one or more categories of travel between train, flight, car, accommodation and other.
+5. Choose one or more categories of travel request between train, flight, car, accommodation and other.
 
-6. Click *Save*. 
+6. Insert request details
 
-7. Your request will be added to the list of travel requests.  
+7. Click *Save*. 
+
+8. Your request will be added to the list of travel requests.  
 
 
 **Edit a travel request:**
@@ -211,6 +213,7 @@ First, head to Setting > Company > Email Bot and insert the email address(es) as
 4. Click *Save*.
 
 Based on a specific permission's set some roles are able to edit other requests even when already sent. To learn more go to *Permissions* at the bottom of this chapter.
+
 
 **Create more than one travel request for the same travel category:**
 
@@ -241,17 +244,22 @@ Based on a specific permission's set some roles are able to edit other requests 
 
 4. Travel request will be pending until the travel office accepts and confirms your request.
 
+
 **Confirm a travel booking and upload reservations:**
 
 When a travel request is finally booked, head back to the travel request email by searching for the references in the object (i.e. user name, project name, business unit).
 
 1. Click the button *Take me there*.
 
-2. View the travel request details.
+2. Open the travel request.
 
-3. Scroll down to the bottom, insert total costs and attach reservations files.
+3. Access each of the travel categories requested for further details. Scroll down to the bottom, insert the total cost and upload reservations or travel tickets. Repeat this with each of the travel categories requested.
 
-4. Click *Save*.
+6. Click *Save* from the top right corner of the sidebar.
+
+7. When all the reservations are completed and uploaded, click "Submit reservation".
+
+8. An email with the booking confirmation will be sent to the person who made the travel request.
 
 Who made the travel request will receive a booking confirmation email, with the link to download booking and reservation materials.
 
@@ -262,7 +270,9 @@ If you received a travel booking confirmation email
 
 1. Head to the confirmed travel request by clicking *Take me there*.
 
-2. Open the travel request's details.  
+2. Open the travel request's details.
+
+3. Open the category of travel requested.
 
 3. Scroll down to the bottom and download files attached.
 
