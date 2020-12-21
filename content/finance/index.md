@@ -202,9 +202,9 @@ First, head to Setting > Company > Email Bot and insert the email address(es) as
 
 **Edit a travel request:**
 
-1. Open a travel request detail.
+1. Open a travel request from the list.
 
-2. Click *Edit*.
+2. Click *Edit* from the top right corner of the sidebar.
 
 3. Edit your travel request.
 
