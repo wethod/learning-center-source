@@ -223,7 +223,7 @@ Based on a specific permission's set some roles are able to edit other requests 
 
 2. Open a travel category
 
-3. Hover on the name of the travel category
+3. Hover on the name of the travel category, on the top of the sidebar.
 
 4. Click "+" to create a new travel request for the same travel catgory
 
