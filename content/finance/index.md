@@ -217,7 +217,7 @@ Based on a specific permission's set some roles are able to edit other requests 
 
 **Create more than one travel request for the same travel category:**
 
-{{< img-center src="/uploads/2020/12/21/add_new_flight_request.gif" >}}
+{{< img-center src="/uploads/2020/12/21/new_flight_category.gif" >}}
 
 1. Open a travel request from the list or, if you are already in the sidebar, open an existing travel category request.
 
