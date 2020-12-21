@@ -173,6 +173,8 @@ Send travel requests to your travel office and download your reservation/ticket.
 
 Find this section in Projects > Wallet > Travels.
 
+{{< img-center src="/uploads/2020/10/09/supplier_list.png" >}}
+
 
 ### Create, edit and send travel requests
 
@@ -181,19 +183,21 @@ First, head to Setting > Company > Email Bot and insert the email address(es) as
 
 **Create a new travel request:**
 
+{{< img-center src="/uploads/2020/10/09/supplier_list.png" >}}
+
 1. Click button *New Request*.
 
 2. Insert project name. Job order will be automatically filled by the system.
 
-3. Insert departure and return dates.
+3. Insert the main destination for this travel.
 
-4. If needed, write your travel requests, if needed. For instance: train details, flight details and travellers’ name.
+4. If needed, write the purpose of the travel (i.e. meeting with the client).
 
-5. If needed, write your accommodation requests. For instance: hotel name, preferred accommodation’s position and guests’ name.
+5. Insert details for one or more categories of travel between train, flight, car, accommodation and other.
 
 6. Click *Save*. 
 
-7. Your request will be added to the list.  
+7. Your request will be added to the list of travel requests.  
 
 
 **Edit a travel request:**
@@ -207,6 +211,24 @@ First, head to Setting > Company > Email Bot and insert the email address(es) as
 4. Click *Save*.
 
 Based on a specific permission's set some roles are able to edit other requests even when already sent. To learn more go to *Permissions* at the bottom of this chapter.
+
+**Create more than one travel request for the same travel category:**
+
+{{< img-center src="/uploads/2020/10/09/supplier_list.png" >}}
+
+1. Click button *New Request*.
+
+2. Insert project name. Job order will be automatically filled by the system.
+
+3. Insert the main destination for this travel.
+
+4. If needed, write the purpose of the travel (i.e. meeting with the client).
+
+5. Insert details for one or more categories of travel between train, flight, car, accommodation and other.
+
+6. Click *Save*. 
+
+7. Your request will be added to the list of travel requests.  
 
 
 **Send a travel request:**
