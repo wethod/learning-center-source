@@ -195,7 +195,7 @@ First, head to Setting > Company > Email Bot and insert the email address(es) as
 
 5. Choose one or more categories of travel request between train, flight, car, accommodation and other.
 
-6. Insert request details
+6. Insert the request details
 
 7. Click *Save*. 
 
