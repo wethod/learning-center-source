@@ -173,7 +173,7 @@ Send travel requests to your travel office and download your reservation/ticket.
 
 Find this section in Projects > Wallet > Travels.
 
-{{< img-center src="/uploads/2020/10/09/supplier_list.png" >}}
+{{< img-center src="/uploads/2020/12/21/travel_requests_list.png" >}}
 
 
 ### Create, edit and send travel requests
