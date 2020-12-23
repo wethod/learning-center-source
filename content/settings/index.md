@@ -67,7 +67,17 @@ Here you can configure your company by setting:
     * Choose the review mode, you can select between a partial or a 360° team review, whether the team should be able to review just the project and its manager or the project and all team members (incl. the manager).
     * Add or edit criteria in order to evaluate projects and team members. The reviewer will be asked to express a rate for each of the chosen criteria
     * Set a minimum number of unique reviewers to collect feedback from before showing review’s results in the profile page and the project canvas (this is useful to keep a review anonymous)
-    * decide for which job order categories and minimun project's value WETHOD will ask for review on archive
+    * decide for which job order categories and minimun project's value WETHOD will ask for review on archive.
+* **Suppliers settings** 
+   * Categories and subcategories of suppliers
+This feature allows the user to visually browse the list of suppliers and filter suppliers by category or subcategories. To set categories and subcategories for your suppliers (i.e. Hospitality - Catering) start with categories. Click on "new category", add a name and assign a colour of your choice and hit "save". Eventually, for each category it is possible to add subcategories and save them. 
+    * Status of suppliers
+This feature allows the user to determine a status of a supplier and if it is eligible for contracts or not. 
+
+To set status for your suppliers hit the button "Enable".
+Once the feature is enabled, hit "New status", add a name for your status, assign a colour of your choice and put a check if suppliers with this status will be available for contracts. 
+
+Remember that a user can issue an order only to suppliers that are available for contracts.
 
 ## Alerts Engine
 
@@ -269,9 +279,3 @@ Once the feature is enabled, hit "New status", add a name for your status, assig
 Remember that a user can issue an order only to suppliers that are available for contracts.
 
 
-## Project Status Settings
-
-### Project status risk
-This feature allows the user to edit on a weekly basis the risk status for each project.
-
-To add a new risk status click on "Add risk status", choose a colour, edit the name and click "save."
