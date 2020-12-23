@@ -75,7 +75,10 @@ _The perfect managed project has a constant RRI of 1_.
 
 ### Wasted Hours
 
-Wasted hours are generated when one of the following conditions is true:
+Let's say Alice is planned 4 hours this week into project ACME but she **doesn't work at all** or she works on the project R&D which has a **non chargeable** [job order category]({{< relref "settings/index.md#company" >}}).
 
-* A person is planned into the project A but he/she doesn't work at all;
-* A person is planned into the project A but he/she works on the project B instead and the project B has a non chargeable [job order category]({{< relref "settings/index.md#company" >}}).
+Those 4 hours are considered *wasted* by the end of the week, because Alice was supposed to produce 4 hours of "chargeable" work (that is work on projects which can be charged to a client) but this did not happen.
+
+Wasted hours can't be planned anymore.
+
+If Alice had worked 4 hours for another chargeable project, those hours wouldn't be considered wasted and they would be available again for the project ACME by the end of the week.
