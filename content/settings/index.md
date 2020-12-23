@@ -71,11 +71,8 @@ Here you can configure your company by setting:
 * **Suppliers settings** 
    * Categories and subcategories of suppliers
 This feature allows the user to visually browse the list of suppliers and filter suppliers by category or subcategories. To set categories and subcategories for your suppliers (i.e. Hospitality - Catering) start with categories. Click on "new category", add a name and assign a colour of your choice and hit "save". Eventually, for each category it is possible to add subcategories and save them. 
-    * Status of suppliers
-This feature allows the user to determine a status of a supplier and if it is eligible for contracts or not. 
-
-To set status for your suppliers hit the button "Enable".
-Once the feature is enabled, hit "New status", add a name for your status, assign a colour of your choice and put a check if suppliers with this status will be available for contracts. 
+    * Status of suppliers 
+This feature allows the user to determine a status of a supplier and if it is eligible for contracts or not. To set status for your suppliers hit the button "Enable". Once the feature is enabled, hit "New status", add a name for your status, assign a colour of your choice and put a check if suppliers with this status will be available for contracts. 
 
 Remember that a user can issue an order only to suppliers that are available for contracts.
 
