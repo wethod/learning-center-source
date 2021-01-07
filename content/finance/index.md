@@ -181,7 +181,7 @@ Find this section in Projects > Wallet > Travels.
 First, head to Setting > Company > Email Bot and insert the email address(es) as recipients for travel requests. 
 
 
-**Create a new travel request:**
+Create a new travel request:
 
 1. Click button *New Request* and a sidebar will open.
 
@@ -202,7 +202,7 @@ First, head to Setting > Company > Email Bot and insert the email address(es) as
 8. Your request will be added to the list of travel requests.  
 
 
-**Edit a travel request:**
+Edit a travel request:
 
 1. Open a travel request from the list.
 
@@ -212,10 +212,10 @@ First, head to Setting > Company > Email Bot and insert the email address(es) as
 
 4. Click *Save*.
 
-Based on a specific permission's set some roles are able to edit other requests even when already sent. To learn more go to *Permissions* at the bottom of this chapter.
+Based on a specific [permission's set]({{< relref "finance/index.md#permissions" >}}), some roles are able to edit other requests even when already sent.
 
 
-**Create more than one travel request for the same travel category:**
+Create *more than one travel request* for the same travel category:
 
 {{< img-center src="/uploads/2020/12/21/new_flight_category.gif" >}}
 
@@ -232,7 +232,7 @@ Based on a specific permission's set some roles are able to edit other requests 
 6. Your request will be added to the list of travel requests.  
 
 
-**Send a travel request:**
+Send a travel request:
 
 1. Click the button *Send*.
 
@@ -243,7 +243,7 @@ Based on a specific permission's set some roles are able to edit other requests 
 4. Travel request will be pending until the travel office accepts and confirms your request.
 
 
-**Confirm a travel booking and upload reservations:**
+Confirm a travel booking and upload reservations:
 
 When a travel request has booked, you might attach the reservation file to the travel request. 
 
@@ -264,7 +264,7 @@ When a travel request has booked, you might attach the reservation file to the t
 Who made the travel request will receive a booking confirmation email, with the link to download booking and reservation materials.
 
 
-**Download travel bookings and reservations:**
+Download travel bookings and reservations:
 
 If you received a travel booking confirmation email you might be able to download your travel ticket or reservation. Only the travel categories that are circled (view image below) have reservations or tickets available to download.
 
@@ -279,7 +279,7 @@ If you received a travel booking confirmation email you might be able to downloa
 4. Have a good journey!
 
 
-**Permissions**
+### Permissions
 
 Based on different permission sets, a specific role can:
 edit and view requests made by other users in the company. Find these requests in the section *Others*.
