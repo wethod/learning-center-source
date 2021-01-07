@@ -245,34 +245,40 @@ Based on a specific permission's set some roles are able to edit other requests 
 
 **Confirm a travel booking and upload reservations:**
 
-When a travel request is finally booked, head back to the travel request email by searching for the references in the object (i.e. user name, project name, business unit).
+When a travel request has booked, you might attach the reservation file to the travel request. 
 
-1. Click the button *Take me there*.
+1. Head back to the travel request email by searching for the references of the email object (i.e. user name, project name, business unit).
 
-2. Open the travel request.
+2. Click the button *Take me there*.
 
-3. Access each of the travel categories requested for further details. Scroll down to the bottom, insert the total cost and upload reservations or travel tickets. Repeat this with each of the travel categories requested.
+3. Open the travel request.
 
-6. Click *Save* from the top right corner of the sidebar.
+4. Access each of the travel categories requested for further details. Scroll down to the bottom, insert the total cost and upload reservations or travel tickets. Repeat this with each of the travel categories requested.
 
-7. When all the reservations are completed and uploaded, click "Submit reservation".
+5. Click *Save* from the top right corner of the sidebar.
 
-8. An email with the booking confirmation will be sent to the person who made the travel request.
+6. When all the reservations are completed and uploaded, click "Submit reservation".
+
+7. An email with the booking confirmation will be sent to the person who made the travel request.
 
 Who made the travel request will receive a booking confirmation email, with the link to download booking and reservation materials.
 
 
 **Download travel bookings and reservations:**
 
-If you received a travel booking confirmation email
+If you received a travel booking confirmation email you might be able to download your travel ticket or reservation. 
 
-1. Head to the confirmed travel request by clicking *Take me there*.
+NOTE: Only the travel categories that are circled (view image below) have reservations or tickets available to download.
+
+{{< img-center src="/uploads/2021/01/07/travel_booked.png" >}}
+
+1. Head back to the travel request email by searching for the references of the email object (i.e. user name, project name, business unit) and click *Take me there* or find the travel request from the list inside the section Travels (Projects>Wallet>Travels).
 
 2. Open the travel request's details.
 
 3. Open the category of travel requested.
 
-3. Scroll down to the bottom and download files attached.
+3. Scroll down to the bottom and download the attached files.
 
 4. Have a good journey!
 
