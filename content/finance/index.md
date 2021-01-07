@@ -266,9 +266,7 @@ Who made the travel request will receive a booking confirmation email, with the 
 
 **Download travel bookings and reservations:**
 
-If you received a travel booking confirmation email you might be able to download your travel ticket or reservation. 
-
-NOTE: Only the travel categories that are circled (view image below) have reservations or tickets available to download.
+If you received a travel booking confirmation email you might be able to download your travel ticket or reservation. Only the travel categories that are circled (view image below) have reservations or tickets available to download.
 
 {{< img-center src="/uploads/2021/01/07/travel_booked.png" >}}
 
