@@ -270,11 +270,9 @@ If you received a travel booking confirmation email you might be able to downloa
 
 {{< img-center src="/uploads/2021/01/07/travel_booked.png" >}}
 
-1. Head back to the travel request email by searching for the references of the email object (i.e. user name, project name, business unit) and click *Take me there* or find the travel request from the list inside the section Travels (Projects>Wallet>Travels).
+1. Open the travel request's details.
 
-2. Open the travel request's details.
-
-3. Open the category of travel requested.
+2. Open the category of travel requested.
 
 3. Scroll down to the bottom and download the attached files.
 
