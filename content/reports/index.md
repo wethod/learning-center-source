@@ -346,6 +346,22 @@ With information as:
 * The budget margin (old -> new);
 * The person who approved the budget;
 
+## Project & Team Reviews Changelog
+
+Here are listed all the project & team reviews sessions requested in your company throughout a year, sorted chronologically.
+
+Find in the list informations like: 
+
+* the name of the project for which was requested a review; 
+* who requested the review and when;
+* the number of reviews collected since the request was sent out. This number will be green if the review is completed, red if the review is still under completion.  
+
+For each of the listed project review requests, you will be able to:
+
+* **Resend a new review request** to the team of the project.
+* **Delete it**, along with all the results collected so far.
+* **Head to the project's canvas** 
+
 ## Sales Overview
 
 Here you can have a summarized view about all that projects your company won or lost during different periods of time, togheter with a bunch of reports:
