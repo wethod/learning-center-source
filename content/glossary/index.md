@@ -24,12 +24,31 @@ This is a theoretical definition, look at the context to find more accurated inf
 
 ### Budget Consumption
 
-This value indicates, for a project, the percentage of the budget days already used. This is calculated by comparing timesheet hours and budget days. For example, a project with:
+This value indicates, for a project, the percentage of the budget already used. 
+For a project with status compiled as **completed percentage**, budget consumption is calculated by comparing budget costs to timesheet costs (derived from employees' level cost). 
+
+For instance, a project with:
+
+* Budget days: **200**
+* Junior budget days: **160**
+* Senior budget days: **40**
+* Last week timesheet: **10** junior hours and **20** senior hours
+* Junior cost per hour: **100**
+* Senior cost per hour: **150**
+
+Has budget costs of **160 * 100 + 40 * 150 = 22.000** and timesheet costs of **10 * 100 + 20 * 150 = 4.000**. 
+This leads to a budget consumption of **4.000 / 22.000 * 100 = 18 %**.
+
+The situation is different for projects with status **auto** or compiled as **work days to complete**. In this case budget consumption is calculated by comparing timesheet hours and budget days. 
+
+For instance, a project with:
 
 * Budget days: **200**;
 * Last week timesheet hours: **80**;
 
-Has a budget consumption of: **80 / 200 * 100 = 40 % .**
+Has a budget consumption of: **80 / 200 * 100 = 40 %**.
+
+Project status compile mode can be assigned for single job order category in [company settings]({{< relref "settings/index.md#company" >}}).
 
 ### Expected Value
 
