@@ -25,7 +25,7 @@ By analizing the saved budget versions for the project, WETHOD can shows you:
 * The **baseline** which answers the question "_what would the situation be if I hadn't changed the budget since its first version_?";
 * The **forecast** which answers the question _"what's the situation right now?"_;
 * The **projected** which answers the question "_what will be the situation at the end of the project with the current budget consumption?"_;
-* The **wasted** which answers the question "_what's the situation right now, [wasted hours]({{< relref "glossary/index.md#wasted-hours" >}}) included?"_;
+* The **wasted** which answers the question "_what's the situation right now,_ [_wasted hours_]({{< relref "glossary/index.md#wasted-hours" >}}) _included?"_;
 
 The grey dots shows you the forecast of the various past budget versions.
 
@@ -133,7 +133,7 @@ This three charts let you appreciate the trend of three primary indexes related 
 
 * **Days Left**: data from the [Project Status]({{< relref "friday/index.md#project-status" >}}) are transposed into this chart to better highlight the weekly progress of the project;
 * **Worked Hours**: data from the [Timesheet]({{< relref "friday/index.md#timesheet" >}}) are used into this chart to visualize the weekly amount of work spent on the project;
-* **Roadrunner Index**: combining data from the two previous charts let us display the weekly [**Roadrunner Index**]({{< relref "glossary/index.md#roadrunner-index-rri" >}}) for the project.
+* **Roadrunner Index**: combining data from the two previous charts let us display the weekly \[**Roadrunner Index**]({{< relref "glossary/index.md#roadrunner-index-rri" >}}) for the project.
 
 This is the only place in WETHOD where you can see the weekly details of a given project.
 
@@ -227,7 +227,7 @@ Clicking on a column will show a panel listing all the grouped projects with the
 
 This chart gives valuable insight only if metadata tags are used on projects or opportunities. Learn more on how to add metadata tags [here]({{< relref "settings/index.md#company" >}})
 
-This chart is by default filtered on "No Metadata", meaning that only projects and opportunities with no metadata tags are considered. 
+This chart is by default filtered on "No Metadata", meaning that only projects and opportunities with no metadata tags are considered.
 
 Change filters by selecting first a metadata tag and then a metadata value.
 
@@ -238,7 +238,6 @@ Clicking on a column will show a panel listing all the clients (based on the fil
 * Percentage of influence on the [revenue pipeline]({{< relref "glossary/index.md#revenue-pipeline" >}}).
 
 Items on the list are ordered by value.
-
 
 ## Revenue Actuals
 
@@ -348,19 +347,21 @@ With information as:
 
 ## Project & Team Reviews Changelog
 
-Here are listed all the project & team reviews sessions requested in your company throughout a year, sorted chronologically.
+Here are listed all the [project & team reviews]({{< relref "pipeline/index.md#project-team-review" >}}) sessions requested in your company throughout a year, sorted chronologically.
 
-Find in the list informations like: 
+Find in the list informations like:
 
-* the name of the project for which was requested a review; 
+* the name of the project for which was requested a review;
 * who requested the review and when;
-* the number of reviews collected since the request was sent out. This number will be green if the review is completed, red if the review is still under completion.  
+* the number of reviews collected since the request was sent out. This number will be green if the review is completed, red if the review is still under completion.
 
 For each of the listed project review requests, you will be able to:
 
 * **Resend a new review request** to the team of the project.
 * **Delete it**, along with all the results collected so far.
-* **Head to the project's canvas** 
+* **Head to the project's canvas**
+
+{{< img-center src="/uploads/2021/01/18/project-team-review-changelog.png" >}}
 
 ## Sales Overview
 
@@ -386,16 +387,13 @@ This section shows production related data, let's see each chart:
 {{< img-center src="/uploads/2020/01/29/backlog.png" >}}
 
 * **Production**: shows the weekly total production for the last 52 weeks while for the future 52 it shows four charts:
-	* Projection: is the produced value of the last week projected on future weeks 
-    * Avg Revenues: revenues target (set from: [profit&loss](http://support.wethod.com/profit-loss/index/)) divided by the number of the weeks in the current year
-    * Planned production (Core): weekly production plan for projects with probability >= 90%
-    * Planned production (Full): weekly production plan for all projects
-   
+  * Projection: is the produced value of the last week projected on future weeks
+  * Avg Revenues: revenues target (set from: [profit&loss](http://support.wethod.com/profit-loss/index/)) divided by the number of the weeks in the current year
+  * Planned production (Core): weekly production plan for projects with probability >= 90%
+  * Planned production (Full): weekly production plan for all projects
 * **Backlog**: shows the amount of production plan in your pipeline on each week of the last year
-
 * **Weeks Backlog**: shows how many weeks of work your company needs to produce the entire backlog for each week of the last year (week's backlog / week's production).
-
-* **Tips**: [COMING SOON] This section will show useful tips based on your company production, production plan and backlog
+* **Tips**: \[COMING SOON\] This section will show useful tips based on your company production, production plan and backlog
 
 ## Briefing
 
@@ -405,25 +403,25 @@ Briefing is content that includes all the relevant insight within your company�
 
 This transparent overview gives the entire team the knowledge to stay aligned on what has been done and what needs to be done in the weeks to come, in order to reach the company’s goals faster.
 
-
 To collect better insights, it’s recommended to set a revenue budget/forecast for each year in the Profit & Loss section.
 
 ### Weekly Briefing
-Published each Monday at 6 am, the *Weekly Briefing* gives an insightful overview of the company’s **sales and operations** from the past week. It’s also available for each of the previous weeks.
+
+Published each Monday at 6 am, the _Weekly Briefing_ gives an insightful overview of the company’s **sales and operations** from the past week. It’s also available for each of the previous weeks.
 
 Navigation: Insights > Briefing > Weekly
 
-Find below a list of the insights available to read from each *Weekly Briefing.*
+Find below a list of the insights available to read from each _Weekly Briefing._
 
-* **[Production value]({{< relref "glossary/index.md#production-value" >}}),** compared with its average weekly target. The value is also compared with the one registered the same week last year. An average weekly target is basically the yearly budget/forecast divided by the number of weeks in a year.
-* Projects that produced the most value. 
+* [**Production value**]({{< relref "glossary/index.md#production-value" >}})**,** compared with its average weekly target. The value is also compared with the one registered the same week last year. An average weekly target is basically the yearly budget/forecast divided by the number of weeks in a year.
+* Projects that produced the most value.
 * **Projects started** and projects that **ended** last week.
 * **Sales trends**, compared with their weekly target.
 * **Projects won** and their total value, compared with their target and the same week last year.
 * **Pipeline value** trend over the past few weeks.
 * **New opportunities**, with their total unweighted value and weighted value. A weighted value depends on the project’s percentage of success. For instance, a project valued 100K at 10% success is valued at 10K.
-* The main **[reason why]({{< relref "pipeline/index.md#won-lost-feedback" >}})** projects were lost and won. 
-* **[Chargeability]({{< relref "settings/index.md#chargeability" >}})** of the week trend. This value is compared also with its target and the value of the same week last year.
+* The main [**reason why**]({{< relref "pipeline/index.md#won-lost-feedback" >}}) projects were lost and won.
+* [**Chargeability**]({{< relref "settings/index.md#chargeability" >}}) of the week trend. This value is compared also with its target and the value of the same week last year.
 * Number of **hours worked**.
 * **Segmentation of hours worked**, grouped by job order category.
 
@@ -432,26 +430,25 @@ Find below a list of the insights available to read from each *Weekly Briefing.*
 {{< /note >}}
 
 ### Monthly Briefing
-Published every first Monday of the month at 6 am, this briefing gives an overview of the most important results in the company’s **sales, operations, and financials** during the past month. It’s also available for each of the previous months.
 
+Published every first Monday of the month at 6 am, this briefing gives an overview of the most important results in the company’s **sales, operations, and financials** during the past month. It’s also available for each of the previous months.
 
 Navigation: Insights > Briefing > Monthly
 
-
-Find below the insights available from each *Monthly Briefing.*
+Find below the insights available from each _Monthly Briefing._
 
 * Company’s **monthly profit and loss**, including **CapEx** and **revenues per employee**. These values are also compared with the results of the previous month.
 * **Production value**, with its trend over previous months and comparison with its target
 * **Working day value**, compared with the value of the month before.
 * **Road Runner Index** [RRI]({{< relref "glossary/index.md#roadrunner-index-rri" >}}) trend over the past months.
-* **Number of hours worked** and **[Chargeability]({{< relref "settings/index.md#chargeability" >}})** trend.
+* **Number of hours worked** and [**Chargeability**]({{< relref "settings/index.md#chargeability" >}}) trend.
 * Number of **projects won**, with their total value compared with target, and the same week last year.
 * Projects that produced the most value.
 * **Pipeline value,** with the trend over the previous weeks.
 * **New opportunities**, with the total weighted and unweighted value. A weighted value depends on the project’s percentage of success. For instance, a project valued 100K with 10% success is valued at 10K.
-* **Lost opportunities**, with the total value and the main reasons why 
+* **Lost opportunities**, with the total value and the main reasons why
 * **Pipeline value** trend over the past months
-* **[Backlog]({{< relref "reports/index.md#backlog" >}})**
+* [**Backlog**]({{< relref "reports/index.md#backlog" >}})
 
 {{< note title="Note" >}}
 **Set a revenue budget/forecast for the year in the Profit & Loss section to get better insights.**
