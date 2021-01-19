@@ -6,7 +6,7 @@ weight: "60"
 ---
 ## Overview
 
-All the data you insert in WETHOD are used to generate, weekly and automatically, a set of reports useful to monitoring the projects' progress.
+All the data you insert in WETHOD are used to generate, weekly and automatically, a set of reports useful to monitor the projects' progress.
 
 ## Project Report
 
