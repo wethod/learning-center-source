@@ -18,7 +18,7 @@ The blue dot in the calendar's header highlights the current day.
 
 ## People Allocation
 
-People Allocation gives an overview of the team’s allocation on the projects in your company. From here you can plan your colleagues, filter them by skill or tags, and access their profile pages to learn more about their backgrounds and goals.
+People Allocation gives an overview of the team’s allocation on the projects in your company. From here you can plan your colleagues, filter them by skill, languages, interests or tags, and access their profile pages to learn more about their backgrounds and goals.
 
 This planning features three different views and planning options:
 
@@ -54,7 +54,7 @@ All the time slots planned for the selected project will be highlighted througho
 2. A box on the top of the page will show how many budget days and hours are available to plan, grouped by user level.
 3. If needed, you can **apply multiple filters on people**. For example, you may decide to see only the internal employees which are managers and have a background in design
    {{< img-center src="/uploads/2017/11/02/planning-people-filters.png">}}
-4. You can use the search bar even to **filter people by** [**skill**]({{< relref "settings/index.md#skills" >}}). Try to input something like **skill:photoshop;skill:illustrator** to find everybody who has a skill named "photoshop" and a skill named "illustrator".
+4. You can use the search bar even to **filter people by** [**skill**]({{< relref "settings/index.md#skills" >}}), **interest or language**. Try to input something like **skill:photoshop;skill:illustrator** to find everybody who has a skill named "photoshop" and a skill named "illustrator". Type **language:italian;language:english** to find everybody who speaks “Italian” and “English", or type **interest:reading** to find who loves reading.
 5. To **plan for an hour, a half day or for an entire week**, just position the mouse on the day/week you want to allocate and click to plan. Click and drag to quickly assign more than an hour, a half day or a week at once.
 
 \*If the day/week has some hours/days already planned on other projects, wethod allows you to plan the user on the remaining hours/days available for that day/week.
