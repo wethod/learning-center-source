@@ -163,7 +163,7 @@ Using filters, you can select the Projects you want to see and explore details s
 
 {{< img-center src="/uploads/2017/08/28/Budg-consumption-1.png" >}}
 
-## Invoice vs Status
+## Invoiced vs Status
 
 This report compares the projects' status with the percentage of their value which is already been invoiced.
 
