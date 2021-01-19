@@ -18,7 +18,7 @@ The blue dot in the calendar's header highlights the current day.
 
 ## People Allocation
 
-People Allocation gives an overview of the team’s allocation on the projects in your company. From here you can plan your colleagues, filter them by skill, languages, interests or tags, and access their profile pages to learn more about their backgrounds and goals.
+People Allocation gives an overview of the team’s allocation on the projects in your company. From here you can plan your colleagues, filter them by skill, language, interest or tag, and access their profile pages to learn more about their backgrounds and goals.
 
 This planning features three different views and planning options:
 
