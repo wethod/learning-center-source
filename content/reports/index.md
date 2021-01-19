@@ -149,7 +149,7 @@ Need a more detailed view? Just click and drag on a chart to include the area yo
 
 Here are reported, for each teammate who have worked to the project, the comparison between his/her worked hours and his/her planned hours.
 
-## Budget Consumption
+## Consumption vs Status
 
 This is an overview of all Projects in terms of resources and time spent on the project, allowing you to analyse their health at a glance.
 
@@ -163,7 +163,7 @@ Using filters, you can select the Projects you want to see and explore details s
 
 {{< img-center src="/uploads/2017/08/28/Budg-consumption-1.png" >}}
 
-## Revenue Progress
+## Invoice vs Status
 
 This report compares the projects' status with the percentage of their value which is already been invoiced.
 
@@ -175,7 +175,7 @@ How to read the project's position on the graph:
 
 {{< img-center src="/uploads/2017/08/28/Revenue_Progress.png" >}}
 
-## Revenue Pipeline
+## Sales Pipeline
 
 This report is composed by four sections which aggregate the [revenue pipeline]({{< relref "glossary/index.md#revenue-pipeline" >}}) **by probability**, **by client**, **by project type**, **by project type's group** or **by metadata**.
 
@@ -276,7 +276,7 @@ You can switch between month's week by using the selector placed at the top of t
 
 {{< img-center src="/uploads/2018/02/22/production-value_weekly.png" >}}
 
-## Timesheets
+## Weekly Timesheet
 
 This is a weekly overview of the [timesheets]({{< relref "friday/index.md#timesheet" >}}) made by your teammates, each timesheet is coloured as the [job order category]({{< relref "settings/index.md#company" >}}) of the project it's linked to and you can see the project's name by clicking on its timesheet.
 
@@ -286,7 +286,7 @@ On the top right corner you can change the week of the displayed timesheets.
 
 {{< img-center src="/uploads/2017/08/28/Timesheets.png" >}}
 
-## Timesheet Roadrunner
+## Timesheet Summary
 
 This report shows all the timesheets for the selected year, grouped by Job Order Category and compared to the [Roadrunner Index](http://support.wethod.com/glossary/index/#roadrunner-index-rri).
 
