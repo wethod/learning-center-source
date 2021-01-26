@@ -181,7 +181,7 @@ Find this section in Projects > Wallet > Travels.
 First, head to Setting > Company > Email Bot and insert the email address(es) as recipients for travel requests. 
 
 
-Create a new travel request:
+### Create a new travel request:
 
 1. Click button *New Request* and a sidebar will open.
 
@@ -202,7 +202,7 @@ Create a new travel request:
 8. Your request will be added to the list of travel requests.  
 
 
-Edit a travel request:
+### Edit a travel request:
 
 1. Open a travel request from the list.
 
@@ -215,7 +215,7 @@ Edit a travel request:
 Based on a specific [permission's set]({{< relref "finance/index.md#permissions" >}}), some roles are able to edit other requests even when already sent.
 
 
-Create *more than one travel request* for the same travel category:
+### Create *more than one travel request* for the same travel category:
 
 {{< img-center src="/uploads/2020/12/21/new_flight_category.gif" >}}
 
@@ -232,7 +232,7 @@ Create *more than one travel request* for the same travel category:
 6. Your request will be added to the list of travel requests.  
 
 
-Send a travel request:
+### Send a travel request:
 
 1. Click the button *Send*.
 
@@ -243,7 +243,7 @@ Send a travel request:
 4. Travel request will be pending until the travel office accepts and confirms your request.
 
 
-Confirm a travel booking and upload reservations:
+### Insert costs and upload a reservation for a travel request:
 
 When a travel request has booked, you might attach the reservation file to the travel request. 
 
@@ -253,22 +253,38 @@ When a travel request has booked, you might attach the reservation file to the t
 
 3. Open the travel request.
 
-4. Access each of the travel categories requested for further details. Scroll down to the bottom, insert the total cost and upload reservations or travel tickets. Repeat this with each of the travel categories requested.
+4. Access to the travel category (i.e. train, flight, accommodation) for further details. 
 
-5. Click *Save* from the top right corner of the sidebar.
+5. Scroll down to the "Travel Office" section at the bottom. 
 
-6. When all the reservations are completed and uploaded, click "Submit reservation".
+6. Insert the cost of travel or accomodation
 
-7. An email with the booking confirmation will be sent to the person who made the travel request.
+7. Specify a payment method (if needed)  
+
+8. Upload reservations or travel tickets. 
+
+9. Repeat steps 5 to 8 for each of the travel categories that has a travel request.
+
+10. Click *Save* on the top right corner of the sidebar.
+
+11. When all the reservations are completed and uploaded, click "Submit reservation".
+
+12. An email with the booking confirmation will be sent to the person who made the travel request.
 
 Who made the travel request will receive a booking confirmation email, with the link to download booking and reservation materials.
 
 
-Download travel bookings and reservations:
+### Download travel bookings and reservations:
 
-If you received a travel booking confirmation email you might be able to download your travel ticket or reservation. Only the travel categories that are circled (view image below) have reservations or tickets available to download.
+If you received a travel booking confirmation email you might be able to download your travel ticket or reservation. 
+
+Only circled travel categories (view image below) have reservations or tickets available to download. 
 
 {{< img-center src="/uploads/2021/01/07/travel_booked.png" >}}
+
+Click on the travel category icon and choose the files you want to download.
+
+or
 
 1. Open the travel request's details.
 
@@ -277,6 +293,16 @@ If you received a travel booking confirmation email you might be able to downloa
 3. Scroll down to the bottom and download the attached files.
 
 4. Have a good journey!
+
+### Download a spreadsheet with the list of travel requests:
+
+1. Click on "Download data".
+
+2. Choose if you wan to download all data or just a list of requests belonging to a time range.
+
+3. (Segment) Select the time range you want collect data from.
+
+4. Click on "Email me".
 
 
 ### Permissions
