@@ -298,7 +298,7 @@ or
 
 1. Click on "Download data".
 
-2. Choose if you wan to download all data or just a list of requests belonging to a time range.
+2. Choose if you want to download all data or just a list of requests belonging to a time range.
 
 3. (Segment) Select the time range you want collect data from.
 
