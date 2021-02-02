@@ -101,3 +101,5 @@ Those 4 hours are considered *wasted* by the end of the week, because Alice was 
 Wasted hours can't be planned anymore.
 
 If Alice had worked 4 hours for another chargeable project, those hours wouldn't be considered wasted and they would be available again for the project ACME by the end of the week.
+
+**You can disable this *wasted* hours mechanism via the dedicated option in the [company section]({{< relref "settings/index.md#company" >}})**.
