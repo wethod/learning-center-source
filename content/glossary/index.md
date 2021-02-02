@@ -84,7 +84,7 @@ This value is the sum of all the pipeline projects' expected value.
 
 ### Roadrunner Index (RRI)
 
-This value indicates, for a given week, the ratio between the project's progress and \[timesheet\]({{< relref "friday/index.md#timesheet" >}}):
+This value indicates, for a given week, the ratio between the project's progress and [timesheet]({{< relref "friday/index.md#timesheet" >}}):
 
 * If ratio is **greater than 1**: last week an hour of work led to a project's progress greater than one hour. This means that project advanced faster than expected;
 * If ratio is **equal to 1**: last week project's progress (based on Project Status) was consistent with the worked hours (based on Timesheet);
