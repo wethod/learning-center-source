@@ -66,42 +66,23 @@ are displayed with the final net's currency. The exchange rate for the currency 
 
 {{< img-center src="/uploads/2019/06/13/invoices.gif" >}}
 
-## Clients
+## Client List
 
-In this section you can see all your clients, divided into contacts and companies.
+In this section you have a list of your clients meant as companies, with details like the company name and the group they belong to.
 
-{{< img-center src="/uploads/2019/11/29/clients.gif" >}}
+Find this section in CRM > Clients > Client list.
 
-**Add a new Contact**:
-
-1. Go to “Contact” section, on the top right corner
-2. Click the "**Add**" button
-3. Fill in all the required fields
-4. Click on the "**save**" button
-
-Click on the arrow to open a sidebar containing all the info about a contact, if you want even more details you can reach the contact page by using the button placed at the bottom of the sidebar.
-
-In the contact page you can find all the projects developed with this contact and all his resources.
-
-{{< img-center src="/uploads/2018/08/29/client-person-details.png" >}}
-
-How to link a contact to a project? Just go to the pipeline and pick a name from the "Client Contact" field's list (if you are creating a new project ensure to select the 'Client' field first):
-
-{{< img-center src="/uploads/2018/08/31/choose-client.gif" >}}
+{{< img-center src="/uploads/2021/02/15/client_list.png" >}}
 
 **Add a new Company**:
 
-1. Go to “Companies” section, on the top right corner
-2. Click the "**Add**" button
-3. Fill in all the required fields
-4. Click on the “**save**” button
+1. Click the "**Add**" button
+2. Fill in all the required fields
+3. Click on the “**save**” button
 
-Click on a company to get more details about it: on the left of this view you can find some general information, on the right you can see listed all the compnay's contacts, all the projects developed for this company and all its resources.
-A resource is just a link with a name to something external to WETHOD (like a document or a todo list).
+### Client company page
 
-Click on the arrow to open a sidebar containing all the info about a company, if you want even more details you can reach the company page by using the button placed at the bottom of the sidebar.
-
-### Client Details
+For each of the company listed, click on the arrow to enter the company page.
 
 {{< img-center src="/uploads/2019/12/12/client-detail.gif" >}}
 
@@ -129,6 +110,34 @@ Sparklines comes in different colors to highlight the trend:
 * Red if the last value if worse than the first one
 * Blue if first and last value are the same
 * Green if the last value if better than the first one
+
+## Client contact List
+
+In this section you have a list of your client's contacts with details like their name, company they belong to, email and role. 
+
+Find this section in CRM > Clients > Contacts.
+
+{{< img-center src="/uploads/2021/02/15/contact_list.png" >}}
+
+**Add a new client contact**:
+
+1. Click the "**Add**" button
+2. Fill in all the required fields
+3. Click on the "**save**" button
+
+### Client contact page 
+
+Click on the arrow to open the client contact page.
+
+In the contact page you can find all the projects developed with this contact and all his resources.
+
+A resource is just a link with a name to something external to WETHOD (like a document or a todo list).
+
+{{< img-center src="/uploads/2018/08/29/client-person-details.png" >}}
+
+How to link a contact to a project? Just go to the pipeline and pick a name from the "Client Contact" field's list (if you are creating a new project ensure to select the 'Client' field first):
+
+{{< img-center src="/uploads/2018/08/31/choose-client.gif" >}}
 
 ### Intercompany client
 
