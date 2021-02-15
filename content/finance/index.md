@@ -111,7 +111,7 @@ Sparklines comes in different colors to highlight the trend:
 * Blue if first and last value are the same
 * Green if the last value if better than the first one
 
-## Client Contact List
+## Contacts
 
 In this section you have a list of your client's contacts with details like their name, company they belong to, email and role. 
 
