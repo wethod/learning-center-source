@@ -307,21 +307,20 @@ For each change you can see:
 * The old probability and the updated probability;
 * The difference between the updated and the old [expected value](glossary/index.md#expected-value).
 
-## Budget Changelog
+## Budgets Approval
 
-Here you can find a list of all the 'budget approval' sorted chronologically.
+Here you can find a list of all the [budget]({{< relref "budget/index.md" >}})'s approvals, each one with:
 
-With information as:
+* Project's name, probability, client, account, manager, value
+* Budget's version
+* The person who approved the budget and the relative message, if any;
+* The timestamp for the approval
+* Margin's value in K
+* Final net price's margin in percentage
+* The difference between final net price's margin and suggested net price's margin in K and percentage. These values are highlighted in red if negative and green otherwise
 
-* Project name;
-* Project probability;
-* The client name;
-* The manger of the project;
-* The account of the project, if any;
-* The timestamp of the approval;
-* The value of the budget (old -> new);
-* The budget margin (old -> new);
-* The person who approved the budget;
+{{< img-center src="/uploads/2021/02/17/schermata-2021-02-17-alle-12-33-22.png" >}}
+
 
 ## Project & Team Reviews Changelog
 
