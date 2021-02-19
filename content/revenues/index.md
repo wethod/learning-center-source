@@ -27,6 +27,6 @@ Four important indicators are given in the first three rows:
 
 Use this section to set how much you plan to produce for each of your clients, quarterly or for a specific year.
 
-Data inserted here are used in [revenue clock widget](/dashboard/index/#revenue-clock) and in the [client detail](/finance/index/#clients).
+Data inserted here are used in [revenue clock widget](/dashboard/index/#revenue-clock), [client detail](/finance/index/#clients), [delta revenue target](/revenues/index/#overview) and [budget breakdown](/reports/index/#budget-breakdown).
 
 {{< img-center src="/uploads/2020/01/15/revenues-target.png" >}}
