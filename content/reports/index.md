@@ -301,7 +301,7 @@ On the top right corner you can change the week of the displayed timesheets.
 
 ## Timesheet Summary
 
-This report shows all the timesheets for the selected year, grouped by Job Order Category and compared to the [Roadrunner Index](http://support.wethod.com/glossary/index/#roadrunner-index-rri).
+This report shows all the timesheets for the selected year, grouped by Job Order Category and compared to the [Roadrunner Index](http://support.wethod.com/glossary/index.md#roadrunner-index-rri).
 
 You can chose between monthly and weekly visualization via the selector on the top of the section, where you can also find the year selector.
 
@@ -380,7 +380,7 @@ This section shows production related data, let's see each chart:
 
 * **Production**: shows the weekly total production for the last 52 weeks while for the future 52 it shows four charts:
   * Projection: is the produced value of the last week projected on future weeks
-  * Avg Revenues: revenues target (set from: [profit&loss](http://support.wethod.com/profit-loss/index/)) divided by the number of the weeks in the current year
+  * Avg Revenues: revenues target (set from: [profit&loss](http://support.wethod.com/profit-loss/index.md#)) divided by the number of the weeks in the current year
   * Planned production (Core): weekly production plan for projects with probability >= 90%
   * Planned production (Full): weekly production plan for all projects
 * **Backlog**: shows the amount of production plan in your pipeline on each week of the last year
