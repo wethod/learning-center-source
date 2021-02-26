@@ -21,6 +21,14 @@ Basically, this is the place where you define (for a project):
 
 Done? Now the budget must be approved by a supervisor and, once approved, the project manager can start [planning]({{< relref "planning/index.md" >}}) and creating [orders]({{< relref "finance/index.md#orders" >}}).
 
+A user is able to approve a budget if one one of the following conditions is true:
+
+*	The user is the budget's account and its role has the "approve" permission for budget
+*	The user is the budget's manager and its role has the "approve" permission for budget
+*	The user's role has the "approve other" permission for budget
+
+Role based permissions for budget can be managed from the [permissions section]({{< relref "settings/index.md#permissions" >}}).
+
 {{< note title="Note" >}}
 **When a project reach 50% of probability, it's a good practice to make a budget for it.**
 {{< /note >}}
