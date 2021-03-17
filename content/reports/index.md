@@ -460,7 +460,7 @@ This page gives a demographic overview on the active population in your company.
 
 Insight > People > Demographics
 
-* **Headcount**: (in units) this chart shows the amount of active employees in your company. The information is based on the quantity of positive payrolls within the shown timeframe. The forecast, which also considers the number of placeholders in the current quarter, is represented with a dashed line. A headcount target can be added and edited from the widget’s options button.
+* **Headcount**: (in units) this chart shows the amount of active employees in your company. The information is based on the quantity of positive payrolls within the shown timeframe. The forecast, which also considers the number of [placeholders]({{< relref "payroll/index.md#placeholders" >}}) in the current quarter, is represented with a dashed line. A headcount target can be added and edited from the widget’s options button.
 
 * **Costs and revenues per employee**: (in K) this chart shows the average costs and revenues per employee. The average is calculated taking into account the amount of employees shown as headcount for the given period of time.
 
