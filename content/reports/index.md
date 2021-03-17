@@ -450,14 +450,16 @@ Find below the insights available from each _Monthly Briefing._
 
 This section provides a series of insights on the team in your company, using the available data within the platform.
 
-Insights > People
+Navigation: Insights > People
 
 
 ### Demographics 
 
 This page gives a demographic overview on the active population in your company. Explore trends and characteristics of your team with a sequence of charts and within a set of time ranges.
 
-Insights > People > Demographics
+Navigation: Insights > People > Demographics
+
+{{< img-center src="/uploads/2021/03/17/gif_demographics.gif" >}}
 
 * **Headcount**: (in units) this chart shows the amount of active employees in your company. The information is based on the quantity of positive [payrolls]({{< relref "payroll/index.md#employees" >}}) within the shown timeframe. The forecast, which also considers the number of [placeholders]({{< relref "payroll/index.md#placeholders" >}}) in the current quarter, is represented with a dashed line. A headcount target can be added and edited from the widget’s options button.
 
@@ -465,7 +467,7 @@ Insights > People > Demographics
 
 * **Gender distribution**: (in units) this chart shows the gender distribution in your company. Each team member can express their gender identity from the contact information section inside their [profile page]({{< relref "settings/index.md#profile" >}}).
 
-* **Age distribution**: (in units) this chart shows the age distribution in your company. To better digest this information, Wethod divides the population belonging to a given set of age ranges: less than 19 years, 20-29, 30-39, 49-49, 50-59, and more than 60
+* **Age distribution**: (in units) this chart shows the age distribution in your company. To better digest this information, Wethod divides the population belonging to a given set of age ranges: less than 20 years old, 20-29, 30-39, 49-49, 50-59, and more than 60 years old.
 
 * **Tag charts**: (in units) this chart(s) show(s) tags demographics which vary depending on your company’s preference. To add tags to a team member head to the [Team settings]({{< relref "settings/index.md#team" >}}), choose a tag category name and add tag names to team members.
 
