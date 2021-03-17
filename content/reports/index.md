@@ -446,7 +446,7 @@ Find below the insights available from each _Monthly Briefing._
 **Set a revenue budget/forecast for the year in the Profit & Loss section to get better insights.**
 {{< /note >}}
 
-## People
+## People Insights
 
 This section provides a series of insights on the team in your company, using the available data within the platform.
 
