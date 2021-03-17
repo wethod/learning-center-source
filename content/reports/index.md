@@ -459,14 +459,14 @@ This page gives a demographic overview on the active population in your company.
 
 Insight > People > Demographics
 
-* **Headcount**: (in units) this chart shows the amount of active employees in your company. The information is based on the quantity of positive payrolls within the shown timeframe. The forecast, which also considers the number of [placeholders]({{< relref "payroll/index.md#placeholders" >}}) in the current quarter, is represented with a dashed line. A headcount target can be added and edited from the widget’s options button.
+* **Headcount**: (in units) this chart shows the amount of active employees in your company. The information is based on the quantity of positive [payrolls]({{< relref "payroll/index.md#employees" >}}) within the shown timeframe. The forecast, which also considers the number of [placeholders]({{< relref "payroll/index.md#placeholders" >}}) in the current quarter, is represented with a dashed line. A headcount target can be added and edited from the widget’s options button.
 
-* **Costs and revenues per employee**: (in K) this chart shows the average costs and revenues per employee. The average is calculated taking into account the amount of employees shown as headcount for the given period of time.
+* **Costs and revenues per employee**: (in K) this chart shows the average [costs]({{< relref "external-costs/index.md" >}}) and [revenues]({{< relref "revenues/index.md" >}}) per employee. The average is calculated taking into account the amount of employees shown as headcount for the given period of time.
 
-* **Gender distribution**: (in units) this chart shows the gender distribution in your company. Each team member can express their gender identity from the contact information section inside their profile page.
+* **Gender distribution**: (in units) this chart shows the gender distribution in your company. Each team member can express their gender identity from the contact information section inside their [profile page]({{< relref "settings/index.md#profile" >}}).
 
 * **Age distribution**: (in units) this chart shows the age distribution in your company. To better digest this information, Wethod divides the population belonging to a given set of age ranges: less than 19 years, 20-29, 30-39, 49-49, 50-59, and more than 60
 
-* **Tag charts**: (in units) this chart(s) show(s) tags demographics which vary depending on your company’s preference. To add tags to a team member head to the Team settings, choose a tag category name and add tag names to team members.
+* **Tag charts**: (in units) this chart(s) show(s) tags demographics which vary depending on your company’s preference. To add tags to a team member head to the [Team settings]({{< relref "settings/index.md#team" >}}), choose a tag category name and add tag names to team members.
 
 * **Business units**: (in units) this chart shows the business unit demographics of your team.
