@@ -457,7 +457,7 @@ Insights > People
 
 This page gives a demographic overview on the active population in your company. Explore trends and characteristics of your team with a sequence of charts and within a set of time ranges.
 
-Insight > People > Demographics
+Insights > People > Demographics
 
 * **Headcount**: (in units) this chart shows the amount of active employees in your company. The information is based on the quantity of positive [payrolls]({{< relref "payroll/index.md#employees" >}}) within the shown timeframe. The forecast, which also considers the number of [placeholders]({{< relref "payroll/index.md#placeholders" >}}) in the current quarter, is represented with a dashed line. A headcount target can be added and edited from the widget’s options button.
 
