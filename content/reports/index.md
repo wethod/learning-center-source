@@ -2,6 +2,7 @@
 date: 2017-05-24T10:01:45.000+00:00
 title: Reports
 weight: "60"
+draft: true
 
 ---
 ## Overview
@@ -445,3 +446,29 @@ Find below the insights available from each _Monthly Briefing._
 {{< note title="Note" >}}
 **Set a revenue budget/forecast for the year in the Profit & Loss section to get better insights.**
 {{< /note >}}
+
+## People insights
+
+This section provides a series of insights on the team in your company, using the available data within the platform.
+
+Insights > People
+
+
+### Demographics 
+
+This page gives a demographic overview on the active population in your company. Explore trends and characteristics of your team with a sequence of charts and within a set of time ranges.
+
+Insight > People > Demographics
+
+* **Headcount**: (in units) this chart shows the amount of active employees in your company. The information is based on the quantity of positive payrolls within the shown timeframe. The forecast, which also considers the number of placeholders in the current quarter, is represented with a dashed line. A headcount target can be added and edited from the widget’s options button.
+
+* **Costs and revenues per employee**: (in K) this chart shows the average costs and revenues per employee. The average is calculated taking into account the amount of employees shown as headcount for the given period of time.
+
+* **Gender distribution**: (in units) this chart shows the gender distribution in your company. Each team member can express their gender identity from the contact information section inside their profile page.
+
+* **Age distribution**: (in units) this chart shows the age distribution in your company. To better digest this information, Wethod divides the population belonging to a given set of age ranges: less than 19 years, 20-29, 30-39, 49-49, 50-59, and more than 60
+
+
+* **Tag charts**: (in units) this chart(s) show(s) tags demographics which vary depending on your company’s preference. To add tags to a team member head to the Team settings, choose a tag category name and add tag names to team members.
+
+* **Business units**: (in units) this chart shows the business unit demographics of your team.
