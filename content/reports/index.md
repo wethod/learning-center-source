@@ -446,7 +446,7 @@ Find below the insights available from each _Monthly Briefing._
 **Set a revenue budget/forecast for the year in the Profit & Loss section to get better insights.**
 {{< /note >}}
 
-## People insights
+## People
 
 This section provides a series of insights on the team in your company, using the available data within the platform.
 
@@ -466,7 +466,6 @@ Insight > People > Demographics
 * **Gender distribution**: (in units) this chart shows the gender distribution in your company. Each team member can express their gender identity from the contact information section inside their profile page.
 
 * **Age distribution**: (in units) this chart shows the age distribution in your company. To better digest this information, Wethod divides the population belonging to a given set of age ranges: less than 19 years, 20-29, 30-39, 49-49, 50-59, and more than 60
-
 
 * **Tag charts**: (in units) this chart(s) show(s) tags demographics which vary depending on your company’s preference. To add tags to a team member head to the Team settings, choose a tag category name and add tag names to team members.
 
