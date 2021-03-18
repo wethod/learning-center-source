@@ -2,6 +2,7 @@
 date: 2017-05-24T10:01:45.000+00:00
 title: Reports
 weight: "60"
+draft: true
 
 ---
 ## Overview
@@ -462,6 +463,8 @@ Navigation: Insights > People > Demographics
 {{< img-center src="/uploads/2021/03/17/gif_demographics.gif" >}}
 
 * **Headcount**: (in units) this chart shows the amount of active employees in your company. The information is based on the quantity of positive [payrolls]({{< relref "payroll/index.md#employees" >}}) within the shown timeframe. The forecast, which also considers the number of [placeholders]({{< relref "payroll/index.md#placeholders" >}}) in the current quarter, is represented with a dashed line. A headcount target can be added and edited from the widget’s options button.
+
+* **In & Out**: 
 
 * **Costs and revenues per employee**: (in K) this chart shows the average [costs]({{< relref "external-costs/index.md" >}}) and [revenues]({{< relref "revenues/index.md" >}}) per employee. The average is calculated taking into account the amount of employees shown as headcount for the given period of time.
 
