@@ -13,27 +13,27 @@ smartypants = true
 [[menu.company]]
 name = "Order Plan"
 url = "order-plan/index/"
-weight = 9
+weight = 10
 [[menu.company]]
 name = "Invoice Plan"
 url = "invoice-plan/index/"
-weight = 8
+weight = 9
 [[menu.company]]
 name = "Capex"
 url = "capex/index/"
-weight = 7
+weight = 8
 [[menu.company]]
 name = "Marketing"
 url = "marketing/index/"
-weight = 6
+weight = 7
 [[menu.company]]
 name = "G & A"
 url = "general-admin/index/"
-weight = 5
+weight = 6
 [[menu.company]]
 name = "Payroll"
 url = "payroll/index/"
-weight = 4
+weight = 5
 [[menu.company]]
 name = "External Costs"
 url = "external-costs/index/"
