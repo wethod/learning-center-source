@@ -12,7 +12,7 @@ menu:
 
 Here you can see the details about [Profit & Loss]({{< relref "profit-loss/index.md" >}})' gross margin for each month of the current year.
 
-For each month, a project's gross margin is the difference between its [revenues]({{< relref "revenues/index.md" >}}) and its [external costs]({{< relref "external-costs/index.md" >}}).
+A project's gross margin is the difference between its [revenues]({{< relref "revenues/index.md" >}}) and its [external costs]({{< relref "external-costs/index.md" >}}).
 
 Three important indicators are given in the first rows:
 
