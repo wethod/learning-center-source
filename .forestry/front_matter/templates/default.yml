@@ -26,3 +26,5 @@ fields:
     required: true
   default: '90'
   hidden: ''
+pages:
+- content/gross-margin.md
