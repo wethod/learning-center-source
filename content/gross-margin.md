@@ -6,7 +6,6 @@ type: ''
 menu:
   company:
     weight: 4
-draft: true
 
 ---
 ## Overview
