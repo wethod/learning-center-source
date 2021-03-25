@@ -147,7 +147,13 @@ Need a more detailed view? Just click and drag on a chart to include the area yo
 
 ### Hour / User
 
-Here are reported, for each teammate who have worked to the project, the comparison between his/her worked hours and his/her planned hours.
+Here are reported, for each teammate who have worked for the project, the comparison between his/her worked hours and his/her planned hours.
+
+Below "As of last Friday" you can see all the worked and planned hours until last Friday.
+
+Clicking on the calendar icon you can select a custom period and get the worked and planned hours according to it.
+
+{{< img-center src="/uploads/2021/03/25/report-hours-users.png" >}}
 
 ## Consumption vs Status
 
