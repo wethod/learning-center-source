@@ -331,8 +331,9 @@ Here you can find a list of all the [budget]({{< relref "budget/index.md" >}})'s
 * Margin's value in K
 * Final net price's margin in percentage
 * The difference between final net price's margin and suggested net price's margin in K and percentage. These values are highlighted in red if negative and green otherwise
+* The difference between the budget final net price's margin and the previous version final net price's margin.
 
-{{< img-center src="/uploads/2021/02/17/schermata-2021-02-17-alle-12-33-22.png" >}}
+{{< img-center src="/uploads/2021/03/25/screen-shot-2021-03-25-at-10-24-56.png" >}}
 
 
 ## Project & Team Reviews Changelog
