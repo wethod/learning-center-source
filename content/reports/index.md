@@ -10,11 +10,11 @@ All the data you insert in WETHOD are used to generate, weekly and automatically
 
 ## Project Report
 
-Each Monday, utilising data provided by [Timesheet\]({{< relref "friday/index.md#timesheet" >}}), \[Project Status\]({{< relref "friday/index.md#project-status" >}}) and \[Budget]({{< relref "budget/index.md" >}}), a Project Report is automatically created.
+Each Monday, utilising data provided by [Timesheet]({{< relref "friday/index.md#timesheet" >}}), [Project Status]({{< relref "friday/index.md#project-status" >}}) and [Budget]({{< relref "budget/index.md" >}}), a Project Report is automatically created.
 
 ### Budget Consumption / Project Status
 
-This section shows the [budget consumption\]({{< relref "glossary/index.md#budget-consumption" >}}) of the project, compared to its \[progress]({{< relref "glossary/index.md#absolute-project-progress" >}}):
+This section shows the [budget consumption]({{< relref "glossary/index.md#budget-consumption" >}}) of the project, compared to its [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}):
 
 * If the project is **above the diagonal**: it's using a lot of days but it's progressing slowly than predictions based on budget;
 * If the project is **under the diagonal**: it's using few days but it's progressing faster than predictions based on budget;
@@ -25,7 +25,7 @@ By analizing the saved budget versions for the project, WETHOD can shows you:
 * The **baseline** which answers the question "_what would the situation be if I hadn't changed the budget since its first version_?";
 * The **forecast** which answers the question _"what's the situation right now?"_;
 * The **projected** which answers the question "_what will be the situation at the end of the project with the current budget consumption?"_;
-* The **wasted** which answers the question "_what's the situation right now,_ \[_wasted hours_\]({{< relref "glossary/index.md#wasted-hours" >}}) _included?"_;
+* The **wasted** which answers the question "_what's the situation right now,_ [_wasted hours_]({{< relref "glossary/index.md#wasted-hours" >}}) _included?"_;
 
 The grey dots shows you the forecast of the various past budget versions.
 
@@ -33,7 +33,7 @@ On the right of the graph you have:
 
 1. **Baseline**: the first budget's hours amount;
 2. The variations of the budget's hours amount since the baseline was approved;
-3. \[**Contingency**\]({{< relref "budget/index.md#the-price-s-detail" >}});
+3. [**Contingency**]({{< relref "budget/index.md#the-price-s-detail" >}});
 4. **Forecast**: the current budget's hours amount (Baseline + variations + contingency);
 5. A resume of the worked, planned, wasted and still available hours.
 
@@ -41,7 +41,7 @@ On the right of the graph you have:
 
 ### Invoices & Orders
 
-Here are listed all the [orders\]({{< relref "finance/index.md#orders" >}}) and \[invoices]({{< relref "finance/index.md#invoices" >}}) linked to the project, clicking on one of them will take you to the related details.
+Here are listed all the [orders]({{< relref "finance/index.md#orders" >}}) and [invoices]({{< relref "finance/index.md#invoices" >}}) linked to the project, clicking on one of them will take you to the related details.
 
 ### Economics
 
@@ -133,7 +133,7 @@ This three charts let you appreciate the trend of three primary indexes related 
 
 * **Days Left**: data from the [Project Status]({{< relref "friday/index.md#project-status" >}}) are transposed into this chart to better highlight the weekly progress of the project;
 * **Worked Hours**: data from the [Timesheet]({{< relref "friday/index.md#timesheet" >}}) are used into this chart to visualize the weekly amount of work spent on the project;
-* **Roadrunner Index**: combining data from the two previous charts let us display the weekly \[**Roadrunner Index**\]({{< relref "glossary/index.md#roadrunner-index-rri" >}}) for the project.
+* **Roadrunner Index**: combining data from the two previous charts let us display the weekly [**Roadrunner Index**]({{< relref "glossary/index.md#roadrunner-index-rri" >}}) for the project.
 
 This is the only place in WETHOD where you can see the weekly details of a given project.
 
@@ -159,7 +159,7 @@ Clicking on the calendar icon you can select a custom period and get the worked 
 
 This is an overview of all Projects in terms of resources and time spent on the project, allowing you to analyse their health at a glance.
 
-For each pipeline's project, its [budget consumption\]({{< relref "glossary/index.md#budget-consumption" >}}) is compared to its \[progress]({{< relref "glossary/index.md#absolute-project-progress" >}}):
+For each pipeline's project, its [budget consumption]({{< relref "glossary/index.md#budget-consumption" >}}) is compared to its [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}):
 
 * If the project is **above the diagonal**: it's using a lot of days but it's progressing slowly than predictions based on budget;
 * If the project is **under the diagonal**: it's using few days but it's progressing faster than predictions based on budget;
@@ -187,7 +187,7 @@ This report is composed by four sections which aggregate the [revenue pipeline]
 
 Each section shows a column diagram, where each column refers to a particular year (previous, current, next) and its generated by the projects which invoice plan hits that year. Clicking on a column will show a right panel with further information linked to the column itself.
 
-A different kind of report is the [budget breakdown\]({{< relref "reports/index.md#budget-breakdown" >}}) wich shows the \[company budget\]({{< relref "profit-loss/index.md#" >}}) compared to the projected \[revenues\]({{< relref "revenues/index.md#" >}}) for the current year. The projected revenues are divided into production coming form the projects in pipeline, revenues bluesky and the remaining \[delta revenue target]({{< relref "revenues/index.md#" >}}).
+A different kind of report is the [budget breakdown]({{< relref "reports/index.md#budget-breakdown" >}}) wich shows the [company budget]({{< relref "profit-loss/index.md#" >}}) compared to the projected [revenues]({{< relref "revenues/index.md#" >}}) for the current year. The projected revenues are divided into production coming form the projects in pipeline, revenues bluesky and the remaining [delta revenue target]({{< relref "revenues/index.md#" >}}).
 
 ### Budget Breakdown
 
@@ -297,7 +297,7 @@ You can switch between month's week by using the selector placed at the top of t
 
 ## Weekly Timesheet
 
-This is a weekly overview of the [timesheets\]({{< relref "friday/index.md#timesheet" >}}) made by your teammates, each timesheet is coloured as the \[job order category]({{< relref "settings/index.md#company" >}}) of the project it's linked to and you can see the project's name by clicking on its timesheet.
+This is a weekly overview of the [timesheets]({{< relref "friday/index.md#timesheet" >}}) made by your teammates, each timesheet is coloured as the [job order category]({{< relref "settings/index.md#company" >}}) of the project it's linked to and you can see the project's name by clicking on its timesheet.
 
 On the top left corner you can filter the displayed people.
 
@@ -391,7 +391,7 @@ This section shows production related data, let's see each chart:
   * Planned production (Full): weekly production plan for all projects
 * **Backlog**: shows the amount of production plan in your pipeline on each week of the last year
 * **Weeks Backlog**: shows how many weeks of work your company needs to produce the entire backlog for each week of the last year (week's backlog / week's production).
-* **Tips**: \[COMING SOON\] This section will show useful tips based on your company production, production plan and backlog
+* **Tips**: [COMING SOON] This section will show useful tips based on your company production, production plan and backlog
 
 ## Briefing
 
@@ -411,15 +411,15 @@ Navigation: Insights > Briefing > Weekly
 
 Find below a list of the insights available to read from each _Weekly Briefing._
 
-* \[**Production value**\]({{< relref "glossary/index.md#production-value" >}})**,** compared with its average weekly target. The value is also compared with the one registered the same week last year. An average weekly target is basically the yearly budget/forecast divided by the number of weeks in a year.
+* [**Production value**]({{< relref "glossary/index.md#production-value" >}})**,** compared with its average weekly target. The value is also compared with the one registered the same week last year. An average weekly target is basically the yearly budget/forecast divided by the number of weeks in a year.
 * Projects that produced the most value.
 * **Projects started** and projects that **ended** last week.
 * **Sales trends**, compared with their weekly target.
 * **Projects won** and their total value, compared with their target and the same week last year.
 * **Pipeline value** trend over the past few weeks.
 * **New opportunities**, with their total unweighted value and weighted value. A weighted value depends on the project’s percentage of success. For instance, a project valued 100K at 10% success is valued at 10K.
-* The main \[**reason why**\]({{< relref "pipeline/index.md#won-lost-feedback" >}}) projects were lost and won.
-* \[**Chargeability**\]({{< relref "settings/index.md#chargeability" >}}) of the week trend. This value is compared also with its target and the value of the same week last year.
+* The main [**reason why**]({{< relref "pipeline/index.md#won-lost-feedback" >}}) projects were lost and won.
+* [**Chargeability**]({{< relref "settings/index.md#chargeability" >}}) of the week trend. This value is compared also with its target and the value of the same week last year.
 * Number of **hours worked**.
 * **Segmentation of hours worked**, grouped by job order category.
 
@@ -439,14 +439,14 @@ Find below the insights available from each _Monthly Briefing._
 * **Production value**, with its trend over previous months and comparison with its target
 * **Working day value**, compared with the value of the month before.
 * **Road Runner Index** [RRI]({{< relref "glossary/index.md#roadrunner-index-rri" >}}) trend over the past months.
-* **Number of hours worked** and \[**Chargeability**\]({{< relref "settings/index.md#chargeability" >}}) trend.
+* **Number of hours worked** and [**Chargeability**]({{< relref "settings/index.md#chargeability" >}}) trend.
 * Number of **projects won**, with their total value compared with target, and the same week last year.
 * Projects that produced the most value.
 * **Pipeline value,** with the trend over the previous weeks.
 * **New opportunities**, with the total weighted and unweighted value. A weighted value depends on the project’s percentage of success. For instance, a project valued 100K with 10% success is valued at 10K.
 * **Lost opportunities**, with the total value and the main reasons why
 * **Pipeline value** trend over the past months
-* \[**Backlog**\]({{< relref "reports/index.md#backlog" >}})
+* [**Backlog**]({{< relref "reports/index.md#backlog" >}})
 
 {{< note title="Note" >}}
 **Set a revenue budget/forecast for the year in the Profit & Loss section to get better insights.**
@@ -466,9 +466,9 @@ Navigation: Insights > People > Demographics
 
 {{< img-center src="/uploads/2021/03/26/gif_demographics.gif" >}}
 
-* **Headcount**: (in units) this chart shows the amount of active employees in your company. The information is based on the quantity of positive [payrolls\]({{< relref "payroll/index.md#employees" >}}) within the shown timeframe. The forecast, which also considers the number of \[placeholders]({{< relref "payroll/index.md#placeholders" >}}) in the current quarter/year, is represented with a dashed line compared to the past quarters/years. A headcount target can be added and edited from the widget’s options button.
+* **Headcount**: (in units) this chart shows the amount of active employees in your company. The information is based on the quantity of positive [payrolls]({{< relref "payroll/index.md#employees" >}}) within the shown timeframe. The forecast, which also considers the number of [placeholders]({{< relref "payroll/index.md#placeholders" >}}) in the current quarter/year, is represented with a dashed line compared to the past quarters/years. A headcount target can be added and edited from the widget’s options button.
 * **In & Out**: (in units) this chart shows the number of employees hired in your company (in green) or that left your company (in red) for each quarter of the current year, in the last 3 or 5 years. The forecast, which also considers the number of [placeholders]({{< relref "payroll/index.md#placeholders" >}}) in the current quarter/year, is represented in low opacity compared to the past quarters/years.
-* **Costs and revenues per employee**: (monthly average, in K) this chart shows the monthly average [costs\]({{< relref "external-costs/index.md" >}}) and \[revenues]({{< relref "revenues/index.md" >}}) per employee. The average is calculated taking into account the amount of employees shown as headcount for the given period of time. The forecast, which also includes the current quarter/year, is represented with a dashed line compared to the past.
+* **Costs and revenues per employee**: (monthly average, in K) this chart shows the monthly average [costs]({{< relref "external-costs/index.md" >}}) and [revenues]({{< relref "revenues/index.md" >}}) per employee. The average is calculated taking into account the amount of employees shown as headcount for the given period of time. The forecast, which also includes the current quarter/year, is represented with a dashed line compared to the past.
 * **Gender distribution**: (in units) this chart shows the gender distribution in your company. Each team member can express their gender identity from the contact information section inside their [profile page]({{< relref "settings/index.md#profile" >}}). The current quarter/year is still considered as a forecast, therefore it is represented in low opacity compared to the past quarters/years.
 * **Age distribution**: (in units) this chart shows the age distribution and its average trend in your company. To better digest this information, Wethod divides the population belonging to a given set of age ranges: less than 20 years old, 20-29, 30-39, 49-49, 50-59, and more than 60 years old. The current quarter/year is still considered as a forecast, therefore it is represented in low opacity compared to the past quarters/years.
 * **Tag charts**: (in units) this chart(s) show(s) tags demographics which vary depending on your company’s preference. To add tags to a team member head to the [Team settings]({{< relref "settings/index.md#team" >}}), choose a tag category name and add tag names to team members. The current quarter/year is still considered as a forecast, therefore it is represented in low opacity compared to the past quarters/years.
