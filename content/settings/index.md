@@ -69,9 +69,10 @@ Here you can configure your company by setting:
 * **Project & Team Review** where you can: 
 	* Enable/disable [Project & Team Review]({{< relref "pipeline/index.md#project-team-review" >}})
     * Choose the review mode, you can select between a partial or a 360° team review, whether the team should be able to review just the project and its manager or the project and all team members (incl. the manager).
+    * Allow to submit incomplete project or team review, when the user has insufficient evidence to vote a specific criterion.
     * Add or edit criteria in order to evaluate projects and team members. The reviewer will be asked to express a rate for each of the chosen criteria
     * Set a minimum number of unique reviewers to collect feedback from before showing review’s results in the profile page and the project canvas (this is useful to keep a review anonymous)
-    * decide for which job order categories and minimun project's value WETHOD will ask for review on archive.
+    * Decide for which job order categories and minimun project's value WETHOD will ask for review on archive.
 * **Suppliers settings** 
    * **Categories and subcategories of suppliers**
 This feature allows the user to visually browse the list of suppliers and filter suppliers by category or subcategories. To set categories and subcategories for your suppliers (i.e. Hospitality - Catering) start with categories. Click on "new category", add a name and assign a colour of your choice and hit "save". Eventually, for each category it is possible to add subcategories and save them. 
