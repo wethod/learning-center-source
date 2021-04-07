@@ -167,7 +167,7 @@ For each pipeline's project, its [budget consumption]({{< relref "glossary/inde
 
 Using filters, you can select the Projects you want to see and explore details such as billed hours, invoiced totals, and internal and external purchase orders.
 
-Projects with a [Job Order Category]({{< relref "settings/index.md#company"" >}}) with flag "UNLIMITED PLANNING" enabled are hidden from this chart because it makes no sense to calculate the budget consumption of a project with unlimited available days.
+Projects with a [Job Order Category]({{< relref "settings/index.md#company" >}}) with flag "UNLIMITED PLANNING" enabled are hidden from this chart because it makes no sense to calculate the budget consumption of a project with unlimited available days.
 
 {{< img-center src="/uploads/2017/08/28/Budg-consumption-1.png" >}}
 
