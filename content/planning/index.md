@@ -147,6 +147,7 @@ You can edit future months but remember: a production plan can be saved only if 
 Each time you edit a past project status' week or when a month ends, the production plan for that week is recalculated in order to allocate the remaining production or to adjust inchoerent plans. The adjustments are reported as orange monthly apex.
 
 A solid blue line indicates the project's duration, a dashed line instead tells you that the project's boundaries (the project's start/end) are outside the visible planning's portion.
+When you move the start or end date of a project with probability lower than 90%, its production plan will reflect the changes, adapting its duration and distributing accordingly.
 
 Other than searching projects by name, pm or client, you can even filter them by who's in charge for them: **Mine** shows you all the projects where you're pm or account while **Others** ... well, we think you're smart enough to understand it by yourself.
 
