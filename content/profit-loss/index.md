@@ -1,7 +1,7 @@
 ---
-date: 2017-08-29 08:23:59 +0000
+date: 2017-08-29T08:23:59.000+00:00
 title: Profit & Loss
-weight: 90
+weight: "90"
 
 ---
 ## Overview
@@ -10,8 +10,16 @@ This page provides an overview of the budgetary slippages between a company's pr
 
 The column **budget** in the **revenues** row is used to set the revenues' target for the company, which is used in the widget [Revenue Clock]({{< relref "dashboard/index.md#revenue-clock" >}}) and in the report [Production Value]({{< relref "reports/index.md#production-value" >}}).
 
-{{< img-center src="/uploads/2018/11/23/support_target.png" >}}
+If business units are enabled for your company:
 
+*	You can define a target for each business unit
+*	Using the "all" filter you can see the total target, which is the sum of all business units' targets. This target is not editable
+
+{{< note title="Note" >}}
+**If you switch off business units you lose all targets linked to them.**
+{{< /note >}}
+
+{{< img-center src="/uploads/2018/11/23/support_target.png" >}}
 
 Below, you can see how much your company has earned or has lost during each month of the current year.
 
