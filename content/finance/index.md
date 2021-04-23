@@ -8,31 +8,64 @@ weight: "70"
 
 In this section you can see all your orders and create new ones.
 
-To create an order:
+{{< img-center src="/uploads/2021/04/23/orders-list.png" >}}
 
-1. Click on the top left "**+ order**" button and an empty order will be added to the list
-2. Compile the required fields
-3. Click on the "**create**" button
+### Create a new order:
 
-After creating an order you can send it and approve it. Once you click on the "**send**" button, an e-mail will be sent to the address provided in the settings' [Email Bot]({{< relref "settings/index.md#company" >}}) section.
+1. Click button *New Order* and a sidebar will open.
 
-When an order is sent, you still have the ability to edit it or approve it by clicking on the "**approve**" button. Approving an order isn't mandatory but can be useful if you want to keep track of what orders can be actually issued.
+{{< img-center src="/uploads/2021/04/23/order-sidebar.png" >}}
 
-An approved order cannot be edited.
+2. Insert project name. The job order will be automatically filled by the system.
+3. Compile all the required fields
+4. Click on the "**save**" button
+5. Your order will be added to the list
 
-Order's fields description:
+### Order's fields description:
 
 * **Project**: the target Project
+* **Job Order**: automatically filled selecting the project
 * **Supplier**: the target Supplier for this Order
 * **Purchase Code**: an identifier for the Order
+* **Value**: the total cost of this Order
+* **Area**: the area of the [budget]({{< relref "budget/index.md" >}}) this Order is about
 * **Date**: the issue date of this Order
 * **Duration**: answers to the question "when this order will used for the project?", by default uses the project's start month and duration. For example: some external employees works for you on April and May so you should set start month to April and duration of 2 months.
-* **Note**: a brief text about the order. This is attached to the order's email and can be seen by your colleagues
+* **Notes**: a brief text about the order. This is attached to the order's email and can be seen by your colleagues
+
+### Send an order:
+
+1. Click the button *Send*.
+
+2. Choose a recipient for the order. To insert one or more email addresses as recipients head to the settings [Email Bot]({{< relref "settings/index.md#company" >}}) section.
+
+3. The recipient will receive an email.
+
+When an order is sent, you will need specific permissions to edit or approve it.
+You can approve an order by clicking on the "**approve**" button. Approving an order isn't mandatory but can be useful if you want to keep track of what orders can be actually issued.
+
+Role based permissions for Orders can be managed from the [permissions section]({{< relref "settings/index.md#permissions" >}}).
 
 ### Currency
 
 Orders belonging to a [multicurrency budget]({{< relref "budget/index.md#multicurrency-budget" >}})
 are displayed with their currency. Currency can be picked between those used in the budget's external costs. The exchange rate for the currency refers to the budget's creation date, but you can change it in any moment by editing it manually.
+
+Order's value must be lower or equal then the external costs provided in the budget for the currency picked for the order.
+
+{{< img-center src="/uploads/2021/04/23/order-multicurrency.gif" >}}
+
+### Export a spreadsheet with the list of orders:
+
+1. Click on "Export data".
+
+2. Choose if you want to download all data or just a list of orders belonging to a time range.
+
+3. (Segment) Select the time range you want collect data from.
+
+4. Click on "Email me".
+
+5. You will receive an email with the spreadsheet with requested data.
 
 {{< note title="Note" >}}
 
@@ -42,7 +75,6 @@ are displayed with their currency. Currency can be picked between those used in 
 
 {{< /note >}}
 
-{{< img-center src="/uploads/2019/06/13/orders.gif" >}}
 
 ## Invoices
 
