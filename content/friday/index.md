@@ -20,7 +20,7 @@ Every Friday an e-mail will remind:
 **Remember to insert only the real worked hours, cheating isn't useful to anybody.** The data inserted here will be used to determine the actual [budget consumption]({{< relref "reports/index.md#budget-consumption" >}}) in terms of working hours for each project.
 
 
-**Weekly** (default)
+### Weekly (default)
 
 At the end of each week, type in here the actual hours you have spent working on the projects you are involved in. It's all really easy, fast and simple.
 
@@ -33,7 +33,7 @@ If you want a more fine-grained control you can enable the **Daily mode**, this 
 {{< img-center src="/uploads/2021/04/26/timehseet-daily.png" >}}
 
 
-**Detailed**
+### Detailed
 
 This kind of Timesheet allows you to:
 
