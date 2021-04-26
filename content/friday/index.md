@@ -26,30 +26,33 @@ At the end of each week, type in here the actual hours you have spent working on
 
 Each project can be pinned to find it faster later.
 
-{{< img-center src="/uploads/2018/08/06/timesheet_weekly.png" >}}
+{{< img-center src="/uploads/2021/04/26/timesheet-weekly.png" >}}
 
-_To use this type of timesheet:
-Go to company settings from your profile, then select timesheets and leave all the options blank._
+If you want a more fine-grained control you can enable the **Daily mode**, this way you can input hours day by day.
+
+{{< img-center src="/uploads/2021/04/26/timehseet-daily.png" >}}
 
 
 **Detailed**
 
-A brand new timesheet is now available and ready to use!
+This kind of Timesheet allows you to:
 
-You can now have a detailed Timesheet that allows you to:
+* Compile timesheet day by day
 
-* Compile timesheet daily.
+* Do timesheet on a singular project's area. 
+  The project areas will be the same as listed in the project's budget. 
 
-* Do timesheet on a singular project area. 
-  The project areas will be the same as listed in the project budget. 
+* Specify between normal working hours, travel hours, overnight shifts or overtime.
 
-* Specify between normal working hours, travel hours, overnight shifts or     overtime.
+* Save notes for project's area.
 
-{{< img-center src="/uploads/2018/08/06/wethod_timesheet_detailed.png" >}}
+{{< img-center src="/uploads/2021/04/26/timesheet-detailed-overview.png" >}}
 
-_To use this type of timesheet: 
-Go to “Company” from your profile, then select “Timesheet” and choose option “Detailed”._
+To get a quick resume about the hours distribution in the week, you just need to click on the "Hours/Week" counter.
 
+{{< img-center src="/uploads/2021/04/26/timesheet-detailed-weekly.png" >}}
+
+_You can enable this type of timesheet from [company settings]({{< relref "settings/index.md#company" >}})._
 
 **Automatic** 
 
