@@ -54,6 +54,10 @@ To get a quick resume about the hours distribution in the week, you just need to
 
 _You can enable this type of timesheet from [company settings]({{< relref "settings/index.md#company" >}})._
 
+{{< note title="Note" >}}
+**When you delete an area from a project's budget, it's timesheet's hours and notes are assigned to the "Generic" timesheet's area.**
+{{< /note >}}
+
 **Automatic** 
 
 Timesheet is automatically compiled on Sundays, based on Planning.
