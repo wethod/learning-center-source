@@ -12,14 +12,14 @@ In this section you can see all your orders and create new ones.
 
 ### Create a new order:
 
-1. Click button *New Order* and a sidebar will open.
+1. Click button _New Order_ and a sidebar will open.
 
 {{< img-center src="/uploads/2021/04/23/order-sidebar.png" >}}
 
-2. Insert project name. The job order will be automatically filled by the system.
-3. Compile all the required fields
-4. Click on the "**save**" button
-5. Your order will be added to the list
+1. Insert project name. The job order will be automatically filled by the system.
+2. Compile all the required fields
+3. Click on the "**save**" button
+4. Your order will be added to the list
 
 ### Order's fields description:
 
@@ -35,13 +35,12 @@ In this section you can see all your orders and create new ones.
 
 ### Send an order:
 
-1. Click the button *Send*.
-
+1. Click the button _Send_.
 2. Choose a recipient for the order. To insert one or more email addresses as recipients head to the settings [Email Bot]({{< relref "settings/index.md#company" >}}) section.
-
 3. The recipient will receive an email.
 
-When an order is sent, you will need specific permissions to edit or approve it.
+When an order is sent, you will need specific permissions to edit it.
+
 You can approve an order by clicking on the "**approve**" button. Approving an order isn't mandatory but can be useful if you want to keep track of what orders can be actually issued.
 
 Role based permissions for Orders can be managed from the [permissions section]({{< relref "settings/index.md#permissions" >}}).
@@ -58,13 +57,9 @@ Order's value must be lower or equal then the external costs provided in the bud
 ### Export a spreadsheet with the list of orders:
 
 1. Click on "Export data".
-
 2. Choose if you want to download all data or just a list of orders belonging to a time range.
-
 3. (Segment) Select the time range you want collect data from.
-
 4. Click on "Email me".
-
 5. You will receive an email with the spreadsheet with requested data.
 
 {{< note title="Note" >}}
@@ -74,7 +69,6 @@ Order's value must be lower or equal then the external costs provided in the bud
 **Order's value must be lower or equal then the external costs provided in the budget.**
 
 {{< /note >}}
-
 
 ## Invoices
 
@@ -145,7 +139,7 @@ Sparklines comes in different colors to highlight the trend:
 
 ## Contacts
 
-In this section you have a list of your client's contacts with details like their name, company they belong to, email and role. 
+In this section you have a list of your client's contacts with details like their name, company they belong to, email and role.
 
 Find this section in CRM > Clients > Contacts.
 
@@ -157,7 +151,7 @@ Find this section in CRM > Clients > Contacts.
 2. Fill in all the required fields
 3. Click on the "**save**" button
 
-### Client contact page 
+### Client contact page
 
 Click on the arrow to open the client contact page.
 
@@ -200,13 +194,11 @@ To filter the list with multiple search queries, insert the keywords between com
 
 {{< img-center src="/uploads/2020/10/09/tag_search_supplier.gif" >}}
 
-
 ### Supplier's status
 
 It is possible to add a status that determines whether a supplier is eligible for contracts or not. To enable this feature and set your preferences on supplier's status, head to Settings > Company > Suppliers or learn more from ["Supplier Settings"]({{< relref "settings/index.md#suppliers-settings" >}}).
 
 **Remember: Orders can be sent to suppliers that are eligible for contract only.**
-
 
 ## Travels
 
@@ -216,110 +208,75 @@ Find this section in Projects > Wallet > Travels.
 
 {{< img-center src="/uploads/2020/12/21/travel_requests_list.png" >}}
 
-
 ### Create, edit and send travel requests
 
-First, head to Setting > Company > Email Bot and insert the email address(es) as recipients for travel requests. 
-
+First, head to Setting > Company > Email Bot and insert the email address(es) as recipients for travel requests.
 
 ### Create a new travel request:
 
-1. Click button *New Request* and a sidebar will open.
+1. Click button _New Request_ and a sidebar will open.
 
 {{< img-center src="/uploads/2020/12/21/travel_requests_list_sidebar.png" >}}
 
-2. Insert project name. The job order will be automatically filled by the system.
-
-3. Insert the main destination for this travel.
-
-4. If needed, write the purpose of the travel (i.e. meeting with the client).
-
-5. Choose one or more categories of travel request between train, flight, car, accommodation and other.
-
-6. Insert the request details
-
-7. Click *Save*. 
-
-8. Your request will be added to the list of travel requests.  
-
+1. Insert project name. The job order will be automatically filled by the system.
+2. Insert the main destination for this travel.
+3. If needed, write the purpose of the travel (i.e. meeting with the client).
+4. Choose one or more categories of travel request between train, flight, car, accommodation and other.
+5. Insert the request details
+6. Click _Save_.
+7. Your request will be added to the list of travel requests.
 
 ### Edit a travel request:
 
 1. Open a travel request from the list.
-
-2. Click *Edit* from the top right corner of the sidebar.
-
+2. Click _Edit_ from the top right corner of the sidebar.
 3. Edit your travel request.
-
-4. Click *Save*.
+4. Click _Save_.
 
 Based on a specific [permission's set]({{< relref "finance/index.md#permissions" >}}), some roles are able to edit other requests even when already sent.
 
-
-### Create *more than one travel request* for the same travel category:
+### Create _more than one travel request_ for the same travel category:
 
 {{< img-center src="/uploads/2020/12/21/new_flight_category.gif" >}}
 
 1. Open a travel request from the list or, if you are already in the sidebar, open an existing travel category request.
-
 2. Hover with the mouse on the name of the travel category, on the top of the sidebar.
-
 3. Click "+" to create a new travel request for the same travel catgory
-
 4. Insert details.
-
-5. Click *Save*. 
-
-6. Your request will be added to the list of travel requests.  
-
+5. Click _Save_.
+6. Your request will be added to the list of travel requests.
 
 ### Send a travel request:
 
-1. Click the button *Send*.
-
+1. Click the button _Send_.
 2. Choose a recipient for the request. To insert one or more email addresses as recipients head to the setting page.
-
 3. The recipient will receive an email with a link to your travel request.
-
 4. Travel request will be pending until the travel office accepts and confirms your request.
-
 
 ### Insert costs and upload a reservation for a travel request:
 
-When a travel request has booked, you might attach the reservation file to the travel request. 
+When a travel request has booked, you might attach the reservation file to the travel request.
 
-1. Head back to the travel request email by searching for the references of the email object (i.e. user name, project name, business unit).
-
-2. Click the button *Take me there*.
-
-3. Open the travel request.
-
-4. Access to the travel category (i.e. train, flight, accommodation) for further details. 
-
-5. Scroll down to the "Travel Office" section at the bottom. 
-
-6. Insert the cost of travel or accomodation
-
-7. Specify a payment method (if needed)  
-
-8. Upload reservations or travel tickets. 
-
-9. Repeat steps 5 to 8 for each of the travel categories that has a travel request.
-
-10. Click *Save* on the top right corner of the sidebar.
-
+ 1. Head back to the travel request email by searching for the references of the email object (i.e. user name, project name, business unit).
+ 2. Click the button _Take me there_.
+ 3. Open the travel request.
+ 4. Access to the travel category (i.e. train, flight, accommodation) for further details.
+ 5. Scroll down to the "Travel Office" section at the bottom.
+ 6. Insert the cost of travel or accomodation
+ 7. Specify a payment method (if needed)
+ 8. Upload reservations or travel tickets.
+ 9. Repeat steps 5 to 8 for each of the travel categories that has a travel request.
+10. Click _Save_ on the top right corner of the sidebar.
 11. When all the reservations are completed and uploaded, click "Submit reservation".
-
 12. An email with the booking confirmation will be sent to the person who made the travel request.
 
 Who made the travel request will receive a booking confirmation email, with the link to download booking and reservation materials.
 
-
 ### Download travel bookings and reservations:
 
-If you received a travel booking confirmation email you might be able to download your travel ticket or reservation. 
+If you received a travel booking confirmation email you might be able to download your travel ticket or reservation.
 
-Only circled travel categories (view image below) have reservations or tickets available to download. 
+Only circled travel categories (view image below) have reservations or tickets available to download.
 
 {{< img-center src="/uploads/2021/01/07/travel_booked.png" >}}
 
@@ -328,29 +285,23 @@ Click on the travel category icon and choose the files you want to download.
 or
 
 1. Open the travel request's details.
-
 2. Open the category of travel requested.
-
 3. Scroll down to the bottom and download the attached files.
-
 4. Have a good journey!
 
 ### Download a spreadsheet with the list of travel requests:
 
 1. Click on "Download data".
-
 2. Choose if you want to download all data or just a list of requests belonging to a time range.
-
 3. (Segment) Select the time range you want collect data from.
-
 4. Click on "Email me".
 
 ### Permissions
 
 Based on different permission sets, a specific role can:
-edit and view requests made by other users in the company. Find these requests in the section *Others*.
+edit and view requests made by other users in the company. Find these requests in the section _Others_.
 
-Project Managers will be able to view and edit travel requests made by other users only if linked to projects they are managing. 
+Project Managers will be able to view and edit travel requests made by other users only if linked to projects they are managing.
 
 Permission "edit sent" enables the user to insert costs, edit and reservation files to requests that have been already sent to a travel office.
 
