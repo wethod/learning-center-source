@@ -475,3 +475,17 @@ Navigation: Insights > People > Demographics
 * **Age distribution**: (in units) this chart shows the age distribution and its average trend in your company. To better digest this information, Wethod divides the population belonging to a given set of age ranges: less than 20 years old, 20-29, 30-39, 49-49, 50-59, and more than 60 years old. The current quarter/year is still considered as a forecast, therefore it is represented in low opacity compared to the past quarters/years.
 * **Tag charts**: (in units) this chart(s) show(s) tags demographics which vary depending on your company’s preference. To add tags to a team member head to the [Team settings]({{< relref "settings/index.md#team" >}}), choose a tag category name and add tag names to team members. The current quarter/year is still considered as a forecast, therefore it is represented in low opacity compared to the past quarters/years.
 * **Business units**: (in units) this chart shows the business unit demographics of your team. The current quarter/year is still considered as a forecast, therefore it is represented in low opacity compared to the past quarters/years.
+
+### Chargeability
+
+This page gives an overview on the average chargeability – amount of hours worked on profitable projects – of each user level and team member respectively in one year (quarterly), in three or five years.
+
+Navigation: Insights > People > Chargeability
+
+On the left you find a list of all the user levels in you company. 
+For each fo them, wethod gives an overview of the average chargeability and its quarterly or yearly trend compared to their target. 
+
+* **Set a chargeability target**: An orange dashed line represents the chargeability target which can be set specifically for each user level from the [company settings]({{< relref "settings/index.md#company" >}})
+
+Click on a single user level and wethod shows an overview of the average chargeability and its trend of all the team members belonging to the selected user level, all time or for a certain period of time.
+
