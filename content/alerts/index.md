@@ -271,3 +271,15 @@ This alert means that you have created an intercompany task but have not sent th
 This alert means that you have a pending intercompany request. All intercompany tasks must be accepted to correctly calculate the total revenues of the company.
 
 *How to solve it?* Accept the intercompany request by linking it to the correct project. You have received the invitation via email, or you can directly click the alert.
+
+### Missing project's brief
+
+This alert means that your project lacks of a brief. What are the customer needs? What problem(s) should the team resolve? 
+
+*How to solve it?* Head to the project's canvas and drop just a few lines about the customer needs in the widget "Brief". Everyone in your team will be on the same page.
+
+### Missing project's concept
+
+This alert means that your project has already an approved budget but lacks of a concept. What's the project's proposal? Any ideas?
+
+*How to solve it?* Head to the project's canvas and drop just a few lines about the project's proposal in the widget "Concept". Share with your team these great ideas!
