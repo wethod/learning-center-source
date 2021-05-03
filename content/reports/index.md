@@ -483,9 +483,9 @@ This page gives an overview on the average chargeability – amount of hours wor
 Navigation: Insights > People > Chargeability
 
 On the left you find a list of all the user levels in you company. 
-For each fo them, wethod gives an overview of the average chargeability and its quarterly or yearly trend compared to their target. 
+For each of them, wethod gives an overview of the average chargeability by quarter or by year along with its negative (red) or positive (green) trend compared to their target. 
 
 * **Set a chargeability target**: An orange dashed line represents the chargeability target which can be set specifically for each user level from the [company settings]({{< relref "settings/index.md#company" >}})
 
-Click on a single user level and wethod shows an overview of the average chargeability and its trend of all the team members belonging to the selected user level, all time or for a certain period of time.
+Click on a single user level and wethod shows an overview of the average chargeability and its trend of all the team members who belonged to the selected user level ever or just for a specific period of time.
 
