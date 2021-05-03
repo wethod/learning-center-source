@@ -487,5 +487,4 @@ For each of them, wethod gives an overview of the average chargeability by quart
 
 * **Set a chargeability target**: An orange dashed line represents the chargeability target which can be set specifically for each user level from the [company settings]({{< relref "settings/index.md#company" >}})
 
-Click on a single user level and wethod shows an overview of the average chargeability and its trend of all the team members who belonged to the selected user level ever or just for a specific period of time.
-
+Click on a single user level on the left and wethod shows an overview of the average chargeability and its trend of all the team members who belonged to the selected user level ever or just for a specific period of time.
