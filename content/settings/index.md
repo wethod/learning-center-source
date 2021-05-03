@@ -39,7 +39,8 @@ You can assign up to two **tags** to each teammate, use these tags to create gro
 
 Here you can configure your company by setting:
 
-* **User levels**: each one of your collaborators has a level which defines his daily cost to the company and the price you want to sell a day of his work to the clients. This way you can define clusters of employees like intern, junior, senior and so on
+* **User levels**: each one of your collaborators has a level which defines his daily cost to the company and the price you want to sell a day of his work to the clients. This way you can define clusters of employees like intern, junior, senior and so on. For each user level you can set a **chargeability target** – expressed in percentage – meaning as the amount of hours people belonging to a specific user level should work on profitable projects.
+
 * **Job Order Categories**: here you can add the categories for your projects, each category needs at least a name and a color. You can change the categories' sort order by simply drag and dropping them. For each category you can set some options:
   * **Chargeable**: the projects in this category are billable
   * **Everybody can plan**: the projects in this category can be planned by everybody, not only by its pm or account
