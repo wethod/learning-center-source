@@ -274,7 +274,7 @@ This alert means that you have a pending intercompany request. All intercompany 
 
 ### Missing project's brief
 
-This alert means that your project lacks of a brief. What are the customer needs? What problem(s) should the team resolve? 
+This alert means that your project lacks of a brief. What are the client needs? What problem(s) should the team resolve? 
 
 *How to solve it?* Head to the project's canvas and drop just a few lines about the customer needs in the widget "Brief". Everyone in your team will be on the same page.
 
