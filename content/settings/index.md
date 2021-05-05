@@ -110,6 +110,10 @@ To create a new role:
 2. Assign a name to the newly created role;
 3. Click the "**save**" button.
 
+{{< note title="Note" >}}
+**You cannot create two roles with the same name.**
+{{< /note >}}
+
 ## Profile
 
 A place where you can introduce yourself to the people of your team.
