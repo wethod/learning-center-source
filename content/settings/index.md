@@ -35,6 +35,14 @@ You can assign up to two **tags** to each teammate, use these tags to create gro
 
 {{< img-center src="/uploads/2017/11/02/settings-team.png">}}
 
+{{< note title="Note" >}}
+**Only super users can assign "super user" role.**
+
+**Only super users can edit other super users' role.**
+
+**If there's only one super user left, you cannot change its role.**
+{{< /note >}}
+
 ## Company
 
 Here you can configure your company by setting:
@@ -99,6 +107,12 @@ Here you can set permissions for the various user's role:
 * **Header**: which section of WETHOD are available;
 * **Reports**: which sections of *Reports *are available;
 * **Settings**: who can access _Settings_.
+
+{{< note title="Note" >}}
+**Only super users can access Permissions page.**
+
+**Super user settings' permissions cannot be changed.**
+{{< /note >}}
 
 _Here the word "other" means "of his/her teammates". For example: in the budget table, "view other" means "view his/her teammates budget"._
 
