@@ -498,5 +498,7 @@ The latters refer to the period of time in which the team member belonged to the
 
 When you select "All" wethod shows a list of all team members with their overall chargeability trend.
 
+All team members' list are sortable by the average chargeabilty.
+
 * **Set a chargeability target**: An orange dashed line represents the chargeability target which can be set specifically for each user level from the [company settings]({{< relref "settings/index.md#company" >}})
 
