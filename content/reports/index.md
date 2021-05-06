@@ -47,26 +47,30 @@ Here are listed all the [orders]({{< relref "finance/index.md#orders" >}}) and [
 
 Here is shown the trend of various [budget's]({{< relref "budget/index.md" >}}) voices for the project:
 
-* **Revenues**: the project's final net price;
-* **Internal Cost**;
-* **External Cost**: the sum of all external costs, travels and expenses excluded;
-* **Travels**;
-* **Expenses**;
-* **Gross Margin**: the difference between final net price and costs (either internal and external);
-* **Wasted**: the wasted money, which is the sum of the wasted hours multiplied by the cost of their [levels]({{< relref "settings/index.md#company" >}});
-* **Net Margin**: the difference between gross margin and wasted.
+* **Revenues**: the project's final net price
+* **Internal Cost**: budget's hours cost
+* **External Cost**: the sum of all budget's external costs, travels and expenses excluded
+* **Travels**: external costs related to "Travels" budget's task
+* **Expenses**: external costs related to "Expenses" budget's task
+* **Gross Margin**: the difference between final net price and costs (either internal and external)
+* **Wasted**: the wasted money, which is the sum of the wasted hours multiplied by the cost of their [levels]({{< relref "settings/index.md#company" >}})
+* **Net Margin**: the difference between gross margin and wasted
 
 For each indicator you can see its value for:
 
-* The **baseline**: first approved budget's version & current progress;
-* The **forecasts**: last approved budget's version (a.k.a. current version) & current progress;
-* The **projected**: last approved budget's version & progress at 100%;
-* The **delta vs baseline**: difference between projected and baseline;
-* The **delta vs forecast**: difference between projected and forecast.
+* The **baseline**: first approved budget's version & current progress
+* The **forecasts**: last approved budget's version (a.k.a. current version) & current progress
+* The **projected**: last approved budget's version & progress at 100%. Here **internal cost** comes from compiled timesheets
+* The **delta vs baseline**: difference between projected and baseline, this tells you how the project would be if you had not changed the first budget version
+* The **delta vs forecast**: difference between projected and forecast, this gives you an idea of how the project will end if you stick to the current budget version
 
-The grey percentage under _margin_ refers to the _revenues_.
+The grey percentage under _margin_ can be read as margin against revenues.
 
-{{< img-center src="/uploads/2017/06/12/report-economics.png" >}}
+{{< note title="Note" >}}
+**If project is over, projected external costs comes from sent orders and projected travels comes from  [travels]({{< relref "finance/index.md#travels" >}})'s costs**
+{{< /note >}}
+
+{{< img-center src="/uploads/2021/05/06/economics-new.png" >}}
 
 ### Groupwide Economics
 
