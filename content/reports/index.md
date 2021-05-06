@@ -491,9 +491,9 @@ Navigation: Insights > People > Chargeability
 On the left you find a list of all the user levels in your company. 
 For each of those, wethod gives an overview of the average chargeability by quarter or by year. It also shows if the average chargeability is negative (red) or positive (green) compared to their target. 
 
-If you click on a user level from the list on the left, wethod shows all team members belonging to (or that belonged to) the selected user level.
+If you click on a user level from the list on the left, wethod shows all the team members belonging to (or that belonged to) the selected user level.
 
-For each team member is showed the average chargeability and its trend. 
+For each team member is shown the average chargeability and its trend. 
 The latters refer to the period of time in which the team member belonged to the selected user level.
 
 When you select "All" wethod shows a list of all team members with their overall chargeability trend. 
