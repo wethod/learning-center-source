@@ -504,24 +504,23 @@ All team members' list are sortable by the average chargeabilty.
 
 ### Kudos
 
-This page gives an overview on the average kudos – votes received as part of a review – of each criterion and team member or pm respectively in one year (quarterly), in three or five years.
+This page gives an overview on the average kudos – votes received as part of a review – of each criterion as team member or pm respectively in one year (quarterly), in three or five years.
 Changing the selected period will affect the "As Team Member" and "As Pm" tables both.
 
 Navigation: Insights > People > Kudos
 
-{{< img-center src="/uploads/2021/05/06/people_chargeability.png" >}}
+{{< img-center src="/uploads/2021/05/13/screen-shot-2021-05-13-at-19-17-47.png" >}}
 
 On the left you find a list of all team's criteria in your company. 
+If you click on a criterion from the list, wethod shows all the users that have received a review for that criterion.  
 For each of those, wethod gives an overview of the average kudos by quarter or by year.  
 It also shows if the average kudos has been decresing over time (red) or not (green) compared to the highest value. 
-
-If you click on a criterion from the list on the left, wethod shows all the users that received reviews for that criterion.  
-Please mind that users that haven't received the minimum amount of reviews required for your company are hidden from the criterion list.
-
-For each team member or pm the average vote and its trend are shown. Additionally the number of projects and / or reviews these kudos refer to are listed.  
-The projects value represents the number of projects the user's has taken part to where he has been reviewed for the selected criterion.
-The reviews value is the total number of kudos the user has received for the criterion selected on the left.
-
 The users' list is sortable by the average kudos vote.
+Please mind that users that haven't received the minimum amount of reviews required for your company are hidden from the criterion list.  
+
+For each user the average vote and its trend are shown.  
+Additionally the following values are listed:  
+ - **Projects**: Represents the number of projects for which the user has received a review, according to the selected criterion.  
+ - **Reviews**: The total of kudos the user has received for the criterion selected on the left.
 
 * **Enable the project and team review module**: Turn on the project and team review module in order to view the kudos section. To start collecting reviews about projects and people working on them you should enable the module from the [company settings]({{< relref "settings/index.md#company" >}}). There you can also set the minimum number of unique reviewers to collect feedback from before showing results.
