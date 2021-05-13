@@ -501,3 +501,25 @@ When you select "All" wethod shows a list of all team members with their overall
 All team members' list are sortable by the average chargeabilty.
 
 * **Set a chargeability target**: An orange dashed line represents the chargeability target which can be set specifically for each user level from the [company settings]({{< relref "settings/index.md#company" >}})
+
+### Kudos
+
+This page gives an overview on the average kudos – votes received as part of a review – of each criterion and team member or pm respectively in one year (quarterly), in three or five years.
+Changing the selected period will affect the "As Team Member" and "As Pm" tables both.
+
+Navigation: Insights > People > Kudos
+
+{{< img-center src="/uploads/2021/05/06/people_chargeability.png" >}}
+
+On the left you find a list of all team's criteria in your company. 
+For each of those, wethod gives an overview of the average kudos by quarter or by year.  
+It also shows if the average kudo has been decresing over time (red) or not (green) compared to the previous one. 
+
+If you click on a criterion from the list on the left, wethod shows all the users that received reviews for that criterion.  
+Please mind that users that haven't received the minimum amount of reviews required for your company are hidden from the criterion list.
+
+For each team member or pm the average vote and its trend are shown. Additionally the number of projects and / or reviews these kudos refer to are listed.
+
+The users' list is sortable by the average kudos vote.
+
+* **Enable the project and team review module**: Turn on the project and team review module in order to view the kudos section. To start collecting reviews about projects and people working on them you should enable the module from the [company settings]({{< relref "settings/index.md#company" >}}). There you can also set the minimum number of unique reviewers to collect feedback from before showing results.
