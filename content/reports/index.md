@@ -513,12 +513,14 @@ Navigation: Insights > People > Kudos
 
 On the left you find a list of all team's criteria in your company. 
 For each of those, wethod gives an overview of the average kudos by quarter or by year.  
-It also shows if the average kudo has been decresing over time (red) or not (green) compared to the previous one. 
+It also shows if the average kudos has been decresing over time (red) or not (green) compared to the highest value. 
 
 If you click on a criterion from the list on the left, wethod shows all the users that received reviews for that criterion.  
 Please mind that users that haven't received the minimum amount of reviews required for your company are hidden from the criterion list.
 
-For each team member or pm the average vote and its trend are shown. Additionally the number of projects and / or reviews these kudos refer to are listed.
+For each team member or pm the average vote and its trend are shown. Additionally the number of projects and / or reviews these kudos refer to are listed.  
+The projects value represents the number of projects the user's has taken part to where he has been reviewed for the selected criterion.
+The reviews value is the total number of kudos the user has received for the criterion selected on the left.
 
 The users' list is sortable by the average kudos vote.
 
