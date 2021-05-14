@@ -504,7 +504,7 @@ All team members' list are sortable by the average chargeabilty.
 
 ### Kudos
 
-This page gives an overview on the average kudos – votes received as part of a review – of each criterion as team member or pm respectively in one year (quarterly), in three or five years.
+This page gives an overview on the average [kudos]({{< relref "settings/index.md#kudos" >}}) – votes received as part of a review – of each criterion as team member or pm respectively in one year (quarterly), in three or five years.
 Changing the selected period will affect the "As Team Member" and "As Pm" tables both.
 
 Navigation: Insights > People > Kudos
@@ -512,7 +512,7 @@ Navigation: Insights > People > Kudos
 {{< img-center src="/uploads/2021/05/13/screen-shot-2021-05-13-at-19-17-47.png" >}}
 
 On the left you find a list of all team's criteria in your company. 
-If you click on a criterion from the list, wethod shows all the users that have received a review for that criterion.  
+If you click on a criterion from the list, wethod shows all the users that have received a [review]({{< relref "pipeline/index.md#project-team-review" >}}) for that criterion.  
 For each of those, wethod gives an overview of the average kudos by quarter or by year.  
 It also shows if the average kudos has been decresing over time (red) or not (green) compared to the highest value. 
 The users' list is sortable by the average kudos vote.
