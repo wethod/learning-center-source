@@ -6,14 +6,12 @@ weight: "92"
 ---
 ## Overview
 
-In this section, you can see the yearly external cost distribution of all your projects. The monthly external cost is calculated as follow:
+In this section you can see the yearly distribution for all your projects' external costs. The amount ordered by projects is dispalyed month by month based on the period they cover, in particular:
 
-Ordered value is distributed on each month based on the period they cover, in particular:
+* Orders' value follows the orders' "Period of Supply", for example: an order of 3.000 with a period from January to June will weigh 500 on each month from January to June
+* Travels' value follows the departure and return date of each Travel (if the travel is a one-way trip then all costs will weigh on the departure date). 
 
-* Orders value follow the "Period of Supply", for example: an Order of 3k with the period from January to June will weigh 500 each month from January to June.
-* Travels value follows the departure and return date of each Travel (if the travel is a one-way trip all costs will go on the departure date). 
-
-[External costs](http://support.wethod.com/budget/index/) that are not covered by Orders or Travels are distributed follows the [production plan](http://support.wethod.com/finance/index/#production-plan) of each project, for example: if a project has a value of 10K with 3K planned to be produced in January and 7K planned to be produced in February, we can also say that you planned to order 30% in January and 70% in February. So the remaining external costs will contribute by 30% to January’s external costs and by 70% to February’s external costs. 
+[External costs](http://support.wethod.com/budget/index/) that are not covered by Orders or Travels are distributed following the [production plan](http://support.wethod.com/finance/index/#production-plan) of their project, for example: if a project has a value of 10.000 with 3.000 planned to be produced in January and 7.000 planned to be produced in February, we can also say that you planned to order 30% in January and 70% in February. So the remaining external costs will contribute by 30% to January’s external costs and by 70% to February’s external costs. 
 
 {{< note title="Note" >}}
 **For a completed project (that is a project with last project status equal to 0) only ordered value is considered. This way you can have a more accurate look at the costs implied in your projects.**
@@ -21,9 +19,9 @@ Ordered value is distributed on each month based on the period they cover, in pa
 
 Three important indicators are given in the first three rows:
 
-* **Total External Cost**: the sum of all your projects' external costs, per month;
+* **Total External Cost**: the sum of all your projects' external costs, per month
 
-* **[Bluesky](http://support.wethod.com/glossary/index/#bluesky)**: here you can insert only one percentage. This indicates, for each month of the current year, the percentage of that month's revenues' bluesky to see as external costs' bluesky. If you know that, for your projects, the external costs are always around the 25% of the project's revenues so you can insert 25% in the External Costs' bluesky. This way the 25% of the Revenues' bluesky will be added as External Costs' bluesky, helping balancing [Profit & Loss](http://support.wethod.com/profit-loss/index/). For example: if January's revenues' bluesky is 4 K and external costs' bluesky is 25%, then a 1 K external costs' bluesky will be automatically added to January;
+* **[Bluesky](http://support.wethod.com/glossary/index/#bluesky)**: here you can insert only one percentage. This indicates, for each month of the current year, the percentage of that month's revenues' bluesky to see as external costs' bluesky. If you know that the external costs, for your projects, are generally around the 25% of the project's revenues so you can insert 25% in the External Costs' bluesky. This way the 25% of the Revenues' bluesky will be added as External Costs' bluesky, helping balancing [Profit & Loss](http://support.wethod.com/profit-loss/index/). For example: if January's revenues' bluesky is 4 K and external costs' bluesky is 25%, then a 1 K external costs' bluesky will be automatically added to January;
 
 * **Delta Revenues Target**: similarly to Bluesky, here you can set the percentages of [delta revenue target](http://support.wethod.com/revenues/index/) that needs to be considered as external cost each month.
 
