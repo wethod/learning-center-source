@@ -524,3 +524,33 @@ Additionally the following values are listed:
  - **Reviews**: The total of kudos the user has received for the criterion selected on the left.
 
 * **Enable the project and team review module**: Turn on the project and team review module in order to view the kudos section. To start collecting reviews about projects and people working on them you should enable the module from the [company settings]({{< relref "settings/index.md#company" >}}). There you can also set the minimum number of unique reviewers to collect feedback from before showing results.
+
+### Knowledge
+
+This section lets you know your team and their strengths better, providing an overview of the knowledge of the active population in your company.\
+You can find useful information about the languages spoken within your company, and all the skills and interests of your team.
+
+Navigation: Insights > People > Knowledge
+
+**Languages**: the table shows the list of languages spoken within your company, with the percentage distribution of each one.\
+When you select a language, by clicking on it, you can get an overview of the team members who speak it, from the most confident to the novice ones.\
+For each person, it is therefore shown the level of experience in the selected language.
+
+{{< img-center src="/uploads/2021/06/01/languages_knowledge.gif" >}}
+
+**Skills**: here you can find a complete list of all the skills your colleagues have developed.\
+By clicking on a skill you will see a list of the team members who have that particular one.\
+Note that when you turn on more than one skill you will only see the people that developed all the selected abilities.\
+You can also turn on the filter ‘All’: this lets you see the entire team at once.\
+For each person you can see an overview of acquired skills, giving priority to the ones selected from the list on the left side.
+
+{{< img-center src="/uploads/2021/06/01/skills_knowledge.gif" >}}
+
+**Interests**: here you can find a complete list of all the interests your colleagues have.\
+By clicking on an interest you will see a list of the team members that are into that particular one.\ Note that when you turn on more than one interest you will only see the people that chose all the selected topics.\
+You can also turn on the filter ‘All’: this lets you see the entire team at once.\
+For each person you can see an overview of his interests, giving priority to the ones selected from the list on the left side.
+
+{{< img-center src="/uploads/2021/06/01/interests_knowledge.gif" >}}
+
+* To set you [skills]({{< relref "settings/index.md#skills" >}}), [interests]({{< relref "settings/index.md#interests" >}}) and [languages]({{< relref "settings/index.md#languages" >}}), go to your profile.
