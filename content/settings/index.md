@@ -149,7 +149,13 @@ In which way people can contact you? Add a phone number, a Skype username and ev
 
 What are your secret weapons? When adding a skill you can pick from the list a skill already used from another person of your team, otherwise don't be afraid to create a new one.
 
-_If a skill is used by nobody, it will automatically be deleted._
+_When a skill is not used anymore, it will automatically be deleted._
+
+### Interests
+
+Got any hobby or passion? When adding an interest you can pick from the list of interests already used from another person of your team, otherwise don't be afraid to create a new one.
+
+_When an interest is not used anymore, it will automatically be deleted._
 
 ### Short Bio
 
