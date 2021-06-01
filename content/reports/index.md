@@ -417,7 +417,7 @@ Navigation: Insights > Briefing > Weekly
 
 Find below a list of the insights available to read from each _Weekly Briefing._
 
-* [**Production value**]({{< relref "glossary/index.md#production-value" >}})**,** compared with its average weekly target. The value is also compared with the one registered the same week last year. An average weekly target is basically the yearly budget/forecast divided by the number of weeks in a year.
+* [**Production value**]({{< relref "glossary/index.md#production-value" >}})**,** compared with its average weekly target. The value is also compared with the one registered the same week last year. An average weekly target is basically the yearly budget/forecast divided by the number of weeks in a year. A dynamic weekly target is the yearly budget/forecast minus the production value up to the selected week divided by the number of week till the year end.
 * Projects that produced the most value.
 * **Projects started** and projects that **ended** last week.
 * **Sales trends**, compared with their weekly target.
