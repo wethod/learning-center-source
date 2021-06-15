@@ -177,28 +177,104 @@ This is particularly useful when you decide to use a job order category with the
 
 Find this section in Projects > Wallet > Suppliers
 
-In this section you can view all your suppliers, create new ones or browse by name, email, status or tags.
+In this section you can view all your suppliers and create new ones.
 
-{{< img-center src="/uploads/2020/10/09/supplier_list.png" >}}
-
-{{< img-center src="/uploads/2020/10/09/supplier_list_cassetto.png" >}}
+{{< img-center src="/uploads/2021/06/15/supplier-list.png" >}}
 
 To add a new supplier:
 
-1. Click on the top left "**New supplier**" button and a sidebar will open;
-2. Compile the supplier's empty fields inside the sidebar;
-3. Assign tags to catalogue the supplier with keywords (i.e. expertise, industry or geography) by selecting them from the list in the field "Tag". To add tags to the list go to the  ["Supplier Settings"]({{< relref "settings/index.md#suppliers-settings" >}}) page or go from the navigation menu to Settings > Company > Suppliers.
-4. Click on the "**save**" button.
+1. Click on the top left "**New supplier**" button and a sidebar will open
+2. Compile the supplier's empty fields inside the sidebar
+3. Click on the "**save**" button
 
-To filter the list with multiple search queries, insert the keywords between commas:
-
-{{< img-center src="/uploads/2020/10/09/tag_search_supplier.gif" >}}
+{{< note title="Note" >}}
+**You can only assign tags which was previously created in the ["Supplier Settings"]({{< relref "settings/index.md#suppliers-settings" >}}). Tags can be useful to catalogue the supplier with keywords (i.e. expertise, industry or geography)**
+{{< /note >}}
 
 ### Supplier's status
 
-It is possible to add a status that determines whether a supplier is eligible for contracts or not. To enable this feature and set your preferences on supplier's status, head to Settings > Company > Suppliers or learn more from ["Supplier Settings"]({{< relref "settings/index.md#suppliers-settings" >}}).
+It is possible to add a status that determines whether a supplier is available for contracts or not. To enable this feature and set your preferences on supplier's status, head to Settings > Company > Suppliers or learn more from ["Supplier Settings"]({{< relref "settings/index.md#suppliers-settings" >}}).
 
-**Remember: Orders can be sent to suppliers that are eligible for contract only.**
+{{< note title="Note" >}}
+**Orders can be sent to suppliers that are eligible for contract only.**
+{{< /note >}}
+
+### Advanced Search
+
+By default you can search suppliers by name, email, status or tags just by typing in the search bar.
+
+If you need something more, you can use these _search query_:
+
+<table>
+    <thead>
+        <tr>
+            <th>Description</th>
+            <th>Query</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Suppliers which get at least one order for a project with client's name containing "acme"</td>
+            <td><i>client:acme</i></td>
+        </tr>
+        <tr>
+            <td>Suppliers which get at least one order for a project which name contains "new site"</td>
+            <td><i>project:new site</i></td>
+        </tr>
+        <tr>
+            <td>Suppliers with rating greater than 2</td>
+            <td><i>rating:2+</i></td>
+        </tr>
+        <tr>
+            <td>Suppliers with rating lower than 3</td>
+            <td><i>rating:3-</i></td>
+        <tr>
+            <td>Suppliers with rating equal to 4</td>
+            <td><i>rating:4</i></td>
+        </tr>
+    </tbody>
+</table>
+
+{{< note title="Note" >}}
+**You can search by status only if it's enabled.**
+
+**You can search by rating only if you have permissions to see it.**
+{{< /note >}}
+
+{{< img-center src="/uploads/2021/06/15/supplier-special-search.png" >}}
+
+### Supplier details
+
+Each supplier's row has got an arrow button which you can click to see supplier details.
+
+Here you can: 
+
+*	Edit details (from the sidebar)
+*	See all projects for which supplier get at least one order
+*	See, add and edit **supplier ratings**
+
+A rating is composed by: 
+
+*	A 1 to 5 numberical value, expressed as an amount of stars (required)
+*	A project to which rating refers (required)
+*	A comment to explain the rating value (not required)
+
+Rating permissions can be managed from the [permissions section]({{< relref "settings/index.md#permissions" >}}), here you can express:
+
+*	Which roles can see rating related thing
+*	Which roles can create and manage their own ratings
+* 	Which roles can delete others ratings
+
+{{< img-center src="/uploads/2021/06/15/supplier-detail.png" >}}
+
+{{< img-center src="/uploads/2021/06/15/supplier-sidebar.png" >}}
+
+{{< img-center src="/uploads/2021/06/15/supplier-rating.png" >}}
+
+From sidebar you can try to delete a supplier but, if at least an order exist for it, you need to transfer all its orders to another supplier available for contract. This process is simplified by a modal that shows you all the orders linked to the supplier you're deleting and let you pick another supplier.
+
+{{< img-center src="/uploads/2021/06/15/supplier-move-orders.png" >}}
+
 
 ## Travels
 
