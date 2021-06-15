@@ -286,6 +286,7 @@ This alert means that your project has already an approved budget but lacks of a
 
 ### Missing project's type
 
-This alert means that your project lacks a Project Type. A Project Type is required for all projects or only for chargeable ones according to your alert settings!
+This alert means that your project lacks a Project Type. A Project Type is required for all projects or only for chargeable ones according to your alert settings.
+Visit the [Alerts Engine]({{< relref "settings/index.md#alerts-engine" >}}) section to change the projects that require a Project Type.
 
 *How to solve it?* Head to the project's pipeline and assign a Project Type.
