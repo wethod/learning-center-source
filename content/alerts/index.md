@@ -283,3 +283,9 @@ This alert means that your project lacks of a brief. What are the client needs? 
 This alert means that your project has already an approved budget but lacks of a concept. What's the project's proposal? Any ideas?
 
 *How to solve it?* Head to the project's canvas and drop just a few lines about the project's proposal in the widget "Concept". Share with your team these great ideas!
+
+### Missing project's type
+
+This alert means that your project lacks a Project Type. A Project Type is required for all projects or only for chargeable ones according to your alert settings!
+
+*How to solve it?* Head to the project's pipeline and assign a Project Type.
