@@ -2,6 +2,7 @@
 date: 2017-06-13T16:08:29.000+00:00
 title: Alerts
 weight: "21"
+draft: true
 
 ---
 ## Overview
@@ -290,3 +291,8 @@ This alert means that your project lacks a Project Type. A Project Type is requi
 Visit the [Alerts Engine]({{< relref "settings/index.md#alerts-engine" >}}) section to change the projects that require a Project Type.
 
 *How to solve it?* Head to the projects list and assign a Project Type.
+
+### Won Project But Missing Files
+This alert means that your project is won (probability 90% or more) and has a "chargeable" Job Order Category but has no files attached.
+
+*How to solve it?* Upload at least one document, what about starting with the proposal or the contract?
