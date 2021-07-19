@@ -82,94 +82,94 @@ If you need to search for a project, you just need to type some keywords on the 
 If you need a more specific and advanced search, we offer you some _search query_ that can help you:
 
 <table>
-    <thead>
-        <tr>
-            <th>If you are looking for a project where:</th>
-            <th>Type in:</th>
-            <th>Note</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>the Name is project1</td>
-            <td><i>project:project1</i></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>the ID is 8</td>
-            <td><i>id:8</i></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>the Value is 25</td>
-            <td><i>value:25</i></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>the Job Order Category is Internal</td>
-            <td><i>joc:internal</i></td>
-            <td></td>
-        <tr>
-            <td>the Project Type is innovation</td>
-            <td><i>type:innovation</i></td>
-            <td>Use <i>type:null</i> to search for projects whitout a Project Type</td>
-        </tr>
-        <tr>
-            <td>the Probability is 50</td>
-            <td><i>prob:50</i></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>the Start Date is January 2016</td>
-            <td><i>start:0116</i></td>
-            <td>Month first</td>
-        </tr>
-        <tr>
-            <td>the End Date is December 2017</td>
-            <td><i>end:1217</i></td>
-            <td>Month first</td>
-        </tr>
-        <tr>
-            <td>the Budget Status is Draft</td>
-            <td><i>status:0</i></td>
-            <td>Available values: <b>0(draft)</b>, <b>1(approval)</b>, <b>2(approved)</b></td>
-        </tr>
-        <tr>
-            <td>the Invoice Plan Status is manual</td>
-            <td><i>plan:1</i></td>
-            <td>Available values: <b>0(auto)</b>, <b>1(manual)</b></td>
-        </tr>
-        <tr>
-            <td>the Client Name is wethodspa</td>
-            <td><i>client:wethodspa</i></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>the Client PO is 30</td>
-            <td><i>po:30</i></td>
-            <td>Use <i>po:null</i> to search for projects whitout a Client PO</td>
-        </tr>
-        <tr>
-            <td>the PM Name or Surname is Luca</td>
-            <td><i>pm:luca</i></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>the Account Name or Surname is gb</td>
-            <td><i>account:gb</i></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>the Program Name is wethod</td>
-            <td><i>program:wethod</i></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>the Metadata <i>tag</i> is dev or des </td>
-            <td><i>metadata:tag=dev,des</i></td>
-            <td></td>
-        </tr>
-    </tbody>
+<thead>
+<tr>
+<th>If you are looking for a project where:</th>
+<th>Type in:</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>the Name is project1</td>
+<td><i>project:project1</i></td>
+<td></td>
+</tr>
+<tr>
+<td>the ID is 8</td>
+<td><i>id:8</i></td>
+<td></td>
+</tr>
+<tr>
+<td>the Value is 25</td>
+<td><i>value:25</i></td>
+<td></td>
+</tr>
+<tr>
+<td>the Job Order Category is Internal</td>
+<td><i>joc:internal</i></td>
+<td></td>
+<tr>
+<td>the Project Type is innovation</td>
+<td><i>type:innovation</i></td>
+<td>Use <i>type:null</i> to search for projects whitout a Project Type</td>
+</tr>
+<tr>
+<td>the Probability is 50</td>
+<td><i>prob:50</i></td>
+<td></td>
+</tr>
+<tr>
+<td>the Start Date is January 2016</td>
+<td><i>start:0116</i></td>
+<td>Month first</td>
+</tr>
+<tr>
+<td>the End Date is December 2017</td>
+<td><i>end:1217</i></td>
+<td>Month first</td>
+</tr>
+<tr>
+<td>the Budget Status is Draft</td>
+<td><i>status:0</i></td>
+<td>Available values: <b>0(draft)</b>, <b>1(approval)</b>, <b>2(approved)</b></td>
+</tr>
+<tr>
+<td>the Invoice Plan Status is manual</td>
+<td><i>plan:1</i></td>
+<td>Available values: <b>0(auto)</b>, <b>1(manual)</b></td>
+</tr>
+<tr>
+<td>the Client Name is wethodspa</td>
+<td><i>client:wethodspa</i></td>
+<td></td>
+</tr>
+<tr>
+<td>the Client PO is 30</td>
+<td><i>po:30</i></td>
+<td>Use <i>po:null</i> to search for projects whitout a Client PO</td>
+</tr>
+<tr>
+<td>the PM Name or Surname is Luca</td>
+<td><i>pm:luca</i></td>
+<td></td>
+</tr>
+<tr>
+<td>the Account Name or Surname is gb</td>
+<td><i>account:gb</i></td>
+<td></td>
+</tr>
+<tr>
+<td>the Program Name is wethod</td>
+<td><i>program:wethod</i></td>
+<td></td>
+</tr>
+<tr>
+<td>the Metadata <i>tag</i> is dev or des </td>
+<td><i>metadata:tag=dev,des</i></td>
+<td></td>
+</tr>
+</tbody>
 </table>
 
 There are also some _search operators_, let’s have a look on them:
@@ -200,22 +200,43 @@ This search operator will find all the project whose PM is Tomas or Luca, with a
 
 ### Invoice Plan
 
-Here you can set a plan to emit invoices for the project. This section is basically a calendar with some additional information:
-
-* **Plan**: the amount you plan to invoice for a given month;
-* **Invoiced**: the amount actually invoiced for a given month. This is automatically updated each time you create an invoice for the project;
-* **Delta**: the difference between Plan and Invoiced for a given month.
-
+Here you can set a plan to emit invoices for the project.
 An invoice plan can be:
 
 * **Automatic**: an invoice is automatically planned for each project's duration month, the invoice amount is obtained by dividing project's estimate by project's duration;
 * **Manual**: you need to manually insert each amount you plan to invoice.
 
+Next to the automatic/manual button you will find the view selector with 2 different options:
+
+* **Expanded**: All months are shown, even those with no amount planned or invoiced.
+* **Compact**: Only months with planned amounts or invoices are shown.
+
+On the right side you have a recap of the total amounts you have currently invoiced, have yet to invoice and the sum of your plan amounts.
+The planned indicator helps your check that the sum of all your planned months matches the project's estimate.
+An error with additional information appears beneath it if the two mismatch.
+
+Just below you can find a calendar where every card represents a month with some additional information:
+
+* **Planned**: the amount you plan to invoice for the given month;
+* **Invoiced**: the amount actually invoiced for the given month. This is automatically updated each time you create an invoice for the project;
+* **To be invoiced**: the difference between Planned and Invoiced for the given month.
+
+While in manual mode you can also add notes to a month through the notes button.
+
+{{< img-center src="/uploads/notes-button.png"> }}
+
+{{< note title="Note" >}} When in manual mode the invoice plan is saved automatically after every change.  
+
+ **Please mind the sum of each planned month must be equal to the total planned value shown in the top right corner.**  
+
+If the values do no match the invoice plan **won't be saved** and an error message will appear warning you about the difference between the project's estimate and the amount you planned.
+{{< /note >}}
+
 You can find the invoices (listed in your plan) in the [Invoices widget](/dashboard/index/#invoices), there they're ready to be created and sent.
 
 ### Intercompany Projects
 
-If your company is part of a [group]({{< relref "group-setup/index.md" >}}) you have the possibility to connect a project to an [intercompany task]({{< relref "budget/index.md#make-a-task-intercompany" >}}), this makes it an _intercompany project_: its final net price and probability are updated to reflect the intercompany task’s external costs and intercompany task’s project’s probability.
+If your company is part of a [group\]({{< relref "group-setup/index.md" >}}) you have the possibility to connect a project to an \[intercompany task]({{< relref "budget/index.md#make-a-task-intercompany" >}}), this makes it an _intercompany project_: its final net price and probability are updated to reflect the intercompany task’s external costs and intercompany task’s project’s probability.
 
 To connect a project you firsty need to be invited, this can be done from inside a budget as [explained here]({{< relref "budget/index.md#make-a-task-intercompany" >}}). When you receive the invitation, just follow the link and select from the dropdown the project you want to connect.
 
@@ -294,7 +315,7 @@ Columns comes in different types:
 * **Member** which let you choose one or more employees from your company
 * **Milestone** which let you add an important event, with a type and a date
 
-When you add a column of type *status* or *number* you automatically get a summary below the column, for a number column you can choose which kind of summary you want to see: sum, average, min or max.
+When you add a column of type _status_ or _number_ you automatically get a summary below the column, for a number column you can choose which kind of summary you want to see: sum, average, min or max.
 
 You can re-order columns, rows and boards by simply drag and drop them where you prefer.
 
@@ -304,7 +325,7 @@ You can re-order columns, rows and boards by simply drag and drop them where you
 
 Do you hate tables? Ya they're not this kind of friendly, so what about organizing all your tasks into cards that you can move from a list to another? You can do this by switching your view from **spreadsheet** to **kanban**: your table will be transformed into a list and no row will be harmed.
 
-Lists are automagically created by pivoting all spreadsheet's rows on the first column of type *status* but don't worry, you can always usa another column of type *status*.
+Lists are automagically created by pivoting all spreadsheet's rows on the first column of type _status_ but don't worry, you can always usa another column of type _status_.
 
 To see and edit details of a card just click on it.
 
@@ -314,7 +335,7 @@ You can re-order cards and lists by simply drag and drop them where you prefer.
 
 #### Gantt
 
-Start looking at your tasks from a different point of view: all *date* and *milestone* columns are showed on the **Gantt**, this means that from here you can appreciate how all your tasks fit together.
+Start looking at your tasks from a different point of view: all _date_ and _milestone_ columns are showed on the **Gantt**, this means that from here you can appreciate how all your tasks fit together.
 
 To see and edit details of an item just click on its name.
 
@@ -337,28 +358,29 @@ Project & Team Review must be enabled from [Company Settings]({{< relref "settin
 
 ### How it works
 
-When a project has been archived, WETHOD will ask the project manager to request a review of the team members on the project. 
+When a project has been archived, WETHOD will ask the project manager to request a review of the team members on the project.
 
 {{< img-center src="/uploads/2020/06/03/review_archived.gif" >}}
 
-This feature can also be used on selected job order categories, see section [Project & Team members review settings]({{< relref "settings/index.md#company" >}}) to learn more. Pending review requests are shown in [Desk]({{< relref "desk/index.md" >}}).
+This feature can also be used on selected job order categories, see section [Project & Team members review settings\]({{< relref "settings/index.md#company" >}}) to learn more. Pending review requests are shown in \[Desk]({{< relref "desk/index.md" >}}).
 
 ### Request intermediate reviews
-Reviews can be requested any time by the project manager, or whoever has the permission to do so: 
 
-* From the [project canvas]({{< relref "pipeline/index.md#project-canvas" >}}), hit the button from the menu of actions available on the top bar of the page 
+Reviews can be requested any time by the project manager, or whoever has the permission to do so:
+
+* From the [project canvas]({{< relref "pipeline/index.md#project-canvas" >}}), hit the button from the menu of actions available on the top bar of the page
 * From the [project list]({{< relref "pipeline/index.md#projects" >}}), click on a project and head the action buttons > click "more actions" > "Request Review"
 
-
 ### Criteria
+
 Reviews are anonymous and are based on the Net Promoter Score (NPS), which is a scale that goes from 1 point to 10 points:
 
 * From **1 to 6** kudos: Not good/Not likely
 * From **7 to 8** kudos: Neutral
 * From **9 to 10** kudos: Very good/Very likely
 
-Each team member will be asked to review the project and the other members on each of the given criteria. 
-Each project manager will be asked to review the project and its team members. 
+Each team member will be asked to review the project and the other members on each of the given criteria.
+Each project manager will be asked to review the project and its team members.
 
 To add or edit criteria for the evaluation of projects and team members go to [Project & Team members review settings]({{< relref "settings/index.md#company" >}}).
 
@@ -366,7 +388,7 @@ To add or edit criteria for the evaluation of projects and team members go to [P
 **Changes to criteria are available only to next reviews, past reviews' criteria are not updated to ensure consistency.**
 {{< /note >}}
 
-You can find user's review results in the [Profile]({{< relref "settings/index.md#kudos" >}}) section, while you need to visit the [Canvas]({{< relref "pipeline/index.md#project-canvas" >}}) section to see project's review results. 
+You can find user's review results in the [Profile\]({{< relref "settings/index.md#kudos" >}}) section, while you need to visit the \[Canvas]({{< relref "pipeline/index.md#project-canvas" >}}) section to see project's review results.
 
 In order to maintain a review anonymous, you can set a minimum number of unique reviewers to collect feedback from before showing review’s results in the profile page and the project canvas. This can ben managed in [Project & Team members review settings]({{< relref "settings/index.md#company" >}}).
 
