@@ -199,6 +199,7 @@ This search operator will find all the projects of the client Luca, with value l
 This search operator will find all the project whose PM is Tomas or Luca, with a probability between 30 and 50 and a budget status which is approved.
 
 ### Invoice Plan
+{{< img-center src="/uploads/2021/07/19/invoice-plan.png">}}
 
 Here you can set a plan to emit invoices for the project.
 An invoice plan can be:
@@ -211,8 +212,8 @@ Next to the automatic/manual button you will find the view selector with 2 diffe
 * **Expanded**: All months are shown, even those with no amount planned or invoiced.
 * **Compact**: Only months with planned amounts or invoices are shown.
 
-On the right side you have a recap of the total amounts you have currently invoiced, have yet to invoice and the sum of your plan amounts.
-The planned indicator helps your check that the sum of all your planned months matches the project's estimate.
+On the right side you have a recap of the total amounts you have currently invoiced, have yet to invoice and the sum of your plan amounts.  
+The planned indicator helps your check that the sum of all your planned months matches the project's estimate.  
 An error with additional information appears beneath it if the two mismatch.
 
 Just below you can find a calendar where every card represents a month with some additional information:
@@ -220,8 +221,7 @@ Just below you can find a calendar where every card represents a month with some
 * **Planned**: the amount you plan to invoice for the given month;
 * **Invoiced**: the amount actually invoiced for the given month. This is automatically updated each time you create an invoice for the project;
 * **To be invoiced**: the difference between Planned and Invoiced for the given month.
-
-While in manual mode you can also add notes to a month through the notes button.
+* While in manual mode you can also add notes to a month through the notes button in the top right corner of the card.
 
 {{< note title="Note" >}} When in manual mode the invoice plan is saved automatically after every change.  
 
