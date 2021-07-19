@@ -223,8 +223,6 @@ Just below you can find a calendar where every card represents a month with some
 
 While in manual mode you can also add notes to a month through the notes button.
 
-{{< img-center src="/uploads/notes-button.png"> }}
-
 {{< note title="Note" >}} When in manual mode the invoice plan is saved automatically after every change.  
 
  **Please mind the sum of each planned month must be equal to the total planned value shown in the top right corner.**  
