@@ -233,7 +233,7 @@ If the values do no match the invoice plan **won't be saved** and an error messa
 You can find the invoices (listed in your plan) in the [Invoices widget](/dashboard/index/#invoices), there they're ready to be created and sent.
 
 ### Billing group
-{{< img-center src="/uploads/2021/07/30/screen-shot-2021-07-30-at-12-14-34.png">}}
+{{< img-center src="/uploads/2021/07/30/screen-shot-2021-07-30-at-12-38-05.png">}}
 
 Sometimes you want to link several projects together and handle the invoice plan from a single central project.  
 This can be done using a billing group.  
@@ -250,7 +250,7 @@ Please mind that not all projects can be added to a billing group, in fact to be
 Once your new billing group is created you can access the group invoice plan from the master project invoice plan page.  
 The invoice plan total it's made by the sum of all projects totals and you should plan accordingly.
 
-{{< img-center src="/uploads/2021/07/30/screen-shot-2021-07-30-at-12-15-06.png">}}
+{{< img-center src="/uploads/2021/07/30/screen-shot-2021-07-30-at-12-38-15.png">}}
 
 Trying to access the invoice plan of a linked project will result in an error since now every operations should be performed from the master project.  
 For example if you wish to generate a new invoice for a project that is part of a group you have to assign the invoice to the master project.  
