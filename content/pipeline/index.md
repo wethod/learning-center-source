@@ -234,25 +234,33 @@ You can find the invoices (listed in your plan) in the [Invoices widget](/dashbo
 
 ### Billing group
 {{< img-center src="/uploads/2021/07/30/screen-shot-2021-07-30-at-12-14-34.png">}}
+
 Sometimes you want to link several projects together and handle the invoice plan from a single central project.  
 This can be done using a billing group.  
 
 To create a new billing group visit the invoice plan of a project you wish to link and click on the "Delegate invoice plan" button.  
 Now select a project that will be used as the billing group master.
-Please mind that not all projects can be added to a billing group, in fact to be part of a billing group a project must:  
+Please mind that not all projects can be added to a billing group, in fact to be part of a billing group a project must:
+
 * **Not be "Invoice Driven"**: The project job order category should not be marked as "Invoice driven budget".
 * **Not have any invoices**.
 * **Not have a multicurrency budget**. At the moment we only support projects using the master currency.
 * **Not be archived**.
+
 Once your new billing group is created you can access the group invoice plan from the master project invoice plan page.  
-The invoice plan total it's made by the sum of all projects totals and you should plan accordingly.  
+The invoice plan total it's made by the sum of all projects totals and you should plan accordingly.
+
 {{< img-center src="/uploads/2021/07/30/screen-shot-2021-07-30-at-12-15-06.png">}}
-Trying to access the invoice plan of a linked project will result in an error since now every operations should be performed from the master project.
+
+Trying to access the invoice plan of a linked project will result in an error since now every operations should be performed from the master project.  
 For example if you wish to generate a new invoice for a project that is part of a group you have to assign the invoice to the master project.  
 If you wish to unlink a project from a group you can either:
- * Access the master project invoice plan -> click on the "Show linked projects" button -> Click on the "unlink" button next to the name of the project you wish to unlink.
- * Access the linked project invoice plan -> Click on the "Revoke delagation" button.
-Beware that since you have removed a project from the group the total will change. If you master invoice plan was set on "manual" mode you will have to adjust your plan to reflect the changes.
+
+* Access the master project invoice plan -> click on the "Show linked projects" button -> Click on the "unlink" button next to the name of the project you wish to unlink.
+* Access the linked project invoice plan -> Click on the "Revoke delegation" button.
+
+Beware that since you have removed a project from the group the total will change.  
+If you master invoice plan was set on "manual" mode you will have to adjust your plan to reflect the changes.
 
 ### Intercompany Projects
 
