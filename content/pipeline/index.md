@@ -82,7 +82,7 @@ Here is a list of probabilities and their meaning:
 
 Enter the client you are going to work for.
 
-You can choose from all the companies available from the [Client list section](http://support.wethod.com/finance/index/#client-list).
+You can choose from all the companies available from the [Client list section]({{< relref "finance/index.md#client-list" >}}).
 
 If the client you are looking for hasn't been added yet, you can create a new one directly from the form that shows up.
 
@@ -94,9 +94,9 @@ When you chose the client you are working for, pick the main contact you are tal
 
 You cannot choose a contact before having selected the company.
 
-As for the client company, you can create a new contact straight from the form that shows up, and see the complete list in the [Contacts section](http://support.wethod.com/finance/index/#contacts) \[link to contact support\].
+As for the client company, you can create a new contact straight from the form that shows up, and see the complete list in the [Contacts section]({{< relref "finance/index.md#contacts" >}}).
 
-You can make the client contact a required field in your [company settings page](http://support.wethod.com/settings/index/#company).
+You can make the client contact a required field in your [company settings section]({{< relref "settings/index.md#company" >}}).
 
 **Value**
 
@@ -122,7 +122,7 @@ When you move the start or end date of an opportunity (with a probability lower 
 
 You can track the risk of a project directly from the Project list section.
 
-This information is also available from the [Project Status section](http://support.wethod.com/friday/index/#status-of-the-project-s-risk).
+This information is also available from the [project status section]({{< relref "friday/index.md#status-of-the-project-s-risk" >}}).
 
 For this reason, you cannot edit the risk of a project before you filled out its first project status.
 
@@ -136,7 +136,7 @@ A default `blank` status is available for all opportunities whether we are track
 
 Stage and probability are tightly coupled if your opportunity's Job Order Category is tracking the opportunity stage. When the probability of an opportunity is updated its status changes and viceversa. This is true only for specific thresholds and is reflected only on the default statuses (`blank`, `Won` and `Lost`). 
 
-Visit the [company settings page](http://support.wethod.com/settings/index/#company) if you wish to create a new status or edit the existing ones.
+Visit the [company settings page]({{< relref "settings/index.md#company" >}}). if you wish to create a new status or edit the existing ones.
 
 ### Create a new activity
 
@@ -201,6 +201,8 @@ In order to make this actions available again on an archived project, you can un
 To archive or unarchive a project, just open the sidebar with the activity details and click on the edit button. You will find the archiving button on the bottom of the details.
 
 Please note that, in order to archive a project, this must comply to all the rules defined in the Rules section of your company.
+
+{{< img-center src="/uploads/2021/10/26/archive-button.png" >}}
 
 ### Delete
 
@@ -275,7 +277,7 @@ The search bar used for **basic search** also shows other three actions:
 
 * **Export**: A complete list of all projects/opportunities is sent to your mailbox. This export is going to ignore all filters and
 * **Share**: share the current search by sending it by email to a teammate or by copying it. The current search is available as a URL containing all the applied filters and simple search terms.
-* **Save**: save the current search in your [Desk pinboard](http://support.wethod.com/desk/index/#pinboard). The current search is available as a URL containing all the applied filters and simple search terms.
+* **Save**: save the current search in your [Desk pinboard]({{< relref "desk/index.md#pinboard" >}}). The current search is available as a URL containing all the applied filters and simple search terms.
 
 **Advanced Search**
 
