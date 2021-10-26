@@ -96,7 +96,7 @@ You cannot choose a contact before having selected the company.
 
 As for the client company, you can create a new contact straight from the form that shows up, and see the complete list in the [Contacts section](http://support.wethod.com/finance/index/#contacts) \[link to contact support\].
 
-You can make the client contact a required field in your [company settings](http://support.wethod.com/settings/index/#company).
+You can make the client contact a required field in your company settings.
 
 ##### Value
 
