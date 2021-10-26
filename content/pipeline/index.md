@@ -88,6 +88,8 @@ If the client you are looking for hasn't been added yet, you can create a new on
 
 Just type in the name and the acronym and click on the _Create_ button.
 
+{{< img-center src="/uploads/2021/10/26/client-creation.png" >}}
+
 **Client contact**
 
 When you chose the client you are working for, pick the main contact you are talking with about the possible new project.
@@ -126,6 +128,8 @@ This information is also available from the [project status section]({{< relref 
 
 For this reason, you cannot edit the risk of a project before you filled out its first project status.
 
+{{< img-center src="/uploads/2021/10/26/risk-select.png" >}}
+
 **Status**
 
 A stage represents the status of an opportunity.
@@ -138,12 +142,16 @@ Stage and probability are tightly coupled if your opportunity's Job Order Catego
 
 Visit the [company settings page]({{< relref "settings/index.md#company" >}}). if you wish to create a new status or edit the existing ones.
 
+{{< img-center src="/uploads/2021/10/26/opportunity-stage.png" >}}
+
 ### Create a new activity
 
 Go to the appropriate section to create the desired activity:
 
 * Opportunities: create a new opportunity with a probability ≤ 75%
 * Projects: create a new project with probability ≥ 90%
+
+{{< img-center src="/uploads/2021/10/26/add-opportunity.gif" >}}
 
 **Opportunities**
 
@@ -222,6 +230,8 @@ Please note that a project cannot be deleted if it already started producing val
 
 Users can save a custom group of filters to retrieve a specific set of data. A group of filters can be saved with a name and it's called a segment. In practice, segments are "advanced searches" saved with a name that you can use whenever you want. Let's say each Monday you want to see all opportunities of your main client "Acme". You can filter all opportunities with client=Acme and save the search as a segment called "Acme opportunities". Segments are unique per each section, that means for example they are not shared between pipeline opportunities and project list.
 
+{{< img-center src="/uploads/2021/10/26/pipeline-segments.png" >}}
+
 To **create a segment**:
 
 1. Click on "Create segment" inside segment select, a sidebar containing all the filters will open
@@ -256,6 +266,8 @@ Default segments can be edited and deleted.
 
 You can select which columns should be shown and which have to be hidden using the column selector button.
 
+{{< img-center src="/uploads/2021/10/26/pipeline-columns.png" >}}
+
 The set of columns is unique per user and per device. Each user on your company can choose to see a huge range of columns when browsing from their laptop and only focus on core information while checking Wethod on the go from their smartphones.
 
 Almost all columns are sortable, exception made for Risk and Client Contact. Just click on the name of the attribute you wish to order your results by and Wethod will take care of rearranging your list.
@@ -279,6 +291,8 @@ For example, the search "new pipeline rules" will return all projects/opportunit
 5. Project job order
 6. Job order category name
 
+{{< img-center src="/uploads/2021/10/26/pipeline-search.png" >}}
+
 The search bar used for **basic search** also shows other three actions:
 
 * **Export**: A complete list of all projects/opportunities is sent to your mailbox. This export is going to ignore all filters and
@@ -289,9 +303,13 @@ The search bar used for **basic search** also shows other three actions:
 
 The advanced search sidebar can be accessed clicking on the "Show filters" button in the simple search bar.
 
+{{< img-center src="/uploads/2021/10/26/pipeline-filters.png" >}}
+
 Filters are combined using AND logic which means the results consider all of them at the same time. Selections belonging to each filter are combined using OR logic. For example if you filter all projects with budget status `missing`, `draft` you obtain all activities with a budget that is either missing or in draft status.
 
 You can search for a specific filter using the filters search bar at the top. Additionally you can clear all applied filters by pressing the "clear all filters" button above it. If you have a segment applied, all filters that are part of the segment will be shown when you open the advanced search sidebar. Please mind that changing the list of filters is not going to be saved to the segment unless you had clicked on the "edit segment" button. Visit the segment support section for further information.
+
+{{< img-center src="/uploads/2021/10/26/pipeline-filters-2.png" >}}
 
 ### Intercompany Projects
 
