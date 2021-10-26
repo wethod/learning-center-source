@@ -62,7 +62,7 @@ This includes:
 
 You can find more information about some key fields below.
 
-##### Project probability
+**Project probability**
 
 The probability defines how likely your activity is going to actually start.
 
@@ -78,7 +78,7 @@ Here is a list of probabilities and their meaning:
 * 90% - We are going to do it and we now have the ‘job order’
 * 100% - It’s all ready, we also have the ‘client PO’
 
-##### Client
+**Client**
 
 Enter the client you are going to work for.
 
@@ -88,7 +88,7 @@ If the client you are looking for hasn't been added yet, you can create a new on
 
 Just type in the name and the acronym and click on the _Create_ button.
 
-##### Client contact
+**Client contact**
 
 When you chose the client you are working for, pick the main contact you are talking with about the possible new project.
 
@@ -96,9 +96,9 @@ You cannot choose a contact before having selected the company.
 
 As for the client company, you can create a new contact straight from the form that shows up, and see the complete list in the [Contacts section](http://support.wethod.com/finance/index/#contacts) \[link to contact support\].
 
-You can make the client contact a required field in your company settings.
+You can make the client contact a required field in your [company settings page](http://support.wethod.com/settings/index/#company).
 
-##### Value
+**Value**
 
 When creating a new activity, you will be asked to fill the value field. This represent the estimated selling price of your project, expressed in thousands.
 
@@ -106,19 +106,19 @@ Once you create the first budget for an activity, the amount displayed will alwa
 
 For this reason, the value cannot be edited after a budget has been created.
 
-##### External costs
+**External costs**
 
 This is an estimate of the percentage of external costs regarding this specific activity.
 
 As for the value, once you create a budget, the external costs will refer to the ones specified in the budget, and will therefore not be editable from the activity details.
 
-##### Start and duration
+**Start and duration**
 
 Choose when your activity will start and how long it will last.
 
 When you move the start or end date of an opportunity (with a probability lower than 90%), its production plan will reflect the changes, adapting the duration and distributing the production accordingly.
 
-##### Risk
+**Risk**
 
 You can track the risk of a project directly from the Project list section.
 
@@ -126,7 +126,7 @@ This information is also available from the [Project Status section](http://supp
 
 For this reason, you cannot edit the risk of a project before you filled out its first project status.
 
-##### Status
+**Status**
 
 A stage represents the status of an opportunity.
 
@@ -258,7 +258,7 @@ A small arrow is shown beside the attribute's name to show which columns is curr
 
 Wethod offers you two ways to find your desired project or opportunity: the simple quick search and the advanced search. You can use just one of them or both together. A classic example of using the two search modes together is when you apply a segment to trim your list of results and then decide to further narrow down the list with a quick search on a specific client name.
 
-#### Simple search
+**Simple search**
 
 This is done straight from the main table, and you can just type something and we will show all results matching the search.
 
@@ -277,7 +277,7 @@ The search bar used for **basic search** also shows other three actions:
 * **Share**: share the current search by sending it by email to a teammate or by copying it. The current search is available as a URL containing all the applied filters and simple search terms.
 * **Save**: save the current search in your [Desk pinboard](http://support.wethod.com/desk/index/#pinboard). The current search is available as a URL containing all the applied filters and simple search terms.
 
-#### Advanced Search
+**Advanced Search**
 
 The advanced search sidebar can be accessed clicking on the "Show filters" button in the simple search bar.
 
