@@ -186,6 +186,9 @@ This includes:
 * Request a review on the project
 * Edit won/lost feedback
 
+{{< img-center src="/uploads/2021/10/26/project-links.png" >}}
+{{< img-center src="/uploads/2021/10/26/project-links-2.png" >}}
+
 ### Archive
 
 When a project has ended, for example because the progress reaches 100%, or if you are sure you can no longer sell it (so you set the probability to 0%) you can consider to archive it.
@@ -203,6 +206,7 @@ To archive or unarchive a project, just open the sidebar with the activity detai
 Please note that, in order to archive a project, this must comply to all the rules defined in the Rules section of your company.
 
 {{< img-center src="/uploads/2021/10/26/archive-button.png" >}}
+{{< img-center src="/uploads/2021/10/26/unarchive-button.png" >}}
 
 ### Delete
 
@@ -211,6 +215,8 @@ If a project was added by mistake, you can choose to delete it.
 To delete a project, just open the sidebar with the activity details and click on the edit button. You will find the delete button on the bottom of the details.
 
 Please note that a project cannot be deleted if it already started producing value in your company. This means that if you already added timesheet or edited its project status, you will be no longer able to delete it. In that case, you can easily archive the project instead.
+
+{{< img-center src="/uploads/2021/10/26/delete-button.png" >}}
 
 ### Segments
 
