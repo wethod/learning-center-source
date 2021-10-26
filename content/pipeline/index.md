@@ -6,18 +6,13 @@ weight: "30"
 ---
 ## Overview
 
-Everything starts from Pipeline, here is where opportunities and projects are listed, both of them are defined by a small amount of **significant information**:
+The pipeline is the core of Wethod. Here is where you can find and manage all the opportunities and projects of your company.
 
-* Name: how are you going to call it?;
-* Client: for who are you going to work?;
-* Value (in K): what's the estimated price to the client?;
-* Percentage of external costs;
-* Category: which type of project is it?;
-* Probability: how likely this project is going to start?.
+The different steps and phases of a project can be managed in different sections:
 
-Pipeline has three subsections: Basket, Projects and Programs.
-
-{{< img-center src="/uploads/2017/05/25/nav-pipeline.png" >}}
+* Basket
+* Pipeline Opportunities
+* Projects
 
 ## Basket
 
@@ -29,17 +24,17 @@ Use the arrow to edit, delete or simply get all details about an opportunity.
 
 {{< img-center src="/uploads/2019/12/11/basket.png" >}}
 
-## Projects
+## Projects and opportunities
 
-Here you can find all the projects of the company, each project has significant information you can check and edit. Clicking on a project lets you see it in more details and actions about it.
+Here you can find all the activities of the company. At first glance, you can see all the significant data of each one. You can customize the visible info by selecting the columns you need the most. See the selectable columns for further details.
+
+To see all information about an activity, just click on the arrow button to open the sidebar details.
 
 An opportunity evolves into a Project when things get serious, in order to take this step you must have an idea about the significant information listed above.
 
 A Project can furthermore have an invoice plan and a budget.
 
 A project is considered **started** if it has a start date in the past or if someone has submitted timesheets for it.
-
-When you move the start or end date of a project with a probability lower than 90%, its production plan will reflect the changes, adapting the duration and distributing the production accordingly.
 
 A project is considered **active** when its probability reaches 90%, only when this happens it makes sense to plan for people or to do a timeheets for this project. An active project must have a job order.
 
@@ -51,216 +46,244 @@ A project is considered **active** when its probability reaches 90%, only when t
 **When a project reach 50% of probability, it's a good practice to make a budget for it.**
 {{< /note >}}
 
-By clicking on a project you can edit its details or open its: [budget](/budget/index), [planning](/planning/index/), [reports](/reports/index/), [invoice plan](/pipeline/index/#invoice-plan).
+### Available fields
 
-{{< img-center src="/uploads/2017/05/25/projects.png" >}}
+An activity is defined by some basic information, that are always required.
 
-### Project probability
+This includes:
+
+* Name: choose a name that represents your activity;
+* Client: the company you are going to work for;
+* Value (in K): estimated price you will sell the project;
+* Percentage of external costs;
+* Category: type of the project;
+* Probability: how likely this project is going to start;
+* Start and duration.
+
+You can find more information about some key fields below.
+
+##### Project probability
+
+The probability defines how likely your activity is going to actually start.
+
+This is a key information, so choose it carefully!
 
 Here is a list of probabilities and their meaning:
 
 * 0% - We lost it! Project is not going to be done
 * 10% - The chances are low but maybe we can do something
 * 25% - We can try it!
-* 50% - I'm pretty confident we can do it!
+* 50% - I’m pretty confident we can do it!
 * 75% - We are going to do it!
-* 90% - We are going to do it and we now have the 'job order'
-* 100% - It's all ready, we also have the 'client PO'
+* 90% - We are going to do it and we now have the ‘job order’
+* 100% - It’s all ready, we also have the ‘client PO’
 
-### Client contact
+##### Client
 
-If Alice works for ACME and you're are talking with her about a possible new project, ACME is your client and Alice is your actual contact with that client. As simple as it sounds!
+Enter the client you are going to work for.
 
-You can add a new contact for a client from [Clients](/finance/index/#clients) or straight from pipeline, during the project creation.
+You can choose from all the companies available from the [Client list section](http://support.wethod.com/finance/index/#client-list).
 
-You can make the client contact a required field in your [company settings](/settings/index/#company).
+If the client you are looking for hasn't been added yet, you can create a new one directly from the form that shows up.
 
-### Advanced Search
+Just type in the name and the acronym and click on the _Create_ button.
 
-If you need to search for a project, you just need to type some keywords on the search input.
+##### Client contact
 
-If you need a more specific and advanced search, we offer you some _search query_ that can help you:
+When you chose the client you are working for, pick the main contact you are talking with about the possible new project.
 
-<table>
-<thead>
-<tr>
-<th>If you are looking for a project where:</th>
-<th>Type in:</th>
-<th>Note</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>the Name is project1</td>
-<td><i>project:project1</i></td>
-<td></td>
-</tr>
-<tr>
-<td>the ID is 8</td>
-<td><i>id:8</i></td>
-<td></td>
-</tr>
-<tr>
-<td>the Value is 25</td>
-<td><i>value:25</i></td>
-<td></td>
-</tr>
-<tr>
-<td>the Job Order Category is Internal</td>
-<td><i>joc:internal</i></td>
-<td></td>
-<tr>
-<td>the Project Type is innovation</td>
-<td><i>type:innovation</i></td>
-<td>Use <i>type:null</i> to search for projects whitout a Project Type</td>
-</tr>
-<tr>
-<td>the Probability is 50</td>
-<td><i>prob:50</i></td>
-<td></td>
-</tr>
-<tr>
-<td>the Start Date is January 2016</td>
-<td><i>start:0116</i></td>
-<td>Month first</td>
-</tr>
-<tr>
-<td>the End Date is December 2017</td>
-<td><i>end:1217</i></td>
-<td>Month first</td>
-</tr>
-<tr>
-<td>the Budget Status is Draft</td>
-<td><i>status:0</i></td>
-<td>Available values: <b>0(draft)</b>, <b>1(approval)</b>, <b>2(approved)</b></td>
-</tr>
-<tr>
-<td>the Invoice Plan Status is manual</td>
-<td><i>plan:1</i></td>
-<td>Available values: <b>0(auto)</b>, <b>1(manual)</b></td>
-</tr>
-<tr>
-<td>the Client Name is wethodspa</td>
-<td><i>client:wethodspa</i></td>
-<td></td>
-</tr>
-<tr>
-<td>the Client PO is 30</td>
-<td><i>po:30</i></td>
-<td>Use <i>po:null</i> to search for projects whitout a Client PO</td>
-</tr>
-<tr>
-<td>the PM Name or Surname is Luca</td>
-<td><i>pm:luca</i></td>
-<td></td>
-</tr>
-<tr>
-<td>the Account Name or Surname is gb</td>
-<td><i>account:gb</i></td>
-<td></td>
-</tr>
-<tr>
-<td>the Program Name is wethod</td>
-<td><i>program:wethod</i></td>
-<td></td>
-</tr>
-<tr>
-<td>the Metadata <i>tag</i> is dev or des </td>
-<td><i>metadata:tag=dev,des</i></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+You cannot choose a contact before having selected the company.
 
-There are also some _search operators_, let’s have a look on them:
+As for the client company, you can create a new contact straight from the form that shows up, and see the complete list in the [Contacts section](http://support.wethod.com/finance/index/#contacts) \[link to contact support\].
 
-* If you want to search a project from **values greater than or equal** to x:    **“ x+ ”**
-* If you want to search a project from **values less than or equal** to x:    **“ x- ”**
-* If you want to search a project from **values greater or equal** to x **and less or equal** to y:  **“ x…y ”**
-* If you want to search a project from **values not equal** to x: **“ !x ”**
+You can make the client contact a required field in your [company settings](http://support.wethod.com/settings/index/#company).
 
-You can also combine query and operators:
+##### Value
 
-* Operator1 **OR** Operator2:   **“ , ”**
-* Operator1 **AND** Operator2:   **“ ; ”**
+When creating a new activity, you will be asked to fill the value field. This represent the estimated selling price of your project, expressed in thousands.
 
-For example:
+Once you create the first budget for an activity, the amount displayed will always refer to the final net price you defined in the budget.
 
-* **project:wethod, php ; start:0116+ ; prob:50…75**
+For this reason, the value cannot be edited after a budget has been created.
 
-This search operator will find all the projects with name “wethod" or “php”, with a date start greater than January 2016 and a probability between 50% and 75%.
+##### External costs
 
-* **client:luca; value: 25- ; end:1217+**
+This is an estimate of the percentage of external costs regarding this specific activity.
 
-This search operator will find all the projects of the client Luca, with value less or equal to 25 and with an end date in or after December 2017
+As for the value, once you create a budget, the external costs will refer to the ones specified in the budget, and will therefore not be editable from the activity details.
 
-* **pm:tomas, luca; prob:30…50; status:2**
+##### Start and duration
 
-This search operator will find all the project whose PM is Tomas or Luca, with a probability between 30 and 50 and a budget status which is approved.
+Choose when your activity will start and how long it will last.
 
-### Invoice Plan
-{{< img-center src="/uploads/2021/07/19/invoice-plan.png">}}
+When you move the start or end date of an opportunity (with a probability lower than 90%), its production plan will reflect the changes, adapting the duration and distributing the production accordingly.
 
-Here you can set a plan to emit invoices for the project.
-An invoice plan can be:
+##### Risk
 
-* **Automatic**: an invoice is automatically planned for each project's duration month, the invoice amount is obtained by dividing project's estimate by project's duration;
-* **Manual**: you need to manually insert each amount you plan to invoice.
+You can track the risk of a project directly from the Project list section.
 
-Next to the automatic/manual button you will find the view selector with 2 different options:
+This information is also available from the [Project Status section](http://support.wethod.com/friday/index/#status-of-the-project-s-risk).
 
-* **Expanded**: All months are shown, even those with no amount planned or invoiced.
-* **Compact**: Only months with planned amounts or invoices are shown.
+For this reason, you cannot edit the risk of a project before you filled out its first project status.
 
-On the right side you have a recap of the total amounts you have currently invoiced, have yet to invoice and the sum of your plan amounts.  
-The planned indicator helps your check that the sum of all your planned months matches the project's estimate.  
-An error with additional information appears beneath it if the two mismatch.
+##### Status
 
-Just below you can find a calendar where every card represents a month with some additional information:
+A stage represents the status of an opportunity.
 
-* **Planned**: the amount you plan to invoice for the given month;
-* **Invoiced**: the amount actually invoiced for the given month. This is automatically updated each time you create an invoice for the project;
-* **To be invoiced**: the difference between Planned and Invoiced for the given month.
-* While in manual mode you can also add notes to a month through the notes button in the top right corner of the card.
+When dealing with opportunities it's useful to track their status to quickly have a grasp of what's going on. This also helps to filter and order the opportunities by their status. However for some opportunities we don't need or don't want to keep an eye on their stage. For this reason users can select if a Job Order Category should track or not its opportunities stage.
 
-{{< note title="Note" >}} When in manual mode the invoice plan is saved automatically after every change.  
+A default `blank` status is available for all opportunities whether we are tracking its stage or not. Additionally at least 2 others statuses are available if the tracking option is turned on. These two are the `Won` and `Lost` stages.
 
- **Please mind the sum of each planned month must be equal to the total planned value shown in the top right corner.**  
+Stage and probability are tightly coupled if your opportunity's Job Order Category is tracking the opportunity stage. When the probability of an opportunity is updated its status changes and viceversa. This is true only for specific thresholds and is reflected only on the default statuses (`blank`, `Won` and `Lost`). 
 
-If the values do no match the invoice plan **won't be saved** and an error message will appear warning you about the difference between the project's estimate and the amount you planned.
-{{< /note >}}
+Visit the [company settings page](http://support.wethod.com/settings/index/#company) if you wish to create a new status or edit the existing ones.
 
-You can find the invoices (listed in your plan) in the [Invoices widget](/dashboard/index/#invoices), there they're ready to be created and sent.
+### Create a new activity
 
-### Billing group
-{{< img-center src="/uploads/2021/07/30/screen-shot-2021-07-30-at-12-38-05.png">}}
+Go to the appropriate section to create the desired activity:
 
-Sometimes you want to link several projects together and handle the invoice plan from a single central project.  
-This can be done using a billing group.  
+* Opportunities: create a new opportunity with a probability ≤ 75%
+* Projects: create a new project with probability ≥ 90%
 
-To create a new billing group visit the invoice plan of a project you wish to link and click on the "Delegate invoice plan" button.  
-Now select a project that will be used as the billing group master.
-Please mind that not all projects can be added to a billing group, in fact to be part of a billing group a project must:
+**Opportunities**
 
-* **Not be "Invoice Driven"**: The project job order category should not be marked as "Invoice driven budget".
-* **Not have any invoices**.
-* **Not have a multicurrency budget**. At the moment we only support projects using the master currency.
-* **Not be archived**.
+Click on the 'Add opportunity' button in order to show the project sidebar.
 
-Once your new billing group is created you can access the group invoice plan from the master project invoice plan page.  
-The invoice plan total it's made by the sum of all projects totals and you should plan accordingly.
+Here you can enter all the available project informations.
 
-{{< img-center src="/uploads/2021/07/30/screen-shot-2021-07-30-at-12-38-15.png">}}
+The suggested probability is 10%, and you can only choose a value between 0% and 75%.
 
-Trying to access the invoice plan of a linked project will result in an error since now every operations should be performed from the master project.  
-For example if you wish to generate a new invoice for a project that is part of a group you have to assign the invoice to the master project.  
-If you wish to unlink a project from a group you can either:
+When you filled in all the required info, you can click on the 'Save' button. Your new opportunity will then be visible in the opportunities list.
 
-* Access the master project invoice plan -> click on the "Show linked projects" button -> Click on the "unlink" button next to the name of the project you wish to unlink.
-* Access the linked project invoice plan -> Click on the "Revoke delegation" button.
+**Projects**
 
-Beware that since you have removed a project from the group the total will change.  
-If you master invoice plan was set on "manual" mode you will have to adjust your plan to reflect the changes.
+Click on the 'Add project' button in order to show the project sidebar.
+
+Here you can enter all the available project informations.
+
+The suggested probability is 90%, and you can only choose a value between 90% and 100%.
+
+When you filled in all the required info, you can click on the 'Save' button. Your new project will then be visible in the projects list.
+
+### Edit an activity
+
+You can easily edit the visibile information of an activity straight from the list. Just hover over the row you want to update, and click on the desired field. You can save the changes by clicking outside the field.
+
+To edit all the informations not visible at first sight, you can click on the activity details button.
+
+From the sidebar, you can edit all the details at once, just remember to click the Save button when you're done!
+
+### Useful links
+
+You can browse all the main pages to quickly manage your project.
+
+Just open the sidebar with the activity details, you will find a useful set of actions. All in one place!
+
+This includes:
+
+* Link to project sections (Project timeline, Budget, Project canvas, Project report, Invoice plan, Project status, Production plan)
+* Share project to a colleague
+* Request a review on the project
+* Edit won/lost feedback
+
+### Archive
+
+When a project has ended, for example because the progress reaches 100%, or if you are sure you can no longer sell it (so you set the probability to 0%) you can consider to archive it.
+
+An archived project is considered no longer active. This prevent the users from doing a series of actions on it.
+
+For example, you cannot add timesheet or edit the project status after you archive the project.
+
+You also cannot edit some informations, like its probability, risk or job order category.
+
+In order to make this actions available again on an archived project, you can unarchive it any time.
+
+To archive or unarchive a project, just open the sidebar with the activity details and click on the edit button. You will find the archiving button on the bottom of the details.
+
+Please note that, in order to archive a project, this must comply to all the rules defined in the Rules section of your company.
+
+### Delete
+
+If a project was added by mistake, you can choose to delete it.
+
+To delete a project, just open the sidebar with the activity details and click on the edit button. You will find the delete button on the bottom of the details.
+
+Please note that a project cannot be deleted if it already started producing value in your company. This means that if you already added timesheet or edited its project status, you will be no longer able to delete it. In that case, you can easily archive the project instead.
+
+### Segments
+
+Users can save a custom group of filters to retrieve a specific set of data. A group of filters can be saved with a name and it's called a segment. In practice, segments are "advanced searches" saved with a name that you can use whenever you want. Let's say each Monday you want to see all opportunities of your main client "Acme". You can filter all opportunities with client=Acme and save the search as a segment called "Acme opportunities". Segments are unique per each section, that means for example they are not shared between pipeline opportunities and project list.
+
+To **create a segment**:
+
+1. Click on "Create segment" inside segment select, a sidebar containing all the filters will open
+2. In sidebar, give a name to the new segment. This name must be unique between all your segments for this section.
+3. Choose all filters to combine in order to create the segment
+4. Click on save
+5. Once the segment is saved, the sidebar is automatically closed and the segment is applied
+
+To **edit a segment**:
+
+1. Open segment select
+2. Click on the edit button that appear when you put the cursor over a segment name
+
+To **delete a segment**:
+
+1. Open segment select
+2. Click on the delete button that appear when you put the cursor over a segment name
+
+There are some default segments:
+
+* **All**: no filter applied
+* **Current**: activities not archived
+* **Archived**: activities archived
+* **Mine**: activities where the user is PM
+* **Others**: activities where the user is not PM
+
+If a segment is applied and you open the advanced search, the sidebar will be populated with the filters enabled in the active segment. When this filters are changed, the segment is disabled.
+
+Default segments can be edited and deleted.
+
+### Selectable columns and ordering
+
+You can select which columns should be shown and which have to be hidden using the column selector button.
+
+The set of columns is unique per user and per device. Each user on your company can choose to see a huge range of columns when browsing from their laptop and only focus on core information while checking Wethod on the go from their smartphones.
+
+Almost all columns are sortable, exception made for Risk and Client Contact. Just click on the name of the attribute you wish to order your results by and Wethod will take care of rearranging your list.
+
+A small arrow is shown beside the attribute's name to show which columns is currently ordering the results and the ordering type (ascending or descending).
+
+### Search
+
+Wethod offers you two ways to find your desired project or opportunity: the simple quick search and the advanced search. You can use just one of them or both together. A classic example of using the two search modes together is when you apply a segment to trim your list of results and then decide to further narrow down the list with a quick search on a specific client name.
+
+#### Simple search
+
+This is done straight from the main table, and you can just type something and we will show all results matching the search.
+
+For example, the search "new pipeline rules" will return all projects/opportunities where one of the base search fields contains the word "new", "pipeline" and "rules" so a project called "old pipeline" will not match but a project called "new rules" for a client named "pipeline" will match. Below you can find the list of attributes used by the simple search. Your keyword will be matched against the following:
+
+1. PM name and surname
+2. Account name and surname
+3. Client name
+4. Project name
+5. Project job order
+6. Job order category name
+
+The search bar used for **basic search** also shows other three actions:
+
+* **Export**: A complete list of all projects/opportunities is sent to your mailbox. This export is going to ignore all filters and
+* **Share**: share the current search by sending it by email to a teammate or by copying it. The current search is available as a URL containing all the applied filters and simple search terms.
+* **Save**: save the current search in your [Desk pinboard](http://support.wethod.com/desk/index/#pinboard). The current search is available as a URL containing all the applied filters and simple search terms.
+
+#### Advanced Search
+
+The advanced search sidebar can be accessed clicking on the "Show filters" button in the simple search bar.
+
+Filters are combined using AND logic which means the results consider all of them at the same time. Selections belonging to each filter are combined using OR logic. For example if you filter all projects with budget status `missing`, `draft` you obtain all activities with a budget that is either missing or in draft status.
+
+You can search for a specific filter using the filters search bar at the top. Additionally you can clear all applied filters by pressing the "clear all filters" button above it. If you have a segment applied, all filters that are part of the segment will be shown when you open the advanced search sidebar. Please mind that changing the list of filters is not going to be saved to the segment unless you had clicked on the "edit segment" button. Visit the segment support section for further information.
 
 ### Intercompany Projects
 
@@ -283,6 +306,69 @@ In the [company section]({{< relref "settings/index.md#company" >}}) you can con
 When you enable the related flag for a job order category, the user will be asked for a feedback each time a project in that category gets won or lost.
 
 {{< img-center src="/uploads/2020/01/31/won-lost-feedback.gif" >}}
+
+## Invoice Plan
+
+{{< img-center src="/uploads/2021/07/19/invoice-plan.png">}}
+
+Here you can set a plan to emit invoices for the project. An invoice plan can be:
+
+* **Automatic**: an invoice is automatically planned for each project's duration month, the invoice amount is obtained by dividing project's estimate by project's duration;
+* **Manual**: you need to manually insert each amount you plan to invoice.
+
+Next to the automatic/manual button you will find the view selector with 2 different options:
+
+* **Expanded**: All months are shown, even those with no amount planned or invoiced.
+* **Compact**: Only months with planned amounts or invoices are shown.
+
+On the right side you have a recap of the total amounts you have currently invoiced, have yet to invoice and the sum of your plan amounts.  
+The planned indicator helps your check that the sum of all your planned months matches the project's estimate.  
+An error with additional information appears beneath it if the two mismatch.
+
+Just below you can find a calendar where every card represents a month with some additional information:
+
+* **Planned**: the amount you plan to invoice for the given month;
+* **Invoiced**: the amount actually invoiced for the given month. This is automatically updated each time you create an invoice for the project;
+* **To be invoiced**: the difference between Planned and Invoiced for the given month.
+* While in manual mode you can also add notes to a month through the notes button in the top right corner of the card.
+
+{{< note title="Note" >}} When in manual mode the invoice plan is saved automatically after every change.
+
+**Please mind the sum of each planned month must be equal to the total planned value shown in the top right corner.**
+
+If the values do no match the invoice plan **won't be saved** and an error message will appear warning you about the difference between the project's estimate and the amount you planned. {{< /note >}}
+
+You can find the invoices (listed in your plan) in the [Invoices widget](/dashboard/index/#invoices), there they're ready to be created and sent.
+
+### Billing group
+
+{{< img-center src="/uploads/2021/07/30/screen-shot-2021-07-30-at-12-38-05.png">}}
+
+Sometimes you want to link several projects together and handle the invoice plan from a single central project.  
+This can be done using a billing group.
+
+To create a new billing group visit the invoice plan of a project you wish to link and click on the "Delegate invoice plan" button.  
+Now select a project that will be used as the billing group master. Please mind that not all projects can be added to a billing group, in fact to be part of a billing group a project must:
+
+* **Not be "Invoice Driven"**: The project job order category should not be marked as "Invoice driven budget".
+* **Not have any invoices**.
+* **Not have a multicurrency budget**. At the moment we only support projects using the master currency.
+* **Not be archived**.
+
+Once your new billing group is created you can access the group invoice plan from the master project invoice plan page.  
+The invoice plan total it's made by the sum of all projects totals and you should plan accordingly.
+
+{{< img-center src="/uploads/2021/07/30/screen-shot-2021-07-30-at-12-38-15.png">}}
+
+Trying to access the invoice plan of a linked project will result in an error since now every operations should be performed from the master project.  
+For example if you wish to generate a new invoice for a project that is part of a group you have to assign the invoice to the master project.  
+If you wish to unlink a project from a group you can either:
+
+* Access the master project invoice plan -> click on the "Show linked projects" button -> Click on the "unlink" button next to the name of the project you wish to unlink.
+* Access the linked project invoice plan -> Click on the "Revoke delegation" button.
+
+Beware that since you have removed a project from the group the total will change.  
+If you master invoice plan was set on "manual" mode you will have to adjust your plan to reflect the changes.
 
 ## Programs
 
