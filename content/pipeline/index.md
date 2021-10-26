@@ -30,13 +30,17 @@ Here you can find all the activities of the company. At first glance, you can se
 
 To see all information about an activity, just click on the arrow button to open the sidebar details.
 
+{{< img-center src="/uploads/2021/10/26/pipeline-opportunities.png" >}}
+
 An opportunity evolves into a Project when things get serious, in order to take this step you must have an idea about the significant information listed above.
+
+{{< img-center src="/uploads/2021/10/26/pipeline-projects.png" >}}
 
 A Project can furthermore have an invoice plan and a budget.
 
 A project is considered **started** if it has a start date in the past or if someone has submitted timesheets for it.
 
-A project is considered **active** when its probability reaches 90%, only when this happens it makes sense to plan for people or to do a timeheets for this project. An active project must have a job order.
+A project is considered **active** when its probability reaches 90%, only when this happens it makes sense to plan for people or to do a timeheet for this project. An active project must have a job order.
 
 {{< note title="Note" >}}
 **Billable Projects must have a probability of 100%.**
