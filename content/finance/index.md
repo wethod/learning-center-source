@@ -2,6 +2,7 @@
 date: 2017-05-24T10:06:54.000+00:00
 title: Finance
 weight: "70"
+draft: true
 
 ---
 ## Orders
@@ -188,7 +189,7 @@ To add a new supplier:
 3. Click on the "**save**" button
 
 {{< note title="Note" >}}
-**You can only assign tags which was previously created in the ["Supplier Settings"]({{< relref "settings/index.md#suppliers-settings" >}}). Tags can be useful to catalogue the supplier with keywords (i.e. expertise, industry or geography)**
+**You can only assign tags which was previously created in the** [**"Supplier Settings"**]({{< relref "settings/index.md#suppliers-settings" >}})**. Tags can be useful to catalogue the supplier with keywords (i.e. expertise, industry or geography)**
 {{< /note >}}
 
 ### Supplier's status
@@ -206,33 +207,33 @@ By default you can search suppliers by name, email, status or tags just by typin
 If you need something more, you can use these _search query_:
 
 <table>
-    <thead>
-        <tr>
-            <th>Description</th>
-            <th>Query</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Suppliers which get at least one order for a project with client's name containing "acme"</td>
-            <td><i>client:acme</i></td>
-        </tr>
-        <tr>
-            <td>Suppliers which get at least one order for a project which name contains "new site"</td>
-            <td><i>project:new site</i></td>
-        </tr>
-        <tr>
-            <td>Suppliers with rating greater than 2</td>
-            <td><i>rating:2+</i></td>
-        </tr>
-        <tr>
-            <td>Suppliers with rating lower than 3</td>
-            <td><i>rating:3-</i></td>
-        <tr>
-            <td>Suppliers with rating equal to 4</td>
-            <td><i>rating:4</i></td>
-        </tr>
-    </tbody>
+<thead>
+<tr>
+<th>Description</th>
+<th>Query</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Suppliers which get at least one order for a project with client's name containing "acme"</td>
+<td><i>client:acme</i></td>
+</tr>
+<tr>
+<td>Suppliers which get at least one order for a project which name contains "new site"</td>
+<td><i>project:new site</i></td>
+</tr>
+<tr>
+<td>Suppliers with rating greater than 2</td>
+<td><i>rating:2+</i></td>
+</tr>
+<tr>
+<td>Suppliers with rating lower than 3</td>
+<td><i>rating:3-</i></td>
+<tr>
+<td>Suppliers with rating equal to 4</td>
+<td><i>rating:4</i></td>
+</tr>
+</tbody>
 </table>
 
 {{< note title="Note" >}}
@@ -247,23 +248,23 @@ If you need something more, you can use these _search query_:
 
 Each supplier's row has got an arrow button which you can click to see supplier details.
 
-Here you can: 
+Here you can:
 
-*	Edit details (from the sidebar)
-*	See all projects for which supplier get at least one order
-*	See, add and edit **supplier ratings**
+* Edit details (from the sidebar)
+* See all projects for which supplier get at least one order
+* See, add and edit **supplier ratings**
 
-A rating is composed by: 
+A rating is composed by:
 
-*	A 1 to 5 numberical value, expressed as an amount of stars (required)
-*	A project to which rating refers (required)
-*	A comment to explain the rating value (not required)
+* A 1 to 5 numberical value, expressed as an amount of stars (required)
+* A project to which rating refers (required)
+* A comment to explain the rating value (not required)
 
 Rating permissions can be managed from the [permissions section]({{< relref "settings/index.md#permissions" >}}), here you can express:
 
-*	Which roles can see rating related thing
-*	Which roles can create and manage their own ratings
-* 	Which roles can delete others ratings
+* Which roles can see rating related thing
+* Which roles can create and manage their own ratings
+* Which roles can delete others ratings
 
 {{< img-center src="/uploads/2021/06/15/supplier-detail.png" >}}
 
@@ -274,7 +275,6 @@ Rating permissions can be managed from the [permissions section]({{< relref "set
 From sidebar you can try to delete a supplier but, if at least an order exist for it, you need to transfer all its orders to another supplier available for contract. This process is simplified by a modal that shows you all the orders linked to the supplier you're deleting and let you pick another supplier.
 
 {{< img-center src="/uploads/2021/06/15/supplier-move-orders.png" >}}
-
 
 ## Travels
 
@@ -382,3 +382,65 @@ Project Managers will be able to view and edit travel requests made by other use
 Permission "edit sent" enables the user to insert costs, edit and reservation files to requests that have been already sent to a travel office.
 
 Due to privacy concerns, it is not possible to download booking and reservation files from requests made by other people.
+
+
+## Expenses
+
+*Projects > Wallet > Expenses*
+
+The expense reimbursement process allows employers to pay back employees who have spent their own money for business-related expenses. These types of reimbursable expenses tend to occur when employees travel for work, but can be associated with other activities related to their employment, including, for example, certain purchases of work-related supplies or tools.
+
+{{< img-center src="/uploads/2020/12/21/travel_requests_list.png" >}}
+
+All expenses are listed with the following information at display. 
+- Job order category badge
+- Category of expense
+- Requested by
+- Project
+- Date
+- Notes
+- Reimbursement value (always expressed in master currency) 
+
+Based on permission roles, users can view, edit, delete their own expenses and/or others's expenses.
+
+All expenses linked to a project are listed in the widget "Orders" in the project report with a general "Expense" name, its date and value.
+
+### Type of reimbursement
+
+* **Flat-rate**: whether the type of reimbursement is a fixed value (expressed in the reimbursement *value* field, required), regardless the value of the expense. *i.e. Acme Inc. refunds 12 for. Mario, who works for Acme, had a business lunch and spent 24,65. Mario will be refunded 12 by Acme Inc.*
+* **Mileage/Km**: whether the type of reimbursement is a fixed value (expressed in the reimbursement *value* field, required) per mile or kilometer declared by the employee. *i.e. Acme Inc. refunds 0,40 for each km travelled. Mario, who works for Acme, made a business trip with his own car and travelled a total of 260km. Mario will be refunded 140 (260x0,40=140).*
+* **Total**: whether the employer refunds the whole expense declared by the employee. *i.e. Acme Inc. refunds the total cost of a taxi trip. Wendy, in her business travel for Acme,took a taxi from London Victoria train station to the City and spent 30. Wendy will be refunded 30.*
+* **Total (max value)**: whether the employer refunds the whole expense until a maximum refund value (expressed in the *reimbursement value* field, required) is reached. *i.e. Acme Inc. refunds the total cost of a dinner up to 30. Britney, an account manager at Acme, had a business dinner with her clients  and spent 250. Britney will be refunded 30.*
+
+### Set categories of expenses 
+Learn how to insert the categories of expenses that require a reimbursement process to pay back employees who have spent their own money for business-related expenses.
+
+1. Head to Settings > Company > Expenses.
+2. Click button _Add expense category_.
+3. Choose a _name_ for the category of expense.
+4. Select the check box if route details are needed.
+5. Select the [type of reimbursement]({{< relref "#type-of-expense-s-reimbursement/index.md" >}}).
+6. Insert the value of reimbursement (flat-rate, per mile/km or maximum).
+7. Press *Save*.
+
+{{< note title="Note" >}}
+**To avoid retroactive changes it is not permitted to edit or delete a category of expense. Archive a category to hide it from the list.
+{{< /note >}}
+
+
+### Insert a new expense
+
+1. Click button _New Expense_ and a sidebar will open.
+2. Insert the name of the project linked with your expense.
+3. Choose the [category of expense]({{< relref "#type-of-expense-s-reimbursement/index.md" >}}) from the list.
+4. Insert the date in which this expense occurred.
+
+* If required, insert the value of expense or the amount of miles/kilometres travelled.
+* If required, insert location _From_ - _To_.
+
+4. Add a note.
+5. If needed, upload a file that proofs your expense (i.e. a receipt)
+6. Click _Save_.
+7. Your expense will be added to the list.
+
+{{< img-center src="/uploads/2020/12/21/travel_requests_list_sidebar.png" >}}
