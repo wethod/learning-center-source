@@ -2,7 +2,6 @@
 date: 2017-05-24T10:06:54.000+00:00
 title: Finance
 weight: "70"
-draft: true
 
 ---
 ## Orders
@@ -390,7 +389,7 @@ Due to privacy concerns, it is not possible to download booking and reservation 
 
 The expense reimbursement process allows employers to pay back employees who have spent their own money for business-related expenses. These types of reimbursable expenses tend to occur when employees travel for work, but can be associated with other activities related to their employment, including, for example, certain purchases of work-related supplies or tools.
 
-{{< img-center src="/uploads/2020/12/21/travel_requests_list.png" >}}
+{{< img-center src="/uploads/2021/11/29/expenses-list.png" >}}
 
 All expenses are listed with the following information at display. 
 - Job order category badge
@@ -444,5 +443,3 @@ Learn how to insert the categories of expenses that require a reimbursement proc
 5. If needed, upload a file that proofs your expense (i.e. a receipt)
 6. Click _Save_.
 7. Your expense will be added to the list.
-
-{{< img-center src="/uploads/2020/12/21/travel_requests_list_sidebar.png" >}}
