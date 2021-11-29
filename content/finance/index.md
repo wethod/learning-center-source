@@ -2,6 +2,7 @@
 date: 2017-05-24T10:06:54.000+00:00
 title: Finance
 weight: "70"
+draft: true
 
 ---
 ## Orders
@@ -418,7 +419,7 @@ Learn how to insert the categories of expenses that require a reimbursement proc
 2. Click button _Add expense category_.
 3. Choose a _name_ for the category of expense.
 4. Select the check box if route details are needed.
-5. Select the [type of reimbursement]({{< relref "#type-of-expense-s-reimbursement/index.md" >}}).
+5. Select the [type of reimbursement]({{< relref "#type-of-reimbursement/index.md" >}}).
 6. Insert the value of reimbursement (flat-rate, per mile/km or maximum).
 7. Press *Save*.
 
@@ -433,13 +434,11 @@ Learn how to insert the categories of expenses that require a reimbursement proc
 
 1. Click button _New Expense_ and a sidebar will open.
 2. Insert the name of the project linked with your expense.
-3. Choose the [category of expense]({{< relref "#type-of-expense-s-reimbursement/index.md" >}}) from the list.
+3. Choose the [category of expense]({{< relref "#set-categories-of-expenses/index.md" >}}) from the list.
 4. Insert the date in which this expense occurred.
-
 * If required, insert the value of expense or the amount of miles/kilometres travelled.
 * If required, insert location _From_ - _To_.
-
-4. Add a note.
-5. If needed, upload a file that proofs your expense (i.e. a receipt)
-6. Click _Save_.
-7. Your expense will be added to the list.
+5. Add a note.
+6. If needed, upload a file that proofs your expense (i.e. a receipt)
+7. Click _Save_.
+8. Your expense will be added to the list.
