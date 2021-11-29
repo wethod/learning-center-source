@@ -2,6 +2,7 @@
 date: 2017-05-24T10:06:54.000+00:00
 title: Finance
 weight: "70"
+draft: true
 
 ---
 ## Orders
@@ -383,7 +384,7 @@ Permission "edit sent" enables the user to insert costs, edit and reservation fi
 Due to privacy concerns, it is not possible to download booking and reservation files from requests made by other people.
 
 
-## Expenses
+🔜 ## Expenses
 
 *Projects > Wallet > Expenses*
 
