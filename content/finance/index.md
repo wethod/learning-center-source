@@ -438,7 +438,7 @@ Learn how to insert categories of expenses that require a reimbursement process 
 1. Head to Projects > Wallet > Expenses
 2. Click button _New Expense_ and a sidebar will open.
 3. Insert the name of the project linked with your expense.
-4. Choose the [category of expense]({{< relref "finance/index.md#set-categories-of-expenses" >}}) from the list.
+4. Choose the [category of expense]({{< relref "finance/index.md#set-a-category-of-expense" >}}) from the list.
 5. Insert the date in which this expense occurred.
 6. If required, insert the value of expense or the amount of miles/kilometres travelled.
 7.  If required, insert location _From_ - _To_.
