@@ -436,8 +436,10 @@ Learn how to insert the categories of expenses that require a reimbursement proc
 2. Insert the name of the project linked with your expense.
 3. Choose the [category of expense]({{< relref "#set-categories-of-expenses/index.md" >}}) from the list.
 4. Insert the date in which this expense occurred.
+
 * If required, insert the value of expense or the amount of miles/kilometres travelled.
 * If required, insert location _From_ - _To_.
+
 5. Add a note.
 6. If needed, upload a file that proofs your expense (i.e. a receipt)
 7. Click _Save_.
