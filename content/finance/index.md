@@ -384,7 +384,8 @@ Permission "edit sent" enables the user to insert costs, edit and reservation fi
 Due to privacy concerns, it is not possible to download booking and reservation files from requests made by other people.
 
 
-🔜## Expenses
+## Expenses
+🔜(coming soon)
 
 *Projects > Wallet > Expenses*
 
