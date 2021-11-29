@@ -2,6 +2,7 @@
 date: 2017-05-24T10:06:54.000+00:00
 title: Finance
 weight: "70"
+draft: true
 
 ---
 ## Orders
@@ -415,8 +416,8 @@ Based on **permission roles**, users can view, edit, delete their own expenses a
 * **Total**: whether the employer refunds the whole expense declared by the employee. *i.e. Acme Inc. refunds the total cost of a taxi trip. Wendy, in her business travel for Acme,took a taxi from London Victoria train station to the City and spent 30. Wendy will be refunded 30.*
 * **Total (max value)**: whether the employer refunds the whole expense until a maximum refund value (expressed in the *reimbursement value* field, required) is reached. *i.e. Acme Inc. refunds the total cost of a dinner up to 30. Britney, an account manager at Acme, had a business dinner with her clients  and spent 250. Britney will be refunded 30.*
 
-### Set categories of expenses 
-Learn how to insert the categories of expenses that require a reimbursement process to pay back employees who have spent their own money for business-related expenses.
+### Set a category of expense
+Learn how to insert categories of expenses that require a reimbursement process to pay back employees who have spent their own money for business-related expenses.
 
 1. Head to Settings > Company > Expenses.
 2. Click button _Add expense category_.
@@ -435,6 +436,7 @@ Learn how to insert the categories of expenses that require a reimbursement proc
 
 ### How to insert a new expense
 
+0. Head to Projects > Wallet > Expenses
 1. Click button _New Expense_ and a sidebar will open.
 2. Insert the name of the project linked with your expense.
 3. Choose the [category of expense]({{< relref "finance/index.md#set-categories-of-expenses" >}}) from the list.
