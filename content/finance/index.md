@@ -2,7 +2,6 @@
 date: 2017-05-24T10:06:54.000+00:00
 title: Finance
 weight: "70"
-draft: true
 
 ---
 ## Orders
@@ -392,22 +391,25 @@ The expense reimbursement process allows employers to pay back employees who hav
 
 {{< img-center src="/uploads/2021/11/29/expenses-list.png" >}}
 
-All expenses are listed with the following information at display. 
-- Job order category badge
-- Category of expense
-- Requested by
-- Project
-- Date
-- Notes
-- Reimbursement value (always expressed in master currency) 
+All expenses are listed with the following information at display:
 
-Based on permission roles, users can view, edit, delete their own expenses and/or others's expenses.
+* Job order category badge
+* Category of expense
+* Requested by
+* Project
+* Date
+* Notes
+* Reimbursement value (always expressed in master currency) 
 
-All expenses linked to a project are listed in the widget "Orders" in the project report with a general "Expense" name, its date and value.
+Based on **permission roles**, users can view, edit, delete their own expenses and/or others's expenses.
+
+{{< note title="Note" >}}
+**All expenses linked to a project are listed in the widget "Orders" in the project report with a general "Expense" name, its date and value.**
+{{< /note >}}
 
 ### Type of reimbursement
 
-* **Flat-rate**: whether the type of reimbursement is a fixed value (expressed in the reimbursement *value* field, required), regardless the value of the expense. *i.e. Acme Inc. refunds 12 for. Mario, who works for Acme, had a business lunch and spent 24,65. Mario will be refunded 12 by Acme Inc.*
+* **Flat-rate**: whether the type of reimbursement is a fixed value (expressed in the reimbursement *value* field, required), regardless the value of the expense. *i.e. Acme Inc. refunds each employee 12 for a lunch. Mario, who works for Acme, had a business lunch and spent 24,65. Mario will be refunded 12 by Acme Inc.*
 * **Mileage/Km**: whether the type of reimbursement is a fixed value (expressed in the reimbursement *value* field, required) per mile or kilometer declared by the employee. *i.e. Acme Inc. refunds 0,40 for each km travelled. Mario, who works for Acme, made a business trip with his own car and travelled a total of 260km. Mario will be refunded 140 (260x0,40=140).*
 * **Total**: whether the employer refunds the whole expense declared by the employee. *i.e. Acme Inc. refunds the total cost of a taxi trip. Wendy, in her business travel for Acme,took a taxi from London Victoria train station to the City and spent 30. Wendy will be refunded 30.*
 * **Total (max value)**: whether the employer refunds the whole expense until a maximum refund value (expressed in the *reimbursement value* field, required) is reached. *i.e. Acme Inc. refunds the total cost of a dinner up to 30. Britney, an account manager at Acme, had a business dinner with her clients  and spent 250. Britney will be refunded 30.*
@@ -430,7 +432,7 @@ Learn how to insert the categories of expenses that require a reimbursement proc
 {{< /note >}}
 
 
-### Insert a new expense
+### How to insert a new expense
 
 1. Click button _New Expense_ and a sidebar will open.
 2. Insert the name of the project linked with your expense.
