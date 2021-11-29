@@ -424,7 +424,7 @@ Learn how to insert the categories of expenses that require a reimbursement proc
 7. Press *Save*.
 
 {{< note title="Note" >}}
-**To avoid retroactive changes it is not permitted to edit or delete a category of expense. Archive a category to hide it from the list.
+**To avoid retroactive changes it is not permitted to edit or delete a category of expense. Archive a category to hide it from the list.**
 {{< /note >}}
 
 
