@@ -423,6 +423,8 @@ Learn how to insert the categories of expenses that require a reimbursement proc
 6. Insert the value of reimbursement (flat-rate, per mile/km or maximum).
 7. Press *Save*.
 
+{{< img-center src="/uploads/2021/11/29/expense-category.gif" >}}
+
 {{< note title="Note" >}}
 **To avoid retroactive changes it is not permitted to edit or delete a category of expense. Archive a category to hide it from the list.**
 {{< /note >}}
