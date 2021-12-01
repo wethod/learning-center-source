@@ -402,10 +402,10 @@ All expenses are listed with the following information at display:
 * Notes
 * Reimbursement value (always expressed in master currency) 
 
-Based on **permission roles**, users can view, edit, delete their own expenses and/or others's expenses.
+Based on [permission roles]({{< relref "settings/index.md#permissions" >}}), users can view, edit, delete their own expenses and/or others's expenses.
 
 {{< note title="Note" >}}
-**All expenses linked to a project are listed in the widget "Orders" in the project report with a general "Expense" name, its date and value.**
+**All expenses linked to a project are listed in the widget "Orders" in the [project report]({{< relref "reports/index.md#project-report" >}}) with a general "Expense" name, its date and value.**
 {{< /note >}}
 
 ### Type of reimbursement
