@@ -23,7 +23,7 @@ Done? Now the budget must be approved by a supervisor and, once approved, the pr
 
 ## Budget approval
 
-A user is able to approve a budget of a project if one one of the following conditions is true:
+A user is able to approve a budget of a project if one of the following conditions is true:
 
 *	The user is the project account and its role has a flag on "approve" inside the budget section of the permissions settings.
 *	he user is the project manager and its role has a flag on "approve" inside the budget section of the permissions settings.
