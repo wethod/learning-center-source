@@ -21,6 +21,8 @@ Basically, this is the place where you define (for a project):
 
 Done? Now the budget must be approved by a supervisor and, once approved, the project manager can start [planning]({{< relref "planning/index.md" >}}) and creating [orders]({{< relref "finance/index.md#orders" >}}).
 
+## Budget approval
+
 A user is able to approve a budget if one one of the following conditions is true:
 
 *	The user is the budget's account and its role has the "approve" permission for budget
