@@ -4,14 +4,6 @@ title: Settings
 weight: "80"
 
 ---
-## Tutorial
-
-From here you can access a quick and clear tutorial that will teach you all the secrets behind WETHOD, but remember: **with great power comes great responsibility.**
-
-Clicking on "**let me try**" will pause the tutorial and let you take a look around, to resume the tutorial just click on the bottom right button.
-
-Clicking on "**skip tour**" will close the tutorial.
-
 ## Account
 
 Here you set your **name**, **surname** and **password**.
