@@ -25,6 +25,19 @@ To invite a new teammate:
 
 You can assign up to two **tags** to each teammate, use these tags to create groups of employee. You can, for example, use a tag to describe the background of a person.
 
+Each user can have an **allocation manager**, that is the person in the team that will receive notifications about user's allocation requests.
+
+Being a user allocation manager does not automatically means you can approve or reject their requests, you need special permissions for that.
+
+To set a user allocation manager:
+
+1. Click on the "more" icon related to the user
+2. Click on "Set allocation manager" menu item
+3. Choose the manager from the autocomplete input
+4. Click "Save" button
+
+Any team member can be allocation manager of another team member.
+
 {{< img-center src="/uploads/2017/11/02/settings-team.png">}}
 
 {{< note title="Note" >}}
