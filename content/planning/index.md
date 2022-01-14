@@ -116,6 +116,62 @@ A new version of the budget is automatically created each time a user makes a co
 
 {{< /note >}}
 
+### Allocation requests
+
+Projects with job order category of type "plan upon request" cannot be planned the usual way: user needs to visit Allocation Requests and ask to be allocated.
+
+An allocation request can have various status, including **approved** and **pending**: the latter  is a request waiting to be approved or rejected and appears in planning with a particular pattern, so it can be easily spotted.
+
+## Allocation Requests
+
+Particular job order categories may expect people to ask to be planned on them, this can be the case of job order categories representing holidays, leaves or - why not - R&D projects.
+
+"Allocation requests" section is where all this requests can be created and managed.
+
+To create a request:
+
+1. Click on "Add request" button to open related sidebar
+2. Select the project to request (required)
+3. Select start date and end date (required). Once both selected, for each day in the period you can express how many hours to request (1 - 8), by default each day is an 8 hours request
+4. Add notes if needed
+
+Once created, a request acquires the "Pending" status and:
+
+- If the selected from-to is within 14 days an “urgent” mail notification is sent to the user allocation manager, if exists
+- Request is displayed in people allocation using a particular pattern
+
+Now users with **approve permission** can see "Approve/reject" button and:
+
+- **Approve** request: it gets "Approved" status and a mail notification is sent to the user who made the request
+- **Reject** request: it gets "Rejected" status and a mail notification is sent to the user who made the request
+
+Once approved, a request is shown in planning as a "normal" project. It still cannot be planned straight from here.
+
+Users with **edit permission** can edit a request like this:
+1. Click on the request arrow button to open its sidebar
+2. Click on the edit button
+
+A special **edit permission** is needed to edit and see others requests.
+
+Approved and rejected requests cannot be edited but can be deleted.
+
+When a request is deleted, it disappears from People Allocation.
+
+Creating or editing a pending request can create **conflicts** if:
+
+1. In the requested period there is **at least one hour already planned**
+2. In the requested period there is **at** **least one hour belonging to another request**
+
+Requests with conflicts: 
+
+- Get a particular status
+- Does not appear in people allocation
+- Cannot be approved: they can just be edited, deleted or rejected
+
+If a request has conflict with another pending request only the last created request will be marked as “conflict”, the existing one keeps its status.
+
+Once a week an email containing the recap of all pending planning requests is sent to all allocation managers (excluding “urgent” emails).
+
 ## Projects' Heatmap
 
 This is useful to show the _weight_ of planned people on each project: the darker is the color of a cell, the more people are planned on the project that day.
