@@ -225,6 +225,8 @@ The days of delay in compiling [timesheet]({{< relref "friday/index.md#timesheet
 
 Timesheet and project status are meant to be compiled on Friday (this is why they are placed under the Friday section 😉); if you compile them on Saturday you get a +1 day on the report, if you compile them on Sunday you get a +2 days on the report and so on.
 
+Automatic timesheet is added by wethod on Sunday night, this means all users with planning on this kind of projects will see their Fridayness counter going up even if they can do nothing about it. To avoid this, projects from JOC with automatic timesheet are removed from Fridayness calculation.
+
 {{< img-center src="/uploads/2019/02/20/fridayness.png">}}
 
 #### Chargeability
