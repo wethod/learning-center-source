@@ -554,3 +554,37 @@ For each person you can see an overview of his interests, giving priority to the
 {{< img-center src="/uploads/2021/06/01/interests_knowledge.gif" >}}
 
 * To set you [skills]({{< relref "settings/index.md#skills" >}}), [interests]({{< relref "settings/index.md#interests" >}}) and [languages]({{< relref "settings/index.md#languages" >}}), go to your profile.
+
+## Time-off Manager 🔜
+
+(Coming soon)
+
+Particular job order categories may be used to represent **time off**, that are hours spent out of work. Time off can come in different flavors:
+
+- **Vacation**: the annual and usually paid time you get off work
+- **Leave**: refers to time when you can go away from your job
+- **General** if it does not need to be tracked in special ways
+
+Differences between "vacation" and "leave" time off are probably meaningful only in Italy where they're legally distinct items. 
+
+"Time-off manager" section is where you can manage vacation and leave time off for each user.
+
+{{< img-center src="/uploads/2022/01/17/time-off-manager.png">}}
+
+A project can be flagged as "Vacation time off" o "Leave time off" using the "Hours type" job order category flag available in [company settings]({{< relref "settings/index.md#company" >}}) section.
+
+In this section are visible, for each user by year: 
+
+- Name
+- Vacation and Leave time off
+    - **Backlog + accrued**: this is editable by users with **edit permission**
+    - **Used**: timesheet hours for projects with job order category vacation/leave time off
+    - **Planned**: planning hours for projects with job order category vacation/leave time off
+    - **Requested**: hours requested but not approved yet for projects with job order category vacation/leave time off. Hours can be requested using [Allocation Requests]({{< relref "planning/index.md#allocation-requests" >}}) section
+    - **Remaining**: Backlog - used - planned - requested
+- Target
+    - **Yearly:** leave + vacation time off hours that user have to use during the year. this is editable by users with **edit permission**
+    - **Used:** leave + vacation used time off hours
+    - **Planned:** leave + vacation planned time off hours
+    - **Requested:** leave + vacation requested time off hours
+    - **Remaining**: target - used - planned - requested
