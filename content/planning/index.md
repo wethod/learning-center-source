@@ -116,29 +116,33 @@ A new version of the budget is automatically created each time a user makes a co
 
 {{< /note >}}
 
-### Allocation requests
+### Dealing with allocation requests
 
-Projects with job order category of type "plan upon request" cannot be planned the usual way: user needs to visit Allocation Requests and ask to be allocated.
+Projects with job order category of type "plan upon request" cannot be planned the usual way: user needs to visit [Allocation Requests]({{< relref "planning/index.md#allocation-requests" >}}) and ask to be allocated.
 
-An allocation request can have various status, including **approved** and **pending**: the latter  is a request waiting to be approved or rejected and appears in planning with a particular pattern, so it can be easily spotted.
+## Allocation Requests 🔜
 
-## Allocation Requests
+(Coming soon)
 
 Particular job order categories may expect people to ask to be planned on them, this can be the case of job order categories representing holidays, leaves or - why not - R&D projects.
 
 "Allocation requests" section is where all this requests can be created and managed.
 
+{{< img-center src="/uploads/2022/01/17/allocation-requests.png">}}
+
 To create a request:
 
 1. Click on "Add request" button to open related sidebar
-2. Select the project to request (required)
+2. Select the project to request (required). You can only use a project which job order category has the "plan upon approval" flag enabled. To enable this flag just head to the [company settings]({{< relref "settings/index.md#company" >}}) section
 3. Select start date and end date (required). Once both selected, for each day in the period you can express how many hours to request (1 - 8), by default each day is an 8 hours request
 4. Add notes if needed
 
 Once created, a request acquires the "Pending" status and:
 
-- If the selected from-to is within 14 days an “urgent” mail notification is sent to the user allocation manager, if exists
+- If the selected from-to is within 14 days an “urgent” mail notification is sent to the user allocation manager, if exists. Allocation manager for a user can be set from the [team settings]({{< relref "settings/index.md#team" >}}) section
 - Request is displayed in people allocation using a particular pattern
+
+{{< img-center src="/uploads/2022/01/17/planning_allocation-request.png">}}
 
 Now users with **approve permission** can see "Approve/reject" button and:
 
@@ -155,7 +159,7 @@ A special **edit permission** is needed to edit and see others requests.
 
 Approved and rejected requests cannot be edited but can be deleted.
 
-When a request is deleted, it disappears from People Allocation.
+When a request is deleted, it disappears from [people allocation]({{< relref "planning/index.md#people-allocation" >}}).
 
 Creating or editing a pending request can create **conflicts** if:
 
@@ -166,7 +170,10 @@ Requests with conflicts:
 
 - Get a particular status
 - Does not appear in people allocation
+- Shows conflict days inside details sidebar
 - Cannot be approved: they can just be edited, deleted or rejected
+
+{{< img-center src="/uploads/2022/01/17/allocation-requests_sidebar-conflict.png">}}
 
 If a request has conflict with another pending request only the last created request will be marked as “conflict”, the existing one keeps its status.
 
