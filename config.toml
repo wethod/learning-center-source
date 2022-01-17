@@ -1,4 +1,4 @@
-baseurl = "http://support.wethod.com/"
+baseurl = "https://support.wethod.com/"
 canonifyurls = true
 googleAnalytics = ""
 languageCode = "en-us"
