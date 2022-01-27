@@ -104,9 +104,9 @@ This feature allows the user to visually browse the list of suppliers and filter
     * **Status of suppliers** 
 This feature allows the user to determine a status of a supplier and if it is eligible for contracts or not. To set status for your suppliers hit the button "Enable". Once the feature is enabled, hit "New status", add a name for your status, assign a colour of your choice and put a check if suppliers with this status will be available for contracts. Remember that a user can issue an order only to suppliers that are available for contracts.
 * **Expenses**: 🔜  manage [categories of expenses]({{< relref "finance/index.md#set-a-category-of-expense" >}})
-* **Bank accounts**: set the list of bank accounts available for invoicing matters in your company.
-* **Vat rates**: set the list of VAT rate options that may be applied to an invoice.
-* **Payment terms**: 🔜  manage all the types of payment terms agreed with your clients for invoicing matters.
+* **Bank accounts**: set the list of bank accounts available for invoicing matters in your company. To each one, you can associate a name and an IBAN code. You can then select for each of your [clients]({{< relref "finance/index.md#client-list" >}}) the appropriate bank account usually used for payments.
+* **Vat rates**: set the list of VAT rate options that may be applied to an invoice. To each one, you can associate a short label (to easily recognize it), the rate and a more complete description of it. You can then select for each of your [clients]({{< relref "finance/index.md#client-list" >}}) the appropriate vat rate usually used for invoicing.
+* **Payment terms**: 🔜  manage all the types of payment terms agreed with your clients for invoicing matters. To each one, you can associate a name, the amount of days decided, and whether the payment should be issued at the end of the defined month.
 
 ## Alerts Engine
 
