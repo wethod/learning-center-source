@@ -446,6 +446,10 @@ This is your storage for the project: it's a good idea to keep all assets for a 
 
 {{< img-center src="/uploads/2020/03/13/file-storage.gif" >}}
 
+#### Sync with Google Drive 🔜 
+
+Coming soon. 
+
 ### Boards
 
 A board takes the form of a simplified spreadsheet where you can add and re-order columns and rows.
