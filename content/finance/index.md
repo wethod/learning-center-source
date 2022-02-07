@@ -89,7 +89,7 @@ A window with further details will show up, letting you fill in the info you nee
 Once you're done, remember to click on the **save** button.
 
 {{< img-center src="/uploads/2022/01/27/invoice-details.png" >}}
-{{< img-center src="/uploads/2022/01/27/invoice-details-modal.png" >}}
+{{< img-center src="/uploads/2022/02/07/screen-shot-2022-02-07-at-16-10-23.png" >}}
 
 ### Currency
 
