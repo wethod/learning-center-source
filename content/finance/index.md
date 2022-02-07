@@ -85,7 +85,8 @@ To create an invoice:
 (Coming soon)
 
 You can add more information about your invoice by clicking on the options button of the invoice.  
-A window with further details will show up, letting you fill in the info you need.  
+A window with further details will show up, letting you fill in the info you need.     
+Please mind the vat rate is automatically compiled with the client's vat rate (if one has been provided).   
 Once you're done, remember to click on the **save** button.
 
 {{< img-center src="/uploads/2022/01/27/invoice-details.png" >}}
