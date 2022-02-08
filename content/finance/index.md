@@ -80,9 +80,7 @@ To create an invoice:
 2. Compile the invoice's empty fields;
 3. Click on the "**create**" button.
 
-### Edit details 🔜
-
-(Coming soon)
+### Edit details
 
 You can add more information about your invoice by clicking on the options button of the invoice.  
 A window with further details will show up, letting you fill in the info you need.     
