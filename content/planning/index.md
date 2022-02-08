@@ -2,6 +2,7 @@
 date: 2016-03-12T19:08:11.000+00:00
 title: Planning
 weight: "40"
+draft: true
 
 ---
 ## Overview
@@ -120,9 +121,7 @@ A new version of the budget is automatically created each time a user makes a co
 
 Projects with job order category of type "plan upon request" cannot be planned the usual way: user needs to visit [Allocation Requests]({{< relref "planning/index.md#allocation-requests" >}}) and ask to be allocated.
 
-## Allocation Requests 🔜
-
-(Coming soon)
+## Allocation Requests 
 
 Particular job order categories may expect people to ask to be planned on them, this can be the case of job order categories representing holidays, leaves or - why not - R&D projects.
 
