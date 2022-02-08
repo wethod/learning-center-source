@@ -555,9 +555,7 @@ For each person you can see an overview of his interests, giving priority to the
 
 * To set you [skills]({{< relref "settings/index.md#skills" >}}), [interests]({{< relref "settings/index.md#interests" >}}) and [languages]({{< relref "settings/index.md#languages" >}}), go to your profile.
 
-## Time-off Manager 🔜
-
-(Coming soon)
+## Time-off Manager
 
 Particular job order categories may be used to represent **time off**, that are hours spent out of work. Time off can come in different flavors:
 
