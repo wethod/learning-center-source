@@ -106,7 +106,7 @@ This feature allows the user to determine a status of a supplier and if it is el
 * **Expenses**: manage [categories of expenses]({{< relref "finance/index.md#set-a-category-of-expense" >}})
 * **Bank accounts**: set the list of bank accounts available for invoicing matters in your company. To each one, you can associate a name and an IBAN code. You can then select for each of your [clients]({{< relref "finance/index.md#client-list" >}}) the appropriate bank account usually used for payments.
 * **Vat rates**: set the list of VAT rate options that may be applied to an invoice. To each one, you can associate a short label (to easily recognize it), the rate and a more complete description of it. You can then select for each of your [clients]({{< relref "finance/index.md#client-list" >}}) the appropriate vat rate usually used for invoicing.
-* **Payment terms**: manage all the types of payment terms agreed with your clients for invoicing matters. Associate a name, specify the period of time in days when the payment should be issued: if after the invoice emission or afer the end of the relative month. 
+* **Payment terms**: manage all the types of payment terms agreed with your clients for invoicing matters. Associate a name, specify when the payment should be issued: is it 30 net days after the issue of the invoice or is it 30 net days (end of the month)? 
 * **Google Drive Sync**: 🔜  manage [Google Drive integration with project canvases]({{< relref "pipeline/index.md#sync-with-google-drive" >}}). Here you can edit the shared drive to use and the job order categories for which the integration will work.
 
 ## Alerts Engine
