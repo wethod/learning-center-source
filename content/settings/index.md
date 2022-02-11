@@ -2,7 +2,6 @@
 date: 2017-05-24T10:09:44.000+00:00
 title: Settings
 weight: "80"
-draft: true
 
 ---
 ## Account
