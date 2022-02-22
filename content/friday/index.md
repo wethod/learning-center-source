@@ -62,7 +62,7 @@ _You can enable this type of timesheet from [company settings]({{< relref "setti
 
 Timesheet is automatically compiled on Sundays, based on Planning.
 
-User can still edit this kind of timesheets, but only for past weeks. This is because wethod add timesheet based on planning **during Sunday night**: if user would be able to edit current week timesheet, this could end up in conflicts. Consider the following scenario:
+User can still edit this kind of timesheets, but only for past weeks. This is because wethod adds timesheet based on planning **during Sunday night**: if user would be able to edit current week timesheet, this could end up in conflicts. Consider the following scenario:
 
 1. Project A has automatic timesheet JOC
 2. There is 40 hours planned for user Joe this week
@@ -83,6 +83,7 @@ You can edit your colleague’s timesheet as you usually do with your own.
 
 A box at the top of the page will always remind you which team member you are managing at the moment.
 
+{{< img-center src="/uploads/2022/02/22/timesheet-others.png" >}}
 
 ## Project Status
 
