@@ -311,6 +311,14 @@ On the top right corner you can change the week of the displayed timesheets.
 
 {{< img-center src="/uploads/2017/08/28/Timesheets.png" >}}
 
+You can see the details by clicking on a person's name.
+
+{{< img-center src="/uploads/2022/02/22/weekly-timesheet-details.png" >}}
+
+Users with _'edit other'_ timesheet permission can also go to the colleague's timesheet page from the details box.
+
+{{< img-center src="/uploads/2022/02/22/weekly-timesheet-others.png" >}}
+
 ## Timesheet Summary
 
 This report shows all the timesheets for the selected year, grouped by Job Order Category and compared to the [Roadrunner Index](http://support.wethod.com/glossary/index.md#roadrunner-index-rri).
