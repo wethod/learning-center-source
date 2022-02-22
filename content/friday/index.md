@@ -58,7 +58,7 @@ _You can enable this type of timesheet from [company settings]({{< relref "setti
 **When you delete an area from a project's budget, it's timesheet's hours and notes are assigned to the "Generic" timesheet's area.**
 {{< /note >}}
 
-**Automatic** 
+### Automatic 
 
 Timesheet is automatically compiled on Sundays, based on Planning.
 
@@ -71,9 +71,17 @@ User can still edit this kind of timesheets, but only for past weeks. This is be
 5. After doing so, Joe timesheet for the current week would be 60 hours in project A. What a mess!
 
 _To use this type of timesheet: 
-Go to “Company” from your profile, then select “Timesheet” and choose option “Automatic”._
+Go to “Company” from your profile, then check “Automatic Timesheet” for each desired Job Order Category”._
 
+### Edit others
 
+Users with _‘edit other’_ permission can also edit the timesheet of other team members.
+
+To view their timesheet, go to the report [weekly timesheet]({{< relref "reports/index.md#weekly-timesheet" >}}), select the week you want, and go to the person details. If you click the _‘Edit timesheet’_ button, you will be redirected to their timesheet page.
+
+You can edit your colleague’s timesheet as you usually do with your own.
+
+A box at the top of the page will always remind you which team member you are managing at the moment.
 
 
 ## Project Status
