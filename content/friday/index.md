@@ -73,6 +73,10 @@ User can still edit this kind of timesheets, but only for past weeks. This is be
 _To use this type of timesheet: 
 Go to “Company” from your profile, then check “Automatic Timesheet” for each desired Job Order Category”._
 
+{{< img-center src="/uploads/2022/02/24/timesheet-auto.png" >}}
+
+{{< img-center src="/uploads/2022/02/24/timesheet-auto-disabled.png" >}}
+
 ### Edit others
 
 Users with _‘edit other’_ permission can also edit the timesheet of other team members.
