@@ -2,6 +2,7 @@
 date: 2016-03-11T19:10:46.000+00:00
 title: Pipeline
 weight: "30"
+draft: true
 
 ---
 ## Overview
@@ -536,7 +537,7 @@ To add or edit criteria for the evaluation of projects and team members go to [P
 **Changes to criteria are available only to next reviews, past reviews' criteria are not updated to ensure consistency.**
 {{< /note >}}
 
-You can find user's review results in the [Profile\]({{< relref "settings/index.md#kudos" >}}) section, while you need to visit the \[Canvas]({{< relref "pipeline/index.md#project-canvas" >}}) section to see project's review results.
+You can find user's review results in the [Profile]({{< relref "settings/index.md#kudos" >}}) section, while you need to visit the [Canvas]({{< relref "pipeline/index.md#project-canvas" >}}) section to see project's review results.
 
 In order to maintain a review anonymous, you can set a minimum number of unique reviewers to collect feedback from before showing review’s results in the profile page and the project canvas. This can ben managed in [Project & Team members review settings]({{< relref "settings/index.md#company" >}}).
 
