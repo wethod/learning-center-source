@@ -2,6 +2,7 @@
 date: 2017-05-24T10:09:44.000+00:00
 title: Settings
 weight: "80"
+draft: true
 
 ---
 ## Account
@@ -78,11 +79,12 @@ Check the stage section for further information.
   		* **Work days to complete**: the project status is assigned as estimated days to complete (e.g. in order to complete we need 12 more days of work)
   		* **Auto**: the progress of the projects in this category are not based on their projects status, but based on their duration (equally distributed on their lifespam indicated by date start and duration on the pipeline)
   		* **Completed percentage**: the project status is assigned as a progress percentage (e.g. the progress of this project is 45%)
+  * **Automatic timesheet**: here you can choose to automate the timesheets creation process for this kind of projects. This way, timesheets are automatically created each weekend based on planned hours. _Be careful: Anything can go wrong because planning is not often 100% accurate, this is why timesheet exists._ See the [timesheet section]({{< relref "friday/index.md#automatic" >}}) for further details.
 * **Metadata**:  Add a detail depth to a project in pipeline with metadata tags. Add a new tag, specify its values and check the box if required. Metadata tags are useful to reach a better insight within a single cluster of data, i.e. in the report Sales Pipeline.
 * **Email Bot**: here you can insert the email addresses to which send invoices, orders and travel requests;
 * **Project Won/Lost Bot**: here you can insert the email addresses to which send notifications each time someone of your teammates won or lost a project. A project is considered to be _lost_ when its probability is 0 and _won_ when its probability is 90
 * **Project Types**: create and manage labels that you can assign to projects in [pipeline]({{< relref "pipeline/index.md#projects" >}}). A project type is basically composed by a name, you can than aggregate it's values by using a group or use a short label to better identify a project type;
-* **Timesheet**: here you can choose to automate the timesheets creation process. This way, timesheets are automatically created each Friday based on planned hours. _Be careful: Anything can go wrong because planning is not often 100% accurate, this is why timesheet exists._
+* **Timesheet**: here you can choose to switch to the detailed view for your timesheets. When this is enabled, you will be able to fill in your timesheet day by day, and also specify in which budget area your worked on. See the [timesheet section]({{< relref "friday/index.md#detailed" >}}) for further details. 
 * **Project**:
 	* **Required contact**: Whether the client's contact is required in order to create a Project
     * **Required Job Order**: Whether the Job Order is required for a Project to show up on Timesheet and Project Status sections
@@ -106,6 +108,7 @@ This feature allows the user to determine a status of a supplier and if it is el
 * **Expenses**: manage [categories of expenses]({{< relref "finance/index.md#set-a-category-of-expense" >}})
 * **Bank accounts**: set the list of bank accounts available for invoicing matters in your company. To each one, you can associate a name and an IBAN code. You can then select for each of your [clients]({{< relref "finance/index.md#client-list" >}}) the appropriate bank account usually used for payments.
 * **Vat rates**: set the list of VAT rate options that may be applied to an invoice. To each one, you can associate a short label (to easily recognize it), the rate and a more complete description of it. You can then select for each of your [clients]({{< relref "finance/index.md#client-list" >}}) the appropriate vat rate usually used for invoicing.
+**Split payment for VAT**: In some cases, legislation in Italy requires that when a state-owned company pays for an invoice, it pays VAT directly to the tax authority and the net amount to the supplier of goods and services. Suppliers must display the split amounts on the documents they issue to the customer.
 * **Payment terms**: manage all the types of payment terms agreed with your clients for invoicing matters. Associate a name and specify when the payment should be issued: is it 30 net days after the issue of the invoice or is it 30 net days (end of the month)? 
 * **Google Drive Sync**: 🔜  manage [Google Drive integration with project canvases]({{< relref "pipeline/index.md#sync-with-google-drive" >}}). Here you can edit the shared drive to use and the job order categories for which the integration will work.
 
