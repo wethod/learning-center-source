@@ -2,7 +2,6 @@
 date: 2016-03-11T19:10:46.000+00:00
 title: Pipeline
 weight: "30"
-draft: true
 
 ---
 ## Overview
@@ -511,7 +510,7 @@ When a project has been archived, WETHOD will ask the project manager to request
 
 {{< img-center src="/uploads/2020/06/03/review_archived.gif" >}}
 
-This feature can also be used on selected job order categories, see section [Project & Team members review settings\]({{< relref "settings/index.md#company" >}}) to learn more. Pending review requests are shown in \[Desk]({{< relref "desk/index.md" >}}).
+This feature can also be used on selected job order categories, see section [Project & Team members review settings]({{< relref "settings/index.md#company" >}}) to learn more. Pending review requests are shown in [Desk]({{< relref "desk/index.md" >}}).
 
 ### Request intermediate reviews
 
