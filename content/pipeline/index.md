@@ -448,7 +448,35 @@ This is your storage for the project: it's a good idea to keep all assets for a 
 
 #### Sync with Google Drive 🔜 
 
-Coming soon. 
+You can create a bridge between a project canvas and a Google Drive folder containing files related to that project.
+
+This allow you to use canvas Files widget to:
+
+*	Upload files to the related Google Drive project folder. Files are uploaded inside the folder you are in
+*	See files inside the Google Drive project folder
+*	Delete files inside the Google Drive project folder
+*	Search files inside the Google Drive project folder. Search is done only inside the folder you are in
+
+Once this functionality is enabled you will only be able to upload files to Google Drive, other files uploaded to wethod in the past will still be visible.
+
+You can enable this functionality in your [company settings]({{< relref "settings/index.md#company" >}}).
+
+Once this functionality is enabled, different thing are automatically kept in sync:
+
+*	When a project with a job order category in sync is created, the related Google Drive folder is created in the canonical path
+*	If a project client is changed, its Google Drive folder is moved under the new Google Drive client folder
+*	If a project client name changes, the Google Drive folder related to this client has its name changed accordingly
+*	If a project name changes, its Google Drive folder name is updated accordingly
+*	If a project client is deleted - and it gets replaced with another one for the active projects - all its Google project folders are moved under the new Google Drive client folder
+
+A project may not be associated with a Google Drive folder, even if is the integration is enabled for its job order category. This can happen if:
+
+1. The project was created before enabling the integration
+2. Something in the canonical path has been deleted or moved
+
+In these cases you get an error status but don't worry, you can easily solve the issue by hitting the "Sync folder" button: wethod will try to find the Google project folder in the canonical path. If the folder cannot be found, a modal will ask if you want to create it.
+
+{{< img-center src="/uploads/2022/03/09/drive-canvas-sync.gif">}}
 
 ### Boards
 
