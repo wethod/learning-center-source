@@ -110,6 +110,8 @@ This feature allows the user to determine a status of a supplier and if it is el
 **Split payment for VAT**: In some cases, legislation in Italy requires that when a state-owned company pays for an invoice, it pays VAT directly to the tax authority and the net amount to the supplier of goods and services. Suppliers must display the split amounts on the documents they issue to the client.
 * **Payment terms**: manage all the types of payment terms agreed with your clients for invoicing matters. Associate a name and specify when the payment should be issued: is it 30 net days after the issue of the invoice or is it 30 net days (end of the month)? 
 * **Google Drive Sync**: 🔜  manage [Google Drive integration with project canvases]({{< relref "pipeline/index.md#sync-with-google-drive" >}}). To enable this integration you will be promped to allow wethod access to your Google Drive and you will need to choose a folder inside one of your shared drives to use as root for all the files to keep in sync. When the integration is enabled, you can:
+	* See the **root folder** you have chosen
+	* See the **canonical path** used to link a project to its Google Drive folder. For a project "New website" with client "ACME" the canonical path will be *root folder > ACME > New website*, all the canonical path components are Google Drive folders
 	* Choose which job order categories need to be kept in sync
 	* Add **default folders** to create automatically each time a new Google Drive project folder is created
 
