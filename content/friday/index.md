@@ -24,6 +24,8 @@ Every Friday an e-mail will remind:
 
 At the end of each week, type in here the actual hours you have spent working on the projects you are involved in. It's all really easy, fast and simple.
 
+You can also insert some notes about the work you've done in each project. 
+
 Each project can be pinned to find it faster later.
 
 {{< img-center src="/uploads/2021/04/26/timesheet-weekly.png" >}}
@@ -32,6 +34,11 @@ If you want a more fine-grained control you can enable the **Daily mode**, this 
 
 {{< img-center src="/uploads/2021/04/26/timehseet-daily.png" >}}
 
+When a **project is archived**, you will still be able to see the hours and notes you previously entered. However, you will **not** be able to **edit** them anymore!
+
+If you need to make some adjustments, you can still unarchive the project while you fix your timesheet.
+
+{{< img-center src="/uploads/2022/04/06/timesheet-archived.png" >}}
 
 ### Detailed
 
