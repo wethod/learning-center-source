@@ -396,16 +396,18 @@ Here you can have a summarized view about all that projects your company won or 
 
 This section shows production related data, let's see each chart:
 
-{{< img-center src="/uploads/2020/01/29/backlog.png" >}}
+{{< img-center src="/uploads/2022/04/28/backlog.png" >}}
 
-* **Production**: shows the weekly total production for the last 52 weeks while for the future 52 it shows four charts:
-  * Projection: is the produced value of the last week projected on future weeks
-  * Avg Revenues: revenues target (set from: [profit&loss](http://support.wethod.com/profit-loss/index.md#)) divided by the number of the weeks in the current year
-  * Planned production (Core): weekly production plan for projects with probability >= 90%
-  * Planned production (Full): weekly production plan for all projects
-* **Backlog**: shows the amount of production plan in your pipeline on each week of the last year
-* **Weeks Backlog**: shows how many weeks of work your company needs to produce the entire backlog for each week of the last year (week's backlog / week's production).
-* **Tips**: [COMING SOON] This section will show useful tips based on your company production, production plan and backlog
+* **Weekly Production** plots various data ranging from one year in the past to one year in the future:
+  * Production: weekly production for the last 52 weeks
+  * Projection: value produced in the last week and projected on the future
+  * Avg Revenues: revenues target (set from [profit & loss](http://support.wethod.com/profit-loss/index.md#)) divided by the number of weeks in the current year. This is the ideal weekly revenues that should be hit
+  * Planned product (Core): weekly production plan of projects with probability greater than 90%. This gives us a look on the production we think will come from projects that are very likely to start
+  * Planned product (Full): weekly production plan for all projects
+* **Average Weekly Production**: for the last 52 weeks shows the weekly production moving average (based on the previous 12 weeks). Using a moving average you can appreciate more the general trend instead of focusing on the single peaks
+* **Backlog (weighted value)**: shows the amount of production plan in your pipeline for each week of the previous year. This helps us track the evolution of the company production expectations
+* **Weeks Backlog**: shows how many weeks of work your company needs to produce the entire backlog for each week of the last year (week's backlog / week's production). This can be summarized by the question "How many weeks of work do we have in front of us if we stop accepting projects right now?"
+* **Tips**: 🔜 This section will show useful tips based on your company production, production plan and backlog
 
 ## Briefing
 
