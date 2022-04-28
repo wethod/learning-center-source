@@ -293,9 +293,9 @@ In this view you can see, for each project (and for the selected week):
 * The **production value**;
 * The **worked days**: how many days people have worked on the project during the selected week;
 * The **progress**: how many days the project has progressed during the selected week, that is the difference between the selected week project status and the previous one;
-* The **1D Value** **(Budget)**: estimated daily production value, that is "what's the expected value that must be produced for the project by day?". This is calculated by dividing the project's estimate by the project's budget days;
-* The **1D Value (Actual)**: actual daily production value, that is "what's the value produced for the project by day?". This is calculated by dividing the project's production value by the project's worked days. This value is green if it's greater than _1D Value (Budget)_, red otherwise;
-* The **external cost**: project's external cost percentage on the total estimate.
+* The **1D Value** **(Budget)**: estimated daily production value, that is "what is the expected value that must be produced for the project by day?". This is calculated by dividing the project's estimate by the project's budget days;
+* The **1D Value (Actual)**: actual daily production value, that is "what is the value produced for the project by day?". This is calculated by dividing the project's production value by the project's worked days. This value is green if it's greater than _1D Value (Budget)_, red otherwise;
+* The **external cost**: project's external cost percentage on the total estimate. This is the same for each week of the projectg
 
 You can switch between month's week by using the selector placed at the top of this section.
 
