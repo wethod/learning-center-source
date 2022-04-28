@@ -108,16 +108,16 @@ This page shows by default a list of all the projects you are managing in your c
 
 The list of projects is divided into groups by the type of project status:
 
-* "Workdays to complete," whether to declare the workdays left to complete a project.
-* "Completed percentage," whether to declare the percentage of progress of the project.
-* "Auto," whether the project status is automatic.
+* "Workdays to complete" whether to declare the workdays left to complete a project.
+* "Completed percentage" whether to declare the percentage of progress of the project.
+* "Auto" whether the project status is automatic.
 
 Set preferences in Settings > Company > Job Order Categories > Project status.
 
 
 ### Current production vs production plan of the month
 
-For each project, Wethod shows the production status. It compares the current production (based on the project status) with the production planned for the current month. 
+For each project, Wethod shows the production status. It compares the current production (based on the project status) with the production planned for the current month (based on [production plan]({{< relref "planning/index.md#production-plan" >}})). 
 
 
 ### Edit project status by area
@@ -134,5 +134,12 @@ For each project, it is possible to edit the status of risk on a weekly basis. B
 
 ### Budget consumption status, production trend and project details.
 
-Click on the right arrow to access more details on the status of the project’s budget consumption, the production plan trend, the days already planned for the future and other details.
+Click on the right arrow to access more details about a project status or to get useful insights that can help you compile it:
+
+* A resume of the project status by area as of the previuos week Friday
+* The amount of days planned for the project for the future (current week included)
+* The budget consumption as of the previuos week Friday
+* The progress trend for each week of the month, compared to the production plan 
+* Other project details
+
 {{< img-center src="/uploads/2020/08/07/project_status_details.png" >}}
