@@ -67,9 +67,9 @@ _You can enable this type of timesheet from [company settings]({{< relref "setti
 
 ### Automatic 
 
-Timesheet is automatically compiled on Sundays, based on Planning.
+Timesheet is automatically compiled based on Planning: every Saturday (for the past week) for the weekly timesheet, every night (for the day before) for the "detailed" timesheet.
 
-User can still edit this kind of timesheets, but only for past weeks. This is because wethod adds timesheet based on planning **during Sunday night**: if user would be able to edit current week timesheet, this could end up in conflicts. Consider the following scenario:
+Users can still edit this kind of timesheet, but only for the past: you can edit a timesheet the next week for the weekly timesheet and the next day for the "detailed" timesheet. This is because if a user would be able to edit the current week timesheet (or the current day when the timesheet is "detailed"), this could end up in conflicts. Consider the following scenario:
 
 1. Project A has automatic timesheet JOC
 2. There is 40 hours planned for user Joe this week
