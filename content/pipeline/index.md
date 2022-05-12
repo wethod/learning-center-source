@@ -416,6 +416,14 @@ The timeline gets automatically populated with some useful project's events like
 
 {{< img-center src="/uploads/2020/02/01/project-timeline.png" >}}
 
+### Sync with your Google Calendar
+
+Activities which you create inside a project timeline can be added to your Google Calendar and kept in sync. This sync id one way from Wethod to Google Calendar, this means that if you edit or delete an event in your Google Calendar these changes are not propagated to Wethod.
+
+You can enable this functionality in the [account section]({{< relref "settings/index.md#account" >}}).
+
+{{< img-center src="/uploads/2022/05/12/timeline-calendar.png" >}}
+
 ## Project Canvas
 
 To work well and efficiently on a project you first need to understand it and then highlight its main aspects. In WETHOD you can start "drawing" your project since its first stages by defining:
