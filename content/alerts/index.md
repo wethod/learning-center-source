@@ -71,7 +71,7 @@ This alert is shown if you have the permission to approve budgets and there's a 
 
 ### Budget Consumption Too Fast
 
-This alert is shown if you’re the manager of a project where the [budget consumption]({{< relref "glossary/index.md##budget-consumption" >}}) is more than 20% greater than the project's [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}).
+This alert is shown if you’re the manager of a project where the [budget consumption]({{< relref "glossary/index.md##budget-consumption" >}}) is more than 15% greater than the project's [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}).
 
 {{< img-center src="/uploads/2017/08/28/budget_cons_too_fast.png" >}}
 
@@ -85,7 +85,7 @@ This can have two main causes:
 
 ### Budget Consumption Too Slow
 
-This alert is shown if you're manager of a project where the [budget consumption]({{< relref "reports/index.md#budget-consumption" >}}) is more than 20% lower than the project's [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}).
+This alert is shown if you're manager of a project where the [budget consumption]({{< relref "reports/index.md#budget-consumption" >}}) is more than 15% lower than the project's [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}).
 
 {{< img-center src="/uploads/2017/08/28/budget_cons_too_slow.png" >}}
 
