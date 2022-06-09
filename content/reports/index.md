@@ -156,6 +156,7 @@ Here are reported, for each teammate who has worked on the project, the comparis
 Below "As of last Friday" you can see all the worked and planned hours until last Friday.
 
 Clicking on the calendar icon you can select a custom period and based on the [type of timesheet]({{< relref "settings/index.md#company" >}}) they are using two behavior are in place:
+
 * Detailed timesheet: the exact dates chosen in the time range are used to filter results, both for worked and planned hours.
 * Non-detailed timesheet: the entire week of the start and end dates are considered while fetching data. This applies to both worked and planned hours.
 
