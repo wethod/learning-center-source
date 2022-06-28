@@ -202,6 +202,8 @@ You can hide a project by clicking on the "**X**" near the project's name.
 
 Here you can express the percentage of the project's value you plan to produce for each month.
 
+You will only see the projects with a value greater than 0: you cannot edit the plan when there is no value.
+
 Past months are read-only and are automatically populated with the real production, based on the month's project status.
 You can edit future months but remember: a production plan can be saved only if you've distributed the 100% of its value, you can easily check this by looking at the total: a red total means that your planning is someway different from 100%.
 
