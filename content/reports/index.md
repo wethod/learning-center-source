@@ -306,7 +306,7 @@ You can switch between month's week by using the selector placed at the top of t
 
 ## Weekly Timesheet
 
-This is a weekly overview of the [timesheets\]({{< relref "friday/index.md#timesheet" >}}) made by your teammates, each timesheet is coloured as the \[job order category]({{< relref "settings/index.md#company" >}}) of the project it's linked to and you can see the project's name by clicking on its timesheet.
+This is a weekly overview of the [timesheets]({{< relref "friday/index.md#timesheet" >}}) made by your teammates, each timesheet is coloured as the [job order category]({{< relref "settings/index.md#company" >}}) of the project it's linked to and you can see the project's name by clicking on its timesheet.
 
 On the top left corner you can filter the displayed people.
 
