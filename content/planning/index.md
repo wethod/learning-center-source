@@ -72,6 +72,18 @@ When you run out of days, you can choose between two options:
 * Review the budget and wait for the approval of a supervisor.
 * Quickly convert available budget days from another user level.
 
+###Weekends
+A five days calendar (Monday to Friday) is used by default.
+
+If you enable “Use a 7-days week calendar” is enabled in [company settings]({{< relref "settings/index.md#company" >}}), the calendar will include Saturdays and Sundays.
+
+If you enable “Highlight weekends” in [company settings]({{< relref "settings/index.md#company" >}}):
+
+1. Saturdays and Sundays will be shown using a special visual pattern to make more clear that they belong to weekend
+2. When one tries to plan on weekends, an alert will ask if he really want to plan over the weekend. If user clicks “Yes”, plan is confirmed and no similar warning appears until user changes the selected project. If user clicks “No”, weekends are removed from requested plans
+
+{{< img-center src="/uploads/2022/07/15/highlight-weekend.gif">}}
+
 
 **Repeat an allocation**
 
@@ -85,6 +97,8 @@ When you run out of days, you can choose between two options:
 6. Select an end date for the repetition
 7. Click "Plan"
 8. An alert will tell you if the budget is not sufficient to cover the repetition in the selected time range or if the repetition pattern clashes with existing allocations.
+
+If you enable “Highlight weekends” in [company settings]({{< relref "settings/index.md#company" >}}) and then you try to repeat something planned on a Saturday or Sunday, an alert will ask if you really want to repeat the weekend. If you deny, repetition is canceled
 
 **Remove future allocations**
 
