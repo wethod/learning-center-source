@@ -72,7 +72,7 @@ When you run out of days, you can choose between two options:
 * Review the budget and wait for the approval of a supervisor.
 * Quickly convert available budget days from another user level.
 
-###Weekends
+### Weekends
 A five days calendar (Monday to Friday) is used by default.
 
 If you enable “Use a 7-days week calendar” is enabled in [company settings]({{< relref "settings/index.md#company" >}}), the calendar will include Saturdays and Sundays.
