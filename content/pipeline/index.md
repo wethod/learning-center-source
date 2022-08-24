@@ -454,7 +454,7 @@ This is your storage for the project: it's a good idea to keep all assets for a 
 
 {{< img-center src="/uploads/2020/03/13/file-storage.gif" >}}
 
-#### Sync with Google Drive 🔜 
+#### Sync with Google Drive 
 
 You can create a bridge between a project canvas and a Google Drive folder containing files related to that project.
 
