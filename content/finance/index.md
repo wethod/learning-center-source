@@ -399,7 +399,7 @@ Due to privacy concerns, it is not possible to download booking and reservation 
 
 The expense reimbursement process allows employers to pay back employees who have spent their own money for business-related expenses. These types of reimbursable expenses tend to occur when employees travel for work, but can be associated with other activities related to their employment, including, for example, certain purchases of work-related supplies or tools.
 
-{{< img-center src="/uploads/2021/11/29/expenses-list.png" >}}
+{{< img-center src="/uploads/2022/08/30/expenses-list.png" >}}
 
 All expenses are listed with the following information at display:
 
@@ -412,6 +412,10 @@ All expenses are listed with the following information at display:
 * Reimbursement value (always expressed in master currency) 
 
 Based on [permission roles]({{< relref "settings/index.md#permissions" >}}), users can view, edit, delete their own expenses and/or others's expenses.
+
+Users with permission to edit others' expenses can also change the owner of the expense when creating or updating it from the sidebar details.
+
+{{< img-center src="/uploads/2022/08/30/expense-edit-owner.png" >}}
 
 {{< note title="Note" >}}
 **All expenses linked to a project are listed in the widget "Orders" in the [project report]({{< relref "reports/index.md#project-report" >}}) with a general "Expense" name, its date and value.**
