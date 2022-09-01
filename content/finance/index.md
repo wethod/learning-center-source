@@ -10,7 +10,7 @@ In this section you can see all your orders and create new ones.
 
 {{< img-center src="/uploads/2021/04/23/orders-list.png" >}}
 
-### Create a new order:
+### Create a new order
 
 1. Click button _New Order_ and a sidebar will open.
 
@@ -21,7 +21,7 @@ In this section you can see all your orders and create new ones.
 3. Click on the "**save**" button
 4. Your order will be added to the list
 
-### Order's fields description:
+### Order's fields description
 
 * **Project**: the target Project
 * **Job Order**: automatically filled selecting the project
@@ -33,7 +33,7 @@ In this section you can see all your orders and create new ones.
 * **Duration**: answers to the question "when this order will used for the project?", by default uses the project's start month and duration. For example: some external employees works for you on April and May so you should set start month to April and duration of 2 months.
 * **Notes**: a brief text about the order. This is attached to the order's email and can be seen by your colleagues
 
-### Send an order:
+### Send an order
 
 1. Click the button _Send_.
 2. Choose a recipient for the order. To insert one or more email addresses as recipients head to the settings [Email Bot]({{< relref "settings/index.md#company" >}}) section.
@@ -41,9 +41,23 @@ In this section you can see all your orders and create new ones.
 
 When an order is sent, you will need specific permissions to edit it.
 
-You can approve an order by clicking on the "**approve**" button. Approving an order isn't mandatory but can be useful if you want to keep track of what orders can be actually issued.
-
 Role based permissions for Orders can be managed from the [permissions section]({{< relref "settings/index.md#permissions" >}}).
+
+A sent order can be approved.
+
+### Approve an order
+
+You can approve an order by clicking on the "**Approve**" button. Approving an order isn't mandatory but can be useful if you want to keep track of which orders can be actually issued.
+
+By clicking the “Approve” button you will presented with a confirmation modal and then you can optionally send an email to notify someone. Recipients for this notification can be selected from those listed under orders [Email Bot]({{< relref "settings/index.md#company" >}}) from the settings.
+
+{{< img-center src="/uploads/2022/09/01/orders-approve-notification-modal.png" >}}
+
+A approved order can be set as paid.
+
+### Set order as paid
+
+You can set an order as paid by clicking on the "**Set as paid**" button. This isn't mandatory but can be useful if you want to keep track of which orders has actually been paid.
 
 ### Currency
 
