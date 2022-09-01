@@ -51,7 +51,7 @@ You can approve an order by clicking on the "**Approve**" button. Approving an o
 
 By clicking the “Approve” button you will presented with a confirmation modal and then you can optionally send an email to notify someone. Recipients for this notification can be selected from those listed under orders [Email Bot]({{< relref "settings/index.md#company" >}}) from the settings.
 
-{{< img-center src="/uploads/2022/09/01/orders-approve-notification-modal.png" >}}
+{{< img-center src="/uploads/2022/09/01/approve-notification-modal-big.png" >}}
 
 A approved order can be set as paid.
 
