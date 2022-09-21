@@ -568,7 +568,7 @@ For each person you can see an overview of his interests, giving priority to the
 
 {{< img-center src="/uploads/2021/06/01/interests_knowledge.gif" >}}
 
-* To set you [skills\]({{< relref "settings/index.md#skills" >}}), \[interests\]({{< relref "settings/index.md#interests" >}}) and \[languages]({{< relref "settings/index.md#languages" >}}), go to your profile.
+* To set you [skills]({{< relref "settings/index.md#skills" >}}), [interests]({{< relref "settings/index.md#interests" >}}) and [languages]({{< relref "settings/index.md#languages" >}}), go to your profile.
 
 ## Time-off Manager
 
