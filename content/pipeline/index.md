@@ -114,8 +114,8 @@ For this reason, the value cannot be edited after a budget has been created.
 
 **External costs**
 
-This is an estimate of the percentage of external costs regarding this specific activity. 
-While the activity has no budget you can edit this percentage. The amount of external cost in this case will be the value of the activity multiplied by the estimated percentage.
+This is an estimate of the percentage of external costs regarding this specific activity.  
+While the activity has no budget you can edit this percentage.  The amount of external cost in this case will be the value of the activity multiplied by the estimated percentage.
 
 Once you create a budget, the external costs will refer to the ones specified in the budget, and will therefore not be editable from the activity details.
 
