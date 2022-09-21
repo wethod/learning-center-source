@@ -601,3 +601,9 @@ In this section are visible, for each user by year:
   * **Planned:** leave + vacation planned time off hours
   * **Requested:** leave + vacation requested time off hours
   * **Remaining**: target - used - planned - requested
+  
+You can also download all data in the time off manager with the dedicated export button.  
+The export contains data of the visible year you selected. To change the export year navigate to the desired date with the buttons on top of the page.
+
+{{< img-center src="/uploads/2022/09/21/time-off-export.gif" >}}
+
