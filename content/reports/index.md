@@ -602,8 +602,14 @@ In this section are visible, for each user by year:
   * **Requested:** leave + vacation requested time off hours
   * **Remaining**: target - used - planned - requested
   
-You can also download all data in the time off manager with the dedicated export button.  
+You can download all data in the time off manager with the dedicated export button.  
 The export contains data of the visible year you selected. To change the export year navigate to the desired date with the buttons on top of the page.
 
 {{< img-center src="/uploads/2022/09/21/time-off-export.gif" >}}
+ 
+You can also import data of the time off manager with the dedicated import button.  
+The import contains data of the visible year you selected. To change the export year navigate to the desired date with the buttons on top of the page.
+You can upload a file with .xls or .xlxs extension containing the backlog of vacation, leaves and target hours for every employee in your company.
+From this dialog you can also download the appropriate template you can use for the import.
 
+{{< img-center src="/uploads/2022/09/22/import-time-off.gif" >}}
