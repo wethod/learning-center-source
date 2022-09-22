@@ -608,7 +608,7 @@ The export contains data of the visible year you selected. To change the export 
 {{< img-center src="/uploads/2022/09/21/time-off-export.gif" >}}
  
 You can also import data of the time off manager with the dedicated import button.  
-The import contains data of the visible year you selected. To change the export year navigate to the desired date with the buttons on top of the page.
+The import can include data of the visible year you selected. To change the import year navigate to the desired date with the buttons on top of the page.
 You can upload a file with .xls or .xlxs extension containing the backlog of vacation, leaves and target hours for every employee in your company.
 From this dialog you can also download the appropriate template you can use for the import.
 
