@@ -38,6 +38,8 @@ When a **project is archived**, you will still be able to see the hours and note
 
 If you need to make some adjustments, you can still unarchive the project while you fix your timesheet.
 
+You should also consider the timesheet whitelist, that can prevent some users to edit the timesheet in some particular projects.
+
 {{< img-center src="/uploads/2022/04/06/timesheet-archived.png" >}}
 
 ### Detailed
@@ -52,6 +54,8 @@ This kind of Timesheet allows you to:
 * Specify between normal working hours, travel hours, overnight shifts or overtime.
 
 * Save notes for project's area.
+
+You should also consider the timesheet whitelist, that can prevent some users to edit the timesheet in some particular projects.
 
 {{< img-center src="/uploads/2021/04/26/timesheet-detailed-overview.png" >}}
 
@@ -95,6 +99,24 @@ You can edit your colleague’s timesheet as you usually do with your own.
 A box at the top of the page will always remind you which team member you are managing at the moment.
 
 {{< img-center src="/uploads/2022/02/22/timesheet-others.png" >}}
+
+### Whitelist
+
+The timesheet whitelist is used to prevent some users from editing the timesheet in a particular project.  
+
+When the timesheet whitelist is enabled for a project, in fact, only users in this list can edit the associated timesheet.  
+Not even the PM or the account are allowed to edit the hours when they're not whitelisted.  
+When you're not whitelisted, you **won't see** the project in the timesheet section.  
+However, you will still be able to see the hours and notes you previously entered, but you will **not** be able to **edit** them anymore.
+
+When the timesheet whitelist is disabled, anyway, every user will see that project in the timesheet section just as they usually would.
+
+Please note that being excluded from a timesheet whitelist does not keep you from seeing the project pages or the planning associated as you normally would.
+
+Same conditions apply for both the weekly and the detailed timesheet modes.
+
+You can enable the whitelist from the project details sidebar in the Project list.
+
 
 ## Project Status
 
