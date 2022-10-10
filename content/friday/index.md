@@ -115,7 +115,7 @@ Please note that being excluded from a timesheet whitelist does not keep you fro
 
 Same conditions apply for both the weekly and the detailed timesheet modes.
 
-You can enable the whitelist from the project details sidebar in the Project list.
+You can [enable the whitelist from the project details sidebar]({{< relref "pipeline/index.md#available-fields" >}}) in the Project list.
 
 {{< img-center src="/uploads/2022/10/10/timesheet_whitelist.png" >}}
 
