@@ -117,6 +117,7 @@ Same conditions apply for both the weekly and the detailed timesheet modes.
 
 You can enable the whitelist from the project details sidebar in the Project list.
 
+{{< img-center src="/uploads/2022/10/10/timesheet_whitelist.png" >}}
 
 ## Project Status
 
