@@ -38,7 +38,7 @@ When a **project is archived**, you will still be able to see the hours and note
 
 If you need to make some adjustments, you can still unarchive the project while you fix your timesheet.
 
-You should also consider the timesheet whitelist, that can prevent some users to edit the timesheet in some particular projects.
+You should also consider the [timesheet whitelist]({{< relref "friday/index.md#whitelist" >}}), that can prevent some users to edit the timesheet in some particular projects.
 
 {{< img-center src="/uploads/2022/04/06/timesheet-archived.png" >}}
 
