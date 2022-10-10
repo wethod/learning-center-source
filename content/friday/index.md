@@ -55,7 +55,7 @@ This kind of Timesheet allows you to:
 
 * Save notes for project's area.
 
-You should also consider the timesheet whitelist, that can prevent some users to edit the timesheet in some particular projects.
+You should also consider the [timesheet whitelist]({{< relref "friday/index.md#whitelist" >}}), that can prevent some users to edit the timesheet in some particular projects.
 
 {{< img-center src="/uploads/2021/04/26/timesheet-detailed-overview.png" >}}
 
