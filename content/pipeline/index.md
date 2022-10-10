@@ -149,6 +149,21 @@ Visit the [company settings page]({{< relref "settings/index.md#company" >}}). i
 
 {{< img-center src="/uploads/2021/10/26/opportunity-stage.png" >}}
 
+**Timesheet whitelist**
+The timesheet whitelist is used to prevent some users from editing the timesheet in a particular project.
+
+When the timesheet whitelist is enabled for a project, in fact, only users in this list can edit the associated timesheet.
+Not even the PM or the account are allowed to edit the hours when they’re not whitelisted.
+
+Please note that the whitelist only affects the timesheet section.
+That means that being excluded from a timesheet whitelist does not keep you from seeing the project pages or the planning associated as you normally would.
+Find out more in the [timesheet whitelist support page]({{< relref "friday/index.md#whitelist" >}}).
+
+From the project details sidebar, you can see whether the whitelist is enabled or not, and all the employees in the list.  
+You can add and remove people from the list at any time, by editing the project details.
+
+{{< img-center src="/uploads/2022/10/10/timesheet-whitelist-sidebar.gif" >}}
+
 ### Create a new activity
 
 Go to the appropriate section to create the desired activity:
