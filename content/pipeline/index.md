@@ -150,6 +150,7 @@ Visit the [company settings page]({{< relref "settings/index.md#company" >}}). i
 {{< img-center src="/uploads/2021/10/26/opportunity-stage.png" >}}
 
 **Timesheet whitelist**
+
 The timesheet whitelist is used to prevent some users from editing the timesheet in a particular project.
 
 When the timesheet whitelist is enabled for a project, in fact, only users in this list can edit the associated timesheet.
