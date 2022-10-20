@@ -10,7 +10,7 @@ All the data you insert in WETHOD are used to generate, weekly and automatically
 
 ## Project Report
 
-Each Monday, utilising data provided by [Timesheet\]({{< relref "friday/index.md#timesheet" >}}), \[Project Status\]({{< relref "friday/index.md#project-status" >}}) and \[Budget]({{< relref "budget/index.md" >}}), a Project Report is automatically created.
+Each Monday, utilising data provided by [Timesheet]({{< relref "friday/index.md#timesheet" >}}), [Project Status]({{< relref "friday/index.md#project-status" >}}) and [Budget]({{< relref "budget/index.md" >}}), a Project Report is automatically created.
 
 ### Budget Consumption / Project Status
 
