@@ -14,7 +14,7 @@ Each Monday, utilising data provided by [Timesheet]({{< relref "friday/index.md#
 
 ### Budget Consumption / Project Status
 
-This section shows the [budget consumption\]({{< relref "glossary/index.md#budget-consumption" >}}) of the project, compared to its \[progress]({{< relref "glossary/index.md#absolute-project-progress" >}}):
+This section shows the [budget consumption]({{< relref "glossary/index.md#budget-consumption" >}}) of the project, compared to its [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}):
 
 * If the project is **above the diagonal**: it's using a lot of days but it's progressing slowly than predictions based on budget;
 * If the project is **under the diagonal**: it's using few days but it's progressing faster than predictions based on budget;
@@ -25,7 +25,7 @@ By analizing the saved budget versions for the project, WETHOD can shows you:
 * The **baseline** which answers the question "_what would the situation be if I hadn't changed the budget since its first version_?";
 * The **forecast** which answers the question _"what's the situation right now?"_;
 * The **projected** which answers the question "_what will be the situation at the end of the project with the current budget consumption?"_;
-* The **wasted** which answers the question "_what's the situation right now,_ \[_wasted hours_\]({{< relref "glossary/index.md#wasted-hours" >}}) _included?"_;
+* The **wasted** which answers the question "_what's the situation right now,_ [_wasted hours_]({{< relref "glossary/index.md#wasted-hours" >}}) _included?"_;
 
 The grey dots shows you the forecast of the various past budget versions.
 
@@ -33,7 +33,7 @@ On the right of the graph you have:
 
 1. **Baseline**: the first budget's hours amount;
 2. The variations of the budget's hours amount since the baseline was approved;
-3. \[**Contingency**\]({{< relref "budget/index.md#the-price-s-detail" >}});
+3. [**Contingency**]({{< relref "budget/index.md#the-price-s-detail" >}});
 4. **Forecast**: the current budget's hours amount (Baseline + variations + contingency);
 5. A resume of the worked, planned, wasted and still available hours.
 
@@ -41,7 +41,7 @@ On the right of the graph you have:
 
 ### Invoices & Orders
 
-Here are listed all the [orders\]({{< relref "finance/index.md#orders" >}}) and \[invoices]({{< relref "finance/index.md#invoices" >}}) linked to the project, clicking on one of them will take you to the related details.
+Here are listed all the [orders]({{< relref "finance/index.md#orders" >}}) and [invoices]({{< relref "finance/index.md#invoices" >}}) linked to the project, clicking on one of them will take you to the related details.
 
 ### Economics
 
