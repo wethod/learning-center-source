@@ -458,14 +458,14 @@ Find below the insights available from each _Monthly Briefing._
 * **Production value**, with its trend over previous months and comparison with its target
 * **Working day value**, compared with the value of the month before.
 * **Road Runner Index** [RRI]({{< relref "glossary/index.md#roadrunner-index-rri" >}}) trend over the past months.
-* **Number of hours worked** and \[**Chargeability**\]({{< relref "settings/index.md#chargeability" >}}) trend.
+* **Number of hours worked** and [**Chargeability**]({{< relref "settings/index.md#chargeability" >}}) trend.
 * Number of **projects won**, with their total value compared with target, and the same week last year.
 * Projects that produced the most value.
 * **Pipeline value,** with the trend over the previous weeks.
 * **New opportunities**, with the total weighted and unweighted value. A weighted value depends on the project’s percentage of success. For instance, a project valued 100K with 10% success is valued at 10K.
 * **Lost opportunities**, with the total value and the main reasons why
 * **Pipeline value** trend over the past months
-* \[**Backlog**\]({{< relref "reports/index.md#backlog" >}})
+* [**Backlog**]({{< relref "reports/index.md#backlog" >}})
 
 {{< note title="Note" >}}
 **Set a revenue budget/forecast for the year in the Profit & Loss section to get better insights.**
@@ -485,9 +485,9 @@ Navigation: Insights > People > Demographics
 
 {{< img-center src="/uploads/2021/03/26/gif_demographics.gif" >}}
 
-* **Headcount**: (in units) this chart shows the amount of active employees in your company. The information is based on the quantity of positive [payrolls\]({{< relref "payroll/index.md#employees" >}}) within the shown timeframe. The forecast, which also considers the number of \[placeholders]({{< relref "payroll/index.md#placeholders" >}}) in the current quarter/year, is represented with a dashed line compared to the past quarters/years. A headcount target can be added and edited from the widget’s options button.
+* **Headcount**: (in units) this chart shows the amount of active employees in your company. The information is based on the quantity of positive [payrolls]({{< relref "payroll/index.md#employees" >}}) within the shown timeframe. The forecast, which also considers the number of [placeholders]({{< relref "payroll/index.md#placeholders" >}}) in the current quarter/year, is represented with a dashed line compared to the past quarters/years. A headcount target can be added and edited from the widget’s options button.
 * **In & Out**: (in units) this chart shows the number of employees hired in your company (in green) or that left your company (in red) for each quarter of the current year, in the last 3 or 5 years. The forecast, which also considers the number of [placeholders]({{< relref "payroll/index.md#placeholders" >}}) in the current quarter/year, is represented in low opacity compared to the past quarters/years.
-* **Costs and revenues per employee**: (monthly average, in K) this chart shows the monthly average [costs\]({{< relref "external-costs/index.md" >}}) and \[revenues]({{< relref "revenues/index.md" >}}) per employee. The average is calculated taking into account the amount of employees shown as headcount for the given period of time. The forecast, which also includes the current quarter/year, is represented with a dashed line compared to the past.
+* **Costs and revenues per employee**: (monthly average, in K) this chart shows the monthly average [costs]({{< relref "external-costs/index.md" >}}) and [revenues]({{< relref "revenues/index.md" >}}) per employee. The average is calculated taking into account the amount of employees shown as headcount for the given period of time. The forecast, which also includes the current quarter/year, is represented with a dashed line compared to the past.
 * **Gender distribution**: (in units) this chart shows the gender distribution in your company. Each team member can express their gender identity from the contact information section inside their [profile page]({{< relref "settings/index.md#profile" >}}). The current quarter/year is still considered as a forecast, therefore it is represented in low opacity compared to the past quarters/years.
 * **Age distribution**: (in units) this chart shows the age distribution and its average trend in your company. To better digest this information, Wethod divides the population belonging to a given set of age ranges: less than 20 years old, 20-29, 30-39, 49-49, 50-59, and more than 60 years old. The current quarter/year is still considered as a forecast, therefore it is represented in low opacity compared to the past quarters/years.
 * **Tag charts**: (in units) this chart(s) show(s) tags demographics which vary depending on your company’s preference. To add tags to a team member head to the [Team settings]({{< relref "settings/index.md#team" >}}), choose a tag category name and add tag names to team members. The current quarter/year is still considered as a forecast, therefore it is represented in low opacity compared to the past quarters/years.
