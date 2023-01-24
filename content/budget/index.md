@@ -43,10 +43,7 @@ The budget section is composed by three main parts: project details, price detai
 
 ### **Project details**
 
-Positioned in the top left, this part shows project information details such as the client, project name, project type, PM name, duration and probability. In this section, you can also:
-
-* see the **budget consumption/project status graph**
-* add **notes**
+Positioned in the top left, this part shows project information details such as the client, project name, PM name and duration.
 
 {{< img-center src="/uploads/2023/01/23/budget-project-info.png">}}
 
@@ -54,11 +51,12 @@ Positioned in the top left, this part shows project information details such as 
 
 Positioned in the top right, this part shows some details about the project’s price:
 
-* **Suggested net price**: the price we think is good to sell your project, calculated by the costs;
-* **Final net price**: regardless of the suggested net price, you can decide on your own what you think is the best price for the project;
-* **Margin**: the difference between suggested net price and the costs;
-* **Contingency**: life is unpredictable and the unexpected is behind every corner, so why not be prepared for it? A percentage of contingency means that you know your budget isn’t perfect so you’re estimating using more days, just in case. The contingency gives you more days which you can use at every user level but, on the other hand, the suggested net price will grow;
-* **Discount**: the percentage of discount you want to apply to the suggested price;
+* **Suggested price**: budget total price minus applied discount
+* **Suggested price gross margin**: suggested price minus budget total external costs
+* **Suggested price contribution margin**: suggested price minus budget total costs
+* **Final net price**: regardless of the suggested net price, you can decide on your own what you think is the best price for the project
+* **Final net price gross margin**: Final net price minus budget total external costs
+* **Final net price contribution margin**: Final net price minus budget total costs
 
 {{< img-center src="/uploads/2023/01/23/budget-price.png">}}
 
@@ -66,7 +64,17 @@ Positioned in the top right, this part shows some details about the project’s 
 
 This is basically a table where you can assign days to a given user level of a _task_. A _task_ is a macro activity needed to complete the project, related tasks can be grouped into _areas_.
 
-You can add new _areas_ by using the "**+ AREA**" button: type in a meaningful name and hit enter.
+You can add new _areas_ by using the "**+ New Area**" button: type in a meaningful name and hit enter.
+
+An area can be minimized by clicking on it, this let you appreciate more areas all together on the screen.
+
+Areas are grouped in order to show subtotals:
+* **Areas & Tasks** contains all areas created by the user plus "PM & Travels" which is a special area that's automaticcally added on each budget creation. This area contains two special tasks:
+		* **Travels**: external costs in this task appear as special cost row in [Project Report economics]({{< relref "reports/index.md#economics" >}}) where it is used to compare expected travel costs (coming from budget) and effective travels (created in [Travels section]({{< relref "finance/index.md#travels" >}}))
+		* **Expenses**: external costs in this task appear as special cost row in [Project Report economics]({{< relref "reports/index.md#economics" >}}) where it is used to compare expected expenses (coming from budget) and effective expenses (created in [Expenses section]({{< relref "finance/index.md#expenses" >}}))
+* **Total** contains:
+		* **Contingency**: life is unpredictable and the unexpected is behind every corner, so why not be prepared for it? A percentage of contingency means that you know your budget isn’t perfect so you’re estimating using more days, just in case. The contingency gives you more days and which you can use at every user level but, on the other hand, the suggested net price will grow
+        * **Discount**: the percentage of discount you want to apply to the Areas & Tasks total price
 
 For each external cost you can assign a **markup**: a percentage that indicates how much you want to earn on that external cost.
 
@@ -90,7 +98,7 @@ The first columns of the budget show how many work days you need for each _user 
 
 When a budget is submitted, a supervisor can appreciate all the changes by looking at the orange labels. This makes the approval process easier and faster.
 
-{{< img-center src="/uploads/2018/10/19/budget-approving.png">}}
+{{< img-center src="/uploads/2023/01/24/budget-approving.png">}}
 
 Not sure if a budget’s area will fit? Just switch it off! 
 **Switching off an area** will remove it from the budget estimate. You can always switch an area back at a later date whenever you wish.
@@ -159,4 +167,4 @@ Each time you want to create a new budget, WETHOD will ask if you want to start 
 
 All the templates can be found in **Projects > Toolbox > Budget Templates**, here you can edit or delete them.
 
-{{< img-center src="/uploads/2020/06/29/budget-templates.png" >}}
+{{< img-center src="/uploads/2023/01/23/budget-template-list.png" >}}
