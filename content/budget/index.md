@@ -71,12 +71,12 @@ An area can be minimized by clicking on it, this let you appreciate more areas a
 Areas are grouped in order to show subtotals:
 
 * **Areas & Tasks** contains all areas created by the user plus "PM & Travels" which is a special area that's automaticcally added on each budget creation. This area contains two special tasks:
-			* **Travels**: external costs in this task appear as special cost row in [Project Report economics]({{< relref "reports/index.md#economics" >}}) where it is used to compare expected travel costs (coming from budget) and effective travels (created in [Travels section]({{< relref "finance/index.md#travels" >}}))
-			* **Expenses**: external costs in this task appear as special cost row in [Project Report economics]({{< relref "reports/index.md#economics" >}}) where it is used to compare expected expenses (coming from budget) and effective expenses (created in [Expenses section]({{< relref "finance/index.md#expenses" >}}))
+  * **Travels**: external costs in this task appear as special cost row in [Project Report economics]({{< relref "reports/index.md#economics" >}}) where it is used to compare expected travel costs (coming from budget) and effective travels (created in [Travels section]({{< relref "finance/index.md#travels" >}}))
+  * **Expenses**: external costs in this task appear as special cost row in [Project Report economics]({{< relref "reports/index.md#economics" >}}) where it is used to compare expected expenses (coming from budget) and effective expenses (created in [Expenses section]({{< relref "finance/index.md#expenses" >}}))
         
 * **Total** contains:
-			* **Contingency**: life is unpredictable and the unexpected is behind every corner, so why not be prepared for it? A percentage of contingency means that you know your budget isn’t perfect so you’re estimating using more days, just in case. The contingency gives you more days and which you can use at every user level but, on the other hand, the suggested net price will grow
-        	* **Discount**: the percentage of discount you want to apply to the Areas & Tasks total price
+  * **Contingency**: life is unpredictable and the unexpected is behind every corner, so why not be prepared for it? A percentage of contingency means that you know your budget isn’t perfect so you’re estimating using more days, just in case. The contingency gives you more days and which you can use at every user level but, on the other hand, the suggested net price will grow
+  * **Discount**: the percentage of discount you want to apply to the Areas & Tasks total price
 
 For each external cost you can assign a **markup**: a percentage that indicates how much you want to earn on that external cost.
 
