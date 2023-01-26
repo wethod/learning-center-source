@@ -42,4 +42,3 @@ Here you have a list of all the expired invoices or that have due date this mont
 ## Intercompany Activity
 
 Keep an eye on intercompany activities, whether an invitation to an intercompany project is pending or has been accepted by a supplier in your group.
-
