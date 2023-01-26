@@ -452,7 +452,7 @@ Learn how to insert categories of expenses that require a reimbursement process 
 3. Choose a _name_ for the category of expense.
 4. Select the check box if route details are needed.
 5. Select the [type of reimbursement]({{< relref "finance/index.md#type-of-reimbursement" >}}).
-6. Insert the value of reimbursement (flat-rate, per mile/km or maximum).
+6. Insert the value of reimbursement (flat-rate, per mile/km, per unit or maximum).
 7. Press *Save*.
 
 {{< img-center src="/uploads/2021/11/29/expense-category.gif" >}}
