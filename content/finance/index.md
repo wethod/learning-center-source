@@ -2,6 +2,7 @@
 date: 2017-05-24T10:06:54.000+00:00
 title: Finance
 weight: "70"
+draft: true
 
 ---
 ## Orders
@@ -441,6 +442,7 @@ Users with permission to edit others' expenses can also change the owner of the 
 * **Mileage/Km**: whether the type of reimbursement is a fixed value (expressed in the reimbursement *value* field, required) per mile or kilometer declared by the employee. *i.e. Acme Inc. refunds 0,40 for each km travelled. Mario, who works for Acme, made a business trip with his own car and travelled a total of 260km. Mario will be refunded 140 (260x0,40=140).*
 * **Total**: whether the employer refunds the whole expense declared by the employee. *i.e. Acme Inc. refunds the total cost of a taxi trip. Wendy, in her business travel for Acme,took a taxi from London Victoria train station to the City and spent 30. Wendy will be refunded 30.*
 * **Total (max value)**: whether the employer refunds the whole expense until a maximum refund value (expressed in the *reimbursement value* field, required) is reached. *i.e. Acme Inc. refunds the total cost of a dinner up to 30. Britney, an account manager at Acme, had a business dinner with her clients  and spent 250. Britney will be refunded 30.*
+* **Quantity**: whether the employer refunds a fixed value per unit. *i.e. Acme Inc. refunds the 0,10 for each marker bought by an employee. Jason, a UX designer at Acme, conducted a design workshop with a client and bought 20 markers. Jason will be refunded 2.*
 
 ### Set a category of expense
 Learn how to insert categories of expenses that require a reimbursement process to pay back employees who have spent their own money for business-related expenses.
