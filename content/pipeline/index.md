@@ -95,6 +95,8 @@ This way, from the details of a project, you can create the job order by clickin
 
 Remember that generation is not available if you have not yet activated the feature, or if the project's category does not currently have any associated templates.
 
+{{< img-center src="/uploads/2023/02/06/job-order-auto-pipeline.gif">}}
+
 **Client**
 
 Enter the client you are going to work for.
