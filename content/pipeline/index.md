@@ -82,7 +82,8 @@ Here is a list of probabilities and their meaning:
 * 90% - We are going to do it and we now have the ‘job order’
 * 100% - It’s all ready, we also have the ‘client PO’
 
-**Job order**
+**Job order** 🔜
+
 Add the job order that identifies your project.
 
 You can choose any formatting you like, as long as the job order you enter is unique.
