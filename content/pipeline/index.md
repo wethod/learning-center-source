@@ -82,6 +82,19 @@ Here is a list of probabilities and their meaning:
 * 90% - We are going to do it and we now have the ‘job order’
 * 100% - It’s all ready, we also have the ‘client PO’
 
+**Job order**
+Add the job order that identifies your project.
+
+You can choose any formatting you like, as long as the job order you enter is unique.
+
+To help you with this, you can take advantage of automatic generation.
+
+Activate the feature from the [company settings section]({{< relref "settings/index.md#company" >}}), and associate a template with the job order categories you want.
+
+This way, from the details of a project, you can create the job order by clicking on the "Generate" button. You will be prompted with the first available job order, following the formatting you have indicated in the template.
+
+Remember that generation is not available if you have not yet activated the feature, or if the project's category does not currently have any associated templates.
+
 **Client**
 
 Enter the client you are going to work for.
