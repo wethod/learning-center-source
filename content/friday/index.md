@@ -26,7 +26,7 @@ At the end of each week, type in here the actual hours you have spent working on
 
 You can also insert some notes about the work you've done in each project. 
 
-Each project can be pinned to find it faster later.
+Pin to the top of the list all the projects you usually work on. You will find it easily next time.
 
 {{< img-center src="/uploads/2021/04/26/timesheet-weekly.png" >}}
 
@@ -38,13 +38,17 @@ When a **project is archived**, you will still be able to see the hours and note
 
 If you need to make some adjustments, you can still unarchive the project while you fix your timesheet.
 
-You should also consider the [timesheet whitelist]({{< relref "friday/index.md#whitelist" >}}), that can prevent some users to edit the timesheet in some particular projects.
+{{< note title="Note" >}}
+**Only whitelisted users can edit or fill out timesheet hours for projects with the [timesheet whitelist]({{< relref "friday/index.md#whitelist" >}}) function activated.**
+{{< /note >}}
 
 {{< img-center src="/uploads/2022/04/06/timesheet-archived.png" >}}
 
 ### Detailed
 
-This kind of Timesheet allows you to:
+At the end of each day, type in here the actual hours you have spent working on the projects you are involved in. Pin to the top of the list all the projects you usually work on. You will find it easily next time.
+
+The **Detailed Timesheet** allows you to:
 
 * Compile timesheet day by day
 
@@ -53,9 +57,11 @@ This kind of Timesheet allows you to:
 
 * Specify between normal working hours, travel hours, overnight shifts or overtime.
 
-* Save notes for project's area.
+* Insert daily notes to add further details on single activities or tasks you've worked on for each project's area.
 
-You should also consider the [timesheet whitelist]({{< relref "friday/index.md#whitelist" >}}), that can prevent some users to edit the timesheet in some particular projects.
+{{< note title="Note" >}}
+**Only whitelisted users can edit or fill out timesheet hours for projects with the [timesheet whitelist]({{< relref "friday/index.md#whitelist" >}}) function activated.**
+{{< /note >}}
 
 {{< img-center src="/uploads/2021/04/26/timesheet-detailed-overview.png" >}}
 
@@ -66,7 +72,7 @@ To get a quick resume about the hours distribution in the week, you just need to
 _You can enable this type of timesheet from [company settings]({{< relref "settings/index.md#company" >}})._
 
 {{< note title="Note" >}}
-**When you delete an area from a project's budget, it's timesheet's hours and notes are assigned to the "Generic" timesheet's area.**
+**When you delete an area from a project's budget, its timesheet hours and notes are assigned to the "Generic" timesheet area.**
 {{< /note >}}
 
 ### Automatic 
