@@ -15,7 +15,7 @@ Each row in this view represents a project and carries with it the following inf
 * For each month you can see the planned orders' amount and the approved orders amount (coloured in grey or in red if lower than planned)
 * The total planned amount for the current year
 
-{{< img-center src="/uploads/2023/03/02/company-order-plan-new.png" >}}
+{{< img-center src="/uploads/2023/03/02/company-order-plan.png" >}}
 
 {{< note title="Note" >}} **Planned orders are those which have been sent or created, but not approved yet.** {{< /note >}}
 
