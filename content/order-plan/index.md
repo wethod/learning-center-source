@@ -25,4 +25,4 @@ If the period of supply lasts more than the project's length, you will still be 
 
 If the period of supply ends in a different year than the current one, you will be able to see it by clicking on the year selector.
 
-{{< img-center src="/uploads/2023/03/02/company-order-plan-gif-new.gif" >}}
+{{< img-center src="/uploads/2023/03/02/company-order-plan-gif.gif" >}}
