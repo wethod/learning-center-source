@@ -380,18 +380,18 @@ For each of the listed project review requests, you will be able to:
 
 ## Sales Overview
 
-Here you can have a summarized view about all that projects your company won or lost during different periods of time, togheter with a bunch of reports:
+Here you can have a summarized view about all the **chargeable projects** your company won or lost during different periods of time, together with a bunch of reports:
 
 * The value of the **won projects** for the client grouped by years or quarters (click on a column to further filter the insights below on the selected time range)
 * Sparklines:
-  * **Won projects** that are all the projects with a 90% or 1oo% probability
-  * **Proposals** the number of project that reached 90% (won) or went down to 0% (lost)
-  * **Avg. Project Value** the average value of all the won projects
-  * **Conversion Rate** the ratio between won projects and proposals
+  * **Won projects** the number of all the won chargeable opportunities (with a 90% or 1oo% probability) in the selected time range
+  * **Proposals** the number of all the chargeable opportunities created for all your clients in the selected time range
+  * **Avg. Project Value** the average value of all the won chargeable projects in the selected time range
+  * **Conversion Rate** the ratio between won projects and all the opportunities in the selected time range
   * **Avg. Profitabilty**: the average margin of all the won projects in the selected time range
-* **Won projects** that are all the projects with a 90% or 100% probability
-* **Lost projects** that are all the projects with a 0% probability
-* **Outstanding projects** that are all the projects with a probability between 10% and 75%
+* **Won projects** are all the won chargeable opportunities with a 90% or 100% probability
+* **Lost projects** are all the lost chargeable opportunities with a 0% probability
+* **Outstanding projects** that are all the chargeable opportunities with a probability between 10% and 75%
 
 {{< img-center src="/uploads/2020/01/24/sales-overview.png" >}}
 
