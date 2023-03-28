@@ -8,7 +8,7 @@ weight: "98"
 
 From here you can see the orders' amount grouped by projects.
 
-The way you will visualise your orders depends on the preference you have specified in the [Company Settings page]({{< relref "settings/index.md/#company" >}}).
+The way you will visualise your orders depends on the preference you have specified in the [Company Settings page]({{< relref "settings/index.md#company" >}}).
 
 Each row in this view represents a project and carries with it the following information:
 
