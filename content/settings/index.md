@@ -122,7 +122,7 @@ This feature allows the user to determine a status of a supplier and if it is el
 	* Add **default folders** to create automatically each time a new Google Drive project folder is created
 
 {{< img-center src="/uploads/2022/03/09/drive-canvas-enable.gif">}}
-* **Company Order Plan View**: here you can set your preferences about the way you want to visualise the company yearly orders, in the Company Order Plan page. Check [here]({{< relref “order-plan/index.md/#overview” >}}) to see how this setting affects the visualisation of data.
+* **Company Order Plan View**: here you can set your preferences about the way you want to visualise the company yearly orders, in the Company Order Plan page. Check [here]({{< relref “order-plan/index.md#overview” >}}) to see how this setting affects the visualisation of data.
 
 ## Alerts Engine
 
