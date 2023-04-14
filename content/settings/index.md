@@ -85,7 +85,7 @@ Check the stage section for further information.
 * **Email Bot**: here you can insert the email addresses to which send invoices, orders and travel requests;
 * **Project Won/Lost Bot**: here you can insert the email addresses to which send notifications each time someone of your teammates won or lost a project. A project is considered to be _lost_ when its probability is 0 and _won_ when its probability is 90
 * **Project Types**: create and manage labels that you can assign to projects in [pipeline]({{< relref "pipeline/index.md#projects" >}}). A project type is basically composed by a name, you can than aggregate it's values by using a group or use a short label to better identify a project type;
-* **Timesheet**: here you can choose to switch to the detailed view for your timesheets. When this is enabled, you will be able to fill in your timesheet day by day, and also specify in which budget area your worked on. See the [timesheet section]({{< relref "friday/index.md#detailed" >}}) for further details. 
+* **Timesheet**: here you can choose to switch to the detailed view for your timesheets. When this is enabled, you will be able to fill in your timesheet day by day, and also specify in which budget area your worked on. See the [timesheet section]({{< relref "friday/index.md#detailed" >}}) for further details. You will also be able to enable time limitation for timesheet. See the [timesheet section]({{< relref "friday/index.md#time-limit" >}}) for further details.
 * **Project**:
 	* **Required contact**: Whether the client's contact is required in order to create a Project
     * **Required Job Order**: Whether the Job Order is required for a Project to show up on Timesheet and Project Status sections
