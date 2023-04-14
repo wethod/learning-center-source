@@ -125,6 +125,27 @@ You can [enable the whitelist from the project details sidebar]({{< relref "pipe
 
 {{< img-center src="/uploads/2022/10/10/timesheet_whitelist.png" >}}
 
+### Time limit
+
+The time limitation on the timesheet can be set up in the Company settings, along with a buffer time expressed in weeks.
+With this option enabled users will not be able to edit their timesheet in the following scenarios:
+
+* all the scenarios described above (archived, whitelisted, automatic)
+
+* if the user is trying to fill in timesheet hours outside the project scope (i.e. project has ended in January and I am trying to fill in a week in February)
+
+* if the user is trying to fill in timesheet hours inside the project scope but after the allocated buffer time (i.e. project ends on January, today is mid February, I am trying to update the timesheet of a week in January but the buffer time is only 1 week)
+
+**If you do not specify a project's end date, the time limitation buffer will start from the last day of the month when the project ends (project start date + duration)**
+
+**If you specify the project's end date, the time limitation buffer will start from the friday of the end date week**
+
+### Edit always
+
+Users with _‘edit always’_ permission can edit the timesheet even if the limitation is enabled.
+
+**In case you or one of your team member forgot to fill in their timesheet or made a mistake and cannot edit it because of time limitation, only users with both permissions _'edit always'_ and _'edit other'_ will be able to correct it.**
+
 ## Project Status
 
 At the end of each week, the project manager estimates the workdays left to finish the project and inserts this number here. 
