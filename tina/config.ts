@@ -2,7 +2,7 @@ import { defineConfig } from "tinacms";
 import { defaultFields } from "./templates";
 
 // Your hosting provider likely exposes this as an environment variable
-const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
+const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "master";
 
 export default defineConfig({
   branch,
@@ -26,8 +26,7 @@ export default defineConfig({
         label: "Desk",
         name: "desk",
         path: "content/desk",
-        frontmatterFormat: "toml",
-        frontmatterDelimiters: "+++",
+        frontmatterFormat: "yaml",
         match: {
           include: "**/*",
         },
@@ -46,8 +45,7 @@ export default defineConfig({
         label: "Payroll",
         name: "payroll",
         path: "content/payroll",
-        frontmatterFormat: "toml",
-        frontmatterDelimiters: "+++",
+        frontmatterFormat: "yaml",
         match: {
           include: "**/*",
         },
@@ -66,8 +64,7 @@ export default defineConfig({
         label: "Marketing",
         name: "marketing",
         path: "content/marketing",
-        frontmatterFormat: "toml",
-        frontmatterDelimiters: "+++",
+        frontmatterFormat: "yaml",
         match: {
           include: "**/*",
         },
@@ -86,8 +83,7 @@ export default defineConfig({
         label: "External costs",
         name: "external_costs",
         path: "content/external-costs",
-        frontmatterFormat: "toml",
-        frontmatterDelimiters: "+++",
+        frontmatterFormat: "yaml",
         match: {
           include: "**/*",
         },
@@ -106,8 +102,7 @@ export default defineConfig({
         label: "Profit loss",
         name: "profit_loss",
         path: "content/profit-loss",
-        frontmatterFormat: "toml",
-        frontmatterDelimiters: "+++",
+        frontmatterFormat: "yaml",
         match: {
           include: "**/*",
         },
@@ -126,8 +121,7 @@ export default defineConfig({
         label: "General admin",
         name: "general_admin",
         path: "content/general-admin",
-        frontmatterFormat: "toml",
-        frontmatterDelimiters: "+++",
+        frontmatterFormat: "yaml",
         match: {
           include: "**/*",
         },
@@ -146,8 +140,7 @@ export default defineConfig({
         label: "Revenues",
         name: "revenues",
         path: "content/revenues",
-        frontmatterFormat: "toml",
-        frontmatterDelimiters: "+++",
+        frontmatterFormat: "yaml",
         match: {
           include: "**/*",
         },
@@ -166,8 +159,7 @@ export default defineConfig({
         label: "Invoice plan",
         name: "invoice_plan",
         path: "content/invoice-plan",
-        frontmatterFormat: "toml",
-        frontmatterDelimiters: "+++",
+        frontmatterFormat: "yaml",
         match: {
           include: "**/*",
         },
@@ -186,8 +178,7 @@ export default defineConfig({
         label: "Order plan",
         name: "order_plan",
         path: "content/order-plan",
-        frontmatterFormat: "toml",
-        frontmatterDelimiters: "+++",
+        frontmatterFormat: "yaml",
         match: {
           include: "**/*",
         },
@@ -206,8 +197,7 @@ export default defineConfig({
         label: "Capex",
         name: "capex",
         path: "content/capex",
-        frontmatterFormat: "toml",
-        frontmatterDelimiters: "+++",
+        frontmatterFormat: "yaml",
         match: {
           include: "**/*",
         },
@@ -226,8 +216,7 @@ export default defineConfig({
         label: "Group Setup",
         name: "group_setup",
         path: "content/group-setup",
-        frontmatterFormat: "toml",
-        frontmatterDelimiters: "+++",
+        frontmatterFormat: "yaml",
         match: {
           include: "**/*",
         },
@@ -246,8 +235,7 @@ export default defineConfig({
         label: "Group Revenues",
         name: "group_revenues",
         path: "content/group-revenues",
-        frontmatterFormat: "toml",
-        frontmatterDelimiters: "+++",
+        frontmatterFormat: "yaml",
         match: {
           include: "**/*",
         },
@@ -266,8 +254,7 @@ export default defineConfig({
         label: "Group Profit & Loss",
         name: "group_profit___loss",
         path: "content/group-profit-loss",
-        frontmatterFormat: "toml",
-        frontmatterDelimiters: "+++",
+        frontmatterFormat: "yaml",
         match: {
           include: "**/*",
         },
@@ -286,8 +273,7 @@ export default defineConfig({
         label: "Alerts",
         name: "alerts",
         path: "content/alerts",
-        frontmatterFormat: "toml",
-        frontmatterDelimiters: "+++",
+        frontmatterFormat: "yaml",
         match: {
           include: "**/*",
         },
@@ -306,8 +292,7 @@ export default defineConfig({
         label: "Budget",
         name: "budget",
         path: "content/budget",
-        frontmatterFormat: "toml",
-        frontmatterDelimiters: "+++",
+        frontmatterFormat: "yaml",
         match: {
           include: "**/*",
         },
@@ -326,8 +311,7 @@ export default defineConfig({
         label: "Reports",
         name: "reports",
         path: "content/reports",
-        frontmatterFormat: "toml",
-        frontmatterDelimiters: "+++",
+        frontmatterFormat: "yaml",
         match: {
           include: "**/*",
         },
@@ -346,8 +330,7 @@ export default defineConfig({
         label: "Settings",
         name: "settings",
         path: "content/settings",
-        frontmatterFormat: "toml",
-        frontmatterDelimiters: "+++",
+        frontmatterFormat: "yaml",
         match: {
           include: "**/*",
         },
@@ -366,8 +349,7 @@ export default defineConfig({
         label: "Finance",
         name: "finance",
         path: "content/finance",
-        frontmatterFormat: "toml",
-        frontmatterDelimiters: "+++",
+        frontmatterFormat: "yaml",
         match: {
           include: "**/*",
         },
@@ -386,8 +368,7 @@ export default defineConfig({
         label: "Faq",
         name: "faq",
         path: "content/faq",
-        frontmatterFormat: "toml",
-        frontmatterDelimiters: "+++",
+        frontmatterFormat: "yaml",
         match: {
           include: "**/*",
         },
@@ -406,8 +387,7 @@ export default defineConfig({
         label: "Glossary",
         name: "glossary",
         path: "content/glossary",
-        frontmatterFormat: "toml",
-        frontmatterDelimiters: "+++",
+        frontmatterFormat: "yaml",
         match: {
           include: "**/*",
         },
@@ -426,8 +406,7 @@ export default defineConfig({
         label: "Friday",
         name: "friday",
         path: "content/friday",
-        frontmatterFormat: "toml",
-        frontmatterDelimiters: "+++",
+        frontmatterFormat: "yaml",
         match: {
           include: "**/*",
         },
@@ -446,19 +425,11 @@ export default defineConfig({
         label: "Pages",
         name: "pages",
         path: "content",
-        frontmatterFormat: "toml",
-        frontmatterDelimiters: "+++",
+        frontmatterFormat: "yaml",
         match: {
           include: "*",
         },
         fields: [
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body of Document",
-            description: "This is the markdown body",
-            isBody: true,
-          },
           ...defaultFields(),
         ],
       },
@@ -467,8 +438,7 @@ export default defineConfig({
         label: "Getting started",
         name: "getting_started",
         path: "content/getting-started",
-        frontmatterFormat: "toml",
-        frontmatterDelimiters: "+++",
+        frontmatterFormat: "yaml",
         match: {
           include: "**/*",
         },
@@ -487,8 +457,7 @@ export default defineConfig({
         label: "Planning",
         name: "planning",
         path: "content/planning",
-        frontmatterFormat: "toml",
-        frontmatterDelimiters: "+++",
+        frontmatterFormat: "yaml",
         match: {
           include: "**/*",
         },
@@ -507,8 +476,7 @@ export default defineConfig({
         label: "Pipeline",
         name: "pipeline",
         path: "content/pipeline",
-        frontmatterFormat: "toml",
-        frontmatterDelimiters: "+++",
+        frontmatterFormat: "yaml",
         match: {
           include: "**/*",
         },
@@ -527,8 +495,7 @@ export default defineConfig({
         label: "Dashboard",
         name: "dashboard",
         path: "content/dashboard",
-        frontmatterFormat: "toml",
-        frontmatterDelimiters: "+++",
+        frontmatterFormat: "yaml",
         match: {
           include: "**/*",
         },
