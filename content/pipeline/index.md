@@ -40,7 +40,7 @@ A Project can furthermore have an invoice plan and a budget.
 
 A project is considered **started** if it has a start date in the past or if someone has submitted timesheets for it.
 
-A project is considered **active** when its probability reaches 90%, only when this happens it makes sense to plan for people or to do a timeheet for this project. An active project must have a job order.
+A project is considered **active** when its probability reaches 90%, only when this happens it makes sense to plan for people or to do a timesheet for this project. An active project must have a job order.
 
 {{< note title="Note" >}}
 **Billable Projects must have a probability of 100%.**
@@ -159,7 +159,7 @@ When dealing with opportunities it's useful to track their status to quickly hav
 
 A default `blank` status is available for all opportunities whether we are tracking its stage or not. Additionally at least 2 others statuses are available if the tracking option is turned on. These two are the `Won` and `Lost` stages.
 
-Stage and probability are tightly coupled if your opportunity's Job Order Category is tracking the opportunity stage. When the probability of an opportunity is updated its status changes and viceversa. This is true only for specific thresholds and is reflected only on the default statuses (`blank`, `Won` and `Lost`). 
+Stage and probability are tightly coupled if your opportunity's Job Order Category is tracking the opportunity stage. When the probability of an opportunity is updated its status changes and vice-versa. This is true only for specific thresholds and is reflected only on the default statuses (`blank`, `Won` and `Lost`). 
 
 Visit the [company settings page](/settings/index#company). if you wish to create a new status or edit the existing ones.
 
@@ -194,7 +194,7 @@ Go to the appropriate section to create the desired activity:
 
 Click on the 'Add opportunity' button in order to show the project sidebar.
 
-Here you can enter all the available project informations.
+Here you can enter all the available project information.
 
 The suggested probability is 10%, and you can only choose a value between 0% and 75%.
 
@@ -204,7 +204,7 @@ When you filled in all the required info, you can click on the 'Save' button. Yo
 
 Click on the 'Add project' button in order to show the project sidebar.
 
-Here you can enter all the available project informations.
+Here you can enter all the available project information.
 
 The suggested probability is 90%, and you can only choose a value between 90% and 100%.
 
@@ -212,9 +212,9 @@ When you filled in all the required info, you can click on the 'Save' button. Yo
 
 ### Edit an activity
 
-You can easily edit the visibile information of an activity straight from the list. Just hover over the row you want to update, and click on the desired field. You can save the changes by clicking outside the field.
+You can easily edit the visible information of an activity straight from the list. Just hover over the row you want to update, and click on the desired field. You can save the changes by clicking outside the field.
 
-To edit all the informations not visible at first sight, you can click on the activity details button.
+To edit all the information not visible at first sight, you can click on the activity details button.
 
 From the sidebar, you can edit all the details at once, just remember to click the Save button when you're done!
 
@@ -242,7 +242,7 @@ An archived project is considered no longer active. This prevent the users from 
 
 For example, you cannot add timesheet or edit the project status after you archive the project.
 
-You also cannot edit some informations, like its probability, risk or job order category.
+You also cannot edit some information, like its probability, risk or job order category.
 
 In order to make this actions available again on an archived project, you can unarchive it any time.
 
@@ -352,7 +352,8 @@ You can search for a specific filter using the filters search bar at the top. Ad
 
 If your company is part of a [group\](/group-setup/index) you have the possibility to connect a project to an \[intercompany task](/budget/index#make-a-task-intercompany), this makes it an _intercompany project_: its final net price and probability are updated to reflect the intercompany task’s external costs and intercompany task’s project’s probability.
 
-To connect a project you firsty need to be invited, this can be done from inside a budget as [explained here](/budget/index#make-a-task-intercompany). When you receive the invitation, just follow the link and select from the dropdown the project you want to connect.
+To connect a project you must first be invited, this can be done from inside a budget as 
+[explained here](/budget/index#make-a-task-intercompany). When you receive the invitation, just follow the link and select from the dropdown the project you want to connect.
 
 ![](/uploads/connect-project.png)
 
@@ -443,7 +444,7 @@ Sometimes managing your customers’ relationships can be difficult and you can 
 
 You can reach a project's timeline from the pipeline: choose a project, click on it and look for the timeline button in the bottom-right corner.
 
-Add activities you think are important to remember like **calls**, **emails** and **meetings**. To every added activity you can link a **follow-up** which is nothing more than another event. A follow-up is usuallly settled in the future, so you can think of it as a sort of reminder.
+Add activities you think are important to remember like **calls**, **emails** and **meetings**. To every added activity you can link a **follow-up** which is nothing more than another event. A follow-up is usually settled in the future, so you can think of it as a sort of reminder.
 
 The timeline gets automatically populated with some useful project's events like the creation of an order or invoice, the changes to the project value and margin, the project's first project status and a lot more.
 

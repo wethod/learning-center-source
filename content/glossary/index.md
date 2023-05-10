@@ -20,7 +20,7 @@ It represents the value you think is missing in order to reach an hypothetical o
 
 For example: if I have an actual value of 5 but I know that, in a particular moment in time, actual value will reach the final value of 7, then I can use a Bluesky of 2.
 
-This is a theoretical definition, look at the context to find more accurated information.
+This is a theoretical definition, look at the context to find more accurate information.
 
 ### Budget Consumption
 

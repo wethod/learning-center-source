@@ -6,7 +6,7 @@ weight: "92"
 ---
 ## Overview
 
-In this section you can see the yearly distribution for all your projects' external costs. The amount ordered by projects is dispalyed month by month based on the period they cover, in particular:
+In this section you can see the yearly distribution for all your projects' external costs. The amount ordered by projects is displayed month by month based on the period they cover, in particular:
 
 * Orders' value follows the orders' "Period of Supply", for example: an order of 3.000 with a period from January to June will weigh 500 on each month from January to June
 * Travels' value follows the departure and return date of each Travel (if the travel is a one-way trip then all costs will weigh on the departure date). 

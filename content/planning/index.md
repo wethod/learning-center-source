@@ -200,7 +200,7 @@ The color's range is made up of 10 levels from white to blue, where the darkest 
 By clicking on a day you can:
 
 * See who is planned on a project for the day
-* See and edit the **event** related to the day: usually a project's life is fullfilled of important events, by tracking them you're giving a general point of view to all of your organization. This is also useful to avoid overlapping of two or more important events that usually need a lot of resources.
+* See and edit the **event** related to the day: usually a project's life is fulfilled of important events, by tracking them you're giving a general point of view to all of your organization. This is also useful to avoid overlapping of two or more important events that usually need a lot of resources.
 
 You can hide a project by clicking on the "**X**" near the project's name.
 
@@ -221,7 +221,7 @@ You will only see the projects with a value greater than 0: you cannot edit the 
 Past months are read-only and are automatically populated with the real production, based on the month's project status.
 You can edit future months but remember: a production plan can be saved only if you've distributed the 100% of its value, you can easily check this by looking at the total: a red total means that your planning is someway different from 100%.
 
-Each time you edit a past project status' week or when a month ends, the production plan for that week is recalculated in order to allocate the remaining production or to adjust inchoerent plans. The adjustments are reported as orange monthly apex.
+Each time you edit a past project status' week or when a month ends, the production plan for that week is recalculated in order to allocate the remaining production or to adjust incoherent plans. The adjustments are reported as orange monthly apex.
 
 A solid blue line indicates the project's duration, a dashed line instead tells you that the project's boundaries (the project's start/end) are outside the visible planning's portion.
 When you move the start or end date of a project with probability lower than 90%, its production plan will reflect the changes, adapting its duration and distributing accordingly.

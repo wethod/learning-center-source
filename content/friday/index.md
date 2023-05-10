@@ -187,9 +187,9 @@ permission settings, it is possible to edit the status labels and colour from th
 
 Click on the right arrow to access more details about a project status or to get useful insights that can help you compile it:
 
-* A resume of the project status by area as of the previuos week Friday
+* A resume of the project status by area as of the previous week Friday
 * The amount of days planned for the project for the future (current week included)
-* The budget consumption as of the previuos week Friday
+* The budget consumption as of the previous week Friday
 * The progress trend for each week of the month, compared to the production plan 
 * Other project details
 

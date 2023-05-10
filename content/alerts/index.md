@@ -123,7 +123,7 @@ This alert is shown if you're manager of a project with probability lower than 9
 Remember that a project is considered active only if it has a probability greater or equal to 90%.
 For a project that is not active yet, there's no need to plan resources or to register a timesheet.
 
-*How to solve it?* Increase project's probability or delete plannend hours and timesheets for the project itself.
+*How to solve it?* Increase project's probability or delete planned hours and timesheets for the project itself.
 
 ### Planning > Project Status
 

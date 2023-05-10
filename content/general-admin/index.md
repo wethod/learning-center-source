@@ -6,7 +6,7 @@ weight: 93
 ---
 ## Overview
 
-Here you can list all your general and administratrion costs. This is the right place to put all that costs which aren't about external costs, payroll or marketing.
+Here you can list all your general and administration costs. This is the right place to put all that costs which aren't about external costs, payroll or marketing.
 
 Each cost has:
 

@@ -70,7 +70,7 @@ An area can be minimized by clicking on it, this let you appreciate more areas a
 
 Areas are grouped in order to show subtotals:
 
-* **Areas & Tasks** contains all areas created by the user plus "PM & Travels" which is a special area that's automaticcally added on each budget creation. This area contains two special tasks:
+* **Areas & Tasks** contains all areas created by the user plus "PM & Travels" which is a special area that's automatically added on each budget creation. This area contains two special tasks:
   * **Travels**: external costs in this task appear as special cost row in [Project Report economics](/reports/index#economics) where it is used to compare expected travel costs (coming from budget) and effective travels (created in [Travels section](/finance/index#travels))
   * **Expenses**: external costs in this task appear as special cost row in [Project Report economics](/reports/index#economics) where it is used to compare expected expenses (coming from budget) and effective expenses (created in [Expenses section](/finance/index#expenses))
         
@@ -125,7 +125,7 @@ An intercompany task is used to track work done within the same group and its us
 
 Once you have created an intercompany task, you can invite a person (that is an employee belonging to the task's supplier) to connect one of their projects to the task itself. The invited person will receive an email containing a link to [connect the project](/pipeline/index#intercompany-projects).
 
-When a project is successfully connected to an intercompany task, it becames an _intercompany project_: its **final net price**, [currency](/budget/index#multicurrency-budget) and **probability** are updated to reflect the intercompany task's external costs and intercompany task's project's probability.
+When a project is successfully connected to an intercompany task, it became an _intercompany project_: its **final net price**, [currency](/budget/index#multicurrency-budget) and **probability** are updated to reflect the intercompany task's external costs and intercompany task's project's probability.
 
 {{< note title="Note" >}}
 **Each time you update the probability of a project which presents intercompany tasks, the intercompany projects linked to that task are updated accordingly. Besides if you update an intercompany task's external costs, the linked project's final net is updated too.**
@@ -137,7 +137,7 @@ If you delete an intercompany task, any connected project will be disconnected (
 
 ## Multicurrency budget
 
-Sometimes may be useful to use currencies in your budget, expecially when you work with clients or suppliers that use currencies different from yours.
+Sometimes may be useful to use currencies in your budget, especially when you work with clients or suppliers that use currencies different from yours.
 
 Once you enable multicurrency for one of your budgets, you will be able to set final net price and external costs in currencies other than the **company currency** you've defined in your [company settings](/settings/index#company).
 
@@ -163,7 +163,7 @@ Saving a template means saving a budget's structure (areas and tasks), this can 
 
 ![](/uploads/2023/01/23/budget-save-template.gif)
 
-Each time you want to create a new budget, WETHOD will ask if you want to start from scratch or if you prefer to use a previusly created template.
+Each time you want to create a new budget, WETHOD will ask if you want to start from scratch or if you prefer to use a previously created template.
 
 ![](/uploads/2023/01/23/budget-create.png)
 

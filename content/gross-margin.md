@@ -22,8 +22,8 @@ Three important indicators are given in the first rows:
 
 * **Total**: the sum of all your projects' gross margin, per month
 
-* **Bluesky**: the dfference between [revenues](/revenues/index)' bluesky and [external costs](/external-costs/index)' bluesky
+* **Bluesky**: the difference between [revenues](/revenues/index)' bluesky and [external costs](/external-costs/index)' bluesky
 
-* **Delta revenues target**: the dfference between [revenues](/revenues/index)' delta revenues target and [external costs](/external-costs/index)' delta revenues target
+* **Delta revenues target**: the difference between [revenues](/revenues/index)' delta revenues target and [external costs](/external-costs/index)' delta revenues target
 
 ![](/uploads/2021/03/23/gross-margin.png)

@@ -40,4 +40,4 @@ If in your preferences you have **Issue Date** the visualisation logic is the fo
 
 * the order's cost will NOT be divided by the period of supply, it will be visualised in its totality under the month corresponding to the issue date (date of when you have uploaded the order)
 
-Passing from one visualisation to an other may result in a drastic chage in the yearly total, especially if you have a lot of orders that span from one year to an other. However, the way these orders are saved is always the same, only the visualisation is different, so changing between these two configurations will not result in any kind of data loss.
+Passing from one visualisation to an other may result in a drastic change in the yearly total, especially if you have a lot of orders that span from one year to an other. However, the way these orders are saved is always the same, only the visualisation is different, so changing between these two configurations will not result in any kind of data loss.

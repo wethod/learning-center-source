@@ -147,7 +147,7 @@ Here you can find details and insights about a client, like:
   * **Proposals** the number of project that reached 90% (won) or went down to 0% (lost)
   * **Avg. Project Value** the average value of all the won projects
   * **Conversion Rate** the ratio between won projects and proposals
-  * **Avg. Profitabilty**: the average margin of all the won projects in the selected time range
+  * **Avg. Profitability**: the average margin of all the won projects in the selected time range
 * **Won projects** that are all the projects with a 90% or 100% probability
 * **Lost projects** that are all the projects with a 0% probability
 * **Outstanding projects** that are all the projects with a probability between 10% and 75%
@@ -279,7 +279,7 @@ Here you can:
 
 A rating is composed by:
 
-* A 1 to 5 numberical value, expressed as an amount of stars (required)
+* A 1 to 5 numerical value, expressed as an amount of stars (required)
 * A project to which rating refers (required)
 * A comment to explain the rating value (not required)
 
@@ -340,7 +340,7 @@ Based on a specific [permission's set](/finance/index#permissions), some roles a
 
 1. Open a travel request from the list or, if you are already in the sidebar, open an existing travel category request.
 2. Hover with the mouse on the name of the travel category, on the top of the sidebar.
-3. Click "+" to create a new travel request for the same travel catgory
+3. Click "+" to create a new travel request for the same travel category
 4. Insert details.
 5. Click _Save_.
 6. Your request will be added to the list of travel requests.
@@ -361,7 +361,7 @@ When a travel request has booked, you might attach the reservation file to the t
  3. Open the travel request.
  4. Access to the travel category (i.e. train, flight, accommodation) for further details.
  5. Scroll down to the "Travel Office" section at the bottom.
- 6. Insert the cost of travel or accomodation
+ 6. Insert the cost of travel or accommodation
  7. Specify a payment method (if needed)
  8. Upload reservations or travel tickets.
  9. Repeat steps 5 to 8 for each of the travel categories that has a travel request.
@@ -425,7 +425,7 @@ All expenses are listed with the following information at display:
 * Notes
 * Reimbursement value (always expressed in master currency) 
 
-Based on [permission roles](/settings/index#permissions), users can view, edit, delete their own expenses and/or others's expenses.
+Based on [permission roles](/settings/index#permissions), users can view, edit, delete their own expenses and/or others' expenses.
 
 Users with permission to edit others' expenses can also change the owner of the expense when creating or updating it from the sidebar details.
 
