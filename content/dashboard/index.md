@@ -8,13 +8,13 @@ weight: "65"
 
 The Dashboard is basically a set of widgets, any one of which can be added or removed and customized by the user.
 
-{{< img-center src="/uploads/2017/06/09/dashboard.png" >}}
+![](/uploads/2017/06/09/dashboard.png)
 
 ## Widgets
 
 Adding a new widget to your dashboard is very easy: just click on the “+” sign and pick one from the list of the available widgets.
 
-{{< img-center src="/uploads/2017/05/22/add-widget.gif" >}}
+![](/uploads/2017/05/22/add-widget.gif)
 
 ### Alerts
 
@@ -25,7 +25,7 @@ This widget shows all the inconsistencies regarding the user. Each alert has a p
 
 Hovering the cursor over an alert will display a description of the problem.
 
-{{< img-center src="/uploads/2017/08/28/alerts.png" >}}
+![](/uploads/2017/08/28/alerts.png)
 
 [Learn more about alerts]({{< relref "alerts/index.md" >}})
 
@@ -39,7 +39,7 @@ When the filter is set to **client** the target will automatically be set as the
 
 The grey area shows the percentage of the year gone or, by another point of view, how much time you still have to hit your annual target.
 
-{{< img-center src="/uploads/2017/06/12/revenue-clock.png" >}}
+![](/uploads/2017/06/12/revenue-clock.png)
 
 ### Invoices
 
@@ -48,7 +48,7 @@ This widget shows all the invoices that must be sent. The invoice list is based 
 * Red invoices have an high priority because they had to be sent in a past date;
 * Yellow invoices have a low priority because they have to be send in a future date.
 
-{{< img-center src="/uploads/2017/08/28/invoices.png" >}}
+![](/uploads/2017/08/28/invoices.png)
 
 Hovering on an invoice will shows you the buttons to:
 
@@ -65,7 +65,7 @@ This widget is a resume of the [Budget Consumption report]({{< relref "reports/i
 
 This widget is a resume of the [Revenue Progress report]({{< relref "reports/index.md#revenue-progress" >}}) .
 
-{{< img-center src="/uploads/2017/06/12/revenue-progress-widget.png" >}}
+![](/uploads/2017/06/12/revenue-progress-widget.png)
 
 ### Roadrunner Index
 
@@ -73,4 +73,4 @@ This widget shows the [Roadrunner Index]({{< relref "glossary/index.md#roardunne
 
 Clicking on a project will take you to its [detailed report]({{< relref "reports/index.md#project-report" >}}).
 
-{{< img-center src="/uploads/2017/06/12/rri-widget.png" >}}
+![](/uploads/2017/06/12/rri-widget.png)

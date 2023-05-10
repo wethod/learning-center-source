@@ -18,7 +18,7 @@ Here you have the yearly revenues of your group, distributed on a monthly basis.
 * **Monthly production value** obtained by dividing the target (which you can edit from the [company's profit & loss]({{< relref "profit-loss/index.md#overview" >}}) and displayed inside the clock chart on the right) for 12 (the number of months per year)
 * **Production trend** based on the production of the last three years
 
-{{< img-center src="/uploads/revenues-by-month.png">}}
+![](/uploads/revenues-by-month.png)
 
 ### Revenues by client
 
@@ -28,7 +28,7 @@ The **C.S.I (cross-selling index)** column shows how much each client/cluster is
 
 The **Count (#)** column shows how many companies are working for each client/cluster.
 
-{{< img-center src="/uploads/revenues-by-client.png">}}
+![](/uploads/revenues-by-client.png)
 
 {{< note title="Note" >}}
 **Data in this section use a daily cache to keep things fast. If you need something more updated please use the "Refresh data" button.**

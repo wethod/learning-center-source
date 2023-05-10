@@ -16,7 +16,7 @@ The sum of costs are displayed in the **Total** row, they're a combination of co
 
 The **Headcount** shows the amount of [employees](/payroll/index/#employees) and [placeholders](/payroll/index/#placeholders) with costs that impact on the company for the selected year.
 
-{{< img-center src="/uploads/2021/03/15/payroll-totals.png" >}}
+![](/uploads/2021/03/15/payroll-totals.png)
 
 ### Placeholders
 
@@ -31,7 +31,7 @@ Monthly values in the past are highlighted to remind you that a placeholder is n
 **It is not possible to save a new segment until you fill all the required fields.**
 {{< /note >}}
 
-{{< img-center src="/uploads/2021/03/15/payroll-placeholders.png" >}}
+![](/uploads/2021/03/15/payroll-placeholders.png)
 
 ### Cost adjustments
 
@@ -46,7 +46,7 @@ There's no headcount here because we're talking about costs, not people.
 **It is not possible to save a new segment until you fill all the required fields.**
 {{< /note >}}
 
-{{< img-center src="/uploads/2021/03/15/payroll-adjustments.png" >}}
+![](/uploads/2021/03/15/payroll-adjustments.png)
 
 ### Employees
 
@@ -76,4 +76,4 @@ Use the **Reset payroll** button take all payroll's rows down to zero, once done
 **It is not possible to save a new segment until you fill all the required fields.**
 {{< /note >}}
 
-{{< img-center src="/uploads/2021/03/15/payroll-employees.gif" >}}
+![](/uploads/2021/03/15/payroll-employees.gif)

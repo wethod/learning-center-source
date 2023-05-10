@@ -17,7 +17,7 @@ Each row in this view represents a project and carries with it the following inf
 * For each month you can see the planned orders' amount and the approved orders amount (coloured in grey or in red if lower than planned)
 * The total planned amount for the current year
 
-{{< img-center src="/uploads/2023/03/02/company-order-plan.png" >}}
+![](/uploads/2023/03/02/company-order-plan.png)
 
 {{< note title="Note" >}} **Planned orders are those which have been sent or created, but not approved yet.** {{< /note >}}
 
@@ -32,7 +32,7 @@ If in your preferences you have **Period of Supply** the visualisation logic is 
 * if the period of supply lasts more than the project's length, you will still be able to see it in the **Company Order Plan**.
 * if the period of supply ends in a different year than the current one, you will be able to see it by clicking on the year selector.
 
-{{< img-center src="/uploads/2023/03/02/company-order-plan-gif.gif" >}}
+![](/uploads/2023/03/02/company-order-plan-gif.gif)
 
 ## Order Plan based on Issue Date
 

@@ -37,7 +37,7 @@ On the right of the graph you have:
 4. **Forecast**: the current budget's hours amount (Baseline + variations + contingency);
 5. A resume of the worked, planned, wasted and still available hours.
 
-{{< img-center src="/uploads/2017/06/12/report-bc_ps.png" >}}
+![](/uploads/2017/06/12/report-bc_ps.png)
 
 ### Invoices & Orders
 
@@ -70,7 +70,7 @@ The grey percentage under _margin_ can be read as margin against revenues.
 **If project is over, projected external costs comes from sent orders and projected travels comes from**  [**travels**]({{< relref "finance/index.md#travels" >}})**'s costs**
 {{< /note >}}
 
-{{< img-center src="/uploads/2021/05/06/economics-new.png" >}}
+![](/uploads/2021/05/06/economics-new.png)
 
 ### Groupwide Economics
 
@@ -143,11 +143,11 @@ This is the only place in WETHOD where you can see the weekly details of a given
 
 When worked hours grows, days left must decrease. If this doesn't happen, you have a problem: your teammates are working on something which doesn't move forward and this is highlited by a Roadrunner Index which differs from the ideal value of 1.
 
-{{< img-center src="/uploads/2018/02/22/project-report.png" >}}
+![](/uploads/2018/02/22/project-report.png)
 
 Need a more detailed view? Just click and drag on a chart to include the area you want to zoom.
 
-{{< img-center src="/uploads/2018/02/23/rri-zoom.gif" >}}
+![](/uploads/2018/02/23/rri-zoom.gif)
 
 ### Hour / User
 
@@ -160,7 +160,7 @@ Clicking on the calendar icon you can select a custom period and based on the [t
 * Detailed timesheet: the exact dates chosen in the time range are used to filter results, both for worked and planned hours.
 * Non-detailed timesheet: the entire week of the start and end dates are considered while fetching data. This applies to both worked and planned hours.
 
-{{< img-center src="/uploads/2021/03/25/report-hours-users.png" >}}
+![](/uploads/2021/03/25/report-hours-users.png)
 
 ## Consumption vs Status
 
@@ -176,7 +176,7 @@ Using filters, you can select the Projects you want to see and explore details s
 
 Projects with a [Job Order Category]({{< relref "settings/index.md#company" >}}) with flag "UNLIMITED PLANNING" enabled are hidden from this chart because it makes no sense to calculate the budget consumption of a project with unlimited available days.
 
-{{< img-center src="/uploads/2017/08/28/Budg-consumption-1.png" >}}
+![](/uploads/2017/08/28/Budg-consumption-1.png)
 
 ## Invoiced vs Status
 
@@ -188,7 +188,7 @@ How to read the project's position on the graph:
 * If the project is **under the diagonal**: not al work days done for the project have been invoiced;
 * If the project is **on the diagonal**: project status and invoiced percentage are consistent, this means that until now all the work days done has been invoiced.
 
-{{< img-center src="/uploads/2017/08/28/Revenue_Progress.png" >}}
+![](/uploads/2017/08/28/Revenue_Progress.png)
 
 ## Sales Pipeline
 
@@ -207,7 +207,7 @@ Clicking on the subcolumn representing blueksy or delta revenue targey will show
 * Revenue target;
 * Delta: Difference between target and value;
 
-{{< img-center src="/uploads/2021/02/19/budget-breakdown.png" >}}
+![](/uploads/2021/02/19/budget-breakdown.png)
 
 ### By Probability
 
@@ -221,7 +221,7 @@ Clicking on a subcolumn will show a panel listing all the grouped projects with 
 * Probability;
 * [Expected value]({{< relref "glossary/index.md#expected-value" >}}).
 
-{{< img-center src="/uploads/2017/08/28/rev_prog-prob.png" >}}
+![](/uploads/2017/08/28/rev_prog-prob.png)
 
 ### By Client
 
@@ -231,7 +231,7 @@ Clicking on a column will show a panel listing all the grouped projects with:
 * Value;
 * Percentage of influence on the [revenue pipeline]({{< relref "glossary/index.md#revenue-pipeline" >}}).
 
-{{< img-center src="/uploads/2017/08/28/rev_prog-client.png" >}}
+![](/uploads/2017/08/28/rev_prog-client.png)
 
 ### By Project Type
 
@@ -241,7 +241,7 @@ Clicking on a column will show a panel listing all the grouped projects with the
 * Value;
 * Percentage of influence on the [revenue pipeline]({{< relref "glossary/index.md#revenue-pipeline" >}}).
 
-{{< img-center src="/uploads/2017/08/28/rev_prog-type.png" >}}
+![](/uploads/2017/08/28/rev_prog-type.png)
 
 ### By Project Type's Group
 
@@ -285,7 +285,7 @@ On the right you can see the **Resume Clock** which tells you:
 
 By clicking on a specific month you can access that month's production value grouped **by client**, **by project** or **by week**.
 
-{{< img-center src="/uploads/2018/02/23/production-value-report.png" >}}
+![](/uploads/2018/02/23/production-value-report.png)
 
 ### By Week
 
@@ -302,7 +302,7 @@ In this view you can see, for each project (and for the selected week):
 
 You can switch between month's week by using the selector placed at the top of this section.
 
-{{< img-center src="/uploads/2018/02/22/production-value_weekly.png" >}}
+![](/uploads/2018/02/22/production-value_weekly.png)
 
 ## Weekly Timesheet
 
@@ -312,15 +312,15 @@ On the top left corner you can filter the displayed people.
 
 On the top right corner you can change the week of the displayed timesheets.
 
-{{< img-center src="/uploads/2017/08/28/Timesheets.png" >}}
+![](/uploads/2017/08/28/Timesheets.png)
 
 You can see the details by clicking on a person's name.
 
-{{< img-center src="/uploads/2022/02/22/weekly-timesheet-details.png" >}}
+![](/uploads/2022/02/22/weekly-timesheet-details.png)
 
 Users with _'edit other'_ timesheet permission can also go to the colleague's timesheet page from the details box.
 
-{{< img-center src="/uploads/2022/02/22/weekly-timesheet-others.png" >}}
+![](/uploads/2022/02/22/weekly-timesheet-others.png)
 
 ## Timesheet Summary
 
@@ -328,7 +328,7 @@ This report shows all the timesheets for the selected year, grouped by Job Order
 
 You can chose between monthly and weekly visualization via the selector on the top of the section, where you can also find the year selector.
 
-{{< img-center src="/uploads/2017/08/28/RRI.png" >}}
+![](/uploads/2017/08/28/RRI.png)
 
 ## Project Changelog
 
@@ -356,7 +356,7 @@ Here you can find a list of all the [budget]({{< relref "budget/index.md" >}})'s
 * The difference between final net price's margin and suggested net price's margin in K and percentage. These values are highlighted in red if negative and green otherwise
 * The difference between the budget final net price's margin and the previous version final net price's margin.
 
-{{< img-center src="/uploads/2021/03/25/screen-shot-2021-03-25-at-10-24-56.png" >}}
+![](/uploads/2021/03/25/screen-shot-2021-03-25-at-10-24-56.png)
 
 ## Project & Team Reviews Changelog
 
@@ -374,7 +374,7 @@ For each of the listed project review requests, you will be able to:
 * **Delete it**, along with all the results collected so far.
 * **Head to the project's canvas**
 
-{{< img-center src="/uploads/2021/01/18/project-team-review-changelog.png" >}}
+![](/uploads/2021/01/18/project-team-review-changelog.png)
 
 {{< note title="Note" >}} This section is available only if **project & team reviews** are enbabled for the company.{{< /note >}}
 
@@ -393,13 +393,13 @@ Here you can have a summarized view about all the **chargeable projects** your c
 * **Lost projects** are all the lost chargeable opportunities with a 0% probability
 * **Outstanding projects** that are all the chargeable opportunities with a probability between 10% and 75%
 
-{{< img-center src="/uploads/2020/01/24/sales-overview.png" >}}
+![](/uploads/2020/01/24/sales-overview.png)
 
 ## Backlog
 
 This section shows production related data, let's see each chart:
 
-{{< img-center src="/uploads/2022/04/28/backlog.png" >}}
+![](/uploads/2022/04/28/backlog.png)
 
 * **Weekly Production** plots various data ranging from one year in the past to one year in the future:
   * Production: weekly production for the last 52 weeks
@@ -416,7 +416,7 @@ This section shows production related data, let's see each chart:
 
 Briefing is content that includes all the relevant insight within your company’s production, sales, and financials, on a weekly and monthly basis.
 
-{{< img-center src="/uploads/2020/05/14/briefing.gif" >}}
+![](/uploads/2020/05/14/briefing.gif)
 
 This transparent overview gives the entire team the knowledge to stay aligned on what has been done and what needs to be done in the weeks to come, in order to reach the company’s goals faster.
 
@@ -483,7 +483,7 @@ This page gives a demographic overview on the active population in your company.
 
 Navigation: Insights > People > Demographics
 
-{{< img-center src="/uploads/2021/03/26/gif_demographics.gif" >}}
+![](/uploads/2021/03/26/gif_demographics.gif)
 
 * **Headcount**: (in units) this chart shows the amount of active employees in your company. The information is based on the quantity of positive [payrolls]({{< relref "payroll/index.md#employees" >}}) within the shown timeframe. The forecast, which also considers the number of [placeholders]({{< relref "payroll/index.md#placeholders" >}}) in the current quarter/year, is represented with a dashed line compared to the past quarters/years. A headcount target can be added and edited from the widget’s options button.
 * **In & Out**: (in units) this chart shows the number of employees hired in your company (in green) or that left your company (in red) for each quarter of the current year, in the last 3 or 5 years. The forecast, which also considers the number of [placeholders]({{< relref "payroll/index.md#placeholders" >}}) in the current quarter/year, is represented in low opacity compared to the past quarters/years.
@@ -499,7 +499,7 @@ This page gives an overview on the average chargeability – amount of hours wor
 
 Navigation: Insights > People > Chargeability
 
-{{< img-center src="/uploads/2021/05/06/people_chargeability.png" >}}
+![](/uploads/2021/05/06/people_chargeability.png)
 
 On the left you find a list of all the user levels in your company.
 For each of those, wethod gives an overview of the average chargeability by quarter or by year. It also shows if the average chargeability is negative (red) or positive (green) compared to their target.
@@ -522,7 +522,7 @@ Changing the selected period will affect the "As Team Member" and "As Pm" tables
 
 Navigation: Insights > People > Kudos
 
-{{< img-center src="/uploads/2021/05/13/screen-shot-2021-05-13-at-19-17-47.png" >}}
+![](/uploads/2021/05/13/screen-shot-2021-05-13-at-19-17-47.png)
 
 On the left you find a list of all team's criteria in your company.
 If you click on a criterion from the list, wethod shows all the users that have received a [review]({{< relref "pipeline/index.md#project-team-review" >}}) for that criterion.  
@@ -551,7 +551,7 @@ Navigation: Insights > People > Knowledge
 When you select a language, by clicking on it, you can get an overview of the team members who speak it, from the most confident to the novice ones.  
 For each person, it is therefore shown the level of experience in the selected language.
 
-{{< img-center src="/uploads/2021/06/01/languages_knowledge.gif" >}}
+![](/uploads/2021/06/01/languages_knowledge.gif)
 
 **Skills**: here you can find a complete list of all the skills your colleagues have developed.  
 By clicking on a skill you will see a list of the team members who have that particular one.  
@@ -559,14 +559,14 @@ Note that when you turn on more than one skill you will only see the people that
 You can also turn on the filter ‘All’: this lets you see the entire team at once.  
 For each person you can see an overview of acquired skills, giving priority to the ones selected from the list on the left side.
 
-{{< img-center src="/uploads/2021/06/01/skills_knowledge.gif" >}}
+![](/uploads/2021/06/01/skills_knowledge.gif)
 
 **Interests**: here you can find a complete list of all the interests your colleagues have.  
 By clicking on an interest you will see a list of the team members that are into that particular one.\\ Note that when you turn on more than one interest you will only see the people that chose all the selected topics.  
 You can also turn on the filter ‘All’: this lets you see the entire team at once.  
 For each person you can see an overview of his interests, giving priority to the ones selected from the list on the left side.
 
-{{< img-center src="/uploads/2021/06/01/interests_knowledge.gif" >}}
+![](/uploads/2021/06/01/interests_knowledge.gif)
 
 * To set you [skills]({{< relref "settings/index.md#skills" >}}), [interests]({{< relref "settings/index.md#interests" >}}) and [languages]({{< relref "settings/index.md#languages" >}}), go to your profile.
 
@@ -582,7 +582,7 @@ Differences between "vacation" and "leave" time off are probably meaningful only
 
 "Time-off manager" section is where you can manage vacation and leave time off for each user.
 
-{{< img-center src="/uploads/2022/01/17/time-off-manager.png">}}
+![](/uploads/2022/01/17/time-off-manager.png)
 
 A project can be flagged as "Vacation time off" o "Leave time off" using the "Hours type" job order category flag available in [company settings]({{< relref "settings/index.md#company" >}}) section.
 
@@ -605,11 +605,11 @@ In this section are visible, for each user by year:
 You can download all data in the time off manager with the dedicated export button.  
 The export contains data of the visible year you selected. To change the export year navigate to the desired date with the buttons on top of the page.
 
-{{< img-center src="/uploads/2022/09/21/time-off-export.gif" >}}
+![](/uploads/2022/09/21/time-off-export.gif)
  
 You can also import data of the time off manager with the dedicated import button.  
 The import can include data of the visible year you selected. To change the import year navigate to the desired date with the buttons on top of the page.
 You can upload a file with .xls or .xlxs extension containing the backlog of vacation, leaves and target hours for every employee in your company.
 From this dialog you can also download the appropriate template you can use for the import.
 
-{{< img-center src="/uploads/2022/09/22/import-time-off.gif" >}}
+![](/uploads/2022/09/22/import-time-off.gif)

@@ -73,7 +73,7 @@ This alert is shown if you have the permission to approve budgets and there's a 
 
 This alert is shown if you’re the manager of a project where the [budget consumption]({{< relref "glossary/index.md##budget-consumption" >}}) is more than 15% greater than the project's [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}).
 
-{{< img-center src="/uploads/2017/08/28/budget_cons_too_fast.png" >}}
+![](/uploads/2017/08/28/budget_cons_too_fast.png)
 
 This means you're consuming too many days and, if you don't fix this situation, you will be soon run out of budget days.
 This can have two main causes:
@@ -87,7 +87,7 @@ This can have two main causes:
 
 This alert is shown if you're manager of a project where the [budget consumption]({{< relref "reports/index.md#budget-consumption" >}}) is more than 15% lower than the project's [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}).
 
-{{< img-center src="/uploads/2017/08/28/budget_cons_too_slow.png" >}}
+![](/uploads/2017/08/28/budget_cons_too_slow.png)
 
 This means you've planned too many days and, if you don't fix this situation, you will reach the end of the project with a lot of budget days left.
 This can have two main causes:

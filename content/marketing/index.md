@@ -18,4 +18,4 @@ Each cost has:
 
 Use the **Import costs** button to copy all the marketing costs' rows from the previous year.
 
-{{< img-center src="/uploads/2017/09/04/ZGIF-Marketing-TOP.gif" >}}
+![](/uploads/2017/09/04/ZGIF-Marketing-TOP.gif)

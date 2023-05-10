@@ -26,4 +26,4 @@ Three important indicators are given in the first rows:
 
 * **Delta revenues target**: the dfference between [revenues]({{< relref "revenues/index.md" >}})' delta revenues target and [external costs]({{< relref "external-costs/index.md" >}})' delta revenues target
 
-{{< img-center src="/uploads/2021/03/23/gross-margin.png" >}}
+![](/uploads/2021/03/23/gross-margin.png)

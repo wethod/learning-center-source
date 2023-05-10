@@ -17,4 +17,4 @@ Each row in this view represents a project and carries with it a bunch of inform
 * The monthly plan's distribution for the current year: for each month you can appreciate the plan's value and the actual invoices amount (colored with lower opacity)
 * The total plan's amount for the current year
 
-{{< img-center src="/uploads/2019/03/11/economics-invoice-plan.png" >}}
+![](/uploads/2019/03/11/economics-invoice-plan.png)

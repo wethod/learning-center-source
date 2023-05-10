@@ -8,13 +8,13 @@ weight: "70"
 
 In this section you can see all your orders and create new ones.
 
-{{< img-center src="/uploads/2021/04/23/orders-list.png" >}}
+![](/uploads/2021/04/23/orders-list.png)
 
 ### Create a new order
 
 1. Click button _New Order_ and a sidebar will open.
 
-{{< img-center src="/uploads/2021/04/23/order-sidebar.png" >}}
+![](/uploads/2021/04/23/order-sidebar.png)
 
 1. Insert project name. The job order will be automatically filled by the system.
 2. Compile all the required fields
@@ -51,7 +51,7 @@ You can approve an order by clicking on the "**Approve**" button. Approving an o
 
 By clicking the “Approve” button you will presented with a confirmation modal and then you can optionally send an email to notify someone. Recipients for this notification can be selected from those listed under orders [Email Bot]({{< relref "settings/index.md#company" >}}) from the settings.
 
-{{< img-center src="/uploads/2022/09/01/approve-notification-modal-big.png" >}}
+![](/uploads/2022/09/01/approve-notification-modal-big.png)
 
 A approved order can be set as paid.
 
@@ -66,7 +66,7 @@ are displayed with their currency. Currency can be picked between those used in 
 
 Order's value must be lower or equal then the external costs provided in the budget for the currency picked for the order.
 
-{{< img-center src="/uploads/2021/04/23/order-multicurrency.gif" >}}
+![](/uploads/2021/04/23/order-multicurrency.gif)
 
 ### Export a spreadsheet with the list of orders:
 
@@ -101,8 +101,8 @@ A window with further details will show up, letting you fill in the info you nee
 Please mind the vat rate is automatically compiled with the client's vat rate (if one has been provided).   
 Once you're done, remember to click on the **save** button.
 
-{{< img-center src="/uploads/2022/01/27/invoice-details.png" >}}
-{{< img-center src="/uploads/2022/02/07/screen-shot-2022-02-07-at-16-10-23.png" >}}
+![](/uploads/2022/01/27/invoice-details.png)
+![](/uploads/2022/02/07/screen-shot-2022-02-07-at-16-10-23.png)
 
 ### Currency
 
@@ -114,7 +114,7 @@ are displayed with the final net's currency. The exchange rate for the currency 
 **You can create invoices only for projects you have already provided with job order and budget**
 {{< /note >}}
 
-{{< img-center src="/uploads/2019/06/13/invoices.gif" >}}
+![](/uploads/2019/06/13/invoices.gif)
 
 ## Client List
 
@@ -122,7 +122,7 @@ In this section you have a list of your clients meant as companies, with details
 
 Find this section in CRM > Clients > Client list.
 
-{{< img-center src="/uploads/2021/02/15/client_list.png" >}}
+![](/uploads/2021/02/15/client_list.png)
 
 **Add a new Company**:
 
@@ -134,7 +134,7 @@ Find this section in CRM > Clients > Client list.
 
 For each of the company listed, click on the arrow to enter the company page.
 
-{{< img-center src="/uploads/2019/12/12/client-detail.gif" >}}
+![](/uploads/2019/12/12/client-detail.gif)
 
 Here you can find details and insights about a client, like:
 
@@ -167,7 +167,7 @@ In this section you have a list of your client's contacts with details like thei
 
 Find this section in CRM > Clients > Contacts.
 
-{{< img-center src="/uploads/2021/02/15/contact_list.png" >}}
+![](/uploads/2021/02/15/contact_list.png)
 
 **Add a new client contact**:
 
@@ -183,11 +183,11 @@ In the contact page you can find all the projects developed with this contact an
 
 A resource is just a link with a name to something external to WETHOD (like a document or a todo list).
 
-{{< img-center src="/uploads/2018/08/29/client-person-details.png" >}}
+![](/uploads/2018/08/29/client-person-details.png)
 
 How to link a contact to a project? Just go to the pipeline and pick a name from the "Client Contact" field's list (if you are creating a new project ensure to select the 'Client' field first):
 
-{{< img-center src="/uploads/2018/08/31/choose-client.gif" >}}
+![](/uploads/2018/08/31/choose-client.gif)
 
 ### Intercompany client
 
@@ -203,7 +203,7 @@ Find this section in Projects > Wallet > Suppliers
 
 In this section you can view all your suppliers and create new ones.
 
-{{< img-center src="/uploads/2021/06/15/supplier-list.png" >}}
+![](/uploads/2021/06/15/supplier-list.png)
 
 To add a new supplier:
 
@@ -265,7 +265,7 @@ If you need something more, you can use these _search query_:
 **You can search by rating only if you have permissions to see it.**
 {{< /note >}}
 
-{{< img-center src="/uploads/2021/06/15/supplier-special-search.png" >}}
+![](/uploads/2021/06/15/supplier-special-search.png)
 
 ### Supplier details
 
@@ -289,15 +289,15 @@ Rating permissions can be managed from the [permissions section]({{< relref "set
 * Which roles can create and manage their own ratings
 * Which roles can delete others ratings
 
-{{< img-center src="/uploads/2021/06/15/supplier-detail.png" >}}
+![](/uploads/2021/06/15/supplier-detail.png)
 
-{{< img-center src="/uploads/2021/06/15/supplier-sidebar.png" >}}
+![](/uploads/2021/06/15/supplier-sidebar.png)
 
-{{< img-center src="/uploads/2021/06/15/supplier-rating.png" >}}
+![](/uploads/2021/06/15/supplier-rating.png)
 
 From sidebar you can try to delete a supplier but, if at least an order exist for it, you need to transfer all its orders to another supplier available for contract. This process is simplified by a modal that shows you all the orders linked to the supplier you're deleting and let you pick another supplier.
 
-{{< img-center src="/uploads/2021/06/15/supplier-move-orders.png" >}}
+![](/uploads/2021/06/15/supplier-move-orders.png)
 
 ## Travels
 
@@ -305,7 +305,7 @@ Send travel requests to your travel office and download your reservation/ticket.
 
 Find this section in Projects > Wallet > Travels.
 
-{{< img-center src="/uploads/2020/12/21/travel_requests_list.png" >}}
+![](/uploads/2020/12/21/travel_requests_list.png)
 
 ### Create, edit and send travel requests
 
@@ -315,7 +315,7 @@ First, head to Setting > Company > Email Bot and insert the email address(es) as
 
 1. Click button _New Request_ and a sidebar will open.
 
-{{< img-center src="/uploads/2020/12/21/travel_requests_list_sidebar.png" >}}
+![](/uploads/2020/12/21/travel_requests_list_sidebar.png)
 
 1. Insert project name. The job order will be automatically filled by the system.
 2. Insert the main destination for this travel.
@@ -336,7 +336,7 @@ Based on a specific [permission's set]({{< relref "finance/index.md#permissions"
 
 ### Create _more than one travel request_ for the same travel category:
 
-{{< img-center src="/uploads/2020/12/21/new_flight_category.gif" >}}
+![](/uploads/2020/12/21/new_flight_category.gif)
 
 1. Open a travel request from the list or, if you are already in the sidebar, open an existing travel category request.
 2. Hover with the mouse on the name of the travel category, on the top of the sidebar.
@@ -377,7 +377,7 @@ If you received a travel booking confirmation email you might be able to downloa
 
 Only circled travel categories (view image below) have reservations or tickets available to download.
 
-{{< img-center src="/uploads/2021/01/07/travel_booked.png" >}}
+![](/uploads/2021/01/07/travel_booked.png)
 
 Click on the travel category icon and choose the files you want to download.
 
@@ -413,7 +413,7 @@ Due to privacy concerns, it is not possible to download booking and reservation 
 
 The expense reimbursement process allows employers to pay back employees who have spent their own money for business-related expenses. These types of reimbursable expenses tend to occur when employees travel for work, but can be associated with other activities related to their employment, including, for example, certain purchases of work-related supplies or tools.
 
-{{< img-center src="/uploads/2022/08/30/expenses-list.png" >}}
+![](/uploads/2022/08/30/expenses-list.png)
 
 All expenses are listed with the following information at display:
 
@@ -429,7 +429,7 @@ Based on [permission roles]({{< relref "settings/index.md#permissions" >}}), use
 
 Users with permission to edit others' expenses can also change the owner of the expense when creating or updating it from the sidebar details.
 
-{{< img-center src="/uploads/2022/08/30/expense-edit-owner.png" >}}
+![](/uploads/2022/08/30/expense-edit-owner.png)
 
 {{< note title="Note" >}}
 **All expenses linked to a project are listed in the widget "Orders" in the [project report]({{< relref "reports/index.md#project-report" >}}) with a general "Expense" name, its date and value.**
@@ -454,7 +454,7 @@ Learn how to insert categories of expenses that require a reimbursement process 
 6. Insert the value of reimbursement (flat-rate, per mile/km, per unit or maximum).
 7. Press *Save*.
 
-{{< img-center src="/uploads/2021/11/29/expense-category.gif" >}}
+![](/uploads/2021/11/29/expense-category.gif)
 
 {{< note title="Note" >}}
 **To avoid retroactive changes it is not permitted to edit or delete a category of expense. Archive a category to hide it from the list.**

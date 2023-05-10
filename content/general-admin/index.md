@@ -16,4 +16,4 @@ Each cost has:
 
 * **Net month**
 
-{{< img-center src="/uploads/2017/09/04/ZGIF-G&A-TOP.gif" >}}
+![](/uploads/2017/09/04/ZGIF-G&A-TOP.gif)

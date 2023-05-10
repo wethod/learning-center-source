@@ -53,7 +53,7 @@ All the time slots planned for the selected project will be highlighted througho
 1. Select a project.
 2. A box on the top of the page will show how many budget days and hours are available to plan, grouped by user level.
 3. If needed, you can **apply multiple filters on people**. For example, you may decide to see only the internal employees which are managers and have a background in design
-   {{< img-center src="/uploads/2017/11/02/planning-people-filters.png">}}
+   ![](/uploads/2017/11/02/planning-people-filters.png)
 4. You can use the search bar even to **filter people by** [**skill**]({{< relref "settings/index.md#skills" >}}), **interest or language**. Try to input something like **skill:photoshop;skill:illustrator** to find everybody who has a skill named "photoshop" and a skill named "illustrator". Type **language:italian;language:english** to find everybody who speaks “Italian” and “English", or instead type **interest:reading** to find everybody who loves reading.
 5. To **plan for an hour, a half day or for an entire week**, just position the mouse on the day/week you want to allocate and click to plan. Click and drag to quickly assign more than an hour, a half day or a week at once.
 
@@ -82,12 +82,12 @@ If you enable “Highlight weekends” in [company settings]({{< relref "setting
 1. Saturdays and Sundays will be shown using a special visual pattern to make more clear that they belong to weekend
 2. When one tries to plan on weekends, an alert will ask if he really want to plan over the weekend. If user clicks “Yes”, plan is confirmed and no similar warning appears until user changes the selected project. If user clicks “No”, weekends are removed from requested plans
 
-{{< img-center src="/uploads/2022/07/15/highlight-weekend.gif">}}
+![](/uploads/2022/07/15/highlight-weekend.gif)
 
 
 **Repeat an allocation**
 
-{{< img-center src="/uploads/2020/12/18/schermata-2020-12-18-alle-18-50-00.png">}}
+![](/uploads/2020/12/18/schermata-2020-12-18-alle-18-50-00.png)
 
 1. Click "Enable recurring mode" on the top right
 2. Select the allocation you want to repeat
@@ -114,7 +114,7 @@ If you enable “Highlight weekends” in [company settings]({{< relref "setting
 
 This feature allows you to quickly dispose of extra budget days, when needed, in order to allocate people on a project.
 
-{{< img-center src="/uploads/2020/09/09/budget_dinamico.gif">}}
+![](/uploads/2020/09/09/budget_dinamico.gif)
 
 You will access to a simple view of the project’s budget, including areas, tasks and the total number of available days per user level.
 
@@ -140,7 +140,7 @@ Particular job order categories may expect people to ask to be planned on them, 
 
 "Allocation requests" section is where all this requests can be created and managed.
 
-{{< img-center src="/uploads/2022/01/17/allocation-requests.png">}}
+![](/uploads/2022/01/17/allocation-requests.png)
 
 To create a request:
 
@@ -154,7 +154,7 @@ Once created, a request acquires the "Pending" status and:
 - If the selected from-to is within 14 days an “urgent” mail notification is sent to the user allocation manager, if exists. Allocation manager for a user can be set from the [team settings]({{< relref "settings/index.md#team" >}}) section
 - Request is displayed in people allocation using a particular pattern
 
-{{< img-center src="/uploads/2022/01/17/planning_allocation-request.png">}}
+![](/uploads/2022/01/17/planning_allocation-request.png)
 
 Now users with **approve permission** can see "Approve/reject" button and:
 
@@ -185,7 +185,7 @@ Requests with conflicts:
 - Shows conflict days inside details sidebar
 - Cannot be approved: they can just be edited, deleted or rejected
 
-{{< img-center src="/uploads/2022/01/17/allocation-requests_sidebar-conflict.png">}}
+![](/uploads/2022/01/17/allocation-requests_sidebar-conflict.png)
 
 If a request has conflict with another pending request only the last created request will be marked as “conflict”, the existing one keeps its status.
 
@@ -210,7 +210,7 @@ You can hide a project by clicking on the "**X**" near the project's name.
 
 {{< /note >}}
 
-{{< img-center src="/uploads/2017/11/15/heatmap.gif">}}
+![](/uploads/2017/11/15/heatmap.gif)
 
 ## Production Plan
 
@@ -232,7 +232,7 @@ If you're editing a project, you can move its whole duration or the plan for a s
 
 Use the "**Auto distribution**" function on a project to spread it's remaining plan on the future months of its duration.
 
-{{< img-center src="/uploads/2019/11/18/production-plan.gif">}}
+![](/uploads/2019/11/18/production-plan.gif)
 
 {{< note title="Note" >}}
 

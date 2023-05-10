@@ -8,7 +8,7 @@ weight: "31"
 
 The budget is where you can list all the resources you think you'll need for the project.
 
-{{< img-center src="/uploads/2023/01/23/pipeline-to-budget.gif">}}
+![](/uploads/2023/01/23/pipeline-to-budget.gif)
 
 Basically, this is the place where you define (for a project):
 
@@ -39,13 +39,13 @@ Role based permissions for budgets can be managed from the [permissions section]
 
 The budget section is composed by three main parts: project details, price details and the budget editor.
 
-{{< img-center src="/uploads/2023/01/23/budget-overview.png">}}
+![](/uploads/2023/01/23/budget-overview.png)
 
 ### **Project details**
 
 Positioned in the top left, this part shows project information details such as the client, project name, PM name and duration.
 
-{{< img-center src="/uploads/2023/01/23/budget-project-info.png">}}
+![](/uploads/2023/01/23/budget-project-info.png)
 
 ### **Price Details**
 
@@ -58,7 +58,7 @@ Positioned in the top right, this part shows some details about the project’s 
 * **Final net price gross margin**: Final net price minus budget total external costs
 * **Final net price contribution margin**: Final net price minus budget total costs
 
-{{< img-center src="/uploads/2023/01/23/budget-price.png">}}
+![](/uploads/2023/01/23/budget-price.png)
 
 ### Budget editor
 
@@ -100,16 +100,16 @@ The first columns of the budget show how many work days you need for each _user 
 
 When a budget is submitted, a supervisor can appreciate all the changes by looking at the orange labels. This makes the approval process easier and faster.
 
-{{< img-center src="/uploads/2023/01/24/budget-approving.png">}}
+![](/uploads/2023/01/24/budget-approving.png)
 
 Not sure if a budget’s area will fit? Just switch it off! 
 **Switching off an area** will remove it from the budget estimate. You can always switch an area back at a later date whenever you wish.
 
-{{< img-center src="/uploads/2023/01/23/budget-area-switch.gif">}}
+![](/uploads/2023/01/23/budget-area-switch.gif)
 
 Want to see the difference between two approved budget versions? Hit the **Compare versions** button and select the two versions you want to compare. Use the Clear button to compare between two other versions and click Close to end the comparisons.
 
-{{< img-center src="/uploads/2023/01/23/budget-compare.gif">}}
+![](/uploads/2023/01/23/budget-compare.gif)
 
 ## Make a task intercompany
 
@@ -121,7 +121,7 @@ An intercompany task is used to track work done within the same group and its us
 **An intercompany task is expected to have just name and external costs, this means that you need to delete internal days and markup in order to complete the transformation.**
 {{< /note >}}
 
-{{< img-center src="/uploads/2023/01/23/budget-make-intercompany.gif">}}
+![](/uploads/2023/01/23/budget-make-intercompany.gif)
 
 Once you have created an intercompany task, you can invite a person (that is an employee belonging to the task's supplier) to connect one of their projects to the task itself. The invited person will receive an email containing a link to [connect the project]({{< relref "pipeline/index.md#intercompany-projects" >}}).
 
@@ -151,22 +151,22 @@ Please consider tha currencies' exchange rates refers to the budget's creation d
 **Be aware that you can always disable multicurrency for a budget, but if you have created orders using currencies you need to manually update them. Invoices are automatically updated instead.**
 {{< /note >}}
 
-{{< img-center src="/uploads/2023/01/23/budget-multicurrency.gif">}}
+![](/uploads/2023/01/23/budget-multicurrency.gif)
 
 ## Create a template
 
 You can create a template from a budget by clicking on the following button:
 
-{{< img-center src="/uploads/2023/01/23/budget-template-action.png">}}
+![](/uploads/2023/01/23/budget-template-action.png)
 
 Saving a template means saving a budget's structure (areas and tasks), this can be re-used by you or other people in your company in order to speed up the creation of budgets belonging to similar projects.
 
-{{< img-center src="/uploads/2023/01/23/budget-save-template.gif" >}}
+![](/uploads/2023/01/23/budget-save-template.gif)
 
 Each time you want to create a new budget, WETHOD will ask if you want to start from scratch or if you prefer to use a previusly created template.
 
-{{< img-center src="/uploads/2023/01/23/budget-create.png" >}}
+![](/uploads/2023/01/23/budget-create.png)
 
 All the templates can be found in **Projects > Toolbox > Budget Templates**, here you can edit or delete them.
 
-{{< img-center src="/uploads/2023/01/23/budget-template-list.png" >}}
+![](/uploads/2023/01/23/budget-template-list.png)

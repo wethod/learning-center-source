@@ -22,7 +22,7 @@ If you add a follow up date, WETHOD will remind you when the [opportunity is exp
 
 Use the arrow to edit, delete or simply get all details about an opportunity.
 
-{{< img-center src="/uploads/2019/12/11/basket.png" >}}
+![](/uploads/2019/12/11/basket.png)
 
 ## Projects and opportunities
 
@@ -30,11 +30,11 @@ Here you can find all the activities of the company. At first glance, you can se
 
 To see all information about an activity, just click on the arrow button to open the sidebar details.
 
-{{< img-center src="/uploads/2021/10/26/pipeline-opportunities.png" >}}
+![](/uploads/2021/10/26/pipeline-opportunities.png)
 
 An opportunity evolves into a Project when things get serious, in order to take this step you must have an idea about the significant information listed above.
 
-{{< img-center src="/uploads/2021/10/26/pipeline-projects.png" >}}
+![](/uploads/2021/10/26/pipeline-projects.png)
 
 A Project can furthermore have an invoice plan and a budget.
 
@@ -96,7 +96,7 @@ This way, from the details of a project, you can create the job order by clickin
 
 Remember that generation is not available if you have not yet activated the feature, or if the project's category does not currently have any associated templates.
 
-{{< img-center src="/uploads/2023/02/06/job-order-auto-pipeline.gif">}}
+![](/uploads/2023/02/06/job-order-auto-pipeline.gif)
 
 **Client**
 
@@ -108,7 +108,7 @@ If the client you are looking for hasn't been added yet, you can create a new on
 
 Just type in the name and the acronym and click on the _Create_ button.
 
-{{< img-center src="/uploads/2021/10/26/client-creation.png" >}}
+![](/uploads/2021/10/26/client-creation.png)
 
 **Client contact**
 
@@ -149,7 +149,7 @@ This information is also available from the [project status section]({{< relref 
 
 For this reason, you cannot edit the risk of a project before you filled out its first project status.
 
-{{< img-center src="/uploads/2021/10/26/risk-select.png" >}}
+![](/uploads/2021/10/26/risk-select.png)
 
 **Status**
 
@@ -163,7 +163,7 @@ Stage and probability are tightly coupled if your opportunity's Job Order Catego
 
 Visit the [company settings page]({{< relref "settings/index.md#company" >}}). if you wish to create a new status or edit the existing ones.
 
-{{< img-center src="/uploads/2021/10/26/opportunity-stage.png" >}}
+![](/uploads/2021/10/26/opportunity-stage.png)
 
 **Timesheet whitelist**
 
@@ -179,7 +179,7 @@ Find out more in the [timesheet whitelist support page]({{< relref "friday/index
 From the project details sidebar, you can see whether the whitelist is enabled or not, and all the employees in the list.  
 You can add and remove people from the list at any time, by editing the project details.
 
-{{< img-center src="/uploads/2022/10/10/timesheet-whitelist-sidebar.gif" >}}
+![](/uploads/2022/10/10/timesheet-whitelist-sidebar.gif)
 
 ### Create a new activity
 
@@ -188,7 +188,7 @@ Go to the appropriate section to create the desired activity:
 * Opportunities: create a new opportunity with a probability ≤ 75%
 * Projects: create a new project with probability ≥ 90%
 
-{{< img-center src="/uploads/2021/10/26/add-opportunity.gif" >}}
+![](/uploads/2021/10/26/add-opportunity.gif)
 
 **Opportunities**
 
@@ -231,8 +231,8 @@ This includes:
 * Request a review on the project
 * Edit won/lost feedback
 
-{{< img-center src="/uploads/2021/10/26/project-links.png" >}}
-{{< img-center src="/uploads/2021/10/26/project-links-2.png" >}}
+![](/uploads/2021/10/26/project-links.png)
+![](/uploads/2021/10/26/project-links-2.png)
 
 ### Archive
 
@@ -250,8 +250,8 @@ To archive or unarchive a project, just open the sidebar with the activity detai
 
 Please note that, in order to archive a project, this must comply to all the rules defined in the Rules section of your company.
 
-{{< img-center src="/uploads/2021/10/26/archive-button.png" >}}
-{{< img-center src="/uploads/2021/10/26/unarchive-button.png" >}}
+![](/uploads/2021/10/26/archive-button.png)
+![](/uploads/2021/10/26/unarchive-button.png)
 
 ### Delete
 
@@ -261,13 +261,13 @@ To delete a project, just open the sidebar with the activity details and click o
 
 Please note that a project cannot be deleted if it already started producing value in your company. This means that if you already added timesheet or edited its project status, you will be no longer able to delete it. In that case, you can easily archive the project instead.
 
-{{< img-center src="/uploads/2021/10/26/delete-button.png" >}}
+![](/uploads/2021/10/26/delete-button.png)
 
 ### Segments
 
 Users can save a custom group of filters to retrieve a specific set of data. A group of filters can be saved with a name and it's called a segment. In practice, segments are "advanced searches" saved with a name that you can use whenever you want. Let's say each Monday you want to see all opportunities of your main client "Acme". You can filter all opportunities with client=Acme and save the search as a segment called "Acme opportunities". Segments are unique per each section, that means for example they are not shared between pipeline opportunities and project list.
 
-{{< img-center src="/uploads/2021/10/26/pipeline-segments.png" >}}
+![](/uploads/2021/10/26/pipeline-segments.png)
 
 To **create a segment**:
 
@@ -303,7 +303,7 @@ Default segments can be edited and deleted.
 
 You can select which columns should be shown and which have to be hidden using the column selector button.
 
-{{< img-center src="/uploads/2021/10/26/pipeline-columns.png" >}}
+![](/uploads/2021/10/26/pipeline-columns.png)
 
 The set of columns is unique per user and per device. Each user on your company can choose to see a huge range of columns when browsing from their laptop and only focus on core information while checking Wethod on the go from their smartphones.
 
@@ -328,7 +328,7 @@ For example, the search "new pipeline rules" will return all projects/opportunit
 5. Project job order
 6. Job order category name
 
-{{< img-center src="/uploads/2021/10/26/pipeline-search.png" >}}
+![](/uploads/2021/10/26/pipeline-search.png)
 
 The search bar used for **basic search** also shows other three actions:
 
@@ -340,13 +340,13 @@ The search bar used for **basic search** also shows other three actions:
 
 The advanced search sidebar can be accessed clicking on the "Show filters" button in the simple search bar.
 
-{{< img-center src="/uploads/2021/10/26/pipeline-filters.png" >}}
+![](/uploads/2021/10/26/pipeline-filters.png)
 
 Filters are combined using AND logic which means the results consider all of them at the same time. Selections belonging to each filter are combined using OR logic. For example if you filter all projects with budget status `missing`, `draft` you obtain all activities with a budget that is either missing or in draft status.
 
 You can search for a specific filter using the filters search bar at the top. Additionally you can clear all applied filters by pressing the "clear all filters" button above it. If you have a segment applied, all filters that are part of the segment will be shown when you open the advanced search sidebar. Please mind that changing the list of filters is not going to be saved to the segment unless you had clicked on the "edit segment" button. Visit the segment support section for further information.
 
-{{< img-center src="/uploads/2021/10/26/pipeline-filters-2.png" >}}
+![](/uploads/2021/10/26/pipeline-filters-2.png)
 
 ### Intercompany Projects
 
@@ -354,11 +354,11 @@ If your company is part of a [group\]({{< relref "group-setup/index.md" >}}) you
 
 To connect a project you firsty need to be invited, this can be done from inside a budget as [explained here]({{< relref "budget/index.md#make-a-task-intercompany" >}}). When you receive the invitation, just follow the link and select from the dropdown the project you want to connect.
 
-{{< img-center src="/uploads/connect-project.png">}}
+![](/uploads/connect-project.png)
 
 Successfully connected projects are identified by a label below their names.
 
-{{< img-center src="/uploads/connected-project.png">}}
+![](/uploads/connected-project.png)
 
 ### Won/lost feedback
 
@@ -368,11 +368,11 @@ In the [company section]({{< relref "settings/index.md#company" >}}) you can con
 
 When you enable the related flag for a job order category, the user will be asked for a feedback each time a project in that category gets won or lost.
 
-{{< img-center src="/uploads/2020/01/31/won-lost-feedback.gif" >}}
+![](/uploads/2020/01/31/won-lost-feedback.gif)
 
 ## Invoice Plan
 
-{{< img-center src="/uploads/2021/07/19/invoice-plan.png">}}
+![](/uploads/2021/07/19/invoice-plan.png)
 
 Here you can set a plan to emit invoices for the project. An invoice plan can be:
 
@@ -405,7 +405,7 @@ You can find the invoices (listed in your plan) in the [Invoices widget](/dashbo
 
 ### Billing group
 
-{{< img-center src="/uploads/2021/07/30/screen-shot-2021-07-30-at-12-38-05.png">}}
+![](/uploads/2021/07/30/screen-shot-2021-07-30-at-12-38-05.png)
 
 Sometimes you want to link several projects together and handle the invoice plan from a single central project.  
 This can be done using a billing group.
@@ -421,7 +421,7 @@ Now select a project that will be used as the billing group master. Please mind 
 Once your new billing group is created you can access the group invoice plan from the master project invoice plan page.  
 The invoice plan total it's made by the sum of all projects totals and you should plan accordingly.
 
-{{< img-center src="/uploads/2021/07/30/screen-shot-2021-07-30-at-12-38-15.png">}}
+![](/uploads/2021/07/30/screen-shot-2021-07-30-at-12-38-15.png)
 
 Trying to access the invoice plan of a linked project will result in an error since now every operations should be performed from the master project.  
 For example if you wish to generate a new invoice for a project that is part of a group you have to assign the invoice to the master project.  
@@ -447,7 +447,7 @@ Add activities you think are important to remember like **calls**, **emails** an
 
 The timeline gets automatically populated with some useful project's events like the creation of an order or invoice, the changes to the project value and margin, the project's first project status and a lot more.
 
-{{< img-center src="/uploads/2020/02/01/project-timeline.png" >}}
+![](/uploads/2020/02/01/project-timeline.png)
 
 ### Sync with your Google Calendar
 
@@ -455,7 +455,7 @@ Activities which you create inside a project timeline can be added to your Googl
 
 You can enable this functionality in the [account section]({{< relref "settings/index.md#account" >}}).
 
-{{< img-center src="/uploads/2022/05/12/timeline-calendar.png" >}}
+![](/uploads/2022/05/12/timeline-calendar.png)
 
 ## Project Canvas
 
@@ -467,25 +467,25 @@ To work well and efficiently on a project you first need to understand it and th
 * **Files** about your project (like documents or presentations) that you want to store and share with your team
 * A set of **boards** to help you manage things to do
 
-{{< img-center src="/uploads/2020/02/07/project-canvas.png" >}}
+![](/uploads/2020/02/07/project-canvas.png)
 
 You can access this section from [projects]({{< relref "pipeline/index.md#projects" >}}) and basically everywhere you can see the canvas icon:
 
-{{< img-center src="/uploads/2020/02/07/project-canvas-icon-1.png" >}}
+![](/uploads/2020/02/07/project-canvas-icon-1.png)
 
 Hit the button from the menu of actions available on the top bar to start a [Project & Team Review]({{< relref "pipeline/index.md#project-team-review" >}}):
 
-{{< img-center src="/uploads/2020/06/03/project-canvas_review-button.png" >}}
+![](/uploads/2020/06/03/project-canvas_review-button.png)
 
 There is a dedicated widget to appreciate the average Kudos (points coming from [reviews]({{< relref "pipeline/index.md#project-team-review" >}}) of a project):
 
-{{< img-center src="/uploads/2020/06/30/canvas-kudos.png" >}}
+![](/uploads/2020/06/30/canvas-kudos.png)
 
 ### Files
 
 This is your storage for the project: it's a good idea to keep all assets for a project in a single place, so they can be easily found and used by all of your team members.
 
-{{< img-center src="/uploads/2020/03/13/file-storage.gif" >}}
+![](/uploads/2020/03/13/file-storage.gif)
 
 #### Sync with Google Drive 
 
@@ -517,7 +517,7 @@ A project may not be associated with a Google Drive folder, even if is the integ
 
 In these cases you get an error status but don't worry, you can easily solve the issue by hitting the "Sync folder" button: wethod will try to find the Google project folder in the canonical path. If the folder cannot be found, a modal will ask if you want to create it.
 
-{{< img-center src="/uploads/2022/03/09/drive-canvas-sync.gif">}}
+![](/uploads/2022/03/09/drive-canvas-sync.gif)
 
 ### Boards
 
@@ -536,7 +536,7 @@ When you add a column of type _status_ or _number_ you automatically get a summa
 
 You can re-order columns, rows and boards by simply drag and drop them where you prefer.
 
-{{< img-center src="/uploads/2020/02/23/canvas-boards.gif" >}}
+![](/uploads/2020/02/23/canvas-boards.gif)
 
 #### Kanban
 
@@ -548,7 +548,7 @@ To see and edit details of a card just click on it.
 
 You can re-order cards and lists by simply drag and drop them where you prefer.
 
-{{< img-center src="/uploads/2020/03/04/kanban.png" >}}
+![](/uploads/2020/03/04/kanban.png)
 
 #### Gantt
 
@@ -561,15 +561,15 @@ What you can do from here:
 * Move dates and milestones by dragging them where you prefer
 * Change a date's start or duration by stretch or extend them
 
-{{< img-center src="/uploads/2020/03/13/project-canvas-gantt.gif" >}}
+![](/uploads/2020/03/13/project-canvas-gantt.gif)
 
 ## Project & Team Review
 
 This tool allows the team to collect feedback on a project and the skills of both managers and collaborators who worked on the same project.
 
-{{< img-center src="/uploads/2020/06/30/review_project.png" >}}
+![](/uploads/2020/06/30/review_project.png)
 
-{{< img-center src="/uploads/2020/06/30/review_team.png" >}}
+![](/uploads/2020/06/30/review_team.png)
 
 Project & Team Review must be enabled from [Company Settings]({{< relref "settings/index.md#company" >}}).
 
@@ -577,7 +577,7 @@ Project & Team Review must be enabled from [Company Settings]({{< relref "settin
 
 When a project has been archived, WETHOD will ask the project manager to request a review of the team members on the project.
 
-{{< img-center src="/uploads/2020/06/03/review_archived.gif" >}}
+![](/uploads/2020/06/03/review_archived.gif)
 
 This feature can also be used on selected job order categories, see section [Project & Team members review settings]({{< relref "settings/index.md#company" >}}) to learn more. Pending review requests are shown in [Desk]({{< relref "desk/index.md" >}}).
 

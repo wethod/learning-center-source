@@ -38,7 +38,7 @@ To set a user allocation manager:
 
 Any team member can be allocation manager of another team member.
 
-{{< img-center src="/uploads/2017/11/02/settings-team.png">}}
+![](/uploads/2017/11/02/settings-team.png)
 
 {{< note title="Note" >}}
 **Only super users can assign "super user" role.**
@@ -80,7 +80,7 @@ Check the stage section for further information.
   		* **Completed percentage**: the project status is assigned as a progress percentage (e.g. the progress of this project is 45%)
   * **Automatic timesheet**: here you can choose to automate the timesheets creation process for this kind of projects. This way, timesheets are automatically created each weekend based on planned hours. _Be careful: Anything can go wrong because planning is not often 100% accurate, this is why timesheet exists._ See the [timesheet section]({{< relref "friday/index.md#automatic" >}}) for further details.
 * **Job order** 🔜: Here you can add and edit the templates used to generate new job orders.  Remember to choose which job order categories your template will be valid for, and click "Apply."  This way, when you want to add the job order to one of your projects, you will see the "Generate" button, which will automatically provide you with a job order based on this template, with a unique, sequentially created number.  A category can only be associated with one template; therefore, you will not find it available among those that can be selected in other templates.  When you add a new template, by default, it will contain a sequential number, starting with 1.  You can add as many blocks as you want by dragging and dropping them from the list at the top: enter the text you want, or the current year indication, formatted to 2 digits or 4. Once you have added the blocks, you can put them in any order you like, again by dragging them to the appropriate area of your template.  If you want the starting number not to be one (this can happen to you, for example, if you activate this automatism after you have already created some projects that follow the template you are interested in) just change the value in the block, which by default shows "1." The value you choose will be the first one suggested when a job order is generated.  If you want the job order number to restart at "1" each new year, click on "Yearly reset." In order to do this, however, you will need to have a "year" block in your template.  This value, of course, is unique to each template, and is incremented by 1 for each new job order generated. Each project will benefit from automatic job order generation depending on its job order category: if there is a template associated with its category, that will be the one used to create the job order.  To choose the number formatting, change the "Min digit padding": this is the (minimum) length that the sequential number of your job order will have.  When you have finished customizing the template, remember to save to make the changes effective and usable for your projects! Learn more about how to use this feature for your [projects]({{< relref "pipeline/index.md#projects" >}}).
-{{< img-center src="/uploads/2023/02/06/job-order-template-settings.gif">}}
+![](/uploads/2023/02/06/job-order-template-settings.gif)
 * **Metadata**:  Add a detail depth to a project in pipeline with metadata tags. Add a new tag, specify its values and check the box if required. Metadata tags are useful to reach a better insight within a single cluster of data, i.e. in the report Sales Pipeline.
 * **Email Bot**: here you can insert the email addresses to which send invoices, orders and travel requests;
 * **Project Won/Lost Bot**: here you can insert the email addresses to which send notifications each time someone of your teammates won or lost a project. A project is considered to be _lost_ when its probability is 0 and _won_ when its probability is 90
@@ -121,18 +121,18 @@ This feature allows the user to determine a status of a supplier and if it is el
 	* Choose which job order categories need to be kept in sync
 	* Add **default folders** to create automatically each time a new Google Drive project folder is created
 
-{{< img-center src="/uploads/2022/03/09/drive-canvas-enable.gif">}}
+![](/uploads/2022/03/09/drive-canvas-enable.gif)
 * **Company Order Plan View**: here you can set your preferences about the way you want to visualise the company yearly orders, in the Company Order Plan page. Check [here]({{< relref "order-plan/index.md#overview" >}}) to see how this setting affects the visualisation of data.
 
 ## Alerts Engine
 
 Here you can manage the [alerts]({{< relref "alerts/index.md">}}) for your company, for each alert you can: enable/disable it, change its priority and edit its parameters (if required).
 
-{{< img-center src="/uploads/2018/03/27/alert-engine.png">}}
+![](/uploads/2018/03/27/alert-engine.png)
 
 Changing an alert's priority is as simple as positioning your cursor on the current priority and click on the new one:
 
-{{< img-center src="/uploads/2018/03/27/alerts-engine_edit-priority.gif">}}
+![](/uploads/2018/03/27/alerts-engine_edit-priority.gif)
 
 ## Permissions
 
@@ -220,7 +220,7 @@ You can use the **year resolution** to sum up the meaning of all your objectives
 
 Want to learn more about OKR? Take a look at this [good article](https://medium.com/startup-tools/okrs-5afdc298bc28).
 
-{{< img-center src="/uploads/2019/02/06/okr.gif">}}
+![](/uploads/2019/02/06/okr.gif)
 
 For every quarter you can set a **status** based on how the discussion about that quarter's OKR is going:
 
@@ -228,7 +228,7 @@ For every quarter you can set a **status** based on how the discussion about tha
 * _Discussed_ if all the objectives have been discussed and approved by your sponsor. From this step on, you can just edit the Key Results progress
 * _Checked_ if quarter ends and your sponsor positively evaluated your progress. In this step you are no more able to edit the quarter's OKR
 
-{{< img-center src="/uploads/2019/05/21/objective-quarter-status.png">}}
+![](/uploads/2019/05/21/objective-quarter-status.png)
 
 ### Trends
 
@@ -246,13 +246,13 @@ Timesheet and project status are meant to be compiled on Friday (this is why the
 
 Automatic timesheet is added by wethod on Sunday night, this means all users with planning on this kind of projects will see their Fridayness counter going up even if they can do nothing about it. To avoid this, projects from JOC with automatic timesheet are removed from Fridayness calculation.
 
-{{< img-center src="/uploads/2019/02/20/fridayness.png">}}
+![](/uploads/2019/02/20/fridayness.png)
 
 #### Chargeability
 
 The percentage of timesheet done on chargeable projects. The dashed line is useful to understand how teammates with the same level are doing. Do you work for money or for glory?
 
-{{< img-center src="/uploads/2019/02/20/chargeability.png">}}
+![](/uploads/2019/02/20/chargeability.png)
 
 #### Do The Production Plan
 
@@ -260,19 +260,19 @@ The percentage of [production plan]({{< relref "planning/index.md#production-pla
 
 The adjustments (or accumulation) are reported as orange monthly apex and are used to compute the moving average for this chart. So, how accurate is your production planning?
 
-{{< img-center src="/uploads/2019/02/20/do-the-plan.png">}}
+![](/uploads/2019/02/20/do-the-plan.png)
 
 #### Keep The Lights Off
 
 [Alerts]({{< relref "alerts/index.md" >}}) are made to be solved and this report shows how many days you take to solve yours (on average).
 
-{{< img-center src="/uploads/2019/02/20/keep-the-lights-off.png">}}
+![](/uploads/2019/02/20/keep-the-lights-off.png)
 
 #### Do The Budget
 
 The difference, in terms of margin, between [budget]({{< relref "budget/index.md" >}})'s baseline and budget's last approved version. Only finished project (that is projects archived with probability equal to 100%) are taken into account.
 
-{{< img-center src="/uploads/2019/02/20/do-the-budget.png">}}
+![](/uploads/2019/02/20/do-the-budget.png)
 
 ### Working Connections
 
@@ -280,13 +280,13 @@ Here you can appreciate the connections between project's manager, type and clie
 
 By clicking on a rectangle you can highlight all the outgoing connections and clicking on a connection let you see all the projects involved in that connection.
 
-{{< img-center src="/uploads/2019/02/20/working-connections.gif">}}
+![](/uploads/2019/02/20/working-connections.gif)
 
 ### Kudos
 
 Each team member has a section in the profile page, called Kudos, with the results of the [reviews]({{< relref "pipeline/index.md#project-team-review" >}}) received in a year both as a team member and as a project manager. The widget "What people say" collects all the written reviews received in a year.
 
-{{< img-center src="/uploads/2020/06/30/profile-kudos.png">}}
+![](/uploads/2020/06/30/profile-kudos.png)
 
 These results are based on the average Net Promoter Score and are calculated considering the number of reviews received and the projects worked on in a year. 
 
@@ -302,22 +302,22 @@ The “Business Unit” module is useful to manage teams that work as independen
 
 **Default BU for filters**: “User’s BU” or “All”. Choose whether to show the users data from the whole company or from the BU they're belonging to as a default.
 
-{{< img-center src="/uploads/2020/07/10/business-unit-settings.png">}}
+![](/uploads/2020/07/10/business-unit-settings.png)
 
 ### Projects' Business Unit
 To assign a business unit to a project you can go to project list, find your project and click on “Show more”. Click on the field named “Business Unit” and select an option from the list.
 
-{{< img-center src="/uploads/2020/07/10/business-unit-pipeline.png">}}
+![](/uploads/2020/07/10/business-unit-pipeline.png)
 
 ### Team members' Business Unit
 Wethod keeps a record of each time a user changes its business unit. All the data coming from previous planning and timesheet will remain linked to the business unit(s) the user belonged to at the time. To assign a business unit to each of the employees head to the [payroll section]({{< relref "payroll/index.md#overview" >}}).
 
-{{< img-center src="/uploads/2020/07/10/business-unit-payroll.png">}}
+![](/uploads/2020/07/10/business-unit-payroll.png)
 
 ### Business Unit Filters
 When the Business Unit module is enabled you will find filters in all sections of the application where it’s necessary a view by business unit. Do you think it’s missing a filter in a specific section or page in wethod? [Please, contact us](mailto:info@wethod.com).
 
-{{< img-center src="/uploads/2020/07/10/business-unit-filters.png">}}
+![](/uploads/2020/07/10/business-unit-filters.png)
 
 ### Planning Cross-Business unit
 In the permissions settings you set whether a user in a business unit is allowed to plan people from other business units: 

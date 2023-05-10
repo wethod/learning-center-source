@@ -27,7 +27,7 @@ Three important indicators are given in the first three rows:
 
 * **Total From Pipeline**: external costs without bluesky, per month.
 
-{{< img-center src="/uploads/2021/05/18/new_external_costs.png" >}}
+![](/uploads/2021/05/18/new_external_costs.png)
 
 {{< note title="Note" >}}
 **If your company is part of a group, intercompany external costs are automatically removed from this view.**
