@@ -48,7 +48,7 @@ For instance, a project with:
 
 Has a budget consumption of: **80 / 200 * 100 = 40 %**.
 
-Project status compile mode can be assigned for single job order category in [company settings]({{< relref "settings/index.md#company" >}}).
+Project status compile mode can be assigned for single job order category in [company settings](/settings/index#company).
 
 ### Expected Value
 
@@ -84,7 +84,7 @@ This value is the sum of all the pipeline projects' expected value.
 
 ### Roadrunner Index (RRI)
 
-This value indicates, for a given week, the ratio between the project's progress and [timesheet]({{< relref "friday/index.md#timesheet" >}}):
+This value indicates, for a given week, the ratio between the project's progress and [timesheet](/friday/index#timesheet):
 
 * If ratio is **greater than 1**: last week an hour of work led to a project's progress greater than one hour. This means that project advanced faster than expected;
 * If ratio is **equal to 1**: last week project's progress (based on Project Status) was consistent with the worked hours (based on Timesheet);
@@ -94,7 +94,7 @@ _The perfect managed project has a constant RRI of 1_.
 
 ### Wasted Hours
 
-Let's say Alice is planned 4 hours this week into project ACME but she **doesn't work at all** or she works on the project R&D which has a **non chargeable** [job order category]({{< relref "settings/index.md#company" >}}).
+Let's say Alice is planned 4 hours this week into project ACME but she **doesn't work at all** or she works on the project R&D which has a **non chargeable** [job order category](/settings/index#company).
 
 Those 4 hours are considered *wasted* by the end of the week, because Alice was supposed to produce 4 hours of "chargeable" work (that is work on projects which can be charged to a client) but this did not happen.
 
@@ -102,4 +102,4 @@ Wasted hours can't be planned anymore.
 
 If Alice had worked 4 hours for another chargeable project, those hours wouldn't be considered wasted and they would be available again for the project ACME by the end of the week.
 
-**You can disable this *wasted* hours mechanism via the dedicated option in the [company section]({{< relref "settings/index.md#company" >}})**.
+**You can disable this *wasted* hours mechanism via the dedicated option in the [company section](/settings/index#company)**.

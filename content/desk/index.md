@@ -13,7 +13,7 @@ The Desk is your private space and your favorite place. Here you can find a set 
 
 ## Activities
 
-This box collects all the items that were assigned to you in any [boards]({{< relref "pipeline/index.md#boards" >}}). You can scroll through them, search by item name and mark them as completed without going to the dedicated page. If this box is empty try to add a column "Member" in a board and set yourself as "Activity's assignee"
+This box collects all the items that were assigned to you in any [boards](/pipeline/index#boards). You can scroll through them, search by item name and mark them as completed without going to the dedicated page. If this box is empty try to add a column "Member" in a board and set yourself as "Activity's assignee"
 
 ![](/uploads/2020/04/02/desk-activities.png)
 
@@ -33,7 +33,7 @@ Here you can manage your personal files i.e. files that are not directly linked 
 
 ## Alerts
 
-This widget shows all your alerts with a description of the inconsistency, hurry up and fix them. You can se the [Alerts]({{< relref "alerts/index.md" >}}) section to have a better understand of what is going on.
+This widget shows all your alerts with a description of the inconsistency, hurry up and fix them. You can se the [Alerts](/alerts/index) section to have a better understand of what is going on.
 
 ## Invoices
 

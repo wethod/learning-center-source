@@ -32,10 +32,10 @@ All your teammates are listed on the left with their allocation. Each person on 
 
 * **A profile picture** or the initials;
 * **Name and surname**;
-* **Tags**  You can use [tags]({{< relref "settings/index.md#team" >}}) to group employees into categories.
+* **Tags**  You can use [tags](/settings/index#team) to group employees into categories.
 * **Level of seniority** (i.e. JR, SR, MGR, SRMGR);
 * **Objective and Key Results (OKR)** The status of the teammate's objectives and key results on each quarter of the year. Wethod shows whether the OKR of a quarter were (grey label) or were not placed (white label) by the user, and whether were discussed (blue) or checked (green) together with a sponsor;
-* **Allocation on projects** Each slot shows the amount of hours, days or weeks a user is planned for a project. Each project follows the colour code of the [job order categories]({{< relref "settings/index.md#company" >}}) used in your company.
+* **Allocation on projects** Each slot shows the amount of hours, days or weeks a user is planned for a project. Each project follows the colour code of the [job order categories](/settings/index#company) used in your company.
 
 **Team allocation overview on a specific project**
 
@@ -54,7 +54,7 @@ All the time slots planned for the selected project will be highlighted througho
 2. A box on the top of the page will show how many budget days and hours are available to plan, grouped by user level.
 3. If needed, you can **apply multiple filters on people**. For example, you may decide to see only the internal employees which are managers and have a background in design
    ![](/uploads/2017/11/02/planning-people-filters.png)
-4. You can use the search bar even to **filter people by** [**skill**]({{< relref "settings/index.md#skills" >}}), **interest or language**. Try to input something like **skill:photoshop;skill:illustrator** to find everybody who has a skill named "photoshop" and a skill named "illustrator". Type **language:italian;language:english** to find everybody who speaks “Italian” and “English", or instead type **interest:reading** to find everybody who loves reading.
+4. You can use the search bar even to **filter people by** [**skill**](/settings/index#skills), **interest or language**. Try to input something like **skill:photoshop;skill:illustrator** to find everybody who has a skill named "photoshop" and a skill named "illustrator". Type **language:italian;language:english** to find everybody who speaks “Italian” and “English", or instead type **interest:reading** to find everybody who loves reading.
 5. To **plan for an hour, a half day or for an entire week**, just position the mouse on the day/week you want to allocate and click to plan. Click and drag to quickly assign more than an hour, a half day or a week at once.
 
 \*If the day/week has some hours/days already planned on other projects, wethod allows you to plan the user on the remaining hours/days available for that day/week.
@@ -75,9 +75,9 @@ When you run out of days, you can choose between two options:
 ### Weekends
 A five days calendar (Monday to Friday) is used by default.
 
-If you enable “Use a 7-days week calendar” is enabled in [company settings]({{< relref "settings/index.md#company" >}}), the calendar will include Saturdays and Sundays.
+If you enable “Use a 7-days week calendar” is enabled in [company settings](/settings/index#company), the calendar will include Saturdays and Sundays.
 
-If you enable “Highlight weekends” in [company settings]({{< relref "settings/index.md#company" >}}):
+If you enable “Highlight weekends” in [company settings](/settings/index#company):
 
 1. Saturdays and Sundays will be shown using a special visual pattern to make more clear that they belong to weekend
 2. When one tries to plan on weekends, an alert will ask if he really want to plan over the weekend. If user clicks “Yes”, plan is confirmed and no similar warning appears until user changes the selected project. If user clicks “No”, weekends are removed from requested plans
@@ -98,7 +98,7 @@ If you enable “Highlight weekends” in [company settings]({{< relref "setting
 7. Click "Plan"
 8. An alert will tell you if the budget is not sufficient to cover the repetition in the selected time range or if the repetition pattern clashes with existing allocations.
 
-If you enable “Highlight weekends” in [company settings]({{< relref "settings/index.md#company" >}}) and then you try to repeat something planned on a Saturday or Sunday, an alert will ask if you really want to repeat the weekend. If you deny, repetition is canceled
+If you enable “Highlight weekends” in [company settings](/settings/index#company) and then you try to repeat something planned on a Saturday or Sunday, an alert will ask if you really want to repeat the weekend. If you deny, repetition is canceled
 
 **Remove future allocations**
 
@@ -132,7 +132,7 @@ A new version of the budget is automatically created each time a user makes a co
 
 ### Dealing with allocation requests
 
-Projects with job order category of type "plan upon request" cannot be planned the usual way: user needs to visit [Allocation Requests]({{< relref "planning/index.md#allocation-requests" >}}) and ask to be allocated.
+Projects with job order category of type "plan upon request" cannot be planned the usual way: user needs to visit [Allocation Requests](/planning/index#allocation-requests) and ask to be allocated.
 
 ## Allocation Requests 
 
@@ -145,13 +145,13 @@ Particular job order categories may expect people to ask to be planned on them, 
 To create a request:
 
 1. Click on "Add request" button to open related sidebar
-2. Select the project to request (required). You can only use a project which job order category has the "plan upon approval" flag enabled. To enable this flag just head to the [company settings]({{< relref "settings/index.md#company" >}}) section
+2. Select the project to request (required). You can only use a project which job order category has the "plan upon approval" flag enabled. To enable this flag just head to the [company settings](/settings/index#company) section
 3. Select start date and end date (required). Once both selected, for each day in the period you can express how many hours to request (1 - 8), by default each day is an 8 hours request
 4. Add notes if needed
 
 Once created, a request acquires the "Pending" status and:
 
-- If the selected from-to is within 14 days an “urgent” mail notification is sent to the user allocation manager, if exists. Allocation manager for a user can be set from the [team settings]({{< relref "settings/index.md#team" >}}) section
+- If the selected from-to is within 14 days an “urgent” mail notification is sent to the user allocation manager, if exists. Allocation manager for a user can be set from the [team settings](/settings/index#team) section
 - Request is displayed in people allocation using a particular pattern
 
 ![](/uploads/2022/01/17/planning_allocation-request.png)
@@ -171,7 +171,7 @@ A special **edit permission** is needed to edit and see others requests.
 
 Approved and rejected requests cannot be edited but can be deleted.
 
-When a request is deleted, it disappears from [people allocation]({{< relref "planning/index.md#people-allocation" >}}).
+When a request is deleted, it disappears from [people allocation](/planning/index#people-allocation).
 
 Creating or editing a pending request can create **conflicts** if:
 

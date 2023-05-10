@@ -27,15 +27,15 @@ Hovering the cursor over an alert will display a description of the problem.
 
 ![](/uploads/2017/08/28/alerts.png)
 
-[Learn more about alerts]({{< relref "alerts/index.md" >}})
+[Learn more about alerts](/alerts/index)
 
 ### Revenue Clock
 
-This widget lets you quickly compare the [revenue pipeline]({{< relref "glossary/index.md#revenue-pipeline" >}}) (blue) with the [production value]({{< relref "glossary/index.md#production-value" >}}) (green). When you create the widget, you must set the production target you want to hit by the end of the year.
+This widget lets you quickly compare the [revenue pipeline](/glossary/index#revenue-pipeline) (blue) with the [production value](/glossary/index#production-value) (green). When you create the widget, you must set the production target you want to hit by the end of the year.
 
-When the filter is set to **company overview** the target will automatically be set as the [profit & loss budget target]({{< relref "profit-loss/index.md#overview" >}}) for the current year.
+When the filter is set to **company overview** the target will automatically be set as the [profit & loss budget target](/profit-loss/index#overview) for the current year.
 
-When the filter is set to **client** the target will automatically be set as the [revenues target]({{< relref "revenues/index.md#revenues-target" >}}) for the current year.
+When the filter is set to **client** the target will automatically be set as the [revenues target](/revenues/index#revenues-target) for the current year.
 
 The grey area shows the percentage of the year gone or, by another point of view, how much time you still have to hit your annual target.
 
@@ -43,7 +43,7 @@ The grey area shows the percentage of the year gone or, by another point of view
 
 ### Invoices
 
-This widget shows all the invoices that must be sent. The invoice list is based on the pipeline's [invoice plan]({{< relref "pipeline/index.md#invoice-plan" >}}) and each invoice has a priority (indicated by its color):
+This widget shows all the invoices that must be sent. The invoice list is based on the pipeline's [invoice plan](/pipeline/index#invoice-plan) and each invoice has a priority (indicated by its color):
 
 * Red invoices have an high priority because they had to be sent in a past date;
 * Yellow invoices have a low priority because they have to be send in a future date.
@@ -59,18 +59,18 @@ By clicking on an invoice you can select it, plus others and create multiple inv
 
 ### Budget Consumption
 
-This widget is a resume of the [Budget Consumption report]({{< relref "reports/index.md#budget-consumption" >}}) .
+This widget is a resume of the [Budget Consumption report](/reports/index#budget-consumption) .
 
 ### Revenue Progress
 
-This widget is a resume of the [Revenue Progress report]({{< relref "reports/index.md#revenue-progress" >}}) .
+This widget is a resume of the [Revenue Progress report](/reports/index#revenue-progress) .
 
 ![](/uploads/2017/06/12/revenue-progress-widget.png)
 
 ### Roadrunner Index
 
-This widget shows the [Roadrunner Index]({{< relref "glossary/index.md#roardunner-index-rri" >}}) for each of your projects.
+This widget shows the [Roadrunner Index](/glossary/index#roardunner-index-rri) for each of your projects.
 
-Clicking on a project will take you to its [detailed report]({{< relref "reports/index.md#project-report" >}}).
+Clicking on a project will take you to its [detailed report](/reports/index#project-report).
 
 ![](/uploads/2017/06/12/rri-widget.png)

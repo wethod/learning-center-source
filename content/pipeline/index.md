@@ -90,7 +90,7 @@ You can choose any formatting you like, as long as the job order you enter is un
 
 To help you with this, you can take advantage of automatic generation.
 
-Activate the feature from the [company settings section]({{< relref "settings/index.md#company" >}}), and associate a template with the job order categories you want.
+Activate the feature from the [company settings section](/settings/index#company), and associate a template with the job order categories you want.
 
 This way, from the details of a project, you can create the job order by clicking on the "Generate" button. You will be prompted with the first available job order, following the formatting you have indicated in the template.
 
@@ -102,7 +102,7 @@ Remember that generation is not available if you have not yet activated the feat
 
 Enter the client you are going to work for.
 
-You can choose from all the companies available from the [Client list section]({{< relref "finance/index.md#client-list" >}}).
+You can choose from all the companies available from the [Client list section](/finance/index#client-list).
 
 If the client you are looking for hasn't been added yet, you can create a new one directly from the form that shows up.
 
@@ -116,9 +116,9 @@ When you chose the client you are working for, pick the main contact you are tal
 
 You cannot choose a contact before having selected the company.
 
-As for the client company, you can create a new contact straight from the form that shows up, and see the complete list in the [Contacts section]({{< relref "finance/index.md#contacts" >}}).
+As for the client company, you can create a new contact straight from the form that shows up, and see the complete list in the [Contacts section](/finance/index#contacts).
 
-You can make the client contact a required field in your [company settings section]({{< relref "settings/index.md#company" >}}).
+You can make the client contact a required field in your [company settings section](/settings/index#company).
 
 **Value**
 
@@ -145,7 +145,7 @@ When you move the start or end date of an opportunity (with a probability lower 
 
 You can track the risk of a project directly from the Project list section.
 
-This information is also available from the [project status section]({{< relref "friday/index.md#status-of-the-project-s-risk" >}}).
+This information is also available from the [project status section](/friday/index#status-of-the-project-s-risk).
 
 For this reason, you cannot edit the risk of a project before you filled out its first project status.
 
@@ -161,7 +161,7 @@ A default `blank` status is available for all opportunities whether we are track
 
 Stage and probability are tightly coupled if your opportunity's Job Order Category is tracking the opportunity stage. When the probability of an opportunity is updated its status changes and viceversa. This is true only for specific thresholds and is reflected only on the default statuses (`blank`, `Won` and `Lost`). 
 
-Visit the [company settings page]({{< relref "settings/index.md#company" >}}). if you wish to create a new status or edit the existing ones.
+Visit the [company settings page](/settings/index#company). if you wish to create a new status or edit the existing ones.
 
 ![](/uploads/2021/10/26/opportunity-stage.png)
 
@@ -174,7 +174,7 @@ Not even the PM or the account are allowed to edit the hours when they’re not 
 
 Please note that the whitelist only affects the timesheet section.
 That means that being excluded from a timesheet whitelist does not keep you from seeing the project pages or the planning associated as you normally would.
-Find out more in the [timesheet whitelist support page]({{< relref "friday/index.md#whitelist" >}}).
+Find out more in the [timesheet whitelist support page](/friday/index#whitelist).
 
 From the project details sidebar, you can see whether the whitelist is enabled or not, and all the employees in the list.  
 You can add and remove people from the list at any time, by editing the project details.
@@ -334,7 +334,7 @@ The search bar used for **basic search** also shows other three actions:
 
 * **Export**: A complete list of all projects/opportunities is sent to your mailbox. This export is going to ignore all filters and
 * **Share**: share the current search by sending it by email to a teammate or by copying it. The current search is available as a URL containing all the applied filters and simple search terms.
-* **Save**: save the current search in your [Desk pinboard]({{< relref "desk/index.md#pinboard" >}}). The current search is available as a URL containing all the applied filters and simple search terms.
+* **Save**: save the current search in your [Desk pinboard](/desk/index#pinboard). The current search is available as a URL containing all the applied filters and simple search terms.
 
 **Advanced Search**
 
@@ -350,9 +350,9 @@ You can search for a specific filter using the filters search bar at the top. Ad
 
 ### Intercompany Projects
 
-If your company is part of a [group\]({{< relref "group-setup/index.md" >}}) you have the possibility to connect a project to an \[intercompany task]({{< relref "budget/index.md#make-a-task-intercompany" >}}), this makes it an _intercompany project_: its final net price and probability are updated to reflect the intercompany task’s external costs and intercompany task’s project’s probability.
+If your company is part of a [group\](/group-setup/index) you have the possibility to connect a project to an \[intercompany task](/budget/index#make-a-task-intercompany), this makes it an _intercompany project_: its final net price and probability are updated to reflect the intercompany task’s external costs and intercompany task’s project’s probability.
 
-To connect a project you firsty need to be invited, this can be done from inside a budget as [explained here]({{< relref "budget/index.md#make-a-task-intercompany" >}}). When you receive the invitation, just follow the link and select from the dropdown the project you want to connect.
+To connect a project you firsty need to be invited, this can be done from inside a budget as [explained here](/budget/index#make-a-task-intercompany). When you receive the invitation, just follow the link and select from the dropdown the project you want to connect.
 
 ![](/uploads/connect-project.png)
 
@@ -364,7 +364,7 @@ Successfully connected projects are identified by a label below their names.
 
 Wouldn't be great to be able to collect feedback about the reasons that led to win or lose a project?
 
-In the [company section]({{< relref "settings/index.md#company" >}}) you can configure a set of reasons that project managers can use to describe why a project's probability went up to 90 (so the project was **won**) or down to 0 (so the project was **lost**).
+In the [company section](/settings/index#company) you can configure a set of reasons that project managers can use to describe why a project's probability went up to 90 (so the project was **won**) or down to 0 (so the project was **lost**).
 
 When you enable the related flag for a job order category, the user will be asked for a feedback each time a project in that category gets won or lost.
 
@@ -453,7 +453,7 @@ The timeline gets automatically populated with some useful project's events like
 
 Activities which you create inside a project timeline can be added to your Google Calendar and kept in sync. This sync id one way from Wethod to Google Calendar, this means that if you edit or delete an event in your Google Calendar these changes are not propagated to Wethod.
 
-You can enable this functionality in the [account section]({{< relref "settings/index.md#account" >}}).
+You can enable this functionality in the [account section](/settings/index#account).
 
 ![](/uploads/2022/05/12/timeline-calendar.png)
 
@@ -469,15 +469,15 @@ To work well and efficiently on a project you first need to understand it and th
 
 ![](/uploads/2020/02/07/project-canvas.png)
 
-You can access this section from [projects]({{< relref "pipeline/index.md#projects" >}}) and basically everywhere you can see the canvas icon:
+You can access this section from [projects](/pipeline/index#projects) and basically everywhere you can see the canvas icon:
 
 ![](/uploads/2020/02/07/project-canvas-icon-1.png)
 
-Hit the button from the menu of actions available on the top bar to start a [Project & Team Review]({{< relref "pipeline/index.md#project-team-review" >}}):
+Hit the button from the menu of actions available on the top bar to start a [Project & Team Review](/pipeline/index#project-team-review):
 
 ![](/uploads/2020/06/03/project-canvas_review-button.png)
 
-There is a dedicated widget to appreciate the average Kudos (points coming from [reviews]({{< relref "pipeline/index.md#project-team-review" >}}) of a project):
+There is a dedicated widget to appreciate the average Kudos (points coming from [reviews](/pipeline/index#project-team-review) of a project):
 
 ![](/uploads/2020/06/30/canvas-kudos.png)
 
@@ -500,7 +500,7 @@ This allow you to use canvas Files widget to:
 
 Once this functionality is enabled you will only be able to upload files to Google Drive, other files uploaded to wethod in the past will still be visible.
 
-You can enable this functionality in your [company settings]({{< relref "settings/index.md#company" >}}).
+You can enable this functionality in your [company settings](/settings/index#company).
 
 Once this functionality is enabled, different thing are automatically kept in sync:
 
@@ -571,7 +571,7 @@ This tool allows the team to collect feedback on a project and the skills of bot
 
 ![](/uploads/2020/06/30/review_team.png)
 
-Project & Team Review must be enabled from [Company Settings]({{< relref "settings/index.md#company" >}}).
+Project & Team Review must be enabled from [Company Settings](/settings/index#company).
 
 ### How it works
 
@@ -579,14 +579,14 @@ When a project has been archived, WETHOD will ask the project manager to request
 
 ![](/uploads/2020/06/03/review_archived.gif)
 
-This feature can also be used on selected job order categories, see section [Project & Team members review settings]({{< relref "settings/index.md#company" >}}) to learn more. Pending review requests are shown in [Desk]({{< relref "desk/index.md" >}}).
+This feature can also be used on selected job order categories, see section [Project & Team members review settings](/settings/index#company) to learn more. Pending review requests are shown in [Desk](/desk/index).
 
 ### Request intermediate reviews
 
 Reviews can be requested any time by the project manager, or whoever has the permission to do so:
 
-* From the [project canvas]({{< relref "pipeline/index.md#project-canvas" >}}), hit the button from the menu of actions available on the top bar of the page
-* From the [project list]({{< relref "pipeline/index.md#projects" >}}), click on a project and head the action buttons > click "more actions" > "Request Review"
+* From the [project canvas](/pipeline/index#project-canvas), hit the button from the menu of actions available on the top bar of the page
+* From the [project list](/pipeline/index#projects), click on a project and head the action buttons > click "more actions" > "Request Review"
 
 ### Criteria
 
@@ -599,15 +599,15 @@ Reviews are anonymous and are based on the Net Promoter Score (NPS), which is a 
 Each team member will be asked to review the project and the other members on each of the given criteria.
 Each project manager will be asked to review the project and its team members.
 
-To add or edit criteria for the evaluation of projects and team members go to [Project & Team members review settings]({{< relref "settings/index.md#company" >}}).
+To add or edit criteria for the evaluation of projects and team members go to [Project & Team members review settings](/settings/index#company).
 
 {{< note title="Note" >}}
 **Changes to criteria are available only to next reviews, past reviews' criteria are not updated to ensure consistency.**
 {{< /note >}}
 
-You can find user's review results in the [Profile]({{< relref "settings/index.md#kudos" >}}) section, while you need to visit the [Canvas]({{< relref "pipeline/index.md#project-canvas" >}}) section to see project's review results.
+You can find user's review results in the [Profile](/settings/index#kudos) section, while you need to visit the [Canvas](/pipeline/index#project-canvas) section to see project's review results.
 
-In order to maintain a review anonymous, you can set a minimum number of unique reviewers to collect feedback from before showing review’s results in the profile page and the project canvas. This can ben managed in [Project & Team members review settings]({{< relref "settings/index.md#company" >}}).
+In order to maintain a review anonymous, you can set a minimum number of unique reviewers to collect feedback from before showing review’s results in the profile page and the project canvas. This can ben managed in [Project & Team members review settings](/settings/index#company).
 
 {{< note title="Note" >}}
 **To enable specific role’s permission to request a review go to menu Settings > Permissions > Pipeline > review.**

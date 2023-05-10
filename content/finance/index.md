@@ -28,7 +28,7 @@ In this section you can see all your orders and create new ones.
 * **Supplier**: the target Supplier for this Order
 * **Purchase Code**: an identifier for the Order
 * **Value**: the total cost of this Order
-* **Area**: the area of the [budget]({{< relref "budget/index.md" >}}) this Order is about
+* **Area**: the area of the [budget](/budget/index) this Order is about
 * **Date**: the issue date of this Order
 * **Duration**: answers to the question "when this order will used for the project?", by default uses the project's start month and duration. For example: some external employees works for you on April and May so you should set start month to April and duration of 2 months.
 * **Notes**: a brief text about the order. This is attached to the order's email and can be seen by your colleagues
@@ -36,12 +36,12 @@ In this section you can see all your orders and create new ones.
 ### Send an order
 
 1. Click the button _Send_.
-2. Choose a recipient for the order. To insert one or more email addresses as recipients head to the settings [Email Bot]({{< relref "settings/index.md#company" >}}) section.
+2. Choose a recipient for the order. To insert one or more email addresses as recipients head to the settings [Email Bot](/settings/index#company) section.
 3. The recipient will receive an email.
 
 When an order is sent, you will need specific permissions to edit it.
 
-Role based permissions for Orders can be managed from the [permissions section]({{< relref "settings/index.md#permissions" >}}).
+Role based permissions for Orders can be managed from the [permissions section](/settings/index#permissions).
 
 A sent order can be approved.
 
@@ -49,7 +49,7 @@ A sent order can be approved.
 
 You can approve an order by clicking on the "**Approve**" button. Approving an order isn't mandatory but can be useful if you want to keep track of which orders can be actually issued.
 
-By clicking the “Approve” button you will presented with a confirmation modal and then you can optionally send an email to notify someone. Recipients for this notification can be selected from those listed under orders [Email Bot]({{< relref "settings/index.md#company" >}}) from the settings.
+By clicking the “Approve” button you will presented with a confirmation modal and then you can optionally send an email to notify someone. Recipients for this notification can be selected from those listed under orders [Email Bot](/settings/index#company) from the settings.
 
 ![](/uploads/2022/09/01/approve-notification-modal-big.png)
 
@@ -61,7 +61,7 @@ You can set an order as paid by clicking on the "**Set as paid**" button. This i
 
 ### Currency
 
-Orders belonging to a [multicurrency budget]({{< relref "budget/index.md#multicurrency-budget" >}})
+Orders belonging to a [multicurrency budget](/budget/index#multicurrency-budget)
 are displayed with their currency. Currency can be picked between those used in the budget's external costs. The exchange rate for the currency refers to the budget's creation date, but you can change it in any moment by editing it manually.
 
 Order's value must be lower or equal then the external costs provided in the budget for the currency picked for the order.
@@ -86,7 +86,7 @@ Order's value must be lower or equal then the external costs provided in the bud
 
 ## Invoices
 
-In this section you can see all your invoices and create new ones. Once you click on the "**Send**" button, an e-mail is sent to the address inserted in the [Email Bot]({{< relref "settings/index.md#company" >}}) section.
+In this section you can see all your invoices and create new ones. Once you click on the "**Send**" button, an e-mail is sent to the address inserted in the [Email Bot](/settings/index#company) section.
 
 To create an invoice:
 
@@ -106,7 +106,7 @@ Once you're done, remember to click on the **save** button.
 
 ### Currency
 
-Invoices belonging to a [multicurrency budget]({{< relref "budget/index.md#multicurrency-budget" >}})
+Invoices belonging to a [multicurrency budget](/budget/index#multicurrency-budget)
 are displayed with the final net's currency. The exchange rate for the currency refers to the budget's creation date, but you can change it in any moment by editing it manually.
 
 {{< note title="Note" >}}
@@ -138,9 +138,9 @@ For each of the company listed, click on the arrow to enter the company page.
 
 Here you can find details and insights about a client, like:
 
-* It's [revenue clock]({{< relref "dashboard/index.md#revenue-clock" >}}) for the current year
+* It's [revenue clock](/dashboard/index#revenue-clock) for the current year
 * All the **invoices** that need to be sent for that client
-* The **revenues** for the client grouped by years or quarters. Targets are displayed in orange and you can set them in the [revenues target]({{< relref "revenues/index.md#revenues-target" >}}) section
+* The **revenues** for the client grouped by years or quarters. Targets are displayed in orange and you can set them in the [revenues target](/revenues/index#revenues-target) section
 * The value of the **won projects** for the client grouped by years or quarters (click on a column to further filter the insights below on the selected time range)
 * Sparklines:
   * **Won projects** that are all the projects with a 90% or 100% probability
@@ -153,7 +153,7 @@ Here you can find details and insights about a client, like:
 * **Outstanding projects** that are all the projects with a probability between 10% and 75%
 * All the **contacts** for this client
 
-The **Won/lost feedback** shows up when you enable the related job order category's flag in the [company]({{< relref "settings/index.md#company" >}}) section.
+The **Won/lost feedback** shows up when you enable the related job order category's flag in the [company](/settings/index#company) section.
 
 Sparklines comes in different colors to highlight the trend:
 
@@ -191,11 +191,11 @@ How to link a contact to a project? Just go to the pipeline and pick a name from
 
 ### Intercompany client
 
-If your company is part of a [group]({{< relref "group-setup/index.md" >}}) you can elevate some of your clients from "classical clients" to "intercompany clients".
+If your company is part of a [group](/group-setup/index) you can elevate some of your clients from "classical clients" to "intercompany clients".
 
 To do so you just need to click on the arrow to open the sidebar and assign the **Intercompany ID** by selecting it from a list containing all the companies which are part of your group.
 
-This is particularly useful when you decide to use a job order category with the ["Intercompany supplier"]({{< relref "settings/index.md#company" >}}) flag enabled.
+This is particularly useful when you decide to use a job order category with the ["Intercompany supplier"](/settings/index#company) flag enabled.
 
 ## Suppliers
 
@@ -212,12 +212,12 @@ To add a new supplier:
 3. Click on the "**save**" button
 
 {{< note title="Note" >}}
-**You can only assign tags which was previously created in the** [**"Supplier Settings"**]({{< relref "settings/index.md#suppliers-settings" >}})**. Tags can be useful to catalogue the supplier with keywords (i.e. expertise, industry or geography)**
+**You can only assign tags which was previously created in the** [**"Supplier Settings"**](/settings/index#suppliers-settings)**. Tags can be useful to catalogue the supplier with keywords (i.e. expertise, industry or geography)**
 {{< /note >}}
 
 ### Supplier's status
 
-It is possible to add a status that determines whether a supplier is available for contracts or not. To enable this feature and set your preferences on supplier's status, head to Settings > Company > Suppliers or learn more from ["Supplier Settings"]({{< relref "settings/index.md#suppliers-settings" >}}).
+It is possible to add a status that determines whether a supplier is available for contracts or not. To enable this feature and set your preferences on supplier's status, head to Settings > Company > Suppliers or learn more from ["Supplier Settings"](/settings/index#suppliers-settings).
 
 {{< note title="Note" >}}
 **Orders can be sent to suppliers that are eligible for contract only.**
@@ -283,7 +283,7 @@ A rating is composed by:
 * A project to which rating refers (required)
 * A comment to explain the rating value (not required)
 
-Rating permissions can be managed from the [permissions section]({{< relref "settings/index.md#permissions" >}}), here you can express:
+Rating permissions can be managed from the [permissions section](/settings/index#permissions), here you can express:
 
 * Which roles can see rating related thing
 * Which roles can create and manage their own ratings
@@ -332,7 +332,7 @@ First, head to Setting > Company > Email Bot and insert the email address(es) as
 3. Edit your travel request.
 4. Click _Save_.
 
-Based on a specific [permission's set]({{< relref "finance/index.md#permissions" >}}), some roles are able to edit other requests even when already sent.
+Based on a specific [permission's set](/finance/index#permissions), some roles are able to edit other requests even when already sent.
 
 ### Create _more than one travel request_ for the same travel category:
 
@@ -425,14 +425,14 @@ All expenses are listed with the following information at display:
 * Notes
 * Reimbursement value (always expressed in master currency) 
 
-Based on [permission roles]({{< relref "settings/index.md#permissions" >}}), users can view, edit, delete their own expenses and/or others's expenses.
+Based on [permission roles](/settings/index#permissions), users can view, edit, delete their own expenses and/or others's expenses.
 
 Users with permission to edit others' expenses can also change the owner of the expense when creating or updating it from the sidebar details.
 
 ![](/uploads/2022/08/30/expense-edit-owner.png)
 
 {{< note title="Note" >}}
-**All expenses linked to a project are listed in the widget "Orders" in the [project report]({{< relref "reports/index.md#project-report" >}}) with a general "Expense" name, its date and value.**
+**All expenses linked to a project are listed in the widget "Orders" in the [project report](/reports/index#project-report) with a general "Expense" name, its date and value.**
 {{< /note >}}
 
 ### Type of reimbursement
@@ -450,7 +450,7 @@ Learn how to insert categories of expenses that require a reimbursement process 
 2. Click button _Add expense category_.
 3. Choose a _name_ for the category of expense.
 4. Select the check box if route details are needed.
-5. Select the [type of reimbursement]({{< relref "finance/index.md#type-of-reimbursement" >}}).
+5. Select the [type of reimbursement](/finance/index#type-of-reimbursement).
 6. Insert the value of reimbursement (flat-rate, per mile/km, per unit or maximum).
 7. Press *Save*.
 
@@ -466,7 +466,7 @@ Learn how to insert categories of expenses that require a reimbursement process 
 1. Head to Projects > Wallet > Expenses
 2. Click button _New Expense_ and a sidebar will open.
 3. Insert the name of the project linked with your expense.
-4. Choose the [category of expense]({{< relref "finance/index.md#set-a-category-of-expense" >}}) from the list.
+4. Choose the [category of expense](/finance/index#set-a-category-of-expense) from the list.
 5. Insert the date in which this expense occurred.
 6. If required, insert the value of expense or the amount of miles/kilometres travelled.
 7.  If required, insert location _From_ - _To_.

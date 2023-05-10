@@ -8,7 +8,7 @@ weight: "90"
 
 This page provides an overview of the budgetary slippages between a company's projected revenues and  its expenses, as well as its budget target over a given period of time. The three columns **budget**, **forecast 1** and **forecast 2** can be used to set the company's financial goals for each quarter of the year. 
 
-The column **budget** in the **revenues** row is used to set the revenues' target for the company, which is used in the widget [Revenue Clock]({{< relref "dashboard/index.md#revenue-clock" >}}) and in the report [Production Value]({{< relref "reports/index.md#production-value" >}}).
+The column **budget** in the **revenues** row is used to set the revenues' target for the company, which is used in the widget [Revenue Clock](/dashboard/index#revenue-clock) and in the report [Production Value](/reports/index#production-value).
 
 If business units are enabled for your company:
 
