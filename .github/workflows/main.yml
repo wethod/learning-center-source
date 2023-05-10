@@ -10,6 +10,9 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-20.04
+    env:
+      TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
+      TINA_CLIENT_ID: ${{ secrets.TINA_CLIENT_ID }}
     steps:
       - uses: actions/checkout@v2
         with:
@@ -21,8 +24,17 @@ jobs:
         with:
           hugo-version: '0.20.4'
 
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
       - name: Build
-        run: hugo
+        run: npm run build
+
+      - run: rm ./public/admin/.gitignore
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
