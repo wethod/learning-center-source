@@ -21,9 +21,9 @@ Just few elements are needed in order to get things working:
 
 * A project [budget](/budget/index);
 
-* The weekly [timesheet](/friday/index#timesheet);
+* The weekly [timesheet](/friday/index/#timesheet);
 
-* The weekly [project status](/friday/index#project-status).
+* The weekly [project status](/friday/index/#project-status).
 
 **The responsibility of updating each of these elements is shared among all the team members, avoiding any unnecessary administrative burden.**
 

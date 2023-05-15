@@ -19,7 +19,7 @@ Basically, this is the place where you define (for a project):
 * The external costs;
 * The selling price.
 
-Done? Now the budget must be approved by a supervisor and, once approved, the project manager can start [planning](/planning/index) and creating [orders](/finance/index#orders).
+Done? Now the budget must be approved by a supervisor and, once approved, the project manager can start [planning](/planning/index) and creating [orders](/finance/index/#orders).
 
 ## Budget approval
 
@@ -29,7 +29,7 @@ A user is able to approve a budget of a project if one of the following conditio
 *	The user is the project manager and its role has a flag on "approve" inside the budget section of the permissions settings.
 *	The user's role has a flag on "approve other" inside the budget section of the permissions settings.
 
-Role based permissions for budgets can be managed from the [permissions section](/settings/index#permissions).
+Role based permissions for budgets can be managed from the [permissions section](/settings/index/#permissions).
 
 {{< note title="Note" >}}
 **When a project reach 50% of probability, it's a good practice to make a budget for it.**
@@ -71,8 +71,8 @@ An area can be minimized by clicking on it, this let you appreciate more areas a
 Areas are grouped in order to show subtotals:
 
 * **Areas & Tasks** contains all areas created by the user plus "PM & Travels" which is a special area that's automatically added on each budget creation. This area contains two special tasks:
-  * **Travels**: external costs in this task appear as special cost row in [Project Report economics](/reports/index#economics) where it is used to compare expected travel costs (coming from budget) and effective travels (created in [Travels section](/finance/index#travels))
-  * **Expenses**: external costs in this task appear as special cost row in [Project Report economics](/reports/index#economics) where it is used to compare expected expenses (coming from budget) and effective expenses (created in [Expenses section](/finance/index#expenses))
+  * **Travels**: external costs in this task appear as special cost row in [Project Report economics](/reports/index/#economics) where it is used to compare expected travel costs (coming from budget) and effective travels (created in [Travels section](/finance/index/#travels))
+  * **Expenses**: external costs in this task appear as special cost row in [Project Report economics](/reports/index/#economics) where it is used to compare expected expenses (coming from budget) and effective expenses (created in [Expenses section](/finance/index/#expenses))
         
 * **Total** contains:
   * **Contingency**: life is unpredictable and the unexpected is behind every corner, so why not be prepared for it? A percentage of contingency means that you know your budget isn’t perfect so you’re estimating using more days, just in case. The contingency gives you more days and which you can use at every user level but, on the other hand, the suggested net price will grow
@@ -123,9 +123,9 @@ An intercompany task is used to track work done within the same group and its us
 
 ![](/uploads/2023/01/23/budget-make-intercompany.gif)
 
-Once you have created an intercompany task, you can invite a person (that is an employee belonging to the task's supplier) to connect one of their projects to the task itself. The invited person will receive an email containing a link to [connect the project](/pipeline/index#intercompany-projects).
+Once you have created an intercompany task, you can invite a person (that is an employee belonging to the task's supplier) to connect one of their projects to the task itself. The invited person will receive an email containing a link to [connect the project](/pipeline/index/#intercompany-projects).
 
-When a project is successfully connected to an intercompany task, it became an _intercompany project_: its **final net price**, [currency](/budget/index#multicurrency-budget) and **probability** are updated to reflect the intercompany task's external costs and intercompany task's project's probability.
+When a project is successfully connected to an intercompany task, it became an _intercompany project_: its **final net price**, [currency](/budget/index/#multicurrency-budget) and **probability** are updated to reflect the intercompany task's external costs and intercompany task's project's probability.
 
 {{< note title="Note" >}}
 **Each time you update the probability of a project which presents intercompany tasks, the intercompany projects linked to that task are updated accordingly. Besides if you update an intercompany task's external costs, the linked project's final net is updated too.**
@@ -139,7 +139,7 @@ If you delete an intercompany task, any connected project will be disconnected (
 
 Sometimes may be useful to use currencies in your budget, especially when you work with clients or suppliers that use currencies different from yours.
 
-Once you enable multicurrency for one of your budgets, you will be able to set final net price and external costs in currencies other than the **company currency** you've defined in your [company settings](/settings/index#company).
+Once you enable multicurrency for one of your budgets, you will be able to set final net price and external costs in currencies other than the **company currency** you've defined in your [company settings](/settings/index/#company).
 
 Expressing a final net using a currency different from yours let you emit invoices using the same currency for that project.
 

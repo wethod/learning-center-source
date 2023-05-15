@@ -6,7 +6,7 @@ weight: 20
 ---
 ## Overview
 
-If you need to manage various company belonging to the same holding, this is the right tool for you: enabling the group module lets you appreciate aggregates statistics about all of your companies and made possible to track [intercompany work](/budget/index#make-a-task-intercompany).
+If you need to manage various company belonging to the same holding, this is the right tool for you: enabling the group module lets you appreciate aggregates statistics about all of your companies and made possible to track [intercompany work](/budget/index/#make-a-task-intercompany).
 
 ## Hierarchy
 

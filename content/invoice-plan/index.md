@@ -8,7 +8,7 @@ weight: 97
 
 From here you can see the invoice plans of all your company's projects.
 
-This is basically a summary of the view you have from [pipeline](/pipeline/index#invoice-plan), where you can access each project's invoice plan one by one.
+This is basically a summary of the view you have from [pipeline](/pipeline/index/#invoice-plan), where you can access each project's invoice plan one by one.
 
 Each row in this view represents a project and carries with it a bunch of information:
 

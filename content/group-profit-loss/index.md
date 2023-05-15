@@ -6,7 +6,7 @@ weight: "10"
 ---
 ## Overview
 
-An aggregated view for the [profit & loss report](/profit-loss/index#)
+An aggregated view for the [profit & loss report](/profit-loss/index/#)
 
 {{< note title="Note" >}}
 **Data in this section use a daily cache to keep things fast. If you need something more updated please use the "Refresh data" button.**

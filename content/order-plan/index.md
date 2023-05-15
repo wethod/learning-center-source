@@ -8,7 +8,7 @@ weight: "98"
 
 From here you can see the orders' amount grouped by projects.
 
-The way you will visualise your orders depends on the preference you have specified in the [Company Settings page](/settings/index#company).
+The way you will visualise your orders depends on the preference you have specified in the [Company Settings page](/settings/index/#company).
 
 Each row in this view represents a project and carries with it the following information:
 
@@ -21,7 +21,7 @@ Each row in this view represents a project and carries with it the following inf
 
 {{< note title="Note" >}} **Planned orders are those which have been sent or created, but not approved yet.** {{< /note >}}
 
-If your company activated the [multicurrency functionality](/finance/index#currency), you can see all the currencies used for a project's orders by clicking on that project's row.
+If your company activated the [multicurrency functionality](/finance/index/#currency), you can see all the currencies used for a project's orders by clicking on that project's row.
 
 ## Order Plan based on Period of Supply
 
