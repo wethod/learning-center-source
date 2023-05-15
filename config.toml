@@ -35,6 +35,10 @@ name = "Payroll"
 url = "payroll/index/"
 weight = 5
 [[menu.company]]
+name = "Gross Margin"
+url = "gross-margin/index/"
+weight = 4
+[[menu.company]]
 name = "External Costs"
 url = "external-costs/index/"
 weight = 3
