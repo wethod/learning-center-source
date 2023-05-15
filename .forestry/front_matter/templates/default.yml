@@ -27,4 +27,4 @@ fields:
   default: '90'
   hidden: ''
 pages:
-- content/gross-margin.md
+- content/gross-margin/index.md
