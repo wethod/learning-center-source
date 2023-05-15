@@ -12,7 +12,7 @@ The Dashboard is basically a set of widgets, any one of which can be added or re
 
 ## Widgets
 
-Adding a new widget to your dashboard is very easy: just click on the “+” sign and pick one from the list of the available widgets.
+Adding a new widget to your dashboard is very easy: just click on the “+” sign and pick one from the list of the available widgets.
 
 ![](/uploads/2017/05/22/add-widget.gif)
 
@@ -20,7 +20,7 @@ Adding a new widget to your dashboard is very easy: just click on the “+” si
 
 This widget shows all the inconsistencies regarding the user. Each alert has a priority (indicated by its color):
 
-* _Red_ alerts have a high priority and must be solved as soon as possible;
+* _Red_ alerts have a high priority and must be solved as soon as possible;
 * _Yellow_ alerts have a low priority and can be seen as a advice then anything.
 
 Hovering the cursor over an alert will display a description of the problem.
@@ -43,7 +43,7 @@ The grey area shows the percentage of the year gone or, by another point of view
 
 ### Invoices
 
-This widget shows all the invoices that must be sent. The invoice list is based on the pipeline's [invoice plan](/pipeline/index/#invoice-plan) and each invoice has a priority (indicated by its color):
+This widget shows all the invoices that must be sent. The invoice list is based on the pipeline's [invoice plan](/pipeline/index/#invoice-plan) and each invoice has a priority (indicated by its color):
 
 * Red invoices have an high priority because they had to be sent in a past date;
 * Yellow invoices have a low priority because they have to be send in a future date.

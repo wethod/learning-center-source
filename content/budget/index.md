@@ -13,7 +13,7 @@ The budget is where you can list all the resources you think you'll need for the
 Basically, this is the place where you define (for a project):
 
 * How many people you need;
-* Which experience levels you need;
+* Which experience levels you need;
 * Which tasks are needed to get the job done;
 * Who will do what;
 * The external costs;
@@ -93,7 +93,7 @@ The first columns of the budget show how many work days you need for each _user 
 
 1. Select a project from the [Pipeline](/pipeline/index/) and click on its budget button;
 2. Compile the budget;
-3. Submit the budget for approval by clicking on the top left button "**submit for approval**";
+3. Submit the budget for approval by clicking on the top left button "**submit for approval**";
 4. When the budget is approved by a supervisor, you will be able to [plan](/planning/index/) some resource on the project and start working on it;
 5. Whenever you need to modify the budget, you can set it back to draft and restart from point
 6. Each time a new budget version is approved, it's saved and you can access it through the dropdown list under the Price's Detail panel.
@@ -102,8 +102,8 @@ When a budget is submitted, a supervisor can appreciate all the changes by looki
 
 ![](/uploads/2023/01/24/budget-approving.png)
 
-Not sure if a budget’s area will fit? Just switch it off! 
-**Switching off an area** will remove it from the budget estimate. You can always switch an area back at a later date whenever you wish.
+Not sure if a budget’s area will fit? Just switch it off! 
+**Switching off an area** will remove it from the budget estimate. You can always switch an area back at a later date whenever you wish.
 
 ![](/uploads/2023/01/23/budget-area-switch.gif)
 

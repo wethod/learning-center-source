@@ -6,7 +6,7 @@ weight: "80"
 ---
 ## Account
 
-Here you set your **name**, **surname** and **password**.
+Here you set your **name**, **surname** and **password**.
 
 If you have the right permissions, you can:
 
@@ -141,7 +141,7 @@ Here you can set permissions for the various user's role:
 * **Budget, Invoices, Orders, Pipeline, Planning, Project Status, Timesheet**: who can do what;
 * **Dashboard**: which widgets are available to who;
 * **Header**: which section of WETHOD are available;
-* **Reports**: which sections of *Reports *are available;
+* **Reports**: which sections of *Reports *are available;
 * **Settings**: who can access _Settings_.
 
 {{< note title="Note" >}}

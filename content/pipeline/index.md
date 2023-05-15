@@ -40,7 +40,7 @@ A Project can furthermore have an invoice plan and a budget.
 
 A project is considered **started** if it has a start date in the past or if someone has submitted timesheets for it.
 
-A project is considered **active** when its probability reaches 90%, only when this happens it makes sense to plan for people or to do a timesheet for this project. An active project must have a job order.
+A project is considered **active** when its probability reaches 90%, only when this happens it makes sense to plan for people or to do a timesheet for this project. An active project must have a job order.
 
 {{< note title="Note" >}}
 **Billable Projects must have a probability of 100%.**
