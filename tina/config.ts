@@ -509,6 +509,25 @@ export default defineConfig({
           },
         ],
       },
+      {
+        format: "md",
+        label: "Gross Margin",
+        name: "gross_margin",
+        path: "content/gross-margin",
+        frontmatterFormat: "yaml",
+        match: {
+          include: "**/*",
+        },
+        fields: [
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body of Document",
+            description: "This is the markdown body",
+            isBody: true,
+          },
+        ],
+      },
     ],
   },
 });
