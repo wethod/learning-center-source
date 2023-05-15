@@ -1,9 +1,9 @@
 ---
-date: 2017-05-24T10:01:45.000+00:00
+date: '2017-05-24T10:01:45.000Z'
 title: Reports
-weight: "60"
-
+weight: '60'
 ---
+
 ## Overview
 
 All the data you insert in WETHOD are used to generate, weekly and automatically, a set of reports useful to monitor the projects' progress.
@@ -22,10 +22,10 @@ This section shows the [budget consumption](/glossary/index/#budget-consumption)
 
 By analyzing the saved budget versions for the project, WETHOD can shows you:
 
-* The **baseline** which answers the question "_what would the situation be if I hadn't changed the budget since its first version_?";
-* The **forecast** which answers the question _"what's the situation right now?"_;
-* The **projected** which answers the question "_what will be the situation at the end of the project with the current budget consumption?"_;
-* The **wasted** which answers the question "_what's the situation right now,_ [_wasted hours_](/glossary/index/#wasted-hours) _included?"_;
+* The **baseline** which answers the question "*what would the situation be if I hadn't changed the budget since its first version*?";
+* The **forecast** which answers the question *"what's the situation right now?"*;
+* The **projected** which answers the question "*what will be the situation at the end of the project with the current budget consumption?"*;
+* The **wasted** which answers the question "*what's the situation right now,* *[wasted hours](/glossary/index/#wasted-hours)* *included?"*;
 
 The grey dots shows you the forecast of the various past budget versions.
 
@@ -33,7 +33,7 @@ On the right of the graph you have:
 
 1. **Baseline**: the first budget's hours amount;
 2. The variations of the budget's hours amount since the baseline was approved;
-3. [**Contingency**](/budget/index/#the-price-s-detail);
+3. **[Contingency](/budget/index/#the-price-s-detail)**;
 4. **Forecast**: the current budget's hours amount (Baseline + variations + contingency);
 5. A resume of the worked, planned, wasted and still available hours.
 
@@ -64,17 +64,17 @@ For each indicator you can see its value for:
 * The **delta vs baseline**: difference between projected and baseline, this tells you how the project would be if you had not changed the first budget version
 * The **delta vs forecast**: difference between projected and forecast, this gives you an idea of how the project will end if you stick to the current budget version
 
-The grey percentage under _margin_ can be read as margin against revenues.
+The grey percentage under *margin* can be read as margin against revenues.
 
-{{< note title="Note" >}}
-**If project is over, projected external costs comes from sent orders and projected travels comes from**  [**travels**](/finance/index/#travels)**'s costs**
-{{< /note >}}
+{{\< note title="Note" >}}
+**If project is over, projected external costs comes from sent orders and projected travels comes from**  **[travels](/finance/index/#travels)'s costs**
+{{\< /note >}}
 
 ![](/uploads/2021/05/06/economics-new.png)
 
 ### Groupwide Economics
 
-{{< note title="Note" >}} This section is available only for companies in a Group{{< /note >}}
+{{\< note title="Note" >}} This section is available only for companies in a Group{{\< /note >}}
 
 The groupwide economics section shows the economics of a project and all its [intercompanies](/pipeline/index/#intercompany-projects).
 
@@ -137,7 +137,7 @@ This three charts let you appreciate the trend of three primary indexes related 
 
 * **Days Left**: data from the [Project Status](/friday/index/#project-status) are transposed into this chart to better highlight the weekly progress of the project;
 * **Worked Hours**: data from the [Timesheet](/friday/index/#timesheet) are used into this chart to visualize the weekly amount of work spent on the project;
-* **Roadrunner Index**: combining data from the two previous charts let us display the weekly [**Roadrunner Index**](/glossary/index/#roadrunner-index-rri) for the project.
+* **Roadrunner Index**: combining data from the two previous charts let us display the weekly **[Roadrunner Index](/glossary/index/#roadrunner-index-rri)** for the project.
 
 This is the only place in WETHOD where you can see the weekly details of a given project.
 
@@ -200,7 +200,7 @@ A different kind of report is the [budget breakdown](/reports/index/#budget-brea
 
 ### Budget Breakdown
 
-Clicking on the sub column representing bluesky or delta revenue target will show a panel 
+Clicking on the sub column representing bluesky or delta revenue target will show a panel
 listing all the grouped clients with their:
 
 * Name;
@@ -279,7 +279,7 @@ Above the production value's chart there's the monthly [Roadrunner Index](/gloss
 
 On the right you can see the **Resume Clock** which tells you:
 
-* The production target, as set in [Profit&Loss Budget Target](/profit-loss/index/#overview)
+* The production target, as set in [Profit\&Loss Budget Target](/profit-loss/index/#overview)
 * The amount of weeks remaining until the end of the year (the grey area shows the percentage of the year gone )
 * The yearly weighted production value, by clicking on this area you can access the details about the yearly production value grouped **by client**, **by project** or **by week**
 * The yearly gross production value
@@ -293,12 +293,12 @@ By clicking on a specific month you can access that month's production value gro
 In this view you can see, for each project (and for the selected week):
 
 * The [roadrunner index](/glossary/index/#roadrunner-index-rri);
-* The **lost production**: let's say people worked on a project for _A_ hours and the project progressed of _B_ hours. If _A_ is greater than _B_  you've used more hours than expected and this value gives you how much production you've lost;
+* The **lost production**: let's say people worked on a project for *A* hours and the project progressed of *B* hours. If *A* is greater than *B*  you've used more hours than expected and this value gives you how much production you've lost;
 * The **production value**;
 * The **worked days**: how many days people have worked on the project during the selected week;
 * The **progress**: how many days the project has progressed during the selected week, that is the difference between the selected week project status and the previous one;
 * The **1D Value** **(Budget)**: estimated daily production value, that is "what is the expected value that must be produced for the project by day?". This is calculated by dividing the project's estimate by the project's budget days;
-* The **1D Value (Actual)**: actual daily production value, that is "what is the value produced for the project by day?". This is calculated by dividing the project's production value by the project's worked days. This value is green if it's greater than _1D Value (Budget)_, red otherwise;
+* The **1D Value (Actual)**: actual daily production value, that is "what is the value produced for the project by day?". This is calculated by dividing the project's production value by the project's worked days. This value is green if it's greater than *1D Value (Budget)*, red otherwise;
 * The **external cost**: project's external cost percentage on the total estimate. This is the same for each week of the project
 
 You can switch between month's week by using the selector placed at the top of this section.
@@ -319,7 +319,7 @@ You can see the details by clicking on a person's name.
 
 ![](/uploads/2022/02/22/weekly-timesheet-details.png)
 
-Users with _'edit other'_ timesheet permission can also go to the colleague's timesheet page from the details box.
+Users with *'edit other'* timesheet permission can also go to the colleague's timesheet page from the details box.
 
 ![](/uploads/2022/02/22/weekly-timesheet-others.png)
 
@@ -377,7 +377,7 @@ For each of the listed project review requests, you will be able to:
 
 ![](/uploads/2021/01/18/project-team-review-changelog.png)
 
-{{< note title="Note" >}} This section is available only if **project & team reviews** are enabled for the company.{{< /note >}}
+{{\< note title="Note" >}} This section is available only if **project & team reviews** are enabled for the company.{{\< /note >}}
 
 ## Sales Overview
 
@@ -425,27 +425,27 @@ To collect better insights, it’s recommended to set a revenue budget/forecast 
 
 ### Weekly Briefing
 
-Published each Monday at 6 am, the _Weekly Briefing_ gives an insightful overview of the company’s **sales and operations** from the past week. It’s also available for each of the previous weeks.
+Published each Monday at 6 am, the *Weekly Briefing* gives an insightful overview of the company’s **sales and operations** from the past week. It’s also available for each of the previous weeks.
 
 Navigation: Insights > Briefing > Weekly
 
-Find below a list of the insights available to read from each _Weekly Briefing._
+Find below a list of the insights available to read from each *Weekly Briefing.*
 
-* [**Production value**](/glossary/index/#production-value)**,** compared with its average weekly target. The value is also compared with the one registered the same week last year. An average weekly target is basically the yearly budget/forecast divided by the number of weeks in a year. A dynamic weekly target is the yearly budget/forecast minus the production value up to the selected week divided by the number of week till the year end.
+* **[Production value](/glossary/index/#production-value),** compared with its average weekly target. The value is also compared with the one registered the same week last year. An average weekly target is basically the yearly budget/forecast divided by the number of weeks in a year. A dynamic weekly target is the yearly budget/forecast minus the production value up to the selected week divided by the number of week till the year end.
 * Projects that produced the most value.
 * **Projects started** and projects that **ended** last week.
 * **Sales trends**, compared with their weekly target.
 * **Projects won** and their total value, compared with their target and the same week last year.
 * **Pipeline value** trend over the past few weeks.
 * **New opportunities**, with their total unweighted value and weighted value. A weighted value depends on the project’s percentage of success. For instance, a project valued 100K at 10% success is valued at 10K.
-* The main [**reason why**](/pipeline/index/#won-lost-feedback) projects were lost and won.
-* [**Chargeability**](/settings/index/#chargeability) of the week trend. This value is compared also with its target and the value of the same week last year.
+* The main **[reason why](/pipeline/index/#won-lost-feedback)** projects were lost and won.
+* **[Chargeability](/settings/index/#chargeability)** of the week trend. This value is compared also with its target and the value of the same week last year.
 * Number of **hours worked**.
 * **Segmentation of hours worked**, grouped by job order category.
 
-{{< note title="Note" >}}
+{{\< note title="Note" >}}
 **Set a revenue target for the year in the Profit & Loss section to get better insights.**
-{{< /note >}}
+{{\< /note >}}
 
 ### Monthly Briefing
 
@@ -453,24 +453,24 @@ Published every first Monday of the month at 6 am, this briefing gives an overvi
 
 Navigation: Insights > Briefing > Monthly
 
-Find below the insights available from each _Monthly Briefing._
+Find below the insights available from each *Monthly Briefing.*
 
 * Company’s **monthly profit and loss**, including **CapEx** and **revenues per employee**. These values are also compared with the results of the previous month.
 * **Production value**, with its trend over previous months and comparison with its target
 * **Working day value**, compared with the value of the month before.
 * **Road Runner Index** [RRI](/glossary/index/#roadrunner-index-rri) trend over the past months.
-* **Number of hours worked** and [**Chargeability**](/settings/index/#chargeability) trend.
+* **Number of hours worked** and **[Chargeability](/settings/index/#chargeability)** trend.
 * Number of **projects won**, with their total value compared with target, and the same week last year.
 * Projects that produced the most value.
 * **Pipeline value,** with the trend over the previous weeks.
 * **New opportunities**, with the total weighted and unweighted value. A weighted value depends on the project’s percentage of success. For instance, a project valued 100K with 10% success is valued at 10K.
 * **Lost opportunities**, with the total value and the main reasons why
 * **Pipeline value** trend over the past months
-* [**Backlog**](/reports/index/#backlog)
+* **[Backlog](/reports/index/#backlog)**
 
-{{< note title="Note" >}}
+{{\< note title="Note" >}}
 **Set a revenue budget/forecast for the year in the Profit & Loss section to get better insights.**
-{{< /note >}}
+{{\< /note >}}
 
 ## People Insights
 
@@ -526,45 +526,44 @@ Navigation: Insights > People > Kudos
 ![](/uploads/2021/05/13/screen-shot-2021-05-13-at-19-17-47.png)
 
 On the left you find a list of all team's criteria in your company.
-If you click on a criterion from the list, wethod shows all the users that have received a [review](/pipeline/index/#project-team-review) for that criterion.  
-For each of those, wethod gives an overview of the average kudos by quarter or by year.  
+If you click on a criterion from the list, wethod shows all the users that have received a [review](/pipeline/index/#project-team-review) for that criterion.\
+For each of those, wethod gives an overview of the average kudos by quarter or by year.\
 It also shows if the average kudos has been decreasing over time (red) or not (green) compared to the highest value.
 The users' list is sortable by the average kudos vote.
 Please mind that users that haven't received the minimum amount of reviews required for your company are hidden from the criterion list.
 
-For each user the average vote and its trend are shown.  
+For each user the average vote and its trend are shown.\
 Additionally the following values are listed:
 
 * **Projects**: Represents the number of projects for which the user has received a review, according to the selected criterion.
 * **Reviews**: The total of kudos the user has received for the criterion selected on the left.
-
-
 * **Enable the project and team review module**: Turn on the project and team review module in order to view the kudos section. To start collecting reviews about projects and people working on them you should enable the module from the [company settings](/settings/index/#company). There you can also set the minimum number of unique reviewers to collect feedback from before showing results.
 
 ### Knowledge
 
-This section lets you know your team and their strengths better, providing an overview of the knowledge of the active population in your company.  
+This section lets you know your team and their strengths better, providing an overview of the knowledge of the active population in your company.\
 You can find useful information about the languages spoken within your company, and all the skills and interests of your team.
 
 Navigation: Insights > People > Knowledge
 
-**Languages**: the table shows the list of languages spoken within your company, with the percentage distribution of each one.  
-When you select a language, by clicking on it, you can get an overview of the team members who speak it, from the most confident to the novice ones.  
+**Languages**: the table shows the list of languages spoken within your company, with the percentage distribution of each one.\
+When you select a language, by clicking on it, you can get an overview of the team members who speak it, from the most confident to the novice ones.\
 For each person, it is therefore shown the level of experience in the selected language.
 
 ![](/uploads/2021/06/01/languages_knowledge.gif)
 
-**Skills**: here you can find a complete list of all the skills your colleagues have developed.  
-By clicking on a skill you will see a list of the team members who have that particular one.  
-Note that when you turn on more than one skill you will only see the people that developed all the selected abilities.  
-You can also turn on the filter ‘All’: this lets you see the entire team at once.  
+**Skills**: here you can find a complete list of all the skills your colleagues have developed.\
+By clicking on a skill you will see a list of the team members who have that particular one.\
+Note that when you turn on more than one skill you will only see the people that developed all the selected abilities.\
+You can also turn on the filter ‘All’: this lets you see the entire team at once.\
 For each person you can see an overview of acquired skills, giving priority to the ones selected from the list on the left side.
 
 ![](/uploads/2021/06/01/skills_knowledge.gif)
 
-**Interests**: here you can find a complete list of all the interests your colleagues have.  
-By clicking on an interest you will see a list of the team members that are into that particular one.\\ Note that when you turn on more than one interest you will only see the people that chose all the selected topics.  
-You can also turn on the filter ‘All’: this lets you see the entire team at once.  
+**Interests**: here you can find a complete list of all the interests your colleagues have.\
+By clicking on an interest you will see a list of the team members that are into that particular one.\
+Note that when you turn on more than one interest you will only see the people that chose all the selected topics.\
+You can also turn on the filter ‘All’: this lets you see the entire team at once.\
 For each person you can see an overview of his interests, giving priority to the ones selected from the list on the left side.
 
 ![](/uploads/2021/06/01/interests_knowledge.gif)
@@ -602,13 +601,13 @@ In this section are visible, for each user by year:
   * **Planned:** leave + vacation planned time off hours
   * **Requested:** leave + vacation requested time off hours
   * **Remaining**: target - used - planned - requested
-  
-You can download all data in the time off manager with the dedicated export button.  
+
+You can download all data in the time off manager with the dedicated export button.\
 The export contains data of the visible year you selected. To change the export year navigate to the desired date with the buttons on top of the page.
 
 ![](/uploads/2022/09/21/time-off-export.gif)
- 
-You can also import data of the time off manager with the dedicated import button.  
+
+You can also import data of the time off manager with the dedicated import button.\
 The import can include data of the visible year you selected. To change the import year navigate to the desired date with the buttons on top of the page.
 You can upload a file with .xls or .xlxs extension containing the backlog of vacation, leaves and target hours for every employee in your company.
 From this dialog you can also download the appropriate template you can use for the import.
