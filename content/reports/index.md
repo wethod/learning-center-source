@@ -70,15 +70,13 @@ The grey percentage under *margin* can be read as margin against revenues.
 **If project is over, projected external costs comes from sent orders and projected travels comes from**  **[travels](/finance/index/#travels)'s costs**
 {{< /note >}}
 
-{{\< note title="Note" >}}
-**If project is over, projected external costs comes from sent orders and projected travels comes from**  **[travels's](/finance/index/#travels) costs**
-{{\< /note >}}
-
 ![](/uploads/2021/05/06/economics-new.png)
 
 ### Groupwide Economics
 
-{{\< note title="Note" >}} This section is available only for companies in a Group{{\< /note >}}
+{{< note title="Note" >}}
+This section is available only for companies in a Group
+{{< /note >}}
 
 The groupwide economics section shows the economics of a project and all its [intercompanies](/pipeline/index/#intercompany-projects).
 
@@ -381,7 +379,9 @@ For each of the listed project review requests, you will be able to:
 
 ![](/uploads/2021/01/18/project-team-review-changelog.png)
 
-{{\< note title="Note" >}} This section is available only if **project & team reviews** are enabled for the company.{{\< /note >}}
+{{< note title="Note" >}}
+This section is available only if **project & team reviews** are enabled for the company.
+{{< /note >}}
 
 ## Sales Overview
 
@@ -447,9 +447,9 @@ Find below a list of the insights available to read from each *Weekly Briefing.*
 * Number of **hours worked**.
 * **Segmentation of hours worked**, grouped by job order category.
 
-{{\< note title="Note" >}}
+{{< note title="Note" >}}
 **Set a revenue target for the year in the Profit & Loss section to get better insights.**
-{{\< /note >}}
+{{< /note >}}
 
 ### Monthly Briefing
 
@@ -472,9 +472,9 @@ Find below the insights available from each *Monthly Briefing.*
 * **Pipeline value** trend over the past months
 * **[Backlog](/reports/index/#backlog)**
 
-{{\< note title="Note" >}}
+{{< note title="Note" >}}
 **Set a revenue budget/forecast for the year in the Profit & Loss section to get better insights.**
-{{\< /note >}}
+{{< /note >}}
 
 ## People Insights
 
