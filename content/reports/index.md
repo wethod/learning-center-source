@@ -1,5 +1,5 @@
 ---
-date: '2017-05-24T10:01:45.000Z'
+date: 2017-05-24T10:01:45.000Z
 title: Reports
 weight: '60'
 ---
@@ -66,8 +66,12 @@ For each indicator you can see its value for:
 
 The grey percentage under *margin* can be read as margin against revenues.
 
-{{\< note title="Note" >}}
+{{< note title="Note" >}}
 **If project is over, projected external costs comes from sent orders and projected travels comes from**  **[travels](/finance/index/#travels)'s costs**
+{{< /note >}}
+
+{{\< note title="Note" >}}
+**If project is over, projected external costs comes from sent orders and projected travels comes from**  **[travels's](/finance/index/#travels) costs**
 {{\< /note >}}
 
 ![](/uploads/2021/05/06/economics-new.png)
