@@ -13,7 +13,7 @@ export function defaultFields() {
           // Custom tag "note", used to show the banner for important info
           // use it like {{< note title="Note" >}} .... {{</note >}}
           name: 'note',
-          label: 'note', // Name of the tag
+          label: 'banner', // Name of the tag
           match: {
             // Delimiters of the tag
             start: '{{<',
