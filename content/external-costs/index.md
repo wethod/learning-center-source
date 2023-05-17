@@ -6,7 +6,7 @@ weight: "92"
 ---
 ## Overview
 
-In this section you can see the yearly distribution for all your projects' external costs. The amount ordered by projects is dispalyed month by month based on the period they cover, in particular:
+In this section you can see the yearly distribution for all your projects' external costs. The amount ordered by projects is displayed month by month based on the period they cover, in particular:
 
 * Orders' value follows the orders' "Period of Supply", for example: an order of 3.000 with a period from January to June will weigh 500 on each month from January to June
 * Travels' value follows the departure and return date of each Travel (if the travel is a one-way trip then all costs will weigh on the departure date). 
@@ -27,7 +27,7 @@ Three important indicators are given in the first three rows:
 
 * **Total From Pipeline**: external costs without bluesky, per month.
 
-{{< img-center src="/uploads/2021/05/18/new_external_costs.png" >}}
+![](/uploads/2021/05/18/new_external_costs.png)
 
 {{< note title="Note" >}}
 **If your company is part of a group, intercompany external costs are automatically removed from this view.**

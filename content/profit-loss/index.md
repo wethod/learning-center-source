@@ -8,7 +8,7 @@ weight: "90"
 
 This page provides an overview of the budgetary slippages between a company's projected revenues and  its expenses, as well as its budget target over a given period of time. The three columns **budget**, **forecast 1** and **forecast 2** can be used to set the company's financial goals for each quarter of the year. 
 
-The column **budget** in the **revenues** row is used to set the revenues' target for the company, which is used in the widget [Revenue Clock]({{< relref "dashboard/index.md#revenue-clock" >}}) and in the report [Production Value]({{< relref "reports/index.md#production-value" >}}).
+The column **budget** in the **revenues** row is used to set the revenues' target for the company, which is used in the widget [Revenue Clock](/dashboard/index/#revenue-clock) and in the report [Production Value](/reports/index/#production-value).
 
 If business units are enabled for your company:
 
@@ -19,7 +19,7 @@ If business units are enabled for your company:
 **If you switch off business units you lose all targets linked to them.**
 {{< /note >}}
 
-{{< img-center src="/uploads/2018/11/23/support_target.png" >}}
+![](/uploads/2018/11/23/support_target.png)
 
 Below, you can see how much your company has earned or has lost during each month of the current year.
 
@@ -47,7 +47,7 @@ We provide you with two *subtotal* in order to better understand the final value
 **All the numbers here are provided in thousands (K).**
 {{< /note >}}
 
-{{< img-center src="/uploads/2018/11/23/support_monthlydistribution.png" >}}
+![](/uploads/2018/11/23/support_monthlydistribution.png)
 
 {{< note title="Note" >}}
 **If your company is part of a group, intercompany revenues and external costs are automatically removed from this view.**

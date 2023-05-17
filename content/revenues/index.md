@@ -17,7 +17,7 @@ Four important indicators are given in the first three rows:
 * **Delta revenue target**: this is the [revenues target](/revenues/index/#revenues-target) by month, that is the difference (by client) between month's target and month's revenues. A month's target is calculated by distributing the quarter's target on the remaining non-past months. A past month's delta revenue target is **zero** because it's a forecast, and a forecast in the past makes no sense.
 * **Revenues**: revenues without bluesky, per month.
 
-{{< img-center src="/uploads/2021/02/19/company-revenues.png" >}}
+![](/uploads/2021/02/19/company-revenues.png)
 
 {{< note title="Note" >}}
 **If your company is part of a group, intercompany revenues are automatically removed from this view.**
@@ -29,4 +29,4 @@ Use this section to set how much you plan to produce for each of your clients, q
 
 Data inserted here are used in [revenue clock widget](/dashboard/index/#revenue-clock), [client detail](/finance/index/#clients), [delta revenue target](/revenues/index/#overview) and [budget breakdown](/reports/index/#budget-breakdown).
 
-{{< img-center src="/uploads/2020/01/15/revenues-target.png" >}}
+![](/uploads/2020/01/15/revenues-target.png)

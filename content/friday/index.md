@@ -17,7 +17,7 @@ Every Friday an e-mail will remind:
 
 ## Timesheet
 
-**Remember to insert only the real worked hours, cheating isn't useful to anybody.** The data inserted here will be used to determine the actual [budget consumption]({{< relref "reports/index.md#budget-consumption" >}}) in terms of working hours for each project.
+**Remember to insert only the real worked hours, cheating isn't useful to anybody.** The data inserted here will be used to determine the actual [budget consumption](/reports/index/#budget-consumption) in terms of working hours for each project.
 
 
 ### Weekly (default)
@@ -28,21 +28,21 @@ You can also insert some notes about the work you've done in each project.
 
 Pin to the top of the list all the projects you usually work on. You will find it easily next time.
 
-{{< img-center src="/uploads/2021/04/26/timesheet-weekly.png" >}}
+![](/uploads/2021/04/26/timesheet-weekly.png)
 
 If you want a more fine-grained control you can enable the **Daily mode**, this way you can input hours day by day.
 
-{{< img-center src="/uploads/2021/04/26/timehseet-daily.png" >}}
+![](/uploads/2021/04/26/timehseet-daily.png)
 
 When a **project is archived**, you will still be able to see the hours and notes you previously entered. However, you will **not** be able to **edit** them anymore!
 
 If you need to make some adjustments, you can still unarchive the project while you fix your timesheet.
 
 {{< note title="Note" >}}
-**Only whitelisted users can edit or fill out timesheet hours for projects with the [timesheet whitelist]({{< relref "friday/index.md#whitelist" >}}) function activated.**
+**Only whitelisted users can edit or fill out timesheet hours for projects with the [timesheet whitelist](/friday/index/#whitelist) function activated.**
 {{< /note >}}
 
-{{< img-center src="/uploads/2022/04/06/timesheet-archived.png" >}}
+![](/uploads/2022/04/06/timesheet-archived.png)
 
 ### Detailed
 
@@ -60,16 +60,16 @@ The **Detailed Timesheet** allows you to:
 * Insert daily notes to add further details on single activities or tasks you've worked on for each project's area.
 
 {{< note title="Note" >}}
-**Only whitelisted users can edit or fill out timesheet hours for projects with the [timesheet whitelist]({{< relref "friday/index.md#whitelist" >}}) function activated.**
+**Only whitelisted users can edit or fill out timesheet hours for projects with the [timesheet whitelist](/friday/index/#whitelist) function activated.**
 {{< /note >}}
 
-{{< img-center src="/uploads/2021/04/26/timesheet-detailed-overview.png" >}}
+![](/uploads/2021/04/26/timesheet-detailed-overview.png)
 
 To get a quick resume about the hours distribution in the week, you just need to click on the "Hours/Week" counter.
 
-{{< img-center src="/uploads/2021/04/26/timesheet-detailed-weekly.png" >}}
+![](/uploads/2021/04/26/timesheet-detailed-weekly.png)
 
-_You can enable this type of timesheet from [company settings]({{< relref "settings/index.md#company" >}})._
+_You can enable this type of timesheet from [company settings](/settings/index/#company)._
 
 {{< note title="Note" >}}
 **When you delete an area from a project's budget, its timesheet hours and notes are assigned to the "Generic" timesheet area.**
@@ -90,21 +90,21 @@ Users can still edit this kind of timesheet, but only for the past: you can edit
 _To use this type of timesheet: 
 Go to “Company” from your profile, then check “Automatic Timesheet” for each desired Job Order Category”._
 
-{{< img-center src="/uploads/2022/02/24/timesheet-auto.png" >}}
+![](/uploads/2022/02/24/timesheet-auto.png)
 
-{{< img-center src="/uploads/2022/02/24/timesheet-auto-disabled.png" >}}
+![](/uploads/2022/02/24/timesheet-auto-disabled.png)
 
 ### Edit others
 
 Users with _‘edit other’_ permission can also edit the timesheet of other team members.
 
-To view their timesheet, go to the report [weekly timesheet]({{< relref "reports/index.md#weekly-timesheet" >}}), select the week you want, and go to the person details. If you click the _‘Edit timesheet’_ button, you will be redirected to their timesheet page.
+To view their timesheet, go to the report [weekly timesheet](/reports/index/#weekly-timesheet), select the week you want, and go to the person details. If you click the _‘Edit timesheet’_ button, you will be redirected to their timesheet page.
 
 You can edit your colleague’s timesheet as you usually do with your own.
 
 A box at the top of the page will always remind you which team member you are managing at the moment.
 
-{{< img-center src="/uploads/2022/02/22/timesheet-others.png" >}}
+![](/uploads/2022/02/22/timesheet-others.png)
 
 ### Whitelist
 
@@ -121,9 +121,9 @@ Please note that being excluded from a timesheet whitelist does not keep you fro
 
 Same conditions apply for both the weekly and the detailed timesheet modes.
 
-You can [enable the whitelist from the project details sidebar]({{< relref "pipeline/index.md#available-fields" >}}) in the Project list.
+You can [enable the whitelist from the project details sidebar](/pipeline/index/#available-fields) in the Project list.
 
-{{< img-center src="/uploads/2022/10/10/timesheet_whitelist.png" >}}
+![](/uploads/2022/10/10/timesheet_whitelist.png)
 
 ### Time limit
 
@@ -152,7 +152,7 @@ At the end of each week, the project manager estimates the workdays left to fini
 
 **Project Status must not be compiled looking at Timesheet, but thinking seriously about how much work still to be done.**
 
-{{< img-center src="/uploads/2020/08/07/project_status_2020.png" >}}
+![](/uploads/2020/08/07/project_status_2020.png)
 
 This page shows by default a list of all the projects you are managing in your company. On the top-right corner, click on "As account" to filter the list with the project where you are in charge as account or "All" to see all of the projects in your company. 
 
@@ -167,29 +167,30 @@ Set preferences in Settings > Company > Job Order Categories > Project status.
 
 ### Current production vs production plan of the month
 
-For each project, Wethod shows the production status. It compares the current production (based on the project status) with the production planned for the current month (based on [production plan]({{< relref "planning/index.md#production-plan" >}})). 
+For each project, Wethod shows the production status. It compares the current production (based on the project status) with the production planned for the current month (based on [production plan](/planning/index/#production-plan)). 
 
 
 ### Edit project status by area
 
 Click on "Edit by area" to open a window and edit the status for each of the areas (or phases) of the project, following the areas listed in the budget. The project status of the previous week is shown too, this way you can quickly compare the phase's progress.
 
-{{< img-center src="/uploads/2020/08/07/project_status_by_area.png" >}}
+![](/uploads/2020/08/07/project_status_by_area.png)
 
 
 ### Status of the project's risk
 
-For each project, it is possible to edit the status of risk on a weekly basis. Based on permission settings, it is possible to edit the status labels and colour from the [settings page]({{< relref"reports/index.md##project-status-settings" >}}) page.
+For each project, it is possible to edit the status of risk on a weekly basis. Based on 
+permission settings, it is possible to edit the status labels and colour from the [settings page](/reports/index/#project-status-settings) page.
 
 
 ### Budget consumption status, production trend and project details.
 
 Click on the right arrow to access more details about a project status or to get useful insights that can help you compile it:
 
-* A resume of the project status by area as of the previuos week Friday
+* A resume of the project status by area as of the previous week Friday
 * The amount of days planned for the project for the future (current week included)
-* The budget consumption as of the previuos week Friday
+* The budget consumption as of the previous week Friday
 * The progress trend for each week of the month, compared to the production plan 
 * Other project details
 
-{{< img-center src="/uploads/2020/08/07/project_status_details.png" >}}
+![](/uploads/2020/08/07/project_status_details.png)

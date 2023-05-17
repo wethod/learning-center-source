@@ -8,7 +8,7 @@ weight: 97
 
 From here you can see the invoice plans of all your company's projects.
 
-This is basically a summary of the view you have from [pipeline]({{< relref "pipeline/index.md#invoice-plan" >}}), where you can access each project's invoice plan one by one.
+This is basically a summary of the view you have from [pipeline](/pipeline/index/#invoice-plan), where you can access each project's invoice plan one by one.
 
 Each row in this view represents a project and carries with it a bunch of information:
 
@@ -17,4 +17,4 @@ Each row in this view represents a project and carries with it a bunch of inform
 * The monthly plan's distribution for the current year: for each month you can appreciate the plan's value and the actual invoices amount (colored with lower opacity)
 * The total plan's amount for the current year
 
-{{< img-center src="/uploads/2019/03/11/economics-invoice-plan.png" >}}
+![](/uploads/2019/03/11/economics-invoice-plan.png)
