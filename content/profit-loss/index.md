@@ -34,7 +34,7 @@ This data is obtained by subtracting from the [revenues](http://support.wethod.c
 We provide you with two *subtotal* in order to better understand the final value of profit & loss for the company:
 
 * **Gross margin**: revenues without the external costs
-* **Contribution margin**: gross margin without payroll
+* **Contribution margin**: gross margin without payroll 
 
 {{< note title="Note" >}}
 **A number in parenthesis represents a cost which is being subtracted from the number right above it.**
