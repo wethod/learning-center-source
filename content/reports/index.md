@@ -48,13 +48,14 @@ Here are listed all the [orders](/finance/index/#orders) and [invoices](/finance
 Here is shown the trend of various [budget's](/budget/index) voices for the project:
 
 * **Revenues**: the project's final net price
-* **Internal Cost**: budget's hours cost
 * **External Cost**: the sum of all budget's external costs, travels and expenses excluded
 * **Travels**: external costs related to "Travels" budget's task
 * **Expenses**: external costs related to "Expenses" budget's task
-* **Gross Margin**: the difference between final net price and costs (either internal and external)
-* **Wasted**: the wasted money, which is the sum of the wasted hours multiplied by the cost of their [levels](/settings/index/#company)
-* **Net Margin**: the difference between gross margin and wasted
+* **Gross Margin**: final net price without external cost, travels and expenses
+* **Internal Cost**: budget's hours cost
+* **Contribution Margin**: gross margin without internal cost. This value tells you how much a project is able to cover fixed costs
+* **Wasted**: the "wasted" money, which is the sum of the wasted hours multiplied by the cost of their [levels](/settings/index/#company)
+* **Net Contribution Margin**: the difference between contribution margin and wasted
 
 For each indicator you can see its value for:
 
@@ -70,68 +71,7 @@ The grey percentage under *margin* can be read as margin against revenues.
 **If project is over, projected external costs comes from sent orders and projected travels comes from**  **[travels](/finance/index/#travels)'s costs**
 {{< /note >}}
 
-![](/uploads/2021/05/06/economics-new.png)
-
-### Groupwide Economics
-
-{{< note title="Note" >}}
-This section is available only for companies in a Group
-{{< /note >}}
-
-The groupwide economics section shows the economics of a project and all its [intercompanies](/pipeline/index/#intercompany-projects).
-
-Let's use an example where the company A is the "master" company and the company B is the supplier (the same can be applied to multiple suppliers).
-
-* **Revenues**
-  * Baseline: final net price of the first budget of A
-  * Forecast: final net price of the last budget of A
-  * As of Project Status: final net price of last budget of A based on project status percentages
-  * Projected: final net price of the last approved budget of A
-* **Overall Cost**
-  * Baseline: sum of all costs of first budget of A and B
-  * Forecast: sum of all costs of last budget of A and B
-  * As of Project Status: sum of all costs of last budget of A and B based on project status percentages
-  * Projected: sum of all costs of last budget if A and B based on project status percentages
-* **Internal Cost of A**
-  * Baseline: internal costs of the first budget of A
-  * Forecast: internal costs of the last budget of A
-  * As of Project Status: timesheet cost of A based on project status percentages
-  * Projected: projection to 100% of the timesheet cost of A
-* **External Cost of A**
-  * Baseline: external costs of the first budget of A without intercompanies value
-  * Forecast: external costs of the last budget of A without intercompanies value
-  * As of Project Status: external costs of the last budget of A without intercompanies value and based on project status percentages
-  * Projected: external costs of the first budget of A without intercompanies value
-* **Travels of A**
-  * Baseline: external cost of the "Travel" task of the first budget of A
-  * Forecast: external cost of the "Travel" task of the last budget of A
-  * As of Project Status: external cost of the "Travel" task of the last budget of A based on project status percentages
-  * Projected: external cost of the "Travel" task of the first budget of A
-* **Expenses of A**
-  * Baseline: external cost of the "Expenses" task of the first budget of A
-  * Forecast: external cost of the "Expenses" task of the last budget of A
-  * As of Project Status: external cost of the task names "Expenses" of the last budget of A based on project status percentages
-  * Projected: external cost of the "Expenses" task of the first budget of A
-* **Internal Cost of B**
-  * Baseline: internal costs of the first budget of B
-  * Forecast: internal costs of the last budget of B
-  * As of Project Status: timesheet cost of the last budget of B based on project status percentages
-  * Projected: projection to 100% of the timesheet cost of B
-* **External Cost of B**
-  * Baseline: external costs of the first budget of B without intercompanies value
-  * Forecast: external costs of the last budget of B without intercompanies value
-  * As of Project Status: external costs of the last budget of B without intercompanies value and based on project status percentages
-  * Projected: external costs of the first budget of B without intercompanies value
-* **Travels of B**
-  * Baseline: external cost of the "Travel" task of the first budget of B
-  * Forecast: external cost of the "Travel" task of the last budget of B
-  * As of Project Status: external cost of the "Travel" task of the last budget of B based on project status percentages
-  * Projected: external cost of the "Travel" task of the first budget of B
-* **Expenses of B**
-  * Baseline: external cost of the "Expenses" task of the first budget of B
-  * Forecast: external cost of the "Expenses" task of the last budget of B
-  * As of Project Status: external cost of the task names "Expenses" of the last budget of B based on project status percentages
-  * Projected: external cost of the "Expenses" task of the first budget of B
+![](</uploads/Schermata 2023-06-09 alle 08.11.12.png>)
 
 ### Roadrunner Index - Days Left - Worked Hours
 
