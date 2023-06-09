@@ -19,8 +19,6 @@ If business units are enabled for your company:
 **If you switch off business units you lose all targets linked to them.**
 {{< /note >}}
 
-![](</uploads/Schermata 2023-06-09 alle 08.28.03.png>)
-
 Below, you can see how much your company has earned or has lost during each month of the current year.
 
 This data is obtained by subtracting from the [revenues](http://support.wethod.com/revenues/index/#) of all the costs faced by the company. The costs can be of various kinds:
@@ -41,8 +39,6 @@ We provide you with two *subtotal* in order to better understand the final value
 
 **All the numbers here are provided in thousands (K).**
 {{< /note >}}
-
-![](</uploads/Schermata 2023-06-09 alle 08.30.56.png>)
 
 {{< note title="Note" >}}
 **If your company is part of a group, intercompany revenues and external costs are automatically removed from this view.**
