@@ -1,9 +1,9 @@
 ---
-date: 2017-05-26T11:04:19.000+00:00
+date: 2017-05-26T11:04:19.000Z
 title: Budget
-weight: "31"
-
+weight: '31'
 ---
+
 ## Overview
 
 The budget is where you can list all the resources you think you'll need for the project.
@@ -25,9 +25,9 @@ Done? Now the budget must be approved by a supervisor and, once approved, the pr
 
 A user is able to approve a budget of a project if one of the following conditions is true:
 
-*	The user is the project account and its role has a flag on "approve" inside the budget section of the permissions settings.
-*	The user is the project manager and its role has a flag on "approve" inside the budget section of the permissions settings.
-*	The user's role has a flag on "approve other" inside the budget section of the permissions settings.
+* The user is the project account and its role has a flag on "approve" inside the budget section of the permissions settings.
+* The user is the project manager and its role has a flag on "approve" inside the budget section of the permissions settings.
+* The user's role has a flag on "approve other" inside the budget section of the permissions settings.
 
 Role based permissions for budgets can be managed from the [permissions section](/settings/index/#permissions).
 
@@ -62,9 +62,9 @@ Positioned in the top right, this part shows some details about the project’s 
 
 ### Budget editor
 
-This is basically a table where you can assign days to a given user level of a _task_. A _task_ is a macro activity needed to complete the project, related tasks can be grouped into _areas_.
+This is basically a table where you can assign days to a given user level of a *task*. A *task* is a macro activity needed to complete the project, related tasks can be grouped into *areas*.
 
-You can add new _areas_ by using the "**+ New Area**" button: type in a meaningful name and hit enter.
+You can add new *areas* by using the "**+ New Area**" button: type in a meaningful name and hit enter.
 
 An area can be minimized by clicking on it, this let you appreciate more areas all together on the screen.
 
@@ -73,7 +73,6 @@ Areas are grouped in order to show subtotals:
 * **Areas & Tasks** contains all areas created by the user plus "PM & Travels" which is a special area that's automatically added on each budget creation. This area contains two special tasks:
   * **Travels**: external costs in this task appear as special cost row in [Project Report economics](/reports/index/#economics) where it is used to compare expected travel costs (coming from budget) and effective travels (created in [Travels section](/finance/index/#travels))
   * **Expenses**: external costs in this task appear as special cost row in [Project Report economics](/reports/index/#economics) where it is used to compare expected expenses (coming from budget) and effective expenses (created in [Expenses section](/finance/index/#expenses))
-        
 * **Total** contains:
   * **Contingency**: life is unpredictable and the unexpected is behind every corner, so why not be prepared for it? A percentage of contingency means that you know your budget isn’t perfect so you’re estimating using more days, just in case. The contingency gives you more days and which you can use at every user level but, on the other hand, the suggested net price will grow
   * **Discount**: the percentage of discount you want to apply to the Areas & Tasks total price
@@ -82,12 +81,16 @@ For each external cost you can assign a **markup**: a percentage that indicates 
 
 Positioned on the top of this section you can find the sum of the values for each column.
 
-The first columns of the budget show how many work days you need for each _user level_:
+The first columns of the budget show how many work days you need for each *user level*:
 
 * **Ext. Cost**: shows the sum of the external costs
 * **Days**: the total amount of days
-* **Cost**: the sum of the budget’s days multiplied by the cost of the user level that will take care of it. This value is also called _internal costs_
+* **Cost**: the sum of the budget’s days multiplied by the cost of the user level that will take care of it. This value is also called *internal costs*
 * **Price**: the suggested price we think is optimal to sell your project
+
+This section can be used for **real-time collaboration**: you can see who is editing a budget you're looking and all changes are propagated with no need to refresh the page.\
+\
+![](/uploads/real-time-budget.gif)
 
 ## The Workflow
 
@@ -102,7 +105,7 @@ When a budget is submitted, a supervisor can appreciate all the changes by looki
 
 ![](/uploads/2023/01/24/budget-approving.png)
 
-Not sure if a budget’s area will fit? Just switch it off! 
+Not sure if a budget’s area will fit? Just switch it off!
 **Switching off an area** will remove it from the budget estimate. You can always switch an area back at a later date whenever you wish.
 
 ![](/uploads/2023/01/23/budget-area-switch.gif)
@@ -113,7 +116,7 @@ Want to see the difference between two approved budget versions? Hit the **Compa
 
 ## Make a task intercompany
 
-If your company is part of a [group](/group-setup/index) you can transform a normal budget's task into an **intercompany task**: a special kind of task which presents only external costs and which can be assigned to another company of your group, the selected company become the _supplier_ for the task.
+If your company is part of a [group](/group-setup/index) you can transform a normal budget's task into an **intercompany task**: a special kind of task which presents only external costs and which can be assigned to another company of your group, the selected company become the *supplier* for the task.
 
 An intercompany task is used to track work done within the same group and its useful to have a clearer view on the [profit & loss](/profit-loss/index).
 
@@ -125,7 +128,7 @@ An intercompany task is used to track work done within the same group and its us
 
 Once you have created an intercompany task, you can invite a person (that is an employee belonging to the task's supplier) to connect one of their projects to the task itself. The invited person will receive an email containing a link to [connect the project](/pipeline/index/#intercompany-projects).
 
-When a project is successfully connected to an intercompany task, it became an _intercompany project_: its **final net price**, [currency](/budget/index/#multicurrency-budget) and **probability** are updated to reflect the intercompany task's external costs and intercompany task's project's probability.
+When a project is successfully connected to an intercompany task, it became an *intercompany project*: its **final net price**, [currency](/budget/index/#multicurrency-budget) and **probability** are updated to reflect the intercompany task's external costs and intercompany task's project's probability.
 
 {{< note title="Note" >}}
 **Each time you update the probability of a project which presents intercompany tasks, the intercompany projects linked to that task are updated accordingly. Besides if you update an intercompany task's external costs, the linked project's final net is updated too.**
@@ -145,7 +148,7 @@ Expressing a final net using a currency different from yours let you emit invoic
 
 Expressing an external cost using a currency different from yours let you emit orders using the same currency for that project.
 
-Please consider tha currencies' exchange rates refers to the budget's creation date. 
+Please consider tha currencies' exchange rates refers to the budget's creation date.
 
 {{< note title="Note" >}}
 **Be aware that you can always disable multicurrency for a budget, but if you have created orders using currencies you need to manually update them. Invoices are automatically updated instead.**
