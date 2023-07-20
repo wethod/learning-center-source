@@ -1,7 +1,8 @@
 ---
-date: 2017-05-22 17:08:16 +0200
+date: 2017-05-22T22:00:00.000+00:00
 title: FAQ
-weight: 100
+weight: "100"
+type: ''
 
 ---
 <script name="responsa-js" class="responsa-js">

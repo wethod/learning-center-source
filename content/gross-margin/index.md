@@ -1,7 +1,9 @@
 ---
 date: 2022-03-20T23:00:00.000Z
 title: Gross Margin
-weight: '4'
+weight: "4"
+type: ''
+
 ---
 
 ## Overview

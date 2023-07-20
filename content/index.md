@@ -1,8 +1,8 @@
 ---
-date: 2016-03-08 21:07:13 +0100
+date: 2016-03-08T22:00:00.000+00:00
 title: Discover WETHOD
+weight: "0"
 type: index
-weight: 0
 
 ---
 ## What It Is

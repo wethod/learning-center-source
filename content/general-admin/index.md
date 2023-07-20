@@ -1,7 +1,8 @@
 ---
-date: 2017-08-29 10:24:40 +0200
+date: 2017-08-29T22:00:00.000+00:00
 title: G & A
-weight: 93
+weight: "93"
+type: ''
 
 ---
 ## Overview

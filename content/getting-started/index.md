@@ -1,7 +1,8 @@
 ---
-date: 2016-03-09 00:11:02 +0100
+date: 2016-03-09T22:00:00.000+00:00
 title: Getting Started
-weight: 10
+weight: "10"
+type: ''
 
 ---
 ## Warm Up

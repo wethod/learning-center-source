@@ -2,6 +2,7 @@
 date: 2016-03-11T19:10:46.000+00:00
 title: Pipeline
 weight: "30"
+type: ''
 
 ---
 ## Overview
