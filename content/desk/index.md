@@ -1,10 +1,10 @@
 ---
-date: 2020-03-31T22:00:00.000+00:00
+date: 2020-03-31T22:00:00.000Z
 title: Desk
-weight: "20"
+weight: '20'
 type: ''
-
 ---
+
 ## Overview
 
 The Desk is your private space and your favorite place. Here you can find a set of utilities and widgets all for you.
@@ -19,7 +19,7 @@ This box collects all the items that were assigned to you in any [boards](/pipel
 
 ## Pinboard
 
-Here are all your favorite pages, they works like browser bookmarks: just visit the a page and click on the 'Add section to Pinboard' icon on the section header. Beware: not all sections can be added to your favorites list. 
+Here are all your favorite pages, they works like browser bookmarks: just visit the a page and click on the 'Add section to Pinboard' icon on the section header. Beware: not all sections can be added to your favorites list.
 
 ![](/uploads/2020/04/02/add-favorite.png)
 
@@ -41,4 +41,4 @@ Here you have a list of all the expired invoices or that have due date this mont
 
 ## Intercompany Activity
 
-Keep an eye on intercompany activities, whether an invitation to an intercompany project is pending or has been accepted by a supplier in your group.
+Keep an eye on intercompany activities, whether an invitation to an intercompany project is pending or has been accepted by a supplier in your group. 
