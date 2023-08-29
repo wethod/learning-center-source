@@ -40,6 +40,22 @@ export function defaultFields() {
       ],
     },
     {
+      type: "string",
+      label: "Language",
+      name: "language",
+      list: false,
+      options: [{
+        value: '',
+        label: 'Default',
+      }, {
+        value: 'en',
+        label: 'English (multilingual only)',
+      }, {
+        value: 'it',
+        label: 'Italian (multilingual only)',
+      }],
+    },
+    {
       type: "datetime",
       name: "date",
       label: "Date",
