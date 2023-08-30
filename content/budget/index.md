@@ -97,7 +97,7 @@ This section can be used for **real-time collaboration**: you can see who is edi
 
 Job titles can be used in a budget to better specify a job figure or position needed to complete a task, for example: to complete task “Website redesign” you may need a junior designer and a senior developer, these are two distinct job titles related to "junior" and "senior" user level respectively.
 
-Once defined in your company settings, you can add a job title to a task using the task's options menu:
+Once defined in your [company settings](/settings/index/#company), you can add a job title to a task using the task's options menu:
 
 ![](/uploads/insert-job-title.gif)
 
