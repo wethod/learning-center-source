@@ -1,9 +1,8 @@
 ---
 date: 2017-05-26T11:04:19.000Z
 title: Budget
-weight: "31"
+weight: '31'
 type: ''
-
 ---
 
 ## Overview
@@ -93,6 +92,20 @@ The first columns of the budget show how many work days you need for each *user 
 This section can be used for **real-time collaboration**: you can see who is editing a budget you're looking and all changes are propagated with no need to refresh the page.\
 \
 ![](/uploads/real-time-budget.gif)
+
+#### Job titles
+
+Job titles can be used in a budget to better specify a job figure or position needed to complete a task, for example: to complete task “Website redesign” you may need a junior designer and a senior developer, these are two distinct job titles related to "junior" and "senior" user level respectively.
+
+Once defined in your company settings, you can add a job title to a task using the task's options menu:
+
+![](/uploads/insert-job-title.gif)
+
+A job title has just one editable man-days column, that is the column related to job title level.
+
+When you add job titles to a task, levels for that task become read-only and they display only job titles sums. For this reason, job titles can be added only to clean tasks, that are tasks without level man-days.
+
+Job titles cannot be added to [intercompany tasks](/budget/index/#make-a-task-intercompany), and if a task already has job titles they must be deleted before making the task an intercompany task.
 
 ## The Workflow
 
