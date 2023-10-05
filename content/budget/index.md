@@ -1,8 +1,8 @@
 ---
 date: 2017-05-26T11:04:19.000Z
 title: Budget
-weight: '31'
 type: ''
+weight: '31'
 ---
 
 ## Overview
@@ -106,6 +106,22 @@ A job title has just one editable man-days column, that is the column related to
 When you add job titles to a task, levels for that task become read-only and they display only job titles sums. For this reason, job titles can be added only to clean tasks, that are tasks without level man-days.
 
 Job titles cannot be added to [intercompany tasks](/budget/index/#make-a-task-intercompany), and if a task already has job titles they must be deleted before making the task an intercompany task.
+
+#### Products
+
+Products are created and managed in the Products section.
+
+Products can be added to a budget by choosing them from a pick list of available products:\
+![](/uploads/budget-add-product.gif)
+
+Only users with products.view permission can add products to a budget.
+
+When a product is added to a budget, it is treated as special task where user can specify a quantity that tells how many “instances” of that products must be added. Cost is calculated the same way as a normal task but price is different:
+
+* If product has a defined price than task price is product price \* task quantity
+* If product has no defined price than task price is calculated the same way as a normal task
+
+Product task cannot be made intercompany.
 
 ## The Workflow
 
