@@ -1,8 +1,8 @@
 ---
 date: 2017-05-24T10:09:44.000Z
 title: Settings
-weight: '80'
 type: ''
+weight: '80'
 ---
 
 ## Account
@@ -329,3 +329,56 @@ In the permissions settings you set whether a user in a business unit is allowed
 
 * **same-bu people on inter-bu projects**: whether you can plan people from your business units on projects of other business unit.
 * **inter-bu people**: whether you can plan people of other business unit (to projects of all business units).
+
+## Products
+
+You can find this section in the app menu under Projects > Toolbox > Products.
+
+![](/uploads/product-creation.png)
+
+A product is a special kind of [pre-compiled budget task](/budget/index/#products), representing an activity with well-known man-days and costs.
+
+For example let’s say that a digital agency knows that its best-selling event needs 2 days and 1000 € to be organized and delivered, instead o recreating this task for each client, the agency can create a single product and add it to different budgets when needed.
+
+A product has:
+
+* Name: (required)
+* Description \[max 50 char]
+* From - To: specify a period of time during which product is available to be added to a budget.
+  * If only “From” is compiled then product is available starting from “From”
+  * If only “To” is compiled then product is available from its creation until the date specified by “To”
+  * If “From” and “To” are not specified then product is available from its creation
+* Days: man-days needed for every user level in order to ship the product.
+  * Man-days for a level are set to 0 by default
+* External costs: costs needed to ship the product
+* Markup: percentage of markup applied on external cost to calculate the price
+* Price: price of a single instance of the product.
+  * If price is not defined then [it’s calculated the usual way](https://www.notion.so/Budget-eb36fe489e4a4c7a891ed44b5c76c7f5?pvs=21) once product is added to a budget
+
+If a product has non price defined, a tooltip must inform user that it will be calculated with current rates when adding product in a budget. This tooltip must be visible when user puts the cursor over “Price” cell on a product in the list.
+
+A product is considered available if the current date falls in the From - To period or if there’s no From - To period defined.
+
+The From date cannot be greater than the To date.
+
+User must be able to filter available and not available products.
+
+User must be able to sort product list by all columns and in both direction.
+
+Products must be “searchable” by a space separated list of values to search among products name, each values is a AND clause.
+
+Only available products appear in [the budget pick list](https://www.notion.so/Budget-eb36fe489e4a4c7a891ed44b5c76c7f5?pvs=21).
+
+Only users with products.view permission must be able to see Products section.
+
+Only users with products.edit permission must be able to create and edit products.
+
+Only “From” and “To” attributes can be edited. See the [implementation details](https://www.notion.so/Products-86d11b7e0262490bb7e1e8056dc43cc0?pvs=21) section to see why and how we can improve this behavior in an upcoming release.
+
+There is no way to archive a Product, it can only be made unavailable by editing its “From” or “To”.
+
+By default all roles can view and edit products.
+
+A company level cannot be deleted if there are product man-days associated to it.
+
+If a user creates a product with a markup and a price, the markup is not used to calculate the price because the user-specified price is used instead. This may be handled better in a future release by disabling the markup input when the price input is populated.
