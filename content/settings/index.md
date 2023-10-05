@@ -336,38 +336,24 @@ You can find this section in the app menu under Projects > Toolbox > Products.
 
 ![](/uploads/product-creation.png)
 
-A product is a special kind of [pre-compiled budget task](/budget/index/#products), representing an activity with well-known man-days and costs.
+A product is a special kind of [pre-compiled budget task](/budget/index/#products), representing an activity requiring well-known man-days and costs.
 
-For example let’s say that a digital agency knows that its best-selling event needs 2 days and 1000 € to be organized and delivered, instead o recreating this task for each client, the agency can create a single product and add it to different budgets when needed.
+For example let’s say that a digital agency knows that its best-selling event needs 2 days and 1000 € to be organized and delivered, instead of recreating this task for each client, the agency can create a single product and add it to different budgets when needed.
 
 A product has:
 
-* Name: (required)
-* Description \[max 50 char]
+* Name
+* Description
 * From - To: specify a period of time during which product is available to be added to a budget.
-  * If only “From” is compiled then product is available starting from “From”
-  * If only “To” is compiled then product is available from its creation until the date specified by “To”
-  * If “From” and “To” are not specified then product is available from its creation
-* Days: man-days needed for every user level in order to ship the product.
-  * Man-days for a level are set to 0 by default
+  * If only “From” is specified then product is available starting from that date
+  * If only “To” is specified then product is available from its creation until the date specified by “To”
+  * If “From” and “To” are not specified then product is always available
+* Days: man-days needed for every user level in order to ship the product
 * External costs: costs needed to ship the product
 * Markup: percentage of markup applied on external cost to calculate the price
-* Price: price of a single instance of the product.
-  * If price is not defined then [it’s calculated the usual way](https://www.notion.so/Budget-eb36fe489e4a4c7a891ed44b5c76c7f5?pvs=21) once product is added to a budget
+* Price: price of a single instance of the product. If not defined it's calculated  based on man days cost, external cost, markup and quantity
 
-If a product has non price defined, a tooltip must inform user that it will be calculated with current rates when adding product in a budget. This tooltip must be visible when user puts the cursor over “Price” cell on a product in the list.
-
-A product is considered available if the current date falls in the From - To period or if there’s no From - To period defined.
-
-The From date cannot be greater than the To date.
-
-User must be able to filter available and not available products.
-
-User must be able to sort product list by all columns and in both direction.
-
-Products must be “searchable” by a space separated list of values to search among products name, each values is a AND clause.
-
-Only available products appear in [the budget pick list](https://www.notion.so/Budget-eb36fe489e4a4c7a891ed44b5c76c7f5?pvs=21).
+Specific [permissions](/settings/index/#permissions) let you control who can view or edit this section.
 
 Only users with products.view permission must be able to see Products section.
 
