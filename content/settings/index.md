@@ -355,16 +355,6 @@ A product has:
 
 Specific [permissions](/settings/index/#permissions) let you control who can view or edit this section.
 
-Only users with products.view permission must be able to see Products section.
+Only “From” and “To” attributes can be edited, they can be used to change availability of a product after its creation.
 
-Only users with products.edit permission must be able to create and edit products.
-
-Only “From” and “To” attributes can be edited. See the [implementation details](https://www.notion.so/Products-86d11b7e0262490bb7e1e8056dc43cc0?pvs=21) section to see why and how we can improve this behavior in an upcoming release.
-
-There is no way to archive a Product, it can only be made unavailable by editing its “From” or “To”.
-
-By default all roles can view and edit products.
-
-A company level cannot be deleted if there are product man-days associated to it.
-
-If a user creates a product with a markup and a price, the markup is not used to calculate the price because the user-specified price is used instead. This may be handled better in a future release by disabling the markup input when the price input is populated.
+If a user creates a product with a markup and a price, the markup is not used to calculate the price because the user-specified price is used instead.
