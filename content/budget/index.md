@@ -109,16 +109,16 @@ Job titles cannot be added to [intercompany tasks](/budget/index/#make-a-task-in
 
 #### Products
 
-Products are created and managed in the Products section.
+Products are created and managed in the [Products section](/settings/index/#products).
 
 Products can be added to a budget by choosing them from a pick list of available products:\
 ![](/uploads/budget-add-product.gif)
 
-Only users with products.view permission can add products to a budget.
+Only users with view permission on products can add products to a budget.
 
 When a product is added to a budget, it is treated as special task where user can specify a quantity that tells how many “instances” of that products must be added. Cost is calculated the same way as a normal task but price is different:
 
-* If product has a defined price than task price is product price \* task quantity
+* If product has a defined price than task price is product *price \* task quantity*
 * If product has no defined price than task price is calculated the same way as a normal task
 
 Product task cannot be made intercompany.
