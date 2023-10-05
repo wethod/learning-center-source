@@ -332,7 +332,7 @@ In the permissions settings you set whether a user in a business unit is allowed
 
 ## Products
 
-You can find this section in the app menu under Projects > Toolbox > Products.
+You can find this section in the app menu under *Projects > Toolbox > Products*.
 
 ![](/uploads/product-creation.png)
 
