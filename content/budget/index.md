@@ -123,6 +123,22 @@ When a product is added to a budget, it is treated as special task where user ca
 
 Product task cannot be made intercompany.
 
+#### Pricelists
+
+Pricelists are created and managed in the [Pricelists section](/settings/index/#pricelists).
+
+A pricelist defines level daily rates used in a budget.
+
+When creating a budget, a coherent pricelist is automatically assigned to it:
+
+1. If a default pricelist for project client exists, then assign it to the budget
+2. Otherwise assign company default pricelist
+
+Pricelist can be changed for a budget if user has pricelist edit permission for that budget.
+
+Pricelist can be changed for a budget by choosing the new one from a list of available pricelists:\
+![](/uploads/budget-edit-pricelist.gif)
+
 ## The Workflow
 
 1. Select a project from the [Pipeline](/pipeline/index/) and click on its budget button;
