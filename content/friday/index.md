@@ -28,7 +28,7 @@ Pin to the top of the list all the projects you usually work on. You will find i
 
 ![](/uploads/2021/04/26/timesheet-weekly.png)
 
-If you want a more fine-grained control you can enable the **Daily mode**, this way you can input hours day by day. 
+If you want a more fine-grained control you can enable the **Daily mode**, this way you can input hours day by day.
 
 The **Daily mode** can be set as "daily" at company level, therefore for all team members, from the dedicated section in the [Company Settings](https://support.wethod.com/settings/index/#company "Company Settings").
 
@@ -140,6 +140,13 @@ With this option enabled users will not be able to edit their timesheet in the f
 Users with *‘edit always’* permission can edit the timesheet even if the limitation is enabled.
 
 **In case you or one of your team member forgot to fill in their timesheet or made a mistake and cannot edit it because of time limitation, only users with both permissions *'edit always'* and *'edit other'* will be able to correct it.**
+
+### Employee capacity
+
+Employee capacity represents the daily expected worked hours per employee, this can be managed from [Company Settings](https://support.wethod.com/settings/index/#employee-capacity-groups).
+
+Here's an example of employee with daily capacity of 4 hours:\
+![](</uploads/Schermata 2023-11-07 alle 15.10.49.png>)
 
 ## Project Status
 
