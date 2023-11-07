@@ -69,7 +69,7 @@ Here you can configure your company by setting.
 
 A capacity group can be used to define daily expected timesheet for a group of users. For example, user can add a capacity group called “Capacity London” to express that London office follows a 7-hours Monday to Friday working hours policy:
 
-\<IMAGE>
+![](</uploads/Schermata 2023-11-07 alle 15.34.01.png>)
 
 Another use case is to be able to model different types of contracts, i.e. user can add a capacity group called “Part-time capacity” to express that some users are expected to work only 4 hours a day from Monday to Friday.
 
@@ -79,15 +79,17 @@ Every company has a default capacity group:
 * It can be edited
 * By default it has 8 hours per day, from Monday to Friday
 
-Once defined, capacity groups can be associated to company employee using the Team metadata import.
+If you delete a capacity group associated to a list of employees, those employees fall back to the default capacity group.
 
-When applying
+Once defined, capacity groups can be associated to company employee using the [Team metadata import](https://support.wethod.com/settings/index/#import-metadata).
+
+Using the [Weekly Timesheet](https://support.wethod.com/reports/index/#weekly-timesheet) export you can appreciate capacity associate to the registered timesheet. 
 
 {{< note title="Note" >}}
 Changes to a capacity group are applied to the past too.
 {{< /note >}}
 
- changes to a capacity group, an alert must tell the user that by proceeding he is applying the new capacity value even to past timesheets.
+ 
 
 ### User levels
 
