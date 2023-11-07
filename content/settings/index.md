@@ -67,7 +67,7 @@ Here you can configure your company by setting.
 
 ### Employee Capacity Groups
 
-A capacity group can be used to define daily expected timesheet for a group of users. For example, user can add a capacity group called “Capacity London” to express that London office follows a 7-hours Monday to Friday working hours policy:
+A capacity group can be used to define daily expected [timesheet](https://support.wethod.com/friday/index/#timesheet) for a group of users. For example, user can add a capacity group called “Capacity London” to express that London office follows a 7-hours Monday to Friday working hours policy:
 
 ![](</uploads/Schermata 2023-11-07 alle 15.34.01.png>)
 
