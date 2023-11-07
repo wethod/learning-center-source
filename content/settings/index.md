@@ -63,80 +63,177 @@ You can use this import to assign different metadata to your team members. The s
 
 ## Company
 
-Here you can configure your company by setting:
+Here you can configure your company by setting.
 
-* **User levels**: each one of your collaborators has a level which defines his daily cost to the company and the price you want to sell a day of his work to the clients. This way you can define clusters of employees like intern, junior, senior and so on. For each user level you can set a **chargeability target** – expressed in percentage – meaning as the amount of hours people belonging to a specific user level should work on profitable projects.
-* **Job Order Categories**: here you can add the categories for your projects, each category needs at least a name and a color. You can change the categories' sort order by simply drag and dropping them. For each category you can set some options:
-  * **Chargeable**: the projects in this category are billable
-  * **Everybody can plan**: the projects in this category can be planned by everybody, not only by its pm or account
-  * **Unlimited planning**: the projects in this category can be planned regardless budget availability
-  * **Must be in program**: the projects in this category must be added to a [Program](/pipeline/index/#programs)
-  * **Invoice driven budget**: the value of the projects on this category changes based on the total invoiced for that project. This logic also updates the Invoice Plan and the Production value. You can use this flag on all the project categories in which you are not sure of the final price because it can vary slightly based on external factors. You can then set a budget with an approximate price and let the issued invoices adjust the final price as a result of the delta between the ‘invoice plan’ and the real invoice.
-  * **Capex**: the projects in this category must be treated as investments
-  * **Workable**: you can switch off this option for projects used to track holidays or permits, this way timesheets done on them are not used to calculate chargeability
-  * **Hours type**: you can use this option to tell if job order category's hours are:
-    1\. **Workable**: (default) during this hours user is working
-    2\. **Vacation time off**: the annual and usually paid time you get off work
-    3\. **Leave time off**: refers to time when you can go away from your job
-    4\. **Non workable**: a general time off period
-  * **Plan upon approval**: you can switch on this option for projects which plan requests must be approved in order to became "effective". The only way to plan these kind of projects is by sending a plan request that is - in fact - a way of asking permission to use these projects budget
-  * **Won/lost feedback**: enable to start collecting feedback about your won and lost projects. When the probability of a project in this category rise over 90 or down to zero, user will be asked to give a reason for this change
-  * **Track opportunity stage**: Whether you can assign a custom stage to an opportunity or not. Please mind tracking and opportunity stage will tightly couple stage and probability attributes.
-    Check the stage section for further information.
-  * **Intercompany supplier**: an invoice for a project in this category cannot be sent if the project is not an [intercompany project](/pipeline/index/#intercompany-projects) or if its intercompany client does not [appear as an actual company client](/finance/index/#intercompany-client)
-  * **Project status**:
-    * **Work days to complete**: the project status is assigned as estimated days to complete (e.g. in order to complete we need 12 more days of work)
-    * **Auto**: the progress of the projects in this category are not based on their projects status, but based on their duration (equally distributed on their lifespan indicated by date start and duration on the pipeline)
-    * **Completed percentage**: the project status is assigned as a progress percentage (e.g. the progress of this project is 45%)
-  * **Automatic timesheet**: here you can choose to automate the timesheets creation process for this kind of projects. This way, timesheets are automatically created each weekend based on planned hours. *Be careful: Anything can go wrong because planning is not often 100% accurate, this is why timesheet exists.* See the [timesheet section](/friday/index/#automatic) for further details.
-* **Job order**: Here you can add and edit the templates used to generate new job orders.  Remember to choose which job order categories your template will be valid for, and click "Apply."  This way, when you want to add the job order to one of your projects, you will see the "Generate" button, which will automatically provide you with a job order based on this template, with a unique, sequentially created number.  A category can only be associated with one template; therefore, you will not find it available among those that can be selected in other templates.  When you add a new template, by default, it will contain a sequential number, starting with 1.  You can add as many blocks as you want by dragging and dropping them from the list at the top: enter the text you want, or the current year indication, formatted to 2 digits or 4. Once you have added the blocks, you can put them in any order you like, again by dragging them to the appropriate area of your template.  If you want the starting number not to be one (this can happen to you, for example, if you activate this automatism after you have already created some projects that follow the template you are interested in) just change the value in the block, which by default shows "1." The value you choose will be the first one suggested when a job order is generated.  If you want the job order number to restart at "1" each new year, click on "Yearly reset." In order to do this, however, you will need to have a "year" block in your template.  This value, of course, is unique to each template, and is incremented by 1 for each new job order generated. Each project will benefit from automatic job order generation depending on its job order category: if there is a template associated with its category, that will be the one used to create the job order.  To choose the number formatting, change the "Min digit padding": this is the (minimum) length that the sequential number of your job order will have.  When you have finished customizing the template, remember to save to make the changes effective and usable for your projects! Learn more about how to use this feature for your [projects](/pipeline/index/#projects).
-  ![](/uploads/2023/02/06/job-order-template-settings.gif)
-* **Project Metadata**:  Add a detail depth to a project in pipeline with metadata tags. Add a new tag, specify its values and check the box if required. Metadata tags are useful to reach a better insight within a single cluster of data, i.e. in the report Sales Pipeline.
-* **Team Metadata**
-  * You can define team metadata (tags) in this table and then assign them using the team section
-  * Each metadata is composed by a category and a tag value
-  * You can defined an illimitate number of categories and tags
-* **Email Bot**: here you can insert the email addresses to which send invoices, orders and travel requests;
-* **Project Won/Lost Bot**: here you can insert the email addresses to which send notifications each time someone of your teammates won or lost a project. A project is considered to be *lost* when its probability is 0 and *won* when its probability is 90
-* **Project Types**: create and manage labels that you can assign to projects in [pipeline](/pipeline/index/#projects). A project type is basically composed by a name, you can than aggregate it's values by using a group or use a short label to better identify a project type;
-* **Timesheet**: here you can choose whether to use the **simplified** or the **detailed** view. When the **simplified** view is enabled you will be able to fill your timesheet for the whole week in a single page. You can choose to fill the total amount of hours of the week or to fill worked hours daily by using the **Daily Mode** toggle. This toggle can be set as "daily" at company level, therefore for all team members, using the "Always" value in the dedicated select list. When the **detailed** view is enabled, you will be able to fill in your timesheet day by day, and also specify in which budget area your worked on. See the [timesheet section](/friday/index/#detailed) for further details. You can also set a weekly or daily reminder for your employee to fill in the timesheet. **Only users that have set timesheet as required will receive the email**. You will also be able to enable time limitation for timesheet. See the [timesheet section](/friday/index/#time-limit) for further details.
-* **Project**:
-  * **Required contact**: Whether the client's contact is required in order to create a Project
-  * **Required Job Order**: Whether the Job Order is required for a Project to show up on Timesheet and Project Status sections
-  * **Wasted Hours**: Whether the *[wasted hours](/glossary/index/#wasted-hours)* mechanism is enabled or disabled
-* **Project status** This feature allows the user to edit on a weekly basis the risk status for each project.To add a new risk status click on "Add risk status", choose a colour, edit the name then click "save".
-* **People allocation**:
-  * **Unlimited planning**: plan without budget constraints
-  * **Use 7-days week calendar**: to display Saturdays and Sundays in calendars
-  * **Highlight weekends**: display Saturdays and Sundays in People Allocation using a special pattern and show a warning when user tries to allocate on these days ([learn more](/planning/index/#weekends)). This feature can be enabled only if "Use 7-days week calendar" is enabled too
-* **Project opportunities** From this section you are able to create a new status or edit the existing ones. Stages can be reordered using the drag and drop and you can edit their name, color and description.The order you see in this section is the same that will be applied when ordering your opportunities by the stage column.Please mind that the default status blank can't be edited and reordered while Lost and won statuses can't have their description updated.If you deleted an opportunity stage all opportunities that were using that stage will have their stage switched to blank.Only custom stages can be deleted.Also please note that in order to assign a stage different than blank to an opportunity you have to be sure that the JOC assigned to the opportunity is tracking the opportunity status.For more information check the Job Order Category settings section.
-* **Currencies**: a list of all the known currencies, each one can be made available or set as *master* (a.k.a. the currency you currently use in your company)
-* **Fiscal Year**: here you can change the initial month of your company's fiscal year. All report and tables showing temporal data will update. Automatic job order generation and automatic invoice number will follow the fiscal year start, so you might get duplicated job order or invoice number if you change it. Remember that you can always manually change them and also set a different progressive number to start with in the job order settings than the default 1.
-* **Won/Lost Feedback**: here you can define some possible reasons which can led to the win or loss of a project. A project is considered **won** when its probability reaches 90 or above, on the other hand it's considered **lost** when it goes down to 0. Users will be able to choose one of these reasons from the projects pipeline (remember to enable the related job order category's flag). This feedbacks will be then shown on the [Client Details](/finance/index/#client-details) page and can be edited from the "More Action > Edit Feedback" button in the projects pipeline.
-* **Project & Team Review** where you can:
-  * Enable/disable [Project & Team Review](/pipeline/index/#project-team-review)
-  * Choose the review mode, you can select between a partial or a 360° team review, whether the team should be able to review just the project and its manager or the project and all team members (incl. the manager).
-  * Allow to submit incomplete project or team review, when the user has insufficient evidence to vote a specific criterion.
-  * Add or edit criteria in order to evaluate projects and team members. The reviewer will be asked to express a rate for each of the chosen criteria
-  * Set a minimum number of unique reviewers to collect feedback from before showing review’s results in the profile page and the project canvas (this is useful to keep a review anonymous)
-  * Decide for which job order categories and minimum project's value WETHOD will ask for review on archive.
-* **Suppliers settings**
-  * **Categories and subcategories of suppliers**
-    This feature allows the user to visually browse the list of suppliers and filter suppliers by category or subcategories. To set categories and subcategories for your suppliers (i.e. Hospitality - Catering) start with categories. Click on "new category", add a name and assign a colour of your choice and hit "save". Eventually, for each category it is possible to add subcategories and save them.
-  * **Status of suppliers**
-    This feature allows the user to determine a status of a supplier and if it is eligible for contracts or not. To set status for your suppliers hit the button "Enable". Once the feature is enabled, hit "New status", add a name for your status, assign a colour of your choice and put a check if suppliers with this status will be available for contracts. Remember that a user can issue an order only to suppliers that are available for contracts.
-* **Expenses**: manage [categories of expenses](/finance/index/#set-a-category-of-expense)
-* **Bank accounts**: set the list of bank accounts available for invoicing matters in your company. To each one, you can associate a name and an IBAN code. You can then select for each of your [clients](/finance/index/#client-list) the appropriate bank account usually used for payments.
-* **VAT rates**: set the list of VAT rate options that may be applied to an invoice. To each one, you can associate a short label (to easily recognize it), the rate and a more complete description of it. You can then select for each of your [clients](/finance/index/#client-list) the appropriate VAT rate usually used for invoicing.
-  **Split payment for VAT**: In some cases, legislation in Italy requires that when a state-owned company pays for an invoice, it pays VAT directly to the tax authority and the net amount to the supplier of goods and services. Suppliers must display the split amounts on the documents they issue to the client.
-* **Payment terms**: manage all the types of payment terms agreed with your clients for invoicing matters. Associate a name and specify when the payment should be issued: is it 30 net days after the issue of the invoice or is it 30 net days (end of the month)?
-* **Company Order Plan View**: here you can set your preferences about the way you want to visualise the company yearly orders, in the Company Order Plan page. Check [here](/order-plan/index/#overview) to see how this setting affects the visualisation of data.
-* **Job titles**: [can be used in a budget](/budget/index/#job-titles) to better specify a job figure or position needed to complete a task, for example: to complete task “Website redesign” you may need a junior designer and a senior developer, these are two distinct job titles related to junior and senior user level respectively. Each person in your team can be assigned a job title, this makes it possible to filter people by job title in the [People Allocation section.](/planning/index/#people-allocation) A job title cannot be deleted, it can only be archived. A job title is related to a single user level and this level can be chosen only during job title creation.
-* **Google Drive Sync**: manage [Google Drive integration with project canvases](/pipeline/index/#sync-with-google-drive). To enable this integration you will be prompted to allow wethod access to your Google Drive and you will need to choose a folder inside one of your shared drives to use as root for all the files to keep in sync. This functionality works by sharing the selected root folder with wethod, so it can create folders and upload files in the place of the user. In order for this to work, you need to be sure to have enough Google Drive permissions to share the selected root folder with someone else (**Manager** or **Content manager**). When the integration is enabled, you can:
-  * See the **root folder** you have chosen
-  * See the **canonical path** used to link a project to its Google Drive folder. For a project "New website" with client "ACME" and job order "1234" the canonical path will be *root folder > ACME > New website - 1234*, all the canonical path components are Google Drive folders ("New website - 1234" is a single folder)
-  * Choose which job order categories need to be kept in sync
-  * Add **default folders** to create automatically each time a new Google Drive project folder is created
+### Employee Capacity Groups
+
+A capacity group can be used to define daily expected timesheet for a group of users. For example, user can add a capacity group called “Capacity London” to express that London office follows a 7-hours Monday to Friday working hours policy:
+
+\<IMAGE>
+
+Another use case is to be able to model different types of contracts, i.e. user can add a capacity group called “Part-time capacity” to express that some users are expected to work only 4 hours a day from Monday to Friday.
+
+Every company has a default capacity group:
+
+* It cannot be deleted
+* It can be edited
+* By default it has 8 hours per day, from Monday to Friday
+
+Once defined, capacity groups can be associated to company employee using the Team metadata import.
+
+When applying
+
+{{< note title="Note" >}}
+Changes to a capacity group are applied to the past too.
+{{< /note >}}
+
+ changes to a capacity group, an alert must tell the user that by proceeding he is applying the new capacity value even to past timesheets.
+
+### User levels
+
+Each one of your collaborators has a level which defines his daily cost to the company and the price you want to sell a day of his work to the clients. This way you can define clusters of employees like intern, junior, senior and so on. For each user level you can set a **chargeability target** – expressed in percentage – meaning as the amount of hours people belonging to a specific user level should work on profitable projects.
+
+### Job Order Categories
+
+Here you can add the categories for your projects, each category needs at least a name and a color. You can change the categories' sort order by simply drag and dropping them. For each category you can set some options:
+
+* **Chargeable**: the projects in this category are billable
+* **Everybody can plan**: the projects in this category can be planned by everybody, not only by its pm or account
+* **Unlimited planning**: the projects in this category can be planned regardless budget availability
+* **Must be in program**: the projects in this category must be added to a [Program](/pipeline/index/#programs)
+* **Invoice driven budget**: the value of the projects on this category changes based on the total invoiced for that project. This logic also updates the Invoice Plan and the Production value. You can use this flag on all the project categories in which you are not sure of the final price because it can vary slightly based on external factors. You can then set a budget with an approximate price and let the issued invoices adjust the final price as a result of the delta between the ‘invoice plan’ and the real invoice.
+* **Capex**: the projects in this category must be treated as investments
+* **Workable**: you can switch off this option for projects used to track holidays or permits, this way timesheets done on them are not used to calculate chargeability
+* **Hours type**: you can use this option to tell if job order category's hours are:
+  1\. **Workable**: (default) during this hours user is working
+  2\. **Vacation time off**: the annual and usually paid time you get off work
+  3\. **Leave time off**: refers to time when you can go away from your job
+  4\. **Non workable**: a general time off period
+* **Plan upon approval**: you can switch on this option for projects which plan requests must be approved in order to became "effective". The only way to plan these kind of projects is by sending a plan request that is - in fact - a way of asking permission to use these projects budget
+* **Won/lost feedback**: enable to start collecting feedback about your won and lost projects. When the probability of a project in this category rise over 90 or down to zero, user will be asked to give a reason for this change
+* **Track opportunity stage**: Whether you can assign a custom stage to an opportunity or not. Please mind tracking and opportunity stage will tightly couple stage and probability attributes.
+  Check the stage section for further information.
+* **Intercompany supplier**: an invoice for a project in this category cannot be sent if the project is not an [intercompany project](/pipeline/index/#intercompany-projects) or if its intercompany client does not [appear as an actual company client](/finance/index/#intercompany-client)
+* **Project status**:
+  * **Work days to complete**: the project status is assigned as estimated days to complete (e.g. in order to complete we need 12 more days of work)
+  * **Auto**: the progress of the projects in this category are not based on their projects status, but based on their duration (equally distributed on their lifespan indicated by date start and duration on the pipeline)
+  * **Completed percentage**: the project status is assigned as a progress percentage (e.g. the progress of this project is 45%)
+* **Automatic timesheet**: here you can choose to automate the timesheets creation process for this kind of projects. This way, timesheets are automatically created each weekend based on planned hours. *Be careful: Anything can go wrong because planning is not often 100% accurate, this is why timesheet exists.* See the [timesheet section](/friday/index/#automatic) for further details.
+
+### Job Order
+
+Here you can add and edit the templates used to generate new job orders.  Remember to choose which job order categories your template will be valid for, and click "Apply."  This way, when you want to add the job order to one of your projects, you will see the "Generate" button, which will automatically provide you with a job order based on this template, with a unique, sequentially created number.  A category can only be associated with one template; therefore, you will not find it available among those that can be selected in other templates.  When you add a new template, by default, it will contain a sequential number, starting with 1.  You can add as many blocks as you want by dragging and dropping them from the list at the top: enter the text you want, or the current year indication, formatted to 2 digits or 4. Once you have added the blocks, you can put them in any order you like, again by dragging them to the appropriate area of your template.  If you want the starting number not to be one (this can happen to you, for example, if you activate this automatism after you have already created some projects that follow the template you are interested in) just change the value in the block, which by default shows "1." The value you choose will be the first one suggested when a job order is generated.  If you want the job order number to restart at "1" each new year, click on "Yearly reset." In order to do this, however, you will need to have a "year" block in your template.  This value, of course, is unique to each template, and is incremented by 1 for each new job order generated. Each project will benefit from automatic job order generation depending on its job order category: if there is a template associated with its category, that will be the one used to create the job order.  To choose the number formatting, change the "Min digit padding": this is the (minimum) length that the sequential number of your job order will have.  When you have finished customizing the template, remember to save to make the changes effective and usable for your projects! Learn more about how to use this feature for your [projects](/pipeline/index/#projects).
+![](/uploads/2023/02/06/job-order-template-settings.gif)
+
+### Project Metadata
+
+Add a detail depth to a project in pipeline with metadata tags. Add a new tag, specify its values and check the box if required. Metadata tags are useful to reach a better insight within a single cluster of data, i.e. in the report Sales Pipeline.
+
+### Team Metadata
+
+* You can define team metadata (tags) in this table and then assign them using the team section
+* Each metadata is composed by a category and a tag value
+* You can defined an illimitate number of categories and tags
+
+### Email Bot
+
+Here you can insert the email addresses to which send invoices, orders and travel requests.
+
+### Project Won/Lost Bot
+
+Here you can insert the email addresses to which send notifications each time someone of your teammates won or lost a project. A project is considered to be *lost* when its probability is 0 and *won* when its probability is 90.
+
+### Project Types
+
+Create and manage labels that you can assign to projects in [pipeline](/pipeline/index/#projects). A project type is basically composed by a name, you can than aggregate it's values by using a group or use a short label to better identify a project type;
+
+### Timesheet
+
+Here you can choose whether to use the **simplified** or the **detailed** view. When the **simplified** view is enabled you will be able to fill your timesheet for the whole week in a single page. You can choose to fill the total amount of hours of the week or to fill worked hours daily by using the **Daily Mode** toggle. This toggle can be set as "daily" at company level, therefore for all team members, using the "Always" value in the dedicated select list. When the **detailed** view is enabled, you will be able to fill in your timesheet day by day, and also specify in which budget area your worked on. See the [timesheet section](/friday/index/#detailed) for further details. You can also set a weekly or daily reminder for your employee to fill in the timesheet. **Only users that have set timesheet as required will receive the email**. You will also be able to enable time limitation for timesheet. See the [timesheet section](/friday/index/#time-limit) for further details.
+
+### Project
+
+* **Required contact**: Whether the client's contact is required in order to create a Project
+* **Required Job Order**: Whether the Job Order is required for a Project to show up on Timesheet and Project Status sections
+* **Wasted Hours**: Whether the *[wasted hours](/glossary/index/#wasted-hours)* mechanism is enabled or disabled
+
+### Project status
+
+This feature allows the user to edit on a weekly basis the risk status for each project.To add a new risk status click on "Add risk status", choose a colour, edit the name then click "save".
+
+### People allocation
+
+* **Unlimited planning**: plan without budget constraints
+* **Use 7-days week calendar**: to display Saturdays and Sundays in calendars
+* **Highlight weekends**: display Saturdays and Sundays in People Allocation using a special pattern and show a warning when user tries to allocate on these days ([learn more](/planning/index/#weekends)). This feature can be enabled only if "Use 7-days week calendar" is enabled too
+
+### Project opportunities
+
+From this section you are able to create a new status or edit the existing ones. Stages can be reordered using the drag and drop and you can edit their name, color and description.The order you see in this section is the same that will be applied when ordering your opportunities by the stage column.Please mind that the default status blank can't be edited and reordered while Lost and won statuses can't have their description updated.If you deleted an opportunity stage all opportunities that were using that stage will have their stage switched to blank.Only custom stages can be deleted.Also please note that in order to assign a stage different than blank to an opportunity you have to be sure that the JOC assigned to the opportunity is tracking the opportunity status.For more information check the Job Order Category settings section.
+
+### Currencies
+
+A list of all the known currencies, each one can be made available or set as *master* (a.k.a. the currency you currently use in your company)
+
+### Fiscal Year
+
+Here you can change the initial month of your company's fiscal year. All report and tables showing temporal data will update. Automatic job order generation and automatic invoice number will follow the fiscal year start, so you might get duplicated job order or invoice number if you change it. Remember that you can always manually change them and also set a different progressive number to start with in the job order settings than the default 1.
+
+### Won/Lost Feedback
+
+Here you can define some possible reasons which can led to the win or loss of a project. A project is considered **won** when its probability reaches 90 or above, on the other hand it's considered **lost** when it goes down to 0. Users will be able to choose one of these reasons from the projects pipeline (remember to enable the related job order category's flag). This feedbacks will be then shown on the [Client Details](/finance/index/#client-details) page and can be edited from the "More Action > Edit Feedback" button in the projects pipeline.
+
+### Project & Team Review
+
+Here you can:
+
+* Enable/disable [Project & Team Review](/pipeline/index/#project-team-review)
+* Choose the review mode, you can select between a partial or a 360° team review, whether the team should be able to review just the project and its manager or the project and all team members (incl. the manager).
+* Allow to submit incomplete project or team review, when the user has insufficient evidence to vote a specific criterion.
+* Add or edit criteria in order to evaluate projects and team members. The reviewer will be asked to express a rate for each of the chosen criteria
+* Set a minimum number of unique reviewers to collect feedback from before showing review’s results in the profile page and the project canvas (this is useful to keep a review anonymous)
+* Decide for which job order categories and minimum project's value WETHOD will ask for review on archive.
+
+### Suppliers settings
+
+* **Categories and subcategories of suppliers**
+  This feature allows the user to visually browse the list of suppliers and filter suppliers by category or subcategories. To set categories and subcategories for your suppliers (i.e. Hospitality - Catering) start with categories. Click on "new category", add a name and assign a colour of your choice and hit "save". Eventually, for each category it is possible to add subcategories and save them.
+* **Status of suppliers**
+  This feature allows the user to determine a status of a supplier and if it is eligible for contracts or not. To set status for your suppliers hit the button "Enable". Once the feature is enabled, hit "New status", add a name for your status, assign a colour of your choice and put a check if suppliers with this status will be available for contracts. Remember that a user can issue an order only to suppliers that are available for contracts.
+
+### Expenses
+
+Manage [categories of expenses](/finance/index/#set-a-category-of-expense)
+
+### Bank accounts
+
+Set the list of bank accounts available for invoicing matters in your company. To each one, you can associate a name and an IBAN code. You can then select for each of your [clients](/finance/index/#client-list) the appropriate bank account usually used for payments.
+
+### VAT rates
+
+Set the list of VAT rate options that may be applied to an invoice. To each one, you can associate a short label (to easily recognize it), the rate and a more complete description of it. You can then select for each of your [clients](/finance/index/#client-list) the appropriate VAT rate usually used for invoicing.
+**Split payment for VAT**: In some cases, legislation in Italy requires that when a state-owned company pays for an invoice, it pays VAT directly to the tax authority and the net amount to the supplier of goods and services. Suppliers must display the split amounts on the documents they issue to the client.
+
+### Payment terms
+
+Manage all the types of payment terms agreed with your clients for invoicing matters. Associate a name and specify when the payment should be issued: is it 30 net days after the issue of the invoice or is it 30 net days (end of the month)?
+
+### Company Order Plan View
+
+Here you can set your preferences about the way you want to visualise the company yearly orders, in the Company Order Plan page. Check [here](/order-plan/index/#overview) to see how this setting affects the visualisation of data.
+
+### Job titles
+
+[Can be used in a budget](/budget/index/#job-titles) to better specify a job figure or position needed to complete a task, for example: to complete task “Website redesign” you may need a junior designer and a senior developer, these are two distinct job titles related to junior and senior user level respectively. Each person in your team can be assigned a job title, this makes it possible to filter people by job title in the [People Allocation section.](/planning/index/#people-allocation) A job title cannot be deleted, it can only be archived. A job title is related to a single user level and this level can be chosen only during job title creation.
+
+### Google Drive Sync
+
+Manage [Google Drive integration with project canvases](/pipeline/index/#sync-with-google-drive). To enable this integration you will be prompted to allow wethod access to your Google Drive and you will need to choose a folder inside one of your shared drives to use as root for all the files to keep in sync. This functionality works by sharing the selected root folder with wethod, so it can create folders and upload files in the place of the user. In order for this to work, you need to be sure to have enough Google Drive permissions to share the selected root folder with someone else (**Manager** or **Content manager**). When the integration is enabled, you can:
+
+* See the **root folder** you have chosen
+* See the **canonical path** used to link a project to its Google Drive folder. For a project "New website" with client "ACME" and job order "1234" the canonical path will be *root folder > ACME > New website - 1234*, all the canonical path components are Google Drive folders ("New website - 1234" is a single folder)
+* Choose which job order categories need to be kept in sync
+* Add **default folders** to create automatically each time a new Google Drive project folder is created
 
 ![](/uploads/2022/03/09/drive-canvas-enable.gif)
 
