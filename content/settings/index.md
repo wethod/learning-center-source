@@ -99,9 +99,21 @@ Every holiday is related to at least one location.
 
 The holiday can be specific to a single date (dd/mm/yyyy) or repeated annually (dd/mm).
 
-Available hours in [Timesheet](https://support.wethod.com/friday/index/#timesheet) and weekly capacity of employees in [Weekly timesheet export](https://support.wethod.com/reports/index/#weekly-timesheet) consider holidays that are associated with the employee's location.
+Available hours in [Timesheet](https://support.wethod.com/friday/index/#timesheet) and weekly capacity of employees in [Weekly timesheet export](https://support.wethod.com/reports/index/#weekly-timesheet) consider holidays that are associated with the employee's location.![](</uploads/Screenshot 2023-11-13 at 12.30.26.png>)
 
-![](</uploads/Screenshot 2023-11-13 at 12.30.26.png>)
+### Company Locations
+
+Locations are company working cities.
+
+There is always a default location, named Headquarter by default even if it can be renamed.
+
+Initially Headquarter is linked to all company employees.
+
+Locations will be linked to employees in the [Team section](https://support.wethod.com/settings/index/#team).
+
+Every time a location is deleted it’s employees will be automatically linked to the default one.
+
+Locations are required to create related holidays in [Bank Holidays Planner](https://support.wethod.com/settings/index/#company) section.![](</uploads/Screenshot 2023-11-13 at 17.12.52.png>)
 
 ### User levels
 
