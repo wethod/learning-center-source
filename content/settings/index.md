@@ -83,13 +83,25 @@ If you delete a capacity group associated to a list of employees, those employee
 
 Once defined, capacity groups can be associated to company employee using the [Team metadata import](https://support.wethod.com/settings/index/#import-metadata).
 
-Using the [Weekly Timesheet](https://support.wethod.com/reports/index/#weekly-timesheet) export you can appreciate capacity associate to the registered timesheet. 
+Using the Weekly [Timesheet](https://support.wethod.com/reports/index/#weekly-timesheet) export you can appreciate capacity associate to the registered timesheet.
 
 {{< note title="Note" >}}
 Changes to a capacity group are applied to the past too.
 {{< /note >}}
 
- 
+### Bank Holidays Planner
+
+Bank holidays planner define days-off.
+
+Holiday has name, date and a list of locations.
+
+Every holiday is related to at least one location.
+
+The holiday can be specific to a single date (dd/mm/yyyy) or repeated annually (dd/mm).
+
+Available hours in [Timesheet](https://support.wethod.com/friday/index/#timesheet) and weekly capacity of employees in [Weekly timesheet export](https://support.wethod.com/reports/index/#weekly-timesheet) consider holidays that are associated with the employee's location.
+
+![](</uploads/Screenshot 2023-11-13 at 12.30.26.png>)
 
 ### User levels
 
