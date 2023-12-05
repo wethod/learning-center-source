@@ -1,16 +1,16 @@
 ---
-date: 2016-03-12T19:08:11.000+00:00
+date: 2016-03-12T19:08:11.000Z
 title: Planning
-weight: "40"
 type: ''
-
+weight: '40'
 ---
+
 ## Overview
 
 The planning has two section:
 
 * **People Allocation** helps you to look for teammates availability,  resources allocation and check if the budget quota is respected.
-* **Projects' Heatmap** shows the daily amount of people planned on each project. It also offers a _milestone system_ that allows your team to have an overview on the scheduled events.
+* **Projects' Heatmap** shows the daily amount of people planned on each project. It also offers a *milestone system* that allows your team to have an overview on the scheduled events.
 * **Production Plan** where you can express the percentage of the project's total value you are going to produce in each month.
 
 Everything is arranged into a six weeks calendar, you can explore past and future using the horizontal scroll or clicking on the top right arrow navigator.
@@ -55,17 +55,15 @@ All the time slots planned for the selected project will be highlighted througho
 2. A box on the top of the page will show how many budget days and hours are available to plan, grouped by user level.
 3. If needed, you can **apply multiple filters on people**. For example, you may decide to see only the internal employees which are managers and have a background in design
    ![](/uploads/2017/11/02/planning-people-filters.png)
-4. You can use the search bar even to **filter people by** [**skill**](/settings/index/#skills), **interest or language**. Try to input something like **skill:photoshop;skill:illustrator** to find everybody who has a skill named "photoshop" and a skill named "illustrator". Type **language:italian;language:english** to find everybody who speaks “Italian” and “English", or instead type **interest:reading** to find everybody who loves reading.
+4. You can use the search bar even to **filter people by** **[skill](/settings/index/#skills)**, **interest or language**. Try to input something like **skill:photoshop;skill:illustrator** to find everybody who has a skill named "photoshop" and a skill named "illustrator". Type **language:italian;language:english** to find everybody who speaks “Italian” and “English", or instead type **interest:reading** to find everybody who loves reading.
 5. To **plan for an hour, a half day or for an entire week**, just position the mouse on the day/week you want to allocate and click to plan. Click and drag to quickly assign more than an hour, a half day or a week at once.
 
 \*If the day/week has some hours/days already planned on other projects, wethod allows you to plan the user on the remaining hours/days available for that day/week.
 
 {{< note title="Note" >}}
-
 **You cannot plan people for the current day: if you don't know what you have to do when you arrive at the office, how can you be productive?**
 
 **A project manager can plan other people on a project only if a budget exists for that project.**
-
 {{< /note >}}
 
 When you run out of days, you can choose between two options:
@@ -74,6 +72,7 @@ When you run out of days, you can choose between two options:
 * Quickly convert available budget days from another user level.
 
 ### Weekends
+
 A five days calendar (Monday to Friday) is used by default.
 
 If you enable “Use a 7-days week calendar” is enabled in [company settings](/settings/index/#company), the calendar will include Saturdays and Sundays.
@@ -85,14 +84,17 @@ If you enable “Highlight weekends” in [company settings](/settings/index/#co
 
 ![](/uploads/2022/07/15/highlight-weekend.gif)
 
+### Bank holidays
 
-**Repeat an allocation**
+Similar to weekends, [bank holidays](https://support.wethod.com/settings/index/#bank-holidays-planner) are also highlighted with a special visual pattern. For each person in this section, the holidays linked to his [company location](https://support.wethod.com/settings/index/#company-locations) are highlighted. When planning a person on a bank holiday a modal window asks if you want to proceed with the scheduling or you want to leave bank holiday days empty.
+
+### **Repeat an allocation**
 
 ![](/uploads/2020/12/18/schermata-2020-12-18-alle-18-50-00.png)
 
 1. Click "Enable recurring mode" on the top right
 2. Select the allocation you want to repeat
-3. Choose the option "Repeat allocation" 
+3. Choose the option "Repeat allocation"
 4. Select "All allocations" to repeat the whole allocation in the day/week or "Single allocation" to choose how to repeat each project
 5. Choose the pattern of repetition
 6. Select an end date for the repetition
@@ -105,11 +107,10 @@ If you enable “Highlight weekends” in [company settings](/settings/index/#co
 
 1. Click "Enable recurring mode" on the top right
 2. Select the allocation you want to remove from the future
-3. Choose the option "Remove future allocations" 
+3. Choose the option "Remove future allocations"
 4. Select an option between "All allocations" to remove the whole set of allocations from the future or "Single allocation" to remove a single allocation from the future.
 5. Select an end date.
 6. Click "Apply"
-
 
 ### Convert available budget days from another user level
 
@@ -126,18 +127,16 @@ The conversion ratio is based on the daily cost of user-levels and it’s not po
 A new version of the budget is automatically created each time a user makes a conversion.
 
 {{< note title="Note" >}}
-
 **You need to use all the available contingency to be able to convert days between levels.**
-
 {{< /note >}}
 
 ### Dealing with allocation requests
 
 Projects with job order category of type "plan upon request" cannot be planned the usual way: user needs to visit [Allocation Requests](/planning/index/#allocation-requests) and ask to be allocated.
 
-## Allocation Requests 
+## Allocation Requests
 
-Particular job order categories may expect people to ask to be planned on them, this can be the case of job order categories representing holidays, leaves or - why not - R&D projects.
+Particular job order categories may expect people to ask to be planned on them, this can be the case of job order categories representing holidays, leaves or - why not - R\&D projects.
 
 "Allocation requests" section is where all this requests can be created and managed.
 
@@ -152,19 +151,20 @@ To create a request:
 
 Once created, a request acquires the "Pending" status and:
 
-- If the selected from-to is within 14 days an “urgent” mail notification is sent to the user allocation manager, if exists. Allocation manager for a user can be set from the [team settings](/settings/index/#team) section
-- Request is displayed in people allocation using a particular pattern
+* If the selected from-to is within 14 days an “urgent” mail notification is sent to the user allocation manager, if exists. Allocation manager for a user can be set from the [team settings](/settings/index/#team) section
+* Request is displayed in people allocation using a particular pattern
 
 ![](/uploads/2022/01/17/planning_allocation-request.png)
 
 Now users with **approve permission** can see "Approve/reject" button and:
 
-- **Approve** request: it gets "Approved" status and a mail notification is sent to the user who made the request
-- **Reject** request: it gets "Rejected" status and a mail notification is sent to the user who made the request
+* **Approve** request: it gets "Approved" status and a mail notification is sent to the user who made the request
+* **Reject** request: it gets "Rejected" status and a mail notification is sent to the user who made the request
 
 Once approved, a request is shown in planning as a "normal" project. It still cannot be planned straight from here.
 
 Users with **edit permission** can edit a request like this:
+
 1. Click on the request arrow button to open its sidebar
 2. Click on the edit button
 
@@ -179,12 +179,12 @@ Creating or editing a pending request can create **conflicts** if:
 1. In the requested period there is **at least one hour already planned**
 2. In the requested period there is **at** **least one hour belonging to another request**
 
-Requests with conflicts: 
+Requests with conflicts:
 
-- Get a particular status
-- Does not appear in people allocation
-- Shows conflict days inside details sidebar
-- Cannot be approved: they can just be edited, deleted or rejected
+* Get a particular status
+* Does not appear in people allocation
+* Shows conflict days inside details sidebar
+* Cannot be approved: they can just be edited, deleted or rejected
 
 ![](/uploads/2022/01/17/allocation-requests_sidebar-conflict.png)
 
@@ -194,7 +194,7 @@ Once a week an email containing the recap of all pending planning requests is se
 
 ## Projects' Heatmap
 
-This is useful to show the _weight_ of planned people on each project: the darker is the color of a cell, the more people are planned on the project that day.
+This is useful to show the *weight* of planned people on each project: the darker is the color of a cell, the more people are planned on the project that day.
 
 The color's range is made up of 10 levels from white to blue, where the darkest blue represents the most planned people on a project in a day for the visible range of time.
 
@@ -206,9 +206,7 @@ By clicking on a day you can:
 You can hide a project by clicking on the "**X**" near the project's name.
 
 {{< note title="Note" >}}
-
 **The heatmap is always updated based on the visible projects and date range.**
-
 {{< /note >}}
 
 ![](/uploads/2017/11/15/heatmap.gif)
@@ -236,7 +234,5 @@ Use the "**Auto distribution**" function on a project to spread it's remaining p
 ![](/uploads/2019/11/18/production-plan.gif)
 
 {{< note title="Note" >}}
-
 **The production plan calendar follows ISO 8601, this means that a week belongs to a particular month only if its thursday belongs to that month**
-
 {{< /note >}}
