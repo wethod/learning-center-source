@@ -52,6 +52,8 @@ If you need to make some adjustments, you can still unarchive the project while 
 
 At the end of each day, type in here the actual hours you have spent working on the projects you are involved in. Pin to the top of the list all the projects you usually work on. You will find it easily next time.
 
+Day highlighted in yellow indicates an holiday.
+
 The **Detailed Timesheet** allows you to:
 
 * Compile timesheet day by day
