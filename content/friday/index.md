@@ -26,11 +26,15 @@ You can also insert some notes about the work you've done in each project.
 
 Pin to the top of the list all the projects you usually work on. You will find it easily next time.
 
+A yellow dot under the day number in the pop-up calendar indicates an holiday.
+
 ![](/uploads/2021/04/26/timesheet-weekly.png)
 
 If you want a more fine-grained control you can enable the **Daily mode**, this way you can input hours day by day.
 
 The **Daily mode** can be set as "daily" at company level, therefore for all team members, from the dedicated section in the [Company Settings](https://support.wethod.com/settings/index/#company "Company Settings").
+
+Day highlighted in yellow indicates an holiday.
 
 ![](/uploads/2021/04/26/timehseet-daily.png)
 
