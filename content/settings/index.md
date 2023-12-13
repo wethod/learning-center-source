@@ -65,7 +65,7 @@ You can use this import to assign different metadata to your team members. The s
 
 Here you can configure your company by setting.
 
-### Employee Capacity Groups
+### Employee Capacity Groups (Coming Soon)
 
 A capacity group can be used to define daily expected [timesheet](https://support.wethod.com/friday/index/#timesheet) for a group of users. For example, user can add a capacity group called “Capacity London” to express that London office follows a 7-hours Monday to Friday working hours policy.
 
@@ -89,7 +89,7 @@ Using the Weekly [Timesheet](https://support.wethod.com/reports/index/#weekly-ti
 Changes to a capacity group are applied to the past too.
 {{< /note >}}
 
-### Bank Holidays Planner
+### Bank Holidays Planner (Coming Soon)
 
 Bank holidays planner define days-off.
 
@@ -101,7 +101,7 @@ The holiday can be specific to a single date (dd/mm/yyyy) or repeated annually (
 
 Available hours in [Timesheet](https://support.wethod.com/friday/index/#timesheet) and weekly capacity of employees in [Weekly timesheet export](https://support.wethod.com/reports/index/#weekly-timesheet) consider holidays that are associated with the employee's location.![](</uploads/Screenshot 2023-11-13 at 12.30.26.png>)
 
-### Company Locations
+### Company Locations (Coming Soon)
 
 Locations are company working cities.
 
