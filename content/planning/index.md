@@ -84,7 +84,7 @@ If you enable “Highlight weekends” in [company settings](/settings/index/#co
 
 ![](/uploads/2022/07/15/highlight-weekend.gif)
 
-### Bank holidays
+### Bank holidays (Coming Soon)
 
 Similar to weekends, [bank holidays](https://support.wethod.com/settings/index/#bank-holidays-planner) are also highlighted with a special visual pattern. For each person in this section, the holidays linked to his [company location](https://support.wethod.com/settings/index/#company-locations) are highlighted. When planning a person on a bank holiday a modal window asks if you want to proceed with the scheduling or you want to leave bank holiday days empty.
 
