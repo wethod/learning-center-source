@@ -14,8 +14,8 @@ In this section you can see the yearly distribution for all your projects' exter
 
 For ongoing projects:
 
-* PAST MONTHS: only the ordered costs will be reflected in the external costs, following the period of supply distribution.
-* CURRENT AND FUTURE MONTHS: external costs will include both ordered costs, following the period of supply distribution, and forecasts of costs not ordered that follow the production plan curve.
+* **PAST MONTHS**: only the ordered costs will be reflected in the external costs, following the period of supply distribution.
+* **CURRENT AND FUTURE MONTHS**: external costs will include both ordered costs, following the period of supply distribution, and forecasts of costs not ordered that follow the production plan curve.
 
 For completed projects:
 
