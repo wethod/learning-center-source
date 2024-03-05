@@ -1,9 +1,8 @@
 ---
 date: 2017-05-24T10:01:45.000Z
 title: Reports
-weight: "60"
 type: ''
-
+weight: '60'
 ---
 
 ## Overview
@@ -50,7 +49,8 @@ Here are listed all the [orders](/finance/index/#orders) and [invoices](/finance
 Here is shown the trend of various [budget's](/budget/index) voices for the project:
 
 * **Revenues**: the project's final net price
-* **External Cost**: the sum of all budget's external costs, travels and expenses excluded
+* **External Cost**: the sum of all budget's external costs (travels, expenses and intercompany costs) excluded
+* **Intercompany Cost**: the sum of the external costs of all intercompany tasks in the budget (this value is only shown if there are intercompany cost tasks)
 * **Travels**: external costs related to "Travels" budget's task
 * **Expenses**: external costs related to "Expenses" budget's task
 * **Gross Margin**: final net price without external cost, travels and expenses
