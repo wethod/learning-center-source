@@ -73,7 +73,7 @@ The grey percentage under *margin* can be read as margin against revenues.
 **If project is over, projected external costs comes from sent orders and projected travels comes from**  **[travels](/finance/index/#travels)'s costs**
 {{< /note >}}
 
-![](</uploads/Schermata 2023-06-09 alle 08.11.12.png>)
+![](/uploads/economics-with-intercompany.png)
 
 ### Roadrunner Index - Days Left - Worked Hours
 
