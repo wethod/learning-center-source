@@ -311,7 +311,7 @@ Now we can proceed moving the hours:
 3. Enter the amount of hours to move towards the final project per each row you selected.Change the destination date if different from that of the selected row
 4. Press Confirm to perform the transfer
 
-![](</uploads/Screenshot 2024-03-25 alle 14.25.22.png>)
+![](</uploads/ScreenShot Tool -20240325152953.png>)
 
 ## Timesheet Log
 
