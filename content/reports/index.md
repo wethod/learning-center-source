@@ -275,6 +275,64 @@ You can chose between monthly and weekly visualization via the selector on the t
 
 ![](/uploads/2017/08/28/RRI.png)
 
+## Timesheet Report
+
+WETHOD allows you to move the worked hours between projects in order to give you the most flexible way to work.
+
+This functionality allows to redistribute logged hours from one project to another within your company.
+
+By leveraging this feature, you can efficiently manage and optimize project resources based on evolving priorities and needs.
+
+### Report
+
+Here you have a complete overview of the amount of hours each employee has assigned to each project, the table can show specific data based on the filters you can enter or you can easily search for an employee or project by typing the name or job order into the search box.
+
+### Transfer Hour
+
+To transfer hours from one project to another you must first of all
+
+1. Select a project to start from, so click on the filter on the right of the search bar\
+   ![](</uploads/Screenshot 2024-03-25 alle 14.05.06.png>)
+2. Under the Project Name section search for your project and select it.\
+   ![](</uploads/Screenshot 2024-03-25 alle 14.05.53.png>)\\
+3. Now the Transfer Hour button will be enabled and the table will show only the hours only for the project you choose.\
+   ![](</uploads/Screenshot 2024-03-25 alle 14.06.05.png>)
+
+Doing so will open a Move Timesheet Hours window, from here it will be possible to actually move the hours.
+
+{{< note title="Note" >}}
+**Make sure that the target project selected in the window is the one you want, otherwise you can search for another one either by name or by its job order.**
+{{< /note >}}
+
+Now we can proceed moving the hours:
+
+1. Select the Target project using the Target Project dropdown or the Job Order dropdown
+2. Select the row corresponding to the hours of a specific employee who worked on the project, you can also select more than one row per transfer, we suggests to perform a one big transfer for a better performance.
+3. Enter the amount of hours to move towards the final project per each row you selected.Change the destination date if different from that of the selected row
+4. Press Confirm to perform the transfer
+
+![](</uploads/Screenshot 2024-03-25 alle 14.25.22.png>)
+
+## Timesheet Log
+
+Any operation of transferring hours or recording hours on the timesheet is recorded.
+
+On this page you can consult the list of logs of the actions performed.
+
+Each column of the table is described in detail below:
+
+* Employee — The employee linked to that specific timetracking finds reference to the timesheet
+* Date — The reference timetracking date, this changes based on the timetracking mode of the operation in question which can vary from WEEKLY to DAILY to DETAILED, in the event that the operation refers to WEEKLY timetracking then in this column it will be shown on Monday of the same week.
+* Mode — The timetracking mode of the row
+* Project — the project of the row in question, this field varies if the row operation is a transfer, in which case the project from which the hours were transferred will be shown.
+* Job Order — The job order of the project from the previous column
+* Hours — The amount of hours to which the operation refers, i.e. if changes have been made to the timesheet these are the hours: added, modified or deleted. If the operation was a transfer then these are the total hours transferred.
+* Update Date — The date of the operation
+* Updated By — The name of the employee who performed the operation
+* Transferred To — If the operation was a transfer, the name of the destination project will be shown here otherwise this will be empty.
+
+We underline that this table can be searched from the appropriate bar and it is possible to apply filters to facilitate consultation.
+
 ## Project Changelog
 
 Here are listed all the changes done on value or probability of pipeline's projects.
