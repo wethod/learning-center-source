@@ -11,6 +11,7 @@ In this section you can see the yearly distribution for all your projects' exter
 
 * Orders' value follows the orders' "Period of Supply", for example: an order of 3.000 with a period from January to June will weigh 500 on each month from January to June
 * Travels' value follows the departure and return date of each Travel (if the travel is a one-way trip then all costs will weigh on the departure date).
+* Expenses are charged in the month of accrual (expense date)
 
 For ongoing projects:
 
