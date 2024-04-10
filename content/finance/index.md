@@ -1,10 +1,10 @@
 ---
-date: 2017-05-24T10:06:54.000+00:00
+date: 2017-05-24T10:06:54.000Z
 title: Finance
-weight: "70"
 type: ''
-
+weight: '70'
 ---
+
 ## Orders
 
 In this section you can see all your orders and create new ones.
@@ -13,7 +13,7 @@ In this section you can see all your orders and create new ones.
 
 ### Create a new order
 
-1. Click button _New Order_ and a sidebar will open.
+1. Click button *New Order* and a sidebar will open.
 
 ![](/uploads/2021/04/23/order-sidebar.png)
 
@@ -36,7 +36,7 @@ In this section you can see all your orders and create new ones.
 
 ### Send an order
 
-1. Click the button _Send_.
+1. Click the button *Send*.
 2. Choose a recipient for the order. To insert one or more email addresses as recipients head to the settings [Email Bot](/settings/index/#company) section.
 3. The recipient will receive an email.
 
@@ -78,11 +78,9 @@ Order's value must be lower or equal then the external costs provided in the bud
 5. You will receive an email with the spreadsheet with requested data.
 
 {{< note title="Note" >}}
-
 **You can create orders only for projects you have already provided with job order and budget.**
 
 **Order's value must be lower or equal then the external costs provided in the budget.**
-
 {{< /note >}}
 
 ## Invoices
@@ -97,9 +95,9 @@ To create an invoice:
 
 ### Edit details
 
-You can add more information about your invoice by clicking on the options button of the invoice.  
-A window with further details will show up, letting you fill in the info you need.     
-Please mind the vat rate is automatically compiled with the client's vat rate (if one has been provided).   
+You can add more information about your invoice by clicking on the options button of the invoice.\
+A window with further details will show up, letting you fill in the info you need.\
+Please mind the vat rate is automatically compiled with the client's vat rate (if one has been provided).\
 Once you're done, remember to click on the **save** button.
 
 ![](/uploads/2022/01/27/invoice-details.png)
@@ -111,7 +109,6 @@ Invoices belonging to a [multicurrency budget](/budget/index/#multicurrency-budg
 are displayed with the final net's currency. The exchange rate for the currency refers to the budget's creation date, but you can change it in any moment by editing it manually.
 
 {{< note title="Note" >}}
-
 **You can create invoices only for projects you have already provided with job order and budget**
 {{< /note >}}
 
@@ -119,17 +116,31 @@ are displayed with the final net's currency. The exchange rate for the currency 
 
 ## Client List
 
-In this section you have a list of your clients meant as companies, with details like the company name and the group they belong to.
+In this section, you will find a comprehensive list of your clients, which are represented as companies. This list includes crucial details such as the company name and the group they are associated with.
 
-Find this section in CRM > Clients > Client list.
+To access this section, navigate to CRM > Clients > Client List.
 
-![](/uploads/2021/02/15/client_list.png)
+![](</uploads/client list -crm.png>)
 
-**Add a new Company**:
+Using the search bar, you can easily hunt down your customers by their name, acronym, or the group they belong to.
 
-1. Click the "**Add**" button
-2. Fill in all the required fields
-3. Click on the “**save**” button
+You can sort your list of customers in ascending or descending alphabetical order by name, acronym, or group. To do so, simply click on the column header.
+
+Add a New Client:
+
+Adding a new customer on wethod is a piece of cake! You have a couple of options: you can create them right from your opportunity panel, or if you already have all the information, you can upload their profile directly from here, following these simple steps.
+
+Click the "Add" button.
+
+Complete all the required fields:
+
+* ​Name: in this field enter the name of the customer you want to display on wethod's pages. 
+* Acronym: this field allows you to associate an abbreviation with your customer's name. This field is what will be shown in general reports where it's necessary to display customer names in a shortened format.
+* Click the "Save" button.
+
+{{< note title="Attention!" >}}
+You won't be able to save a new customer if you haven't filled out all the required fields (those marked with an asterisk)!
+{{< /note >}}
 
 ### Client company page
 
@@ -213,7 +224,7 @@ To add a new supplier:
 3. Click on the "**save**" button
 
 {{< note title="Note" >}}
-**You can only assign tags which was previously created in the** [**"Supplier Settings"**](/settings/index/#suppliers-settings)**. Tags can be useful to catalogue the supplier with keywords (i.e. expertise, industry or geography)**
+**You can only assign tags which was previously created in the** **["Supplier Settings"](/settings/index/#suppliers-settings). Tags can be useful to catalogue the supplier with keywords (i.e. expertise, industry or geography)**
 {{< /note >}}
 
 ### Supplier's status
@@ -228,7 +239,7 @@ It is possible to add a status that determines whether a supplier is available f
 
 By default you can search suppliers by name, email, status or tags just by typing in the search bar.
 
-If you need something more, you can use these _search query_:
+If you need something more, you can use these *search query*:
 
 <table>
 <thead>
@@ -314,7 +325,7 @@ First, head to Setting > Company > Email Bot and insert the email address(es) as
 
 ### Create a new travel request:
 
-1. Click button _New Request_ and a sidebar will open.
+1. Click button *New Request* and a sidebar will open.
 
 ![](/uploads/2020/12/21/travel_requests_list_sidebar.png)
 
@@ -323,19 +334,19 @@ First, head to Setting > Company > Email Bot and insert the email address(es) as
 3. If needed, write the purpose of the travel (i.e. meeting with the client).
 4. Choose one or more categories of travel request between train, flight, car, accommodation and other.
 5. Insert the request details
-6. Click _Save_.
+6. Click *Save*.
 7. Your request will be added to the list of travel requests.
 
 ### Edit a travel request:
 
 1. Open a travel request from the list.
-2. Click _Edit_ from the top right corner of the sidebar.
+2. Click *Edit* from the top right corner of the sidebar.
 3. Edit your travel request.
-4. Click _Save_.
+4. Click *Save*.
 
 Based on a specific [permission's set](/finance/index/#permissions), some roles are able to edit other requests even when already sent.
 
-### Create _more than one travel request_ for the same travel category:
+### Create *more than one travel request* for the same travel category:
 
 ![](/uploads/2020/12/21/new_flight_category.gif)
 
@@ -343,12 +354,12 @@ Based on a specific [permission's set](/finance/index/#permissions), some roles 
 2. Hover with the mouse on the name of the travel category, on the top of the sidebar.
 3. Click "+" to create a new travel request for the same travel category
 4. Insert details.
-5. Click _Save_.
+5. Click *Save*.
 6. Your request will be added to the list of travel requests.
 
 ### Send a travel request:
 
-1. Click the button _Send_.
+1. Click the button *Send*.
 2. Choose a recipient for the request. To insert one or more email addresses as recipients head to the setting page.
 3. The recipient will receive an email with a link to your travel request.
 4. Travel request will be pending until the travel office accepts and confirms your request.
@@ -357,16 +368,16 @@ Based on a specific [permission's set](/finance/index/#permissions), some roles 
 
 When a travel request has booked, you might attach the reservation file to the travel request.
 
- 1. Head back to the travel request email by searching for the references of the email object (i.e. user name, project name, business unit).
- 2. Click the button _Take me there_.
- 3. Open the travel request.
- 4. Access to the travel category (i.e. train, flight, accommodation) for further details.
- 5. Scroll down to the "Travel Office" section at the bottom.
- 6. Insert the cost of travel or accommodation
- 7. Specify a payment method (if needed)
- 8. Upload reservations or travel tickets.
- 9. Repeat steps 5 to 8 for each of the travel categories that has a travel request.
-10. Click _Save_ on the top right corner of the sidebar.
+1. Head back to the travel request email by searching for the references of the email object (i.e. user name, project name, business unit).
+2. Click the button *Take me there*.
+3. Open the travel request.
+4. Access to the travel category (i.e. train, flight, accommodation) for further details.
+5. Scroll down to the "Travel Office" section at the bottom.
+6. Insert the cost of travel or accommodation
+7. Specify a payment method (if needed)
+8. Upload reservations or travel tickets.
+9. Repeat steps 5 to 8 for each of the travel categories that has a travel request.
+10. Click *Save* on the top right corner of the sidebar.
 11. When all the reservations are completed and uploaded, click "Submit reservation".
 12. An email with the booking confirmation will be sent to the person who made the travel request.
 
@@ -399,7 +410,7 @@ or
 ### Permissions
 
 Based on different permission sets, a specific role can:
-edit and view requests made by other users in the company. Find these requests in the section _Others_.
+edit and view requests made by other users in the company. Find these requests in the section *Others*.
 
 Project Managers will be able to view and edit travel requests made by other users only if linked to projects they are managing.
 
@@ -407,8 +418,7 @@ Permission "edit sent" enables the user to insert costs, edit and reservation fi
 
 Due to privacy concerns, it is not possible to download booking and reservation files from requests made by other people.
 
-
-## Expenses 
+## Expenses
 
 *Projects > Wallet > Expenses*
 
@@ -424,7 +434,7 @@ All expenses are listed with the following information at display:
 * Project
 * Date
 * Notes
-* Reimbursement value (always expressed in master currency) 
+* Reimbursement value (always expressed in master currency)
 
 Based on [permission roles](/settings/index/#permissions), users can view, edit, delete their own expenses and/or others' expenses.
 
@@ -445,11 +455,12 @@ Users with permission to edit others' expenses can also change the owner of the 
 * **Quantity**: whether the employer refunds a fixed value per unit. *i.e. Acme Inc. refunds the 0,10 for each marker bought by an employee. Jason, a UX designer at Acme, bought 20 markers for a design workshop he conducted with a client. Jason will be refunded 2.*
 
 ### Set a category of expense
+
 Learn how to insert categories of expenses that require a reimbursement process to pay back employees who have spent their own money for business-related expenses.
 
 1. Head to Settings > Company > Expenses.
-2. Click button _Add expense category_.
-3. Choose a _name_ for the category of expense.
+2. Click button *Add expense category*.
+3. Choose a *name* for the category of expense.
 4. Select the check box if route details are needed.
 5. Select the [type of reimbursement](/finance/index/#type-of-reimbursement).
 6. Insert the value of reimbursement (flat-rate, per mile/km, per unit or maximum).
@@ -461,17 +472,16 @@ Learn how to insert categories of expenses that require a reimbursement process 
 **To avoid retroactive changes it is not permitted to edit or delete a category of expense. Archive a category to hide it from the list.**
 {{< /note >}}
 
-
 ### How to insert a new expense
 
 1. Head to Projects > Wallet > Expenses
-2. Click button _New Expense_ and a sidebar will open.
+2. Click button *New Expense* and a sidebar will open.
 3. Insert the name of the project linked with your expense.
 4. Choose the [category of expense](/finance/index/#set-a-category-of-expense) from the list.
 5. Insert the date in which this expense occurred.
 6. If required, insert the value of expense or the amount of miles/kilometres travelled.
-7.  If required, insert location _From_ - _To_.
+7. If required, insert location *From* - *To*.
 8. Add a note.
 9. If needed, upload a file that proofs your expense (i.e. a receipt)
-10. Click _Save_.
+10. Click *Save*.
 11. Your expense will be added to the list.
