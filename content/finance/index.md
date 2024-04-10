@@ -146,7 +146,7 @@ For each company listed on your Client List, click on the arrow icon to enter th
 
 This page contains all the information related to each customer. These details can be grouped into two sections:
 
-* Client Company Details - this view includes all you client profile information, payment methods, and terms.
+* Client Company Details** **- this view includes all you client profile information, payment methods, and terms.
 * Client Dashboard - a dashboard that includes data related to performance, projects, and all opportunities associated with the client.
 
 Let's explore them one at a time!
@@ -159,13 +159,13 @@ The client company details you enter in this section are directly linked to the 
 
 Now, let's take a closer look at the main element in this panel, step by step.
 
-* Name\
+* **Name**\
   \[Required field] In this field enter the name of the customer you want to display on wethod's pages.
-* Acronym\
+* Acronym** **\
   \[Required field] This field allows you to associate an abbreviation with your customer's name. This field is what will be shown in general reports where it's necessary to display customer names in a shortened format.
-* Legal Name\
+* Legal Name** **\
   Enter your client's official business name. This detail is crucial for accurate invoicing and should match the name on the invoice.
-* Intercompany ID\
+* Intercompany ID \
   Only if your company has enabled the intercompany module, you will see this field. This field is used to uniquely associate profiles of other companies within your group. When you select the cell, a dropdown menu opens, allowing you to choose from the other companies within your group. Simply select the company name you want to associate, and you're good to go. If you don't see the company name you want to associate, it's because it's already linked to another profile.![](</uploads/CRM/intercompany ID.gif>)
 * Group\
   If your client is part of a larger group, enter the group name in this field. This enables you to filter and categorize this client in the client list based on this attribute.
@@ -200,16 +200,13 @@ Now, let's take a closer look at the main element in this panel, step by step.
 
 #### Add, Edit or Delete Clients
 
-Add
-
+Add\
 To add a client [follow these steps](https://support.wethod.com/finance/index/#add-a-new-client).
 
-Edit
-
+Edit\
 To edit the information of a client open its company details panel, click the edit button make the necessary changes, and then click save. ![](</uploads/CRM/client company details edit.gif>)
 
-Delete
-
+Delete\
 To delete a client open its company details panel, and then click the trash can icon. You'll see a pop-up asking if you're sure to proceed.
 
 If the client doesn't have any projects assigned to them and has no associated contacts, simply click on the green "Yes, delete" button to proceed.![](</uploads/CRM/delete a client - no details.gif>)
