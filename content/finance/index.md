@@ -122,7 +122,7 @@ To access this section, navigate to CRM > Clients > **Client List**.![](</upload
 
 You can sort your list of customers in ascending or descending alphabetical order by name, acronym, or group. To do so, simply click on the column header.
 
-Add a New Client:
+##### Add a New Client:
 
 Adding a new customer on wethod is a piece of cake! You have a couple of options: you can create them right from your opportunity panel, or if you already have all the information, you can upload their profile directly from here, following these simple steps.
 
