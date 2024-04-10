@@ -134,13 +134,85 @@ Complete all the required fields:
 * **Acronym**: this field allows you to associate an abbreviation with your customer's name. This field is what will be shown in general reports where it's necessary to display customer names in a shortened format.
 * Click the "**Save**" button.
 
-Once you've created a Client, you can access at its profile to add, edit, or delete information as needed at any time directly from its **[client details page](https://support.wethod.com/finance/index/#client-list)** by just clicking on the right-arrow in their row.
+Once you've created a Client, you can access at its profile to add, edit, or delete information as needed at any time directly from its **[client details page](/finance/index/#client-list)** by just clicking on the right-arrow in their row.
 
 ### Client company page
 
-For each of the company listed, click on the arrow to enter the company page.
+In this page, you'll discover all the information about your customers. Let's dive into each section point by point now.
 
-![](/uploads/2019/12/12/client-detail.gif)
+For each company listed on your Client List, click on the arrow icon to enter the company's dedicated page.
+
+![](</uploads/CRM/client page.png>)
+
+This page contains all the information related to each customer. These details can be grouped into two sections:
+
+* Client Company Details - this view includes all you client profile information, payment methods, and terms.
+* Client Dashboard - a dashboard that includes data related to performance, projects, and all opportunities associated with the client.
+
+Let's explore them one at a time!
+
+#### Company Details
+
+To access your Client Company Details, click the right arrow next to the client's name.![](</uploads/CRM/client company details.gif>)
+
+The client company details you enter in this section are directly linked to the customer and will be used for [billing information](/finance/index/#invoices) on each project, according to the settings on this customer's page.
+
+Now, let's take a closer look at the main element in this panel, step by step.
+
+* Name\
+  \[Required field] In this field enter the name of the customer you want to display on wethod's pages.
+* Acronym\
+  \[Required field] This field allows you to associate an abbreviation with your customer's name. This field is what will be shown in general reports where it's necessary to display customer names in a shortened format.
+* Legal Name\
+  Enter your client's official business name. This detail is crucial for accurate invoicing and should match the name on the invoice.
+* Intercompany ID\
+  Only if your company has enabled the intercompany module, you will see this field. This field is used to uniquely associate profiles of other companies within your group. When you select the cell, a dropdown menu opens, allowing you to choose from the other companies within your group. Simply select the company name you want to associate, and you're good to go. If you don't see the company name you want to associate, it's because it's already linked to another profile.![](</uploads/CRM/intercompany ID.gif>)
+* Group\
+  If your client is part of a larger group, enter the group name in this field. This enables you to filter and categorize this client in the client list based on this attribute.
+* Address, Town, ZIP, Country, Province\
+  Provide the complete street address, city or town, postal code, and country for your client's location. If the selected country is "Italy" you can also specify the province within Italy where your client is situated.
+* Website, Linkedin\
+  Enter your client's website and LinkedIn profiles to help keep their online presence up to date.
+* VAT Number (🇮🇹 P.Iva)\
+  If applicable, enter your client's VAT (Value Added Tax) number, which is essential for tax and invoicing purposes.
+* Tax Code (🇮🇹 Codice Fiscale)\
+  If applicable, enter your client's tax code, which is important for tax-related transactions and records.
+* SDI Code\
+  If applicable, provide your client's SDI (Sistema di Interscambio) code, which is essential for electronic invoicing and communication with public administrations in Italy.
+* Payment Condition\
+  Specify the payment conditions agreed upon with your client, ensuring smooth financial transactions and clear expectations (ex: bank transfer, cash, cheque, bank receipt...)
+* Payment Terms\
+  This field cannot be customized independently but allows you to select a predefined payment term that has been set in your [company settings](/settings/index/#payment-terms).This ensures uniformity and approval of all payment terms across your organization.
+* Bank Account\
+  This field allows you to select the specific bank account where you'd like to receive payments from this client. It cannot be newly filled out but allows you to choose from [bank accounts](/settings/index/#bank-accounts) that have been configured in your company settings.
+* VAT Rate\
+  You can't input a new value here; instead, it enables you to select a predefined VAT (Value Added Tax) rate that has been configured in your company settings.
+* Email / Email 2\
+  Enter in the email field the client's primary email address, which serves as a key contact point for communication and correspondence. If needed, provide a secondary email address for the client, which can serve as an alternate contact point for communication.
+* PEC Mail\
+  If applicable, input the client's certified email address, often required for official, invoicing and legal communications in Italy.
+* Phone\
+  Enter the client's primary contact phone number for direct communication and inquiries.
+* Notes\
+  Use this field to add any additional remarks, comments, or special instructions related to this client, helping to provide context or important details.
+* Declaration of Intent\
+  In this section, specify the date and protocol related to the declaration of intent, indicating the formal declaration's key details.
+
+#### Add, Edit or Delete Clients
+
+##### Add
+
+To add a client [follow these steps](). 
+
+ 
+
+Edit
+
+To edit the information of a client open its company details panel, click the edit button make the necessary changes, and then click save.
+
+ 
+
+ ![](/uploads/2019/12/12/client-detail.gif)
 
 Here you can find details and insights about a client, like:
 
