@@ -202,7 +202,7 @@ Now, let's take a closer look at the main element in this panel, step by step.
 
 Add
 
-To add a client follow these steps. 
+To add a client [follow these steps](https://support.wethod.com/finance/index/#add-a-new-client). 
 
 ##### Edit
 
