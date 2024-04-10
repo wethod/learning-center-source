@@ -118,9 +118,7 @@ are displayed with the final net's currency. The exchange rate for the currency 
 
 In this section, you will find a comprehensive list of your clients, which are represented as companies. This list includes crucial details such as the company name and the group they are associated with.
 
-To access this section, navigate to CRM > Clients > Client List.![](</uploads/client list -crm.png>)
-
-Using the search bar, you can easily hunt down your customers by their name, acronym, or the group they belong to.
+To access this section, navigate to CRM > Clients > **Client List**.![](</uploads/client list -crm.png>)Using the search bar, you can easily hunt down your customers by their name, acronym, or the group they belong to.
 
 You can sort your list of customers in ascending or descending alphabetical order by name, acronym, or group. To do so, simply click on the column header.
 
