@@ -134,10 +134,6 @@ Complete all the required fields:
 * Acronym: this field allows you to associate an abbreviation with your customer's name. This field is what will be shown in general reports where it's necessary to display customer names in a shortened format.
 * Click the "Save" button.
 
-{{< note title="Attention!" >}}
-You won't be able to save a new customer if you haven't filled out all the required fields (those marked with an asterisk)!
-{{< /note >}}
-
 Once you've created a Client, you can access at its profile to add, edit, or delete information as needed at any time directly from its [client details page](https://support.wethod.com/finance/index/#client-list) by just clicking on the right-arrow in their row.
 
 ### Client company page
