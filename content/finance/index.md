@@ -200,7 +200,7 @@ Now, let's take a closer look at the main element in this panel, step by step.
 
 #### Add, Edit or Delete Clients
 
-##### Add
+Add
 
 To add a client follow these steps. 
 
