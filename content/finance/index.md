@@ -219,7 +219,9 @@ You can choose you to migrate the associated data to another client; if this opt
 
 However, if you want to delete all projects and contacts related to a client, you must first manually delete these items before being able to delete the client.
 
- ![](/uploads/2019/12/12/client-detail.gif)
+#### Client Dashboard
+
+In the Client Details page, you'll discover a variety of charts that summaries the history between your client and you company.![](/uploads/2019/12/12/client-detail.gif)
 
 Here you can find details and insights about a client, like:
 
