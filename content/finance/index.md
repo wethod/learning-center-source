@@ -118,9 +118,7 @@ are displayed with the final net's currency. The exchange rate for the currency 
 
 In this section, you will find a comprehensive list of your clients, which are represented as companies. This list includes crucial details such as the company name and the group they are associated with.
 
-To access this section, navigate to CRM > Clients > Client List.
-
-![](</uploads/client list -crm.png>)
+To access this section, navigate to CRM > Clients > Client List.![](</uploads/client list -crm.png>)
 
 Using the search bar, you can easily hunt down your customers by their name, acronym, or the group they belong to.
 
@@ -141,6 +139,8 @@ Complete all the required fields:
 {{< note title="Attention!" >}}
 You won't be able to save a new customer if you haven't filled out all the required fields (those marked with an asterisk)!
 {{< /note >}}
+
+Once you've created a Client, you can access at its profile to add, edit, or delete information as needed at any time directly from its [client details page](https://support.wethod.com/finance/index/#client-list) by just clicking on the right-arrow in their row.
 
 ### Client company page
 
