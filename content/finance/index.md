@@ -120,21 +120,21 @@ In this section, you will find a comprehensive list of your clients, which are r
 
 To access this section, navigate to CRM > Clients > **Client List**.![](</uploads/client list -crm.png>)
 
-Using the **search bar**, you can easily hunt down your customers by their name, acronym, or the group they belong to.You can sort your list of customers in ascending or descending alphabetical order by name, acronym, or group. To do so, simply click on the column header.
+Using the **search bar**, you can easily hunt down your customers by their name, acronym, or the group they belong to.You can **sort** your list of customers in ascending or descending alphabetical order by name, acronym, or group. To do so, simply click on the column header.
 
-#### Add a New Client:
+#### **Add a new client:**
 
 Adding a new customer on wethod is a piece of cake! You have a couple of options: you can create them right from your opportunity panel, or if you already have all the information, you can upload their profile directly from here, following these simple steps.
 
-Click the "Add" button.
+Click the "**Add**" button.
 
 Complete all the required fields:
 
-* ​Name: in this field enter the name of the customer you want to display on wethod's pages. 
-* Acronym: this field allows you to associate an abbreviation with your customer's name. This field is what will be shown in general reports where it's necessary to display customer names in a shortened format.
-* Click the "Save" button.
+* ​**Name**: in this field enter the name of the customer you want to display on wethod's pages.
+* **Acronym**: this field allows you to associate an abbreviation with your customer's name. This field is what will be shown in general reports where it's necessary to display customer names in a shortened format.
+* Click the "**Save**" button.
 
-Once you've created a Client, you can access at its profile to add, edit, or delete information as needed at any time directly from its [client details page](https://support.wethod.com/finance/index/#client-list) by just clicking on the right-arrow in their row.
+Once you've created a Client, you can access at its profile to add, edit, or delete information as needed at any time directly from its **[client details page](https://support.wethod.com/finance/index/#client-list)** by just clicking on the right-arrow in their row.
 
 ### Client company page
 
