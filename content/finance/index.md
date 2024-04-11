@@ -235,7 +235,105 @@ This revenue clock is based only on the specific client data. It's like a **visu
 * The **gray** **part** is like a **countdown**, telling you how many weeks are left in the year.
 * The **blue part** is about the **value** of **ongoing opportunities and projects** with the client. It's calculated based on how likely they are to succeed and their value.
 * The **green part** is the **work you've already done for the client**, updated weekly by the project status added by the project managers.
-* In the middle is our **revenue target for the year**. You can set it in the Revenue Target section. 
+* In the middle is our **revenue target for the year**. You can set it in the [Revenue Target section](/revenues/index/#revenues-target). 
+
+##### **Invoices - Client**
+
+The invoice widget in this page displays a list of invoices that need to be sent out for that specific client, following the [project's invoice plan](/pipeline/index/#invoice-plan).
+
+If an alert is marked in **red**, it's a **high-priority** task because the invoice should have been sent in the past. If it's **yellow**, it means the invoice is **due for this month** or the next one; if it has **no color** it means the invoice is planned for a **future date**.
+
+##### **Filter your data view**
+
+The charts below typically show data for the current year, broken down into quarterly views. But if you'd like, you can switch things up by using the selector at the top right of the insights to check out data from the past 3 or 5 years.
+
+##### **Revenues - Client**
+
+This chart presents a visual comparison of quarterly targets and production value for a client.
+
+The **yellow bars** represent the **revenue targets** established for each quarter, providing a clear benchmark for expected performance. The **blue histogram** depicts the **total value of the production plans** for the client's projects.
+
+For past and completed months, the blue bars indicate the actual production value, confirmed by the weekly project status done by the project managers. This means that for the quarters that are complete, the production plan figures match the actual revenue generated.
+
+For the ongoing and future quarters, the blue bars are based on the estimated production plan of the client's projects. These estimates are projections that will be updated as more project statuses are confirmed.
+
+The chart provides a snapshot of current and forecasted performance against targets, offering an at-a-glance indication of how closely the production aligns with goals throughout the year.
+
+The chart's legend feature lets you tweak how you see things based on what you're checking out. Just click on 'Revenues' or 'Target,' and you can turn the blue bars on or off for the revenue or the yellow ones for the revenue targets. It makes the view more flexible, so you can focus on one set of data at a time, making it super handy for diving deep into the details or when you're showing the data to others.
+
+##### **Won projects' value - Client**
+
+This chart displays the value of projects won by quarter, representing the instances when the client have approved projects, which is a separate metric from when revenue is actually generated from production. This distinction is crucial because it separates the sales success from the operational execution.
+
+It tracks the success of the sales team in securing projects. This is an indicator of market success and potential future revenue.
+
+##### **Sparklines**
+
+This is series of five performance indicators, each one of them is represented by a sparkline graph that depicts the trend over selected period.
+
+Sparklines are color-coded to emphasize trends:
+
+* **Red** indicates that the last value is worse than the first one.
+* **Blue** suggests that the first and last values are the same.
+* **Green** signifies that the last value is better than the first one. 
+
+##### Won Projects
+
+##### This metric shows the number of projects won (with 90% or 100% probability of success) by the company across the periods.
+
+##### Proposals
+
+Indicates the number of projects that reached a 90% probability of success (won) or dropped to a 0% probability (lost). \[This indicates the number of proposals submitted to potential clients.]
+
+##### Average Project Value
+
+It represents the average economic size of all won projects.
+
+##### Conversion Rate
+
+This shows the success rate of converting proposals into won projects.
+
+##### Average Profitability
+
+This metric displays the average profitability percentage of all won projects within the selected time range.
+
+##### Won projects
+
+In this list you will find all your client projects with a 90% or 100% probability.
+
+##### Lost Projects
+
+In this list you will find all your client projects with 0% probability.
+
+##### Outstanding Projects
+
+In this list you will find all your client projects with a probability between 10% and 75%.
+
+As the case shown above, if you see the message "There's nothing here! What about starting a new project?", it means there are no projects for that client in that particular status.
+
+🌈 For the won/lost project you can see the "Won/Lost Feedback" feature when you enable the related job order category's flag in the company settings.
+
+##### Contacts
+
+At the bottom of the client details page, you'll find a summary of the client's contacts. Here, you'll see their names, roles, and email addresses.
+
+If you want to explore a contact's details further, click on the right arrow in their row to open their contact panel. Here, you can make changes, add, or delete information as needed.
+
+##### Add a new contact
+
+To add a new contact to one of your client you have a couple of options: you can create them right from your opportunity panel, or if you already have all the information, you can upload their profile directly from here, following these simple steps.
+
+* Click the "Add" button.
+* Complete all the required fields:\
+  ​- Name: enter the contact's name.\
+  \- Surname: ​type his/her surname.\
+  \- Company: on this page, the dafault suggested company name corresponds to the customer profile you're currently adding the contact to.\
+  \- Email: type the contact's email address.
+* Click the "Save" button.
+
+If you want to uncover more information about the selected contact, click on the arrow in the panel to access their complete profile.
+
+After taking a look at the list, you can dive into all the details about a client by just clicking on the right-arrow in their row.
 
 Here you can find details and insights about a client, like:
 
