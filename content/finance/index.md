@@ -202,24 +202,27 @@ Now, let's take a closer look at the main element in this panel, step by step.
 
 #### Add, Edit or Delete Clients
 
-Add\
+##### Add
+
 To add a client [follow these steps](https://support.wethod.com/finance/index/#add-a-new-client).
 
-Edit\
+##### Edit
+
 To edit the information of a client open its company details panel, click the edit button make the necessary changes, and then click save. ![](</uploads/CRM/client company details edit.gif>)
 
-Delete\
+##### Delete
+
 To delete a client open its company details panel, and then click the trash can icon. You'll see a pop-up asking if you're sure to proceed.
 
-If the client doesn't have any projects assigned to them and has no associated contacts, simply click on the green "Yes, delete" button to proceed.![](</uploads/CRM/delete a client - no details.gif>)
+If the client **doesn't have any projects assigned** to them and has no associated contacts, simply click on the green "**Yes, delete**" button to proceed.![](</uploads/CRM/delete a client - no details.gif>)
 
-If the client has projects assigned to them and/or associated contacts, after clicking the green "Yes, delete" button, you'll see another pop-up warning that you can't delete the client due to associated data.
+If the client **has projects assigned** to them and/or associated contacts, after clicking the green "Yes, delete" button, you'll see another pop-up warning that you can't delete the client due to associated data.
 
-You can choose you to migrate the associated data to another client; if this option suits your needs - for example, if you've identified a duplicate client - select the customer to whom you want to transfer all existing projects in the "choose new client" bar (please note that the receiving customer profile must already exist; you cannot create a new one from this panel) and click "Delete and Replace".
+You can choose you to **migrate** the associated data to another client; if this option suits your needs - for example, if you've identified a duplicate client - select the customer to whom you want to transfer all existing projects in the "choose new client" bar (please note that the receiving customer profile must already exist; you cannot create a new one from this panel) and click "**Delete and Replace**".
 
 ![](</uploads/delete a client- details.gif>)
 
-However, if you want to delete all projects and contacts related to a client, you must first manually delete these items before being able to delete the client.
+However, if you want to **delete all projects and contacts** related to a client, you must first **manually delete** these items before being able to delete the client.
 
 #### Client Dashboard
 
