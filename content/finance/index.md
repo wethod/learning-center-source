@@ -146,7 +146,7 @@ For each company listed on your Client List, click on the arrow icon to enter th
 
 This page contains all the information related to each customer. These details can be grouped into two sections:
 
-* **Client Company Details** - this view includes all you client profile information, payment methods, and terms.
+* [**Client Company Details** ]()- this view includes all you client profile information, payment methods, and terms.
 * **Client Dashboard** - a dashboard that includes data related to performance, projects, and all opportunities associated with the client.
 
 Let's explore them one at a time!
