@@ -136,7 +136,7 @@ Complete all the required fields:
 
 Once you've created a Client, you can access at its profile to add, edit, or delete information as needed at any time directly from its **[client details page](/finance/index/#client-list)** by just clicking on the right-arrow in their row.
 
-## Client company page
+## Client Details
 
 In this page, you'll discover all the information about your customers. Let's dive into each section point by point now.
 
