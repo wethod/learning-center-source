@@ -560,3 +560,17 @@ Learn how to insert categories of expenses that require a reimbursement process 
 9. If needed, upload a file that proofs your expense (i.e. a receipt)
 10. Click *Save*.
 11. Your expense will be added to the list.
+
+# Heading 1 - **Heading 1 - ***Heading 1*
+
+## Heading 2 - Heading 2 - Heading 2
+
+### Heading 3 - **Heading 3** - *Heading 3*
+
+#### Heading 4 - **Heading 4** - *Heading 4*
+
+##### Heading 5 - **Heading 5 **- *Heading 5* 
+
+###### Heading 6 - **Heading 6** - *Heading 6*
+
+paragraph - paragraph bold - paragraph italic
