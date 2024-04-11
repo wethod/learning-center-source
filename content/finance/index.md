@@ -146,12 +146,12 @@ For each company listed on your Client List, click on the arrow icon to enter th
 
 This page contains all the information related to each customer. These details can be grouped into two sections:
 
-* **[Client Company Details]()** - this view includes all you client profile information, payment methods, and terms.
+* **Client Company Details** - this view includes all you client profile information, payment methods, and terms.
 * **Client Dashboard** - a dashboard that includes data related to performance, projects, and all opportunities associated with the client.
 
 Let's explore them one at a time!
 
-#### Company Details
+### Company Details
 
 To access your Client Company Details, click the right arrow next to the client's name.![](</uploads/CRM/client company details.gif>)
 
@@ -161,12 +161,12 @@ Now, let's take a closer look at the main element in this panel, step by step.
 
 * **Name**\
   \[Required field] In this field enter the name of the customer you want to display on wethod's pages.
-* Acronym\
+* **Acronym**\
   \[Required field] This field allows you to associate an abbreviation with your customer's name. This field is what will be shown in general reports where it's necessary to display customer names in a shortened format.
-* Legal Name\
+* **Legal Name**\
   Enter your client's official business name. This detail is crucial for accurate invoicing and should match the name on the invoice.
-* Intercompany ID\
-  Only if your company has enabled the intercompany module, you will see this field. This field is used to uniquely associate profiles of other companies within your group. When you select the cell, a dropdown menu opens, allowing you to choose from the other companies within your group. Simply select the company name you want to associate, and you're good to go. If you don't see the company name you want to associate, it's because it's already linked to another profile.![](</uploads/CRM/intercompany ID (1).gif>)
+* **Intercompany ID**\
+  Only if your company has **enabled the intercompany module**, you will see this field. This field is used to uniquely associate profiles of other companies within your group. When you select the cell, a dropdown menu opens, allowing you to choose from the other companies within your group. Simply select the company name you want to associate, and you're good to go. If you don't see the company name you want to associate, it's because it's already linked to another profile.![](</uploads/CRM/intercompany ID (1).gif>)
 * Group\
   If your client is part of a larger group, enter the group name in this field. This enables you to filter and categorize this client in the client list based on this attribute.
 * Address, Town, ZIP, Country, Province\
