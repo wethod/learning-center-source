@@ -210,7 +210,7 @@ To add a client [follow these steps](https://support.wethod.com/finance/index/#a
 
 To edit the information of a client open its company details panel, click the edit button make the necessary changes, and then click save. ![](</uploads/CRM/client company details edit.gif>)
 
-##### Delete
+#### Delete
 
 To delete a client open its company details panel, and then click the trash can icon. You'll see a pop-up asking if you're sure to proceed.
 
