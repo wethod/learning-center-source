@@ -124,6 +124,8 @@ Using the **search bar**, you can easily hunt down your customers by their name,
 
 #### **Add a new client:**
 
+### **Add a new client: - new**
+
 Adding a new customer on wethod is a piece of cake! You have a couple of options: you can create them right from your opportunity panel, or if you already have all the information, you can upload their profile directly from here, following these simple steps.
 
 Click the "**Add**" button.
