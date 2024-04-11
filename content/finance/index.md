@@ -122,9 +122,7 @@ To access this section, navigate to CRM > Clients > **Client List**.![](</upload
 
 Using the **search bar**, you can easily hunt down your customers by their name, acronym, or the group they belong to.You can **sort** your list of customers in ascending or descending alphabetical order by name, acronym, or group. To do so, simply click on the column header.
 
-#### **Add a new client:**
-
-### **Add a new client: - new**
+### **Add a new client:**
 
 Adding a new customer on wethod is a piece of cake! You have a couple of options: you can create them right from your opportunity panel, or if you already have all the information, you can upload their profile directly from here, following these simple steps.
 
@@ -138,7 +136,7 @@ Complete all the required fields:
 
 Once you've created a Client, you can access at its profile to add, edit, or delete information as needed at any time directly from its **[client details page](/finance/index/#client-list)** by just clicking on the right-arrow in their row.
 
-### Client company page
+## Client company page
 
 In this page, you'll discover all the information about your customers. Let's dive into each section point by point now.
 
