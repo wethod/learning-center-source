@@ -184,11 +184,11 @@ Now, let's take a closer look at the main element in this panel, step by step.
 * Payment Condition\
   Specify the payment conditions agreed upon with your client, ensuring smooth financial transactions and clear expectations (ex: bank transfer, cash, cheque, bank receipt...)
 * Payment Terms\
-  This field cannot be customized independently but allows you to select a predefined payment term that has been set in your [company settings]().This ensures uniformity and approval of all payment terms across your organization.
+  This field cannot be customized independently but allows you to select a predefined payment term that has been set in your [company settings](/settings/index/#payment-terms).This ensures uniformity and approval of all payment terms across your organization.
 * Bank Account\
   This field allows you to select the specific bank account where you'd like to receive payments from this client. It cannot be newly filled out but allows you to choose from bank accounts that have been configured in your [company settings](/settings/index/#bank-accounts).
 * VAT Rate\
-  You can't input a new value here; instead, it enables you to select a predefined VAT (Value Added Tax) rate that has been configured in your company settings.
+  You can't input a new value here; instead, it enables you to select a predefined VAT (Value Added Tax) rate that has been configured in your [company settings](/settings/index/#vat-rates).
 * Email / Email 2\
   Enter in the email field the client's primary email address, which serves as a key contact point for communication and correspondence. If needed, provide a secondary email address for the client, which can serve as an alternate contact point for communication.
 * PEC Mail\
