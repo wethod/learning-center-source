@@ -167,6 +167,8 @@ Now, let's take a closer look at the main element in this panel, step by step.
   Enter your client's official business name. This detail is crucial for accurate invoicing and should match the name on the invoice.
 * **Intercompany ID**\
   Only if your company has **enabled the intercompany module**, you will see this field. This field is used to uniquely associate profiles of other companies within your group. When you select the cell, a dropdown menu opens, allowing you to choose from the other companies within your group. Simply select the company name you want to associate, and you're good to go. If you don't see the company name you want to associate, it's because it's already linked to another profile.![](</uploads/CRM/intercompany ID (1).gif>)
+* Legal Name\
+  Enter your client's official business name. This detail is crucial for accurate invoicing and should match the name on the invoice.
 * Group\
   If your client is part of a larger group, enter the group name in this field. This enables you to filter and categorize this client in the client list based on this attribute.
 * Address, Town, ZIP, Country, Province\
@@ -182,11 +184,11 @@ Now, let's take a closer look at the main element in this panel, step by step.
 * Payment Condition\
   Specify the payment conditions agreed upon with your client, ensuring smooth financial transactions and clear expectations (ex: bank transfer, cash, cheque, bank receipt...)
 * Payment Terms\
-  This field cannot be customized independently but allows you to select a predefined payment term that has been set in your [company settings](/settings/index/#payment-terms).This ensures uniformity and approval of all payment terms across your organization.
+  This field cannot be customized independently but allows you to select a predefined payment term that has been set in your company settings.This ensures uniformity and approval of all payment terms across your organization.
 * Bank Account\
-  This field allows you to select the specific bank account where you'd like to receive payments from this client. It cannot be newly filled out but allows you to choose from [bank accounts](/settings/index/#bank-accounts) that have been configured in your company settings.
+  This field allows you to select the specific bank account where you'd like to receive payments from this client. It cannot be newly filled out but allows you to choose from bank accounts that have been configured in your [company settings](/settings/index/#bank-accounts).
 * VAT Rate\
-  You can't input a new value here; instead, it enables you to select a predefined VAT (Value Added Tax) rate that has been configured in your company settings.
+  You can't input a new value here; instead, it enables you to select a predefined VAT (Value Added Tax) rate that has been configured in your [company settings]().
 * Email / Email 2\
   Enter in the email field the client's primary email address, which serves as a key contact point for communication and correspondence. If needed, provide a secondary email address for the client, which can serve as an alternate contact point for communication.
 * PEC Mail\
