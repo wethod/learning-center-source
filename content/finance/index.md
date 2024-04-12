@@ -200,17 +200,17 @@ Now, let's take a closer look at the main element in this panel, step by step.
 * Declaration of Intent\
   In this section, specify the date and protocol related to the declaration of intent, indicating the formal declaration's key details.
 
-#### Add, Edit or Delete Clients
+### Add, Edit or Delete Clients
 
-#### Add
+### Add
 
 To add a client [follow these steps](https://support.wethod.com/finance/index/#add-a-new-client).
 
-#### Edit
+### Edit
 
 To edit the information of a client open its company details panel, click the edit button make the necessary changes, and then click save. ![](</uploads/CRM/client company details edit.gif>)
 
-#### Delete
+### Delete
 
 To delete a client open its company details panel, and then click the trash can icon. You'll see a pop-up asking if you're sure to proceed.
 
@@ -224,11 +224,11 @@ You can choose you to **migrate** the associated data to another client; if this
 
 However, if you want to **delete all projects and contacts** related to a client, you must first **manually delete** these items before being able to delete the client.
 
-#### Client Dashboard
+### Client Dashboard
 
 In the Client Details page, you'll discover a variety of charts that summaries the history between your client and you company.![](/uploads/2019/12/12/client-detail.gif)
 
-##### **The revenue clock for the current year - Client**
+#### **The revenue clock for the current year - Client**
 
 This revenue clock is based only on the specific client data. It's like a **visual progress tracker**! Picture a round chart divided into three colors, showing different aspects of the client's revenue.
 
@@ -277,23 +277,23 @@ Sparklines are color-coded to emphasize trends:
 * **Blue** suggests that the first and last values are the same.
 * **Green** signifies that the last value is better than the first one. 
 
-##### Won Projects
+##### *Won Projects*
 
-##### This metric shows the number of projects won (with 90% or 100% probability of success) by the company across the periods.
+This metric shows the number of projects won (with 90% or 100% probability of success) by the company across the periods.
 
-##### Proposals
+##### *Proposals*
 
 Indicates the number of projects that reached a 90% probability of success (won) or dropped to a 0% probability (lost). \[This indicates the number of proposals submitted to potential clients.]
 
-##### Average Project Value
+##### *Average Project Value*
 
 It represents the average economic size of all won projects.
 
-##### Conversion Rate
+##### *Conversion Rate*
 
 This shows the success rate of converting proposals into won projects.
 
-##### Average Profitability
+##### *Average Profitability*
 
 This metric displays the average profitability percentage of all won projects within the selected time range.
 
