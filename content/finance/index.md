@@ -167,7 +167,7 @@ Now, let's take a closer look at the main element in this panel, step by step.
   Enter your client's official business name. This detail is crucial for accurate invoicing and should match the name on the invoice.
 * **Intercompany ID**\
   Only if your company has **enabled the intercompany module**, you will see this field. This field is used to uniquely associate profiles of other companies within your group. When you select the cell, a dropdown menu opens, allowing you to choose from the other companies within your group. Simply select the company name you want to associate, and you're good to go. If you don't see the company name you want to associate, it's because it's already linked to another profile.
-* **Legal Name1**\
+* **Legal Name**\
   Enter your client's official business name. This detail is crucial for accurate invoicing and should match the name on the invoice.
 * Group\
   If your client is part of a larger group, enter the group name in this field. This enables you to filter and categorize this client in the client list based on this attribute.
