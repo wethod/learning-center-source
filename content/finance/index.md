@@ -235,7 +235,9 @@ This revenue clock is based only on the specific client data. It's like a **visu
 * The **gray** **part** is like a **countdown**, telling you how many weeks are left in the year.
 * The **blue part** is about the **value** of **ongoing opportunities and projects** with the client. It's calculated based on how likely they are to succeed and their value.
 * The **green part** is the **work you've already done for the client**, updated weekly by the project status added by the project managers.
-* In the middle is our **revenue target for the year**. You can set it in the [Revenue Target section](/revenues/index/#revenues-target).![](</uploads/CRM/Revenue Clock client.png>)
+* In the middle is our **revenue target for the year**. You can set it in the [Revenue Target section](/revenues/index/#revenues-target).
+
+![](/uploads/CRM/image.png)
 
 #### **Invoices - Client**
 
