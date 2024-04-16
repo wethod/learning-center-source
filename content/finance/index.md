@@ -173,44 +173,44 @@ Now, let's take a closer look at the main element in this panel, step by step.
   If your client is part of a larger group, enter the group name in this field. This enables you to filter and categorize this client in the client list based on this attribute.
 * **Address, Town, ZIP, Country, Province**\
   Provide the complete street address, city or town, postal code, and country for your client's location. If the selected country is "Italy" you can also specify the province within Italy where your client is situated.
-* Website, Linkedin\
+* **Website, Linkedin**\
   Enter your client's website and LinkedIn profiles to help keep their online presence up to date.
-* VAT Number (🇮🇹 P.Iva)\
+* **VAT Number (🇮🇹 P.Iva)**\
   If applicable, enter your client's VAT (Value Added Tax) number, which is essential for tax and invoicing purposes.
-* Tax Code (🇮🇹 Codice Fiscale)\
+* **Tax Code (🇮🇹 Codice Fiscale)**\
   If applicable, enter your client's tax code, which is important for tax-related transactions and records.
-* SDI Code\
+* **SDI Code**\
   If applicable, provide your client's SDI (Sistema di Interscambio) code, which is essential for electronic invoicing and communication with public administrations in Italy.
-* Payment Condition\
+* **Payment Condition**\
   Specify the payment conditions agreed upon with your client, ensuring smooth financial transactions and clear expectations (ex: bank transfer, cash, cheque, bank receipt...)
-* Payment Terms\
+* **Payment Terms**\
   This field cannot be customized independently but allows you to select a predefined payment term that has been set in your [company settings](/settings/index/#payment-terms).This ensures uniformity and approval of all payment terms across your organization.
-* Bank Account\
+* **Bank Account**\
   This field allows you to select the specific bank account where you'd like to receive payments from this client. It cannot be newly filled out but allows you to choose from bank accounts that have been configured in your [company settings](/settings/index/#bank-accounts).
-* VAT Rate\
+* **VAT Rate**\
   You can't input a new value here; instead, it enables you to select a predefined VAT (Value Added Tax) rate that has been configured in your [company settings](/settings/index/#vat-rates).
-* Email / Email 2\
+* **Email / Email 2**\
   Enter in the email field the client's primary email address, which serves as a key contact point for communication and correspondence. If needed, provide a secondary email address for the client, which can serve as an alternate contact point for communication.
-* PEC Mail\
+* **PEC Mail**\
   If applicable, input the client's certified email address, often required for official, invoicing and legal communications in Italy.
-* Phone\
+* **Phone**\
   Enter the client's primary contact phone number for direct communication and inquiries.
-* Notes\
+* **Notes**\
   Use this field to add any additional remarks, comments, or special instructions related to this client, helping to provide context or important details.
-* Declaration of Intent\
+* **Declaration of Intent**\
   In this section, specify the date and protocol related to the declaration of intent, indicating the formal declaration's key details.
 
 ### Add, Edit or Delete Clients
 
-### Add
+#### Add
 
 To add a client [follow these steps](https://support.wethod.com/finance/index/#add-a-new-client).
 
-### Edit
+#### Edit
 
 To edit the information of a client open its company details panel, click the edit button make the necessary changes, and then click save. ![](</uploads/CRM/client company details edit.gif>)
 
-### Delete
+#### Delete
 
 To delete a client open its company details panel, and then click the trash can icon. You'll see a pop-up asking if you're sure to proceed.
 
@@ -237,17 +237,17 @@ This revenue clock is based only on the specific client data. It's like a **visu
 * The **green part** is the **work you've already done for the client**, updated weekly by the project status added by the project managers.
 * In the middle is our **revenue target for the year**. You can set it in the [Revenue Target section](/revenues/index/#revenues-target).![](</uploads/CRM/Revenue Clock client.png>)
 
-##### **Invoices - Client**
+#### **Invoices - Client**
 
 The invoice widget in this page displays a list of invoices that need to be sent out for that specific client, following the [project's invoice plan](/pipeline/index/#invoice-plan).
 
 If an alert is marked in **red**, it's a **high-priority** task because the invoice should have been sent in the past. If it's **yellow**, it means the invoice is **due for this month** or the next one; if it has **no color** it means the invoice is planned for a **future date**.
 
-##### **Filter your data view**
+#### **Filter your data view**
 
 The charts below typically show data for the current year, broken down into quarterly views. But if you'd like, you can switch things up by using the selector at the top right of the insights to check out data from the past 3 or 5 years.
 
-##### **Revenues - Client**
+#### **Revenues - Client**
 
 This chart presents a visual comparison of quarterly targets and production value for a client.
 
@@ -261,13 +261,13 @@ The chart provides a snapshot of current and forecasted performance against targ
 
 The chart's legend feature lets you tweak how you see things based on what you're checking out. Just click on 'Revenues' or 'Target,' and you can turn the blue bars on or off for the revenue or the yellow ones for the revenue targets. It makes the view more flexible, so you can focus on one set of data at a time, making it super handy for diving deep into the details or when you're showing the data to others.
 
-##### **Won projects' value - Client**
+#### **Won projects' value - Client**
 
 This chart displays the value of projects won by quarter, representing the instances when the client have approved projects, which is a separate metric from when revenue is actually generated from production. This distinction is crucial because it separates the sales success from the operational execution.
 
 It tracks the success of the sales team in securing projects. This is an indicator of market success and potential future revenue.
 
-##### **Sparklines**
+#### Sparkines
 
 This is series of five performance indicators, each one of them is represented by a sparkline graph that depicts the trend over selected period.
 
@@ -277,35 +277,35 @@ Sparklines are color-coded to emphasize trends:
 * **Blue** suggests that the first and last values are the same.
 * **Green** signifies that the last value is better than the first one.
 
-##### *Won Projects*
+#### **Won Projects**
 
 This metric shows the number of projects won (with 90% or 100% probability of success) by the company across the periods.
 
-##### *Proposals*
+#### Proposals
 
 Indicates the number of projects that reached a 90% probability of success (won) or dropped to a 0% probability (lost). \[This indicates the number of proposals submitted to potential clients.]
 
-##### *Average Project Value*
+#### Average Project Value
 
 It represents the average economic size of all won projects.
 
-##### *Conversion Rate*
+#### Conversion Rate
 
 This shows the success rate of converting proposals into won projects.
 
-##### *Average Profitability*
+#### Average Profitability
 
 This metric displays the average profitability percentage of all won projects within the selected time range.
 
-##### Won projects
+#### Won projects
 
 In this list you will find all your client projects with a 90% or 100% probability.
 
-##### Lost Projects
+#### Lost Projects
 
 In this list you will find all your client projects with 0% probability.
 
-##### Outstanding Projects
+#### Outstanding Projects
 
 In this list you will find all your client projects with a probability between 10% and 75%.
 
@@ -313,52 +313,23 @@ As the case shown above, if you see the message "There's nothing here! What abou
 
 🌈 For the won/lost project you can see the "Won/Lost Feedback" feature when you enable the related job order category's flag in the company settings.
 
-##### Contacts
+#### Contacts
 
 At the bottom of the client details page, you'll find a summary of the client's contacts. Here, you'll see their names, roles, and email addresses.
 
 If you want to explore a contact's details further, click on the right arrow in their row to open their contact panel. Here, you can make changes, add, or delete information as needed.
 
-##### Add a new contact
+#### Add a new contact
 
 To add a new contact to one of your client you have a couple of options: you can create them right from your opportunity panel, or if you already have all the information, you can upload their profile directly from here, following these simple steps.
 
-* Click the "Add" button.
+* Click the "**Add**" button.
 * Complete all the required fields:\
   ​- Name: enter the contact's name.\
   \- Surname: ​type his/her surname.\
   \- Company: on this page, the dafault suggested company name corresponds to the customer profile you're currently adding the contact to.\
   \- Email: type the contact's email address.
 * Click the "Save" button.
-
-If you want to uncover more information about the selected contact, click on the arrow in the panel to access their complete profile.
-
-After taking a look at the list, you can dive into all the details about a client by just clicking on the right-arrow in their row.
-
-Here you can find details and insights about a client, like:
-
-* It's [revenue clock](/dashboard/index/#revenue-clock) for the current year
-* All the **invoices** that need to be sent for that client
-* The **revenues** for the client grouped by years or quarters. Targets are displayed in orange and you can set them in the [revenues target](/revenues/index/#revenues-target) section
-* The value of the **won projects** for the client grouped by years or quarters (click on a column to further filter the insights below on the selected time range)
-* Sparklines:
-  * **Won projects** that are all the projects with a 90% or 100% probability
-  * **Proposals** the number of project that reached 90% (won) or went down to 0% (lost)
-  * **Avg. Project Value** the average value of all the won projects
-  * **Conversion Rate** the ratio between won projects and proposals
-  * **Avg. Profitability**: the average margin of all the won projects in the selected time range
-* **Won projects** that are all the projects with a 90% or 100% probability
-* **Lost projects** that are all the projects with a 0% probability
-* **Outstanding projects** that are all the projects with a probability between 10% and 75%
-* All the **contacts** for this client
-
-The **Won/lost feedback** shows up when you enable the related job order category's flag in the [company](/settings/index/#company) section.
-
-Sparklines comes in different colors to highlight the trend:
-
-* Red if the last value if worse than the first one
-* Blue if first and last value are the same
-* Green if the last value if better than the first one
 
 ## Contacts
 
