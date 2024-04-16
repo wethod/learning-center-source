@@ -323,7 +323,7 @@ If you want to explore a contact's details further, click on the right arrow in 
 
 #### Add a new contact
 
-To add a new contact to one of your client you have a couple of options: you can create them right from your opportunity panel, or if you already have all the information, you can upload their profile directly from here, following these simple steps.
+To add a [new contact](finance/index/#contacts-1) to one of your client you have a couple of options: you can create them right from your opportunity panel, or if you already have all the information, you can upload their profile directly from here, following these simple steps.
 
 * Click the "**Add**" button.
 * Complete all the required fields:\
