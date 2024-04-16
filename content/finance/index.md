@@ -228,7 +228,7 @@ However, if you want to **delete all projects and contacts** related to a client
 
 In the Client Details page, you'll discover a variety of charts that summaries the history between your client and you company.![](/uploads/2019/12/12/client-detail.gif)
 
-#### **The revenue clock for the current year - Client**
+#### The revenue clock for the current year - Client
 
 This revenue clock is based only on the specific client data. It's like a **visual progress tracker**! Picture a round chart divided into three colors, showing different aspects of the client's revenue.
 
@@ -239,17 +239,17 @@ This revenue clock is based only on the specific client data. It's like a **visu
 
 ![](/uploads/CRM/image.png)
 
-#### **Invoices - Client**
+#### Invoices - Client
 
 The invoice widget in this page displays a list of invoices that need to be sent out for that specific client, following the [project's invoice plan](/pipeline/index/#invoice-plan).
 
 If an alert is marked in **red**, it's a **high-priority** task because the invoice should have been sent in the past. If it's **yellow**, it means the invoice is **due for this month** or the next one; if it has **no color** it means the invoice is planned for a **future date**.
 
-#### **Filter your data view**
+#### Filter your data view
 
 The charts below typically show data for the current year, broken down into quarterly views. But if you'd like, you can switch things up by using the selector at the top right of the insights to check out data from the past 3 or 5 years.
 
-#### **Revenues - Client**
+#### Revenues - Client
 
 This chart presents a visual comparison of quarterly targets and production value for a client.
 
@@ -263,7 +263,7 @@ The chart provides a snapshot of current and forecasted performance against targ
 
 The chart's legend feature lets you tweak how you see things based on what you're checking out. Just click on 'Revenues' or 'Target,' and you can turn the blue bars on or off for the revenue or the yellow ones for the revenue targets. It makes the view more flexible, so you can focus on one set of data at a time, making it super handy for diving deep into the details or when you're showing the data to others.
 
-#### **Won projects' value - Client**
+#### Won projects' value - Client
 
 This chart displays the value of projects won by quarter, representing the instances when the client have approved projects, which is a separate metric from when revenue is actually generated from production. This distinction is crucial because it separates the sales success from the operational execution.
 
@@ -279,7 +279,7 @@ Sparklines are color-coded to emphasize trends:
 * **Blue** suggests that the first and last values are the same.
 * **Green** signifies that the last value is better than the first one.
 
-#### **Won Projects**
+#### Won Projects
 
 This metric shows the number of projects won (with 90% or 100% probability of success) by the company across the periods.
 
