@@ -169,9 +169,9 @@ Now, let's take a closer look at the main element in this panel, step by step.
   Only if your company has **enabled the intercompany module**, you will see this field. This field is used to uniquely associate profiles of other companies within your group. When you select the cell, a dropdown menu opens, allowing you to choose from the other companies within your group. Simply select the company name you want to associate, and you're good to go. If you don't see the company name you want to associate, it's because it's already linked to another profile.
 * **Legal Name**\
   Enter your client's official business name. This detail is crucial for accurate invoicing and should match the name on the invoice.
-* Group\
+* **Group**\
   If your client is part of a larger group, enter the group name in this field. This enables you to filter and categorize this client in the client list based on this attribute.
-* Address, Town, ZIP, Country, Province\
+* **Address, Town, ZIP, Country, Province**\
   Provide the complete street address, city or town, postal code, and country for your client's location. If the selected country is "Italy" you can also specify the province within Italy where your client is situated.
 * Website, Linkedin\
   Enter your client's website and LinkedIn profiles to help keep their online presence up to date.
@@ -275,7 +275,7 @@ Sparklines are color-coded to emphasize trends:
 
 * **Red** indicates that the last value is worse than the first one.
 * **Blue** suggests that the first and last values are the same.
-* **Green** signifies that the last value is better than the first one. 
+* **Green** signifies that the last value is better than the first one.
 
 ##### *Won Projects*
 
