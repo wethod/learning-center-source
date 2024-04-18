@@ -235,21 +235,17 @@ This revenue clock is based only on the specific client data. It's like a **visu
 * The **gray** **part** is like a **countdown**, telling you how many weeks are left in the year.
 * The **blue part** is about the **value** of **ongoing opportunities and projects** with the client. It's calculated based on how likely they are to succeed and their value.
 * The **green part** is the **work you've already done for the client**, updated weekly by the project status added by the project managers.
-* In the middle is our **revenue target for the year**. You can set it in the [Revenue Target section](/revenues/index/#revenues-target).
-
-![](</uploads/CRM/client Revenue Clock - crm.png>)
+* In the middle is our **revenue target for the year**. You can set it in the [Revenue Target section](/revenues/index/#revenues-target).![](</uploads/CRM/client Revenue Clock - crm.png>)
 
 #### Invoices - Client
 
 The invoice widget in this page displays a list of invoices that need to be sent out for that specific client, following the [project's invoice plan](/pipeline/index/#invoice-plan).
 
-If an alert is marked in **red**, it's a **high-priority** task because the invoice should have been sent in the past. If it's **yellow**, it means the invoice is **due for this month** or the next one; if it has **no color** it means the invoice is planned for a **future date**.
-
-![](</uploads/CRM/client invoices overview -crm.png>)
+If an alert is marked in **red**, it's a **high-priority** task because the invoice should have been sent in the past. If it's **yellow**, it means the invoice is **due for this month** or the next one; if it has **no color** it means the invoice is planned for a **future date**.![](</uploads/CRM/client invoices overview -crm.png>)
 
 #### Filter your data view
 
-The charts below typically show data for the current year, broken down into quarterly views. But if you'd like, you can switch things up by using the selector at the top right of the insights to check out data from the past 3 or 5 years.
+The charts below typically show data for the current year, broken down into quarterly views. But if you'd like, you can switch things up by using the selector at the top right of the insights to check out data from the past 3 or 5 years.![](</uploads/CRM/filter client view.gif>)
 
 #### Revenues - Client
 
@@ -263,13 +259,13 @@ For the ongoing and future quarters, the blue bars are based on the estimated pr
 
 The chart provides a snapshot of current and forecasted performance against targets, offering an at-a-glance indication of how closely the production aligns with goals throughout the year.
 
-The chart's legend feature lets you tweak how you see things based on what you're checking out. Just click on 'Revenues' or 'Target,' and you can turn the blue bars on or off for the revenue or the yellow ones for the revenue targets. It makes the view more flexible, so you can focus on one set of data at a time, making it super handy for diving deep into the details or when you're showing the data to others.
+The chart's legend feature lets you tweak how you see things based on what you're checking out. Just click on 'Revenues' or 'Target,' and you can turn the blue bars on or off for the revenue or the yellow ones for the revenue targets. It makes the view more flexible, so you can focus on one set of data at a time, making it super handy for diving deep into the details or when you're showing the data to others.![](</uploads/CRM/revenue -client.png>)
 
 #### Won projects' value - Client
 
 This chart displays the value of projects won by quarter, representing the instances when the client have approved projects, which is a separate metric from when revenue is actually generated from production. This distinction is crucial because it separates the sales success from the operational execution.
 
-It tracks the success of the sales team in securing projects. This is an indicator of market success and potential future revenue.
+It tracks the success of the sales team in securing projects. This is an indicator of market success and potential future revenue.![](</uploads/CRM/won projects.png>)
 
 #### Sparkines
 
