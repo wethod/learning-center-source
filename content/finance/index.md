@@ -307,23 +307,21 @@ In this list you will find all your client projects with 0% probability.
 
 ![](</uploads/CRM/lost projects.png>)
 
-#### Outstanding Projects
-
-In this list you will find all your client projects with a probability between 10% and 75%.
-
-As the case shown above, if you see the message "There's nothing here! What about starting a new project?", it means there are no projects for that client in that particular status.
-
-![](</uploads/CRM/outstanding projects.png>)
-
 {{< note title="Won/Lost Feedback" >}}
 🌈 For the won/lost project you can see the "**Won/Lost Feedback**" feature when you enable the related job order category's flag in the company settings.
 {{< /note >}}
 
+#### Outstanding Projects
+
+In this list you will find all your client projects with a probability between 10% and 75%.
+
+As the case shown above, if you see the message "There's nothing here! What about starting a new project?", it means there are no projects for that client in that particular status.![](</uploads/CRM/outstanding projects.png>)
+
 #### Contacts
 
-At the bottom of the client details page, you'll find a summary of the client's contacts. Here, you'll see their names, roles, and email addresses.
+At the bottom of the client details page, you'll find a summary of the client's contacts. Here, you'll see their names, roles, and email addresses.![](</uploads/CRM/contact - client.png>)
 
-If you want to explore a contact's details further, click on the right arrow in their row to open their contact panel. Here, you can make changes, add, or delete information as needed.
+If you want to explore a contact's details further, click on the right arrow in their row to open their contact panel. Here, you can make changes, add, or delete information as needed.![](</uploads/CRM/dive into contact details .gif>)
 
 #### Add a new contact
 
@@ -335,7 +333,9 @@ To add a [new contact](finance/index/#contacts-1) to one of your client you have
   \- Surname: ​type his/her surname.\
   \- Company: on this page, the dafault suggested company name corresponds to the customer profile you're currently adding the contact to.\
   \- Email: type the contact's email address.
-* Click the "Save" button.
+* Click the "**Save**" button.
+
+After taking a look at the list, you can dive into all the details about a client by just clicking on the right-arrow in their row.![](</uploads/CRM/go to contact page.gif>)
 
 ## Contacts
 
