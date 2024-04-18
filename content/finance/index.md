@@ -249,7 +249,7 @@ The charts below typically show data for the current year, broken down into quar
 
 #### Revenues - Client
 
-This chart presents a visual comparison of quarterly targets and production value for a client.
+This chart presents a visual comparison of quarterly targets and production value for a client.![](</uploads/CRM/revenue -client.png>)
 
 The **yellow bars** represent the **revenue targets** established for each quarter, providing a clear benchmark for expected performance. The **blue histogram** depicts the **total value of the production plans** for the client's projects.
 
@@ -257,9 +257,9 @@ For past and completed months, the blue bars indicate the actual production valu
 
 For the ongoing and future quarters, the blue bars are based on the estimated production plan of the client's projects. These estimates are projections that will be updated as more project statuses are confirmed.
 
-The chart provides a snapshot of current and forecasted performance against targets, offering an at-a-glance indication of how closely the production aligns with goals throughout the year.
+The chart provides a snapshot of current and forecasted performance against targets, offering an at-a-glance indication of how closely the production aligns with goals throughout the year.![](</uploads/CRM/revenue target-clietn.gif>)
 
-The chart's legend feature lets you tweak how you see things based on what you're checking out. Just click on 'Revenues' or 'Target,' and you can turn the blue bars on or off for the revenue or the yellow ones for the revenue targets. It makes the view more flexible, so you can focus on one set of data at a time, making it super handy for diving deep into the details or when you're showing the data to others.![](</uploads/CRM/revenue -client.png>)
+The chart's legend feature lets you tweak how you see things based on what you're checking out. Just click on 'Revenues' or 'Target,' and you can turn the blue bars on or off for the revenue or the yellow ones for the revenue targets. It makes the view more flexible, so you can focus on one set of data at a time, making it super handy for diving deep into the details or when you're showing the data to others.
 
 #### Won projects' value - Client
 
@@ -275,7 +275,7 @@ Sparklines are color-coded to emphasize trends:
 
 * **Red** indicates that the last value is worse than the first one.
 * **Blue** suggests that the first and last values are the same.
-* **Green** signifies that the last value is better than the first one.
+* **Green** signifies that the last value is better than the first one.![](</uploads/CRM/client Sparklines.png>)
 
 #### Won Projects
 
@@ -299,7 +299,7 @@ This metric displays the average profitability percentage of all won projects wi
 
 #### Won projects
 
-In this list you will find all your client projects with a 90% or 100% probability.
+In this list you will find all your client projects with a 90% or 100% probability.![](</uploads/CRM/won projects.gif>)
 
 #### Lost Projects
 
