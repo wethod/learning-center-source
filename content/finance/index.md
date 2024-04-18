@@ -166,7 +166,7 @@ Now, let's take a closer look at the main element in this panel, step by step.
 * **Legal Name**\
   Enter your client's official business name. This detail is crucial for accurate invoicing and should match the name on the invoice.
 * **Intercompany ID**\
-  Only if your company has **enabled the intercompany module**, you will see this field. This field is used to uniquely associate profiles of other companies within your group. When you select the cell, a dropdown menu opens, allowing you to choose from the other companies within your group. Simply select the company name you want to associate, and you're good to go. If you don't see the company name you want to associate, it's because it's already linked to another profile.
+  Only if your company has **enabled the intercompany module**, you will see this field. This field is used to uniquely associate profiles of other companies within your group. When you select the cell, a dropdown menu opens, allowing you to choose from the other companies within your group. Simply select the company name you want to associate, and you're good to go. If you don't see the company name you want to associate, it's because it's already linked to another profile.![](/uploads/CRM/intercompanyID-new.gif)
 * **Legal Name**\
   Enter your client's official business name. This detail is crucial for accurate invoicing and should match the name on the invoice.
 * **Group**\
@@ -244,6 +244,8 @@ This revenue clock is based only on the specific client data. It's like a **visu
 The invoice widget in this page displays a list of invoices that need to be sent out for that specific client, following the [project's invoice plan](/pipeline/index/#invoice-plan).
 
 If an alert is marked in **red**, it's a **high-priority** task because the invoice should have been sent in the past. If it's **yellow**, it means the invoice is **due for this month** or the next one; if it has **no color** it means the invoice is planned for a **future date**.
+
+![](</uploads/CRM/client invoices overview -crm.png>)
 
 #### Filter your data view
 
