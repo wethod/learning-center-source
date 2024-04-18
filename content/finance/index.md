@@ -226,7 +226,7 @@ However, if you want to **delete all projects and contacts** related to a client
 
 ### Client Dashboard
 
-In the Client Details page, you'll discover a variety of charts that summaries the history between your client and you company.![](/uploads/2019/12/12/client-detail.gif)
+In the Client Details page, you'll discover a variety of charts that summaries the history between your client and you company.
 
 #### The revenue clock for the current year - Client
 
@@ -305,13 +305,19 @@ In this list you will find all your client projects with a 90% or 100% probabili
 
 In this list you will find all your client projects with 0% probability.
 
+![](</uploads/CRM/lost projects.png>)
+
 #### Outstanding Projects
 
 In this list you will find all your client projects with a probability between 10% and 75%.
 
 As the case shown above, if you see the message "There's nothing here! What about starting a new project?", it means there are no projects for that client in that particular status.
 
-🌈 For the won/lost project you can see the "Won/Lost Feedback" feature when you enable the related job order category's flag in the company settings.
+![](</uploads/CRM/outstanding projects.png>)
+
+{{< note title="Won/Lost Feedback" >}}
+🌈 For the won/lost project you can see the "**Won/Lost Feedback**" feature when you enable the related job order category's flag in the company settings.
+{{< /note >}}
 
 #### Contacts
 
