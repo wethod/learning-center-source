@@ -160,9 +160,9 @@ The client company details you enter in this section are directly linked to the 
 Now, let's take a closer look at the main element in this panel, step by step.
 
 * **Name**\
-  \[Required field] In this field enter the name of the customer you want to display on wethod's pages.
+  In this field enter the name of the customer you want to display on wethod's pages. This field is required
 * **Acronym**\
-  \[Required field] This field allows you to associate an abbreviation with your customer's name. This field is what will be shown in general reports where it's necessary to display customer names in a shortened format.
+  This field allows you to associate an abbreviation with your customer's name. This field is what will be shown in general reports where it's necessary to display customer names in a shortened format. This field is required
 * **Legal Name**\
   Enter your client's official business name. This detail is crucial for accurate invoicing and should match the name on the invoice.
 * **Intercompany ID**\
@@ -202,23 +202,17 @@ Now, let's take a closer look at the main element in this panel, step by step.
 
 ### Add, Edit or Delete Clients
 
-#### Add
+To **add** a client [follow these steps](https://support.wethod.com/finance/index/#add-a-new-client).
 
-To add a client [follow these steps](https://support.wethod.com/finance/index/#add-a-new-client).
+To **edit** the information of a client open its company details panel, click the edit button make the necessary changes, and then click save. ![](</uploads/CRM/client company details edit.gif>)
 
-#### Edit
-
-To edit the information of a client open its company details panel, click the edit button make the necessary changes, and then click save. ![](</uploads/CRM/client company details edit.gif>)
-
-#### Delete
-
-To delete a client open its company details panel, and then click the trash can icon. You'll see a pop-up asking if you're sure to proceed.
+To **delete** a client open its company details panel, and then click the trash can icon. You'll see a pop-up asking if you're sure to proceed.
 
 If the client **doesn't have any projects assigned** to them and has no associated contacts, simply click on the green "**Yes, delete**" button to proceed.![](</uploads/CRM/delete a client - no details.gif>)
 
 If the client **has projects assigned** to them and/or associated contacts, after clicking the green "Yes, delete" button, you'll see another pop-up warning that you can't delete the client due to associated data.
 
-You can choose you to **migrate** the associated data to another client; if this option suits your needs - for example, if you've identified a duplicate client - select the customer to whom you want to transfer all existing projects in the "choose new client" bar (please note that the receiving customer profile must already exist; you cannot create a new one from this panel) and click "**Delete and Replace**".
+You can choose to **migrate** the associated data to another client; if this option suits your needs - for example, if you've identified a duplicate client - select the customer to whom you want to transfer all existing projects in the "choose new client" bar (please note that the receiving customer profile must already exist; you cannot create a new one from this panel) and click "**Delete and Replace**".
 
 ![](</uploads/delete a client- details.gif>)
 
@@ -267,7 +261,7 @@ This chart displays the value of projects won by quarter, representing the insta
 
 It tracks the success of the sales team in securing projects. This is an indicator of market success and potential future revenue.![](</uploads/CRM/won projects.png>)
 
-#### Sparkines
+#### Sparklines
 
 This is series of five performance indicators, each one of them is represented by a sparkline graph that depicts the trend over selected period.
 
