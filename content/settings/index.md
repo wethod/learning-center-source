@@ -119,6 +119,8 @@ Locations are required to create related holidays in [Bank Holidays Planner](htt
 
 Each one of your collaborators has a level which defines his daily cost to the company and the price you want to sell a day of his work to the clients. This way you can define clusters of employees like intern, junior, senior and so on. For each user level you can set a **chargeability target** – expressed in percentage – meaning as the amount of hours people belonging to a specific user level should work on profitable projects.
 
+You can also define whether that level is default, meaning that every new budget will have by default this level visible. Within the budget page, you will always be able to show/hide all the levels available for that budget.
+
 ### Job Order Categories
 
 Here you can add the categories for your projects, each category needs at least a name and a color. You can change the categories' sort order by simply drag and dropping them. For each category you can set some options:
