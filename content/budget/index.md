@@ -63,7 +63,11 @@ Positioned in the top right, this part shows some details about the project’s 
 
 ### Budget editor
 
-This is basically a table where you can assign days to a given user level of a *task*. A *task* is a macro activity needed to complete the project, related tasks can be grouped into *areas*.
+This is basically a table where you can assign days to a given user level of a *task*.
+
+You will also be able to show/hide only the levels you need within that budget by clicking on the three dots on the top-right of the screen when the budget is in edit mode.
+
+A *task* is a macro activity needed to complete the project, related tasks can be grouped into *areas*.
 
 You can add new *areas* by using the "**+ New Area**" button: type in a meaningful name and hit enter.
 
