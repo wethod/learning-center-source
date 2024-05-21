@@ -18,13 +18,11 @@ If you have the right permissions, you can:
 
 In this section you can generate your personal access tokens which allow you to access our public API, [read more here](https://docs.wethod.com/).
 
-![](/uploads/api-token-panel-pupulated.png)
-
-Here you can create a new token by providing a name and optional description (where will this token be used?), once you create a token make sure to copy it as you won't be able to see it again.
-
-![Token created](/uploads/api-token-created.png "Create new token")
+You can create a new token by providing a name and optional description (where will this token be used?), once you create a token make sure to copy it as you won't be able to see it again. A personal access token represents your account and therefore has access to the same companies you have access to and with the same authorizations
 
 Each token shows the "last used" date, aren't you the one using it? Delete it immediately to prevent unauthorized use.
+
+![](/uploads/api-token-panel-pupulated.png)
 
 ## Team
 
