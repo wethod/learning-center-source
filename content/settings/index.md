@@ -14,6 +14,18 @@ If you have the right permissions, you can:
 * Change your invoice details;
 * Import existing projects.
 
+### Developer settings
+
+In this section you can generate your personal access tokens which allow you to access our public API, [read more here](https://docs.wethod.com/).
+
+![](/uploads/api-token-panel-pupulated.png)
+
+Here you can create a new token by providing a name and optional description (where will this token be used?), once you create a token make sure to copy it as you won't be able to see it again.
+
+![Token created](/uploads/api-token-created.png "Create new token")
+
+Each token shows the "last used" date, aren't you the one using it? Delete it immediately to prevent unauthorized use.
+
 ## Team
 
 Since you have the right permissions, you can: **invite people**, **assign specific roles** and **allow special permissions**.
