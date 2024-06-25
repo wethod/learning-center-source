@@ -515,27 +515,21 @@ You can find this section in the app menu under *CRM > Toolbox > Pricelists*.
 
 ![](/uploads/pricelists-create.png)
 
-A pricelist defines a group of level daily rates that can be used to [adapt a project price in a budget](https://support.wethod.com/budget/index/#pricelists).
+A pricelist defines a set of daily rates and costs that can be used to tailor a project budget.
 
-For example, you can define a pricelist named “USA” and a pricelist named “Europe”: the first will specify level rates to use for project based in the United States and the other will do the same for projects based in Europe.
+For example, you might have a pricelist named "Germany" for projects based in Germany and another named "Italy" for projects in Italy, each specifying the relevant daily rates & cost for their respective country.
 
-Each company has a company default pricelist which defines company levels default daily rates. This pricelist is marked with a "default" label and has a light blue background.
+Each company has a default pricelist that sets the standard daily rates and daily costs for the company. This default pricelist is marked with a "default" label and has a light blue background. 
 
-You can't choose the company default pricelist, you can only edit its attributes.
+A pricelist can be specific to a client, and each client can have multiple associated pricelists. Additionally, each budget area within your projects can be customized with its own pricelist. 
 
-A pricelist might be reserved to a client, this means that it can be associated only to budgets related to that specific client.
+For each client, only one pricelist can be designated as the default. This default pricelist is automatically applied to newly created budgets for that client. Default client pricelists are marked with a "default" label.
 
-Each client can have several pricelists related to it.
-
-For all pricelists associated to a specific client, at most one can be elected as default pricelist for that client: this is the special pricelist automatically associated to new created budgets for the specific client. Default client pricelists are marked with a "default" label.
+For each client, only one pricelist can be designated as the default. This default pricelist is automatically applied to newly created budgets for that client. Default client pricelists are marked with a "default" label.
 
 If no client default pricelists exist for a project client, the company default pricelist will be used.
 
 A company default pricelist cannot be used as client pricelist.
-
-If you edit a pricelist used in a budget, changes become effective the next time that budget will be taken back to draft.
-
-When a client is deleted, all pricelists related to it become "normal" pricelists and therefore can be used in any budget.
 
 A pricelist has:
 
@@ -546,6 +540,8 @@ A pricelist has:
   * If only “To” is compiled then product is available from its creation until the date specified by “To”
   * If “From” and “To” are not specified then product is available from its creation
 * Rates: daily rates for every user level
+* Cost: daily costs for every user level
+* Sync cost with default pricelist
 * Client
 
 Specific [permissions](https://support.wethod.com/settings/index/#permissions) let you control who can view or edit this section.
