@@ -521,7 +521,7 @@ For example, you might have a pricelist named "Germany" for projects based in Ge
 
 Each company has a default pricelist that sets the standard daily rates and daily costs for the company. This default pricelist is marked with a "default" label and has a light blue background. 
 
-A pricelist can be specific to a client, and each client can have multiple associated pricelists. Additionally, each budget area within your projects can be customized with its own pricelist. 
+A pricelist can be specific to a client, and each client can have multiple associated pricelists. [Additionally, each budget area within your projects can be customized with its own pricelist.]()
 
 For each client, only one pricelist can be designated as the default. This default pricelist is automatically applied to newly created budgets for that client. Default client pricelists are marked with a "default" label.
 
