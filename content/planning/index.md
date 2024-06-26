@@ -120,7 +120,7 @@ This feature allows you to quickly dispose of extra budget days, when needed, in
 
 You will access to a simple view of the project’s budget, including areas, tasks and the total number of available days per user level.
 
-Use the number of available budget days from a user-level of your choice and see on the top the conversion into budget days you can use for other user-levels.
+Use the number of available budget days from a user-level of your choice and see on the top the conversion into budget days you can use for other user-levels. You can only convert budget days within the same pricelist.
 
 The conversion ratio is based on the daily cost of user-levels and it’s not possible to exceed the total amount of internal cost on the budget.
 
