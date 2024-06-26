@@ -142,7 +142,7 @@ Pricelist can be changed for a budget by choosing the new one from a list of ava
 
 Each budget area can be personalised with its own pricelist, except for the section Contingency & Discount, Travels & Expenses and PM. All the other areas can be tailored on a specific pricelist:
 
-![](/uploads/budget-edit-pricelist.gif)
+![](</uploads/set pricelist.gif>)
 
 ## The Workflow
 
