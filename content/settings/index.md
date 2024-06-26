@@ -47,7 +47,8 @@ To set a user allocation manager:
 1. Click on the "more" icon related to the user
 2. Click on "Set allocation manager" menu item
 3. Choose the manager from the autocomplete input
-4. Click "Save" button
+4. Assign a specific pricelist or leave the default one.
+5. Click "Save" button
 
 Any team member can be allocation manager of another team member.
 
@@ -60,6 +61,8 @@ Any team member can be allocation manager of another team member.
 
 **If there's only one super user left, you cannot change its role.**
 {{< /note >}}
+
+Assigning a pricelist to an employee will impact their costs in the project report, when calculating the internal costs of a project (based on the amount of hours filled in the timesheet section by each employee for that project).
 
 #### Import Metadata
 
