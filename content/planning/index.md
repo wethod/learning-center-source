@@ -116,7 +116,7 @@ If you enable “Highlight weekends” in [company settings](/settings/index/#co
 
 This feature allows you to quickly dispose of extra budget days, when needed, in order to allocate people on a project.
 
-![](/uploads/2020/09/09/budget_dinamico.gif)
+![](</uploads/convert budget days (1).gif>)
 
 You will access to a simple view of the project’s budget, including areas, tasks and the total number of available days per user level.
 
