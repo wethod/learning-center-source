@@ -34,7 +34,7 @@ To invite a new teammate:
 2. Assign a *user level*, a \*role \*and the *email address* of the person you want to invite;
 3. Click the "**invite**" button. Once done, an email will be sent to the given address.
 
-You can assign up to two **tags** to each teammate, use these tags to create groups of employee. You can, for example, use a tag to describe the background of a person.
+You can view two **tags** assigned to a person, creation and editing of tags is managed in [Settings / Company.](https://support.wethod.com/settings/index/#company)
 
 Each user can have a job title which specifies what he do (i.e. junior designer, senior developer, social media manager).
 
