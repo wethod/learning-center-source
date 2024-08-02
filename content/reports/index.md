@@ -227,6 +227,7 @@ On the right you can see the **Revenue Clock** which tells you:
 * The amount of weeks remaining until the end of the year (the grey area shows the percentage of the year gone )
 * The yearly weighted production value, by clicking on this area you can access the details about the yearly production value grouped **by client**, **by project** or **by week**
 * The yearly gross production value
+* The part in opacity represents the total value of opportunities (with less than 90% of probability to be won), meanwhile the full colored represents all won project's total value (with 90% of probability or more). 
 
 By clicking on a specific month you can access that month's production value grouped **by client**, **by project** or **by week**.
 
