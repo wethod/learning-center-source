@@ -221,7 +221,7 @@ Here you can find an overview of the annual projects' [production value](/glossa
 
 Above the production value's chart there's the monthly [Roadrunner Index](/glossary/index/#roadrunner-index-rri) which aggregates the pipeline's projects' Roadrunner Indexes by month.
 
-On the right you can see the **Resume Clock** which tells you:
+On the right you can see the **Revenue Clock** which tells you:
 
 * The production target, as set in [Profit\&Loss Budget Target](/profit-loss/index/#overview)
 * The amount of weeks remaining until the end of the year (the grey area shows the percentage of the year gone )
