@@ -32,7 +32,9 @@ Hovering the cursor over an alert will display a description of the problem.
 
 ### Revenue Clock
 
-This widget lets you quickly compare the [revenue pipeline](/glossary/index/#revenue-pipeline) (blue) with the [production value](/glossary/index/#production-value) (green). When you create the widget, you must set the production target you want to hit by the end of the year. The part in opacity represents the total value of opportunities (with less than 90% of probability to be won), meanwhile the full colored represents all won project's total value (with 90% of probability or more).
+This widget lets you quickly compare the [revenue pipeline](/glossary/index/#revenue-pipeline) (blue) with the [production value](/glossary/index/#production-value) (green). The part in opacity represents the total value of opportunities (with less than 90% of probability to be won), meanwhile the full colored represents all won project's total value (with 90% of probability or more). \
+\
+When you create the widget, you must set the production target you want to hit by the end of the year.
 
 When the filter is set to **company overview** the target will automatically be set as the [profit & loss budget target](/profit-loss/index/#overview) for the current year.
 
