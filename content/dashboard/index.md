@@ -1,10 +1,10 @@
 ---
-date: 2016-03-10T18:56:50.000+00:00
+date: 2016-03-10T18:56:50.000Z
 title: Dashboard
-weight: "65"
 type: ''
-
+weight: '65'
 ---
+
 ## Overview
 
 The Dashboard is basically a set of widgets, any one of which can be added or removed and customized by the user.
@@ -21,8 +21,8 @@ Adding a new widget to your dashboard is very easy: just click on the “+” si
 
 This widget shows all the inconsistencies regarding the user. Each alert has a priority (indicated by its color):
 
-* _Red_ alerts have a high priority and must be solved as soon as possible;
-* _Yellow_ alerts have a low priority and can be seen as a advice then anything.
+* *Red* alerts have a high priority and must be solved as soon as possible;
+* *Yellow* alerts have a low priority and can be seen as a advice then anything.
 
 Hovering the cursor over an alert will display a description of the problem.
 
@@ -32,7 +32,7 @@ Hovering the cursor over an alert will display a description of the problem.
 
 ### Revenue Clock
 
-This widget lets you quickly compare the [revenue pipeline](/glossary/index/#revenue-pipeline) (blue) with the [production value](/glossary/index/#production-value) (green). When you create the widget, you must set the production target you want to hit by the end of the year.
+This widget lets you quickly compare the [revenue pipeline](/glossary/index/#revenue-pipeline) (blue) with the [production value](/glossary/index/#production-value) (green). When you create the widget, you must set the production target you want to hit by the end of the year. The part in opacity represents the total value of opportunities (with less than 90% of probability to be won), meanwhile the full colored represents all won project's total value (with 90% of probability or more).
 
 When the filter is set to **company overview** the target will automatically be set as the [profit & loss budget target](/profit-loss/index/#overview) for the current year.
 
