@@ -58,8 +58,7 @@ The **Detailed Timesheet** allows you to:
 
 * Compile timesheet day by day
 * Do timesheet on a singular project's area.
-  The project areas will be the same as listed in the project's budget.
-* If you see the label 'Area Off,' it indicates that this section of the budget is switched off, meaning timesheets cannot be submitted for that area.
+  The project areas will be the same as listed in the project's budget. If you see the label 'Area Off,' it indicates that this section of the budget is switched off, meaning timesheets cannot be submitted for that area.
 * Specify between normal working hours, travel hours, overnight shifts or overtime.
 * Insert daily notes to add further details on single activities or tasks you've worked on for each project's area.
 
