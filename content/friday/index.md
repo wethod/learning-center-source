@@ -59,6 +59,7 @@ The **Detailed Timesheet** allows you to:
 * Compile timesheet day by day
 * Do timesheet on a singular project's area.
   The project areas will be the same as listed in the project's budget.
+* If you see the label 'Area Off,' it indicates that this section of the budget is switched off, meaning timesheets cannot be submitted for that area.
 * Specify between normal working hours, travel hours, overnight shifts or overtime.
 * Insert daily notes to add further details on single activities or tasks you've worked on for each project's area.
 
@@ -147,7 +148,7 @@ Users with *‘edit always’* permission can edit the timesheet even if the lim
 
 **In case you or one of your team member forgot to fill in their timesheet or made a mistake and cannot edit it because of time limitation, only users with both permissions *'edit always'* and *'edit other'* will be able to correct it.**
 
-**Beware:** if you switch off budget areas, you will not be able to do the timesheet on these areas and you will not be able to change them retroactively. You can only do the timesheet or change hours in the past for the active sections of the budget. 
+**Beware:** if you switch off budget areas, you will not be able to do the timesheet on these areas and you will not be able to change them retroactively. You can only do the timesheet or change hours in the past for the active sections of the budget.
 
 ### Employee capacity
 
