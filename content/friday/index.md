@@ -147,7 +147,7 @@ Users with *‘edit always’* permission can edit the timesheet even if the lim
 
 **In case you or one of your team member forgot to fill in their timesheet or made a mistake and cannot edit it because of time limitation, only users with both permissions *'edit always'* and *'edit other'* will be able to correct it.**
 
-**Beware:** if you switch off budget areas, you will not be able to do the timesheet on these areas and you will not be able to change them retroactively. You can only do the timesheet or change hours in the past for the active section of the budget. 
+**Beware:** if you switch off budget areas, you will not be able to do the timesheet on these areas and you will not be able to change them retroactively. You can only do the timesheet or change hours in the past for the active sections of the budget. 
 
 ### Employee capacity
 
