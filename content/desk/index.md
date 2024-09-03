@@ -7,9 +7,7 @@ weight: '20'
 
 ## Overview
 
-The Desk is your private space and your favorite place.
-
-Here you can find a set of utilities and widgets all for you.
+The Desk is your private space and your favorite place. Here you can find a set of utilities and widgets all for you.
 
 ![](/uploads/2020/04/02/desk.png)
 
