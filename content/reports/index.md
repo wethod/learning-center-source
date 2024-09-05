@@ -212,6 +212,26 @@ Clicking on a column will show a panel listing all the clients (based on the fil
 
 Items on the list are ordered by value.
 
+## Revenue 🔜
+
+This is the first release of a new, broader section dedicated to reports within wethod. We are updating the documentation as we roll out new features to ensure you have complete support. Please note that this section is evolving, with new features to be added over time to enhance your management and analysis experience.
+
+The newly released Report Revenues section, available under Sales in the insight area of wethod, provides a more detailed view of project revenues. The section features two primary charts:
+
+### Revenues
+
+The first chart is a histogram that categorizes projects by the months of the current year (x-axis) and by their probability of success:
+
+* 100%
+* 90%
+* Between 10% and 75%
+
+The colors assigned to each probability group are random. When you click on a specific segment (for instance, the 100% probability projects for February 2024), the second chart below will update accordingly. To remove the filter, simply click on the same selected segment again, and the chart will revert to displaying the data for the entire year.
+
+### Revenues by client
+
+This chart displays the revenues from the top 5 clients. By default, it shows the revenues from the top clients over the entire year. However, once you select a segment from the first chart, the second chart will filter to display the revenues of the top 5 clients for the specific period you have chosen.
+
 ## Production Value
 
 Here you can find an overview of the annual projects' [production value](/glossary/index/#production-value). Each month is displayed as a two overlapped columns:
@@ -227,7 +247,7 @@ On the right you can see the **Revenue Clock** which tells you:
 * The amount of weeks remaining until the end of the year (the grey area shows the percentage of the year gone )
 * The yearly weighted production value, by clicking on this area you can access the details about the yearly production value grouped **by client**, **by project** or **by week**
 * The yearly gross production value
-* The part in opacity represents the total value of opportunities (with less than 90% of probability to be won), meanwhile the full colored represents all won project's total value (with 90% of probability or more). 
+* The part in opacity represents the total value of opportunities (with less than 90% of probability to be won), meanwhile the full colored represents all won project's total value (with 90% of probability or more).
 
 By clicking on a specific month you can access that month's production value grouped **by client**, **by project** or **by week**.
 
