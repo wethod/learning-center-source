@@ -224,7 +224,7 @@ The first chart is a histogram that categorizes projects by the months of the cu
 
 * 100%
 * 90%
-* Between 10% and 75%
+* between 10% and 75%
 
 The colors assigned to each probability group are random. When you click on a specific segment (for instance, the 100% probability projects for February 2024), the second chart below will update accordingly. To remove the filter, simply click on the same selected segment again, and the chart will revert to displaying the data for the entire year.
 
