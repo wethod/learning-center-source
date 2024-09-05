@@ -212,7 +212,7 @@ Clicking on a column will show a panel listing all the clients (based on the fil
 
 Items on the list are ordered by value.
 
-## Revenue 🔜
+## Revenue 🆕
 
 This is the first release of a new, broader section dedicated to reports within wethod. We are updating the documentation as we roll out new features to ensure you have complete support. Please note that this section is evolving, with new features to be added over time to enhance your management and analysis experience.
 
