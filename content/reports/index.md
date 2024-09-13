@@ -222,6 +222,8 @@ The newly released Report Revenues section, available under Sales in the insight
 
 ### Revenues
 
+![](/uploads/chart.png)
+
 The first chart is a histogram that categorizes projects by the months of the current year (x-axis) and by their probability of success:
 
 * 100%
@@ -233,6 +235,12 @@ The colors assigned to each probability group are random. When you click on a sp
 ### Revenues by client
 
 This chart displays the revenues from the top 5 clients. By default, it shows the revenues from the top clients over the entire year. However, once you select a segment from the first chart, the second chart will filter to display the revenues of the top 5 clients for the specific period you have chosen.
+
+### Table view
+
+Each chart has a table displayed below it, listing all the projects that contribute to the calculation of the revenue section shown in the chart. When you apply filters to a chart, they are also applied to the child tables, ensuring you always have an accurate view of the data.
+
+![](/uploads/table-view.png)
 
 ## Production Value
 
