@@ -516,7 +516,7 @@ If a user creates a product with a markup and a price, the markup is not used to
 
 You can find this section in the app menu under *CRM > Toolbox > Pricelists*.
 
-![](/uploads/pricelists-create.png)
+![](</uploads/Screenshot 2024-09-19 at 09.55.47.png>)
 
 A pricelist defines a set of daily rates and costs that can be used to tailor a project budget.
 
