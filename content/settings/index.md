@@ -52,8 +52,6 @@ To set a user allocation manager:
 
 Any team member can be allocation manager of another team member.
 
-![](/uploads/2017/11/02/settings-team.png)
-
 {{< note title="Note" >}}
 **Only super users can assign "super user" role.**
 
@@ -63,6 +61,8 @@ Any team member can be allocation manager of another team member.
 {{< /note >}}
 
 Assigning a pricelist to an employee will impact their costs in the project report, when calculating the internal costs of a project (based on the amount of hours filled in the timesheet section by each employee for that project).
+
+![](/uploads/5.png)
 
 #### Import Metadata
 
