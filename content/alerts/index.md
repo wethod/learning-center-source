@@ -1,17 +1,17 @@
 ---
-date: 2017-06-13T16:08:29.000+00:00
+date: 2017-06-13T16:08:29.000Z
 title: Alerts
-weight: "21"
 type: ''
-
+weight: '21'
 ---
+
 ## Overview
 
 An alert is an inconsistency regarding the user. Each alert has a priority (indicated by its color):
 
-* _Red_ alerts have an high priority and must be solved as soon as possible;
-* _Yellow_ alerts have a low priority and can be seen more as advices;
-* _Blue_ alerts are reminders of minor fixes.
+* *Red* alerts have an high priority and must be solved as soon as possible;
+* *Yellow* alerts have a low priority and can be seen more as advices;
+* *Blue* alerts are reminders of minor fixes.
 
 Positioning the cursor over an alert will display a description of the problem.
 
@@ -141,6 +141,11 @@ This alert is shown to the project manager if one of the following situations ha
 
 *How to solve it?* Add a PO once a project reach 100% of probability, add invoices only to projects that already have a PO.
 
+### Employee price list is expired
+
+This alert is shown to users who have access to the team section when one of the price list associated to a team member is expired or about to expire.
+
+
 ### Project Start
 
 This alert is shown to the project manager if one of the following situations happens:
@@ -189,7 +194,7 @@ This alert is shown to the manager of a project if one of the following situatio
 * The probability is greater than 90% but the project hasn't a job order
 * The probability si lower than 90% and the project has a job order
 
-Remind: only active projects (which means projects with a probability greater or equal to 90%) 
+Remind: only active projects (which means projects with a probability greater or equal to 90%)
 must have a [job order](/glossary/index/#job-order)
 
 *How to solve it?* Assign job order only to active projects.
@@ -204,7 +209,7 @@ In other words: the project is over, you have no reason to plan people on it.
 
 ### Planning / Budget Status
 
-This alert is shown to the manager of a project which has planned future resources but hasn't an 
+This alert is shown to the manager of a project which has planned future resources but hasn't an
 approved [budget](/budget/index/#budget)
 
 The planned resources say that the project is active but the budget is not approved, so the alert will remind you to approve it as soon as possible.You cannot plan resources if you haven’t got a budget  which gives you the right to do it.
@@ -277,7 +282,7 @@ This alert means that you have a pending intercompany request. All intercompany 
 
 ### Missing project's brief
 
-This alert means that your project lacks of a brief. What are the client needs? What problem(s) should the team resolve? 
+This alert means that your project lacks of a brief. What are the client needs? What problem(s) should the team resolve?
 
 *How to solve it?* Head to the project's canvas and drop just a few lines about the customer needs in the widget "Brief". Everyone in your team will be on the same page.
 
@@ -295,6 +300,7 @@ Visit the [Alerts Engine](/settings/index/#alerts-engine) section to change the 
 *How to solve it?* Head to the projects list and assign a Project Type.
 
 ### Won Project But Missing Files
+
 This alert means that your project is won (probability 90% or more) and has a "chargeable" Job Order Category but has no files attached.
 
 *How to solve it?* Upload at least one document, what about starting with the proposal or the contract?
