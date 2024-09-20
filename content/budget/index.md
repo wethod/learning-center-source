@@ -140,9 +140,11 @@ When creating a budget, a coherent pricelist is automatically assigned to it:
 
 Pricelist can be changed for a budget by choosing the new one from a list of available pricelists.
 
+![](</uploads/set pricelist.gif>)
+
 Each budget area can be personalised with its own pricelist, except for the section Contingency & Discount, Travels & Expenses and PM. All the other areas can be tailored on a specific pricelist:
 
-![](</uploads/set pricelist.gif>)
+![](/uploads/4.png)
 
 ## The Workflow
 
