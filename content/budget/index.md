@@ -40,13 +40,13 @@ Role based permissions for budgets can be managed from the [permissions section]
 
 The budget section is composed by three main parts: project details, price details and the budget editor.
 
-![](/uploads/2023/01/23/budget-overview.png)
+![](/uploads/1.png)
 
 ### **Project details**
 
 Positioned in the top left, this part shows project information details such as the client, project name, PM name and duration.
 
-![](/uploads/2023/01/23/budget-project-info.png)
+![](/uploads/2.png)
 
 ### **Price Details**
 
@@ -59,7 +59,7 @@ Positioned in the top right, this part shows some details about the project’s 
 * **Final net price gross margin**: Final net price minus budget total external costs
 * **Final net price contribution margin**: Final net price minus budget total costs
 
-![](/uploads/2023/01/23/budget-price.png)
+![](/uploads/3.png)
 
 ### Budget editor
 
