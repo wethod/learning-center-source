@@ -532,6 +532,8 @@ For each client, only one pricelist can be designated as the default. This defau
 
 If no client default pricelists exist for a project client, the company default pricelist will be used.
 
+The pricelist can have an expiration date.
+
 A company default pricelist cannot be used as client pricelist.
 
 A pricelist has:
