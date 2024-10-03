@@ -116,7 +116,7 @@ Job titles cannot be added to [intercompany tasks](/budget/index/#make-a-task-in
 Products are created and managed in the [Products section](/settings/index/#products).
 
 Products can be added to a budget by choosing them from a pick list of available products:\
-![](/uploads/budget-add-product.gif)
+![](/uploads/budget_product.gif)
 
 Only users with view permission on products can add products to a budget.
 
@@ -157,7 +157,7 @@ Each budget area can be personalised with its own pricelist, except for the sect
 
 When a budget is submitted, a supervisor can appreciate all the changes by looking at the orange labels. This makes the approval process easier and faster.
 
-![budget approval](/uploads/2023/01/24/budget-approving.png)
+![](/uploads/budget_approval.png)
 
 Not sure if a budget’s area will fit? Just switch it off!
 **Switching off an area** will remove it from the budget estimate. You can always switch an area back at a later date whenever you wish.
@@ -208,7 +208,7 @@ Please consider tha currencies' exchange rates refers to the budget's creation d
 **Be aware that you can always disable multicurrency for a budget, but if you have created orders using currencies you need to manually update them. Invoices are automatically updated instead.**
 {{< /note >}}
 
-![](/uploads/2023/01/23/budget-multicurrency.gif)
+![](/uploads/budget_multicurrency.gif)
 
 ## Create a template
 
@@ -218,7 +218,7 @@ You can create a template from a budget by clicking on the following button:
 
 Saving a template means saving a budget's structure (areas and tasks), this can be re-used by you or other people in your company in order to speed up the creation of budgets belonging to similar projects.
 
-![](/uploads/2023/01/23/budget-save-template.gif)
+![](/uploads/budget_template.gif)
 
 Each time you want to create a new budget, WETHOD will ask if you want to start from scratch or if you prefer to use a previously created template.
 
