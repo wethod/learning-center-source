@@ -103,7 +103,7 @@ Job titles can be used in a budget to better specify a job figure or position ne
 
 Once defined in your [company settings](/settings/index/#company), you can add a job title to a task using the task's options menu:
 
-![insert job title](/uploads/insert-job-title.gif)
+![](/uploads/budget_jobtitle.gif)
 
 A job title has just one editable man-days column, that is the column related to job title level.
 
