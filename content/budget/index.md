@@ -157,7 +157,7 @@ Each budget area can be personalised with its own pricelist, except for the sect
 
 When a budget is submitted, a supervisor can appreciate all the changes by looking at the orange labels. This makes the approval process easier and faster.
 
-![](/uploads/2023/01/24/budget-approving.png)
+![budget approval](/uploads/2023/01/24/budget-approving.png)
 
 Not sure if a budget’s area will fit? Just switch it off!
 **Switching off an area** will remove it from the budget estimate. You can always switch an area back at a later date whenever you wish.
