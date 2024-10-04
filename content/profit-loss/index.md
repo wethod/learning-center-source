@@ -31,7 +31,6 @@ This data is obtained by subtracting from the [revenues](http://support.wethod.c
 * [G & A](http://support.wethod.com/general-admin/index/#)
 * [Marketing](http://support.wethod.com/marketing/index/#)
 * [CapEx](http://support.wethod.com/capex/index/)
-* [Data Freezing Engine](https://wethod.wethod.com/#data-freezing/engine)
 
 We provide you with two *subtotal* in order to better understand the final value of profit & loss for the company:
 
