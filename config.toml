@@ -12,7 +12,7 @@ smartDashes = true
 smartypants = true
 [[menu.company]]
 name = "Data Freezing Engine"
-url = "data-freezing/index/"
+url = "data-freezing-engine/index/"
 weight = 11
 [[menu.company]]
 name = "Order Plan"
