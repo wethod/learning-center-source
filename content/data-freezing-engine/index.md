@@ -6,7 +6,3 @@ weight: '99'
 ---
 
 ## Overview
-
-From here you can see the orders' amount grouped by projects.
-
-Lorem ipsum.
