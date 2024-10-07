@@ -1,10 +1,12 @@
 ---
-date: 2024-10-07T12:20:00.000+00:00
+date: 2024-10-07T12:20:00.000Z
 title: Data Freezing Engine
-weight: "99"
 type: ''
-
+weight: '99'
 ---
+
 ## Overview
 
 From here you can see the orders' amount grouped by projects.
+
+Lorem ipsum.
