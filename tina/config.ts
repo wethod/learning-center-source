@@ -140,6 +140,19 @@ export default defineConfig({
       },
       {
         format: "md",
+        label: "Data Freezing Engine",
+        name: "data_freezing_engine",
+        path: "content/data-freezing-engine",
+        frontmatterFormat: "yaml",
+        match: {
+          include: "**/*",
+        },
+        fields: [
+          ...defaultFields(),
+        ],
+      },
+      {
+        format: "md",
         label: "Capex",
         name: "capex",
         path: "content/capex",

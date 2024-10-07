@@ -11,6 +11,10 @@ plainIDAnchors = true
 smartDashes = true
 smartypants = true
 [[menu.company]]
+name = "Data Freezing Engine"
+url = "data-freezing/index/"
+weight = 11
+[[menu.company]]
 name = "Order Plan"
 url = "order-plan/index/"
 weight = 10
