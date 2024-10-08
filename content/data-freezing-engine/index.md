@@ -80,3 +80,9 @@ It draws the user's attention to all red, yellow, and blue alerts for projects w
 ### Data Freezing - Project
 
 When you freeze a period of time, certain project attributes remain editable: Name, Client, Client Contact, Client PO, PM, Account, Project Type, and Job Order. Furthermore, if the end dat of the projects fall outside the frozen perido you can archive the project and modify its value, duration, and external costs and budget.
+
+### Data Freezing- Timesheet
+
+When a timesheet falls into a frozen month it is fully blocked, no attributes can be altered. Detailed timesheet has a specific date so it could be considered as “Data with an exact date”, but because it is always linked to a weekly timesheet (to be able to change back and forth between them without losing data) we must use the ISO month.
+
+### Data Freezing- Orders
