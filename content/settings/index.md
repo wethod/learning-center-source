@@ -292,7 +292,7 @@ Changing an alert's priority is as simple as positioning your cursor on the curr
 
 Here you can set permissions for the various user's role:
 
-* **Budget, Invoices, Orders, Pipeline, Planning, Project Status, Timesheet**: who can do what;
+* **Budget, Invoices, Orders, Pipeline, Planning, Project Status, Timesheet, Data Freezing Engine**: who can do what;
 * **Dashboard**: which widgets are available to who;
 * **Header**: which section of WETHOD are available;
 * **Reports**: which sections of \*Reports \*are available;
