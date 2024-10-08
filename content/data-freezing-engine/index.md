@@ -21,7 +21,7 @@ Although you can use data freezing for financial statements, we are not pursuing
 
 In this section you will be able to select the period of time to freeze or pause your data and review the inconsistencies before running the command.
 
-\*\*1. Timeline: \*\*
+#### 1. Timeline: 
 
 The timeline represents the period during which a company has created, imported, modified, deleted, and stored data within WETHOD—spanning from the company's creation month to the most recent month.
 
@@ -53,7 +53,7 @@ You will be able to start a new data review by editing the selected segment form
 
 ![](</uploads/Screenshot 2024-10-08 alle 10.57.34.png>)
 
-\*\*2. Data Review Dashboard \*\*
+#### 2. Data Review Dashboard 
 
 This section activates only when a segment is selected from the timeline. Upon selection, a data review section appears immediately below. This section displays warnings that allow users to check for inconsistencies in project data, enabling them to successfully pause or freeze the data within that segment.
 
@@ -151,9 +151,9 @@ Fields that are always editable, even when a travel carrier is locked:- name, fr
 
 ## Data Freezing- Permissions:
 
-You can allow the user level to view, pause, freeze or edit paused data.
+You can allow the user level to view, pause, freeze or edit paused data. 
 
 * view : used to show data freezing related section (e.g: Data Freezing Engine)
 * pause: allows to pause/unpause a period
 * freeze: allows to freeze a period
-* edit\_paused\_data : allows to edit data in a paused period
+* edit\_paused\_data : Edit paused data means that only people with this specific permission will be able to modify data within the paused time periods.
