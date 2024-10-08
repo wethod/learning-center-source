@@ -67,7 +67,7 @@ It brings the user's attention to all projects that are either lost or have 100 
 
 **Won Projects At 90% Of Probability And Opportunities** 
 
-It Brings the user's attention to all 90 per cent projects and opportunities affected by the selected time portion that would not be included in the freeze. This is because I can only freeze a safe, 100 per cent project.
+It Brings the user's attention to all 90 % projects and opportunities affected by the selected time portion that would not be included in the freeze. This is because I can only freeze a safe, 100 % project.
 
 **Unapproved Budgets**
 
@@ -79,7 +79,7 @@ It draws the user's attention to all red, yellow, and blue alerts for projects w
 
 ## Determine if data is frozen
 
-Some data are linked to a period (e.g. timesheet and project status are linked to a week), others are linked to a specific date (e.g: invoices have a date) while others have ranges of dates (e.g. project has from-duration, payrolls have start-end dates). For each type have a difference behaviour, unless otherwise specified these roles applies:
+Some data are linked to a period (e.g. timesheet and project status are linked to a week), others are linked to a specific date (e.g: invoices have a date) while others have ranges of dates (e.g. project has from-duration, payrolls have start-end dates). For each type has a different behavior, unless otherwise specified these roles apply:
 
 * Data with an exact date (e.g: invoice): we consider the month in which the date falls
 * Data with a period (e.g: timesheet, project status): we consider the [ISO week](https://www.notion.so/Data-Freezing-07508db4896345679b7e98aeab115c5b?pvs=21) to determine what month a week belongs to
