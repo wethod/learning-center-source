@@ -7,25 +7,25 @@ weight: '99'
 
 ## Overview
 
-Data freezing is a concept and functionality that spans most sections of the system. At its core, it ensures the accuracy and reliability of historical data over time, preserving information integrity. This functionality is particularly useful for companies conducting quarterly or semi-annual financial statements, as it guarantees that Wethod continues to respect the closing data.
+Data freezing is a concept and functionality that spans most sections of the system. At its core, it ensures the accuracy and reliability of historical data over time, preserving information integrity. This functionality is particularly useful for companies conducting quarterly or semi-annual financial statements, as it guarantees that Wethod continues to respect the closing date.
 
 Data that requires freezing typically has an economic or financial impact on the Profit and Loss (P\&L) statement.
 
 In practice, data freezing is implemented through a section called "Data Freezing Engine." This engine allows users to pause and freeze past periods, while a series of custom controls and logic ensure that the data remains unaltered.
 
-Data freezing means that all frozen data must be set in stone and no longer editable.
+Data freezing means all frozen data must be set in stone and no longer editable.
 
-Although you can use data freezing for financial statements, we are not pursuing ISO or similar certifications, so no special precautions are necessary in this regard.
+Although you can use data freezing for financial statements, we are not pursuing ISO or similar certifications, so no special precautions are necessary.
 
 ## Data Freezing Engine
 
-In this section you will be able to select the period of time to freeze or pause your data and review the inconsistencies before running the command.
+In this section, you will be able to select the period to freeze or pause your data and review the inconsistencies before running the command.
 
 #### 1. Timeline: 
 
 The timeline represents the period during which a company has created, imported, modified, deleted, and stored data within WETHOD—spanning from the company's creation month to the most recent month.
 
-Users with specific permissions can segment the timeline by selecting a time period. This is done through a modal where they can choose the 'to' month, but not the 'from' month. The 'from' month is locked to maintain freezing contiguity.
+Users with specific permissions can segment the timeline by selecting a period. This is done through a modal where they can choose the 'to' month, but not the 'from' month. The 'from' month is locked to maintain freezing contiguity.
 
 ![](</uploads/gif data freezing.gif>)
 
@@ -37,7 +37,7 @@ Users with specific permissions can segment the timeline by selecting a time per
 
 👉 Clicking "new segment" allows users to define a new segment from the 'free to edit' time period. This spans from the start month of the free period (non-editable input) to a chosen end month.
 
-Layered data editing must be applied over a contiguous range of months (with the single month as the base unit, not days). A range of months must have a level equal to or lower than the previous range.
+Layered data editing must be applied over a contiguous range of months (with a single month as the base unit, not days). A range of months must have a level equal to or lower than the previous range.
 
 For example: If you create accounts in January, freeze data in March, and pause data in June, then in September you can: freeze or release from May to June, and pause from July to September. However, you cannot freeze from July to September without first freezing from May to June.
 
@@ -83,7 +83,7 @@ Some data are linked to a period (e.g. timesheet and project status are linked t
 
 * Data with an exact date (e.g: invoice): we consider the month in which the date falls
 * Data with a period (e.g: timesheet, project status): we consider the [ISO week](https://www.notion.so/Data-Freezing-07508db4896345679b7e98aeab115c5b?pvs=21) to determine what month a week belongs to
-* Data with a range of dates (e.g: projects, payrolls):
+* Data with a range of dates (e.g: projects, payrolls).
 
 ## Impact on Specific Sections:
 
@@ -149,7 +149,7 @@ Fields that are always editable, even when a travel carrier is locked:- name, fr
 
 ## Data Freezing- Permissions:
 
-You can allow the user level to view, pause, freeze or edit paused data. 
+You can allow the user level to view, pause, freeze or edit paused data.
 
 * view : used to show data freezing related section (e.g: Data Freezing Engine)
 * pause: allows to pause/unpause a period
