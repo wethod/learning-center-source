@@ -109,3 +109,7 @@ The “project status correction” procedure must update only non locked data.
 ### Data Freezing-Production
 
 The reference date for the production table is the week property and the ISO week must be used to determine if it falls into a locked period.
+
+### Data Freezing-Travels
+
+### Data Freezing- Permissions:
