@@ -31,7 +31,7 @@ The timeline offers three views:
 * Quarters
 * Years
 
-Users with specific permissions can segment the timeline by selecting a time period. This is done through a modal where they can choose the 'to' month, but not the 'from' month. The 'from' month is locked to maintain freezing contiguity. 
+Users with specific permissions can segment the timeline by selecting a time period. This is done through a modal where they can choose the 'to' month, but not the 'from' month. The 'from' month is locked to maintain freezing contiguity.
 
 ![](</uploads/gif data freezing.gif>)
 
@@ -67,18 +67,22 @@ The segment can be edited by changing its duration via the 'to' input or by alte
 
 ![](</uploads/data freezing 2.gif>)
 
-**Unarchived Projects **
+\*\*Unarchived Projects \*\*
 
 It brings the user's attention to all projects that are either lost or have 100 percent probability, are completed and have invoiced the full value, included in the selected time portion.
 
 **Won Projects At 90% Of Probability And Opportunities** 
 
-It Brings the user's attention to all 90 per cent projects and opportunities affected by the selected time portion that would not be included in the freeze. This is because I can only freeze a safe, 100 per cent project. 
+It Brings the user's attention to all 90 per cent projects and opportunities affected by the selected time portion that would not be included in the freeze. This is because I can only freeze a safe, 100 per cent project.
 
-**Unapproved Budgets **
+\*\*Unapproved Budgets \*\*
 
 Budgets for the following opportunities/projects must be approved in order to freeze data.
 
 **Alerts overview**
 
 It draws the user's attention to all red, yellow, and blue alerts for projects within the selected time period. These alerts should be resolved to ensure the quality and reliability of the frozen data. 
+
+## Data Freezing - Project
+
+When you freeze a period of time, certain project attributes remain editable: Name, Client, Client Contact, Client PO, PM, Account, Project Type, and Job Order. Furthermore, if the period is only paused, you can archive the project and modify its value, duration, and external costs. 
