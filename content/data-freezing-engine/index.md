@@ -79,7 +79,9 @@ It draws the user's attention to all red, yellow, and blue alerts for projects w
 
 ### Data Freezing - Project
 
-When you freeze a period of time, certain project attributes remain editable: Name, Client, Client Contact, Client PO, PM, Account, Project Type, and Job Order. Furthermore, if the end dat of the projects fall outside the frozen perido you can archive the project and modify its value, duration, and external costs and budget.
+Project duration is defined as the time period from the project's start date plus its duration. The project's reference date is the start date, combined with the duration when necessary to identify the project's end. Using these two dates, we can determine whether the project occurs before, after, or straddles the freeze period.
+
+When you freeze a period of time, certain project attributes remain editable: Name, Client, Client Contact, Client PO, PM, Account, Project Type, and Job Order. Furthermore, if the end dat of the projects fall outside the frozen period you can archive the project and modify its value, duration, and external costs and budget.
 
 ### Data Freezing- Timesheet
 
@@ -103,3 +105,7 @@ The duration of a partially locked order cannot change because it is used to dis
 Project statuses are locked when its date property falls into a locked period and uses the ISO week to determine so. When a project status is locked all attributes are locked.
 
 The “project status correction” procedure must update only non locked data.
+
+### Data Freezing-Production
+
+The reference date for the production table is the week property and the ISO week must be used to determine if it falls into a locked period.
