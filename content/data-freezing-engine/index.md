@@ -19,7 +19,7 @@ Although you can use data freezing for financial statements, we are not pursuing
 
 ## Data Freezing Engine
 
-In this section you will be able to select the period of time to freeze or pause your data and review the inconsistencies before running the command. 
+In this section you will be able to select the period of time to freeze or pause your data and review the inconsistencies before running the command.
 
 1\. Timeline: 
 
@@ -35,19 +35,7 @@ Users with specific permissions can segment the timeline by selecting a time per
 
 ![](</uploads/gif data freezing.gif>)
 
-You will be able to start a new data review by editing the selected segment form "data review" to free.
-
-![](</uploads/Screenshot 2024-10-08 alle 10.57.34.png>)
-
-2\. Data Review Dashboard 
-
-This section activates only when a segment is selected from the timeline. Upon selection, a data review section appears immediately below. This section displays warnings that allow users to check for inconsistencies in project data, enabling them to successfully pause or freeze the data within that segment.
-
-The segment can be edited by changing its duration via the 'to' input or by altering its status—essentially choosing the data editing option.
-
-Users can choose from 3 data edit options via the edit status button:
-
-Users can choose from 3 data edit options via the edit status button:
+ Users can choose from 3 data edit options via the edit status button:
 
 1. 🟢 Free to edit: Data within the selected time segment remains editable.
 2. 🟡 Paused edit: Data becomes non-editable, but reverting to status 1 is still possible.
@@ -67,18 +55,30 @@ For each time period selected to pause and freeze data changes, Wethod will prov
 
 The section will comprise 4 tables containing data from the selected time segment for user review.
 
-Unarchived Projects 
+You will be able to start a new data review by editing the selected segment form "data review" to free.
+
+![](</uploads/Screenshot 2024-10-08 alle 10.57.34.png>)
+
+2\. Data Review Dashboard 
+
+This section activates only when a segment is selected from the timeline. Upon selection, a data review section appears immediately below. This section displays warnings that allow users to check for inconsistencies in project data, enabling them to successfully pause or freeze the data within that segment.
+
+The segment can be edited by changing its duration via the 'to' input or by altering its status—essentially choosing the data editing option.
+
+![](</uploads/data freezing 2.gif>)
+
+**Unarchived Projects **
 
 It brings the user's attention to all projects that are either lost or have 100 percent probability, are completed and have invoiced the full value, included in the selected time portion.
 
-Won Projects At 90% Of Probability And Opportunities 
+**Won Projects At 90% Of Probability And Opportunities** 
 
 It Brings the user's attention to all 90 per cent projects and opportunities affected by the selected time portion that would not be included in the freeze. This is because I can only freeze a safe, 100 per cent project.
 
-Unapproved Budgets 
+**Unapproved Budgets **
 
 Budgets for the following opportunities/projects must be approved in order to freeze data.
 
-Alerts overview
+**Alerts overview**
 
 It draws the user's attention to all red, yellow, and blue alerts for projects within the selected time period. These alerts should be resolved to ensure the quality and reliability of the frozen data. 
