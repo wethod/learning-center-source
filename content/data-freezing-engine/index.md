@@ -132,7 +132,9 @@ Travel reference dates consist of the departure date (calculated as the earliest
 * Fields that are always editable, even when a travel is locked:
 * Destination
 * Notes
-* TravelCarrier reference dates consist of a start date and a return date, which can be left blank.The following fields cannot be edited when a travel carrier is locked:
+
+TravelCarrier reference dates consist of a start date and a return date, which can be left blank.The following fields cannot be edited when a travel carrier is locked:
+
 * Date: Used to allocate the travel value in the Financial section.
 * Return Date: Used to allocate the travel value in the Financial section.
 * Value: Used to allocate the travel value in the Financial section.
