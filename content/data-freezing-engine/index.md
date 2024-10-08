@@ -31,9 +31,13 @@ The timeline offers three views:
 * Quarters
 * Years
 
-Users with specific permissions can segment the timeline by selecting a time period. This is done through a modal where they can choose the 'to' month, but not the 'from' month. The 'from' month is locked to maintain freezing contiguity.
+Users with specific permissions can segment the timeline by selecting a time period. This is done through a modal where they can choose the 'to' month, but not the 'from' month. The 'from' month is locked to maintain freezing contiguity. 
 
 ![](</uploads/gif data freezing.gif>)
+
+You will be able to start a new data review by editing the selected segment form "data review" to free.
+
+![](</uploads/Screenshot 2024-10-08 alle 10.57.34.png>)
 
 2\. Data Review Dashboard 
 
