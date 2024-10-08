@@ -33,7 +33,7 @@ The timeline offers three views:
 
 Users with specific permissions can segment the timeline by selecting a time period. This is done through a modal where they can choose the 'to' month, but not the 'from' month. The 'from' month is locked to maintain freezing contiguity.
 
-immage
+![](</uploads/gif data freezing.gif>)
 
 2\. Data Review Dashboard 
 
