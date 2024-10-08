@@ -73,7 +73,7 @@ It brings the user's attention to all projects that are either lost or have 100 
 
 **Won Projects At 90% Of Probability And Opportunities** 
 
-It Brings the user's attention to all 90 per cent projects and opportunities affected by the selected time portion that would not be included in the freeze. This is because I can only freeze a safe, 100 per cent project.
+It Brings the user's attention to all 90 per cent projects and opportunities affected by the selected time portion that would not be included in the freeze. This is because I can only freeze a safe, 100 per cent project. 
 
 **Unapproved Budgets **
 
