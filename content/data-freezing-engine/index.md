@@ -86,3 +86,20 @@ When you freeze a period of time, certain project attributes remain editable: Na
 When a timesheet falls into a frozen month it is fully blocked, no attributes can be altered. Detailed timesheet has a specific date so it could be considered as “Data with an exact date”, but because it is always linked to a weekly timesheet (to be able to change back and forth between them without losing data) we must use the ISO month.
 
 ### Data Freezing- Orders
+
+Orders must be frozen because they impacts the company external costs. It’s “reference date” for the data freezing is the oldest between the issue date and the start date of the period of supply.
+
+Orders are partially locked, these property are always editable:
+
+* Purchase Order
+* Notes
+* Documents (upload and delete)
+* Status (“Send”, “Approve”, “Set as paid”)
+
+The duration of a partially locked order cannot change because it is used to distribute the value of the order into each month of the period of supply.
+
+### Data Freezing- Project status
+
+Project statuses are locked when its date property falls into a locked period and uses the ISO week to determine so. When a project status is locked all attributes are locked.
+
+The “project status correction” procedure must update only non locked data.
