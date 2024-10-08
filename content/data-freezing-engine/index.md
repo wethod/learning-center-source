@@ -91,17 +91,17 @@ Some data are linked to a period (e.g. timesheet and project status are linked t
 
 Project duration is defined as the time period from the project's start date plus its duration. The project's reference date is the start date, combined with the duration when necessary to identify the project's end. Using these two dates, we can determine whether the project occurs before, after, or straddles the freeze period.
 
-When you freeze a period of time, certain project attributes remain editable: Name, Client, Client Contact, Client PO, PM, Account, Project Type, and Job Order. Furthermore, if the end dat of the projects fall outside the frozen period you can archive the project and modify its value, duration, and external costs and budget.
+When you freeze a period of time, certain project attributes remain editable: Name, Client, Client Contact, Client PO, PM, Account, Project Type, and Job Order. Furthermore, if the end date of the project falls outside the frozen period you can archive the project and modify its value, duration, and external costs and budget.
 
-#### Data Freezing- Timesheet
+##### Data Freezing- Timesheet
 
-When a timesheet falls into a frozen month it is fully blocked, no attributes can be altered. Detailed timesheet has a specific date so it could be considered as “Data with an exact date”, but because it is always linked to a weekly timesheet (to be able to change back and forth between them without losing data) we must use the ISO month.
+When a timesheet falls into a frozen month it is fully blocked, no attributes can be altered. The detailed timesheet has a specific date so it could be considered as “Data with an exact date”, but because it is always linked to a weekly timesheet (to be able to change back and forth between them without losing data) we must use the ISO month.
 
 #### Data Freezing- Orders
 
-Orders must be frozen because they impacts the company external costs. It’s “reference date” for the data freezing is the oldest between the issue date and the start date of the period of supply.
+Orders must be frozen because they impact the company's external costs. Its “reference date” for the data freezing is the oldest between the issue date and the start date of the period of supply.
 
-Orders are partially locked, these property are always editable:
+Orders are partially locked, and these properties are always editable:
 
 * Purchase Order
 * Notes
@@ -124,26 +124,18 @@ The reference date for the production table is the week property and the ISO wee
 
 The travels section is really composed by two parts: Travel and TravelCarrier.
 
-Travel reference dates are date (calculated as the earliest date among all travel carries) and returnDate (nullable).
+Travel reference dates consist of the departure date (calculated as the earliest date among all travel carriers) and return date (optional). Fields that are not editable when the travel is locked:
 
-Fields that are not editable when the travel is locked:
-
-* status: cannot change the status of a locked travel because it is used in the Financial section to determine to include the value as external cost or not
-* date: this field is never edited by the user, is always calculated as the earliest date among all travel carries
-* return date: this field is never edited by the user, is always calculated as the latest returnDates among all travel carries
-
-Fields that are always editable, even when a travel is locked:
-
-* destination
-* notes
-
-TravelCarrier reference dates are date and returndDate (nullable).
-
-Fields that are not editable when a travel carried is locked:
-
-* Date: is used to distribute the value of the travel in the Financial section
-* ReturnDate: is used to distribute the value of the travel in the Financial section
-* Value: is used to distribute the value of the travel in the Financial section
+* Status: cannot change the status of a locked travel because it is used in the Financial section to determine to include the value as external cost or not
+* Date: This field is never edited by the user, is always calculated as the earliest date among all travel carries
+* Return date: This field is never edited by the user, is always calculated as the latest returnDates among all travel carries
+* Fields that are always editable, even when a travel is locked:
+* Destination
+* Notes
+* TravelCarrier reference dates consist of a start date and a return date, which can be left blank.The following fields cannot be edited when a travel carrier is locked:
+* Date: Used to allocate the travel value in the Financial section.
+* Return Date: Used to allocate the travel value in the Financial section.
+* Value: Used to allocate the travel value in the Financial section.
 
 Fields that are always editable, even when a travel carrier is locked:- name, from, to, employees, guests, additional request travel office notes, payment method,files.
 
@@ -154,4 +146,4 @@ You can allow the user level to view, pause, freeze or edit paused data.
 * view : used to show data freezing related section (e.g: Data Freezing Engine)
 * pause: allows to pause/unpause a period
 * freeze: allows to freeze a period
-* edit\_paused\_data : Edit paused data means that only people with this specific permission will be able to modify data within the paused time periods.
+* edit paused data : Edit paused data means that only people with this specific permission will be able to modify data within the paused time periods.
