@@ -85,17 +85,19 @@ Some data are linked to a period (e.g. timesheet and project status are linked t
 * Data with a period (e.g: timesheet, project status): we consider the [ISO week](https://www.notion.so/Data-Freezing-07508db4896345679b7e98aeab115c5b?pvs=21) to determine what month a week belongs to
 * Data with a range of dates (e.g: projects, payrolls):
 
-### Data Freezing - Project
+## Impact on Specific Sections:
+
+#### Data Freezing - Project
 
 Project duration is defined as the time period from the project's start date plus its duration. The project's reference date is the start date, combined with the duration when necessary to identify the project's end. Using these two dates, we can determine whether the project occurs before, after, or straddles the freeze period.
 
 When you freeze a period of time, certain project attributes remain editable: Name, Client, Client Contact, Client PO, PM, Account, Project Type, and Job Order. Furthermore, if the end dat of the projects fall outside the frozen period you can archive the project and modify its value, duration, and external costs and budget.
 
-### Data Freezing- Timesheet
+#### Data Freezing- Timesheet
 
 When a timesheet falls into a frozen month it is fully blocked, no attributes can be altered. Detailed timesheet has a specific date so it could be considered as “Data with an exact date”, but because it is always linked to a weekly timesheet (to be able to change back and forth between them without losing data) we must use the ISO month.
 
-### Data Freezing- Orders
+#### Data Freezing- Orders
 
 Orders must be frozen because they impacts the company external costs. It’s “reference date” for the data freezing is the oldest between the issue date and the start date of the period of supply.
 
@@ -108,21 +110,19 @@ Orders are partially locked, these property are always editable:
 
 The duration of a partially locked order cannot change because it is used to distribute the value of the order into each month of the period of supply.
 
-### Data Freezing- Project status
+#### Data Freezing- Project status
 
 Project statuses are locked when its date property falls into a locked period and uses the ISO week to determine so. When a project status is locked all attributes are locked.
 
 The “project status correction” procedure must update only non locked data.
 
-### Data Freezing-Production
+#### Data Freezing-Production
 
 The reference date for the production table is the week property and the ISO week must be used to determine if it falls into a locked period. For partially frozen projects with production weeks spanning both frozen and non-frozen months, changes to the budget (total days or final net price) no longer distribute the production delta across all production weeks. Instead, the entire delta is applied to the first non-frozen week.
 
-### Data Freezing-Travels
+#### Data Freezing-Travels
 
 The travels section is really composed by two parts: Travel and TravelCarrier.
-
-#### Travels
 
 Travel reference dates are date (calculated as the earliest date among all travel carries) and returnDate (nullable).
 
@@ -136,8 +136,6 @@ Fields that are always editable, even when a travel is locked:
 
 * destination
 * notes
-
-#### Travel carrier
 
 TravelCarrier reference dates are date and returndDate (nullable).
 
