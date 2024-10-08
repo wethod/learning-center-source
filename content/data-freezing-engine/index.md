@@ -77,6 +77,14 @@ Budgets for the following opportunities/projects must be approved in order to fr
 
 It draws the user's attention to all red, yellow, and blue alerts for projects within the selected time period. These alerts should be resolved to ensure the quality and reliability of the frozen data. 
 
+## Determine if data is frozen
+
+Some data are linked to a period (e.g. timesheet and project status are linked to a week), others are linked to a specific date (e.g: invoices have a date) while others have ranges of dates (e.g. project has from-duration, payrolls have start-end dates). For each type have a difference behaviour, unless otherwise specified these roles applies:
+
+* Data with an exact date (e.g: invoice): we consider the month in which the date falls
+* Data with a period (e.g: timesheet, project status): we consider the [ISO week](https://www.notion.so/Data-Freezing-07508db4896345679b7e98aeab115c5b?pvs=21) to determine what month a week belongs to
+* Data with a range of dates (e.g: projects, payrolls):
+
 ### Data Freezing - Project
 
 Project duration is defined as the time period from the project's start date plus its duration. The project's reference date is the start date, combined with the duration when necessary to identify the project's end. Using these two dates, we can determine whether the project occurs before, after, or straddles the freeze period.
@@ -112,4 +120,40 @@ The reference date for the production table is the week property and the ISO wee
 
 ### Data Freezing-Travels
 
-### Data Freezing- Permissions:
+The travels section is really composed by two parts: Travel and TravelCarrier.
+
+#### Travels
+
+Travel reference dates are date (calculated as the earliest date among all travel carries) and returnDate (nullable).
+
+Fields that are not editable when the travel is locked:
+
+* status: cannot change the status of a locked travel because it is used in the Financial section to determine to include the value as external cost or not
+* date: this field is never edited by the user, is always calculated as the earliest date among all travel carries
+* return date: this field is never edited by the user, is always calculated as the latest returnDates among all travel carries
+
+Fields that are always editable, even when a travel is locked:
+
+* destination
+* notes
+
+#### Travel carrier
+
+TravelCarrier reference dates are date and returndDate (nullable).
+
+Fields that are not editable when a travel carried is locked:
+
+* Date: is used to distribute the value of the travel in the Financial section
+* ReturnDate: is used to distribute the value of the travel in the Financial section
+* Value: is used to distribute the value of the travel in the Financial section
+
+Fields that are always editable, even when a travel carrier is locked:- name, from, to, employees, guests, additional request travel office notes, payment method,files.
+
+## Data Freezing- Permissions:
+
+You can allow the user level to view, pause, freeze or edit paused data.
+
+* view : used to show data freezing related section (e.g: Data Freezing Engine)
+* pause: allows to pause/unpause a period
+* freeze: allows to freeze a period
+* edit\_paused\_data : allows to edit data in a paused period
