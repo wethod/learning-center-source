@@ -78,8 +78,3 @@ Budgets for the following opportunities/projects must be approved in order to fr
 Alerts overview
 
 It draws the user's attention to all red, yellow, and blue alerts for projects within the selected time period. These alerts should be resolved to ensure the quality and reliability of the frozen data. 
-
-
-
-
-
