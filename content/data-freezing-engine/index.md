@@ -61,7 +61,7 @@ The segment can be edited by changing its duration via the 'to' input or by alte
 
 ![](</uploads/data freezing 2.gif>)
 
-\*\*Unarchived Projects \*\*
+**Unarchived Projects **
 
 It brings the user's attention to all projects that are either lost or have 100 percent probability, are completed and have invoiced the full value, included in the selected time portion.
 
