@@ -218,29 +218,51 @@ Items on the list are ordered by value.
 This is the first release of a new, broader section dedicated to reports within wethod. We are updating the documentation as we roll out new features to ensure you have complete support. Please note that this section is evolving, with new features to be added over time to enhance your management and analysis experience.
 {{< /note >}}
 
-The newly released Report Revenues section, available under Sales in the insight area of wethod, provides a more detailed view of project revenues. The section features two primary charts:
+To view this section, you must have the “view” permission for “Charts.” You can check this in the Permissions section.
 
-### Revenues
+In this section, you can create charts related to your company’s revenues.
 
-![](/uploads/chart.png)
+The first time you access this section, you will find:
 
-The first chart is a histogram that categorizes projects by the months of the current year (x-axis) and by their probability of success:
+* The “Revenues” chart, showing the current year's revenues, divided by month and grouped by probability cluster. This chart cannot be edited or deleted.
+* The “Revenues by Client” chart, which is a child of the “Revenues” chart, showing the top 10 most profitable clients. This chart cannot be edited or deleted.
 
-* 100%
-* 90%
-* between 10% and 75%
+![](/uploads/chart-revenues-default.png)![](/uploads/chart-revenues-by-client.png)
 
-The colors assigned to each probability group are random. When you click on a specific segment (for instance, the 100% probability projects for February 2024), the second chart below will update accordingly. To remove the filter, simply click on the same selected segment again, and the chart will revert to displaying the data for the entire year.
+Each chart can have child charts that inherit the filters applied to the parent.
 
-### Revenues by client
+Each chart also has a child table that shows detailed information about the projects included in the parent chart.
 
-This chart displays the revenues from the top 5 clients. By default, it shows the revenues from the top clients over the entire year. However, once you select a segment from the first chart, the second chart will filter to display the revenues of the top 5 clients for the specific period you have chosen.
+### Creating a new chart
 
-### Table view
+To create a new chart, you must have the “edit” permission for “Charts.” You can check this in the Permissions section.
 
-Each chart has a table displayed below it, listing all the projects that contribute to the calculation of the revenue section shown in the chart. When you apply filters to a chart, they are also applied to the child tables, ensuring you always have an accurate view of the data.
+By clicking the “Add chart” button, you will be prompted to enter some information about the chart you want to create:
 
-![](/uploads/table-view.png)
+1. Chart info: chart name and a brief description
+2. Data segment: filters to apply to limit the data to be considered
+3. Type of chart: the type of chart to use for data visualization
+4. Dimensions: values to assign to each chart dimension. For example, if you’ve selected a Bar Chart, you will need to specify which values to display on the chart’s x and y axes.
+
+![](/uploads/chart-create.gif)
+
+### Editing a chart
+
+To edit an existing chart, you must have the “edit” permission for “Charts.” You can check this in the Permissions section.
+
+You can then click the “Edit chart” button to modify the selected chart.
+
+### Deleting a chart
+
+To delete a chart, you must have the “edit” permission for “Charts.” You can check this in the Permissions section.
+
+You can click the three dots next to the chart’s name to access the option to delete it.
+
+![](/uploads/chart-delete.gif)
+
+### Click to filter
+
+You can click on a point in a chart to use it as a filter for child charts and child tables. For example, if you click on a point in the “Revenues” chart that groups all revenues for December related to projects with a 90% probability, the child charts will be filtered to show only the points related to December with a 90% probability.
 
 ## Production Value
 
