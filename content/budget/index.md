@@ -55,7 +55,7 @@ Positioned in the top right, this part shows some details about the project’s 
 * **Suggested price**: budget total price minus applied discount
 * **Suggested price gross margin**: suggested price minus budget total external costs
 * **Suggested price contribution margin**: suggested price minus budget total costs
-* **Final net price**: regardless of the suggested net price, you can decide on your own what you think is the best price for the project
+* **Final net price**: regardless of the suggested net price, you can decide on your own what you think is the best price for the project (new feature: B*y adding the comma you can use decimals for cents)*
 * **Final net price gross margin**: Final net price minus budget total external costs
 * **Final net price contribution margin**: Final net price minus budget total costs
 
