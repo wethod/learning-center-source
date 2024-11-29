@@ -264,6 +264,12 @@ You can click the three dots next to the chart’s name to access the option to 
 
 You can click on a point in a chart to use it as a filter for child charts and child tables. For example, if you click on a point in the “Revenues” chart that groups all revenues for December related to projects with a 90% probability, the child charts will be filtered to show only the points related to December with a 90% probability.
 
+## Gross Margin 🆕
+
+We’ve introduced a new dimension, “Gross Margin,” which uses data from the “Total” row in this section of the table: [Economics](https://acme.wethod.com/economics/#gross-margin).
+
+The data segment filters and dimensions are consistent with those in the “Revenues” section. However, the only numeric dimension here will be “Gross Margin” (instead of “Revenues”).
+
 ## Production Value
 
 Here you can find an overview of the annual projects' [production value](/glossary/index/#production-value). Each month is displayed as a two overlapped columns:
