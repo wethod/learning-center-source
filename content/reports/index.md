@@ -266,7 +266,7 @@ You can click on a point in a chart to use it as a filter for child charts and c
 
 ## Gross Margin 🆕
 
-We’ve introduced a new dimension, “Gross Margin,” which uses data from the “Total” row in this section of the table: [Economics](https://acme.wethod.com/economics/#gross-margin).
+We’ve introduced a new dimension, “Gross Margin,” which uses data from the “Total” row in this section of the table: Economics.
 
 The data segment filters and dimensions are consistent with those in the “Revenues” section. However, the only numeric dimension here will be “Gross Margin” (instead of “Revenues”).
 
