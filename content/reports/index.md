@@ -270,6 +270,8 @@ We’ve introduced a new dimension, “Gross Margin,” which uses data from the
 
 The data segment filters and dimensions are consistent with those in the “Revenues” section. However, the only numeric dimension here will be “Gross Margin” (instead of “Revenues”).
 
+![](</uploads/Screenshot 2024-11-29 alle 12.11.09.png>)
+
 ## Production Value
 
 Here you can find an overview of the annual projects' [production value](/glossary/index/#production-value). Each month is displayed as a two overlapped columns:
