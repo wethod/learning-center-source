@@ -272,6 +272,12 @@ The data segment filters and dimensions are consistent with those in the “Reve
 
 ![](</uploads/Screenshot 2024-11-29 alle 12.11.09.png>)
 
+Each chart can have child charts that inherit the filters applied to the parent.
+
+Each chart also has a child table that shows detailed information about the projects included in the parent.
+
+![](</uploads/gross margin 2.gif>)
+
 ## Production Value
 
 Here you can find an overview of the annual projects' [production value](/glossary/index/#production-value). Each month is displayed as a two overlapped columns:
