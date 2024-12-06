@@ -78,7 +78,7 @@ You can use this import to assign different metadata to your team members. The s
 
 Here you can configure your company by setting.
 
-### Employee Capacity Groups (Coming Soon)
+### Employee Capacity Groups
 
 A capacity group can be used to define daily expected [timesheet](https://support.wethod.com/friday/index/#timesheet) for a group of users. For example, user can add a capacity group called “Capacity London” to express that London office follows a 7-hours Monday to Friday working hours policy.
 
