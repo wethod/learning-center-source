@@ -102,7 +102,7 @@ Using the Weekly [Timesheet](https://support.wethod.com/reports/index/#weekly-ti
 Changes to a capacity group are applied to the past too.
 {{< /note >}}
 
-### Bank Holidays Planner (Coming Soon)
+### Bank Holidays Planner
 
 Bank holidays planner define days-off.
 
@@ -114,7 +114,7 @@ The holiday can be specific to a single date (dd/mm/yyyy) or repeated annually (
 
 Available hours in [Timesheet](https://support.wethod.com/friday/index/#timesheet) and weekly capacity of employees in [Weekly timesheet export](https://support.wethod.com/reports/index/#weekly-timesheet) consider holidays that are associated with the employee's location.![](</uploads/Screenshot 2023-11-13 at 12.30.26.png>)
 
-### Company Locations (Coming Soon)
+### Company Locations
 
 Locations are company working cities.
 
