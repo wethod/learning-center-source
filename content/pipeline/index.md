@@ -1,10 +1,10 @@
 ---
-date: 2016-03-11T19:10:46.000+00:00
+date: 2016-03-11T19:10:46.000Z
 title: Pipeline
-weight: "30"
 type: ''
-
+weight: '30'
 ---
+
 ## Overview
 
 The pipeline is the core of Wethod. Here is where you can find and manage all the opportunities and projects of your company.
@@ -107,7 +107,7 @@ You can choose from all the companies available from the [Client list section](/
 
 If the client you are looking for hasn't been added yet, you can create a new one directly from the form that shows up.
 
-Just type in the name and the acronym and click on the _Create_ button.
+Just type in the name and the acronym and click on the *Create* button.
 
 ![](/uploads/2021/10/26/client-creation.png)
 
@@ -131,7 +131,7 @@ For this reason, the value cannot be edited after a budget has been created.
 
 **External costs**
 
-This is an estimate of the percentage of external costs regarding this specific activity.  
+This is an estimate of the percentage of external costs regarding this specific activity.\
 While the activity has no budget you can edit this percentage.  The amount of external cost in this case will be the value of the activity multiplied by the estimated percentage.
 
 Once you create a budget, the external costs will refer to the ones specified in the budget, and will therefore not be editable from the activity details.
@@ -160,7 +160,7 @@ When dealing with opportunities it's useful to track their status to quickly hav
 
 A default `blank` status is available for all opportunities whether we are tracking its stage or not. Additionally at least 2 others statuses are available if the tracking option is turned on. These two are the `Won` and `Lost` stages.
 
-Stage and probability are tightly coupled if your opportunity's Job Order Category is tracking the opportunity stage. When the probability of an opportunity is updated its status changes and vice-versa. This is true only for specific thresholds and is reflected only on the default statuses (`blank`, `Won` and `Lost`). 
+Stage and probability are tightly coupled if your opportunity's Job Order Category is tracking the opportunity stage. When the probability of an opportunity is updated its status changes and vice-versa. This is true only for specific thresholds and is reflected only on the default statuses (`blank`, `Won` and `Lost`).
 
 Visit the [company settings page](/settings/index/#company). if you wish to create a new status or edit the existing ones.
 
@@ -177,7 +177,7 @@ Please note that the whitelist only affects the timesheet section.
 That means that being excluded from a timesheet whitelist does not keep you from seeing the project pages or the planning associated as you normally would.
 Find out more in the [timesheet whitelist support page](/friday/index/#whitelist).
 
-From the project details sidebar, you can see whether the whitelist is enabled or not, and all the employees in the list.  
+From the project details sidebar, you can see whether the whitelist is enabled or not, and all the employees in the list.\
 You can add and remove people from the list at any time, by editing the project details.
 
 ![](/uploads/2022/10/10/timesheet-whitelist-sidebar.gif)
@@ -351,9 +351,9 @@ You can search for a specific filter using the filters search bar at the top. Ad
 
 ### Intercompany Projects
 
-If your company is part of a [group](/group-setup/index) you have the possibility to connect a project to an [intercompany task](/budget/index/#make-a-task-intercompany), this makes it an _intercompany project_: its final net price and probability are updated to reflect the intercompany task’s external costs and intercompany task’s project’s probability.
+If your company is part of a [group](/group-setup/index) you have the possibility to connect a project to an [intercompany task](/budget/index/#make-a-task-intercompany), this makes it an *intercompany project*: its final net price and probability are updated to reflect the intercompany task’s external costs and intercompany task’s project’s probability.
 
-To connect a project you must first be invited, this can be done from inside a budget as 
+To connect a project you must first be invited, this can be done from inside a budget as
 [explained here](/budget/index/#make-a-task-intercompany). When you receive the invitation, just follow the link and select from the dropdown the project you want to connect.
 
 ![](/uploads/connect-project.png)
@@ -386,8 +386,8 @@ Next to the automatic/manual button you will find the view selector with 2 diffe
 * **Expanded**: All months are shown, even those with no amount planned or invoiced.
 * **Compact**: Only months with planned amounts or invoices are shown.
 
-On the right side you have a recap of the total amounts you have currently invoiced, have yet to invoice and the sum of your plan amounts.  
-The planned indicator helps your check that the sum of all your planned months matches the project's estimate.  
+On the right side you have a recap of the total amounts you have currently invoiced, have yet to invoice and the sum of your plan amounts.\
+The planned indicator helps your check that the sum of all your planned months matches the project's estimate.\
 An error with additional information appears beneath it if the two mismatch.
 
 Just below you can find a calendar where every card represents a month with some additional information:
@@ -397,11 +397,13 @@ Just below you can find a calendar where every card represents a month with some
 * **To be invoiced**: the difference between Planned and Invoiced for the given month.
 * While in manual mode you can also add notes to a month through the notes button in the top right corner of the card.
 
-{{< note title="Note" >}} When in manual mode the invoice plan is saved automatically after every change.
+You can create new invoices directly from the Invoice Plan by clicking the New Invoice button available in each month's card. When you create an invoice from here, the notes for that month will be pre-filled in the invoice automatically.
+
+{{\< note title="Note" >}} When in manual mode the invoice plan is saved automatically after every change.
 
 **Please mind the sum of each planned month must be equal to the total planned value shown in the top right corner.**
 
-If the values do no match the invoice plan **won't be saved** and an error message will appear warning you about the difference between the project's estimate and the amount you planned. {{< /note >}}
+If the values do no match the invoice plan **won't be saved** and an error message will appear warning you about the difference between the project's estimate and the amount you planned. {{\< /note >}}
 
 You can find the invoices (listed in your plan) in the [Invoices widget](/dashboard/index/#invoices), there they're ready to be created and sent.
 
@@ -409,10 +411,10 @@ You can find the invoices (listed in your plan) in the [Invoices widget](/dashbo
 
 ![](/uploads/2021/07/30/screen-shot-2021-07-30-at-12-38-05.png)
 
-Sometimes you want to link several projects together and handle the invoice plan from a single central project.  
+Sometimes you want to link several projects together and handle the invoice plan from a single central project.\
 This can be done using a billing group.
 
-To create a new billing group visit the invoice plan of a project you wish to link and click on the "Delegate invoice plan" button.  
+To create a new billing group visit the invoice plan of a project you wish to link and click on the "Delegate invoice plan" button.\
 Now select a project that will be used as the billing group master. Please mind that not all projects can be added to a billing group, in fact to be part of a billing group a project must:
 
 * **Not be "Invoice Driven"**: The project job order category should not be marked as "Invoice driven budget".
@@ -420,19 +422,19 @@ Now select a project that will be used as the billing group master. Please mind 
 * **Not have a multicurrency budget**. At the moment we only support projects using the master currency.
 * **Not be archived**.
 
-Once your new billing group is created you can access the group invoice plan from the master project invoice plan page.  
+Once your new billing group is created you can access the group invoice plan from the master project invoice plan page.\
 The invoice plan total it's made by the sum of all projects totals and you should plan accordingly.
 
 ![](/uploads/2021/07/30/screen-shot-2021-07-30-at-12-38-15.png)
 
-Trying to access the invoice plan of a linked project will result in an error since now every operations should be performed from the master project.  
-For example if you wish to generate a new invoice for a project that is part of a group you have to assign the invoice to the master project.  
+Trying to access the invoice plan of a linked project will result in an error since now every operations should be performed from the master project.\
+For example if you wish to generate a new invoice for a project that is part of a group you have to assign the invoice to the master project.\
 If you wish to unlink a project from a group you can either:
 
 * Access the master project invoice plan -> click on the "Show linked projects" button -> Click on the "unlink" button next to the name of the project you wish to unlink.
 * Access the linked project invoice plan -> Click on the "Revoke delegation" button.
 
-Beware that since you have removed a project from the group the total will change.  
+Beware that since you have removed a project from the group the total will change.\
 If you master invoice plan was set on "manual" mode you will have to adjust your plan to reflect the changes.
 
 ## Programs
@@ -489,16 +491,16 @@ This is your storage for the project: it's a good idea to keep all assets for a 
 
 ![](/uploads/2020/03/13/file-storage.gif)
 
-#### Sync with Google Drive 
+#### Sync with Google Drive
 
 You can create a bridge between a project canvas and a Google Drive folder containing files related to that project.
 
 This allow you to use canvas Files widget to:
 
-*	Upload files to the related Google Drive project folder. Files are uploaded inside the folder you are in
-*	See files inside the Google Drive project folder
-*	Delete files inside the Google Drive project folder
-*	Search files inside the Google Drive project folder. Search is done only inside the folder you are in
+* Upload files to the related Google Drive project folder. Files are uploaded inside the folder you are in
+* See files inside the Google Drive project folder
+* Delete files inside the Google Drive project folder
+* Search files inside the Google Drive project folder. Search is done only inside the folder you are in
 
 Once this functionality is enabled you will only be able to upload files to Google Drive, other files uploaded to wethod in the past will still be visible.
 
@@ -506,11 +508,11 @@ You can enable this functionality in your [company settings](/settings/index/#co
 
 Once this functionality is enabled, different thing are automatically kept in sync:
 
-*	When a project with a job order category in sync is created, the related Google Drive folder is created in the canonical path
-*	If a project client is changed, its Google Drive folder is moved under the new Google Drive client folder
-*	If a project client name changes, the Google Drive folder related to this client has its name changed accordingly
-*	If a project name changes, its Google Drive folder name is updated accordingly
-*	If a project client is deleted - and it gets replaced with another one for the active projects - all its Google project folders are moved under the new Google Drive client folder
+* When a project with a job order category in sync is created, the related Google Drive folder is created in the canonical path
+* If a project client is changed, its Google Drive folder is moved under the new Google Drive client folder
+* If a project client name changes, the Google Drive folder related to this client has its name changed accordingly
+* If a project name changes, its Google Drive folder name is updated accordingly
+* If a project client is deleted - and it gets replaced with another one for the active projects - all its Google project folders are moved under the new Google Drive client folder
 
 A project may not be associated with a Google Drive folder, even if is the integration is enabled for its job order category. This can happen if:
 
@@ -534,7 +536,7 @@ Columns comes in different types:
 * **Member** which let you choose one or more employees from your company
 * **Milestone** which let you add an important event, with a type and a date
 
-When you add a column of type _status_ or _number_ you automatically get a summary below the column, for a number column you can choose which kind of summary you want to see: sum, average, min or max.
+When you add a column of type *status* or *number* you automatically get a summary below the column, for a number column you can choose which kind of summary you want to see: sum, average, min or max.
 
 You can re-order columns, rows and boards by simply drag and drop them where you prefer.
 
@@ -544,7 +546,7 @@ You can re-order columns, rows and boards by simply drag and drop them where you
 
 Do you hate tables? Ya they're not this kind of friendly, so what about organizing all your tasks into cards that you can move from a list to another? You can do this by switching your view from **spreadsheet** to **kanban**: your table will be transformed into a list and no row will be harmed.
 
-Lists are automagically created by pivoting all spreadsheet's rows on the first column of type _status_ but don't worry, you can always usa another column of type _status_.
+Lists are automagically created by pivoting all spreadsheet's rows on the first column of type *status* but don't worry, you can always usa another column of type *status*.
 
 To see and edit details of a card just click on it.
 
@@ -554,7 +556,7 @@ You can re-order cards and lists by simply drag and drop them where you prefer.
 
 #### Gantt
 
-Start looking at your tasks from a different point of view: all _date_ and _milestone_ columns are showed on the **Gantt**, this means that from here you can appreciate how all your tasks fit together.
+Start looking at your tasks from a different point of view: all *date* and *milestone* columns are showed on the **Gantt**, this means that from here you can appreciate how all your tasks fit together.
 
 To see and edit details of an item just click on its name.
 
