@@ -397,7 +397,7 @@ Just below you can find a calendar where every card represents a month with some
 * **To be invoiced**: the difference between Planned and Invoiced for the given month.
 * While in manual mode you can also add notes to a month through the notes button in the top right corner of the card.
 
-You can create new invoices directly from the Invoice Plan by clicking the New Invoice button available in each month's card. When you create an invoice from here, the notes for that month will be pre-filled in the invoice automatically.
+You can create new invoices directly from the Invoice Plan by clicking the **New Invoice** button available in each month's card. When you create an invoice from here, the **notes** for that month will **be pre-filled in the invoice** automatically.
 
 {{\< note title="Note" >}} When in manual mode the invoice plan is saved automatically after every change.
 
