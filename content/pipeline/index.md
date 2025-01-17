@@ -405,12 +405,6 @@ You can create new invoices directly from the Invoice Plan by clicking the **New
 If the values do no match the invoice plan **won't be saved** and an error message will appear warning you about the difference between the project's estimate and the amount you planned.
 {{< /note >}}
 
-{{\< note title="Note" >}} When in manual mode the invoice plan is saved automatically after every change.
-
-**Please mind the sum of each planned month must be equal to the total planned value shown in the top right corner.**
-
-If the values do no match the invoice plan **won't be saved** and an error message will appear warning you about the difference between the project's estimate and the amount you planned. {{\< /note >}}
-
 You can find the invoices (listed in your plan) in the [Invoices widget](/dashboard/index/#invoices), there they're ready to be created and sent.
 
 ### Billing group
