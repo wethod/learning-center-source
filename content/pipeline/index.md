@@ -399,6 +399,12 @@ Just below you can find a calendar where every card represents a month with some
 
 You can create new invoices directly from the Invoice Plan by clicking the **New Invoice** button available in each month's card. When you create an invoice from here, the **notes** for that month will **be pre-filled in the invoice** automatically.
 
+{{< note title=" When in manual mode the invoice plan is saved automatically after every change." >}}
+**Please mind the sum of each planned month must be equal to the total planned value shown in the top right corner.**
+
+If the values do no match the invoice plan **won't be saved** and an error message will appear warning you about the difference between the project's estimate and the amount you planned.
+{{< /note >}}
+
 {{\< note title="Note" >}} When in manual mode the invoice plan is saved automatically after every change.
 
 **Please mind the sum of each planned month must be equal to the total planned value shown in the top right corner.**
