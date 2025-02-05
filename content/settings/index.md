@@ -102,6 +102,14 @@ Using the Weekly [Timesheet](https://support.wethod.com/reports/index/#weekly-ti
 Changes to a capacity group are applied to the past too.
 {{< /note >}}
 
+### Full-Time Equivalent (FTE)
+
+The Full-Time Equivalent (FTE) represents the number of hours your company considers a full workday. This value is used to convert between days and hours across the system. For example, if your company defines an FTE as 6 hours and 40 minutes (6:40), then a budget of 3 days would total 20 hours (3 × 6:40).
+
+The FTE is logically linked to the default [Employee Capacity Groups](https://support.wethod.com/settings/index/#employee-capacity-groups). If you update the FTE, you may also need to update the default employee capacity group. This update is not performed automatically. Instead, the system displays a modal with a disclaimer, as different users may have different intentions when updating the FTE.
+
+To modify the FTE, users must have the settings -> company permission.
+
 ### Bank Holidays Planner
 
 Bank holidays planner define days-off.
