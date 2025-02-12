@@ -21,8 +21,7 @@ There are two ways to input company marketing costs:
   * Yearly cost amount (net)
   * Business unit to associate the cost (optional)
 * Automatic Calculation: once you input these details, wethod will automatically distribute the total cost across the relevant months and -if provided- associates the cost with the specified business unit.
-
-![Marketing\_P\&L](</uploads/Screenshot 2025-02-12 alle 14.43.29.png>)
+  ![Marketing\_P\&L](</uploads/Screenshot 2025-02-12 alle 14.43.29.png>)
 
 1. **Use a Project for Marketing Costs**
    If you prefer to track marketing costs by recording them monthly through orders with specific suppliers, you can manage them via a dedicated project. How to set it up:
