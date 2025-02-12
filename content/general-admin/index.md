@@ -19,7 +19,7 @@ This option allows you to manage G\&A costs directly from the settings without c
   * Start month and end month
   * Yearly cost amount
   * Business unit to associate the cost (optional)
-* Once you input these details, the system will automatically distribute the total cost across the relevant months, and associate the cost with the specified business unit if provided.
+    Once you input these details, the system will automatically distribute the total cost across the relevant months, and associate the cost with the specified business unit if provided.
 
 \*\*\*\*![](</uploads/Screenshot 2025-02-12 alle 12.49.35.png>)
 
