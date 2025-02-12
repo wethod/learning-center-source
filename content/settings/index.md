@@ -30,27 +30,18 @@ Since you have the right permissions, you can: **invite people**, **assign speci
 
 To invite a new teammate:
 
-1. Click on the top left "**+ new user**" button;
-2. Assign a *user level*, a \*role \*and the *email address* of the person you want to invite;
-3. Click the "**invite**" button. Once done, an email will be sent to the given address.
+1. Click on "**New User**", then "**Add manually**"
+2. Assign a *user level*, a *role* and the *email address* of the person you want to invite;
+3. Click the "**Save**" button. Once done, an email will be sent to the given address.
 
-You can view two **tags** assigned to a person, creation and editing of tags is managed in [Settings / Company.](https://support.wethod.com/settings/index/#company)
+To edit a user, click on the corresponding arrow to open the sidebar. Note that:
 
-Each user can have a job title which specifies what he do (i.e. junior designer, senior developer, social media manager).
-
-Each user can have an **allocation manager**, that is the person in the team that will receive notifications about user's allocation requests.
-
-Being a user allocation manager does not automatically means you can approve or reject their requests, you need special permissions for that.
-
-To set a user allocation manager:
-
-1. Click on the "more" icon related to the user
-2. Click on "Set allocation manager" menu item
-3. Choose the manager from the autocomplete input
-4. Assign a specific pricelist or leave the default one.
-5. Click "Save" button
-
-Any team member can be allocation manager of another team member.
+* Each user can have a job title (i.e. junior designer, senior developer, social media manager).
+* You can assign *tags*. Creation and editing of tags is managed in [Settings / Company.](https://support.wethod.com/settings/index/#company)
+* Each user can have an *allocation manager*, who is the person in the team that will receive notifications about user's allocation requests.
+* Being a user allocation manager does not automatically means you can approve or reject their requests, you need special permissions for that.
+* Any team member can be an allocation manager of another team member.
+* Assigning a *pricelist* to an employee will impact their costs in the project report, when calculating the internal costs of a project (based on the amount of hours filled in the timesheet section by each employee for that project).
 
 {{< note title="Note" >}}
 **Only super users can assign "super user" role.**
@@ -60,13 +51,13 @@ Any team member can be allocation manager of another team member.
 **If there's only one super user left, you cannot change its role.**
 {{< /note >}}
 
-Assigning a pricelist to an employee will impact their costs in the project report, when calculating the internal costs of a project (based on the amount of hours filled in the timesheet section by each employee for that project).
+#### Export and Import Metadata
 
-![](/uploads/5.png)
+To export all users' metadata, click on the *Export* icon on the top-right corner of the table. This will generate an Excel file, which will be sent to your email.
 
-#### Import Metadata
+You can edit the exported file to change users' metadata, then you can import it by clicking on the top left "**New User**" button, then "**Import metadata**"
 
-You can use this import to assign different metadata to your team members. The structure of the file is the same as the one you get from the Export Metadata. For the import to be successful you will need to follow these rules:
+For the import to be successful you will need to follow these rules:
 
 * the file cannot contain empty rows
 * all cells under the tag columns must have one of the values that you have specified in the company settings
