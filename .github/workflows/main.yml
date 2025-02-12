@@ -9,7 +9,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     env:
       TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
       TINA_CLIENT_ID: ${{ secrets.TINA_CLIENT_ID }}
