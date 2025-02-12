@@ -154,9 +154,9 @@ Here you can add the categories for your projects, each category needs at least 
 * **Capex**: the projects in this category must be treated as investments
 * **Ext. Cost**: the external cost of the projects of this categories are going to be associate with one of the following categories:
   * **On goods sold** – costs directly related to revenues (before the gross margin). Example: production costs or supplies necessary to deliver the sold product or service.
-  * **Before contribution margin** – costs allocated to the personnel section in the P\&L.\ Example: costs related to internal projects that should be reported as personnel expenses.
-  * **On G\&A** – general and administrative operating costs.\ Example: administrative projects, general consultancy, or back-office activities.
-  * **On Marketing** – costs related to marketing and communication activities.\ Example: advertising expenses or marketing campaigns attributed to marketing projects.
+  * **Before contribution margin** – costs allocated to the personnel section in the P\&L. Example: costs related to internal projects that should be reported as personnel expenses.
+  * **On G\&A** – general and administrative operating costs. Example: administrative projects, general consultancy, or back-office activities.
+  * **On Marketing** – costs related to marketing and communication activities. Example: advertising expenses or marketing campaigns attributed to marketing projects.
 * **Workable**: you can switch off this option for projects used to track holidays or permits, this way timesheets done on them are not used to calculate chargeability
 * **Hours type**: you can use this option to tell if job order category's hours are:
   1\. **Workable**: (default) during this hours user is working
