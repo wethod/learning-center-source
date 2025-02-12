@@ -156,7 +156,7 @@ Here you can add the categories for your projects, each category needs at least 
   * **On goods sold** – costs directly related to revenues (before the gross margin).
 
     Example: production costs or supplies necessary to deliver the sold product or service.
-  * **Before contribution margin **– costs allocated to the personnel section in the P\&L.\
+  * **Before contribution margin** – costs allocated to the personnel section in the P\&L.\
     Example: costs related to internal projects that should be reported as personnel expenses.
   * **On G\&A** – general and administrative operating costs.\
     Example: administrative projects, general consultancy, or back-office activities.
