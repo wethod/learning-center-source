@@ -27,6 +27,6 @@ There are two ways to input company marketing costs:
 1. **Use a Project for Marketing Costs**
    If you prefer to track marketing costs by recording them monthly through orders with specific suppliers, you can manage them via a dedicated project. How to set it up:
 
-* Create a project (commessa) dedicated to marketing costs, and ensure that the job order category associated with this project links external costs to the Marketing category.
+* Create a project dedicated to marketing costs, and ensure that the job order category associated with this project links external costs to the Marketing category.
 
 In the table, you’ll see the total of all forecasted or actual marketing costs loaded throughout the year via the projects. This gives you a detailed and real-time view of marketing expenses from the project perspective.
