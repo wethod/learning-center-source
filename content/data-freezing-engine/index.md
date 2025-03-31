@@ -52,10 +52,7 @@ For example: If you create accounts in January, freeze data in March, and pause 
 
 ⚠️ Remember: data freezing can only be performed on a paused period, not directly on a free period.
 
-You will be able to start a new data review analysis with the dedicated button. \
 A data verification report will then show you 4 tables containing data inconsistencies that must be reviewed before changing the status.
-
-![](</uploads/Screenshot 2024-10-08 alle 10.57.34.png>)
 
 #### 2. Data Review Dashboard 
 
