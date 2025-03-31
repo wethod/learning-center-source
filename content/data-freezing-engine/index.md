@@ -25,22 +25,24 @@ The main timeline "All Data" represents the period during which a company has cr
 
 Instead, the smaller timeline represents instead only a part of all the data above, like for example "Timesheet" only.
 
-This allows the user to differentiate between type of data to freeze for different purposes. Let's say the company has frozen data that has an economic or financial impact on the Profit and Loss (P\&L) statement for the last year, but wants to still pause only the timesheet for the first 3 months of the current year, now they can to it. Obviously, "All Data" influences "Timesheet" status and not the other way around.
+This allows the user to differentiate between type of data to freeze for different purposes. Let's say the company has frozen data that has an economic or financial impact on the Profit and Loss (P\&L) statement for the last year, but wants to still pause only the timesheet for the first 3 months of the current year, now they can to it.
+
+Obviously, the main timeline influences the smaller ones, and not the other way around.
 
 **Segment Timeline**
 
-Users with specific permissions can segment the timeline by selecting a period. This is done through a modal where they can choose the 'to' month, but not the 'from' month. The 'from' month is locked to maintain freezing contiguity.
+Users with specific permissions can segment the timeline by clicking on it and selecting. This is done through a modal where they can choose the 'to' month, but not the 'from' month. The 'from' month is locked to maintain freezing contiguity.
 
 ![](</uploads/gif data freezing.gif>)
 
- Users can choose from 4 data edit options via the edit status button:
+ 👉 Clicking the "New segment" button the user can choose which kind of segment to create and a period of time. This spans from the start month of the free period (non-editable input) to a chosen end month.
+
+After created, the user can choose from 4 data edit options via the "Edit Status" button:
 
 1. 🟢 Free to edit: Data within the selected time segment remains editable.
 2. 🔵 Data review: Data within the selected time segment remains editable, but you can review inconsistencies before pausing data.
 3. 🟡 Paused edit: Data becomes non-editable, but reverting to status 1 or 2 is still possible.
 4. 🔘 Frozen Data: Data becomes permanently non-editable, with no option to revert to the other statuses.
-
-👉 Clicking "new segment" allows users to define a new segment from the 'free to edit' time period. This spans from the start month of the free period (non-editable input) to a chosen end month.
 
 Layered data editing must be applied over a contiguous range of months (with a single month as the base unit, not days). A range of months must have a level equal to or lower than the previous range.
 
