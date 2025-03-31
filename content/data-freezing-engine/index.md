@@ -23,9 +23,9 @@ In this section, you will be able to select the period to freeze or pause your d
 
 The main timeline "All Data" represents the period during which a company has created, imported, modified, deleted, and stored data within WETHOD—spanning from the company's creation month to the most recent month.
 
-The smaller timeline represents instead only a part of all the data above, like for example "Timesheet" only.
+Instead, the smaller timeline represents instead only a part of all the data above, like for example "Timesheet" only.
 
-This allows the user to differentiate between type of data to freeze for different purposes. Let's say the company freezes data that requires freezing typically has an economic or financial impact on the Profit and Loss (P\&L) statement for the last year period, but wants to still pause only the timesheet for the first 3 months of the current year, now they can to it. Obviously, "All Data" influences "Timesheet" status and not the other way around.
+This allows the user to differentiate between type of data to freeze for different purposes. Let's say the company has frozen data that has an economic or financial impact on the Profit and Loss (P\&L) statement for the last year, but wants to still pause only the timesheet for the first 3 months of the current year, now they can to it. Obviously, "All Data" influences "Timesheet" status and not the other way around.
 
 **Segment Timeline**
 
