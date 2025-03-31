@@ -19,7 +19,7 @@ Although you can use data freezing for financial statements, we are not pursuing
 
 In this section, you will be able to select the period to freeze or pause your data and review the inconsistencies before running the command.
 
-#### 1. Timeline: 
+### 1. Timeline: 
 
 The main timeline "All Data" represents the period during which a company has created, imported, modified, deleted, and stored data within WETHOD—spanning from the company's creation month to the most recent month.
 
@@ -54,7 +54,7 @@ Moreover, the main timeline influences the smaller ones, and not the other way a
 
 A data verification report will then show you 4 tables containing data inconsistencies that must be reviewed before changing the status.
 
-#### 2. Data Review Dashboard 
+### 2. Data Review Dashboard 
 
 This section activates only when a segment is selected from the timeline. Upon selection, a data review section appears immediately below. This section displays warnings that allow users to check for inconsistencies in project data, enabling them to successfully pause or freeze the data within that segment.
 
@@ -86,7 +86,7 @@ Some data are linked to a period (e.g. timesheet and project status are linked t
 * Data with a period (e.g: timesheet, project status): we consider the [ISO week](https://www.notion.so/Data-Freezing-07508db4896345679b7e98aeab115c5b?pvs=21) to determine what month a week belongs to
 * Data with a range of dates (e.g: projects, payrolls).
 
-## Impact on Specific Sections:
+## Impact on Specific Sections
 
 #### **Data Freezing - Project**
 
@@ -132,7 +132,7 @@ Travel reference dates consist of the departure date (calculated as the earliest
 * Employee
 * Value
 
-## Data Freezing - Permissions:
+## Permissions
 
 You can allow the user level to view, pause, freeze or edit paused data.
 
