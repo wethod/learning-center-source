@@ -19,7 +19,7 @@ Although you can use data freezing for financial statements, we are not pursuing
 
 In this section, you will be able to select the period to freeze or pause your data and review the inconsistencies before running the command.
 
-### **1. Timeline **
+### **1. Timeline**
 
 The main timeline "All Data" represents the period during which a company has created, imported, modified, deleted, and stored data within WETHOD—spanning from the company's creation month to the most recent month.
 
