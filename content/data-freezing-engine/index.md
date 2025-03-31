@@ -27,8 +27,6 @@ Instead, the smaller timeline represents instead only a part of all the data abo
 
 This allows the user to differentiate between type of data to freeze for different purposes. Let's say the company has frozen data that has an economic or financial impact on the Profit and Loss (P\&L) statement for the last year, but wants to still pause only the timesheet for the first 3 months of the current year, now they can to it.
 
-Obviously, the main timeline influences the smaller ones, and not the other way around.
-
 **Segment Timeline**
 
 Users with specific permissions can segment the timeline by clicking on it and selecting. This is done through a modal where they can choose the 'to' month, but not the 'from' month. The 'from' month is locked to maintain freezing contiguity.
@@ -47,6 +45,8 @@ After created, the user can choose from 4 data edit options via the "Edit Status
 Layered data editing must be applied over a contiguous range of months (with a single month as the base unit, not days). A range of months must have a level equal to or lower than the previous range.
 
 For example: If you create accounts in January, freeze data in March, and pause data in June, then in September you can: freeze or release from May to June, and pause from July to September. However, you cannot freeze from July to September without first freezing from May to June.
+
+Moreover, the main timeline influences the smaller ones, and not the other way around. So, the user can create a "Timesheet" segment and change the status in "🟡Paused edit" it, only if the main one is in status "🟢 Free to edit". If the user than proceed to create a main segment which contains the time period previously set in the smaller ones, it will be overwritten by the "All Data" timeline in terms of dates and status.
 
 📌 The start date of a segment will never be selectable by the user. Instead, Wethod will set it by default, depending on whether you want to pause or freeze a period. It will choose the first non-paused month or the first non-frozen month, respectively.
 
