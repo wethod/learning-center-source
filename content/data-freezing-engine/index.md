@@ -49,13 +49,13 @@ Layered data editing must be applied over a contiguous range of months (with a s
 
 For example: If you create accounts in January, freeze data in March, and pause data in June, then in September you can: freeze or release from May to June, and pause from July to September. However, you cannot freeze from July to September without first freezing from May to June.
 
-Moreover, the **main timeline influences the smaller ones**, and not the other way around. So, the user can create a "Timesheet" segment and change the status in "Paused edit" it, only if the main one is in status "Free to edit" or in "Data review, not if it is "Paused edit" or "Frozen data". 
+Moreover, the **main timeline influences the smaller ones**, and not the other way around. So, the user can create a "Timesheet" segment and change the status in "Paused edit" it, only if the main one is in status "Free to edit" or in "Data review, not if it is "Paused edit" or "Frozen data".
 
-⚠️* Remember: if there is no possibility to create new segments it means that there are already existing segments in every status, so change status to the existing ones (like "data review" to "paused edit"), to add a new segment in "data review".*
+⚠️\* Remember: if there is no possibility to create new segments it means that there are already existing segments in every status, so change status to the existing ones (like "data review" to "paused edit"), to add a new segment in "data review".\*
 
 A data verification report will then show you 4 tables containing data inconsistencies that must be reviewed before changing the status.
 
-### **2. Data Review Dashboard **
+### \*\*2. Data Review Dashboard \*\*
 
 This section activates only when a segment is selected from the timeline. Upon selection, a data review section appears immediately below. This section displays warnings that allow users to check for inconsistencies in project data, enabling them to successfully pause or freeze the data within that segment.
 
@@ -95,7 +95,7 @@ Using the project start date and its duration, we can determine whether the proj
 
 When you freeze a period of time, certain project attributes remain editable: Name, Client, Client Contact, Client PO, PM, Account, Project Type, and Job Order. Furthermore, if the end date of the project falls outside the frozen period you can archive the project and modify its value, duration, external costs and budget.
 
-#### **Data Freezing - Timesheet**
+#### **Data Freezing - Timesheet **
 
 When a timesheet falls into a frozen month it is fully blocked, no attributes can be altered. This applies both to weekly and detailed timesheet.
 
