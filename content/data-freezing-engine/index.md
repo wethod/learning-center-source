@@ -33,7 +33,7 @@ Users with specific permissions can segment the timeline by clicking on it and s
 
 ![](</uploads/create segment.gif>)
 
- 👉 Clicking the "New segment" button the user can choose which kind of segment to create and a period of time. This spans from the start month of the free period (non-editable input) to a chosen end month.
+ 👉 Clicking the "Create segment" button the user can choose which kind of segment to create and a period of time. This spans from the start month of the free period (non-editable input) to a chosen end month.
 
 After created, the user can choose from 4 data edit options via the "Edit Status" button:
 
