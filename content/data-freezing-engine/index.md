@@ -49,9 +49,9 @@ Layered data editing must be applied over a contiguous range of months (with a s
 
 For example: If you create accounts in January, freeze data in March, and pause data in June, then in September you can: freeze or release from May to June, and pause from July to September. However, you cannot freeze from July to September without first freezing from May to June.
 
-Moreover, the **main timeline influences the smaller ones**, and not the other way around. So, the user can create a "Timesheet" segment and change the status in "Paused edit" it, only if the main one is in status "Free to edit" or in "Data review, not if it is "Paused edit" or "Frozen data".
+Moreover, the **main timeline influences the smaller ones**, and not the other way around. So, the user can create a "Timesheet" segment and change the status in "Paused edit" it, only if the main one is in status "Free to edit" or in "Data review", not if it is "Paused edit" or "Frozen data".
 
-⚠️ *Remember: if there is no possibility to create new segments it means that there are already existing segments in every status, so change status to the existing ones (like "data review" to "paused edit"), to add a new segment in "data review".*
+⚠️ *Remember: if there is no possibility to create new segments it means that there are already existing segments in every status, so change status to the existing ones (like "Data review" to "Paused edit"), to add a new segment in "Data review".*
 
 A data verification report will then show you 4 tables containing data inconsistencies that must be reviewed before changing the status.
 
