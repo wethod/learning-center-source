@@ -31,7 +31,7 @@ This allows the user to differentiate between type of data to freeze for differe
 
 Users with specific permissions can segment the timeline by clicking on it and selecting. This is done through a modal where they can choose the 'to' month, but not the 'from' month. The 'from' month is locked to maintain freezing contiguity.
 
-![](</uploads/gif data freezing.gif>)
+![](</uploads/create segment.gif>)
 
  👉 Clicking the "New segment" button the user can choose which kind of segment to create and a period of time. This spans from the start month of the free period (non-editable input) to a chosen end month.
 
@@ -40,17 +40,18 @@ After created, the user can choose from 4 data edit options via the "Edit Status
 1. 🟢 Free to edit: Data within the selected time segment remains editable.
 2. 🔵 Data review: Data within the selected time segment remains editable, but you can review inconsistencies before pausing data.
 3. 🟡 Paused edit: Data becomes non-editable, but reverting to status 1 or 2 is still possible.
-4. 🔘 Frozen Data: Data becomes permanently non-editable, with no option to revert to the other statuses.
+4. 🔘 Frozen data: Data becomes permanently non-editable, with no option to revert to the other statuses.\
+   This status can only be applied on a paused period, not directly on a free period.
 
 Layered data editing must be applied over a contiguous range of months (with a single month as the base unit, not days). A range of months must have a level equal to or lower than the previous range.
 
-For example: If you create accounts in January, freeze data in March, and pause data in June, then in September you can: freeze or release from May to June, and pause from July to September. However, you cannot freeze from July to September without first freezing from May to June.
-
-Moreover, the main timeline influences the smaller ones, and not the other way around. So, the user can create a "Timesheet" segment and change the status in "🟡Paused edit" it, only if the main one is in status "🟢 Free to edit". If the user than proceed to create a main segment which contains the time period previously set in the smaller ones, it will be overwritten by the "All Data" timeline in terms of dates and status.
-
 📌 The start date of a segment will never be selectable by the user. Instead, Wethod will set it by default, depending on whether you want to pause or freeze a period. It will choose the first non-paused month or the first non-frozen month, respectively.
 
-⚠️ Remember: data freezing can only be performed on a paused period, not directly on a free period.
+For example: If you create accounts in January, freeze data in March, and pause data in June, then in September you can: freeze or release from May to June, and pause from July to September. However, you cannot freeze from July to September without first freezing from May to June.
+
+Moreover, the **main timeline influences the smaller ones**, and not the other way around. So, the user can create a "Timesheet" segment and change the status in "Paused edit" it, only if the main one is in status "Free to edit" or in "Data review, not if it is "Paused edit" or "Frozen data". 
+
+⚠️* Remember: if there is no possibility to create new segments it means that there are already existing segments in every status, so change status to the existing ones (like "data review" to "paused edit"), to add a new segment in "data review".*
 
 A data verification report will then show you 4 tables containing data inconsistencies that must be reviewed before changing the status.
 
@@ -60,7 +61,7 @@ This section activates only when a segment is selected from the timeline. Upon s
 
 The segment can be edited by changing its duration via the 'to' input or by altering its status—essentially choosing the data editing option.
 
-![](</uploads/data freezing 2.gif>)
+![](</uploads/data review dashboard.gif>)
 
 **Unarchived Projects**
 
