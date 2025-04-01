@@ -55,7 +55,7 @@ Moreover, the **main timeline influences the smaller ones**, and not the other w
 
 A data verification report will then show you 4 tables containing data inconsistencies that must be reviewed before changing the status.
 
-### \*\*2. Data Review Dashboard \*\*
+### 2. Data Review Dashboard
 
 This section activates only when a segment is selected from the timeline. Upon selection, a data review section appears immediately below. This section displays warnings that allow users to check for inconsistencies in project data, enabling them to successfully pause or freeze the data within that segment.
 
