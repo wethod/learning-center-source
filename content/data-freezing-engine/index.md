@@ -23,7 +23,7 @@ In this section, you will be able to select the period to freeze or pause your d
 
 The main timeline "All Data" represents the period during which a company has created, imported, modified, deleted, and stored data within WETHOD—spanning from the company's creation month to the most recent month.
 
-Instead, the smaller timeline represents instead only a part of all the data above, like for example "Timesheet" only.
+Instead, the smaller timeline represents only a part of all the data above, like for example only "Timesheet".
 
 This allows the user to differentiate between type of data to freeze for different purposes. Let's say the company has frozen data that has an economic or financial impact on the Profit and Loss (P\&L) statement for the last year, but wants to still pause only the timesheet for the first 3 months of the current year, now they can to it.
 
@@ -95,7 +95,7 @@ Using the project start date and its duration, we can determine whether the proj
 
 When you freeze a period of time, certain project attributes remain editable: Name, Client, Client Contact, Client PO, PM, Account, Project Type, and Job Order. Furthermore, if the end date of the project falls outside the frozen period you can archive the project and modify its value, duration, external costs and budget.
 
-#### **Data Freezing - Timesheet **
+#### \*\*Data Freezing - Timesheet \*\*
 
 When a timesheet falls into a frozen month it is fully blocked, no attributes can be altered. This applies both to weekly and detailed timesheet.
 
