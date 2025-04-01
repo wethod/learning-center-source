@@ -95,7 +95,7 @@ Using the project start date and its duration, we can determine whether the proj
 
 When you freeze a period of time, certain project attributes remain editable: Name, Client, Client Contact, Client PO, PM, Account, Project Type, and Job Order. Furthermore, if the end date of the project falls outside the frozen period you can archive the project and modify its value, duration, external costs and budget.
 
-#### \*\*Data Freezing - Timesheet \*\*
+#### **Data Freezing - Timesheet**
 
 When a timesheet falls into a frozen month it is fully blocked, no attributes can be altered. This applies both to weekly and detailed timesheet.
 
