@@ -235,7 +235,15 @@ Each **Job Order Category** can be customized through a range of options that de
 
 ### Job Order
 
-Here you can add and edit the templates used to generate new job orders.  Remember to choose which job order categories your template will be valid for, and click "Apply."  This way, when you want to add the job order to one of your projects, you will see the "Generate" button, which will automatically provide you with a job order based on this template, with a unique, sequentially created number.  A category can only be associated with one template; therefore, you will not find it available among those that can be selected in other templates.  When you add a new template, by default, it will contain a sequential number, starting with 1.  You can add as many blocks as you want by dragging and dropping them from the list at the top: enter the text you want, or the current year indication, formatted to 2 digits or 4. Once you have added the blocks, you can put them in any order you like, again by dragging them to the appropriate area of your template.  If you want the starting number not to be one (this can happen to you, for example, if you activate this automatism after you have already created some projects that follow the template you are interested in) just change the value in the block, which by default shows "1." The value you choose will be the first one suggested when a job order is generated.  If you want the job order number to restart at "1" each new year, click on "Yearly reset." In order to do this, however, you will need to have a "year" block in your template.  This value, of course, is unique to each template, and is incremented by 1 for each new job order generated. Each project will benefit from automatic job order generation depending on its job order category: if there is a template associated with its category, that will be the one used to create the job order.  To choose the number formatting, change the "Min digit padding": this is the (minimum) length that the sequential number of your job order will have.  When you have finished customizing the template, remember to save to make the changes effective and usable for your projects! Learn more about how to use this feature for your [projects](/pipeline/index/#projects).
+This section lets you set up automatic generation of **project codes** (Job Orders) to keep everything tidy, consistent, and traceable.
+It’s useful for distinguishing internal vs. client work, and avoids messy, manual naming.
+
+Each code is built from one or more **dynamic elements** (template components)—you can mix and match fixed text, the current year (YY or YYYY), and a progressive number with a minimum number of digits.
+
+You can also **reset numbering each year**, as long as the year is part of the template.
+
+You can link one or more **Job Order Categories** to each template—this gives you tailored codes for different project types, while keeping a coherent structure.
+
 ![](/uploads/2023/02/06/job-order-template-settings.gif)
 
 ### Project Metadata
