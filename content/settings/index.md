@@ -67,27 +67,22 @@ For the import to be successful you will need to follow these rules:
 
 ## Company
 
-Here you can configure your company by setting.
+Setting these parameters properly will help everything run smoothly across the platform - from planning to budgeting, from timesheets to reporting.
+
+The settings you’ll find here let you tailor wethod to reflect the real structure of your company: working hours, office locations, holidays, cost levels, and professional roles.
+
+We recommend going through them in this order and taking a few minutes for each section - these are small choices that will make a big difference in your day-to-day.
 
 ### Employee Capacity Groups
 
-A capacity group can be used to define daily expected [timesheet](https://support.wethod.com/friday/index/#timesheet) for a group of users. For example, user can add a capacity group called “Capacity London” to express that London office follows a 7-hours Monday to Friday working hours policy.
+In the Employee Capacity Groups table, you can define the daily working capacity for your team.
+
+* By default, there’s a group called “default capacity group” which assigns 8 hours per day from Monday to Friday. This group that can't be deleted, but you can edit it if needed.
+* By clicking on New Capacity Group, you can create additional time configurations - handy if some people on your team work different hours (e.g., part-time, reduced hours, etc.). 
+* The group assigned to each person determines their availability in the planning section: for example, if someone works 4 hours a day, only those 4 hours will be schedulable, while the unavailable hours will appear in grey. Once defined, capacity groups can be assigned to company employees via the [Team metadata import](https://support.wethod.com/settings/index/#import-metadata).
+* The [timesheet](https://support.wethod.com/friday/index/#timesheet) and its export also takes actual capacity into account: the weekly counter will show the number of hours that person is expected to work, rather than assuming a standard 40-hour week. 
 
 ![](</uploads/Schermata 2023-11-07 alle 15.34.01.png>)
-
-Another use case is to be able to model different types of contracts, i.e. user can add a capacity group called “Part-time capacity” to express that some users are expected to work only 4 hours a day from Monday to Friday.
-
-Every company has a default capacity group:
-
-* It cannot be deleted
-* It can be edited
-* By default it has 8 hours per day, from Monday to Friday
-
-If you delete a capacity group associated to a list of employees, those employees fall back to the default capacity group.
-
-Once defined, capacity groups can be associated to company employee using the [Team metadata import](https://support.wethod.com/settings/index/#import-metadata).
-
-Using the Weekly [Timesheet](https://support.wethod.com/reports/index/#weekly-timesheet) export you can appreciate capacity associate to the registered timesheet.
 
 {{< note title="Note" >}}
 Changes to a capacity group are applied to the past too.
