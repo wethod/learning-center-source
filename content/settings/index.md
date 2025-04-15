@@ -99,37 +99,59 @@ In the Employee Capacity Groups table, you can define the daily working capacity
 Changes to a capacity group are applied to the past too.
 {{< /note >}}
 
-### Bank Holidays Planner
+### Fiscal Year
 
-Bank holidays planner define days-off.
+The Fiscal Year section allows you to align wethod with your company’s fiscal year, in case it doesn’t match the calendar year.
 
-Holiday has name, date and a list of locations.
+By default, the fiscal year runs from January to December, as it does for most European companies.
 
-Every holiday is related to at least one location.
-
-The holiday can be specific to a single date (dd/mm/yyyy) or repeated annually (dd/mm).
-
-Available hours in [Timesheet](https://support.wethod.com/friday/index/#timesheet) and weekly capacity of employees in [Weekly timesheet export](https://support.wethod.com/reports/index/#weekly-timesheet) consider holidays that are associated with the employee's location.![](</uploads/Screenshot 2023-11-13 at 12.30.26.png>)
+However, if your company follows a different calendar, you can easily change the starting month—reports and the profit & loss statement will automatically update based on the new configuration.
 
 ### Company Locations
 
-Locations are company working cities.
+The Company Locations section allows you to set up the different offices or branches of your company.
 
-There is always a default location, named Headquarter by default even if it can be renamed.
+This setting is useful for filtering team members based on their assigned location and, most importantly, it’s essential for assigning the correct Bank Holidays.
 
-Initially Headquarter is linked to all company employees.
+If your team works remotely and is spread across different cities - but still follows the holiday calendar of the main office - it’s best to set up just one Location. In that case, you can use tags to indicate where each person works, without complicating the holiday configuration.
 
-Locations will be linked to employees in the [Team section](https://support.wethod.com/settings/index/#team).
+![](</uploads/Screenshot 2023-11-13 at 17.12.52.png>)
 
-Every time a location is deleted it’s employees will be automatically linked to the default one.
+### Bank Holidays Planner
 
-Locations are required to create related holidays in [Bank Holidays Planner](https://support.wethod.com/settings/index/#company) section.![](</uploads/Screenshot 2023-11-13 at 17.12.52.png>)
+In this section, you can upload your company holidays - these are national or local public holidays during which no work is expected.
+
+Be careful not to confuse them with individual days off, like vacation or personal leave: holidays apply to the whole company or to a specific location, and follow the official national or regional calendar (e.g. New Year’s Day, Labor Day, etc.).
+
+By clicking on Add Holiday, you can create a new holiday and choose whether it should repeat every year (handy for fixed dates like December 25th) or not, as in the case of Easter, which changes every year. It’s important to assign each holiday to one or more Company Locations, so the system knows which offices recognize that day as non-working.
+
+You can assignee each location to the employees via the [Team metadata import](https://support.wethod.com/settings/index/#import-metadata).
+
+Once set, these holidays will have two effects:
+
+* In the planning section, people won’t be schedulable on those days.
+* In the timesheet and its export, you’ll see a yellow icon with a total of 0 expected hours, indicating it’s a holiday.
+
+![](</uploads/Screenshot 2023-11-13 at 12.30.26.png>)
 
 ### User levels
 
-Each one of your collaborators has a level which defines his daily cost to the company and the price you want to sell a day of his work to the clients. This way you can define clusters of employees like intern, junior, senior and so on. For each user level you can set a **chargeability target** – expressed in percentage – meaning as the amount of hours people belonging to a specific user level should work on profitable projects.
+⚠️ **Heads up**: once a level is **assigned to a person** or **used in a budget**, **it can no longer be deleted**. So if you’re testing things out or not entirely sure, take a moment to double-check before creating new levels. When in doubt, it’s better to ask first. However, you can always rename a level and update its details at any time.
 
-You can also define whether that level is default, meaning that every new budget will have by default this level visible. Within the budget page, you will always be able to show/hide all the levels available for that budget.
+The **User Level** section lets you define different clusters of people within your company, each associated with a **standard daily cost **and a **daily resale price**.
+
+It’s important to clarify: this isn’t about grouping people by job type (e.g. designer, developer, account manager), but by their **cost to the company**, which mostly depends on their salary range.
+
+We recommend creating levels that group people with similar salary brackets—for example: *junior, senior, manager*—and assigning each level an identifying code.
+
+Available settings include:
+
+* **Chargeability Target**: a helpful analysis indicator that shows whether, based on timesheets, people in that level are actually working on sold (chargeable) projects.
+* **Code**: a simple abbreviation of the name (e.g. jr, sr, pr) that will be displayed in the budget and people allocation sections.
+* **External**: enable this only for levels created specifically for external vendors who will be filling in timesheets in the platform. If you’re just uploading external costs (no timesheets involved), you don’t need to create a level.
+* **Must be planned**: if enabled, this means people in that level must be included in the planning. If they’re not, an alert will appear.
+* **Must do the timesheet**: similar to the above, but related to the requirement to fill in timesheets.
+* **Default in budget**: when this is active, the level will be suggested by default when creating new budgets.
 
 ### Job Order Categories
 
