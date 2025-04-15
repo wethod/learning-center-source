@@ -138,7 +138,7 @@ Once set, these holidays will have two effects:
 
 ⚠️ **Heads up**: once a level is **assigned to a person** or **used in a budget**, **it can no longer be deleted**. So if you’re testing things out or not entirely sure, take a moment to double-check before creating new levels. When in doubt, it’s better to ask first. However, you can always rename a level and update its details at any time.
 
-The **User Level** section lets you define different clusters of people within your company, each associated with a **standard daily cost **and a **daily resale price**.
+The **User Level** section lets you define different clusters of people within your company, each associated with a \*\*standard daily cost \*\*and a **daily resale price**.
 
 It’s important to clarify: this isn’t about grouping people by job type (e.g. designer, developer, account manager), but by their **cost to the company**, which mostly depends on their salary range.
 
@@ -153,37 +153,85 @@ Available settings include:
 * **Must do the timesheet**: similar to the above, but related to the requirement to fill in timesheets.
 * **Default in budget**: when this is active, the level will be suggested by default when creating new budgets.
 
+### Job Titles
+
+The Job Titles table allows you to define, in relation to the previously configured User Levels, the type of professional role you want to estimate in the budget. For example, you can create a junior copywriter and link it to the junior level, or a senior designer connected to the senior level.
+
+This setup lets you indicate more precisely what kind of role you expect to involve in a specific project activity during the budgeting phase—improving both the accuracy of your estimates and the clarity of your project plan.
+
 ### Job Order Categories
 
-Here you can add the categories for your projects, each category needs at least a name and a color. You can change the categories' sort order by simply drag and dropping them. For each category you can set some options:
+Through **Job Order Categories**, you can configure the main **project categories** your company typically works with. Each category represents an organizational cluster- a set of projects that share common **behavioral rules**.
 
-* **Chargeable**: the projects in this category are billable
-* **Everybody can plan**: the projects in this category can be planned by everybody, not only by its pm or account
-* **Unlimited planning**: the projects in this category can be planned regardless budget availability
-* **Must be in program**: the projects in this category must be added to a [Program](/pipeline/index/#programs)
-* **Invoice driven budget**: the value of the projects on this category changes based on the total invoiced for that project. This logic also updates the Invoice Plan and the Production value. You can use this flag on all the project categories in which you are not sure of the final price because it can vary slightly based on external factors. You can then set a budget with an approximate price and let the issued invoices adjust the final price as a result of the delta between the ‘invoice plan’ and the real invoice.
-* **Capex**: the projects in this category must be treated as investments
-* **Ext. Cost**: the external cost of the projects of this categories are going to be associate with one of the following categories:
+The purpose of this section is **not** to list **every activity in detail**, but to **define the main types of project**s along with their operational, financial, and management characteristics.
+
+#### Why does it matter?
+
+Defining project categories allows you to:
+
+* **automate** certain **management logics** (e.g. automatic project status updates, economic value tracking based on invoices);
+* **align your financial reporting** (e.g. capitalizable projects, marketing, internal…);
+* **create consistency in workflows**: if a category requires “approval before planning” or must always be part of a program, those rules will be applied automatically;
+* **improve control** and **reporting** at a company-wide level.
+
+Need an example?
+
+You could create a category called “R\&D” for investment projects, set it as Capex (capital expenditures), and have its status update automatically over time. Or a “Sales” category for opportunities, where you track the reason a project was won or lost.
+
+**What you can configure for each category**
+
+Each **Job Order Category** can be customized through a range of options that define how it behaves in budgeting, planning, timesheets, and financial reporting. Here’s what each setting does:
+
+* Name: the name clearly identifies the nature of the category and helps you recognize it throughout the platform;
+* Color: the assigned color visually distinguishes projects in the People Allocation section. All projects belonging to the same category will share the same color, making it easy to identify them at a glance;
+* **Chargeable**: marks projects as billable. wethod will check that:
+  * there is a budget greater than zero;
+  * timesheeted hours count toward chargeability;
+  * the full value has been invoiced before archiving;
+* Plan upon approval: people can only be scheduled after planning is approved. Recommended only for planned absences (e.g. approved vacation).
+
+  ⚠️ If enabled, you must also activate “Everybody can plan”, otherwise users won’t be able to submit requests. Make sure to assign a location manager in the Team section to handle approvals.
+* **Everybody can plan**: anyone can plan on the project—not just the PM or account owner
+* Unlimited planning: lets you plan even if the budget runs out. Useful for:
+  * absences (vacation, sick leave, etc.)
+  * internal projects you want to monitor only after the factthe projects in this category can be planned regardless budget availability
+
+⚠️ You still need to set at least one hour of initial budget—after that, planning is treated as unlimited.
+
+* **Hours type:** defines the nature of the timesheet hours:
+  * Workable (default)
+  * Vacation time off: reduces vacation allowance
+  * Leave time off: reduces leave allowance
+  * Non workable: other absences (e.g. sick leave, parental leave) — tracked but don’t affect allowances
+* **Must be in program**: requires the project to be part of a [Program](/pipeline/index/#programs) (a view that groups multiple projects).
+
+  ⚠️ Not recommended unless you’re managing structured or multi-level projects.
+* **Invoice driven budget**: the project’s economic value updates based on actual invoices. Ideal for:
+  * time & material projects
+  * projects where the final price may differ from the estimate. wethod will update the budget, invoice plan, and production value automatically. You can then set a budget with an approximate price and let the issued invoices adjust the final price as a result of the delta between the ‘invoice plan’ and the real invoice.
+* **Capex**: marks the project as an investment. Internal and external costs can be capitalized across multiple fiscal years in the Financials section.
+* **Ext. Cost**: Tells wethod where to allocate external costs in the P\&L:
   * **On goods sold** – costs directly related to revenues (before the gross margin). Example: production costs or supplies necessary to deliver the sold product or service.
   * **Before contribution margin** – costs allocated to the personnel section in the P\&L. Example: costs related to internal projects that should be reported as personnel expenses.
   * **On G\&A** – general and administrative operating costs. Example: administrative projects, general consultancy, or back-office activities.
   * **On Marketing** – costs related to marketing and communication activities. Example: advertising expenses or marketing campaigns attributed to marketing projects.
-* **Workable**: you can switch off this option for projects used to track holidays or permits, this way timesheets done on them are not used to calculate chargeability
-* **Hours type**: you can use this option to tell if job order category's hours are:
-  1\. **Workable**: (default) during this hours user is working
-  2\. **Vacation time off**: the annual and usually paid time you get off work
-  3\. **Leave time off**: refers to time when you can go away from your job
-  4\. **Non workable**: a general time off period
-* **Plan upon approval**: you can switch on this option for projects which plan requests must be approved in order to became "effective". The only way to plan these kind of projects is by sending a plan request that is - in fact - a way of asking permission to use these projects budget
-* **Won/lost feedback**: enable to start collecting feedback about your won and lost projects. When the probability of a project in this category rise over 90 or down to zero, user will be asked to give a reason for this change
-* **Track opportunity stage**: Whether you can assign a custom stage to an opportunity or not. Please mind tracking and opportunity stage will tightly couple stage and probability attributes.
-  Check the stage section for further information.
-* **Intercompany supplier**: an invoice for a project in this category cannot be sent if the project is not an [intercompany project](/pipeline/index/#intercompany-projects) or if its intercompany client does not [appear as an actual company client](/finance/index/#intercompany-client)
-* **Project status**:
-  * **Work days to complete**: the project status is assigned as estimated days to complete (e.g. in order to complete we need 12 more days of work)
-  * **Auto**: the progress of the projects in this category are not based on their projects status, but based on their duration (equally distributed on their lifespan indicated by date start and duration on the pipeline)
-  * **Completed percentage**: the project status is assigned as a progress percentage (e.g. the progress of this project is 45%)
-* **Automatic timesheet**: here you can choose to automate the timesheets creation process for this kind of projects. This way, timesheets are automatically created each weekend based on planned hours. *Be careful: Anything can go wrong because planning is not often 100% accurate, this is why timesheet exists.* See the [timesheet section](/friday/index/#automatic) for further details.
+* **Won/lost feedback**: when a project’s probability goes from 0% to 100% (or vice versa), wethod asks for the win/loss reason. Reasons can be set up in the Won/Lost Feedback section. Great for sales projects and funnel tracking.
+* **Track opportunity stage**: lets you define a custom sales stage (e.g. prospecting, proposal sent, negotiation). The stage links to probability and helps build a personalized sales funnel.
+* **Job Order Categories Group**: just below the category table, you can create Groups of Categories.
+  Handy if you have categories with similar settings but slight differences (e.g. project tracking) and still want to group them for reporting. Example: Client Auto (chargeable, no status tracking) and Project Client (chargeable, with status tracking). You can group them together for clearer analysis.
+* **Automatic Timesheet**: when enabled, timesheets are automatically filled every weekend, copying hours from People Allocation.
+  This means:
+  * **you can’t edit the current week’s timesheet manually**
+  * if you need to make changes, do it in the planning section
+    You can still edit past weeks if needed.
+
+👉 Recommended only for tightly scheduled activities like vacation or leave. For other projects, better to let people log actual hours manually, even if they differ from the plan.
+
+* **Project Status**: controls how the status of projects in this category is updated weekly. Remember: **status is not just timesheet-based**—it should reflect how much work is left. Options:
+  * **Work days to complete**: the PM enters remaining workdays
+  * **Automatic**: status auto-progresses based on project start and duration
+  * **Completed percentage**: enter a weekly completion percentage—more visual, but subjective
+* **Intercompany supplier** (only visible if the intercompany module is active): an invoice for a project in this category cannot be sent if the project is not an [intercompany project](/pipeline/index/#intercompany-projects) or if its intercompany client does not [appear as an actual company client](/finance/index/#intercompany-client)
 
 ### Job Order
 
