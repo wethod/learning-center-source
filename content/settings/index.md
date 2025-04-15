@@ -73,28 +73,31 @@ The settings you’ll find here let you tailor wethod to reflect the real struct
 
 We recommend going through them in this order and taking a few minutes for each section - these are small choices that will make a big difference in your day-to-day.
 
+### Full-Time Equivalent (FTE)
+
+The FTE defines how many hours make up a standard working day in your company. If you don’t set a custom value, wethod will use the default: 8 hours per day.
+
+This value matters because it impacts all areas where a conversion between hours and days happens - planning, timesheets, budgets, and reports. In short, it defines how much “one workday” is worth in your system.
+
+⚠️ Once the FTE is set, no one will be able to have a daily availability (capacity) higher than that value.
+For example, if you set it to 6 hours, it won’t be possible to assign more than 6 hours per day to anyone.
+
+We recommend **defining** it properly from the start and avoiding frequent changes - even a small adjustment can affect the economic and operational data linked to your projects.
+
 ### Employee Capacity Groups
 
 In the Employee Capacity Groups table, you can define the daily working capacity for your team.
 
 * By default, there’s a group called “default capacity group” which assigns 8 hours per day from Monday to Friday. This group that can't be deleted, but you can edit it if needed.
-* By clicking on New Capacity Group, you can create additional time configurations - handy if some people on your team work different hours (e.g., part-time, reduced hours, etc.). 
+* By clicking on New Capacity Group, you can create additional time configurations - handy if some people on your team work different hours (e.g., part-time, reduced hours, etc.).
 * The group assigned to each person determines their availability in the planning section: for example, if someone works 4 hours a day, only those 4 hours will be schedulable, while the unavailable hours will appear in grey. Once defined, capacity groups can be assigned to company employees via the [Team metadata import](https://support.wethod.com/settings/index/#import-metadata).
-* The [timesheet](https://support.wethod.com/friday/index/#timesheet) and its export also takes actual capacity into account: the weekly counter will show the number of hours that person is expected to work, rather than assuming a standard 40-hour week. 
+* The [timesheet](https://support.wethod.com/friday/index/#timesheet) and its export also takes actual capacity into account: the weekly counter will show the number of hours that person is expected to work, rather than assuming a standard 40-hour week.
 
 ![](</uploads/Schermata 2023-11-07 alle 15.34.01.png>)
 
 {{< note title="Note" >}}
 Changes to a capacity group are applied to the past too.
 {{< /note >}}
-
-### Full-Time Equivalent (FTE)
-
-The Full-Time Equivalent (FTE) represents the number of hours your company considers a full workday. This value is used to convert between days and hours across the system. For example, if your company defines an FTE as 6 hours and 40 minutes (6:40), then a budget of 3 days would total 20 hours (3 × 6:40).
-
-The FTE is logically linked to the default [Employee Capacity Groups](https://support.wethod.com/settings/index/#employee-capacity-groups). If you update the FTE, you may also need to update the default employee capacity group. This update is not performed automatically. Instead, the system displays a modal with a disclaimer, as different users may have different intentions when updating the FTE.
-
-To modify the FTE, users must have the settings -> company permission.
 
 ### Bank Holidays Planner
 
