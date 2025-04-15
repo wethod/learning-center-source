@@ -182,29 +182,25 @@ You could create a category called “R\&D” for investment projects, set it as
 
 Each **Job Order Category** can be customized through a range of options that define how it behaves in budgeting, planning, timesheets, and financial reporting. Here’s what each setting does:
 
-* Name: the name clearly identifies the nature of the category and helps you recognize it throughout the platform;
-* Color: the assigned color visually distinguishes projects in the People Allocation section. All projects belonging to the same category will share the same color, making it easy to identify them at a glance;
+* **Name**: the name clearly identifies the nature of the category and helps you recognize it throughout the platform;
+* **Color**: the assigned color visually distinguishes projects in the People Allocation section. All projects belonging to the same category will share the same color, making it easy to identify them at a glance;
 * **Chargeable**: marks projects as billable. wethod will check that:
   * there is a budget greater than zero;
   * timesheeted hours count toward chargeability;
   * the full value has been invoiced before archiving;
-* Plan upon approval: people can only be scheduled after planning is approved. Recommended only for planned absences (e.g. approved vacation).
-
+* **Plan upon approval**: people can only be scheduled after planning is approved. Recommended only for planned absences (e.g. approved vacation).
   ⚠️ If enabled, you must also activate “Everybody can plan”, otherwise users won’t be able to submit requests. Make sure to assign a location manager in the Team section to handle approvals.
 * **Everybody can plan**: anyone can plan on the project—not just the PM or account owner
-* Unlimited planning: lets you plan even if the budget runs out. Useful for:
+* **Unlimited planning**: lets you plan even if the budget runs out. Useful for:
   * absences (vacation, sick leave, etc.)
   * internal projects you want to monitor only after the factthe projects in this category can be planned regardless budget availability
-
-⚠️ You still need to set at least one hour of initial budget—after that, planning is treated as unlimited.
-
+    ⚠️ You still need to set at least one hour of initial budget—after that, planning is treated as unlimited.
 * **Hours type:** defines the nature of the timesheet hours:
   * Workable (default)
   * Vacation time off: reduces vacation allowance
   * Leave time off: reduces leave allowance
   * Non workable: other absences (e.g. sick leave, parental leave) — tracked but don’t affect allowances
 * **Must be in program**: requires the project to be part of a [Program](/pipeline/index/#programs) (a view that groups multiple projects).
-
   ⚠️ Not recommended unless you’re managing structured or multi-level projects.
 * **Invoice driven budget**: the project’s economic value updates based on actual invoices. Ideal for:
   * time & material projects
