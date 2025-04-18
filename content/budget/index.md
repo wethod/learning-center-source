@@ -81,7 +81,7 @@ Areas are grouped in order to show subtotals:
 * **Total** contains:
   * **Contingency**: life is unpredictable and the unexpected is behind every corner, so why not be prepared for it? A percentage of contingency means that you know your budget isn’t perfect so you’re estimating using more days, just in case. The contingency gives you more days and which you can use at every user level but, on the other hand, the suggested net price will grow
   * **Discount**: the percentage of discount you want to apply to the Areas & Tasks total price
-  * New percentage input: a custom field you can add (multiple times), with a name and a percentage value. As contingency, this will be added to the suggested price.
+  * **New percentage input**: a custom field you can add (multiple times), with a name and a percentage value. As contingency, this will be added to the suggested price.
 
 For each external cost you can assign a **markup**: a percentage that indicates how much you want to earn on that external cost.
 
