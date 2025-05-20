@@ -123,3 +123,10 @@
 .drawer .section {
 	color: var(--nobel-grey);
 }
+
+/* Submenu styles */
+.drawer .toc li.anchor a.active {
+    font-weight: 700;
+    border-left: 2px solid var(--wethod-blue);
+    color: var(--wethod-blue);
+}
