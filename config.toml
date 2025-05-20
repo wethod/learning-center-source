@@ -121,7 +121,7 @@ weight = 1
 [params]
 author = "Andrea Tombolato"
 copyright = ""
-custom_css = ["stylesheets/custom-style.css"]
+custom_css = ["stylesheets/variables.css", "stylesheets/custom-style.css"]
 custom_js = []
 description = "A lean multi-project management platform that fosters the autonomy and ownership of every team member at any level."
 favicon = "images/favicon.ico"
@@ -132,8 +132,8 @@ provider = ""
 repo_url = ""
 version = ""
 [params.font]
-code = "Ubuntu Mono"
-text = "Helvetica"
+code = "Rubik"
+text = "Rubik"
 [params.palette]
 accent = "teal"
 primary = "black"
