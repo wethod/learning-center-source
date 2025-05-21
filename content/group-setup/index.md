@@ -1,11 +1,11 @@
 ---
-draft: false
-date: 2019-03-29T22:00:00.000+00:00
+draft: true
+date: 2019-03-29T22:00:00.000Z
 title: Setup
-weight: "20"
 type: ''
-
+weight: '20'
 ---
+
 ## Overview
 
 If you need to manage various company belonging to the same holding, this is the right tool for you: enabling the group module lets you appreciate aggregates statistics about all of your companies and made possible to track [intercompany work](/budget/index/#make-a-task-intercompany).
@@ -22,7 +22,7 @@ From here you can map company-level clients onto group-wide clusters, this is us
 
 Companies of your group may share some clients and you may want to see these clients grouped together when looking at reports, to do this:
 
-1.	Create a cluster and name it
-2.	Drag & drop clients into the cluster	 
+1. Create a cluster and name it
+2. Drag & drop clients into the cluster
 
 ![](/uploads/clients-normalizer.png)
