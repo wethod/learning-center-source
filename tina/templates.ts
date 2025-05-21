@@ -40,6 +40,14 @@ export function defaultFields() {
       ],
     },
     {
+      type: "boolean",
+      name: "draft",
+      label: "Draft",
+      description: "If true, this page will NOT BE VISIBLE online on the website",
+      required: true,
+      defaultValue: false,
+    },
+    {
       type: "string",
       label: "Language",
       name: "language",

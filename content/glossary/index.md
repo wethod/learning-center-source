@@ -1,4 +1,5 @@
 ---
+draft: false
 date: 2017-05-22T15:31:29.000+00:00
 title: Glossary
 weight: "200"

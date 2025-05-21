@@ -1,4 +1,5 @@
 ---
+draft: false
 date: 2017-08-29T22:00:00.000Z
 title: G & A
 type: ''

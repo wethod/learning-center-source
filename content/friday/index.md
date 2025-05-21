@@ -1,4 +1,5 @@
 ---
+draft: false
 date: 2017-05-22T13:51:35.000Z
 title: Friday
 type: ''

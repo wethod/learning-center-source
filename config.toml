@@ -5,6 +5,9 @@ languageCode = "en-us"
 metadataformat = "yaml"
 theme = "hugo-material-docs"
 title = "WETHOD / Learning Center"
+# Configure draft pages
+buildDrafts = false  # Ignores the pages in draft from the build
+draft = false       # Default value
 [blackfriday]
 fractions = true
 plainIDAnchors = true

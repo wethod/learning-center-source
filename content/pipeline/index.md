@@ -1,4 +1,5 @@
 ---
+draft: false
 date: 2016-03-11T19:10:46.000Z
 title: Pipeline
 type: ''
