@@ -462,7 +462,7 @@ You can enable this functionality in the [account section](/settings/index/#acco
 
 ![](/uploads/2022/05/12/timeline-calendar.png)
 
-## Project Plan
+# Project Plan
 
 The Project Plan is designed for those who want to manage projects in a visual, simple, and structured way.
 
