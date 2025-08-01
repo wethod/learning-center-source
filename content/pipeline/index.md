@@ -598,9 +598,11 @@ Located at the top right, the “View by” menu lets you switch display modes:
 ##### Drag and drop tasks directly in the Gantt
 
 Tasks and subtasks are draggable. You can move them to change their start/end dates visually. Be cautious: wethod checks if the new dates align with actual resource planning.
+
 ⚠️ A yellow triangle will appear if there’s a mismatch.
-🔧 How to fix it?
-Open the drawer and click "Plan in People Allocation" to update the person's planning based on the new dates.
+
+🔧 How to fix it? Open the drawer and click "Plan in People Allocation" to update the person's planning based on the new dates.
+
 ✅ Once aligned, a green check confirms the task is correctly scheduled in both the Gantt and People Allocation.
 
 ## Project Canvas
