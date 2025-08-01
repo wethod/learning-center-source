@@ -553,7 +553,7 @@ If Automatic Planning is active, you can choose between two scheduling modes:
 
 Clicking the Button “Plan in People Allocation” adds the task to the person’s planning.
 
-✅ \* **Tip**: automatic assignment in People Allocation is one of the smartest and strictest features of the Project Plan. Choose assignees carefully to benefit from real-time checks. You can always switch to manual planning if needed.\*
+✅  **Tip**: automatic assignment in People Allocation is one of the smartest and strictest features of the Project Plan. Choose assignees carefully to benefit from real-time checks. You can always switch to manual planning if needed.
 
 ### Automatic Planning
 
@@ -581,21 +581,27 @@ Mismatch between the project plan and the assignee’s personal planning.
 Good news! There's availability to finish the task earlier than expected.
 💡 Solution: you can bring the task forward to optimize time and resources.
 
-\###Views
-\####Gantt
+### Views
+
+#### Gantt
+
 The Gantt is not just a timeline—it's an interactive and customizable tool that helps you track progress and intervene where needed.
-\#####View by
+
+#### View by
+
 Located at the top right, the “View by” menu lets you switch display modes:
 
 * **Default**: classic view with tasks and assignees. Great for a clean, operational overview.
 * **Status**: colors tasks and subtasks based on their current status (Not Started, In Progress, Blocked, Completed, Closed).
   💡 This allows you to quickly spot progress and issues—supporting faster, data-driven decisions.
-  \#####Drag and drop tasks directly in the Gantt
-  Tasks and subtasks are draggable. You can move them to change their start/end dates visually. Be cautious: wethod checks if the new dates align with actual resource planning.
-  ⚠️ A yellow triangle will appear if there’s a mismatch.
-  🔧 How to fix it?
-  Open the drawer and click "Plan in People Allocation" to update the person's planning based on the new dates.
-  ✅ Once aligned, a green check confirms the task is correctly scheduled in both the Gantt and People Allocation.
+
+##### Drag and drop tasks directly in the Gantt
+
+Tasks and subtasks are draggable. You can move them to change their start/end dates visually. Be cautious: wethod checks if the new dates align with actual resource planning.
+⚠️ A yellow triangle will appear if there’s a mismatch.
+🔧 How to fix it?
+Open the drawer and click "Plan in People Allocation" to update the person's planning based on the new dates.
+✅ Once aligned, a green check confirms the task is correctly scheduled in both the Gantt and People Allocation.
 
 ## Project Canvas
 
