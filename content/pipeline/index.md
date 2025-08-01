@@ -472,14 +472,14 @@ But it’s not just a basic task manager: the Project Plan integrates directly w
 
 From the project list, open the relevant project and check the side panel. Here, you'll find the icon to access the Project Plan.
 
-![](</uploads/Project Plan/Screenshot 2025-08-01 alle 12.54.38.png>)
+![](</uploads/Project Plan/Screenshot 2025-08-01 alle 16.22.51.png>)
 
 A window with two options will immediately appear:![](</uploads/Project Plan/Screenshot 2025-08-01 alle 12.56.33.png>)
 
-* From Budget: already have a well-structured budget? Great—start from there and import the areas and tasks you’ve already defined.
-* New: prefer to start from scratch with full creative freedom.
+* **From Budget: **already have a well-structured budget? Great—start from there and import the areas and tasks you’ve already defined.
+* **New:** prefer to start from scratch with full creative freedom.
 
-💡 Expert tip: if your budget is well structured, choose the first option. You’ll save valuable time and keep everything aligned.
+*💡 Expert tip: if your budget is well structured, choose the first option. You’ll save valuable time and keep everything aligned.*
 
 ### The Structure
 
@@ -493,11 +493,11 @@ If you selected “New,” you can build the plan manually by entering the proje
 
 The hierarchy is simple and follows three levels:
 
-1. BUDGET AREAS (uppercase and clearly visible): match the budget areas (if imported);
-2. TASKS (actual work to be done): activities defined in the budget or manually added;
-3. SUBTASKS (smaller, more detailed actions): used to break tasks down further.
+1. **BUDGET AREAS** (uppercase and clearly visible): match the budget areas (if imported);
+2. **TASKS** (actual work to be done): activities defined in the budget or manually added;
+3. **SUBTASKS **(smaller, more detailed actions): used to break tasks down further.
 
-💡 Smart note: if a task has scheduled subtasks, it becomes a summary container and loses its own individual scheduling. The subtasks handle all planning.
+*💡 Smart note: if a task has scheduled subtasks, it becomes a summary container and loses its own individual scheduling. The subtasks handle all planning.*
 
 By enabling the “Budget days always on” option (via the gear icon), you’ll see two values next to each area or task: Assigned hours (manually entered on the task) / Budgeted hours (estimated in the budget)
 
@@ -509,16 +509,17 @@ This allows you to constantly track time allocation against the budget.
 
 To start concretely, click on any task or subtask: a side drawer will open, allowing you to manage key planning elements. Within the drawer, you can:
 
-📅 **Set start and end dates
-**Define when the activity starts and ends so it’s correctly positioned in the Gantt.
+📅 \*\*Set start and end dates
+\*\*Define when the activity starts and ends so it’s correctly positioned in the Gantt.
 
 🚦**Assign a status**
 Each task can have a status indicating its progress. The color will reflect in the Gantt when using the “View by status” option:
 
-* 🟩 Completed
+* ⬜ Not started
 * 🟨 In progress
 * 🟥 Blocked
-* ⬜ Not started / Closed
+* 🟩 Completed
+* ⬜ Closed
 
 🔗 **Set dependencies between tasks**
 Not all activities start simultaneously—some depend on others. You can define these dependencies in the Project Plan, visualized via arrows in the Gantt.
@@ -536,7 +537,7 @@ To set a dependency:
 
 ![](</uploads/Project Plan/Screenshot 2025-08-01 alle 13.02.53.png>)
 
-💡Example: if the subtask "ui" depends on "ux" with a “Finish to start” logic, but starts earlier in the Gantt, the system shows a warning and offers actions to fix it.
+*💡Example: if the subtask "ui" depends on "ux" with a “Finish to start” logic, but starts earlier in the Gantt, the system shows a warning and offers actions to fix it.*
 
 📝 **Add notes**
 Use this space to describe the task, provide guidelines, or share references with colleagues.
@@ -553,8 +554,7 @@ Choose who is responsible for a task (Assignee) and how many days are required.
 
 You can choose whether to let the system manage resource allocation or do it manually:
 
-🔔 **Automatic Planning ON (recommended):**
-The system places the task in the person's People Allocation schedule, checking availability, budget, and planning rules.
+🔔 **Automatic Planning ON (recommended):**The system places the task in the person's People Allocation schedule, checking availability, budget, and planning rules.
 Alerts will highlight any issues.
 🔕 **Automatic Planning OFF:**
 The task is assigned but not automatically scheduled. You'll need to handle planning manually. A popup will remind you when this is off.
