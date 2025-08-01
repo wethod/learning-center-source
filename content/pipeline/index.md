@@ -475,7 +475,7 @@ From the projec![](/uploads/1.png)t list, open the relevant project and check th
 ![](</uploads/Project Plan/Screenshot 2025-08-01 alle 16.22.51.png>)
 
 A window with two options will immediately appear:\
-![](</uploads/Project Plan/Screenshot 2025-08-01 alle 12.56.33.png>)
+![](</uploads/Project Plan/Screenshot 2025-08-01 alle 16.51.23.png>)
 
 * **From Budget: **already have a well-structured budget? Great—start from there and import the areas and tasks you’ve already defined.
 * **New:** prefer to start from scratch with full creative freedom.
@@ -594,7 +594,7 @@ The person doesn’t have enough time available during that period.
 Mismatch between the project plan and the assignee’s personal planning.
 💡 Solution: click “Plan in People Allocation” to resolve.
 
-![](</uploads/Project Plan/Screenshot 2025-08-01 alle 16.43.05.png>)
+![](</uploads/Project Plan/Screenshot 2025-08-01 alle 16.50.42.png>)
 
 #### 🔵 Blue lightbulb (Opportunity)
 
