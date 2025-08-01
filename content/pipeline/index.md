@@ -462,7 +462,7 @@ You can enable this functionality in the [account section](/settings/index/#acco
 
 ![](/uploads/2022/05/12/timeline-calendar.png)
 
-# Project Plan
+## Project Plan
 
 The Project Plan is designed for those who want to manage projects in a visual, simple, and structured way.
 
@@ -477,7 +477,7 @@ From the project list, open the relevant project and check the side panel. Here,
 
 💡 Expert tip: if your budget is well structured, choose the first option. You’ll save valuable time and keep everything aligned.
 
-## The Structure
+### The Structure
 
 Once the plan is created, you can define its structure through a Gantt view (Sheet and Kanban views coming soon).
 
@@ -497,7 +497,7 @@ By enabling the “Budget days always on” option (via the gear icon), you’ll
 
 This allows you to constantly track time allocation against the budget.
 
-\##The Workflow
+\###The Workflow
 To start concretely, click on any task or subtask: a side drawer will open, allowing you to manage key planning elements. Within the drawer, you can:
 
 📅 Set start and end dates
@@ -536,7 +536,7 @@ Choose who is responsible for a task (Assignee) and how many days are required.
 * Click "Add assignee", select team members, and define the effort.
 * The task will appear in their Desk and, if enabled, in People Allocation via Automatic Planning.
 
-## Planning Options
+### Planning Options
 
 You can choose whether to let the system manage resource allocation or do it manually:
 
@@ -555,42 +555,42 @@ Clicking the Button “Plan in People Allocation” adds the task to the person�
 
 ✅ \* **Tip**: automatic assignment in People Allocation is one of the smartest and strictest features of the Project Plan. Choose assignees carefully to benefit from real-time checks. You can always switch to manual planning if needed.\*
 
-## Automatic Planning
+### Automatic Planning
 
 When “Automatic Planning” is on, when you assign a person to a task, wethod checks their availability. If there's a conflict, it warns you.
 
 Type of Alerts and Suggestions
 
-### 🔺 Red triangle (Critical)
+#### 🔺 Red triangle (Critical)
 
 No budget capacity available for the person's level.
 💡 Solution: change assignee, adjust seniority level, or update the budget.
 
-### 🟠 Orange triangle (Time issue)
+#### 🟠 Orange triangle (Time issue)
 
 The person doesn’t have enough time available during that period.
 💡 Solution: reduce required effort, move the task, or reassign it.
 
-### 🟡 Yellow triangle (Inconsistency)
+#### 🟡 Yellow triangle (Inconsistency)
 
 Mismatch between the project plan and the assignee’s personal planning.
 💡 Solution: click “Plan in People Allocation” to resolve.
 
-### 🔵 Blue lightbulb (Opportunity)
+#### 🔵 Blue lightbulb (Opportunity)
 
 Good news! There's availability to finish the task earlier than expected.
 💡 Solution: you can bring the task forward to optimize time and resources.
 
-\##Views
-\###Gantt
+\###Views
+\####Gantt
 The Gantt is not just a timeline—it's an interactive and customizable tool that helps you track progress and intervene where needed.
-\####View by
+\#####View by
 Located at the top right, the “View by” menu lets you switch display modes:
 
 * **Default**: classic view with tasks and assignees. Great for a clean, operational overview.
 * **Status**: colors tasks and subtasks based on their current status (Not Started, In Progress, Blocked, Completed, Closed).
   💡 This allows you to quickly spot progress and issues—supporting faster, data-driven decisions.
-  \####Drag and drop tasks directly in the Gantt
+  \#####Drag and drop tasks directly in the Gantt
   Tasks and subtasks are draggable. You can move them to change their start/end dates visually. Be cautious: wethod checks if the new dates align with actual resource planning.
   ⚠️ A yellow triangle will appear if there’s a mismatch.
   🔧 How to fix it?
