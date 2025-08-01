@@ -470,14 +470,14 @@ It allows you to plan tasks, timelines, assignments, and dependencies in an imme
 
 But it’s not just a basic task manager: the Project Plan integrates directly with the budget and People Allocation, ensuring that each task is effectively planned in line with available resources, capacity, and financial constraints.
 
-From the projec![](/uploads/1.png)t list, open the relevant project and check the side panel. Here, you'll find the icon to access the Project Plan.
+From the project list, open the relevant project and check the side panel. Here, you'll find the icon to access the Project Plan.
 
 ![](</uploads/Project Plan/Screenshot 2025-08-01 alle 16.22.51.png>)
 
 A window with two options will immediately appear:\
 ![](</uploads/Project Plan/Screenshot 2025-08-01 alle 16.51.23.png>)
 
-* **From Budget: **already have a well-structured budget? Great—start from there and import the areas and tasks you’ve already defined.
+* \*\*From Budget: \*\*already have a well-structured budget? Great—start from there and import the areas and tasks you’ve already defined.
 * **New:** prefer to start from scratch with full creative freedom.
 
 *💡 Expert tip: if your budget is well structured, choose the first option. You’ll save valuable time and keep everything aligned.*
@@ -496,7 +496,7 @@ The hierarchy is simple and follows three levels:
 
 1. **BUDGET AREAS** (uppercase and clearly visible): match the budget areas (if imported);
 2. **TASKS** (actual work to be done): activities defined in the budget or manually added;
-3. **SUBTASKS **(smaller, more detailed actions): used to break tasks down further.
+3. \*\*SUBTASKS \*\*(smaller, more detailed actions): used to break tasks down further.
 
 *💡 Smart note: if a task has scheduled subtasks, it becomes a summary container and loses its own individual scheduling. The subtasks handle all planning.*
 
@@ -553,7 +553,7 @@ Choose who is responsible for a task (Assignee) and how many days are required.
 
 You can choose whether to let the system manage resource allocation or do it manually:
 
-🔔 **Automatic Planning ON (recommended):**The system places the task in the person's People Allocation schedule, checking availability, budget, and planning rules.
+🔔 \*\*Automatic Planning ON (recommended):\*\*The system places the task in the person's People Allocation schedule, checking availability, budget, and planning rules.
 Alerts will highlight any issues.
 🔕 **Automatic Planning OFF:**
 The task is assigned but not automatically scheduled. You'll need to handle planning manually. A popup will remind you when this is off.
