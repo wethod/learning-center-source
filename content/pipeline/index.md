@@ -470,11 +470,12 @@ It allows you to plan tasks, timelines, assignments, and dependencies in an imme
 
 But it’s not just a basic task manager: the Project Plan integrates directly with the budget and People Allocation, ensuring that each task is effectively planned in line with available resources, capacity, and financial constraints.
 
-From the project list, open the relevant project and check the side panel. Here, you'll find the icon to access the Project Plan.
+From the projec![](/uploads/1.png)t list, open the relevant project and check the side panel. Here, you'll find the icon to access the Project Plan.
 
 ![](</uploads/Project Plan/Screenshot 2025-08-01 alle 16.22.51.png>)
 
-A window with two options will immediately appear:![](</uploads/Project Plan/Screenshot 2025-08-01 alle 12.56.33.png>)
+A window with two options will immediately appear:\
+![](</uploads/Project Plan/Screenshot 2025-08-01 alle 12.56.33.png>)
 
 * **From Budget: **already have a well-structured budget? Great—start from there and import the areas and tasks you’ve already defined.
 * **New:** prefer to start from scratch with full creative freedom.
@@ -501,7 +502,7 @@ The hierarchy is simple and follows three levels:
 
 By enabling the “Budget days always on” option (via the gear icon), you’ll see two values next to each area or task: Assigned hours (manually entered on the task) / Budgeted hours (estimated in the budget)
 
-![](</uploads/Project Plan/Screenshot 2025-08-01 alle 13.01.33.png>)
+![](</uploads/Project Plan/Screenshot 2025-08-01 alle 16.33.19.png>)
 
 This allows you to constantly track time allocation against the budget.
 
@@ -535,7 +536,7 @@ To set a dependency:
 * Adjust dependency – automatically updates dates to resolve the issue
 * Remove dependency
 
-![](</uploads/Project Plan/Screenshot 2025-08-01 alle 13.02.53.png>)
+![](</uploads/Project Plan/Screenshot 2025-08-01 alle 16.35.51.png>)
 
 *💡Example: if the subtask "ui" depends on "ux" with a “Finish to start” logic, but starts earlier in the Gantt, the system shows a warning and offers actions to fix it.*
 
@@ -547,8 +548,6 @@ Choose who is responsible for a task (Assignee) and how many days are required.
 
 * Click "Add assignee", select team members, and define the effort.
 * The task will appear in their Desk and, if enabled, in People Allocation via **Automatic Planning**.
-
-![](</uploads/Project Plan/Screenshot 2025-08-01 alle 13.03.50.png>)
 
 ### Planning Options
 
@@ -564,7 +563,7 @@ If Automatic Planning is active, you can choose between two scheduling modes:
 🚀 **"Plan as soon as possible"**: assigns the task to the first available days within the defined period.
 🗓️ **"Distribute the task"**: evenly spreads the effort across the entire task duration.
 
-![](</uploads/Project Plan/Screenshot 2025-08-01 alle 13.07.27.png>)
+![](</uploads/Screenshot 2025-08-01 alle 16.37.18.png>)
 
 Clicking the Button “Plan in People Allocation” adds the task to the person’s planning.
 
@@ -581,28 +580,28 @@ Type of Alerts and Suggestions
 No budget capacity available for the person's level.
 💡 Solution: change assignee, adjust seniority level, or update the budget.
 
-![](</uploads/Project Plan/Se non ha disponibilità a budget.png>)
+![](</uploads/Project Plan/Screenshot 2025-08-01 alle 16.37.48.png>)
 
 #### 🟠 Orange triangle (Time issue)
 
 The person doesn’t have enough time available during that period.
 💡 Solution: reduce required effort, move the task, or reassign it.
 
-![](</uploads/Project Plan/Se non ha abbastanza disponiilità in people allocation.png>)
+![](</uploads/Project Plan/Screenshot 2025-08-01 alle 16.37.54.png>)
 
 #### 🟡 Yellow triangle (Inconsistency)
 
 Mismatch between the project plan and the assignee’s personal planning.
 💡 Solution: click “Plan in People Allocation” to resolve.
 
-![](</uploads/Project Plan/meno giorni allocati di quelli assegnati.png>)
+![](</uploads/Project Plan/Screenshot 2025-08-01 alle 16.43.05.png>)
 
 #### 🔵 Blue lightbulb (Opportunity)
 
 Good news! There's availability to finish the task earlier than expected.
 💡 Solution: you can bring the task forward to optimize time and resources.
 
-![](</uploads/Project Plan/Se da allocazione le risorse possono finire prima della data di fine prevista.png>)
+![](</uploads/Project Plan/Screenshot 2025-08-01 alle 16.37.59.png>)
 
 ### Views
 
