@@ -70,7 +70,7 @@
         {{ end }}
         <ul>
           
-          {{ with .Site.Params.Social.twitter }}
+          {{ with .Site.Social.twitter }}
           <li>
             <a href="https://twitter.com/{{ . }}" target="_blank" title="@{{ . }} on Twitter">
               @{{ . }} on Twitter
@@ -78,15 +78,15 @@
           </li>
           {{ end }}
 
-          {{ with .Site.Params.Social.github }}
+          {{ with .Site.Social.github }}
           <li>
-            <a href="https://github.com/{{ . }}" title="@{{ . }} on GitHub">
+            <a href="https://github.com/{{ . }}" target="_blank" title="@{{ . }} on GitHub">
               @{{ . }} on GitHub
             </a>
           </li>
           {{ end }}
 
-          {{ with .Site.Params.Social.email }}
+          {{ with .Site.Social.email }}
           <li>
             <a href="mailto:{{ . }}" title="Email of {{ . }}">
               Contact us
