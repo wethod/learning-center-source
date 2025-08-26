@@ -28,26 +28,6 @@ jobs:
         with:
           node-version: 18
 
-      # Debug steps to help diagnose npm install issues
-      - name: Debug environment
-        run: |
-          echo "=== Node & npm version ==="
-          node -v
-          npm -v
-
-          echo "=== npm registry ==="
-          npm config get registry
-
-          echo "=== npm config list ==="
-          npm config list
-
-          echo "=== Searching for .npmrc files ==="
-          find . -name ".npmrc" -exec echo "Found: {}" \; -exec cat {} \;
-
-          echo "=== Current working dir ==="
-          pwd
-          ls -la
-
       - name: Clean npm cache
         run: npm cache clean --force
 
