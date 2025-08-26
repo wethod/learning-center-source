@@ -134,13 +134,14 @@ permalink = "#"
 provider = ""
 repo_url = ""
 version = ""
+GoogleAnalytics = "UA-105754515-1"
 [params.font]
 code = "Rubik"
 text = "Rubik"
 [params.palette]
 accent = "teal"
 primary = "black"
-[social]
+[params.Social]
 email = "info@wethod.com"
 github = ""
 twitter = ""
