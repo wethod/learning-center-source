@@ -496,7 +496,7 @@ The hierarchy is simple and follows three levels:
 
 1. **BUDGET AREAS** (uppercase and clearly visible): match the budget areas (if imported);
 2. **TASKS** (actual work to be done): activities defined in the budget or manually added;
-3. \*\*SUBTASKS \*\*(smaller, more detailed actions): used to break tasks down further.
+3. **SUBTASKS** (smaller, more detailed actions): used to break tasks down further.
 
 *💡 Smart note: if a task has scheduled subtasks, it becomes a summary container and loses its own individual scheduling. The subtasks handle all planning.*
 
@@ -546,34 +546,37 @@ Use this space to describe the task, provide guidelines, or share references wit
 👥 **Assign one or more people**
 Choose who is responsible for a task (Assignee) and how many days are required.
 
-* Click "Add assignee", select team members, and define the effort.
-* The task will appear in their Desk and, if enabled, in People Allocation via **Automatic Planning**.
+![](/uploads/assignee.png)
+
+1. Click "Add assignee"
+2. Select Team Member
+3. The task will appear in their Desk and, if enabled, in People Allocation via **Automatic Planning**.
 
 ### Planning Options
 
 You can choose whether to let the system manage resource allocation or do it manually:
 
-🔔 \*\*Automatic Planning ON (recommended):\*\*The system places the task in the person's People Allocation schedule, checking availability, budget, and planning rules.
+**🔔 Automatic Planning ON (recommended):** The system places the task in the person's People Allocation schedule, checking availability, budget, and planning rules.
 Alerts will highlight any issues.
 🔕 **Automatic Planning OFF:**
 The task is assigned but not automatically scheduled. You'll need to handle planning manually. A popup will remind you when this is off.
 
-If Automatic Planning is active, you can choose between two scheduling modes:
+If Automatic Planning is active:
 
-🚀 **"Plan as soon as possible"**: assigns the task to the first available days within the defined period.
-🗓️ **"Distribute the task"**: evenly spreads the effort across the entire task duration.
+⏱️ You can define the **Effort** by indicating Days and Hours to complete the task.
 
-![](</uploads/Screenshot 2025-08-01 alle 16.37.18.png>)
+🗓️ You can choose between two scheduling modes:
 
-Clicking the Button “Plan in People Allocation” adds the task to the person’s planning.
+* **"Plan as soon as possible"**: assigns the task to the first available days within the defined period.
+* **"Distribute the task"**: evenly spreads the effort across the entire task duration.
+
+Clicking the Button **“Plan in People Allocation**” adds the task to the person’s planning.
 
 ✅  **Tip**: automatic assignment in People Allocation is one of the smartest and strictest features of the Project Plan. Choose assignees carefully to benefit from real-time checks. You can always switch to manual planning if needed.
 
 ### Automatic Planning
 
-When “Automatic Planning” is on, when you assign a person to a task, wethod checks their availability. If there's a conflict, it warns you.
-
-Type of Alerts and Suggestions
+When “Automatic Planning” is on, when you assign a person to a task, wethod checks their availability. If there's a conflict, it warns you. If there is something you can improve, it gives you a suggestion.
 
 #### 🔺 Red triangle (Critical)
 
