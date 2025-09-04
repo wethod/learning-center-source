@@ -477,7 +477,7 @@ From the project list, open the relevant project and check the side panel. Here,
 A window with two options will immediately appear:\
 ![](</uploads/Project Plan/Screenshot 2025-08-01 alle 16.51.23.png>)
 
-* \*\*From Budget: \*\*already have a well-structured budget? Great—start from there and import the areas and tasks you’ve already defined.
+* **From Budget:** already have a well-structured budget? Great—start from there and import the areas and tasks you’ve already defined.
 * **New:** prefer to start from scratch with full creative freedom.
 
 *💡 Expert tip: if your budget is well structured, choose the first option. You’ll save valuable time and keep everything aligned.*
@@ -508,10 +508,14 @@ This allows you to constantly track time allocation against the budget.
 
 #### The Workflow
 
-To start concretely, click on any task or subtask: a side drawer will open, allowing you to manage key planning elements. Within the drawer, you can:
+To start concretely, click on any task or subtask: a side drawer will open, allowing you to manage key planning elements.
 
-📅 \*\*Set start and end dates
-\*\*Define when the activity starts and ends so it’s correctly positioned in the Gantt.
+![](/uploads/drawer.png)
+
+Within the drawer, you can:
+
+📅 **Set start and end dates**
+Define when the activity starts and ends so it’s correctly positioned in the Gantt.
 
 🚦**Assign a status**
 Each task can have a status indicating its progress. The color will reflect in the Gantt when using the “View by status” option:
@@ -574,7 +578,7 @@ If Automatic Planning is active:
 
 Clicking the Button **“Plan in People Allocation**” adds the task to the person’s planning.
 
-✅  **Tip**: automatic assignment in People Allocation is one of the smartest and strictest features of the Project Plan. Choose assignees carefully to benefit from real-time checks. You can always switch to manual planning if needed.
+*✅  **Tip**: automatic assignment in People Allocation is one of the smartest and strictest features of the Project Plan. Choose assignees carefully to benefit from real-time checks. You can always switch to manual planning if needed*.
 
 ### Automatic Planning
 
