@@ -531,9 +531,8 @@ Not all activities start simultaneously—some depend on others. You can define 
 
 To set a dependency:
 
-1. Open the task/subtask drawer
-2. In the "Depending on" section, select the relevant task
-3. Specify the dependency type
+1. In the "Depending on" field, select the relevant task
+2. Specify the dependency type
 
 ⚠️ If the plan is inconsistent, the system flags it and offers two quick fixes:
 
@@ -584,28 +583,28 @@ Clicking the Button **“Plan in People Allocation**” adds the task to the per
 
 When “Automatic Planning” is on, when you assign a person to a task, wethod checks their availability. If there's a conflict, it warns you. If there is something you can improve, it gives you a suggestion.
 
-#### 🔺 Red triangle (Critical)
+##### 🔺 Red triangle (Critical)
 
 No budget capacity available for the person's level.
 💡 Solution: change assignee, adjust seniority level, or update the budget.
 
 ![](</uploads/Project Plan/Screenshot 2025-08-01 alle 16.37.48.png>)
 
-#### 🟠 Orange triangle (Time issue)
+##### 🟠 Orange triangle (Time issue)
 
 The person doesn’t have enough time available during that period.
 💡 Solution: reduce required effort, move the task, or reassign it.
 
 ![](</uploads/Project Plan/Screenshot 2025-08-01 alle 16.37.54.png>)
 
-#### 🟡 Yellow triangle (Inconsistency)
+##### 🟡 Yellow triangle (Inconsistency)
 
 Mismatch between the project plan and the assignee’s personal planning.
 💡 Solution: click “Plan in People Allocation” to resolve.
 
 ![](</uploads/Project Plan/Screenshot 2025-08-01 alle 16.50.42.png>)
 
-#### 🔵 Blue lightbulb (Opportunity)
+##### 🔵 Blue lightbulb (Opportunity)
 
 Good news! There's availability to finish the task earlier than expected.
 💡 Solution: you can bring the task forward to optimize time and resources.
@@ -616,7 +615,7 @@ Good news! There's availability to finish the task earlier than expected.
 
 #### Gantt
 
-The Gantt is not just a timeline—it's an interactive and customizable tool that helps you track progress and intervene where needed.
+The Gantt is not just a timeline — it's an interactive and customizable tool that helps you track progress and intervene where needed.
 
 #### View by
 
@@ -624,19 +623,33 @@ Located at the top right, the “View by” menu lets you switch display modes:
 
 * **Default**: classic view with tasks and assignees. Great for a clean, operational overview.
 * **Status**: colors tasks and subtasks based on their current status (Not Started, In Progress, Blocked, Completed, Closed).
-  💡 This allows you to quickly spot progress and issues—supporting faster, data-driven decisions.
+  💡 This allows you to quickly spot progress and issues — supporting faster, data-driven decisions.
 
 ![](</uploads/Project Plan/Screenshot 2025-08-01 alle 13.11.27.png>)
 
 ##### Drag and drop tasks directly in the Gantt
 
-Tasks and subtasks are draggable. You can move them to change their start/end dates visually. Be cautious: wethod checks if the new dates align with actual resource planning.
+Tasks and subtasks are draggable on the calendar. You can move them to change their start/end dates visually.
 
-⚠️ A yellow triangle will appear if there’s a mismatch.
+⚠️ Be cautious: wethod checks if the new dates align with actual resource planning. A yellow triangle will appear if there’s a mismatch.
 
 🔧 How to fix it? Open the drawer and click "Plan in People Allocation" to update the person's planning based on the new dates.
 
 ✅ Once aligned, a green check confirms the task is correctly scheduled in both the Gantt and People Allocation.
+
+##### Reorder
+
+By hovering on a task or area, you will be able to reorder the tasks as you need to better organise your work.
+
+![](/uploads/reorder.png)
+
+##### Hide and Show Hidden
+
+By hovering on a task or area, you will see the “eye” icon which allows to hide such tasks or area which usually do not need to be assigned or planned.
+
+![](/uploads/hide.png)
+
+⚙️ You will still be able access them by clicking the gear “Settings” icon and enabling “Show hidden Tasks”.
 
 ## Project Canvas
 
