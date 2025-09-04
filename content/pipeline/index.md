@@ -563,6 +563,8 @@ The task is assigned but not automatically scheduled. You'll need to handle plan
 
 If Automatic Planning is active:
 
+![](/uploads/effort.png)
+
 ⏱️ You can define the **Effort** by indicating Days and Hours to complete the task.
 
 🗓️ You can choose between two scheduling modes:
