@@ -617,7 +617,7 @@ Good news! There's availability to finish the task earlier than expected.
 
 The Gantt is not just a timeline — it's an interactive and customizable tool that helps you track progress and intervene where needed.
 
-#### View by
+##### View by
 
 Located at the top right, the “View by” menu lets you switch display modes:
 
@@ -626,6 +626,12 @@ Located at the top right, the “View by” menu lets you switch display modes:
   💡 This allows you to quickly spot progress and issues — supporting faster, data-driven decisions.
 
 ![](</uploads/Project Plan/Screenshot 2025-08-01 alle 13.11.27.png>)
+
+##### Project Status vs Budget Consumption
+
+In a glance you can see the project status versus the consumption of the budget, basically how the project is actually going and if you're on top of it.
+
+![](</uploads/Screenshot 2025-10-02 alle 14.45.20.png>)
 
 ##### Drag and drop tasks directly in the Gantt
 
