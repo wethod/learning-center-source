@@ -70,11 +70,11 @@ It brings the user's attention to all projects that are either lost or have 100 
 
 **Won Projects At 90% Of Probability And Opportunities** 
 
-It Brings the user's attention to all 90 % projects and opportunities affected by the selected time portion that would not be included in the freeze. This is because I can only freeze a safe, 100 % project.
+It Brings the user's attention to all 90 % projects and opportunities affected by the selected time portion that would not be included in the freeze. This is because I can only freeze a safe, 100 % probability project.
 
 **Unapproved Budgets**
 
-Budgets for the following opportunities/projects must be approved in order to freeze data.
+Budgets for won projects must be approved in order to freeze data.
 
 **Alerts overview**
 
