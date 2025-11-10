@@ -127,11 +127,9 @@ When a product is added to a budget, it is treated as special task where user ca
 * If product has a defined price than task price is product *price \* task quantity*
 * If product has no defined price than task price is calculated the same way as a normal task
 
-If you want to apply a discount or a markup yuu can also change the price and external costs of the prouct template by clicking the 3 dots > edit button. It will open a modal to insert the new amounts and after that you can continue to use the product by setting the quantity (see above).
+If you want to apply a discount or a markup yuu can also change the price and external costs of the prouct template by clicking the 3 dots > edit button. It will open a modal to insert the new amounts and after that you can continue to use the product by setting the quantity (see above).![](/uploads/Edit%20Product.png)
 
-![](/uploads/Edit%20Product.png)
-
-N.B. Product task cannot be made intercompany.
+*N.B. Product task cannot be made intercompany.*
 
 #### Pricelists
 
