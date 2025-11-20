@@ -579,6 +579,11 @@ Clicking the Button **“Plan in People Allocation**” adds the task to the per
 
 *✅  **Tip**: automatic assignment in People Allocation is one of the smartest and strictest features of the Project Plan. Choose assignees carefully to benefit from real-time checks. You can always switch to manual planning if needed*.
 
+⚠️ If you include **weekends** in the activity **date**, it won't be considered for planning if you have the following [Settings](https://support.wethod.com/settings/index/#people-allocation):
+
+* *“Use 7 days week calendar”* OFF
+* *“Use 7 days week calendar”*  ON and *“Highlight weekends”* ON
+
 ### Automatic Planning
 
 When “Automatic Planning” is on, when you assign a person to a task, wethod checks their availability. If there's a conflict, it warns you. If there is something you can improve, it gives you a suggestion.
