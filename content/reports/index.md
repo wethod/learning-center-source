@@ -281,7 +281,7 @@ Each chart also has a child table that shows detailed information about the proj
 
 ## Daily Rate 🔜
 
-This feature will come soon!
+This insight will come soon!
 
 ## Production Value
 
