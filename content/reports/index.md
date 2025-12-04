@@ -279,6 +279,10 @@ Each chart also has a child table that shows detailed information about the proj
 
 ![](</uploads/gross margin 2.gif>)
 
+## Daily Rate 🔜
+
+This feature will come soon!
+
 ## Production Value
 
 Here you can find an overview of the annual projects' [production value](/glossary/index/#production-value). Each month is displayed as a two overlapped columns:
