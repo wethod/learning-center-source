@@ -50,8 +50,11 @@ Here are listed all the [orders](/finance/index/#orders) and [invoices](/finance
 Here is shown the trend of various [budget's](/budget/index) voices for the project:
 
 * **Revenues**: the project's final net price
+* **Intercompany Cost (only if **: total amount of external costs related to intercompany tasks included in the project budget.
+
+  These costs are shown only when the intercompany tasks have been correctly linked to the other company. If no value is displayed, it usually means that the other company has not yet accepted or connected the related tasks. \[This field is available only if the Intercompany module is enabled for the company]
+* **Net Revenues**: the project’s net revenue, calculated as Revenue minus Intercompany Cost; it represents the value of the project after excluding the costs incurred with other companies involved in the delivery. \[This field is available only if the Intercompany module is enabled for the company]
 * **External Cost**: the sum of all budget's external costs (travels, expenses and intercompany costs) excluded
-* **Intercompany Cost**: the sum of the external costs of all intercompany tasks in the budget (this value is only shown if there are intercompany cost tasks)
 * **Travels**: external costs related to "Travels" budget's task
 * **Expenses**: external costs related to "Expenses" budget's task
 * **Gross Margin**: final net price without external cost, travels and expenses
