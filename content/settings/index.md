@@ -95,6 +95,8 @@ In the Capacity table, you can define the daily working capacity for your team.
 * The group assigned to each person determines their availability in the planning section: for example, if someone works 4 hours a day, only those 4 hours will be schedulable, while the unavailable hours will appear in grey. Once defined, capacity groups can be **assigned to company employees via the [Team section](https://support.wethod.com/settings/index/#import-metadata)**.
 * The **Timesheet, People Allocation and Allocation Requests **take actual capacity into account: they will show the number of hours that person is expected to work, rather than assuming a standard 40-hour week.
 
+![](/uploads/Capacity.png)
+
 ### Fiscal Year
 
 The Fiscal Year section allows you to align wethod with your company’s fiscal year, in case it doesn’t match the calendar year.
