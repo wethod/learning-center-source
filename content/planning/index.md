@@ -72,6 +72,12 @@ When you run out of days, you can choose between two options:
 * Review the budget and wait for the approval of a supervisor.
 * Quickly convert available budget days from another user level.
 
+### Capacity
+
+Each person can have a different capacity, defined in [Team section](https://support.wethod.com/settings/index/#team-metadata), and it will be reflected on the available space in the People Allocation calendar. 
+
+* When one tries to plan on hours outside user's capacity, an alert will ask if he really want to plan over that. If user clicks “Yes”, plan is confirmed and no similar warning appears until user changes the selected project. If user clicks “No”, those hours or days are removed from requested plans.
+
 ### Weekends
 
 A five days calendar (Monday to Friday) is used by default.
