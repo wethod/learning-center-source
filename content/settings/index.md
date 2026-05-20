@@ -85,20 +85,15 @@ For example, if you set it to 6 hours, it won’t be possible to assign more tha
 
 We recommend **defining** it properly from the start and avoiding frequent changes - even a small adjustment can affect the economic and operational data linked to your projects.
 
-### Employee Capacity Groups
+### Capacity
 
-In the Employee Capacity Groups table, you can define the daily working capacity for your team.
+In the Capacity table, you can define the daily working capacity for your team.
 
-* By default, there’s a group called “default capacity group” which assigns 8 hours per day from Monday to Friday. This group that can't be deleted, but you can edit it if needed.
-* By clicking on New Capacity Group, you can create additional time configurations - handy if some people on your team work different hours (e.g., part-time, reduced hours, etc.).
-* The group assigned to each person determines their availability in the planning section: for example, if someone works 4 hours a day, only those 4 hours will be schedulable, while the unavailable hours will appear in grey. Once defined, capacity groups can be assigned to company employees via the [Team metadata import](https://support.wethod.com/settings/index/#import-metadata).
-* The [timesheet](https://support.wethod.com/friday/index/#timesheet) and its export also takes actual capacity into account: the weekly counter will show the number of hours that person is expected to work, rather than assuming a standard 40-hour week.
-
-![](</uploads/Schermata 2023-11-07 alle 15.34.01.png>)
-
-{{< note title="Note" >}}
-Changes to a capacity group are applied to the past too.
-{{< /note >}}
+* By default, there’s a capacity called “default capacity group” which assigns 8 hours per day from Monday to Friday. This group that can't be deleted, but you can edit it if needed.
+* By clicking on **New Capacity**, you can create additional time configurations - handy if some people on your team work different hours (e.g., part-time, reduced hours, etc.).
+* Any new capacity added can become the new default, by clicking on the “set as default” radio button. This means it will be attached to any new user added to the team.
+* The group assigned to each person determines their availability in the planning section: for example, if someone works 4 hours a day, only those 4 hours will be schedulable, while the unavailable hours will appear in grey. Once defined, capacity groups can be **assigned to company employees via the [Team section](https://support.wethod.com/settings/index/#import-metadata)**.
+* The **Timesheet, People Allocation and Allocation Requests **take actual capacity into account: they will show the number of hours that person is expected to work, rather than assuming a standard 40-hour week.
 
 ### Fiscal Year
 
