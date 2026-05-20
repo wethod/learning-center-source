@@ -38,11 +38,15 @@ To invite a new teammate:
 To edit a user, click on the corresponding arrow to open the sidebar. Note that:
 
 * Each user can have a job title (i.e. junior designer, senior developer, social media manager).
-* You can assign *tags*. Creation and editing of tags is managed in [Settings / Company.](https://support.wethod.com/settings/index/#company)
-* Each user can have an *allocation manager*, who is the person in the team that will receive notifications about user's allocation requests.
-* Being a user allocation manager does not automatically means you can approve or reject their requests, you need special permissions for that.
-* Any team member can be an allocation manager of another team member.
-* Assigning a *pricelist* to an employee will impact their costs in the project report, when calculating the internal costs of a project (based on the amount of hours filled in the timesheet section by each employee for that project).
+* You can assign **tags**.
+  * Creation and editing of tags is managed in [Settings / Company.](https://support.wethod.com/settings/index/#capacity)
+* Each user can have an **allocation manager**, who is the person in the team that will receive notifications about user's allocation requests.
+  * Being a user allocation manager does not automatically means you can approve or reject their requests, you need special permissions for that.
+  * Any team member can be an allocation manager of another team member.
+* Assigning a **capacity** to an employee will reflect on the Timesheet, People Allocation and Allocation Requests actual capacity: they will show the number of hours that person is expected to work, rather than assuming a standard 40-hour week.
+  * You can specify also different capacities for different time periods. E.g. Full Time from 01/01/2025 to 31/01/2025 and Part Time from 01/01/2026.
+  * Creation and editing of capacities is managed in [Settings / Company](https://support.wethod.com/settings/index/#capacity).
+* Assigning a **pricelist** to an employee will impact their costs in the project report, when calculating the internal costs of a project (based on the amount of hours filled in the timesheet section by each employee for that project).
 
 {{< note title="Note" >}}
 **Only super users can assign "super user" role.**
@@ -93,7 +97,7 @@ In the Capacity table, you can define the daily working capacity for your team.
 * By clicking on **New Capacity**, you can create additional time configurations - handy if some people on your team work different hours (e.g., part-time, reduced hours, etc.).
 * Any new capacity added can become the new default, by clicking on the “set as default” radio button. This means it will be attached to any new user added to the team.
 * The group assigned to each person determines their availability in the planning section: for example, if someone works 4 hours a day, only those 4 hours will be schedulable, while the unavailable hours will appear in grey. Once defined, capacity groups can be **assigned to company employees via the [Team section](https://support.wethod.com/settings/index/#import-metadata)**.
-* The **Timesheet, People Allocation and Allocation Requests **take actual capacity into account: they will show the number of hours that person is expected to work, rather than assuming a standard 40-hour week.
+* The \*\*Timesheet, People Allocation and Allocation Requests \*\*take actual capacity into account: they will show the number of hours that person is expected to work, rather than assuming a standard 40-hour week.
 
 ![](/uploads/Capacity.png)
 
