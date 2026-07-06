@@ -313,6 +313,25 @@ Here you can:
 * Set a minimum number of unique reviewers to collect feedback from before showing review’s results in the profile page and the project canvas (this is useful to keep a review anonymous)
 * Decide for which job order categories and minimum project's value WETHOD will ask for review on archive.
 
+### Custom Fields
+
+**Custom Fields** let you personalize the information you want to see across wethod's sections, They are currently active only for Project Plan tasks, but we are working towards opening it to the rest of wethod.
+
+Use it to add properties tailored to how your team works (e.g. priority, activity type, a custom progress status).
+
+**Create a Custom Field**
+
+Fields created here are global: they'll automatically appear in every Project Plan across your company.
+
+To create a new field fill in:
+
+1. Name (required)
+2. Description (optional)
+3. Section: pre-filled based on where you're creating the field from (currently only Project Plan
+4. Set as required: if enabled, the field must be filled by the user.
+   *⚠️ If you mark a field as required, any existing activity that hasn't filled it in yet will show the field empty and flagged as an error.*
+5. Type: currently only Single Option is available
+
 ### Suppliers settings
 
 * **Categories and subcategories of suppliers**
