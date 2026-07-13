@@ -612,6 +612,7 @@ Users with permission to edit others' expenses can also change the owner of the 
 * **Total**: whether the employer refunds the whole expense declared by the employee. *i.e. Acme Inc. refunds the total cost of a taxi trip. Wendy, in her business travel for Acme,took a taxi from London Victoria train station to the City and spent 30. Wendy will be refunded 30.*
 * **Total (max value)**: whether the employer refunds the whole expense until a maximum refund value (expressed in the *reimbursement value* field, required) is reached. *i.e. Acme Inc. refunds the total cost of a dinner up to 30. Britney, an account manager at Acme, had a business dinner with her clients  and spent 250. Britney will be refunded 30.*
 * **Quantity**: whether the employer refunds a fixed value per unit. *i.e. Acme Inc. refunds the 0,10 for each marker bought by an employee. Jason, a UX designer at Acme, bought 20 markers for a design workshop he conducted with a client. Jason will be refunded 2.*
+* **Payment Method: **How the expense has been paid. *E.g. credit card, cash etc. *Can be required or not based on company settings.
 
 ### Set a category of expense
 
