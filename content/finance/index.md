@@ -632,6 +632,14 @@ Learn how to insert categories of expenses that require a reimbursement process 
 **To avoid retroactive changes it is not permitted to edit or delete a category of expense. Archive a category to hide it from the list.**
 {{< /note >}}
 
+### Set payment methods
+
+1. Head to Settings > Company > Expenses Payment Method.
+2. Click button *Add payment method*.
+3. Choose a *name* for the method.
+4. Press *Save*.
+5. Set it as required or not for each [category of expense](/finance/index/#set-a-category-of-expense).
+
 ### How to insert a new expense
 
 1. Head to Projects > Wallet > Expenses
