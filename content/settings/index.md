@@ -27,7 +27,7 @@ Each token shows the "last used" date, aren't you the one using it? Delete it im
 
 ## Team
 
-Since you have the right permissions, you can: **invite people**, **assign specific roles** and **allow special permissions**.
+Since you have the right permissions, you can: **create users or placeholders, invite people**, **assign specific roles** and **allow special permissions**.
 
 #### Create a new user
 
