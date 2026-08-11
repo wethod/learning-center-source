@@ -29,23 +29,37 @@ Each token shows the "last used" date, aren't you the one using it? Delete it im
 
 Since you have the right permissions, you can: **invite people**, **assign specific roles** and **allow special permissions**.
 
-To invite a new teammate:
+#### Create a new user
 
-1. Click on "**New User**", then "**Add manually**"
-2. Assign a *user level*, a *role* and the *email address* of the person you want to invite;
-3. Click the "**Save**" button. Once done, an email will be sent to the given address.
+1. Click on "**New User**", then "**Add user or placeholder**"
+2. Assign any property you want (see section below for an explanation for each)
+3. Decide whether to **show the new user in People Allocation** already or wait until the invitation has been accepted.
+4. Click the "**Save**" button.
+
+#### Invite a user
+
+* Add an **email**
+* Click “Invite”.  Until the email is filled in, the button stays disabled.
+* The user will be invited with the “user” role, and it can be changed after the invitation is accepted.
+
+> Note: If you don't have permission to send invites, the email field and Invite button are disabled.
+
+#### Editing users
 
 To edit a user, click on the corresponding arrow to open the sidebar. Note that:
 
-* Each user can have a job title (i.e. junior designer, senior developer, social media manager).
+* Users permission are defined by their role assigned in this section (e.g. user, super user etc.)
+* Every user has to have a level to be planned and do their timesheet (e.g. senior, mid, junior)
+* Each user can have a **job title** (i.e. junior designer, senior developer, social media manager).
 * You can assign **tags**.
-  * Creation and editing of tags is managed in [Settings / Company.](https://support.wethod.com/settings/index/#capacity)
+* Assigning a **capacity** to an employee will reflect on the Timesheet, People Allocation and Allocation Requests actual capacity: they will show the number of hours that person is expected to work, rather than assuming a standard 40-hour week.
+  * You can specify also different capacities for different time periods. E.g. Full Time from 01/01/2025 to 31/01/2025 and Part Time from 01/01/2026.
+
+> Creation and editing of roles, levels, job titles, tags, capacity is managed in [Settings / Company.](https://support.wethod.com/settings/index/#capacity) Creation and editing of capacities is managed in [Settings / Company](https://support.wethod.com/settings/index/#capacity).
+
 * Each user can have an **allocation manager**, who is the person in the team that will receive notifications about user's allocation requests.
   * Being a user allocation manager does not automatically means you can approve or reject their requests, you need special permissions for that.
   * Any team member can be an allocation manager of another team member.
-* Assigning a **capacity** to an employee will reflect on the Timesheet, People Allocation and Allocation Requests actual capacity: they will show the number of hours that person is expected to work, rather than assuming a standard 40-hour week.
-  * You can specify also different capacities for different time periods. E.g. Full Time from 01/01/2025 to 31/01/2025 and Part Time from 01/01/2026.
-  * Creation and editing of capacities is managed in [Settings / Company](https://support.wethod.com/settings/index/#capacity).
 * Assigning a **pricelist** to an employee will impact their costs in the project report, when calculating the internal costs of a project (based on the amount of hours filled in the timesheet section by each employee for that project).
 
 {{< note title="Note" >}}
