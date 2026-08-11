@@ -189,7 +189,7 @@ What's in the tooltip
 
 > Note: Blocks with a project probability below 100% appear in a lighter color compared to confirmed blocks — so you can visually distinguish the project's status without opening anything.
 
-### 1Block resize
+### Block resize
 
 Want to lengthen or shorten an allocation without opening the sidebar? Drag the block's edges directly in the grid.
 
@@ -242,9 +242,25 @@ Click a block to delete it directly, with no confirmation.
 
 To change mode, click the icon in the bar or press the corresponding key. To return to Add/Edit from any other mode, press ESC.
 
+### Capacity
+
+Each person can have a different capacity, defined in [Team section](https://support.wethod.com/settings/index/#team-metadata), and it will be reflected on the available space in the People Allocation calendar.
+
+* When one tries to plan on hours outside user's capacity, an alert will ask if he really want to plan over that. If user clicks “Yes”, plan is confirmed and no similar warning appears until user changes the selected project. If user clicks “No”, those hours or days are removed from requested plans.
+
+### Weekends
+
+A five days calendar (Monday to Friday) is used by default.
+
+If you enable “Use a 7-days week calendar” is enabled in [company settings](/settings/index/#company), the calendar will include Saturdays and Sundays.
+
+### Bank holidays
+
+Similar to weekends, [bank holidays](https://support.wethod.com/settings/index/#bank-holidays-planner) are also highlighted with a special visual pattern. For each person in this section, the holidays linked to his [company location](https://support.wethod.com/settings/index/#company-locations) are highlighted. When planning a person on a bank holiday a modal window asks if you want to proceed with the scheduling or you want to leave bank holiday days empty.
+
 ### Overcapacity
 
-Overcapacity occurs when you plan more hours than a person has available in a given period. How People Allocation handles this depends on how your company is configured.
+Overcapacity occurs when you plan more hours than a person has available in a given period. How People Allocation handles this depends on how your [company settings](/settings/index/#company) are configured.
 
 > Note: By default, the ability to go into overcapacity is disabled: the system directly blocks actions that would exceed the person's availability. If it's enabled in company settings, the system allows over-planning but flags it visually.
 
@@ -318,7 +334,7 @@ From there, you create or edit the allocation as normal.
 
 > Note: The available pricelists are those configured on the project you selected. If none appear, check the project's configuration.
 
-### 16. Tasks linked from Project Plan
+### Tasks linked from Project Plan
 
 If your team also uses wethod's Project Plan, tasks assigned to people are visible directly in the People Allocation grid. You don't need to switch between modules to understand what a person has on their plate: allocations and operational tasks coexist in the same view.
 
@@ -415,6 +431,8 @@ By clicking on a day you can:
 
 You can hide a project by clicking on the "**X**" near the project's name.
 
+> Note: The heatmap is always updated based on the visible projects and date range.
+
 ## Production Plan
 
 Here you can express the percentage of the project's value you plan to produce for each month.
@@ -434,6 +452,8 @@ Other than searching projects by name, pm or client, you can even filter them by
 If you're editing a project, you can move its whole duration or the plan for a single month by simply dragging them as shown in the GIF below. If you change a project's duration, it will be saved as soon as you click on the "save" button.
 
 Use the "**Auto distribution**" function on a project to spread it's remaining plan on the future months of its duration.
+
+> Note: The production plan calendar follows ISO 8601, this means that a week belongs to a particular month only if its thursday belongs to that month
 
 ***
 
@@ -484,28 +504,7 @@ When you run out of days, you can choose between two options:
 * Review the budget and wait for the approval of a supervisor.
 * Quickly convert available budget days from another user level.
 
-### Capacity
-
-Each person can have a different capacity, defined in [Team section](https://support.wethod.com/settings/index/#team-metadata), and it will be reflected on the available space in the People Allocation calendar.
-
-* When one tries to plan on hours outside user's capacity, an alert will ask if he really want to plan over that. If user clicks “Yes”, plan is confirmed and no similar warning appears until user changes the selected project. If user clicks “No”, those hours or days are removed from requested plans.
-
-### Weekends
-
-A five days calendar (Monday to Friday) is used by default.
-
-If you enable “Use a 7-days week calendar” is enabled in [company settings](/settings/index/#company), the calendar will include Saturdays and Sundays.
-
-If you enable “Highlight weekends” in [company settings](/settings/index/#company):
-
-1. Saturdays and Sundays will be shown using a special visual pattern to make more clear that they belong to weekend
-2. When one tries to plan on weekends, an alert will ask if he really want to plan over the weekend. If user clicks “Yes”, plan is confirmed and no similar warning appears until user changes the selected project. If user clicks “No”, weekends are removed from requested plans
-
-### Bank holidays
-
-Similar to weekends, [bank holidays](https://support.wethod.com/settings/index/#bank-holidays-planner) are also highlighted with a special visual pattern. For each person in this section, the holidays linked to his [company location](https://support.wethod.com/settings/index/#company-locations) are highlighted. When planning a person on a bank holiday a modal window asks if you want to proceed with the scheduling or you want to leave bank holiday days empty.
-
-### **Repeat an allocation**
+### Repeat an allocation
 
 1. Click "Enable recurring mode" on the top right
 2. Select the allocation you want to repeat
