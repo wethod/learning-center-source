@@ -22,11 +22,11 @@ With the latest release, People Allocation has been completely revamped. You'll 
 
 If you work in a large team or have several projects open at the same time, the grid can get crowded. Filters and the search bar exist exactly for this: they show only the people you're interested in at that moment, without touching any of the underlying data.
 
-###### How to search for a person
+#### How to search for a person
 
 Type in the search field at the top. You don't need to scroll through the whole page: you can search by first and last name. The grid updates as you type.
 
-###### How to use filters
+#### How to use filters
 
 Click "Add filter" to open the panel. You can filter by many criteria: for example level, job title, business unit, skill, language, or by project, client, PM. For each filter you can choose whether to include those matching that criterion (is) or exclude them (is not). You can combine as many filters as you like — only people who meet all the criteria together are shown.
 
@@ -53,13 +53,13 @@ The **blue line** in the calendar highlights the **current day**.
 
 If the grid feels too compact or too spread out, you can adjust the display density from the settings. This option controls row height and the overall size of elements in the grid.
 
-###### Available options
+#### Available options
 
 * Compact: thinner rows, more people visible at once without scrolling. Ideal for large teams or a quick overview.
 * Comfortable (default view): the balance point — standard row height, readable text in the blocks.
 * Spacious: taller rows, bigger blocks. In this mode, linked task information also appears directly in the block, without needing to open the tooltip.
 
-###### How to change it
+#### How to change it
 
 You'll find the option in the on-page settings (⚙️ icon). The preference is saved for your profile, so it doesn't affect other users' views.
 
@@ -67,11 +67,11 @@ You'll find the option in the on-page settings (⚙️ icon). The preference is 
 
 The most complete way to create a new allocation is through the sidebar. It lets you configure everything calmly — project, hours, dates, status — before saving.
 
-###### How to open the sidebar
+#### How to open the sidebar
 
 Click New Allocation at the top right. The sidebar opens on the right side and the grid narrows, but stays visible — so you can see in real time where the block will be placed.
 
-###### What's in the form
+#### What's in the form
 
 * Start and end dates — the planning range.
 * Hours / Percentage — how much to plan. You can express the value in hours per day (HH:MM).
@@ -86,7 +86,7 @@ Click New Allocation at the top right. The sidebar opens on the right side and t
 
 If you prefer a more visual and quick approach, you can create an allocation directly by drawing it on the grid. It works intuitively: click, drag across the days you want to include, and release.
 
-###### How to do it
+#### How to do it
 
 1. Make sure you're in Add/Edit mode (the arrow in the toolbar — see the Cursors section).
 2. Position yourself on the person's row and on the start day you want.
@@ -99,11 +99,11 @@ If you prefer a more visual and quick approach, you can create an allocation dir
 
 Do you have someone working on the same project every week for the next three months? Instead of manually creating each individual allocation, use the Repeat function: you configure it once and the system generates all the occurrences for you.
 
-###### How to activate it
+#### How to activate it
 
 Repetition isn't a separate action — you'll find it as a tab inside the sidebar. At the top, select Repeat instead of Once.
 
-###### What to configure
+#### What to configure
 
 * From / To: the dates of the single occurrence.
 * Repeat: how often to repeat.
@@ -111,7 +111,7 @@ Repetition isn't a separate action — you'll find it as a tab inside the sideba
 
 Every block that's created has a small icon indicating it's part of a recurring series.
 
-###### Editing or deleting a single occurrence
+#### Editing or deleting a single occurrence
 
 Click the block and make your changes. The system asks whether you want to change only that one (This allocation) or that one and all following ones (This and all future allocations).
 
@@ -121,7 +121,7 @@ Click the block and make your changes. The system asks whether you want to chang
 
 The Basket lets you plan hours for a project that doesn't exist yet — for example an opportunity you're still evaluating, or an internal activity without a formal project. You can create the basket on the fly directly from People Allocation and start planning right away, without waiting for the project to be officially created.
 
-###### How to create a basket
+#### How to create a basket
 
 When you create an allocation and search for the project in the sidebar or calendar, if the project doesn't exist yet you'll see the "Create in Basket" CTA. Clicking it opens a drawer with only two required fields:
 
@@ -130,7 +130,7 @@ When you create an allocation and search for the project in the sidebar or calen
 
 After saving, the basket is immediately available for planning in People Allocation and also appears in wethod's Basket section, where you can view and edit all the associated information.
 
-###### How to recognize a basket block
+#### How to recognize a basket block
 
 Allocation blocks on a basket look different from those on real projects, so you can spot them at a glance:
 
@@ -138,11 +138,11 @@ Allocation blocks on a basket look different from those on real projects, so you
 * Colored outline — it's been moved to pipeline and has a JOC assigned.
 * Solid color — it's in pipeline with a budget, or has a JOC with unlimited planning.
 
-###### How to filter by project type
+#### How to filter by project type
 
 In the filter bar you'll find the Project Type filter, which lets you filter by Basket, Pipeline Opportunity, or Project. Useful for quickly isolating all basket plannings.
 
-###### How to manage a basket
+#### How to manage a basket
 
 From the Basket section you can open the detail drawer for each entry. From there you'll find the available actions:
 
@@ -155,13 +155,13 @@ From the Basket section you can open the detail drawer for each entry. From ther
 
 The counters column — the second fixed column on the left of the grid — can show usage values in hours or in percentage. You can choose which you prefer: the preference is personal and doesn't affect other users' views.
 
-###### In H mode (hours):
+#### In H mode (hours):
 
 * Planned — hours planned in the selected period.
 * Unplanned — hours still available.
 * Overtime — hours exceeding capacity.
 
-###### In % mode (percentage)
+#### In % mode (percentage)
 
 Utilization — occupancy as a percentage relative to the person's total capacity. Useful for comparing resources with different contracts.
 
@@ -179,7 +179,7 @@ The row at the top of the column shows the aggregate total for the whole visible
 
 Hovering over an allocation block in the grid shows a tooltip with that allocation's details. This is especially handy in Monthly view, where the blocks are small and there's no room to read the text inside them.
 
-###### What's in the tooltip
+#### What's in the tooltip
 
 * The full project name, with a circle in the associated color.
 * The block's total hours — always in hours, even if the grid is set to show percentages. So you always see the actual conversion.
@@ -191,11 +191,11 @@ Hovering over an allocation block in the grid shows a tooltip with that allocati
 
 Want to lengthen or shorten an allocation without opening the sidebar? Drag the block's edges directly in the grid.
 
-###### Horizontal resize — changes the dates
+#### Horizontal resize — changes the dates
 
 Grab the right or left edge of the block (the cursor changes shape when you're in the right position) and drag to extend or reduce the duration over time.
 
-###### Vertical resize — changes daily hours
+#### Vertical resize — changes daily hours
 
 Grab the bottom edge of the block and drag down to increase hours, up to decrease them. Hours update in half-hour increments as you drag.
 
@@ -205,7 +205,7 @@ Grab the bottom edge of the block and drag down to increase hours, up to decreas
 
 Need to move an allocation to another week, or redistribute it to a colleague? Drag it directly to the new position.
 
-###### How to do it
+#### How to do it
 
 Click the center of the block (not the edge, or you'll trigger resize) — the cursor becomes a hand. Then drag:
 
@@ -220,19 +220,19 @@ Click the center of the block (not the edge, or you'll trigger resize) — the c
 
 In the toolbar you'll find four interaction modes for the grid.
 
-###### Add/Edit - Keybord Key: A
+#### Add/Edit - Keybord Key: A
 
 The default mode. Create new allocations, edit existing ones, use resize and drag & drop.
 
-###### By Project - Keybord Key: P
+#### By Project - Keybord Key: P
 
 Select a project and the people already allocated to it move to the top. You can plan by clicking cells without having to choose the project each time.
 
-###### Split - Keybord Key: S
+#### Split - Keybord Key: S
 
 Click a block spanning multiple days to split it into two separate blocks at the point you click.
 
-###### Delete - Keybord Key: D
+#### Delete - Keybord Key: D
 
 Click a block to delete it directly, with no confirmation.
 
@@ -262,11 +262,11 @@ Overcapacity occurs when you plan more hours than a person has available in a gi
 
 > Note: By default, the ability to go into overcapacity is disabled: the system directly blocks actions that would exceed the person's availability. If it's enabled in company settings, the system allows over-planning but flags it visually.
 
-###### When overcapacity is enabled
+#### When overcapacity is enabled
 
 A red block appears in the grid starting from the point where the person's availability ends, extending to show the excess hours. In the counters column on the left, the value becomes negative (e.g. -1H) on a red background with the label Overtime.
 
-###### When overcapacity is disabled
+#### When overcapacity is disabled
 
 The system blocks the action before you can exceed availability:
 
@@ -275,7 +275,7 @@ The system blocks the action before you can exceed availability:
 * If you're resizing, the block returns to its original size with a warning.
 * If you're using drag & drop toward another person, the move succeeds but — if overcapacity is enabled — you're flagged visually.
 
-###### How to resolve an overcapacity
+#### How to resolve an overcapacity
 
 You have several options: you can reduce hours on one of the allocations, move one to a freer period, extend it over more days via resize, or pass it to a colleague who has availability.
 
@@ -285,29 +285,29 @@ You have several options: you can reduce hours on one of the allocations, move o
 
 Do you need to plan hours for someone who hasn't been hired yet or hasn't accepted the invitation yet? You can create a Placeholder in Team — a temporary person who appears in People Allocation as a plannable resource, without having to wait for the real account to be activated.
 
-###### How to create a placeholder
+#### How to create a placeholder
 
 Go to the end of the list of people or directly in [Team](https://support.wethod.com/settings/index/#team) section and click Add user. You'll find the same fields as a normal user, but for a placeholder the only required fields are Level and — if your company uses pricelist planning — Pricelist. Other fields (role, capacity, location) are pre-filled with default values and can be edited.
 
 Once created, the placeholder immediately appears in People Allocation with a generic person icon and the temporary name you set. Hours planned for them are deducted from the project budget as normal.
 
-###### How to invite them when ready
+#### How to invite them when ready
 
 Add their email to the profile and click Invite. Until the email is filled in, the button stays disabled.
 
 > Note: If you don't have permission to send invites, the email field and Invite button are disabled.
 
-###### How to edit them
+#### How to edit them
 
 You can change level, capacity, and other properties at any time. Available hours are recalculated automatically.
 
-###### How to delete them
+#### How to delete them
 
 You can delete a placeholder: deletion also removes the associated planning.
 
 > Note: Hours already accounted for in past weeks are not recalculated. Those from the current week onward are "returned" — availability values update accordingly.
 
-###### Filters
+#### Filters
 
 In the filter bar you'll find the User Status filter with two options:
 
@@ -322,7 +322,7 @@ This feature lets you specify, for each allocation, which contractual rate shoul
 
 > Note: Pricelist planning must be enabled in company settings by an administrator. If you don't see it, contact whoever manages your wethod account.
 
-How it works
+#### How it works
 
 When the feature is active, the grid shows a small panel with available hours broken down by pricelist.
 
@@ -336,11 +336,11 @@ From there, you create or edit the allocation as normal.
 
 If your team also uses wethod's Project Plan, tasks assigned to people are visible directly in the People Allocation grid. You don't need to switch between modules to understand what a person has on their plate: allocations and operational tasks coexist in the same view.
 
-To see a task's details
+#### To see a task's details
 
 Hover over an allocation block: the tooltip that appears also shows the list of linked tasks. Click the → arrow next to a task to open its detail drawer directly in the Project Plan.
 
-What you can do from People Allocation
+#### What you can do from People Allocation
 
 You can only view and navigate to tasks. For now, to edit them — change dates, hours, assignment — you need to go to the Project Plan.
 
@@ -370,7 +370,7 @@ Particular job order categories may expect people to ask to be planned on them, 
 
 "Allocation requests" section is where all this requests can be created and managed.
 
-**To create a request**
+#### **To create a request**
 
 1. Click on "Add request" button to open related sidebar
 2. Select the project to request (required). You can only use a project which job order category has the "plan upon approval" flag enabled. To enable this flag just head to the [company settings](/settings/index/#company) section
@@ -405,7 +405,7 @@ Creating or editing a pending request can create **conflicts** if:
 1. In the requested period there is **at least one hour already planned**
 2. In the requested period there is **at** **least one hour belonging to another request**
 
-**Requests with conflicts**
+#### **Requests with conflicts**
 
 * Get a particular status
 * Does not appear in people allocation
