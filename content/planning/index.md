@@ -121,36 +121,6 @@ Click the block and make your changes. The system asks whether you want to chang
 
 The Basket lets you plan hours for a project that doesn't exist yet — for example an opportunity you're still evaluating, or an internal activity without a formal project. You can create the basket on the fly directly from People Allocation and start planning right away, without waiting for the project to be officially created.
 
-#### How to create a basket
-
-When you create an allocation and search for the project in the sidebar or calendar, if the project doesn't exist yet you'll see the "Create in Basket" CTA. Clicking it opens a drawer with only two required fields:
-
-* Name\* — the name you want to give the basket.
-* In charge\* — the person responsible (pre-filled with your name).
-
-After saving, the basket is immediately available for planning in People Allocation and also appears in wethod's Basket section, where you can view and edit all the associated information.
-
-#### How to recognize a basket block
-
-Allocation blocks on a basket look different from those on real projects, so you can spot them at a glance:
-
-* Grey outline — the basket doesn't have a Job Order Category yet.
-* Colored outline — it's been moved to pipeline and has a JOC assigned.
-* Solid color — it's in pipeline with a budget, or has a JOC with unlimited planning.
-
-#### How to filter by project type
-
-In the filter bar you'll find the Project Type filter, which lets you filter by Basket, Pipeline Opportunity, or Project. Useful for quickly isolating all basket plannings.
-
-#### How to manage a basket
-
-From the Basket section you can open the detail drawer for each entry. From there you'll find the available actions:
-
-* Delete — deletes the basket and all associated planning. The system asks for confirmation, specifying that the action is irreversible and that the planning blocks will also be deleted.
-* Move to Pipeline — promotes the basket to a Pipeline Opportunity, keeping all planning already done.
-
-> Note: Only those with permission to create Pipeline Opportunities can use the "Move to Pipeline" action.
-
 ### Utilization in hours or percentage
 
 The counters column — the second fixed column on the left of the grid — can show usage values in hours or in percentage. You can choose which you prefer: the preference is personal and doesn't affect other users' views.
