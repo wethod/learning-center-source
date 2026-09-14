@@ -72,7 +72,9 @@ A *task* is a macro activity needed to complete the project, related tasks can b
 
 You can add new *areas* by using the "**+ New Area**" button: type in a meaningful name and hit enter.
 
-An area can be minimized by clicking on it, this let you appreciate more areas all together on the screen.
+An area can be **minimized** by clicking on it, this let you appreciate more areas all together on the screen.
+
+Areas can be **reorderd** by clicking on the 3 dots menu on top of the page.
 
 Areas are grouped in order to show subtotals:
 
@@ -94,6 +96,8 @@ The first columns of the budget show how many work days you need for each *user 
 * **Days**: the total amount of days
 * **Cost**: the sum of the budget’s days multiplied by the cost of the user level that will take care of it. This value is also called *internal costs*
 * **Price**: the suggested price we think is optimal to sell your project
+
+Levels can be **reorderd** by clicking on the 3 dots menu on top of the page.
 
 This section can be used for **real-time collaboration**: you can see who is editing a budget you're looking and all changes are propagated with no need to refresh the page.\
 \
