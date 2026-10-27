@@ -500,9 +500,17 @@ The hierarchy is simple and follows three levels:
 
 *💡 Smart note: if a task has scheduled subtasks, it becomes a summary container and loses its own individual scheduling. The subtasks handle all planning.*
 
-By enabling the “Budget days always on” option (via the gear icon), you’ll see two values next to each area or task: Assigned hours (manually entered on the task) / Budgeted hours (estimated in the budget)
+### Settings
 
-![](</uploads/Project Plan/Screenshot 2025-08-01 alle 16.33.19.png>)
+Project Plan's settings include:
+![](</uploads/Screenshot 2026-10-27 alle 12.18.07.png>)
+
+* Show Hidden Areas & Tasks”: enable it check hidden areas and tasks and decide whether to show them again.
+* [Planning options](https://support.wethod.com/pipeline/index/#planning-options)
+* “Budget days always on”: enable it to see two values next to each area or task: Assigned hours (manually entered on the task) / Budgeted hours (estimated in the budget)
+* Unlink budget (if you chose to create it via budget) / Link budget (if you chose to create it as new)
+*
+
 
 This allows you to constantly track time allocation against the budget.
 
