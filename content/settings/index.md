@@ -272,9 +272,9 @@ Add a detail depth to a project in pipeline with metadata tags. Add a new tag, s
 
 Here you can insert the email addresses to which send invoices, orders and travel requests.
 
-### Project Won/Lost Bot
+### Opportunity Win/Loss Email Notification
 
-Here you can insert the email addresses to which send notifications each time someone of your teammates won or lost a project. A project is considered to be *lost* when its probability is 0 and *won* when its probability is 90.
+Here you can insert the email addresses to notify each time someone of your teammates won or lost an opportunity. A project is considered to be *lost* when its probability is 0 and *won* when reaches the % of probability set as the winning threshold (75%, 90% or 100%).
 
 ### Project Types
 
@@ -312,9 +312,9 @@ A list of all the known currencies, each one can be made available or set as *ma
 
 Here you can change the initial month of your company's fiscal year. All report and tables showing temporal data will update. Automatic job order generation and automatic invoice number will follow the fiscal year start, so you might get duplicated job order or invoice number if you change it. Remember that you can always manually change them and also set a different progressive number to start with in the job order settings than the default 1.
 
-### Won/Lost Feedback
+### Win/Loss Feedback
 
-Here you can define some possible reasons which can led to the win or loss of a project. A project is considered **won** when its probability reaches 90 or above, on the other hand it's considered **lost** when it goes down to 0. Users will be able to choose one of these reasons from the projects pipeline (remember to enable the related job order category's flag). This feedbacks will be then shown on the [Client Details](/finance/index/#client-details) page and can be edited from the "More Action > Edit Feedback" button in the projects pipeline.
+Here you can define some possible reasons which can led to the win or loss of a project. A project is considered **won** when its probability reaches the % of probability set as the winning threshold (75%, 90% or 100%), on the other hand it's considered **lost** when it goes down to 0%. Users will be able to choose one of these reasons from the projects pipeline (remember to enable the related job order category's flag). This feedbacks will be then shown on the [Client Details](/finance/index/#client-details) page and can be edited from the "More Action > Edit Feedback" button in the projects pipeline.
 
 ### Project & Team Review
 
