@@ -276,9 +276,9 @@ Here you can insert the email addresses to which send invoices, orders and trave
 
 Here you can insert the email addresses to notify each time someone of your teammates won or lost an opportunity. A project is considered to be *lost* when its probability is 0 and *won* when reaches the % of probability set as the winning threshold (75%, 90% or 100%).
 
-### Opportunity Win Probability (%) threshold
+### Win probability (%) threshold for opportunities
 
-Set the percentage of probability threshold that defines an opportunity as won between 75%, 90% or 100%. 
+Choose the probability at which an opportunity is considered won: 75%, 90% or 100%.
 If the threshold set decreases, the change will:
 
 * Convert \[nr] opportunities into projects and move them to the Project List.
