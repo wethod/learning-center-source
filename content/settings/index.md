@@ -281,7 +281,7 @@ Here you can insert the email addresses to notify each time someone of your team
 Choose the probability at which an opportunity is considered won: 75%, 90% or 100%.
 If the threshold set decreases, the change will:
 
-* Convert \[nr] opportunities into projects and move them to the Project List.
+* Convert \[X] opportunities into projects and move them to the Project List.
 * Affect some reports in the Insight section.
 * Set the win date to today. You can edit it anytime from the project details.
 * Leave the Win Feedback blank. You can edit it anytime from the project details. PMs and accounts of the concerned projects will be notified (optional) and asked to update the win feedback from each project details in the Project List
