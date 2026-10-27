@@ -278,7 +278,21 @@ Here you can insert the email addresses to notify each time someone of your team
 
 ### Opportunity Win Probability (%) threshold
 
-Set the percentage of probability threshold that defines an opportunity as won between 75%, 90% or 100%. Each 
+Set the percentage of probability threshold that defines an opportunity as won between 75%, 90% or 100%. 
+If the threshold set decreases, the change will:
+
+* Convert \[nr] opportunities into projects and move them to the Project List.
+* Affect some reports in the Insight section.
+* Set the win date to today. You can edit it anytime from the project details.
+* Leave the Win Feedback blank. You can edit it anytime from the project details. PMs and accounts of the concerned projects will be notified (optional) and asked to update the win feedback from each project details in the Project List
+
+If the threshold set increases, the change will:
+
+* Convert \[X] projects back into open opportunities and move them to the Pipeline Opportunities page.
+* Affect some reports in the Insight section.
+* Remove the Win date and the Win Feedback from these projects. 
+
+Optional: In both scenarios PMs and Accounts of the concerned projects/opportunities will be notified via email. 
 
 ### Project Types
 
