@@ -276,6 +276,10 @@ Here you can insert the email addresses to which send invoices, orders and trave
 
 Here you can insert the email addresses to notify each time someone of your teammates won or lost an opportunity. A project is considered to be *lost* when its probability is 0 and *won* when reaches the % of probability set as the winning threshold (75%, 90% or 100%).
 
+### Opportunity Win Probability (%) threshold
+
+Set the percentage of probability threshold that defines an opportunity as won between 75%, 90% or 100%. Each 
+
 ### Project Types
 
 Create and manage labels that you can assign to projects in [pipeline](/pipeline/index/#projects). A project type is basically composed by a name, you can than aggregate it's values by using a group or use a short label to better identify a project type;
