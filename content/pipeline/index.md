@@ -500,19 +500,8 @@ The hierarchy is simple and follows three levels:
 
 *💡 Smart note: if a task has scheduled subtasks, it becomes a summary container and loses its own individual scheduling. The subtasks handle all planning.*
 
-### Settings
-
-Project Plan's settings include:
-![](</uploads/Screenshot 2026-10-27 alle 12.18.07.png>)
-
-* Show Hidden Areas & Tasks”: enable it check hidden areas and tasks and decide whether to show them again.
-* [Planning options](https://support.wethod.com/pipeline/index/#planning-options)
-* “Budget days always on”: enable it to see two values next to each area or task: Assigned hours (manually entered on the task) / Budgeted hours (estimated in the budget)
-* Unlink budget (if you chose to create it via budget) / Link budget (if you chose to create it as new)
-*
 
 
-This allows you to constantly track time allocation against the budget.
 
 #### The Workflow
 
@@ -669,6 +658,14 @@ By hovering on a task or area, you will see the “eye” icon which allows to h
 ![](/uploads/hide.png)
 
 ⚙️ You will still be able access them by clicking the gear “Settings” icon and enabling “Show hidden Tasks”.
+
+### Project Plan Settings&#xA;![](</uploads/Screenshot 2026-10-27 alle 12.18.07.png>)
+
+* **Show Hidden Areas & Tasks**: enable it check hidden areas and tasks and decide whether to show them again.
+* **[Planning options](https://support.wethod.com/pipeline/index/#planning-options)**
+* **Budget days always on**: enable it to see two values next to each area or task: Assigned hours (manually entered on the task) / Budgeted hours (estimated in the budget). This allows you to constantly track time allocation against the budget.
+* **Unlink budget** (if you chose to create it via budget) / Link budget (if you chose to create it as new)
+* Restore budget order: You can reorder areas if linked to a budget, but you can always reorder them as in the budget whenever you need to.
 
 ## Project Canvas
 
