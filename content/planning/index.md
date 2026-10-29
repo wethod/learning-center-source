@@ -14,7 +14,7 @@ The planning has two section:
 * **Projects' Heatmap** shows the daily amount of people planned on each project. It also offers a *milestone system* that allows your team to have an overview on the scheduled events.
 * **Production Plan** where you can express the percentage of the project's total value you are going to produce in each month.
 
-## New People Allocation
+## People Allocation
 
 With the latest release, People Allocation has been completely revamped. You'll find a smoother interface, new tools for fast planning, and some brand-new features. This guide walks you through everything you can do.
 
@@ -422,74 +422,3 @@ If you're editing a project, you can move its whole duration or the plan for a s
 Use the "**Auto distribution**" function on a project to spread it's remaining plan on the future months of its duration.
 
 > Note: The production plan calendar follows ISO 8601, this means that a week belongs to a particular month only if its thursday belongs to that month
-
-***
-
-## Old People Allocation
-
-People Allocation gives an overview of the team’s allocation on the projects in your company. From here you can plan your colleagues, filter them by skill, language, interest or tag, and access their profile pages to learn more about their backgrounds and goals.
-
-This planning features three different views and planning options:
-
-* **Hourly**: team allocation on projects by the hour;
-* **Daily**: team allocation on projects on a daily basis;
-* **Weekly**: team allocation on projects on a weekly basis.
-
-**People in your team**
-
-All your teammates are listed on the left with their allocation. Each person on the list features:
-
-* **A profile picture** or the initials;
-* **Name and surname**;
-* **Tags**  You can use [tags](/settings/index/#team) to group employees into categories.
-* **Level of seniority** (i.e. JR, SR, MGR, SRMGR);
-* **Objective and Key Results (OKR)** The status of the teammate's objectives and key results on each quarter of the year. Wethod shows whether the OKR of a quarter were (grey label) or were not placed (white label) by the user, and whether were discussed (blue) or checked (green) together with a sponsor;
-* **Allocation on projects** Each slot shows the amount of hours, days or weeks a user is planned for a project. Each project follows the colour code of the [job order categories](/settings/index/#company) used in your company.
-
-**Team allocation overview on a specific project**
-
-To select a project you have two options:
-
-1. Select the project from the “Select Project” button. Search for the project and pick it from the list.
-2. Select the project by clicking on a day/week on the plan. If the day/week features allocations on different projects, a window will open to show a list with the detail of the hours of allocation on each project. To select a project from the list, pick one and click “Select”.
-
-When a project is selected Wethod will sort the people on the list by showing first all those who were planned on the project at least once – It’s better to work with people that are already aware of the challenge, right?
-
-All the time slots planned for the selected project will be highlighted throughout the plan.
-
-**Plan teammates on a project**
-
-1. Select a project.
-2. A box on the top of the page will show how many budget days and hours are available to plan, grouped by user level.
-3. If needed, you can **apply multiple filters on people**. For example, you may decide to see only the internal employees which are managers and have a background in design
-4. You can use the search bar even to **filter people by** **[skill](/settings/index/#skills)**, **interest or language**. Try to input something like **skill:photoshop;skill:illustrator** to find everybody who has a skill named "photoshop" and a skill named "illustrator". Type **language:italian;language:english** to find everybody who speaks “Italian” and “English", or instead type **interest:reading** to find everybody who loves reading.
-5. To **plan for an hour, a half day or for an entire week**, just position the mouse on the day/week you want to allocate and click to plan. Click and drag to quickly assign more than an hour, a half day or a week at once.
-
-\*If the day/week has some hours/days already planned on other projects, wethod allows you to plan the user on the remaining hours/days available for that day/week.
-
-When you run out of days, you can choose between two options:
-
-* Review the budget and wait for the approval of a supervisor.
-* Quickly convert available budget days from another user level.
-
-### Repeat an allocation
-
-1. Click "Enable recurring mode" on the top right
-2. Select the allocation you want to repeat
-3. Choose the option "Repeat allocation"
-4. Select "All allocations" to repeat the whole allocation in the day/week or "Single allocation" to choose how to repeat each project
-5. Choose the pattern of repetition
-6. Select an end date for the repetition
-7. Click "Plan"
-8. An alert will tell you if the budget is not sufficient to cover the repetition in the selected time range or if the repetition pattern clashes with existing allocations.
-
-If you enable “Highlight weekends” in [company settings](/settings/index/#company) and then you try to repeat something planned on a Saturday or Sunday, an alert will ask if you really want to repeat the weekend. If you deny, repetition is canceled
-
-**Remove future allocations**
-
-1. Click "Enable recurring mode" on the top right
-2. Select the allocation you want to remove from the future
-3. Choose the option "Remove future allocations"
-4. Select an option between "All allocations" to remove the whole set of allocations from the future or "Single allocation" to remove a single allocation from the future.
-5. Select an end date.
-6. Click "Apply"
