@@ -119,7 +119,7 @@ Click the block and make your changes. The system asks whether you want to chang
 
 ### Planning without a budget
 
-You can plan people on a project before its budget is approved, for example when work starts on a new opportunity. It's available only if your company has turned it on in Company Settings.
+You can plan people on a project before its budget is approved, for example when work starts on a new opportunity. It's available only if your company has turned it on in [Company Settings](https://support.wethod.com/settings/index/#people-allocation).
 
 ### Read the planned blocks
 
