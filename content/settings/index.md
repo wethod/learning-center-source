@@ -290,9 +290,9 @@ If the threshold set increases, the change will:
 
 * Convert \[X] projects back into open opportunities and move them to the Pipeline Opportunities page.
 * Affect some reports in the Insight section.
-* Remove the Win date and the Win Feedback from these projects. 
+* Remove the Win date and the Win Feedback from these projects.
 
-Optional: In both scenarios PMs and Accounts of the concerned projects/opportunities will be notified via email. 
+Optional: In both scenarios PMs and Accounts of the concerned projects/opportunities will be notified via email.
 
 ### Project Types
 
@@ -316,7 +316,9 @@ This feature allows the user to edit on a weekly basis the risk status for each 
 
 * **Unlimited planning**: plan without budget constraints
 * **Use 7-days week calendar**: to display Saturdays and Sundays in calendars
-* **Highlight weekends**: display Saturdays and Sundays in People Allocation using a special pattern and show a warning when user tries to allocate on these days ([learn more](/planning/index/#weekends)). This feature can be enabled only if "Use 7-days week calendar" is enabled too
+* **Allow planning without a budget:**
+  * Off:  you can plan on opportunities and on projects without a budget, until the first budget version is created. 
+  * On: allow planning without a budget.
 
 ### Project opportunities
 
