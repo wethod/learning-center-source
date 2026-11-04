@@ -128,6 +128,7 @@ You can plan people on a project before its budget is approved, for example when
 | Grey outline    | No job order category yet             |
 | Colored outline | Job order category, no budget         |
 | Solid color     | Approved budget or unlimited planning |
+|  Diagonal lines | Allocation request                    |
 
 ### Utilization in hours or percentage
 
