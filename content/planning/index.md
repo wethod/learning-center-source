@@ -117,9 +117,17 @@ Click the block and make your changes. The system asks whether you want to chang
 
 > Note: If issues come up while creating the repetitions — insufficient budget, person unavailable on certain dates, occurrences falling on holidays — the system flags it before proceeding, so you can decide how to handle them.
 
-### Planning on Basket
+### Planning without a budget
 
-The Basket lets you plan hours for a project that doesn't exist yet — for example an opportunity you're still evaluating, or an internal activity without a formal project. You can create the basket on the fly directly from People Allocation and start planning right away, without waiting for the project to be officially created.
+You can plan people on a project before its budget is approved, for example when work starts on a new opportunity. It's available only if your company has turned it on in Company Settings.
+
+### Read the planned blocks
+
+| Block           | Meaning                               |
+| --------------- | ------------------------------------- |
+| Grey outline    | No job order category yet             |
+| Colored outline | Job order category, no budget         |
+| Solid color     | Approved budget or unlimited planning |
 
 ### Utilization in hours or percentage
 
