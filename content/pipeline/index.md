@@ -662,7 +662,7 @@ By hovering on a task or area, you will see the “eye” icon which allows to h
 * **[Planning options](https://support.wethod.com/pipeline/index/#planning-options)**
 * **Budget days always on**: enable it to see two values next to each area or task: Assigned hours (manually entered on the task) / Budgeted hours (estimated in the budget). This allows you to constantly track time allocation against the budget.
 * **Unlink budget** (if you chose to create it via budget) / Link budget (if you chose to create it as new)
-* Restore budget order: You can reorder areas if linked to a budget, but you can always reorder them as in the budget whenever you need to.
+* **Restore budget order:** You can reorder areas if linked to a budget, but you can always reorder them as in the budget whenever you need to.
 
 ## Project Canvas
 
