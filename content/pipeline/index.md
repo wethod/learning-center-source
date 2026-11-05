@@ -642,12 +642,6 @@ Tasks and subtasks are draggable on the calendar. You can move them to change th
 
 ✅ Once aligned, a green check confirms the task is correctly scheduled in both the Gantt and People Allocation.
 
-#### Reorder
-
-By hovering on a task or area, you will be able to reorder the tasks as you need to better organise your work.
-
-![](/uploads/reorder.png)
-
 #### Hide and Show Hidden
 
 By hovering on a task or area, you will see the “eye” icon which allows to hide such tasks or area which usually do not need to be assigned or planned.
@@ -655,6 +649,10 @@ By hovering on a task or area, you will see the “eye” icon which allows to h
 ![](/uploads/hide.png)
 
 ⚙️ You will still be able access them by clicking the gear “Settings” icon and enabling “Show hidden Tasks”.
+
+#### Reorder
+
+By hovering on a task or area, you will be able to reorder the tasks as you need to better organise your work.
 
 ### Project Plan Settings
 
