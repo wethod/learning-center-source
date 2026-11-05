@@ -317,7 +317,7 @@ This feature allows the user to edit on a weekly basis the risk status for each 
 * **Unlimited planning**: plan without budget constraints
 * **Use 7-days week calendar**: to display Saturdays and Sundays in calendars
 * **Allow planning without a budget:**
-  * Off:  you can plan on opportunities and on projects without a budget, until the first budget version is created. 
+  * Off:  you can plan on opportunities and on projects without a budget, until the first budget version is created.
   * On: allow planning without a budget.
 
 ### Project opportunities
@@ -359,12 +359,12 @@ Fields created here are global: they'll automatically appear in every Project Pl
 
 To create a new field fill in:
 
-1. Name (required)
-2. Description (optional)
-3. Section: pre-filled based on where you're creating the field from (currently only Project Plan
-4. Set as required: if enabled, the field must be filled by the user.
+1. **Name** (required)
+2. **Description** (optional)
+3. **Section**: pre-filled based on where you're creating the field from (currently only Project Plan)
+4. **Set as required**: if enabled, the field must be filled by the user.
    *⚠️ If you mark a field as required, any existing activity that hasn't filled it in yet will show the field empty and flagged as an error.*
-5. Type: currently only Single Option is available
+5. **Type**: Single Option or Numeric. Other types coming soon.
 
 ### Suppliers settings
 
