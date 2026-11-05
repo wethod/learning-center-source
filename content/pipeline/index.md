@@ -500,9 +500,6 @@ The hierarchy is simple and follows three levels:
 
 *💡 Smart note: if a task has scheduled subtasks, it becomes a summary container and loses its own individual scheduling. The subtasks handle all planning.*
 
-
-
-
 #### The Workflow
 
 To start concretely, click on any task or subtask: a side drawer will open, allowing you to manage key planning elements.
@@ -615,11 +612,11 @@ Good news! There's availability to finish the task earlier than expected.
 
 ### Views
 
-#### Gantt
+#### **Gantt**
 
 The Gantt is not just a timeline — it's an interactive and customizable tool that helps you track progress and intervene where needed.
 
-##### View by
+#### View by
 
 Located at the top right, the “View by” menu lets you switch display modes:
 
@@ -629,13 +626,13 @@ Located at the top right, the “View by” menu lets you switch display modes:
 
 ![](</uploads/Project Plan/Screenshot 2025-08-01 alle 13.11.27.png>)
 
-##### Project Status vs Budget Consumption
+#### Project Status vs Budget Consumption
 
 In a glance you can see the project status versus the consumption of the budget, basically how the project is actually going and if you're on top of it.
 
 ![](</uploads/Screenshot 2025-10-02 alle 14.45.20.png>)
 
-##### Drag and drop tasks directly in the Gantt
+#### Drag and drop tasks directly in the Gantt
 
 Tasks and subtasks are draggable on the calendar. You can move them to change their start/end dates visually.
 
@@ -645,13 +642,13 @@ Tasks and subtasks are draggable on the calendar. You can move them to change th
 
 ✅ Once aligned, a green check confirms the task is correctly scheduled in both the Gantt and People Allocation.
 
-##### Reorder
+#### Reorder
 
 By hovering on a task or area, you will be able to reorder the tasks as you need to better organise your work.
 
 ![](/uploads/reorder.png)
 
-##### Hide and Show Hidden
+#### Hide and Show Hidden
 
 By hovering on a task or area, you will see the “eye” icon which allows to hide such tasks or area which usually do not need to be assigned or planned.
 
