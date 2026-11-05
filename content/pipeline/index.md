@@ -656,7 +656,7 @@ By hovering on a task or area, you will see the “eye” icon which allows to h
 
 ⚙️ You will still be able access them by clicking the gear “Settings” icon and enabling “Show hidden Tasks”.
 
-### Project Plan Settings&#xA;![](</uploads/Screenshot 2026-10-27 alle 12.18.07.png>)
+### Project Plan Settings
 
 * **Show Hidden Areas & Tasks**: enable it check hidden areas and tasks and decide whether to show them again.
 * **[Planning options](https://support.wethod.com/pipeline/index/#planning-options)**
