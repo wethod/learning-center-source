@@ -363,7 +363,7 @@ To create a new field fill in:
 2. **Description** (optional)
 3. **Section**: Project Plan or Project & Opportunities. More coming soon.
 4. **Set as required**: if enabled, the field must be filled by the user.
-   *⚠️ If you mark a field as required, any existing activity that hasn't filled it in yet will show the field empty and flagged as an error.*
+   *⚠️ If you mark a field as required, any existing istance that hasn't filled it in yet will show the field empty and flagged as an error.*
 5. **Type**: Single Option, Numeric, Date, Text or Long Text.
 
 ### Suppliers settings
