@@ -1,11 +1,11 @@
 ---
 draft: false
-date: 2019-03-11T22:00:00.000+00:00
+date: 2019-03-11T22:00:00.000Z
 title: Invoice Plan
-weight: "97"
 type: ''
-
+weight: '97'
 ---
+
 ## Overview
 
 From here you can see the invoice plans of all your company's projects.
@@ -18,5 +18,3 @@ Each row in this view represents a project and carries with it a bunch of inform
 * Name and client for the project
 * The monthly plan's distribution for the current year: for each month you can appreciate the plan's value and the actual invoices amount (colored with lower opacity)
 * The total plan's amount for the current year
-
-![](/uploads/2019/03/11/economics-invoice-plan.png)
