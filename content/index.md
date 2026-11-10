@@ -14,8 +14,6 @@ The result is a deeply integrated system that manages all the information which 
 
 This enables WETHOD to create a system where everybody collaborate and keep information up to date, a system that rewards who done well and warns the others.
 
-![](/uploads/2017/05/25/wethod-banner-1.png)
-
 ## What It Needs
 
 Just few elements are needed in order to get things working:
@@ -25,8 +23,6 @@ Just few elements are needed in order to get things working:
 * The weekly [project status](/friday/index/#project-status).
 
 **The responsibility of updating each of these elements is shared among all the team members, avoiding any unnecessary administrative burden.**
-
-![](/uploads/2017/05/25/space-banner-1.png)
 
 ## What You Get
 
@@ -43,8 +39,6 @@ A lot of information could be extracted, weekly and automatically, from the few 
 * Much more!
 
 **Thanks to its crystal clear system, week after week, month after month, WETHOD highlights people that are contributing the most to the success of the group and at the same time shows problems or inefficiencies – allowing you to react.**
-
-![](/uploads/2017/05/25/space-banner-2.png)
 
 ## About This Guide
 
