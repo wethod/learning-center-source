@@ -111,9 +111,7 @@ In the Capacity table, you can define the daily working capacity for your team.
 * By clicking on **New Capacity**, you can create additional time configurations - handy if some people on your team work different hours (e.g., part-time, reduced hours, etc.).
 * Any new capacity added can become the new default, by clicking on the “set as default” radio button. This means it will be attached to any new user added to the team.
 * The group assigned to each person determines their availability in the planning section: for example, if someone works 4 hours a day, only those 4 hours will be schedulable, while the unavailable hours will appear in grey. Once defined, capacity groups can be **assigned to company employees via the [Team section](https://support.wethod.com/settings/index/#import-metadata)**.
-* The \*\*Timesheet, People Allocation and Allocation Requests \*\*take actual capacity into account: they will show the number of hours that person is expected to work, rather than assuming a standard 40-hour week.
-
-![](/uploads/Capacity.png)
+* The **Timesheet, People Allocation and Allocation Requests** take actual capacity into account: they will show the number of hours that person is expected to work, rather than assuming a standard 40-hour week.
 
 ### Fiscal Year
 
@@ -131,8 +129,6 @@ This setting is useful for filtering team members based on their assigned locati
 
 If your team works remotely and is spread across different cities - but still follows the holiday calendar of the main office - it’s best to set up just one Location. In that case, you can use tags to indicate where each person works, without complicating the holiday configuration.
 
-![](</uploads/Screenshot 2023-11-13 at 17.12.52.png>)
-
 ### Bank Holidays Planner
 
 In this section, you can upload your company holidays - these are national or local public holidays during which no work is expected.
@@ -147,8 +143,6 @@ Once set, these holidays will have two effects:
 
 * In the planning section, people won’t be schedulable on those days.
 * In the timesheet and its export, you’ll see a yellow icon with a total of 0 expected hours, indicating it’s a holiday.
-
-![](</uploads/Screenshot 2023-11-13 at 12.30.26.png>)
 
 ### User levels
 
@@ -190,7 +184,7 @@ Defining project categories allows you to:
 * **create consistency in workflows**: if a category requires “approval before planning” or must always be part of a program, those rules will be applied automatically;
 * **improve control** and **reporting** at a company-wide level.
 
-Need an example?
+#### Need an example?
 
 You could create a category called “R\&D” for investment projects, set it as Capex (capital expenditures), and have its status update automatically over time. Or a “Sales” category for opportunities, where you track the reason a project was won or lost.
 
@@ -255,8 +249,6 @@ Each code is built from one or more **dynamic elements** (template components)�
 You can also **reset numbering each year**, as long as the year is part of the template.
 
 You can link one or more **Job Order Categories** to each template—this gives you tailored codes for different project types, while keeping a coherent structure.
-
-![](/uploads/2023/02/06/job-order-template-settings.gif)
 
 ### Project Metadata
 
@@ -327,10 +319,6 @@ From this section you are able to create a new status or edit the existing ones.
 ### Currencies
 
 A list of all the known currencies, each one can be made available or set as *master* (a.k.a. the currency you currently use in your company)
-
-### Fiscal Year
-
-Here you can change the initial month of your company's fiscal year. All report and tables showing temporal data will update. Automatic job order generation and automatic invoice number will follow the fiscal year start, so you might get duplicated job order or invoice number if you change it. Remember that you can always manually change them and also set a different progressive number to start with in the job order settings than the default 1.
 
 ### Win/Loss Feedback
 
@@ -405,17 +393,11 @@ Manage [Google Drive integration with project canvases](/pipeline/index/#sync-wi
 * Choose which job order categories need to be kept in sync
 * Add **default folders** to create automatically each time a new Google Drive project folder is created
 
-![](/uploads/2022/03/09/drive-canvas-enable.gif)
-
 ## Alerts Engine
 
 Here you can manage the [alerts](/alerts/index) for your company, for each alert you can: enable/disable it, change its priority and edit its parameters (if required).
 
-![](/uploads/2018/03/27/alert-engine.png)
-
-Changing an alert's priority is as simple as positioning your cursor on the current priority and click on the new one:
-
-![](/uploads/2018/03/27/alerts-engine_edit-priority.gif)
+Changing an alert's priority is as simple as positioning your cursor on the current priority color and click on the new one.
 
 ## Permissions
 
@@ -503,15 +485,11 @@ You can use the **year resolution** to sum up the meaning of all your objectives
 
 Want to learn more about OKR? Take a look at this [good article](https://medium.com/startup-tools/okrs-5afdc298bc28).
 
-![](/uploads/2019/02/06/okr.gif)
-
 For every quarter you can set a **status** based on how the discussion about that quarter's OKR is going:
 
 * *Draft* if the OKR isn't completely defined yet
 * *Discussed* if all the objectives have been discussed and approved by your sponsor. From this step on, you can just edit the Key Results progress
 * *Checked* if quarter ends and your sponsor positively evaluated your progress. In this step you are no more able to edit the quarter's OKR
-
-![](/uploads/2019/05/21/objective-quarter-status.png)
 
 ### Trends
 
@@ -529,13 +507,9 @@ Timesheet and project status are meant to be compiled on Friday (this is why the
 
 Automatic timesheet is added by wethod on Sunday night, this means all users with planning on this kind of projects will see their Fridayness counter going up even if they can do nothing about it. To avoid this, projects from JOC with automatic timesheet are removed from Fridayness calculation.
 
-![](/uploads/2019/02/20/fridayness.png)
-
 #### Chargeability
 
 The percentage of timesheet done on chargeable projects. The dashed line is useful to understand how teammates with the same level are doing. Do you work for money or for glory?
-
-![](/uploads/2019/02/20/chargeability.png)
 
 #### Do The Production Plan
 
@@ -543,19 +517,13 @@ The percentage of [production plan](/planning/index/#production-plan)'s correcti
 
 The adjustments (or accumulation) are reported as orange monthly apex and are used to compute the moving average for this chart. So, how accurate is your production planning?
 
-![](/uploads/2019/02/20/do-the-plan.png)
-
 #### Keep The Lights Off
 
 [Alerts](/alerts/index) are made to be solved and this report shows how many days you take to solve yours (on average).
 
-![](/uploads/2019/02/20/keep-the-lights-off.png)
-
 #### Do The Budget
 
 The difference, in terms of margin, between [budget](/budget/index)'s baseline and budget's last approved version. Only finished project (that is projects archived with probability equal to 100%) are taken into account.
-
-![](/uploads/2019/02/20/do-the-budget.png)
 
 ### Working Connections
 
@@ -563,13 +531,9 @@ Here you can appreciate the connections between project's manager, type and clie
 
 By clicking on a rectangle you can highlight all the outgoing connections and clicking on a connection let you see all the projects involved in that connection.
 
-![](/uploads/2019/02/20/working-connections.gif)
-
 ### Kudos
 
 Each team member has a section in the profile page, called Kudos, with the results of the [reviews](/pipeline/index/#project-team-review) received in a year both as a team member and as a project manager. The widget "What people say" collects all the written reviews received in a year.
-
-![](/uploads/2020/06/30/profile-kudos.png)
 
 These results are based on the average Net Promoter Score and are calculated considering the number of reviews received and the projects worked on in a year.
 
@@ -585,25 +549,17 @@ The “Business Unit” module is useful to manage teams that work as independen
 
 **Default BU for filters**: “User’s BU” or “All”. Choose whether to show the users data from the whole company or from the BU they're belonging to as a default.
 
-![](/uploads/2020/07/10/business-unit-settings.png)
-
 ### Projects' Business Unit
 
 To assign a business unit to a project you can go to project list, find your project and click on “Show more”. Click on the field named “Business Unit” and select an option from the list.
-
-![](/uploads/2020/07/10/business-unit-pipeline.png)
 
 ### Team members' Business Unit
 
 Wethod keeps a record of each time a user changes its business unit. All the data coming from previous planning and timesheet will remain linked to the business unit(s) the user belonged to at the time. To assign a business unit to each of the employees head to the [payroll section](/payroll/index/#overview).
 
-![](/uploads/2020/07/10/business-unit-payroll.png)
-
 ### Business Unit Filters
 
 When the Business Unit module is enabled you will find filters in all sections of the application where it’s necessary a view by business unit. Do you think it’s missing a filter in a specific section or page in wethod? [Please, contact us](mailto:info@wethod.com).
-
-![](/uploads/2020/07/10/business-unit-filters.png)
 
 ### Planning Cross-Business unit
 
@@ -615,8 +571,6 @@ In the permissions settings you set whether a user in a business unit is allowed
 ## Products
 
 You can find this section in the app menu under *Projects > Toolbox > Products*.
-
-![](/uploads/product-creation.png)
 
 A product is a special kind of [pre-compiled budget task](/budget/index/#products), representing an activity requiring well-known man-days and costs.
 
@@ -644,8 +598,6 @@ If a user creates a product with a markup and a price, the markup is not used to
 ## Pricelists
 
 You can find this section in the app menu under *CRM > Toolbox > Pricelists*.
-
-![](</uploads/Screenshot 2024-09-19 at 09.55.47.png>)
 
 A pricelist defines a set of daily rates and costs that can be used to tailor a project budget.
 
