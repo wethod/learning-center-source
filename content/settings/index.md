@@ -361,7 +361,7 @@ To create a new field fill in:
 
 1. **Name** (required)
 2. **Description** (optional)
-3. **Section**: pre-filled based on where you're creating the field from (currently only Project Plan)
+3. **Section**: Project Plan or Project & Opportunities. More coming soon.
 4. **Set as required**: if enabled, the field must be filled by the user.
    *⚠️ If you mark a field as required, any existing activity that hasn't filled it in yet will show the field empty and flagged as an error.*
 5. **Type**: Single Option, Numeric, Date, Text or Long Text.
