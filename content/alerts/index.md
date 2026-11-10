@@ -75,8 +75,6 @@ This alert is shown if you have the permission to approve budgets and there's a 
 
 This alert is shown if you’re the manager of a project where the [budget consumption](/glossary/index/#budget-consumption) is more than 15% greater than the project's [progress](/glossary/index/#absolute-project-progress).
 
-![](/uploads/2017/08/28/budget_cons_too_fast.png)
-
 This means you're consuming too many days and, if you don't fix this situation, you will be soon run out of budget days.
 This can have two main causes:
 
@@ -88,8 +86,6 @@ This can have two main causes:
 ### Budget Consumption Too Slow
 
 This alert is shown if you're manager of a project where the [budget consumption](/reports/index/#budget-consumption) is more than 15% lower than the project's [progress](/glossary/index/#absolute-project-progress).
-
-![](/uploads/2017/08/28/budget_cons_too_slow.png)
 
 This means you've planned too many days and, if you don't fix this situation, you will reach the end of the project with a lot of budget days left.
 This can have two main causes:
@@ -145,7 +141,6 @@ This alert is shown to the project manager if one of the following situations ha
 ### Employee price list is expired
 
 This alert is shown to users who have access to the team section when one of the price list associated to a team member is expired or about to expire.
-
 
 ### Project Start
 
