@@ -39,8 +39,6 @@ On the right of the graph you have:
 4. **Forecast**: the current budget's hours amount (Baseline + variations + contingency);
 5. A resume of the worked, planned, wasted and still available hours.
 
-![](/uploads/2017/06/12/report-bc_ps.png)
-
 ### Invoices & Orders
 
 Here are listed all the [orders](/finance/index/#orders) and [invoices](/finance/index/#invoices) linked to the project, clicking on one of them will take you to the related details.
@@ -50,7 +48,7 @@ Here are listed all the [orders](/finance/index/#orders) and [invoices](/finance
 Here is shown the trend of various [budget's](/budget/index) voices for the project:
 
 * **Revenues**: the project's final net price
-* **Intercompany Cost (only if **: total amount of external costs related to intercompany tasks included in the project budget.
+* \*\*Intercompany Cost (only if \*\*: total amount of external costs related to intercompany tasks included in the project budget.
 
   These costs are shown only when the intercompany tasks have been correctly linked to the other company. If no value is displayed, it usually means that the other company has not yet accepted or connected the related tasks. \[This field is available only if the Intercompany module is enabled for the company]
 * **Net Revenues**: the project’s net revenue, calculated as Revenue minus Intercompany Cost; it represents the value of the project after excluding the costs incurred with other companies involved in the delivery. \[This field is available only if the Intercompany module is enabled for the company]
@@ -77,9 +75,7 @@ The grey percentage under *margin* can be read as margin against revenues.
 **If project is over, projected external costs comes from sent orders and projected travels comes from**  **[travels](/finance/index/#travels)'s costs**
 {{< /note >}}
 
-![](/uploads/economics-with-intercompany.png)
-
-### Roadrunner Index - Days Left - Worked Hours
+#### Roadrunner Index - Days Left - Worked Hours
 
 This three charts let you appreciate the trend of three primary indexes related with the project's progress:
 
@@ -91,11 +87,7 @@ This is the only place in WETHOD where you can see the weekly details of a given
 
 When worked hours grows, days left must decrease. If this doesn't happen, you have a problem: your teammates are working on something which doesn't move forward and this is highlighted by a Roadrunner Index which differs from the ideal value of 1.
 
-![](/uploads/2018/02/22/project-report.png)
-
-Need a more detailed view? Just click and drag on a chart to include the area you want to zoom.
-
-![](/uploads/2018/02/23/rri-zoom.gif)
+**Need a more detailed view?** Just click and drag on a chart to include the area you want to zoom.
 
 ### Hour / User
 
@@ -107,8 +99,6 @@ Clicking on the calendar icon you can select a custom period and based on the [t
 
 * Detailed timesheet: the exact dates chosen in the time range are used to filter results, both for worked and planned hours.
 * Non-detailed timesheet: the entire week of the start and end dates are considered while fetching data. This applies to both worked and planned hours.
-
-![](/uploads/2021/03/25/report-hours-users.png)
 
 ## Consumption vs Status
 
@@ -124,8 +114,6 @@ Using filters, you can select the Projects you want to see and explore details s
 
 Projects with a [Job Order Category](/settings/index/#company) with flag "UNLIMITED PLANNING" enabled are hidden from this chart because it makes no sense to calculate the budget consumption of a project with unlimited available days.
 
-![](/uploads/2017/08/28/Budg-consumption-1.png)
-
 ## Invoiced vs Status
 
 This report compares the projects' status with the percentage of their value which is already been invoiced.
@@ -135,8 +123,6 @@ How to read the project's position on the graph:
 * If the project is **above the diagonal**: more work days than the actually done have been invoiced;
 * If the project is **under the diagonal**: not al work days done for the project have been invoiced;
 * If the project is **on the diagonal**: project status and invoiced percentage are consistent, this means that until now all the work days done has been invoiced.
-
-![](/uploads/2017/08/28/Revenue_Progress.png)
 
 ## Sales Pipeline
 
@@ -155,8 +141,6 @@ listing all the grouped clients with their:
 * Pipeline value: value coming from their projects in pipeline;
 * Revenue target;
 * Delta: Difference between target and value;
-
-![](/uploads/2021/02/19/budget-breakdown.png)
 
 ### By Probability
 
@@ -190,8 +174,6 @@ Clicking on a column will show a panel listing all the grouped projects with the
 * Value;
 * Percentage of influence on the [revenue pipeline](/glossary/index/#revenue-pipeline).
 
-![](/uploads/2017/08/28/rev_prog-type.png)
-
 ### By Project Type's Group
 
 Clicking on a column will show a panel listing all the grouped projects with their:
@@ -216,7 +198,7 @@ Clicking on a column will show a panel listing all the clients (based on the fil
 
 Items on the list are ordered by value.
 
-## Revenues 🆕
+## Revenues
 
 {{< note title="Note" >}}
 This is the first release of a new, broader section dedicated to reports within wethod. We are updating the documentation as we roll out new features to ensure you have complete support. Please note that this section is evolving, with new features to be added over time to enhance your management and analysis experience.
@@ -230,8 +212,6 @@ The first time you access this section, you will find:
 
 * The “Revenues” chart, showing the current year's revenues, divided by month and grouped by probability cluster. This chart cannot be edited or deleted.
 * The “Revenues by Client” chart, which is a child of the “Revenues” chart, showing the top 10 most profitable clients. This chart cannot be edited or deleted.
-
-![](/uploads/chart-revenues-default.png)![](/uploads/chart-revenues-by-client.png)
 
 Each chart can have child charts that inherit the filters applied to the parent.
 
@@ -248,8 +228,6 @@ By clicking the “Add chart” button, you will be prompted to enter some infor
 3. Type of chart: the type of chart to use for data visualization
 4. Dimensions: values to assign to each chart dimension. For example, if you’ve selected a Bar Chart, you will need to specify which values to display on the chart’s x and y axes.
 
-![](/uploads/chart-create.gif)
-
 ### Editing a chart
 
 To edit an existing chart, you must have the “edit” permission for “Charts.” You can check this in the Permissions section.
@@ -262,29 +240,21 @@ To delete a chart, you must have the “edit” permission for “Charts.” You
 
 You can click the three dots next to the chart’s name to access the option to delete it.
 
-![](/uploads/chart-delete.gif)
-
 ### Click to filter
 
 You can click on a point in a chart to use it as a filter for child charts and child tables. For example, if you click on a point in the “Revenues” chart that groups all revenues for December related to projects with a 90% probability, the child charts will be filtered to show only the points related to December with a 90% probability.
 
-## Gross Margin 🆕
+## Gross Margin
 
 We’ve introduced a new dimension, “Gross Margin,” which uses data from the “Total” row in this section of the table: [Economics](/profit-loss/index/#overview).
 
-The data segment filters and dimensions are consistent with those in the “Revenues” section. However, the only numeric dimension here will be “Gross Margin” (instead of “Revenues”).
+The data segment filters and dimensions are consistent with those in the “Revenues” section. However, the only numeric dimension here will be “Gross Margin” (instead of “Revenues”). It works the same as [Revenues above](https://support.wethod.com/reports/index/#revenues).
 
-![](</uploads/Screenshot 2024-11-29 alle 12.11.09.png>)
+## Average Daily Rate
 
-Each chart can have child charts that inherit the filters applied to the parent.
+We’ve introduced a new dimension, “Average Daily Rate,” to understand how much a day costs in your company.
 
-Each chart also has a child table that shows detailed information about the projects included in the parent.
-
-![](</uploads/gross margin 2.gif>)
-
-## Daily Rate 🔜
-
-This insight will come soon!
+The data segment filters and dimensions are consistent with those in the “Revenues” section. However, the only numeric dimension here will be “Average daily rate” (instead of “Revenues”). It works the same as [Revenues above](https://support.wethod.com/reports/index/#revenues).
 
 ## Production Value
 
@@ -305,8 +275,6 @@ On the right you can see the **Revenue Clock** which tells you:
 
 By clicking on a specific month you can access that month's production value grouped **by client**, **by project** or **by week**.
 
-![](/uploads/2018/02/23/production-value-report.png)
-
 ### By Week
 
 In this view you can see, for each project (and for the selected week):
@@ -322,8 +290,6 @@ In this view you can see, for each project (and for the selected week):
 
 You can switch between month's week by using the selector placed at the top of this section.
 
-![](/uploads/2018/02/22/production-value_weekly.png)
-
 ## Weekly Timesheet
 
 This is a weekly overview of the [timesheets](/friday/index/#timesheet) made by your teammates, each timesheet is coloured as the [job order category](/settings/index/#company) of the project it's linked to and you can see the project's name by clicking on its timesheet.
@@ -332,23 +298,15 @@ On the top left corner you can filter the displayed people.
 
 On the top right corner you can change the week of the displayed timesheets.
 
-![](/uploads/2017/08/28/Timesheets.png)
-
 You can see the details by clicking on a person's name.
 
-![](/uploads/2022/02/22/weekly-timesheet-details.png)
-
 Users with *'edit other'* timesheet permission can also go to the colleague's timesheet page from the details box.
-
-![](/uploads/2022/02/22/weekly-timesheet-others.png)
 
 ## Timesheet Summary
 
 This report shows all the timesheets for the selected year, grouped by Job Order Category and compared to the [Roadrunner Index](http://support.wethod.com/glossary/index/#roadrunner-index-rri).
 
 You can chose between monthly and weekly visualization via the selector on the top of the section, where you can also find the year selector.
-
-![](/uploads/2017/08/28/RRI.png)
 
 ## Timesheet Report
 
@@ -366,12 +324,9 @@ Here you have a complete overview of the amount of hours each employee has assig
 
 To transfer hours from one project to another you must first of all
 
-1. Select a project to start from, so click on the filter on the right of the search bar\
-   ![](</uploads/Screenshot 2024-03-25 alle 14.05.06.png>)
-2. Under the Project Name section search for your project and select it.\
-   ![](</uploads/Screenshot 2024-03-25 alle 14.05.53.png>)\\
-3. Now the Transfer Hour button will be enabled and the table will show only the hours only for the project you choose.\
-   ![](</uploads/Screenshot 2024-03-25 alle 14.06.05.png>)
+1. Select a project to start from, so click on the filter on the right of the search bar
+2. Under the Project Name section search for your project and select it.
+3. Now the "Transfer Hour" button will be enabled and the table will show only the hours only for the project you choose.
 
 Doing so will open a Move Timesheet Hours window, from here it will be possible to actually move the hours.
 
@@ -385,8 +340,6 @@ Now we can proceed moving the hours:
 2. Select the row corresponding to the hours of a specific employee who worked on the project, you can also select more than one row per transfer, we suggests to perform a one big transfer for a better performance.
 3. Enter the amount of hours to move towards the final project per each row you selected.Change the destination date if different from that of the selected row
 4. Press Confirm to perform the transfer
-
-![](</uploads/ScreenShot Tool -20240325152953.png>)
 
 ## Timesheet Log
 
@@ -434,8 +387,6 @@ Here you can find a list of all the [budget](/budget/index)'s approvals, each on
 * The difference between final net price's margin and suggested net price's margin in K and percentage. These values are highlighted in red if negative and green otherwise
 * The difference between the budget final net price's margin and the previous version final net price's margin.
 
-![](/uploads/2021/03/25/screen-shot-2021-03-25-at-10-24-56.png)
-
 ## Project & Team Reviews Changelog
 
 Here are listed all the [project & team reviews](/pipeline/index/#project-team-review) sessions requested in your company throughout a year, sorted chronologically.
@@ -451,8 +402,6 @@ For each of the listed project review requests, you will be able to:
 * **Resend a new review request** to the team of the project.
 * **Delete it**, along with all the results collected so far.
 * **Head to the project's canvas**
-
-![](/uploads/2021/01/18/project-team-review-changelog.png)
 
 {{< note title="Note" >}}
 This section is available only if **project & team reviews** are enabled for the company.
@@ -473,13 +422,9 @@ Here you can have a summarized view about all the **chargeable projects** your c
 * **Lost projects** are all the lost chargeable opportunities with a 0% probability
 * **Outstanding projects** that are all the chargeable opportunities with a probability between 10% and 75%
 
-![](/uploads/2020/01/24/sales-overview.png)
-
 ## Backlog
 
 This section shows production related data, let's see each chart:
-
-![](/uploads/2022/04/28/backlog.png)
 
 * **Weekly Production** plots various data ranging from one year in the past to one year in the future:
   * Production: weekly production for the last 52 weeks
@@ -495,8 +440,6 @@ This section shows production related data, let's see each chart:
 ## Briefing
 
 Briefing is content that includes all the relevant insight within your company’s production, sales, and financials, on a weekly and monthly basis.
-
-![](/uploads/2020/05/14/briefing.gif)
 
 This transparent overview gives the entire team the knowledge to stay aligned on what has been done and what needs to be done in the weeks to come, in order to reach the company’s goals faster.
 
@@ -555,15 +498,9 @@ Find below the insights available from each *Monthly Briefing.*
 
 This section provides a series of insights on the team in your company, using the available data within the platform.
 
-Navigation: Insights > People
-
 ### Demographics
 
 This page gives a demographic overview on the active population in your company. Explore trends and characteristics of your team with a sequence of charts and within a set of time ranges.
-
-Navigation: Insights > People > Demographics
-
-![](/uploads/2021/03/26/gif_demographics.gif)
 
 * **Headcount**: (in units) this chart shows the amount of active employees in your company. The information is based on the quantity of positive [payrolls](/payroll/index/#employees) within the shown timeframe. The forecast, which also considers the number of [placeholders](/payroll/index/#placeholders) in the current quarter/year, is represented with a dashed line compared to the past quarters/years. A headcount target can be added and edited from the widget’s options button.
 * **In & Out**: (in units) this chart shows the number of employees hired in your company (in green) or that left your company (in red) for each quarter of the current year, in the last 3 or 5 years. The forecast, which also considers the number of [placeholders](/payroll/index/#placeholders) in the current quarter/year, is represented in low opacity compared to the past quarters/years.
@@ -576,10 +513,6 @@ Navigation: Insights > People > Demographics
 ### Chargeability
 
 This page gives an overview on the average chargeability – amount of hours worked on profitable projects – of each user level and team member respectively in one year (quarterly), in three or five years.
-
-Navigation: Insights > People > Chargeability
-
-![](/uploads/2021/05/06/people_chargeability.png)
 
 On the left you find a list of all the user levels in your company.
 For each of those, wethod gives an overview of the average chargeability by quarter or by year. It also shows if the average chargeability is negative (red) or positive (green) compared to their target.
@@ -598,11 +531,8 @@ All team members' list are sortable by the average chargeability.
 ### Kudos
 
 This page gives an overview on the average [kudos](/settings/index/#kudos) – votes received as part of a review – of each criterion as team member or pm respectively in one year (quarterly), in three or five years.
+
 Changing the selected period will affect the "As Team Member" and "As Pm" tables both.
-
-Navigation: Insights > People > Kudos
-
-![](/uploads/2021/05/13/screen-shot-2021-05-13-at-19-17-47.png)
 
 On the left you find a list of all team's criteria in your company.
 If you click on a criterion from the list, wethod shows all the users that have received a [review](/pipeline/index/#project-team-review) for that criterion.\
@@ -629,23 +559,17 @@ Navigation: Insights > People > Knowledge
 When you select a language, by clicking on it, you can get an overview of the team members who speak it, from the most confident to the novice ones.\
 For each person, it is therefore shown the level of experience in the selected language.
 
-![](/uploads/2021/06/01/languages_knowledge.gif)
-
 **Skills**: here you can find a complete list of all the skills your colleagues have developed.\
 By clicking on a skill you will see a list of the team members who have that particular one.\
 Note that when you turn on more than one skill you will only see the people that developed all the selected abilities.\
 You can also turn on the filter ‘All’: this lets you see the entire team at once.\
 For each person you can see an overview of acquired skills, giving priority to the ones selected from the list on the left side.
 
-![](/uploads/2021/06/01/skills_knowledge.gif)
-
 **Interests**: here you can find a complete list of all the interests your colleagues have.\
 By clicking on an interest you will see a list of the team members that are into that particular one.\
 Note that when you turn on more than one interest you will only see the people that chose all the selected topics.\
 You can also turn on the filter ‘All’: this lets you see the entire team at once.\
 For each person you can see an overview of his interests, giving priority to the ones selected from the list on the left side.
-
-![](/uploads/2021/06/01/interests_knowledge.gif)
 
 * To set you [skills](/settings/index/#skills), [interests](/settings/index/#interests) and [languages](/settings/index/#languages), go to your profile.
 
@@ -660,8 +584,6 @@ Particular job order categories may be used to represent **time off**, that are 
 Differences between "vacation" and "leave" time off are probably meaningful only in Italy where they're legally distinct items.
 
 "Time-off manager" section is where you can manage vacation and leave time off for each user.
-
-![](/uploads/2022/01/17/time-off-manager.png)
 
 A project can be flagged as "Vacation time off" o "Leave time off" using the "Hours type" job order category flag available in [company settings](/settings/index/#company) section.
 
@@ -684,11 +606,7 @@ In this section are visible, for each user by year:
 You can download all data in the time off manager with the dedicated export button.\
 The export contains data of the visible year you selected. To change the export year navigate to the desired date with the buttons on top of the page.
 
-![](/uploads/2022/09/21/time-off-export.gif)
-
 You can also import data of the time off manager with the dedicated import button.\
 The import can include data of the visible year you selected. To change the import year navigate to the desired date with the buttons on top of the page.
 You can upload a file with .xls or .xlxs extension containing the backlog of vacation, leaves and target hours for every employee in your company.
 From this dialog you can also download the appropriate template you can use for the import.
-
-![](/uploads/2022/09/22/import-time-off.gif)
