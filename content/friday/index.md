@@ -29,15 +29,11 @@ Pin to the top of the list all the projects you usually work on. You will find i
 
 A yellow dot under the day number in the pop-up calendar indicates an holiday.
 
-![](/uploads/2021/04/26/timesheet-weekly.png)
-
 If you want a more fine-grained control you can enable the **Daily mode**, this way you can input hours day by day.
 
 The **Daily mode** can be set as "daily" at company level, therefore for all team members, from the dedicated section in the [Company Settings](https://support.wethod.com/settings/index/#company "Company Settings").
 
 Day highlighted in yellow indicates an holiday.
-
-![](/uploads/2021/04/26/timehseet-daily.png)
 
 When a **project is archived**, you will still be able to see the hours and notes you previously entered. However, you will **not** be able to **edit** them anymore!
 
@@ -47,9 +43,7 @@ If you need to make some adjustments, you can still unarchive the project while 
 **Only whitelisted users can edit or fill out timesheet hours for projects with the [timesheet whitelist](/friday/index/#whitelist) function activated.**
 {{< /note >}}
 
-![](/uploads/2022/04/06/timesheet-archived.png)
-
-### Detailed
+#### Detailed
 
 At the end of each day, type in here the actual hours you have spent working on the projects you are involved in. Pin to the top of the list all the projects you usually work on. You will find it easily next time.
 
@@ -67,11 +61,7 @@ The **Detailed Timesheet** allows you to:
 **Only whitelisted users can edit or fill out timesheet hours for projects with the [timesheet whitelist](/friday/index/#whitelist) function activated.**
 {{< /note >}}
 
-![](/uploads/2021/04/26/timesheet-detailed-overview.png)
-
 To get a quick resume about the hours distribution in the week, you just need to click on the "Hours/Week" counter.
-
-![](/uploads/2021/04/26/timesheet-detailed-weekly.png)
 
 *You can enable this type of timesheet from [company settings](/settings/index/#company).*
 
@@ -92,11 +82,7 @@ Users can still edit this kind of timesheet, but only for the past: you can edit
 5. After doing so, Joe timesheet for the current week would be 60 hours in project A. What a mess!
 
 *To use this type of timesheet:
-Go to “Company” from your profile, then check “Automatic Timesheet” for each desired Job Order Category”.*
-
-![](/uploads/2022/02/24/timesheet-auto.png)
-
-![](/uploads/2022/02/24/timesheet-auto-disabled.png)
+Go to “Company” from your profile, then check “Automatic Timesheet” for each desired Job Order Category”*
 
 ### Edit others
 
@@ -107,8 +93,6 @@ To view their timesheet, go to the report [weekly timesheet](/reports/index/#wee
 You can edit your colleague’s timesheet as you usually do with your own.
 
 A box at the top of the page will always remind you which team member you are managing at the moment.
-
-![](/uploads/2022/02/22/timesheet-others.png)
 
 ### Whitelist
 
@@ -126,8 +110,6 @@ Please note that being excluded from a timesheet whitelist does not keep you fro
 Same conditions apply for both the weekly and the detailed timesheet modes.
 
 You can [enable the whitelist from the project details sidebar](/pipeline/index/#available-fields) in the Project list.
-
-![](/uploads/2022/10/10/timesheet_whitelist.png)
 
 ### Time limit
 
@@ -154,16 +136,13 @@ Users with *‘edit always’* permission can edit the timesheet even if the lim
 
 Employee capacity represents the daily expected worked hours per employee, this can be managed from [Company Settings](https://support.wethod.com/settings/index/#employee-capacity-groups).
 
-Here's an example of employee with daily capacity of 4 hours:\
-![](</uploads/Schermata 2023-11-07 alle 15.10.49.png>)
+Here's an example of employee with daily capacity of 4 hours:
 
 ## Project Status
 
 At the end of each week, the project manager estimates the workdays left to finish the project and inserts this number here.
 
 **Project Status must not be compiled looking at Timesheet, but thinking seriously about how much work still to be done.**
-
-![](/uploads/2020/08/07/project_status_2020.png)
 
 This page shows by default a list of all the projects you are managing in your company. On the top-right corner, click on "As account" to filter the list with the project where you are in charge as account or "All" to see all of the projects in your company.
 
@@ -183,8 +162,6 @@ For each project, Wethod shows the production status. It compares the current pr
 
 Click on "Edit by area" to open a window and edit the status for each of the areas (or phases) of the project, following the areas listed in the budget. The project status of the previous week is shown too, this way you can quickly compare the phase's progress.
 
-![](/uploads/2020/08/07/project_status_by_area.png)
-
 ### Status of the project's risk
 
 For each project, it is possible to edit the status of risk on a weekly basis. Based on
@@ -199,5 +176,3 @@ Click on the right arrow to access more details about a project status or to get
 * The budget consumption as of the previous week Friday
 * The progress trend for each week of the month, compared to the production plan
 * Other project details
-
-![](/uploads/2020/08/07/project_status_details.png)
