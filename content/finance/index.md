@@ -10,18 +10,13 @@ weight: '70'
 
 In this section you can see all your orders and create new ones.
 
-![](/uploads/2021/04/23/orders-list.png)
-
 ### Create a new order
 
 1. Click button *New Order* and a sidebar will open.
-
-![](/uploads/2021/04/23/order-sidebar.png)
-
-1. Insert project name. The job order will be automatically filled by the system.
-2. Compile all the required fields
-3. Click on the "**save**" button
-4. Your order will be added to the list
+2. Insert project name. The job order will be automatically filled by the system.
+3. Compile all the required fields
+4. Click on the "**save**" button
+5. Your order will be added to the list
 
 ### Order's fields description
 
@@ -53,8 +48,6 @@ You can approve an order by clicking on the "**Approve**" button. Approving an o
 
 By clicking the “Approve” button you will presented with a confirmation modal and then you can optionally send an email to notify someone. Recipients for this notification can be selected from those listed under orders [Email Bot](/settings/index/#company) from the settings.
 
-![](/uploads/2022/09/01/approve-notification-modal-big.png)
-
 A approved order can be set as paid.
 
 ### Set order as paid
@@ -67,8 +60,6 @@ Orders belonging to a [multicurrency budget](/budget/index/#multicurrency-budget
 are displayed with their currency. Currency can be picked between those used in the budget's external costs. The exchange rate for the currency refers to the budget's creation date, but you can change it in any moment by editing it manually.
 
 Order's value must be lower or equal then the external costs provided in the budget for the currency picked for the order.
-
-![](/uploads/2021/04/23/order-multicurrency.gif)
 
 ### Export a spreadsheet with the list of orders:
 
@@ -101,29 +92,20 @@ A window with further details will show up, letting you fill in the info you nee
 Please mind the vat rate is automatically compiled with the client's vat rate (if one has been provided).\
 Once you're done, remember to click on the **save** button.
 
-![](/uploads/2022/01/27/invoice-details.png)
-![](/uploads/2022/02/07/screen-shot-2022-02-07-at-16-10-23.png)
-
 ### Currency
 
 Invoices belonging to a [multicurrency budget](/budget/index/#multicurrency-budget)
 are displayed with the final net's currency. The exchange rate for the currency refers to the budget's creation date, but you can change it in any moment by editing it manually.
 
-{{< note title="Note" >}}
-**You can create invoices only for projects you have already provided with job order and budget**
-{{< /note >}}
-
-![](/uploads/2019/06/13/invoices.gif)
-
 ## Client List
 
 In this section, you will find a comprehensive list of your clients, which are represented as companies. This list includes crucial details such as the company name and the group they are associated with.
 
-To access this section, navigate to CRM > Clients > **Client List**.![](</uploads/client list -crm.png>)
+To access this section, navigate to CRM > Clients > **Client List**.
 
 Using the **search bar**, you can easily hunt down your customers by their name, acronym, or the group they belong to.You can **sort** your list of customers in ascending or descending alphabetical order by name, acronym, or group. To do so, simply click on the column header.
 
-### **Add a new client:**
+### Add a new client:
 
 Adding a new customer on wethod is a piece of cake! You have a couple of options: you can create them right from your opportunity panel, or if you already have all the information, you can upload their profile directly from here, following these simple steps.
 
@@ -143,8 +125,6 @@ In this page, you'll discover all the information about your customers. Let's di
 
 For each company listed on your Client List, click on the arrow icon to enter the company's dedicated page.
 
-![](</uploads/CRM/client page.png>)
-
 This page contains all the information related to each customer. These details can be grouped into two sections:
 
 * **Client Company Details** - this view includes all you client profile information, payment methods, and terms.
@@ -154,7 +134,7 @@ Let's explore them one at a time!
 
 ### Company Details
 
-To access your Client Company Details, click the right arrow next to the client's name.![](</uploads/CRM/client company details.gif>)
+To access your Client Company Details, click the right arrow next to the client's name.
 
 The client company details you enter in this section are directly linked to the customer and will be used for [billing information](/finance/index/#invoices) on each project, according to the settings on this customer's page.
 
@@ -167,7 +147,7 @@ Now, let's take a closer look at the main element in this panel, step by step.
 * **Legal Name**\
   Enter your client's official business name. This detail is crucial for accurate invoicing and should match the name on the invoice.
 * **Intercompany ID**\
-  Only if your company has **enabled the intercompany module**, you will see this field. This field is used to uniquely associate profiles of other companies within your group. When you select the cell, a dropdown menu opens, allowing you to choose from the other companies within your group. Simply select the company name you want to associate, and you're good to go. If you don't see the company name you want to associate, it's because it's already linked to another profile.![](/uploads/CRM/intercompanyID-new.gif)
+  Only if your company has **enabled the intercompany module**, you will see this field. This field is used to uniquely associate profiles of other companies within your group. When you select the cell, a dropdown menu opens, allowing you to choose from the other companies within your group. Simply select the company name you want to associate, and you're good to go. If you don't see the company name you want to associate, it's because it's already linked to another profile.
 * **Legal Name**\
   Enter your client's official business name. This detail is crucial for accurate invoicing and should match the name on the invoice.
 * **Group**\
@@ -205,17 +185,15 @@ Now, let's take a closer look at the main element in this panel, step by step.
 
 To **add** a client [follow these steps](https://support.wethod.com/finance/index/#add-a-new-client).
 
-To **edit** the information of a client open its company details panel, click the edit button make the necessary changes, and then click save. ![](</uploads/CRM/client company details edit.gif>)
+To **edit** the information of a client open its company details panel, click the edit button make the necessary changes, and then click save. 
 
 To **delete** a client open its company details panel, and then click the trash can icon. You'll see a pop-up asking if you're sure to proceed.
 
-If the client **doesn't have any projects assigned** to them and has no associated contacts, simply click on the green "**Yes, delete**" button to proceed.![](</uploads/CRM/delete a client - no details.gif>)
+If the client **doesn't have any projects assigned** to them and has no associated contacts, simply click on the green "**Yes, delete**" button to proceed.
 
 If the client **has projects assigned** to them and/or associated contacts, after clicking the green "Yes, delete" button, you'll see another pop-up warning that you can't delete the client due to associated data.
 
 You can choose to **migrate** the associated data to another client; if this option suits your needs - for example, if you've identified a duplicate client - select the customer to whom you want to transfer all existing projects in the "choose new client" bar (please note that the receiving customer profile must already exist; you cannot create a new one from this panel) and click "**Delete and Replace**".
-
-![](</uploads/delete a client- details.gif>)
 
 However, if you want to **delete all projects and contacts** related to a client, you must first **manually delete** these items before being able to delete the client.
 
@@ -230,21 +208,21 @@ This revenue clock is based only on the specific client data. It's like a **visu
 * The **gray** **part** is like a **countdown**, telling you how many weeks are left in the year.
 * The **blue part** is about the **value** of **ongoing opportunities and projects** with the client. It's calculated based on how likely they are to succeed and their value.
 * The **green part** is the **work you've already done for the client**, updated weekly by the project status added by the project managers.
-* In the middle is our **revenue target for the year**. You can set it in the [Revenue Target section](/revenues/index/#revenues-target).![](</uploads/CRM/client Revenue Clock - crm.png>)
+* In the middle is our **revenue target for the year**. You can set it in the [Revenue Target section](/revenues/index/#revenues-target).
 
 #### Invoices - Client
 
 The invoice widget in this page displays a list of invoices that need to be sent out for that specific client, following the [project's invoice plan](/pipeline/index/#invoice-plan).
 
-If an alert is marked in **red**, it's a **high-priority** task because the invoice should have been sent in the past. If it's **yellow**, it means the invoice is **due for this month** or the next one; if it has **no color** it means the invoice is planned for a **future date**.![](</uploads/CRM/client invoices overview -crm.png>)
+If an alert is marked in **red**, it's a **high-priority** task because the invoice should have been sent in the past. If it's **yellow**, it means the invoice is **due for this month** or the next one; if it has **no color** it means the invoice is planned for a **future date**.
 
 #### Filter your data view
 
-The charts below typically show data for the current year, broken down into quarterly views. But if you'd like, you can switch things up by using the selector at the top right of the insights to check out data from the past 3 or 5 years.![](</uploads/CRM/filter client view.gif>)
+The charts below typically show data for the current year, broken down into quarterly views. But if you'd like, you can switch things up by using the selector at the top right of the insights to check out data from the past 3 or 5 years.
 
 #### Revenues - Client
 
-This chart presents a visual comparison of quarterly targets and production value for a client.![](</uploads/CRM/revenue -client.png>)
+This chart presents a visual comparison of quarterly targets and production value for a client.
 
 The **yellow bars** represent the **revenue targets** established for each quarter, providing a clear benchmark for expected performance. The **blue histogram** depicts the **total value of the production plans** for the client's projects.
 
@@ -252,7 +230,7 @@ For past and completed months, the blue bars indicate the actual production valu
 
 For the ongoing and future quarters, the blue bars are based on the estimated production plan of the client's projects. These estimates are projections that will be updated as more project statuses are confirmed.
 
-The chart provides a snapshot of current and forecasted performance against targets, offering an at-a-glance indication of how closely the production aligns with goals throughout the year.![](</uploads/CRM/revenue target-clietn.gif>)
+The chart provides a snapshot of current and forecasted performance against targets, offering an at-a-glance indication of how closely the production aligns with goals throughout the year.
 
 The chart's legend feature lets you tweak how you see things based on what you're checking out. Just click on 'Revenues' or 'Target,' and you can turn the blue bars on or off for the revenue or the yellow ones for the revenue targets. It makes the view more flexible, so you can focus on one set of data at a time, making it super handy for diving deep into the details or when you're showing the data to others.
 
@@ -260,7 +238,7 @@ The chart's legend feature lets you tweak how you see things based on what you'r
 
 This chart displays the value of projects won by quarter, representing the instances when the client have approved projects, which is a separate metric from when revenue is actually generated from production. This distinction is crucial because it separates the sales success from the operational execution.
 
-It tracks the success of the sales team in securing projects. This is an indicator of market success and potential future revenue.![](</uploads/CRM/won projects.png>)
+It tracks the success of the sales team in securing projects. This is an indicator of market success and potential future revenue.
 
 #### Sparklines
 
@@ -270,7 +248,7 @@ Sparklines are color-coded to emphasize trends:
 
 * **Red** indicates that the last value is worse than the first one.
 * **Blue** suggests that the first and last values are the same.
-* **Green** signifies that the last value is better than the first one.![](</uploads/CRM/client Sparklines.png>)
+* **Green** signifies that the last value is better than the first one.
 
 #### Won Projects
 
@@ -294,13 +272,11 @@ This metric displays the average profitability percentage of all won projects wi
 
 #### Won projects
 
-In this list you will find all your client projects with a 90% or 100% probability.![](</uploads/CRM/won projects.gif>)
+In this list you will find all your client projects with a 90% or 100% probability.
 
 #### Lost Projects
 
 In this list you will find all your client projects with 0% probability.
-
-![](</uploads/CRM/lost projects.png>)
 
 {{< note title="Won/Lost Feedback" >}}
 🌈 For the won/lost project you can see the "**Won/Lost Feedback**" feature when you enable the related job order category's flag in the company settings.
@@ -310,13 +286,13 @@ In this list you will find all your client projects with 0% probability.
 
 In this list you will find all your client projects with a probability between 10% and 75%.
 
-As the case shown above, if you see the message "There's nothing here! What about starting a new project?", it means there are no projects for that client in that particular status.![](</uploads/CRM/outstanding projects.png>)
+As the case shown above, if you see the message "There's nothing here! What about starting a new project?", it means there are no projects for that client in that particular status.
 
 #### Contacts
 
-At the bottom of the client details page, you'll find a summary of the client's contacts. Here, you'll see their names, roles, and email addresses.![](</uploads/CRM/contact - client.png>)
+At the bottom of the client details page, you'll find a summary of the client's contacts. Here, you'll see their names, roles, and email addresses.
 
-If you want to explore a contact's details further, click on the right arrow in their row to open their contact panel. Here, you can make changes, add, or delete information as needed.![](</uploads/CRM/dive into contact details .gif>)
+If you want to explore a contact's details further, click on the right arrow in their row to open their contact panel. Here, you can make changes, add, or delete information as needed.
 
 #### Add a new contact
 
@@ -330,15 +306,13 @@ To add a [new contact](finance/index/#contacts-1) to one of your client you have
   \- Email: type the contact's email address.
 * Click the "**Save**" button.
 
-After taking a look at the list, you can dive into all the details about a client by just clicking on the right-arrow in their row.![](</uploads/CRM/go to contact page.gif>)
+After taking a look at the list, you can dive into all the details about a client by just clicking on the right-arrow in their row.
 
 ## Contacts
 
 In this section you have a list of your client's contacts with details like their name, company they belong to, email and role.
 
 Find this section in CRM > Clients > Contacts.
-
-![](/uploads/2021/02/15/contact_list.png)
 
 **Add a new client contact**:
 
@@ -354,11 +328,7 @@ In the contact page you can find all the projects developed with this contact an
 
 A resource is just a link with a name to something external to WETHOD (like a document or a todo list).
 
-![](/uploads/2018/08/29/client-person-details.png)
-
 How to link a contact to a project? Just go to the pipeline and pick a name from the "Client Contact" field's list (if you are creating a new project ensure to select the 'Client' field first):
-
-![](/uploads/2018/08/31/choose-client.gif)
 
 ### Intercompany client
 
@@ -373,8 +343,6 @@ This is particularly useful when you decide to use a job order category with the
 Find this section in Projects > Wallet > Suppliers
 
 In this section you can view all your suppliers and create new ones.
-
-![](/uploads/2021/06/15/supplier-list.png)
 
 To add a new supplier:
 
@@ -430,14 +398,6 @@ If you need something more, you can use these *search query*:
 </tbody>
 </table>
 
-{{< note title="Note" >}}
-**You can search by status only if it's enabled.**
-
-**You can search by rating only if you have permissions to see it.**
-{{< /note >}}
-
-![](/uploads/2021/06/15/supplier-special-search.png)
-
 ### Supplier details
 
 Each supplier's row has got an arrow button which you can click to see supplier details.
@@ -460,23 +420,13 @@ Rating permissions can be managed from the [permissions section](/settings/index
 * Which roles can create and manage their own ratings
 * Which roles can delete others ratings
 
-![](/uploads/2021/06/15/supplier-detail.png)
-
-![](/uploads/2021/06/15/supplier-sidebar.png)
-
-![](/uploads/2021/06/15/supplier-rating.png)
-
 From sidebar you can try to delete a supplier but, if at least an order exist for it, you need to transfer all its orders to another supplier available for contract. This process is simplified by a modal that shows you all the orders linked to the supplier you're deleting and let you pick another supplier.
-
-![](/uploads/2021/06/15/supplier-move-orders.png)
 
 ## Travels
 
 Send travel requests to your travel office and download your reservation/ticket.
 
 Find this section in Projects > Wallet > Travels.
-
-![](/uploads/2020/12/21/travel_requests_list.png)
 
 ### Create, edit and send travel requests
 
@@ -485,16 +435,13 @@ First, head to Setting > Company > Email Bot and insert the email address(es) as
 ### Create a new travel request:
 
 1. Click button *New Request* and a sidebar will open.
-
-![](/uploads/2020/12/21/travel_requests_list_sidebar.png)
-
-1. Insert project name. The job order will be automatically filled by the system.
-2. Insert the main destination for this travel.
-3. If needed, write the purpose of the travel (i.e. meeting with the client).
-4. Choose one or more categories of travel request between train, flight, car, accommodation and other.
-5. Insert the request details
-6. Click *Save*.
-7. Your request will be added to the list of travel requests.
+2. Insert project name. The job order will be automatically filled by the system.
+3. Insert the main destination for this travel.
+4. If needed, write the purpose of the travel (i.e. meeting with the client).
+5. Choose one or more categories of travel request between train, flight, car, accommodation and other.
+6. Insert the request details
+7. Click *Save*.
+8. Your request will be added to the list of travel requests.
 
 ### Edit a travel request:
 
@@ -506,8 +453,6 @@ First, head to Setting > Company > Email Bot and insert the email address(es) as
 Based on a specific [permission's set](/finance/index/#permissions), some roles are able to edit other requests even when already sent.
 
 ### Create *more than one travel request* for the same travel category:
-
-![](/uploads/2020/12/21/new_flight_category.gif)
 
 1. Open a travel request from the list or, if you are already in the sidebar, open an existing travel category request.
 2. Hover with the mouse on the name of the travel category, on the top of the sidebar.
@@ -548,8 +493,6 @@ If you received a travel booking confirmation email you might be able to downloa
 
 Only circled travel categories (view image below) have reservations or tickets available to download.
 
-![](/uploads/2021/01/07/travel_booked.png)
-
 Click on the travel category icon and choose the files you want to download.
 
 or
@@ -579,11 +522,7 @@ Due to privacy concerns, it is not possible to download booking and reservation 
 
 ## Expenses
 
-*Projects > Wallet > Expenses*
-
 The expense reimbursement process allows employers to pay back employees who have spent their own money for business-related expenses. These types of reimbursable expenses tend to occur when employees travel for work, but can be associated with other activities related to their employment, including, for example, certain purchases of work-related supplies or tools.
-
-![](/uploads/2022/08/30/expenses-list.png)
 
 All expenses are listed with the following information at display:
 
@@ -598,8 +537,6 @@ All expenses are listed with the following information at display:
 Based on [permission roles](/settings/index/#permissions), users can view, edit, delete their own expenses and/or others' expenses.
 
 Users with permission to edit others' expenses can also change the owner of the expense when creating or updating it from the sidebar details.
-
-![](/uploads/2022/08/30/expense-edit-owner.png)
 
 {{< note title="Note" >}}
 **All expenses linked to a project are listed in the widget "Orders" in the [project report](/reports/index/#project-report) with a general "Expense" name, its date and value.**
@@ -624,9 +561,7 @@ Learn how to insert categories of expenses that require a reimbursement process 
 4. Select the check box if route details are needed.
 5. Select the [type of reimbursement](/finance/index/#type-of-reimbursement).
 6. Insert the value of reimbursement (flat-rate, per mile/km, per unit or maximum).
-7. Press *Save*.
-
-![](/uploads/2021/11/29/expense-category.gif)
+7. Press *Save.*
 
 {{< note title="Note" >}}
 **To avoid retroactive changes it is not permitted to edit or delete a category of expense. Archive a category to hide it from the list.**
