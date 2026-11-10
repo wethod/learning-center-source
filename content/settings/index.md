@@ -355,7 +355,7 @@ Use it to add properties tailored to how your team works (e.g. priority, activit
 
 **Create a Custom Field**
 
-Fields created here are global: they'll automatically appear in every Project Plan across your company.
+Fields created here are global: they'll automatically appear in the section you select across your company.
 
 To create a new field fill in:
 
