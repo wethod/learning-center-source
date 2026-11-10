@@ -10,27 +10,17 @@ weight: '20'
 
 The Desk is your private space and your favorite place. Here you can find a set of utilities and widgets all for you.
 
-![](/uploads/2020/04/02/desk.png)
-
 ## Activities
 
-This box collects all the items that were assigned to you in any [boards](/pipeline/index/#boards). You can scroll through them, search by item name and mark them as completed without going to the dedicated page. If this box is empty try to add a column "Member" in a board and set yourself as "Activity's assignee"
-
-![](/uploads/2020/04/02/desk-activities.png)
+This box collects all the items that were assigned to you in any [boards](/pipeline/index/#boards). You can scroll through them, search by item name and mark them as completed without going to the dedicated page. If this box is empty try to add a column "Member" in a board and set yourself as "Activity's assignee".
 
 ## Pinboard
 
 Here are all your favorite pages, they works like browser bookmarks: just visit the a page and click on the 'Add section to Pinboard' icon on the section header. Beware: not all sections can be added to your favorites list.
 
-![](/uploads/Desk/pinboard_desk_wethod.png)
-
-![](/uploads/Desk/pinboard_canvas_desk_wethod.png)
-
 ## Personal Files
 
 Here you can manage your personal files i.e. files that are not directly linked to a project but you want to always keep handy.
-
-![](/uploads/2020/04/02/personal-files.png)
 
 ## Alerts
 
