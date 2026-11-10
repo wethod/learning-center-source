@@ -349,9 +349,7 @@ Here you can:
 
 ### Custom Fields
 
-**Custom Fields** let you personalize the information you want to see across wethod's sections, They are currently active only for Project Plan tasks, but we are working towards opening it to the rest of wethod.
-
-Use it to add properties tailored to how your team works (e.g. priority, activity type, a custom progress status).
+**Custom Fields** let you personalize the information you want to see across wethod's sections. Use it to add properties tailored to how your team works (e.g. priority, activity type, a custom progress status).
 
 **Create a Custom Field**
 
