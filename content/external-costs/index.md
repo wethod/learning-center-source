@@ -36,8 +36,6 @@ Three important indicators are given in the first three rows:
 * **Delta Revenues Target**: similarly to Bluesky, here you can set the percentages of [delta revenue target](http://support.wethod.com/revenues/index/) that needs to be considered as external cost each month.
 * **Total From Pipeline**: external costs without bluesky, per month.
 
-![](/uploads/2021/05/18/new_external_costs.png)
-
 {{< note title="Note" >}}
 **If your company is part of a group, intercompany external costs are automatically removed from this view.**
 {{< /note >}}
