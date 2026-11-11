@@ -41,9 +41,8 @@ Before the trial ends, add a payment method if more than one person in your comp
 
 wethod is billed monthly, per active user: at the end of each billing cycle you pay only for active users. An active user is anyone who logged in to your company in the last month.
 
-• Free plan: if your company has only one active user, wethod is free, with or without a payment method. You don't need to switch plan: the free plan applies automatically whenever the cycle ends with one active user.
-
-• Regular plan: from the second active user, every active user is billed at the monthly price per user shown in this section.
+* Free plan: if your company has only one active user, wethod is free, with or without a payment method. You don't need to switch plan: the free plan applies automatically whenever the cycle ends with one active user.
+* Regular plan: from the second active user, every active user is billed at the monthly price per user shown in this section.
 
 In the Billing section you can always see your current plan, the monthly cost per user and which users accessed the company in the current cycle.
 
@@ -51,15 +50,11 @@ In the Billing section you can always see your current plan, the monthly cost pe
 
 To keep using wethod with more than one active user, you need a valid payment method and complete billing information.
 
-1\. Go to Settings > Billing
-
-2\. Add a credit or debit card
-
-3\. Fill in your billing information: company name, address and country
-
-4\. Add your VAT number
-
-5\. Click the “Save” button
+1. Go to Settings > Billing
+2. Add a credit or debit card
+3. Fill in your billing information: company name, address and country
+4. Add your VAT number
+5. Click the “Save” button
 
 You can update your card, billing information and VAT number at any time from the same section. Changes apply from the next invoice.
 
