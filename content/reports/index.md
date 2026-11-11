@@ -100,6 +100,56 @@ Clicking on the calendar icon you can select a custom period and based on the [t
 * Detailed timesheet: the exact dates chosen in the time range are used to filter results, both for worked and planned hours.
 * Non-detailed timesheet: the entire week of the start and end dates are considered while fetching data. This applies to both worked and planned hours.
 
+## New Insights
+
+In this section, you can create your own personalized charts related to your company’s data such as
+
+**Sales**
+
+* Revenues
+* Gross Margin
+* External Costs
+* Average Daily rate
+
+Operations
+
+* Timesheet Hours
+* Planning Hours
+* More on the way…
+
+To bee able to access this section, you must have the “view” permission for “Charts." and edit to create or edit new ones. You can check this in the [Permissions section](https://support.wethod.com/settings/index/#permissions).
+
+Each chart can have child charts that inherit the filters applied to the parent.
+
+Each chart also has a child table that shows detailed information about the projects included in the parent chart.
+
+### Creating a new chart
+
+To create a new chart, you must have the “edit” permission for “Charts.” You can check this in the Permissions section.
+
+By clicking the “Add chart” button, you will be prompted to enter some information about the chart you want to create:
+
+1. Chart info: chart name and a brief description
+2. Data segment: filters to apply to limit the data to be considered
+3. Type of chart: the type of chart to use for data visualization
+4. Dimensions: values to assign to each chart dimension. For example, if you’ve selected a Bar Chart, you will need to specify which values to display on the chart’s x and y axes.
+
+### Editing a chart
+
+To edit an existing chart, you must have the “edit” permission for “Charts.” You can check this in the Permissions section.
+
+You can then click the “Edit chart” button to modify the selected chart.
+
+### Deleting a chart
+
+To delete a chart, you must have the “edit” permission for “Charts.” You can check this in the Permissions section.
+
+You can click the three dots next to the chart’s name to access the option to delete it.
+
+### Click to filter
+
+You can click on a point in a chart to use it as a filter for child charts and child tables. For example, if you click on a point in the “Revenues” chart that groups all revenues for December related to projects with a 90% probability, the child charts will be filtered to show only the points related to December with a 90% probability.
+
 ## Consumption vs Status
 
 This is an overview of all Projects in terms of resources and time spent on the project, allowing you to analyse their health at a glance.
@@ -197,61 +247,6 @@ Clicking on a column will show a panel listing all the clients (based on the fil
 * Percentage of influence on the [revenue pipeline](/glossary/index/#revenue-pipeline).
 
 Items on the list are ordered by value.
-
-## New Insights
-
-#### Revenues, Gross Margin, Average Daily rate
-
-{{< note title="Note" >}}
-This is the first release of a new, broader section dedicated to reports within wethod. We are updating the documentation as we roll out new features to ensure you have complete support. Please note that this section is evolving, with new features to be added over time to enhance your management and analysis experience.
-{{< /note >}}
-
-To view this section, you must have the “view” permission for “Charts.” You can check this in the Permissions section.
-
-In this section, you can create charts related to your company’s revenues.
-
-Each chart can have child charts that inherit the filters applied to the parent.
-
-Each chart also has a child table that shows detailed information about the projects included in the parent chart.
-
-### Creating a new chart
-
-To create a new chart, you must have the “edit” permission for “Charts.” You can check this in the Permissions section.
-
-By clicking the “Add chart” button, you will be prompted to enter some information about the chart you want to create:
-
-1. Chart info: chart name and a brief description
-2. Data segment: filters to apply to limit the data to be considered
-3. Type of chart: the type of chart to use for data visualization
-4. Dimensions: values to assign to each chart dimension. For example, if you’ve selected a Bar Chart, you will need to specify which values to display on the chart’s x and y axes.
-
-### Editing a chart
-
-To edit an existing chart, you must have the “edit” permission for “Charts.” You can check this in the Permissions section.
-
-You can then click the “Edit chart” button to modify the selected chart.
-
-### Deleting a chart
-
-To delete a chart, you must have the “edit” permission for “Charts.” You can check this in the Permissions section.
-
-You can click the three dots next to the chart’s name to access the option to delete it.
-
-### Click to filter
-
-You can click on a point in a chart to use it as a filter for child charts and child tables. For example, if you click on a point in the “Revenues” chart that groups all revenues for December related to projects with a 90% probability, the child charts will be filtered to show only the points related to December with a 90% probability.
-
-## Gross Margin
-
-We’ve introduced a new dimension, “Gross Margin,” which uses data from the “Total” row in this section of the table: [Economics](/profit-loss/index/#overview).
-
-The data segment filters and dimensions are consistent with those in the “Revenues” section. However, the only numeric dimension here will be “Gross Margin” (instead of “Revenues”). It works the same as [Revenues above](https://support.wethod.com/reports/index/#revenues).
-
-## Average Daily Rate
-
-We’ve introduced a new dimension, “Average Daily Rate,” to understand how much a day costs in your company.
-
-The data segment filters and dimensions are consistent with those in the “Revenues” section. However, the only numeric dimension here will be “Average daily rate” (instead of “Revenues”). It works the same as [Revenues above](https://support.wethod.com/reports/index/#revenues).
 
 ## Production Value
 
