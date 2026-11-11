@@ -23,7 +23,72 @@ You can create a new token by providing a name and optional description (where w
 
 Each token shows the "last used" date, aren't you the one using it? Delete it immediately to prevent unauthorized use.
 
-![](/uploads/api-token-panel-pupulated.png)
+## Billing
+
+Here you manage your wethod subscription: check your plan and its monthly cost, add a payment method and fill in your company's billing information.
+
+Payments are processed securely by Stripe: wethod never stores your card details.
+
+Only the company owner can manage the subscription and billing information.
+
+#### Free trial
+
+Every new company starts with a 14-day free trial, with all features available and no card required.
+
+Before the trial ends, add a payment method if more than one person in your company is using wethod: otherwise the company will be locked when the trial expires (see End of trial and monthly renewal).
+
+#### How pricing works
+
+wethod is billed monthly, per active user: at the end of each billing cycle you pay only for active users. An active user is anyone who logged in to your company in the last month.
+
+• Free plan: if your company has only one active user, wethod is free, with or without a payment method. You don't need to switch plan: the free plan applies automatically whenever the cycle ends with one active user.
+
+• Regular plan: from the second active user, every active user is billed at the monthly price per user shown in this section.
+
+In the Billing section you can always see your current plan, the monthly cost per user and which users accessed the company in the current cycle.
+
+#### Payment method and billing information
+
+To keep using wethod with more than one active user, you need a valid payment method and complete billing information.
+
+1\. Go to Settings > Billing
+
+2\. Add a credit or debit card
+
+3\. Fill in your billing information: company name, address and country
+
+4\. Add your VAT number
+
+5\. Click the “Save” button
+
+You can update your card, billing information and VAT number at any time from the same section. Changes apply from the next invoice.
+
+⚠️ The country you select determines the VAT applied and the currency of your invoices: make sure it matches your company's registered office.
+
+#### End of trial and monthly renewal
+
+At the end of the free trial and at the end of every billing cycle, wethod checks two things: whether a payment method is saved and how many users were active. The result is the same in both moments:
+
+|                      | 1 active user              | More than 1 active user                               |
+| -------------------- | -------------------------- | ----------------------------------------------------- |
+| Payment method saved | Company stays active, free | You're charged for active users, company stays active |
+| No payment method    | Company stays active, free | Company is locke                                      |
+
+If a payment fails, the company is locked: keep your card up to date to avoid interruptions.
+
+#### Locked company and reactivation
+
+When a company is locked, team members can no longer access wethod. Your data is not deleted: everything is still there once the company is reactivated.
+
+To reactivate it, the owner has to:
+
+1\. Go to Settings > Billing
+
+2\. Add a valid payment method
+
+3\. Pay the outstanding amount
+
+The unpaid invoice is replaced by a new one with the same amount plus VAT, which is charged right away. As soon as the payment succeeds, the company is active again: no new subscription is created and your billing cycle continues as before.
 
 ## Team
 
