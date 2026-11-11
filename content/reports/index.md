@@ -198,7 +198,9 @@ Clicking on a column will show a panel listing all the clients (based on the fil
 
 Items on the list are ordered by value.
 
-## Revenues
+## New Insights
+
+#### Revenues, Gross Margin, Average Daily rate
 
 {{< note title="Note" >}}
 This is the first release of a new, broader section dedicated to reports within wethod. We are updating the documentation as we roll out new features to ensure you have complete support. Please note that this section is evolving, with new features to be added over time to enhance your management and analysis experience.
@@ -207,11 +209,6 @@ This is the first release of a new, broader section dedicated to reports within 
 To view this section, you must have the “view” permission for “Charts.” You can check this in the Permissions section.
 
 In this section, you can create charts related to your company’s revenues.
-
-The first time you access this section, you will find:
-
-* The “Revenues” chart, showing the current year's revenues, divided by month and grouped by probability cluster. This chart cannot be edited or deleted.
-* The “Revenues by Client” chart, which is a child of the “Revenues” chart, showing the top 10 most profitable clients. This chart cannot be edited or deleted.
 
 Each chart can have child charts that inherit the filters applied to the parent.
 
