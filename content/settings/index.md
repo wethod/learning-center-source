@@ -77,11 +77,9 @@ When a company is locked, team members can no longer access wethod. Your data is
 
 To reactivate it, the owner has to:
 
-1\. Go to Settings > Billing
-
-2\. Add a valid payment method
-
-3\. Pay the outstanding amount
+1. Go to Settings > Billing
+2. Add a valid payment method
+3. Pay the outstanding amount
 
 The unpaid invoice is replaced by a new one with the same amount plus VAT, which is charged right away. As soon as the payment succeeds, the company is active again: no new subscription is created and your billing cycle continues as before.
 
